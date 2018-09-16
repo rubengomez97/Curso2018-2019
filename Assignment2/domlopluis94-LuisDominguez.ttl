@@ -9,10 +9,10 @@ ex:sensor029
 
 ex:Measurament8401  
  ex:hasTemperature "29"^^xsd:number ;
- ex:atTime "2010-06-12T12:00:12"^^xsd:date .
+ ex:atTime "2010-06-12T12:00:12"^^xsd:date.
 
 ex:Computer101
   ex:hasOwner ex:User10A.
 
 ex:User10A
- ex:hasName ex:Pedro.
+ ex:hasName "Pedro"^^xsd:name.
