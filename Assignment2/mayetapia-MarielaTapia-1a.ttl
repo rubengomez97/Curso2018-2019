@@ -1,0 +1,11 @@
+@sn
+sn:event4	sn:involves		sn:OscarCorcho;
+			sn:eventDate	sn:"2006-05-16"^^xsd:date.
+sn:event3	sn:eventDate	sn:"2006-05-15^^xsd:date;
+			sn:involves		sn:PinarAlper;
+			sn:involves		sn:CaroleGoble.
+sn:event5	sn:involves		sn:CaroleGoble;
+			sn:eventDate	sn:"2006-05-15^^xsd:date.
+				
+
+	
