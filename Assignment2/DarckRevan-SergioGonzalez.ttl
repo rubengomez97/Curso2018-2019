@@ -1,0 +1,12 @@
+@prefix ej: <http://example.com/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ej:Class01 ej:includes ej:Sensor029;
+	   ej:includes ej:Computer101.
+
+ej:Computer101 ej:hasOwner ej:User10A.
+ej:User10A ej:hasName ej:Pedro.
+
+ej:Sensor029 ej:hasMeasurement ej:Measurement8401.
+ej:Measurement ej:hasTemperature "29"^^xsd:integer;
+	       ej:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
