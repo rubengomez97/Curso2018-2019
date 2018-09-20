@@ -1,0 +1,12 @@
+@prefix rdfs: <http://www.ontogrid.net/StickyNote#> .
+@prefix xsd: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://www.ontogrid.net/StickyNote#Class01> rdfs:includes rdfs:Sensor029, rdfs:Computer101 .
+rdfs:Sensor029 rdfs:hasMeasurement rdfs:Measurement8401 .
+rdfs:Computer101 rdfs:hasOwner rdfs:User10A .
+
+rdfs:Measurement8401
+rdfs:hasTemperature 29;
+rdfs:atTime "2010-06-12T12:00:12"^^xsd:datetime .
+
+rdfs:User10A rdfs:hasName "Pedro"^^xsd:string .
