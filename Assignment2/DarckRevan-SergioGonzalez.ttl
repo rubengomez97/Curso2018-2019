@@ -5,7 +5,7 @@ ej:Class01 ej:includes ej:Sensor029;
 	   ej:includes ej:Computer101.
 
 ej:Computer101 ej:hasOwner ej:User10A.
-ej:User10A ej:hasName ej:Pedro.
+ej:User10A ej:hasName "Pedro"^^xsd:string.
 
 ej:Sensor029 ej:hasMeasurement ej:Measurement8401.
 ej:Measurement ej:hasTemperature "29"^^xsd:integer;

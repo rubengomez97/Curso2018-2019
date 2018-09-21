@@ -13,7 +13,7 @@
       <rdf:Description rdf:about="http://example.com/Computer101">
         <ns0:hasOwner>
           <rdf:Description rdf:about="http://example.com/User10A">
-            <ns0:hasName rdf:resource="http://example.com/Pedro"/>
+            <ns0:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pedro</ns0:hasName>
           </rdf:Description>
         </ns0:hasOwner>
 
