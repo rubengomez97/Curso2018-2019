@@ -1,4 +1,4 @@
-@prefix ex: <http://example.com/resource/s> .
+@prefix ex: <http://example.com/resource/#> .
 
 ex:Class01
 	ex:includes 
