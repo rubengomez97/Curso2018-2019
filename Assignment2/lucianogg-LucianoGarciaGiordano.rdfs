@@ -1,0 +1,46 @@
+@base <http://example.com/resources/>
+
+:PlaceOfInterest a rdfs:Class.
+:Location a rdfs:Class.
+:TouristPlace a rdfs:Class.
+:Establishment a rdfs:Class.
+:Palace a rdfs:Class.
+:Church a rdfs:Class.
+:Chapel a rdfs:Class.
+:Cathedral a rdfs:Class.
+:Hotel a rdfs:Class.
+:Hostal a rdfs:Class.
+:City a rdfs:Class.
+:Town a rdfs:Class.
+:CentricCity a rdfs:Class.
+:PostalAddress a rdfs:Class.
+:Province a rdfs:Class.
+
+:PlaceOfInterest rdfs:subClassOf :Location.
+:TouristPlace rdfs:subClassOf :PlaceOfInterest.
+:Establishment rdfs:subClassOf :PlaceOfInterest.
+:Palace rdfs:subClassOf :TouristPlace.
+:Church rdfs:subClassOf :TouristPlace.
+:Chapel rdfs:subClassOf :TouristPlace.
+:Cathedral rdfs:subClassOf :TouristPlace.
+:Hotel rdfs:subClassOf :Establishment.
+:Hostal rdfs:subClassOf :Establishment.
+:isLocated a rdf:Property;
+        rdfs:range :City;
+        rdfs:range :Town;
+        rdfs:range :CentricCity.
+:hasPostalAddress a rdf:Property;
+        rdfs:domain :PlaceOfInterest;
+        rdfs:range :PostalAddress.
+:hasStreet a rdf:Property;
+    rdfs:domain :PostalAddress;
+    rdfs:range rdfs:Literal.
+:hasNumber a rdf:Property;
+    rdfs:domain :PostalAddress;
+    rdfs:range rdfs:Literal.
+:hasNumberOfInhabitants a rdf:Property;
+    rdfs:domain :Location;
+    rdfs:range rdfs:Literal.
+:hasProvince a rdf:Property;
+    rdfs:domain :Location;
+    rdfs:range :Province.
