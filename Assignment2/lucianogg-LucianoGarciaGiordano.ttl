@@ -1,0 +1,17 @@
+@base <http://example.com/resources/>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:Covarrubias a :Town;
+    :hasNumberOfInhabitants "634"^^xsd:integer;
+    :hasProvince :Burgos.
+:Burgos a :Province.
+:ElGaloRestaurantPostalAddress a :PostalAddress;
+    :hasStreet "Calle Mayor";
+    :hasNumber "5".
+:ElGaloRestaurant :isLocated :Covarrubias;
+    :hasPostalAddress :ElGaloRestaurantPostalAddress.
+:ChurchWhateverPostalAddress a :PostalAddress;
+    :hasStreet "Calle San Tomás".
+:ChurchWhatever a :Church;
+    :hasPostalAddress :ChurchWhateverPostalAddress.
+    :isLocated :Covarrubias.
