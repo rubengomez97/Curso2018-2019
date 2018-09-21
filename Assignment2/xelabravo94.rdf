@@ -7,7 +7,7 @@
       <rdf:Description rdf:about="http://www.ontogrid.net/StickyNote#Computer101">
         <ns0:hasOwner>
           <rdf:Description rdf:about="http://www.ontogrid.net/StickyNote#User10A">
-            <ns0:hasName rdf:datatype=http://www.w3.org/2001/XMLSchema#string">Pedro<ns0:hasName/>
+            <ns0:hasName rdf:datatype=http://www.w3.org/2001/XMLSchema#string">Pedro</ns0:hasName>
           </rdf:Description>
         </ns0:hasOwner>
 
@@ -18,7 +18,7 @@
       <rdf:Description rdf:about="http://www.ontogrid.net/StickyNote#Sensor029">
         <ns0:hasMeasurement>
           <rdf:Description rdf:about="http://www.ontogrid.net/StickyNote#Measurement8401">
-            <ns0:hasTemperature rdf:datatype=http://www.w3.org/2001/XMLSchema#integer">29<ns0:hasTemperature/>
+            <ns0:hasTemperature rdf:datatype=http://www.w3.org/2001/XMLSchema#integer">29</ns0:hasTemperature>
             <ns0:atTime rdf:datatype=http://www.w3.org/2001/XMLSchema#dateTime">2010-06-12T12:00:12</ns0:atTime>
           </rdf:Description>
         </ns0:hasMeasurement>
