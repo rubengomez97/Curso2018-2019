@@ -12,7 +12,7 @@
   </rdf:Description>
 
   <rdf:Description rdf:about="#Measurement8401">
-    <hasTemperature rdf:datatype="integer">29</hasTemperature>
+   <hasTemperature rdf:datatype="xsd:int">29</hasTemperature>
     <atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-12T12:00:12</atTime>
   </rdf:Description>
 
@@ -21,7 +21,7 @@
   </rdf:Description>
 
   <rdf:Description rdf:about="#User10A">
-    <hasName rdf:type="string">Pedro</hasName>
+    <hasName rdf:type="xsd:string">Pedro</hasName>
   </rdf:Description>
 
 </rdf:RDF>

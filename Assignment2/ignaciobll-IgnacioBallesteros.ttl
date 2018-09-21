@@ -6,8 +6,8 @@
     hasMeasurement8401 :Measurement8401 .
 
 :Measurement8401
-    hasTemperature 29 ;
-    atTime "2010-06-12T12:00:12" .
+    hasTemperature 29^^xsd:int ;
+    atTime "2010-06-12T12:00:12"^^xsd:date .
 
 :Computer01
     hasOwner :User10A .
