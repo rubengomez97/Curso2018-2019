@@ -5,9 +5,9 @@
 <rdf:Description rdf:about='http://www.oeg-upm.net/sensor029'>
 <ns0:hasMeasurement>
 <rdf:Description rdf:about='http://www.oeg-upm.net/Measurament8401'>
-<ns0:atTime rdf:datatype='http://www.w3.org/2001/XMLSchema#date'>2010-06-12T12:00:12</ns0:atTime>
+<ns0:atTime rdf:datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2010-06-12T12:00:12</ns0:atTime>
 
-<ns0:hasTemperature rdf:datatype='http://www.w3.org/2001/XMLSchema#number'>29</ns0:hasTemperature>
+<ns0:hasTemperature rdf:datatype='http://www.w3.org/2001/XMLSchema#int'>29</ns0:hasTemperature>
 
 </rdf:Description>
 
