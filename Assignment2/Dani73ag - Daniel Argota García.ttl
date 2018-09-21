@@ -1,0 +1,15 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix vocab: <http://www.example.com/thing> .
+
+:Class01 		vocab:includes vocab:Sensor029 ; 
+				vocab:includes vocab:Computer101 .
+
+:Sensor029  vocab:hasMeasurement :Measurement8401 .
+
+:Measurement8401	vocab:hasTemperature "29"^^rdf:integer ;
+					vocab:atTime "2010-06-12T12:00:12"^^rdf:Date .
+
+:Computer101  vocab:hasOwner vocab:User10A .
+
+:User10A vocab:hasName "Pedro" .

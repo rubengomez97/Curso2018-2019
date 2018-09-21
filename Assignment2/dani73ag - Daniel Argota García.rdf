@@ -1,0 +1,36 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <rdf:RDF 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xml:base="http://example.com/thing" 
+    xml:thing="http://examen.com/thing#">
+
+    <rdf:Property rdf:about="http://www.example.com/thing#includes"/>
+    <rdf:Property rdf:about="http://www.example.com/thing#hasMeasurement"/>
+    <rdf:Property rdf:about="http://www.example.com/thing#hasTemp"/>
+    <rdf:Property rdf:about="http://www.example.com/thing#atTime"/>
+    <rdf:Property rdf:about="http://www.example.com/thing#hasOwner"/>
+    <rdf:Property rdf:about="http://www.example.com/thing#hasName"/>
+    
+    <rdf:Description rdf:about= "#Class01">
+		<thing:includes rdf:resource= "#Sensor029"/>
+		<thing:includes rdf:resource= "#Computer101"/>
+    </rdf:Description>
+	
+	<rdf:Description rdf:about= "#Sensor029">
+		<thing:hasMeasurement rdf:resource= "#Measurement8401"/>
+    </rdf:Description>
+
+    	<rdf:Description rdf:about= "#Measurement8401">
+		<thing:hasTemp> 29 </thing:hasTemp>
+		<thing:atTime> 2010-06-12T12:00:12 </thing:atTime>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about= "#Computer101">
+		<thing:hasOwner rdf:resource= "#User10A"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about= "#User10A">
+		<thing:hasName> Pedro </hasName>
+	</rdf:Description>
+	
+</rdf:RDF>
