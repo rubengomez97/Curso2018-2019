@@ -1,0 +1,12 @@
+@base <http://www.oeg.upm.net/ontologies/class/>
+@prefix vocab: <http://www.oeg.upm.net/ontologies/class#>
+@prefix vocab2: <http://www.oeg.upm.net/ontologies/class/sensor#>
+@prefix vocab3: <http://www.oeg.upm.net/ontologies/class/computer#>
+@prefix vocab4: <http://www.oeg.upm.net/ontologies/class/sensor/measurement#>
+@prefix vocab5: <http://www.oeg.upm.net/ontologies/class/computer/user#>
+:Class01 vocab:includes :Sensor029;
+ vocab:includes :Computer101.
+:Sensor029 vocab2:hasMeasurement :Measurement8401.
+:Computer101 vocab3:hasOwner :User10A.
+:Measurement8401 vocab4:hasTemperature "29".
+:User10A vocab5:hasName "Pedro".
