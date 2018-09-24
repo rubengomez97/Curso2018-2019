@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:ex="http://www.ontogrid.net/StickyNote#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:nnss="http://www.example.com/Resources/#">
+
+	<rdf:Description rdf:about="http://example.com/Class01">
+		<nnss:includes>
+			<rdf:Description rdf:about="http://example.com/Sensor029">
+				<nnss:hasMeasurement rdf:resource="http://example.com/Measurement8401">
+					<rdf:Description rdf:about="http://example.com/Sensor029">
+						<nnss:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</nnss:hasTemperature>
+						<nnss:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-06-12T12:00:12</nnss:atTime>
+					</rdf:Description>
+				</nnss:hasMeasurement>
+			</rdf:Description>
+			<rdf:Description rdf:about="http://example.com/Computer101">
+				<nnss:hasOwner rdf:resource="http://example.com/User10A">
+					<rdf:Description rdf:about="http://example.com/User10A">
+						<nnss:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pedro</nnss:hasName>
+					</rdf:Description>
+				</nnss:hasOwner>
+			</rdf:Description>
+		</nnss:includes>
+	</rdf:Description>
+</rdf:RDF>
