@@ -1,4 +1,4 @@
-@sn
+@prefix  sn: <http://example.com/resources#> .
 sn:event4	sn:involves		sn:OscarCorcho;
 			sn:eventDate	sn:"2006-05-16"^^xsd:date.
 sn:event3	sn:eventDate	sn:"2006-05-15^^xsd:date;
