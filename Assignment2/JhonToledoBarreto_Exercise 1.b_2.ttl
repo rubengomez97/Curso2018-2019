@@ -1,0 +1,13 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.com/resources#Class01> <http://example.com/resources#includes> <http://example.com/resources#Computer101>,
+     <http://example.com/resources#Sensor029> .
+
+<http://example.com/resources#Computer101> <http://example.com/resources#hasOwner> <http://example.com/resources#User10A> .
+
+<http://example.com/resources#Measurement8401> <http://example.com/resources#atTime> "2010-06-12T12:00:12"^^xsd:dateTime;
+   <http://example.com/resources#hasTemperature> "29"^^xsd:int .
+
+<http://example.com/resources#Sensor029> <http://example.com/resources#hasMeasurement> <http://example.com/resources#Measurement8401> .
+
+<http://example.com/resources#User10A> <http://example.com/resources#hasName> "Pedro"^^xsd:String .

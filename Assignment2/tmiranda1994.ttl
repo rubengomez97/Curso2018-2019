@@ -1,0 +1,13 @@
+prefix nnss:<http://www.example.com/Resources/#>
+
+nnss:Class01 nnss:includes nnss:Sensor029 ,
+                           nnss:Computer101 .
+
+nnss:Sensor029 nnss:hasMeasurement nnss:Measurement8401
+
+nnss:Measurement8401 nnss:hasTemperature "29"^^xsd.decimal .
+nnss:Measurement8401 nnss:atTime "2010-06-12T12.00:12"^^xsd.dateTime .
+
+nnss:Computer101 nnss:hasOwner nnss:User10A.
+
+nnss:User10A nnss:hasName "Pedro"^^xsd:string .
