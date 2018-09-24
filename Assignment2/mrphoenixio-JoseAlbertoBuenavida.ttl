@@ -1,0 +1,19 @@
+@base  <http://www.ontologies.org/ontologies/class01/>
+@prefix class: <http://www.ontologies.org/ontologies/class01#>
+@prefix sensor: <http://www.ontologies.org/ontologies/class01/sensor029#">
+@prefix computer: <http://www.ontologies.org/ontologies/class01/computer101#>
+@prefix measurement: <http://www.ontologies.org/ontologies/class01/sensor029/measurement8401#>
+@prefix user: <http://www.ontologies.org/ontologies/class01/sensor029/user10A#>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+
+:class01 class:includes :sensor029 ;
+		 class:includes :computer101 .
+
+:sensor029 sensor:hasMeasurement :measurement8401 .
+
+:measurement8401 measurement:hasTemperature : "29"^^xsd:int ;
+				 measurement:atTime : "2010-06-12T 12:00:12"^^xsd:dateTime .
+				 
+:computer101 computer:hasOwner :user10A .
+
+:user10A user:hasName: "Pedro"^^xsd:string .
