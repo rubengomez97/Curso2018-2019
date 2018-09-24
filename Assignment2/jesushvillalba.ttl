@@ -1,14 +1,14 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix sn: <http://www.ontogrid.net/StickyNote#>
+@prefix sn: <http://www.ontogrid.net/StickyNote#> .
 
-:Class01 sn:includes :Sensor029;
-		 sn:includes :Computer101;
+sn:Class01 sn:includes sn:Sensor029;
+		 sn:includes sn:Computer101 .
 
-:Sensor029 sn:hasMeasurement :Measurement8401;
+sn:Sensor029 sn:hasMeasurement sn:Measurement8401 .
 
-:Computer101 sn:hasOwner :User10A;
+sn:Computer101 sn:hasOwner sn:User10A .
 
-:Measurement8401 sn:hasTemperature "29"^^xsd:integer;
-				 sn:atTime "2010-06-12T12:00:12"^^xds:dateTime;
+sn:Measurement8401 sn:hasTemperature "29"^^xsd:integer;
+				 sn:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
 
-:User10A sn:hasName "Pedro";
+sn:User10A sn:hasName "Pedro" .
