@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:base="http://www.oeg-upm.net/" xmlns:pre="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="http://www.ldf.fi/service/rdf-serializer/">
+  <rdf:Description rdf:about="http://www.oeg-upm.net/Class01">
+    <pre:includes rdf:resource="http://www.w3.org/2001/XMLSchema#Sensor029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.oeg-upm.net/Class01">
+    <pre:includes rdf:resource="http://www.w3.org/2001/XMLSchema#Computer101"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.oeg-upm.net/Sensor029">
+    <pre:hasMeasurement rdf:resource="http://www.w3.org/2001/XMLSchema#Measurement8401"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.oeg-upm.net/Measurement8401">
+    <pre:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29</pre:hasTemperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.oeg-upm.net/Measurement8401">
+    <pre:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-06-12T 12:00:12</pre:atTime>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.oeg-upm.net/Computer101">
+    <pre:hasOwner rdf:resource="http://www.w3.org/2001/XMLSchema#User10A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.oeg-upm.net/User10A">
+    <pre:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pedro</pre:hasName>
+  </rdf:Description>
+</rdf:RDF>
