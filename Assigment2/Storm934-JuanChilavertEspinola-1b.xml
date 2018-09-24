@@ -14,7 +14,7 @@
         <hasOwner rdf:resource="User10A"/>
     </rdf:Description>
     <rdf:Description rdf:about="#Measurement18401">
-         <hasTemperature rdf:resource="#29"/>
+         <hasTemperature float="#29"/>
          <atTime rdf:datatype="xsd:datetime">2010-06-12T12:00:12 </atTime>
     </rdf:Description>
     <rdf:Description rdf:about="#User10A">
