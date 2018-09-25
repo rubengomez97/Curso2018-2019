@@ -65,7 +65,6 @@ public class Task06
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
 		Individual upm = university.createIndividual(ns+"UPM");
-		upm.addLiteral(VCARD.ORG, "UPM");
 		Individual john = model.getIndividual(ns+"JohnSmith");
 		john.addProperty(worksIn, upm);
 		
