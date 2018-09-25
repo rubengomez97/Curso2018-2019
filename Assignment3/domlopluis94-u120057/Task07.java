@@ -68,28 +68,16 @@ public class Task07
 		System.out.println("");
 		OntModel infmodel = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF, model);
 		OntClass infperson = infmodel.getOntClass(ns + "Person");
-		ExtendedIterator instances1 = infperson.listSubClasses();
-		
+		ExtendedIterator instances1 = infperson.listSubClasses();	
 		while (instances1.hasNext()) {
 			OntClass next = (OntClass) instances1.next();
 			System.out.println("(indirect) Subclasses of Person: " + next.getURI());
-		}
-		ExtendedIterator subclasses1 = person.listSubClasses();
-		while (subclasses1.hasNext())
-		{
-			OntClass sub = (OntClass) subclasses1.next();
-			System.out.println("Subclass of Person: "+sub.getURI());
 		}
 		
 		instances1 = infperson.listInstances();
 		while (instances1.hasNext()) {
 			Individual next = (Individual) instances1.next();
 			System.out.println("(indirect) Individuals of Person: "+next.getURI());
-		}
-		ExtendedIterator instances11 = person.listInstances();
-		while(instances11.hasNext()) {		
-			Individual instancias = (Individual) instances11.next();
-			System.out.println("Individuals of Person: "+instancias.getURI());
 		}
 	
 	}
