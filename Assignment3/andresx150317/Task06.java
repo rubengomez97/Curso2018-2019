@@ -49,7 +49,7 @@ public class Task06
 		OntClass university = model.createClass(ns +"University");
 		
 		// ** TASK 6.2: Add "Researcher" as a subclass of "Person" **
-		OntClass person = model.createClass(ns + "Person");
+		OntClass person = model.getOntClass(ns + "Person");
 		person.addSubClass(researcher);
 		
 		// ** TASK 6.3: Create a new property named "worksIn" **
@@ -65,7 +65,7 @@ public class Task06
 
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
-		Individual jonhsmith = researcher.createIndividual(ns + "JonhSmith");
+		Individual jonhsmith = model.getIndividual(ns + "JonhSmith");
 		Individual upm = university.createIndividual(ns + "UPM");
 		jonhsmith.addProperty(worksIn, upm);
 		
