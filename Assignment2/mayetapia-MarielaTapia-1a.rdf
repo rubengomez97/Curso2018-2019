@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ns0="http://example.com/resources#">
+
+  <rdf:Description rdf:about="http://example.com/resources#event4">
+    <ns0:involves rdf:resource="http://example.com/resources#OscarCorcho"/>
+    <ns0:eventDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-05-16</ns0:eventDate>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/resources#event3">
+    <ns0:eventDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-05-15</ns0:eventDate>
+    <ns0:involves rdf:resource="http://example.com/resources#PinarAlper"/>
+    <ns0:involves rdf:resource="http://example.com/resources#CaroleGoble"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.com/resources#event5">
+    <ns0:involves rdf:resource="http://example.com/resources#CaroleGoble"/>
+    <ns0:eventDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-05-15</ns0:eventDate>
+  </rdf:Description>
+
+</rdf:RDF>
