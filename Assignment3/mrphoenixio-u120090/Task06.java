@@ -77,8 +77,7 @@ public class Task06
 		OntClass university = model.createClass(ns+"University");
 		
 		// ** TASK 6.2: Add "Researcher" as a subclass of "Person" **
-		OntClass person = model.createClass(ns+"Person");
-		person.addSubClass(researcher);
+		model.getOntClass(ns+"Person").addSubClass(researcher);
 		
 		// ** TASK 6.3: Create a new property named "worksIn" **
 		Property worksIn = model.createProperty(ns+"worksIn");
@@ -92,7 +91,7 @@ public class Task06
 		janeSmith.addLiteral(VCARD.Family, "Smith");
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
-		Individual johnSmith = researcher.createIndividual(ns+"John Smith");
+		Individual johnSmith = model.getIndividual(ns+"John Smith");
 		Individual uni_upm = university.createIndividual(ns+"UPM");
 		johnSmith.addProperty(worksIn, uni_upm);
 		
