@@ -91,7 +91,7 @@ public class Task06
 		janeSmith.addLiteral(VCARD.Family, "Smith");
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
-		Individual johnSmith = model.getIndividual(ns+"John Smith");
+		Individual johnSmith = model.getIndividual(ns+"JohnSmith");
 		Individual uni_upm = university.createIndividual(ns+"UPM");
 		johnSmith.addProperty(worksIn, uni_upm);
 		
