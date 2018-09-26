@@ -1,0 +1,11 @@
+@prefix ns0: <http://www.ontogrid.net/StickyNote#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://njh.me/#Class01> ns0:includes <http://njh.me/#Sensor029>, <http://njh.me/#Computer101> .
+<http://njh.me/#Sensor29> ns0:hasMeasurement <http://njh.me/Measurement18401> .
+<http://njh.me/#Computer101> ns0:hasOwner <http://njh.me/User10A> .
+<http://njh.me/#Measurement18401>
+  ns0:hasTemperature "29"^^xsd:float ;
+  ns0:atTime "2010-06-12T12:00:12"^^xsd:datetime .
+
+<http://njh.me/#User10A> ns0:hasName "Pedro"^^xsd:string .
