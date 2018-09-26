@@ -54,8 +54,7 @@ public class Task06
 		
 		
 		// ** TASK 6.2: Add "Researcher" as a subclass of "Person" **
-		researcher.addSuperClass(FOAF.Person);
-		
+		researcher.addSuperClass(model.getOntClass(ns+"Person"));
 		
 		// ** TASK 6.3: Create a new property named "worksIn" **
 		Property worksIn = model.createProperty(ns+"worksIn");
@@ -70,9 +69,10 @@ public class Task06
 		janeSmith.addProperty(VCARD.Family, "Smith");
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
-		Resource upm = model.createResource(ns+"UPM");
+		Resource upm = model.getResource(ns+"UPM");
 		upm.addProperty(RDF.type, university);
-		janeSmith.addProperty(worksIn,upm);
+		Resource johnsmith = model.getResource(ns+"JohnSmith");
+		johnsmith.addProperty(worksIn,upm);
 
 		model.write(System.out, "RDF/XML-ABBREV");
 		//model.write(System.out, "TTL");

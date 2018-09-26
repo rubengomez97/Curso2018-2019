@@ -85,8 +85,9 @@ public class Task07
 			while (instancesOfPerson.hasNext()) {
 				Statement instanceOfPerson = (Statement) instancesOfPerson.next();
 				Resource personItself = instanceOfPerson.getSubject();
+				Resource classOfPerson = instanceOfPerson.getResource();
 
-				System.out.println(personItself.getURI());
+				System.out.println(personItself.getURI() + " " + classOfPerson.getURI());
 			}
 		}
 	}
