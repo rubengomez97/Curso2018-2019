@@ -25,7 +25,7 @@ public class Task07
 		String filename = "resources/example6.rdf";
 		
 		// Create an empty model
-		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM);
+		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM); //Sin inferencia
 		
 		// Use the FileManager to find the input file
 		InputStream in = FileManager.get().open(filename);
@@ -42,29 +42,28 @@ public class Task07
 		ExtendedIterator instances = person.listInstances();
         while (instances.hasNext()) { 
             Individual inst = (Individual) instances.next(); 
-            System.out.println(inst.getURI()); 
+            System.out.println("Individual " + inst.getURI()); 
         } 
-		
+        System.out.println(""); 
 		// ** TASK 7.2: List all subclasses of "Person" **
 		ExtendedIterator subclasses = person.listSubClasses();
         while (subclasses.hasNext()) { 
             OntClass subclass = (OntClass) subclasses.next(); 
-            System.out.println(subclass.getURI()); 
+            System.out.println("Subclass " + subclass.getURI()); 
         } 
-		
+        System.out.println(""); 
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
-        ExtendedIterator<OntClass> subclass = person.listSubClasses(); 
-        ExtendedIterator<Individual> instance; 
- 
-        //Imprimiremos las subclases y las instancias de cada subclase 
-        while (subclass.hasNext()) { 
-            OntClass classes = (OntClass) subclass.next(); 
-            instance = (ExtendedIterator<Individual>) classes.listInstances(); 
-            System.out.println("Instances: " + classes.getURI()); 
-            while (instance.hasNext()) { 
-            	System.out.println("Instances: " + instance.next().getURI()); 
-	
-            }
-        }
+		OntModel mod = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF, model); //Es igual que los otros pero con inferencia
+		OntClass pers = mod.getOntClass(ns + "Person");
+		ExtendedIterator inst = pers.listSubClasses();	
+		while (inst.hasNext()) {
+			OntClass sig = (OntClass) inst.next();
+			System.out.println("Subclass " + sig.getURI());
+		}
+		inst = pers.listInstances();
+		while (inst.hasNext()) {
+			Individual sig = (Individual) inst.next();
+			System.out.println("Individual "+sig.getURI());
+		}
 	}
 }
