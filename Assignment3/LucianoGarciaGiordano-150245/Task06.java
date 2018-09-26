@@ -69,7 +69,11 @@ public class Task06
 		janeSmith.addProperty(VCARD.Family, "Smith");
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
-		Resource upm = model.getResource(ns+"UPM");
+
+		// En la documentación se dice que tienen el mismo efecto, aunque
+		// createIndividual tiene más sentido para el caso
+		Individual upm = university.createIndividual(ns+"UPM");
+
 		upm.addProperty(RDF.type, university);
 		Resource johnsmith = model.getResource(ns+"JohnSmith");
 		johnsmith.addProperty(worksIn,upm);
