@@ -1,4 +1,4 @@
-package ontologyapi;
+package upm.oeg.wsld.jena;
 
 import java.io.InputStream;
 
