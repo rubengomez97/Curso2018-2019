@@ -67,6 +67,7 @@ public class Task06
 		janeSmith.addLiteral(VCARD.Family, "Smith");
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
+		Individual upm = model.createIndividual(ns + "UPM", university);
 		OntResource johnSmith = model.getOntResource(ns + "JohnSmith");
 		johnSmith.addProperty(worksIn, ns + "UPM");
 		

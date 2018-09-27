@@ -24,7 +24,7 @@ import org.apache.jena.vocabulary.VCARD;
  * @author isantana
  *
  */
-public class Task17
+public class Task07
 {
 	public static String ns = "http://somewhere#";
 	
