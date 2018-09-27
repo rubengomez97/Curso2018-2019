@@ -1,5 +1,3 @@
-package upm.oeg.wsld.jena;
-
 import java.io.InputStream;
 
 import org.apache.jena.ontology.Individual;
