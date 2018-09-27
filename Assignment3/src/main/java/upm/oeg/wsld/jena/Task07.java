@@ -41,22 +41,18 @@ public class Task07
 		OntClass person = model.getOntClass(ns+"Person");
 		ExtendedIterator instances = person.listInstances();
 		
-		System.out.println("People who belong to the class Person: " );
-		
 		while(instances.hasNext()) {
 			Individual name = (Individual) instances.next();
-			System.out.println("--->"+ name.getURI());
+			System.out.println("Persona: "+ name.getURI());
 		}
 		System.out.println("\n");
 		
 		// ** TASK 7.2: List all subclasses of "Person" **
 		ExtendedIterator subclasses = person.listSubClasses();
-		
-		System.out.println("Subclasses who belong to the class Person: " );
-		
+	
 		while(instances.hasNext()) {
 			Individual name = (Individual) instances.next();
-			System.out.println("--->"+ name.getURI());
+			System.out.println("Subclase: "+ name.getURI());
 		}
 		System.out.println("\n");
 		
@@ -65,18 +61,16 @@ public class Task07
 		OntClass person2 = model2.getOntClass(ns+"Person");
 		ExtendedIterator instances2 = person2.listInstances();
 		ExtendedIterator subclasses2 = person2.listSubClasses();
-		
-		System.out.println("People who belong to the indirect class Person: " );
-		
+	
 		while(instances2.hasNext()) {
 			Individual name2 = (Individual) instances2.next();
-			System.out.println("--> " + name2.getURI());
+			System.out.println("Indirectas: " + name2.getURI());
 		}
-		System.out.println("Indirect subclasses who belong to the class Person: " );
+
 		while(subclasses2.hasNext()) {
 			OntClass sub2 = (OntClass) subclasses2.next();
 
-			System.out.println(sub2.getURI());
+			System.out.println("Indirectas de personas: "+ sub2.getURI());
 		}
 		System.out.println("\n");
 	}
