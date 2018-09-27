@@ -8,5 +8,6 @@
  vocab:includes :Computer101.
 :Sensor029 vocab2:hasMeasurement :Measurement8401.
 :Computer101 vocab3:hasOwner :User10A.
-:Measurement8401 vocab4:hasTemperature "29".
+:Measurement8401 vocab4:hasTemperature "29";
+ vocab4:atTime "2010-06-12T12:00:12".
 :User10A vocab5:hasName "Pedro".
