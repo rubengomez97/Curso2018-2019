@@ -68,7 +68,7 @@ public class Task07
 			Individual individuals1=(Individual) instances1.next();
 			System.out.println("Individual " +n+": "+individuals1.getURI());
 		}
-		ExtendedIterator subclasses1 = person.listSubClasses();
+		ExtendedIterator subclasses1 = p1.listSubClasses();
 		n=0;
 		while(subclasses1.hasNext()) {
 			n++;
