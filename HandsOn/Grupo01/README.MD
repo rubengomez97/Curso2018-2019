@@ -1,5 +1,7 @@
 # Grupo 01
 
 Luis Domínguez López - u120057 - domlopluis94
-David Vicente Rincon -
+
+David Vicente Rincon - David922
+
 Javiar Cuellar Torres - Javinator
