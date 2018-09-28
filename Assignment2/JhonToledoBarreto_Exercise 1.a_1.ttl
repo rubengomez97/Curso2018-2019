@@ -1,0 +1,11 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.ontogrid.net/StickyNote#event3> <http://www.ontogrid.net/StickyNote#eventDate> "2006-05-15"^^xsd:date;
+   <http://www.ontogrid.net/StickyNote#involves> <http://www.ontogrid.net/StickyNote#PinarAlper>,
+     <http://www.ontogrid.net/StickyNote#CaroleGoble> .
+
+<http://www.ontogrid.net/StickyNote#event4> <http://www.ontogrid.net/StickyNote#eventDate> "2006-05-16"^^xsd:date;
+   <http://www.ontogrid.net/StickyNote#involves> <http://www.ontogrid.net/StickyNote#OscarCorcho> .
+
+<http://www.ontogrid.net/StickyNote#event5> <http://www.ontogrid.net/StickyNote#eventDate> "2006-05-15"^^xsd:date;
+   <http://www.ontogrid.net/StickyNote#involves> <http://www.ontogrid.net/StickyNote#CaroleGoble> .

@@ -1,0 +1,13 @@
+@base <http://www.ontogrid.net/Exercise1b/>
+@prefix exercise:<http://www.ontogrid.net/Exercise1b#>
+:Class01		exercise:includes	:Sensor029;
+				exercise:includes	:Computer101.
+
+:Sensor029		exercise:hasMeasurement	:Measurement8401.
+
+:Computer101	exercise:hasOwner	:User10A.
+
+:Measurement8401	exercise:hasTemperature	:"29"^^xsd:int;
+					exercise:atTime			:"2010-06-12T12:00:12"^^xsd:dateTime.
+
+:User10A		exercise:hasName	:"Pedro"^^xsd:string.
