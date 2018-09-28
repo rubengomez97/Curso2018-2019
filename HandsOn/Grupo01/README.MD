@@ -4,4 +4,4 @@ Luis Domínguez López - domlopluis94
 
 David Vicente Rincon - David922
 
-Javier Cuellar Torres - Javinator 'el gordo'
+Javier Cuellar Torres - Javinator
