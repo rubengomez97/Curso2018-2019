@@ -1,0 +1,22 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://www.wsld.org/user#> .
+@prefix ns1: <http://www.wsld.org/computer#> .
+@prefix ns2: <http://www.wsld.org/measurement#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns3: <http://www.wsld.org/sensor#> .
+@prefix ns4: <http://www.wsld.org/class#> .
+
+<https://www.wsld.org/class#includes> a rdf:Property .
+<https://www.wsld.org/sensor#hasMeasurement> a rdf:Property .
+<https://www.wsld.org/measurement#hasTemperature> a rdf:Property .
+<https://www.wsld.org/measurement#atTime> a rdf:Property .
+<https://www.wsld.org/computer#hasOwner> a rdf:Property .
+<https://www.wsld.org/user#hasName> a rdf:Property .
+<http://njh.me/#User10A> ns0:hasName "Pedro" .
+<http://njh.me/Computer101> ns1:hasOwner <http://njh.me/#User10A> .
+<http://njh.me/Measurement8401>
+  ns2:hasTemperature "29"^^xsd:float ;
+  ns2:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
+
+<http://njh.me/#Sensor029> ns3:hasMeasurement "" .
+<http://njh.me/#Class01> ns4:includes <http://njh.me/#Sensor029>, <http://njh.me/#Computer101> .
