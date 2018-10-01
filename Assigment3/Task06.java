@@ -55,7 +55,7 @@ public class Task06
 		Property worksIn = model.createProperty(ns + "worksIn");
 
 		// ** TASK 6.4: Create a new individual of Researcher named "Jane Smith" **
-		Individual janeSmith = researcher.createIndividual(ns + "Jane Smith");
+		Individual janeSmith = researcher.createIndividual(ns + "Jane Smith",researcher);
 
 		// ** TASK 6.5: Add to the individual JaneSmith the fullName, given and family names **
 		janeSmith.addProperty(VCARD.FN, "Jane Smith");
@@ -67,9 +67,6 @@ public class Task06
 		Individual johnSmith = researcher.createIndividual(ns + "John Smith");
 
 		johnSmith.addProperty(worksIn, upm);
-
-		model.write(System.out, "RDF/XML-ABBREV");
-
 
 		model.write(System.out, "RDF/XML-ABBREV");
 	}
