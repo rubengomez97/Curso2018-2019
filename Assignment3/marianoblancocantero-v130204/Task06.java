@@ -1,8 +1,6 @@
 package upm.oeg.wsld.jena;
-
-import java.io.InputStream;
-
-import org.apache.jena.ontology.Individual;
+ import java.io.InputStream;
+ import org.apache.jena.ontology.Individual;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
@@ -10,8 +8,7 @@ import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.vocabulary.VCARD;
-
-/**
+ /**
  * Task 06: Modifying ontologies (RDFs)
  * @author elozano
  * @author isantana
@@ -59,12 +56,14 @@ public class Task06
 		Individual janeSmith= model.createIndividual(ns+"janeSmith", researcher);
 		
 		// ** TASK 6.5: Add to the individual JaneSmith the fullName, given and family names **
-		janeSmith.addLiteral(VCARD.FN, "Jane Smith");
+		jane.addProperty(VCARD.FN, "Jane Smith");
+		jane.addProperty(VCARD.Given, "Jane");
+		jane.addProperty(VCARD.Family, "Smith");
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
-		Individual johnSmith =model.getIndividual(ns+"JohnSmith");
-		Individual UPM=model.createIndividual(ns+"UPM", university);
-		johnSmith.addProperty(worksIn, UPM);
+		Individual john_Smith =model.getIndividual(ns+"johnSmith");
+		Individual UPM=university.createIndividual(ns+"UPM");
+		john_Smith.addProperty(worksIn, UPM);
 		
 		
 		model.write(System.out, "RDF/XML-ABBREV");

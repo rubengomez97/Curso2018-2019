@@ -59,12 +59,14 @@ public class Task06
 		Individual janeSmith= model.createIndividual(ns+"janeSmith", researcher);
 		
 		// ** TASK 6.5: Add to the individual JaneSmith the fullName, given and family names **
-		janeSmith.addLiteral(VCARD.FN, "Jane Smith");
+		jane.addProperty(VCARD.FN, "Jane Smith");
+		jane.addProperty(VCARD.Given, "Jane");
+		jane.addProperty(VCARD.Family, "Smith");
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
-		Individual johnSmith =model.getIndividual(ns+"JohnSmith");
-		Individual UPM=model.createIndividual(ns+"UPM", university);
-		johnSmith.addProperty(worksIn, UPM);
+		Individual john_Smith =model.getIndividual(ns+"johnSmith");
+		Individual UPM=university.createIndividual(ns+"UPM");
+		john_Smith.addProperty(worksIn, UPM);
 		
 		
 		model.write(System.out, "RDF/XML-ABBREV");
