@@ -66,7 +66,7 @@ public class Task06
 		
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
-		Individual johnSmith = researcher.createIndividual(ns+"Jonh Smith");
+		Individual johnSmith = model.getIndividual(ns+"Jonh Smith");
 		Individual upm = university.createIndividual(ns+"UPM");
 		johnSmith.addProperty(worksIn, upm);
 		
