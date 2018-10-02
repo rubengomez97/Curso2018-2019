@@ -1,10 +1,10 @@
-# Grupo 
+# Grupo de trabajo
 
 # Luis Domínguez López - domlopluis94
 
-# Javier Cuellar Torres - JavinatorPlus
+# Javier Cuéllar Torres - JavinatorPlus
 
-# Jose Alberto Buenavida Carmona - mrphoenixio
+# José Alberto Buenavida Carmona - mrphoenixio
 
 # David Vicente Rincón - David922
 
