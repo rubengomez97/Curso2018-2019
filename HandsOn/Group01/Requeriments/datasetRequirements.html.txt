@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title> datasetRequirements </title>
+  </head>
+  <body>
+    <h1> Dataset Requirements </h1>
+    <requs>
+      <p> 1. Data are based on selected smart city domains. </p> 
+      <p> 2. Data are available as a CSV file. </p>
+      <p> 3. Data have an open license so they can be published. </p>
+      <p> 4. Data can be easily linked with generic real-world entities </p>
+    </requs>
+  </body>
+</html>
