@@ -1,0 +1,14 @@
+@prefix base: <http://www.oeg-upm.net/> .
+@prefix pre: <http://www.w3.org/2001/XMLSchema#> .
+
+base:Class01 			pre:includes pre:Sensor029,
+					pre:Computer101.
+
+base:Sensor029			pre:hasMeasurement pre:Measurement8401.
+
+base:Measurement8401	pre:hasTemperature "29"^^pre:int;
+					pre:atTime "2010-06-12T 12:00:12"^^pre:dateTime.
+
+base:Computer101 		pre:hasOwner pre:User10A.
+
+base:User10A 			pre:hasName "Pedro"^^pre:string.

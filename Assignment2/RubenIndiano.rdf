@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+	<rdf:RDF
+		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		xmlns:exercise="http://www.ontogrid.net/Exercise1b#"
+		xmlns="http://www.ontogrid.net/Exercise1b#"
+		xml:base="http://www.ontogrid.net/Exercise1b#">
+	
+	<rdf:Description rdf:about="#Class01">
+		<includes rdf:resource="#Sensor029">
+			<hasMeasurement rdf:resource="#Measurement8401>
+				<hasTemperature rdf:datatype="http://www.ontogrid.net/Exercise1b#integer>29</hasTemperature>
+				<atTime rdf:datatype="http://www.ontogrid.net/Exercise1b#dateTime>2010-06-12T12:00:12</atTime>
+		<includes rdf:resource="#Computer101">
+			<hasOwner rdf:resource="#User10A">
+				<exercise:hasName>Pedro</exercise:hasName>
+		</rdf:Description>
