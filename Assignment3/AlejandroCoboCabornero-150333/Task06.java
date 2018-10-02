@@ -62,8 +62,8 @@ public class Task06
 		janeSmith.addLiteral(VCARD.Family, "Smith");
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
-		Individual upm = university.createIndividual(ns+"UPM");
-		janeSmith.addProperty(worksIn, upm);
+		Individual johnSmith = model.getIndividual(ns + "JohnSmith");
+		johnSmith.addProperty(worksIn, ns + "UPM");
 		
 		model.write(System.out, "RDF/XML-ABBREV");
 	}
