@@ -1,0 +1,16 @@
+#+TITLE: Application Requirements
+#+AUTHOR: Luciano García Giordano, José Luis Del Pino García, Jhon Toledo Barreto, Daniel Argota García
+
+* Application Requirements
+The following mockup shows the main perspective of the application:
+
+#+attr_html: :width 500px
+[[file:./mockup.jpg]]
+
+The application’s UI consists of a single view which is divided in three sections:
+** Map
+Located at the left side, shows the different weather stations within the city.
+** Temporal line
+Indicates the moment when the measurements were obtained giving the user the possibility of changing it. It enables the selection by year.
+** Information
+Shows the detailed parameters of the selected station for the selected year. If no station is selected, the information shown corresponds to the total of all of the weather stations.
