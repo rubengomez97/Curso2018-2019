@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title> datasetRequirements </title>
+  </head>
+  <body>
+    <h1> Dataset Requirements </h1>
+    <requs>
+      <p> 1. Data are based on selected smart city domain, based in Madrid. </p> 
+      <p> 2. Data are available as a CSV file (Colegios públicos Madrid). </p>
+      <p> 3. Data have an open license of Madrid´s goverment (https://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD). </p>
+      <p> 4. Some of the fiels are real-world entities. For example: coordinates or phone. </p>
+    </requs>
+  </body>
+</html>
+
