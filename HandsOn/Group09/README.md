@@ -43,10 +43,10 @@ https://datos.madrid.es/FWProjects/egob/Catalogo/MedioAmbiente/Aire/Ficheros/Int
 
 # Resource Naming Strategy
 
-| Name                      | URI                                                           |
-|---------------------------|---------------------------------------------------------------|
-| Domain                    | http://group09.data/                                          |
-| Ontological terms path    | http://group09.data/ontology/Pollution#                       |
-| Individual paths          | http://group09.data/resources/                                |
-| Ontological terms pattern | http://group09.data/ontology/Pollution#<term-name>            |
-| Indivudual patter         | http://group09.data/resources/<resource-type>/<resource-name> |
+| Name                      | URI                                                                       |
+|---------------------------|---------------------------------------------------------------------------|
+| Domain                    | http://group09.data/                                                      |
+| Ontological terms path    | http://group09.data/ontology/Pollution#                                   |
+| Individual paths          | http://group09.data/resources/                                            |
+| Ontological terms pattern | http://group09.data/ontology/Pollution#&lt;term-name&gt;                  |
+| Indivudual patter         | http://group09.data/resources/&lt;resource-type&gt;/&lt;resource-name&gt; |
