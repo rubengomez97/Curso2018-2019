@@ -62,7 +62,7 @@ public class Task06
 		janeSmith.addLiteral(VCARD.FN, "Jane Smith");
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
-		Individual johnSmith =model.createIndividual(ns+"johnSmith", person);
+		Individual johnSmith =model.getIndividual(ns+"JohnSmith");
 		Individual UPM=model.createIndividual(ns+"UPM", university);
 		johnSmith.addProperty(worksIn, UPM);
 		
