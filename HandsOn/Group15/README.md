@@ -1,3 +1,4 @@
-Enrique Caño Vaquero @Enriquecv;
-Juan Borrero Carrón @juanborcar93;
-Alvaro Echevarría García de la camacha @alvaroecheva;
+Enrique CaÃ±o Vaquero @Enriquecv;
+Juan Borrero CarrÃ³n @juanborcar93;
+Alvaro EchevarrÃ­a GarcÃ­a de la camacha @alvaroecheva;
+;
