@@ -1,0 +1,5 @@
+﻿city,date_normalization,emisorId,source,emisor,no,no2,o3,humidity,lat,lon,active
+28123,2018-06-08T08:40:01,airEmisor1,air,emisor1,5,26,78,54,40.36445,-3.549891,true
+28123,2018-06-08T08:40:01,airEmisor2,air,emisor2,9,37,82,57,40.324159,-3.511792,true
+28123,2018-06-08T08:40:01,airEmisor3,air,emisor3,6,43,75,75,40.34660918425084,-3.5531649168654873,true
+28123,2018-06-08T08:40:01,airEmisor4,air,emisor4,9,24,43,90,40.369362493192725,-3.519597986625038,true
