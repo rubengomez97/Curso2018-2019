@@ -40,3 +40,11 @@ Ignacio Ballesteros González - ignaciobll
 | V{1..24}       | char    | V             | Value notation. Allways "V" |
 
 https://datos.madrid.es/FWProjects/egob/Catalogo/MedioAmbiente/Aire/Ficheros/Interprete_ficheros_%20calidad_%20del_%20aire_global_.pdf
+
+# Resource Naming Strategy
+
+| Domain                    | http://group09.data/                                          |
+| Ontological terms path    | http://group09.data/ontology/Pollution#                       |
+| Individual paths          | http://group09.data/resources/                                |
+| Ontological terms pattern | http://group09.data/ontology/Pollution#<term-name>            |
+| Indivudual patter         | http://group09.data/resources/<resource-type>/<resource-name> |
