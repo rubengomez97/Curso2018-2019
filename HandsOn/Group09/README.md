@@ -43,6 +43,8 @@ https://datos.madrid.es/FWProjects/egob/Catalogo/MedioAmbiente/Aire/Ficheros/Int
 
 # Resource Naming Strategy
 
+| Name                      | URI                                                           |
+|---------------------------|---------------------------------------------------------------|
 | Domain                    | http://group09.data/                                          |
 | Ontological terms path    | http://group09.data/ontology/Pollution#                       |
 | Individual paths          | http://group09.data/resources/                                |
