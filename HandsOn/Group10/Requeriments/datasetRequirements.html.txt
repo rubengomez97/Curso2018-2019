@@ -1,0 +1,16 @@
+﻿<html>
+  <head>
+    <meta charset="utf-8" />
+    <title> datasetRequirements </title>
+  </head>
+  <body>
+    <h1> Dataset Requirements </h1>
+    <requs>
+      <p> 1. Los datos están basados en el dominio de una smart city. Madrid. </p> 
+      <p> 2. Los datos se encuentran disponibles en un archivo CSV (aparcabicis.csv y 200186-0-polideportivos.csv). </p>
+      <p> 3. Los datos tienen licencia abierta (https://datos.madrid.es/portal/site/egob/menuitem.3efdb29b813ad8241e830cc2a8a409a0/?vgnextoid=108804d4aab90410VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default). </p>
+      <p> 4. Algunos datos tienen entidades reales. Por ejemplo: coordenadas, calles. </p>
+    </requs>
+  </body>
+</html>
+
