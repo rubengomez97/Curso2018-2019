@@ -69,7 +69,7 @@ public class Task06
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
 		Individual upm = model.createIndividual(ns+"UPM", university);
-		Individual john_smith = model.createIndividual(ns+"JohnSmith", researcher);
+		Individual john_smith = model.createIndividual(ns+"JohnSmith");
 		john_smith.addProperty(worksIn, upm);
 		
 		model.write(System.out, "RDF/XML-ABBREV");
