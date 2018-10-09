@@ -1,0 +1,44 @@
+<xml? version=!1.0"/>
+<rdf:RDF
+    xmls:rdf="http://wwww.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmls:cl="http://wwww.class.es/" >
+
+<rdf:Description rdf:about="http://class.es/Class01">
+    <cl:includes>
+      <rdf:Description rdf:about="http://class.es/Sensor029">
+          <cl:hasMeasurement>
+            <rdf:Description rdf:about="http://class.es/Measurement8401">
+                <cl:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"> 29 </cl:hasTemperature>
+                <cl:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"> 2010-06-12T12:00:12 </cl:atTime>
+            </rdf:Description>
+           </cl:hasMeasurement>
+      </rdf:Description>
+    </cl:includes>
+    <cl:includes> Computer101 </cl:includes>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://class.es/Computer101">
+    <cl:hasOwner>
+      <rdf:Description rdf:about="http://class.es/User10A">
+          <cl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Pedro </cl:hasName>
+      </rdf:Description>
+    </cl:hasOwner>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="#User10A">
+    <cl:hasName> Pedro </cl:hasName>
+</rdf:Description>
+
+
+
+<rdf:Description rdf:about="#Sensor029">
+    <cl:hasMeasurement> Measurement8401 </cl:hasMeasurement>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="#Measurement8401">
+    <cl:hasTemperature> 29 </cl:hasTemperature>
+    <cl:atTime> 2010-06-12T12:00:12 </cl:atTime>
+</rdf:Description>
