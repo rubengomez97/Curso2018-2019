@@ -68,7 +68,7 @@ public class Task06
 		jane_smith.addProperty(VCARD.Family, "Smith");
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
-		Individual upm = model.createIndividual(ns+"UPM", university);
+		Individual upm = model.getIndividual(ns+"UPM", university);
 		Individual john_smith = model.createIndividual(ns+"JohnSmith");
 		john_smith.addProperty(worksIn, upm);
 		
