@@ -1,0 +1,73 @@
+@prefix :       <http://www.semanticweb.org/accidentes#>
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix xml:    <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+
+<http://www.semanticweb.org/accidentes> rdf:type owl:Ontology .
+
+:Accidente   :hasDate              :Fecha ,
+             :hasHourRange         :RangoHorario ,
+             :hasDistrict          :Distrito ,
+             :hasPlace             :Lugar ,
+             :hasNumberOfAccidents :NoAccidentes ,
+             :hasVictimNumber      :NoVictimas ,
+             :hasAccidentType      :TipoAccidente ,
+             :hasSex               :Sexo ,
+             :hasAgeRange          :TramoEdad .
+
+:RangoHorario :hasStartHour "00:00"^^xsd.hour ,
+              :hasEndHour   "23:00"^^xsd.hour .
+
+:TramoEdad :hasStartAge "18"^^xsd.integer ,
+           :hasEndAge   "50"^^xsd.integer .
+
+# Classes
+:Fecha rdf:type owl:Class .
+:RangoHorario rdf:type owl:Class .
+:Distrito rdf:type owl:Class .
+:Lugar rdf:type owl:Class .
+:NoAccidentes rdf:type owl:Class .
+:NoVictimas rdf:type owl:Class .
+:TipoAccidente rdf:type owl:Class .
+:Sexo rdf:type owl:Class .
+:TramoEdad rdf:type owl:Class .
+
+# Conexiones
+:hasDate rdf:type owl:DatatypeProperty ;
+               rdfs:domain :accidentes ;
+               rdfs:range :Fecha .
+
+:hasHourRange rdf:type owl:ObjectProperty ;
+               rdfs:domain :accidentes ;
+               rdfs:range :RangoHorario .
+
+:hasDistrict rdf:type owl:ObjectProperty ;
+               rdfs:domain :accidentes ;
+               rdfs:range :Distrito .
+
+:hasPlace rdf:type owl:ObjectProperty ;
+               rdfs:domain :accidentes ;
+               rdfs:range :Lugar .
+
+:hasNumberOfAccidents rdf:type owl:DatatypeProperty ;
+               rdfs:domain :accidentes ;
+               rdfs:range xsd:integer .
+
+:hasVictimNumber rdf:type owl:DatatypeProperty ;
+               rdfs:domain :accidentes ;
+               rdfs:range xsd:integer .
+
+:hasAccidentType rdf:type owl:DatatypeProperty ;
+               rdfs:domain :accidentes ;
+               rdfs:range xsd:string .
+
+:hasSex rdf:type owl:DatatypeProperty ;
+               rdfs:domain :accidentes ;
+               rdfs:range xsd:string .
+
+:hasAgeRange rdf:type owl:ObjectProperty ;
+               rdfs:domain :accidentes ;
+               rdfs:range :RangoEdad .
