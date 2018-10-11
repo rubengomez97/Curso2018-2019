@@ -1,224 +1,224 @@
-FID,Modelo,Fabricante,Situación,ENLACE,UTM_X,UTM_Y,GRAD_X,GRAD_Y
-0.0,155B Los Patines,TUYO HPC,P. VIera y Clavijo,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf,376452.682025,3149390.98876,-16.2619573264,28.4652516647
-1.0,155F Barras Paralelas,TUYO HPC,P. VIera y Clavijo,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155F.pdf,376457.751712,3149393.94073,-16.2619058696,28.4652787851
-2.0,155H El Jinete,TUYO HPC,P. VIera y Clavijo,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf,376459.099351,3149399.39545,-16.2618926919,28.4653281389
-3.0,207T Step & Twist,TUYO HPC,Avda. Los Majuelos,https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf,371538.122673,3146993.43318,-16.3118786811,28.443140427
-4.0,155B Los Patines,TUYO HPC,Avda. Los Majuelos,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf,371502.629317,3146970.10898,-16.3122384703,28.4429264474
-5.0,155F Barras Paralelas,TUYO HPC,Avda. Los Majuelos,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155F.pdf,371452.532981,3146937.25227,-16.3127462916,28.4426250042
-6.0,155H El Jinete,TUYO HPC,Avda. Los Majuelos,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf,371421.704467,3146916.97035,-16.3130587886,28.4424389366
-7.0,202T Bicicleta Estática,TUYO HPC,Avda. Marítima,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,377745.725306,3149002.88224,-16.2487111238,28.4618710638
-8.0,155B Los Patines,TUYO HPC,Avda. Marítima,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf,377751.201424,3149014.24012,-16.2486564062,28.4619740767
-9.0,154B Esquí de Fondo,TUYO HPC,Avda. Marítima,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf,377756.271903,3149023.97544,-16.2486056588,28.4620624087
-10.0,155B Los Patines,TUYO HPC,Fernández Navarro,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf,377239.868775,3149010.69932,-16.2538777863,28.4618940878
-11.0,207T Step & Twist,TUYO HPC,Fernández Navarro,https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf,377242.72092,3149010.58523,-16.253848648,28.4618933267
-12.0,202T Bicicleta Estática,TUYO HPC,Ganivet,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,375796.089353,3148822.44858,-16.26860138,28.4600585144
-13.0,155B Los Patines,TUYO HPC,Ganivet,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf,375795.975267,3148818.91192,-16.2686021639,28.4600265871
-14.0,202T Bicicleta Estática,TUYO HPC,P. La Granja,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,376021.469031,3149080.22878,-16.2663275766,28.4624062902
-15.0,154B Esquí de Fondo,TUYO HPC,P. La Granja,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf,376030.367722,3149064.37085,-16.2662349969,28.4622640267
-16.0,154D Sube y Baja,TUYO HPC,P. La Granja,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154D.pdf,376022.153546,3149055.35808,-16.2663179106,28.4621819103
-17.0,202T Bicicleta Estática,TUYO HPC,San Juan de la Rambla,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,375062.113307,3149939.59184,-16.2762177192,28.4700699944
-18.0,207T Step & Twist,TUYO HPC,San Juan de la Rambla,https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf,375060.630192,3149937.42421,-16.2762326308,28.4700502907
-19.0,154G Rueda Grande,TUYO HPC,Pza. La Victoria,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf,376654.653031,3148694.87485,-16.2598202239,28.4589887091
-20.0,155B Los Patines,TUYO HPC,Pza. La Victoria,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf,376655.565717,3148691.56636,-16.2598105497,28.4589589379
-21.0,202T Bicicleta Estática,TUYO HPC,Pza. García Escámez,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,375359.509035,3148289.32934,-16.2730020017,28.4552057519
-22.0,155I El Remo,TUYO HPC,Pza. García Escámez,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf,375368.151033,3148281.37185,-16.2729128952,28.4551347657
-23.0,154B Esquí de Fondo,TUYO HPC,Pza. García Escámez,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf,375373.0282,3148280.85847,-16.2728630374,28.4551305986
-24.0,AMM-019 Torsión de Tronc,Kido,Pza. García Escámez, ,375381.670199,3148285.8212,-16.2727753277,28.4551762102
-25.0,AMM-017 Stepper,Kido,Pza. García Escámez, ,375383.295921,3148285.5645,-16.2727586992,28.455174049
-26.0,AMM-018 Bicicleta Est.,Kido,Pza. San José, ,369390.122009,3145014.92992,-16.3335857498,28.4250726848
-27.0,AMM-012 Movimiento Brazo,Kido,Pza. San José, ,369385.399443,3145014.22134,-16.3336338785,28.4250658181
-28.0,AMM-011 Escalera Dedos,Kido,Pza. María Auxiliadora, ,376895.972441,3149370.49956,-16.2574281042,28.4651086877
-29.0,155I El Remo,TUYO HPC,Avda. Príncipes de España,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf,374071.184867,3147833.96659,-16.2861077165,28.4509726322
-30.0,202T Bicicleta Estática,TUYO HPC,Avda. Príncipes de España,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,374065.578792,3147810.84153,-16.2861624337,28.4507634008
-31.0,155E Silla Pectorales,TUYO HPC,Avda. Príncipes de España,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf,374090.806128,3147871.10684,-16.285911422,28.4513096951
-32.0,154B Esquí de Fondo,TUYO HPC,Avda. Príncipes de España,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf,374095.711443,3147894.2319,-16.2858638595,28.4515188587
-33.0,AMM-015 Mov. Ondular,Kido,Avda. Príncipes de España, ,374204.593246,3148147.48421,-16.2847797074,28.4538148174
-34.0,AMM-018 Bicicleta Est.,Kido,Avda. Príncipes de España, ,374206.022936,3148151.16055,-16.2847655098,28.4538481321
-35.0,AMM-013 Mov. Circ. Brazo,Kido,Avda. Príncipes de España, ,374207.656867,3148155.24538,-16.2847492712,28.4538851529
-36.0,154B Esquí de Fondo,TUYO HPC,P. Santa Catalina,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf,370799.115367,3145691.24078,-16.3192781297,28.4313160788
-37.0,155I El Remo,TUYO HPC,P. Santa Catalina,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf,370802.109798,3145694.5875,-16.3192479346,28.431346577
-38.0,155C Giro de Cintura,TUYO HPC,P. Santa Catalina,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155C.pdf,370791.717359,3145693.00221,-16.319353852,28.4313312425
-39.0,154C Slalom,TUYO HPC,P. Santa Catalina,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154C.pdf,370795.24022,3145695.99664,-16.3193182228,28.4313586138
-40.0,155F Barras Paralelas,TUYO HPC,P. Santa Catalina,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155F.pdf,370798.058508,3145698.99107,-16.3192897865,28.4313859154
-41.0,155H El Jinete,TUYO HPC,P. Santa Catalina,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf,370798.366759,3145694.5875,-16.3192861467,28.4313462066
-42.0,AMM-005 Varios,Kido,Avda. Pedro Schwartz, ,383196.94346,3153878.54477,-16.1935369967,28.506372075
-43.0,AMM-004 Varios,Kido,Avda. Pedro Schwartz, ,383193.388996,3153879.77516,-16.1935734361,28.5063828599
-44.0,155H El Jinete,TUYO HPC,Avda. Reyes Católicos,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf,376347.541661,3149188.82823,-16.2630093603,28.463417304
-45.0,154G Rueda Grande,TUYO HPC,Avda. Reyes Católicos,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf,376349.562933,3149194.21829,-16.2629892971,28.4634661382
-46.0,155B Los Patines,TUYO HPC,Pza. Los Sabandeños,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf,376391.543665,3148874.35946,-16.2625262752,28.4605835564
-47.0,202T Bicicleta Estática,TUYO HPC,Pza. Los Sabandeños,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,376390.596193,3148870.09584,-16.2625354934,28.4605449896
-48.0,207T Step & Twist,TUYO HPC,Pza. Los Sabandeños,https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf,376388.795998,3148863.36879,-16.2625531553,28.4604841108
-49.0,155H El Jinete,TUYO HPC,Avda. Francisco La Roche,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf,378134.680486,3150695.51035,-16.2449181481,28.4771826573
-50.0,155I El Remo,TUYO HPC,Avda. Francisco La Roche,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf,378144.543962,3150703.13213,-16.2448182135,28.4772523625
-51.0,155B Los Patines,TUYO HPC,Avda. Francisco La Roche,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf,378180.243814,3150731.35328,-16.2444565768,28.4775103827
-52.0,202T Bicicleta Estática,TUYO HPC,Avda. Francisco La Roche,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,378197.280728,3150746.1485,-16.2442841339,28.4776454949
-53.0,207T Step & Twist,TUYO HPC,Avda. Francisco La Roche,https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf,378229.112857,3150774.39391,-16.2439620005,28.4779033713
-54.0,155C Giro de Cintura,TUYO HPC,Avda. Francisco La Roche,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155C.pdf,378244.804752,3150787.8441,-16.2438031517,28.4780262191
-55.0,155D Barra estiramientos,TUYO HPC,Avda. Francisco La Roche,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155D.pdf,378277.981901,3150818.33121,-16.2434675153,28.4783044503
-56.0,155H El Jinete,TUYO HPC,Río Guadalete,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf,375036.574163,3150343.96657,-16.2765224145,28.473716796
-57.0,202T Bicicleta Estática,TUYO HPC,Río Guadalete,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,375037.664048,3150340.89508,-16.2765109501,28.4736891821
-58.0,154G Rueda Grande,TUYO HPC,Río Guadalete,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf,375039.843818,3150336.04014,-16.2764881612,28.473645578
-59.0,155I El Remo,TUYO HPC,Avda. Reyes Católicos,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf,376289.699873,3148947.01002,-16.26357409,28.4612295334
-60.0,202T Bicicleta Estática,TUYO HPC,Avda. Reyes Católicos,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,376293.719161,3148967.60887,-16.2635352564,28.4614158087
-61.0,154B Esquí de Fondo,TUYO HPC,Avda. Reyes Católicos,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf,376325.745311,3149132.63721,-16.2632259173,28.462908142
-62.0,155E Silla Pectorales,TUYO HPC,Pza. La Victoria,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf,376653.561634,3148699.08195,-16.2598318191,28.4590265728
-63.0,202T Bicicleta Estática,TUYO HPC,Pza. Iglesia Cueva Bermeja,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,380901.090493,3152776.26661,-16.2168784246,28.4962164245
-64.0,PF9 Oblic,Novatilu,Río Orinoco,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf,381051.537708,3152820.47172,-16.2153461036,28.4966291093
-65.0,155B Los Patines,TUYO HPC,Rambla Añaza,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf,372741.895213,3144917.01634,-16.2993591574,28.4245199571
-66.0,155I El Remo,TUYO HPC,Rambla Añaza,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf,372771.288887,3144978.66945,-16.2990658924,28.4250792035
-67.0,207T Step & Twist,TUYO HPC,Rambla Añaza,https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf,372806.172329,3145082.35789,-16.2987212138,28.426018328
-68.0,202T Bicicleta Estática,TUYO HPC,Rambla Añaza,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,372842.544207,3145162.07503,-16.2983586944,28.4267412697
-69.0,159J Espaldera,TUYO HPC,P. VIera y Clavijo,https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf,376453.470206,3149395.04639,-16.2619497124,28.4652883575
-70.0,159J Espaldera,TUYO HPC,P. La Estrella,https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf,372099.934681,3145489.12379,-16.3059758341,28.4296201659
-71.0,155D Barra estiramientos,TUYO HPC,P. La Estrella,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155D.pdf,372095.510969,3145483.22551,-16.3060203411,28.4295665043
-72.0,J3709 Barra fija 2 m.,HPC,P. Viera y Clavijo, ,376459.000393,3149394.30097,-16.2618931563,28.4652821544
-73.0,202T Bicicleta Estática,TUYO HPC,Punta de Anaga,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,372052.979894,3145673.69203,-16.3064756414,28.4312811788
-74.0,155E Silla Pectorales,TUYO HPC,Punta de Anaga,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf,372075.381793,3145695.41917,-16.306249351,28.4314794476
-75.0,155B Los Patines,TUYO HPC,Punta de Anaga,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf,372099.538057,3145734.28512,-16.3060070486,28.4318325548
-76.0,155I El Remo,TUYO HPC,Pza. Los Dragos,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf,382873.613042,3161145.50697,-16.1975818169,28.5719244958
-77.0,202T Bicicleta Estática,TUYO HPC,Pza. Los Dragos,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,382875.662614,3161145.43106,-16.1975608566,28.5719239956
-78.0,159J Espaldera,TUYO HPC,Avda. Príncipes de España,https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf,374011.957573,3147691.82382,-16.2866969477,28.4496841583
-79.0,155E Silla Pectorales,TUYO HPC,Chafira,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf,373732.715375,3147296.51605,-16.2895049329,28.4460897446
-80.0,154B Esquí de Fondo,TUYO HPC,Chafira,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf,373739.024212,3147294.14624,-16.2894402578,28.4460689688
-81.0,202T Bicicleta Estática,TUYO HPC,Pza. Nuestra Sra. de las Nieves,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,380967.423659,3159954.71002,-16.2169447867,28.5610047544
-82.0,155I El Remo,TUYO HPC,Pza. Nuestra Sra. de las Nieves,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf,380966.072793,3159955.00252,-16.2169586253,28.5610072703
-83.0,155I El Remo,TUYO HPC,Zafiro,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf,373859.02627,3148178.56586,-16.2883117382,28.4540619418
-84.0,155G Las Ruedas,TUYO HPC,Zafiro,https://www.santacruzdetenerife.es/fileadmin/biosaludables/15GF.pdf,373856.22507,3148175.52108,-16.2883400085,28.4540341936
-85.0,202T Bicicleta Estática,TUYO HPC,Zafiro,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,373853.667453,3148177.77422,-16.2883663713,28.4540542795
-86.0,202T Bicicleta Estática,TUYO HPC,Pza. del Rosario,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,375114.828032,3148033.72321,-16.2754728284,28.4528756441
-87.0,155B Los Patines,TUYO HPC,Pza. del Rosario,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf,375113.212158,3148036.31613,-16.2754896091,28.452898889
-88.0,155I El Remo,TUYO HPC,Colegio Afur,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf,377785.162085,3159326.51505,-16.249405824,28.5550401054
-89.0,202T Bicicleta Estática,TUYO HPC,Colegio Afur,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,377785.896953,3159326.84908,-16.2493983485,28.5550431889
-90.0,155E Silla Pectorales,TUYO HPC,Río Guadalete,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf,375035.248261,3150337.30697,-16.2765352335,28.4736565699
-91.0,155I El Remo,TUYO HPC,Río Guadalete,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf,375033.823063,3150341.40442,-16.2765502337,28.4736934103
-92.0,155I El Remo,TUYO HPC,Izquierdo Azcárate,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf,375427.554484,3148578.90852,-16.2723384613,28.4578255479
-93.0,202T Bicicleta Estática,TUYO HPC,Izquierdo Azcárate,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,375431.597624,3148578.90852,-16.2722971745,28.457825934
-94.0,202T Bicicleta Estática,TUYO HPC,Paseo Peatonal Las Asuncionistas,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,376409.021692,3149529.3535,-16.262418042,28.4664961973
-95.0,155I El Remo,TUYO HPC,Paseo Peatonal Las Asuncionistas,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf,376381.467866,3149542.49699,-16.2627008442,28.4666121983
-96.0,155H El Jinete,TUYO HPC,Pza. Duggi,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf,376670.947254,3149494.68688,-16.2597394282,28.4662081507
-97.0,154C Slalom,TUYO HPC,Pza. Duggi,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154C.pdf,376678.54831,3149493.97428,-16.2596617267,28.4662024388
-98.0,154B Esquí de Fondo,TUYO HPC,Pza. Duggi,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf,376685.911832,3149492.90538,-16.2595864128,28.4661934889
-99.0,207T Step & Twist,TUYO HPC,Cmo. La Ermita,https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf,375673.7993,3150209.13591,-16.2699998144,28.4725609607
-100.0,155B Los Patines,TUYO HPC,Cmo. La Ermita,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf,375673.680533,3150215.43054,-16.2700017068,28.4726177549
-101.0,154B Esquí de Fondo,TUYO HPC,Curva El Arco Iris,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf,373883.753641,3147397.10957,-16.2879737741,28.4470121485
-102.0,155I El Remo,TUYO HPC,Curva El Arco Iris,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf,373883.486416,3147398.91333,-16.2879766998,28.4470284006
-103.0,155B Los Patines,TUYO HPC,Avda. Príncipes de España,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155C.pdf,374280.881122,3148334.47235,-16.2840211121,28.4555096315
-104.0,155E Silla Pectorales,TUYO HPC,Avda. Príncipes de España,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf,374296.927794,3148383.66807,-16.2838626191,28.4559551408
-105.0,155I El Remo,TUYO HPC,Res. San Pío X,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf,374300.876468,3147663.09901,-16.2837437398,28.4494528
-106.0,155H El Jinete,TUYO HPC,Res. San Pío X,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf,374306.577259,3147670.38336,-16.2836863246,28.4495190863
-107.0,155E Silla Pectorales,TUYO HPC,García Lorca,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf,375573.720242,3148514.32311,-16.2708389064,28.4572566511
-108.0,154B Esquí de Fondo,TUYO HPC,García Lorca,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf,375574.551608,3148505.53438,-16.2708294682,28.4571774169
-109.0,202T Bicicleta Estática,TUYO HPC,Poeta Francisco Izquierdo,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,375563.694418,3148555.31462,-16.2709457105,28.4576256211
-110.0,155D Barra estiramientos,TUYO HPC,Avda. Marítima,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155D.pdf,377807.69035,3149136.40566,-16.2480924911,28.4630818584
-111.0,155E Silla Pectorales,TUYO HPC,Avda. Marítima,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf,377808.553629,3149134.78656,-16.2480835035,28.4630673277
-112.0,154B Esquí de Fondo,TUYO HPC,Avda. Marítima,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf,377807.965633,3149132.88647,-16.2480893067,28.4630501251
-113.0,202T Bicicleta Estática,TUYO HPC,Avda. Marítima,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,377808.778001,3149139.89056,-16.2480817533,28.46311341
-114.0,155E Silla Pectorales,TUYO HPC,P. Leoncio Oramas,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf,375663.390764,3148721.51236,-16.2699455829,28.4591349747
-115.0,202T Bicicleta Estática,TUYO HPC,P. Leoncio Oramas,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,375658.574513,3148717.67018,-16.2699943506,28.4590998419
-116.0,154B Esquí de Fondo,TUYO HPC,P. Leoncio Oramas,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf,375656.085214,3148715.55969,-16.2700195429,28.4590805585
-117.0,AE004 Sky Stepper,Parkesa,P. Las Indias, ,375504.998661,3149709.06818,-16.2716697301,28.4680320164
-118.0,MB001 Big Wheel,Parkesa,P. Las Indias, ,375503.940409,3149706.08583,-16.2716802153,28.4680050013
-119.0,TS002 Power Push,Parkesa,P. Las Indias, ,375502.593542,3149702.91108,-16.2716936272,28.4679762222
-120.0,AE001 Health Walker,Parkesa,P. Las Indias, ,375501.054266,3149699.15909,-16.2717089417,28.4679422156
-121.0,RB001 Rowing,Parkesa,P. Las Indias, ,375499.611194,3149695.59951,-16.2717232945,28.4679099546
-122.0,RB003 Bicycle,Parkesa,P. Las Indias, ,375498.264327,3149692.03994,-16.2717366647,28.4678777028
-123.0,Barra Dominadas, ,Río Guadalete, ,375032.738437,3150343.92823,-16.2765615849,28.4737160823
-124.0,154B Esquí de Fondo,TUYO HPC,P. Cuchillitos de Tristán,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf,374977.594538,3148433.52663,-16.2769174884,28.4564705042
-125.0,154C Slalom,TUYO HPC,P. Cuchillitos de Tristán,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154C.pdf,374975.337974,3148425.33174,-16.2769396423,28.4563963336
-126.0,159J Espaldera,TUYO HPC,P. Cuchillitos de Tristán,https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf,374974.625375,3148422.12505,-16.2769465712,28.4563673266
-127.0,155H El Jinete,TUYO HPC,P. Cuchillitos de Tristán,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf,374972.725111,3148417.37439,-16.2769654603,28.4563242724
-128.0,154D Sube y Baja,TUYO HPC,P. Cuchillitos de Tristán,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154D.pdf,374981.038766,3148444.57191,-16.2768835158,28.4565705118
-129.0,154D Sube y Baja,TUYO HPC,Maestro Borguño,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154D.pdf,374128.531358,3147785.31694,-16.2855168486,28.4505391311
-130.0,155I El Remo,TUYO HPC,Maestro Borguño,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf,374134.865571,3147784.47237,-16.2854520789,28.4505321205
-131.0,202T Bicicleta Estática,TUYO HPC,Juan de Mattos y Azofra,https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf,375318.024046,3148547.35199,-16.273453526,28.4575303016
-132.0,154B Esquí de Fondo,TUYO HPC,Juan de Mattos y Azofra,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf,375320.715964,3148545.57057,-16.2734258447,28.4575144826
-133.0,154G Rueda Grande,TUYO HPC,Camino Los Tarajales,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf,380727.04495,3160044.63319,-16.2194112266,28.5617942125
-134.0,154G Rueda Grande,TUYO HPC,Pza. Chamorga,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf,386613.508622,3160749.03322,-16.1593098312,28.5686785008
-135.0,154G Rueda Grande,TUYO HPC,Pza. Taborno,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf,376308.968892,3159579.24233,-16.264521244,28.557181087
-136.0,154G Rueda Grande,TUYO HPC,Ctra. Igueste San Andrés,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf,386786.742776,3156349.61281,-16.1571047866,28.5289900668
-137.0,154B Esquí de Fondo,TUYO HPC,Pza. San Pedro,https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf,387084.063502,3155985.18379,-16.1540306769,28.525727032
-138.0,RB001 Rowing,Parkesa,Punta de Anaga, ,371604.468186,3145066.98802,-16.3109869635,28.4257620379
-139.0,PF9 Oblic,Novatilu,Pza. Miguel Díaz,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf,383668.704051,3154517.51315,-16.1887818832,28.5121808042
-140.0,PF6 Step,Novatilu,Pza. Miguel Díaz,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf,383666.29903,3154517.17912,-16.1888064218,28.5121775747
-141.0,PF26 Pulse,Novatilu,Pza. Miguel Díaz,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf,383669.438919,3154514.70729,-16.188774091,28.512155548
-142.0,PF6 Step,Novatilu,Pza. Taborno,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf,376308.914716,3159573.60241,-16.2645211894,28.5571301851
-143.0,PF9 Oblic,Novatilu,Pza. San José,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf,369387.879253,3145014.61907,-16.3336086091,28.4250696553
-144.0,PF8 Row,Novatilu,Frangollo,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf,369831.840708,3147480.26528,-16.3293546955,28.4473646662
-145.0,PF1 HIP,Novatilu,Frangollo,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf,369829.168462,3147500.48527,-16.3293842622,28.4475468702
-146.0,PF13 Bike,Novatilu,Pza. El Rosarito,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf,372547.084086,3146695.15588,-16.3015441991,28.4405475838
-147.0,PF1 HIP,Novatilu,Pza. El Rosarito,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf,372549.589316,3146693.1517,-16.3015183998,28.4405297419
-148.0,PF9 Oblic,Novatilu,Rambla Añaza,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf,372790.906729,3145028.37746,-16.2988711038,28.4255296998
-149.0,PF1 HIP,Novatilu,Rambla Añaza,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf,372717.336021,3144839.19564,-16.2996012857,28.4238152784
-150.0,PF3 Torax,Novatilu,Chirama,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf,371952.539506,3145141.8781,-16.3074420354,28.4264720463
-151.0,PF8 Row,Novatilu,Chirama,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf,371951.945674,3145149.00409,-16.3074488879,28.4265362957
-152.0,PF9 Oblic,Novatilu,Los Estudiantes,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf,372272.252033,3147211.06197,-16.3044073011,28.4451764427
-153.0,JSA006 Climber,Fundiciones Benito,Panamá,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf,376000.529027,3148314.55183,-16.2664590432,28.4554944648
-154.0,JSA008 Remo,Fundiciones Benito,Panamá,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA008.pdf,376003.145202,3148312.80771,-16.2664321409,28.4554789738
-155.0,JSA018 Bicicleta,Fundiciones Benito,Panamá,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf,376005.276899,3148311.16049,-16.2664101962,28.4554643111
-156.0,JSA003 Silla Pectorales,Fundiciones Benito,Pza. Beneharo,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf,374333.291566,3147865.21338,-16.2834347847,28.4512798892
-157.0,JSA006 Climber,Fundiciones Benito,Pza. Beneharo,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf,374331.999628,3147862.24192,-16.2834476527,28.4512529491
-158.0,PF8 Row,Novatilu,Ctra. Los Campitos,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf,376334.354813,3151716.44258,-16.2634154414,28.4862264274
-159.0,155I El Remo,TUYO HPC,Ctra. Los Campitos,https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf,376337.2266,3151719.47391,-16.2633864337,28.4862540561
-160.0,PF13 Bike,Novatilu,Tadorna,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf,371903.991074,3146314.41716,-16.3080677687,28.4370487071
-161.0,PF9 Oblic,Novatilu,Tadorna,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf,371897.34015,3146308.08295,-16.3081349677,28.4369908923
-162.0,JSA 003 Pectorales adap,Fundiciones Benito,Tadorna,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003D.pdf,371909.850221,3146316.95085,-16.3080082314,28.4370721469
-163.0,JSA 019 Manivelas adap,Fundiciones Benito,Rambla Añaza,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf,372829.436768,3145144.54396,-16.2984905705,28.4265817859
-164.0,JSA 018 Bicicleta adap,Fundiciones Benito,Rambla Añaza,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf,372822.680274,3145109.63541,-16.2985556986,28.426266099
-165.0,JSA 009 Timón adap,Fundiciones Benito,Rambla Añaza,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009D.pdf,372755.86606,3144954.61142,-16.2992206823,28.4248605916
-166.0,JSA 018 Bicicleta adap,Fundiciones Benito,Avda. Los Majuelos,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf,371520.470894,3146981.60985,-16.312057589,28.4430319916
-167.0,JSA 019 Manivelas adap,Fundiciones Benito,Avda. Los Majuelos,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf,371359.095704,3146876.19115,-16.3136934724,28.442064762
-168.0,JSA 003 Pectorales adap,Fundiciones Benito,Avda. Los Majuelos,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003D.pdf,371467.416608,3146947.06395,-16.3125954237,28.442715014
-169.0,PF13 Bike,Novatilu,Pza. Nuestra Sra. de la Merced,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf,372162.041852,3146143.79481,-16.3054143118,28.435534244
-170.0,PF3 Torax,Novatilu,Pza. Nuestra Sra. de la Merced,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf,372164.914517,3146146.53386,-16.3053852873,28.4355592435
-171.0,PF3 Torax,Novatilu,Agana,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf,372040.383104,3144979.39752,-16.3065272829,28.4250143697
-172.0,PF6 Step,Novatilu,Agana,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf,372039.492355,3144982.24792,-16.3065366918,28.4250400055
-173.0,PF1 HIP,Novatilu,Eladio Roca y Salazar,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf,375114.885064,3149480.43478,-16.275629002,28.4659314186
-174.0,PF3 Torax,Novatilu,Eladio Roca y Salazar,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf,375112.658193,3149477.76253,-16.2756514539,28.4659070898
-175.0,PF13 Bike,Novatilu,Eladio Roca y Salazar,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf,375110.876695,3149480.96923,-16.2756699948,28.4659358578
-176.0,PF8 Row,Novatilu,Eladio Roca y Salazar,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf,375108.917048,3149478.02976,-16.2756896887,28.465909143
-177.0,PF4 Up,Novatilu,Eladio Roca y Salazar,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF4.pdf,375107.135551,3149481.32553,-16.2757082392,28.4659387149
-178.0,PF6 Step,Novatilu,Pza. Manuel Castañeda,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf,376088.436922,3148513.89177,-16.2655828101,28.4573017586
-179.0,PF8 Row,Novatilu,Pza. Manuel Castañeda,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf,376085.965094,3148515.02748,-16.2656081733,28.457311773
-180.0,PF1 HIP,Novatilu,Pza. Manuel Castañeda,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf,376083.493267,3148516.16318,-16.2656335366,28.4573217873
-181.0,PF10 Pull,Novatilu,Pza. Manuel Castañeda,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF01.pdf,376080.019347,3148515.02748,-16.2656688887,28.4573112081
-182.0,PF4 Up,Novatilu,Pza. Manuel Castañeda,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF4.pdf,376077.948356,3148512.88968,-16.2656898069,28.4572917188
-183.0,PF26 Pulse,Novatilu,Pza. Manuel Castañeda,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf,376076.679039,3148511.15272,-16.2657025818,28.4572759231
-184.0,PF26 Pulse,Novatilu,Eladio Roca y Salazar,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf,375116.938586,3149478.24041,-16.2756077929,28.4659118124
-185.0,PF31 Barras Paralelas,Novatilu,Avda. Nuestra Sra. del Carmen,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF31.pdf,378778.376784,3152047.78746,-16.2384861172,28.4894463719
-186.0,PF26 Pulse,Novatilu,Avda. Nuestra Sra. del Carmen,https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf,378778.026052,3152045.48265,-16.2384894571,28.4894255395
-187.0,JSA018 Bicicleta adaptada,Fundiciones Benito,Avda. Francisco La Roche,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf,378082.870524,3150645.16591,-16.2454419812,28.4767234768
-188.0,JSA003 Silla Pectorales,Fundiciones Benito,Avda. Francisco La Roche,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf,378036.320515,3150585.06777,-16.2459110546,28.4761767641
-189.0,JSA019 Bíceps,Fundiciones Benito,Avda. Francisco La Roche,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf,378021.035437,3150560.40321,-16.2460645553,28.4759527476
-190.0,JSA006 Climber,Fundiciones Benito,Hermanos Maffiotte,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf,375080.127495,3148240.72641,-16.2758495879,28.4547404121
-191.0,JSA003 Silla Pectorales,Fundiciones Benito,Hermanos Maffiotte,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf,375084.414211,3148239.48986,-16.2758056812,28.4547296634
-192.0,JSA001 Waist,Fundiciones Benito,Hermanos Maffiotte,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf,375082.35329,3148236.19239,-16.2758263685,28.4546997082
-193.0,JSA003 Silla Pectorales,Fundiciones Benito,Magec,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf,374488.721086,3147591.22482,-16.2818178863,28.4488222593
-194.0,JSA006 Climber,Fundiciones Benito,Magec,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf,374485.399187,3147593.56969,-16.2818520603,28.4488431009
-195.0,JSA001 Waist,Fundiciones Benito,Magec,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf,374482.4681,3147591.22482,-16.2818817335,28.4488216578
-196.0,JSA006 Climber,Fundiciones Benito,Pza. Cheo,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf,374701.543717,3148021.04328,-16.2796915286,28.4527215859
-197.0,JSA003 Silla Pectorales,Fundiciones Benito,Pza. Cheo,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf,374696.463166,3148022.21572,-16.2797435338,28.4527316784
-198.0,JSA001 Waist,Fundiciones Benito,Pza. Cheo,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf,374684.152599,3147998.57161,-16.2798666679,28.4525171212
-199.0,JCIR06  Barras Paralelas,Fundiciones Benito,San Juan de la Rambla,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR06.pdf,375041.410701,3149920.75773,-16.2764271064,28.4698980431
-200.0,JSA006 Climber,Fundiciones Benito,Pza. La Victoria,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf,376641.23611,3148691.43286,-16.2599568655,28.4589563778
-201.0,JSA018 Bicicleta,Fundiciones Benito,Pza. Concha Castro,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf,374926.090602,3150363.66134,-16.2776529312,28.4738839328
-202.0,JSA018 Bicicleta adaptada,Fundiciones Benito,Pza. Concha Castro,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf,374927.667207,3150366.39721,-16.2776371263,28.4739087738
-203.0,JSA005 Rueda,Fundiciones Benito,Pza. Concha Castro,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA005.pdf,374930.263967,3150365.28431,-16.2776104845,28.4738989797
-204.0,JSA009 Timón,Fundiciones Benito,Pza. Concha Castro,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009.pdf,374928.872845,3150362.08473,-16.2776243447,28.4738699719
-205.0,JCIR07 Pulse,Fundiciones Benito,San Juan de la Rambla,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf,375035.695081,3149925.0078,-16.2764859395,28.4699358497
-206.0,JCIR07 Pulse,Fundiciones Benito,Pza. Francisco Hernández Barroso,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf,375987.516324,3149980.03463,-16.2667711537,28.4705233297
-207.0,JSA004 Barras,Fundiciones Benito,Pza. Francisco Hernández Barroso,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA004.pdf,375990.703882,3149977.72639,-16.2667383512,28.4705028023
-208.0,JCIR07 Pulse,Fundiciones Benito,P. Secundino Delgado,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf,376346.559095,3150065.90423,-16.2631135297,28.4713323641
-209.0,JSA004 Barras,Fundiciones Benito,P. Secundino Delgado,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA004.pdf,376344.018819,3150061.8007,-16.2631390328,28.471295091
-210.0,JSA018 Bicicleta,Fundiciones Benito,Pza. Anaga,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf,378187.897652,3151049.83161,-16.2444120965,28.4803852145
-211.0,JSA008 Remo,Fundiciones Benito,Pza. Anaga,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA008.pdf,378192.978203,3151049.6362,-16.2443601838,28.480383926
-212.0,JSA001 Cintura,Fundiciones Benito,Pza. Anaga,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf,378193.173609,3151043.18781,-16.2443575058,28.4803257506
-213.0,JSA009 Timón,Fundiciones Benito,Avda. Reyes Católicos,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009.pdf,376310.960202,3149031.51662,-16.2633660508,28.4619941786
-214.0,JSA018 Bicicleta adaptada,Fundiciones Benito,Avda. Reyes Católicos,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf,376285.62335,3148933.82899,-16.2636143042,28.4611101947
-215.0,JSA019 Bíceps,Fundiciones Benito,Avda. Reyes Católicos,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf,376279.711419,3148911.02582,-16.2636722285,28.460903847
-216.0,JCIR07 Pulse,Fundiciones Benito,Ctra. El Bailadero,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf,379304.928287,3157327.94395,-16.233661973,28.5371461434
-217.0,JSA006 Climber,Fundiciones Benito,Ctra. El Bailadero,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf,379307.54115,3157325.44986,-16.2336350089,28.537123878
-218.0,JCIR07 Pulse,Fundiciones Benito,San Antonio (Taganana),https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf,380839.87373,3160096.08702,-16.2182632606,28.5622689153
-219.0,JSA006 Climber,Fundiciones Benito,San Antonio (Taganana),https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf,380843.357547,3160095.77031,-16.2182276167,28.5622663768
-220.0,JSA009 Timón,Fundiciones Benito,Andrómeda,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009.pdf,378159.311131,3151398.72807,-16.2447410003,28.4835311658
-221.0,JSA018 Bicicleta,Fundiciones Benito,Andrómeda,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf,378176.413505,3151377.82516,-16.2445641018,28.4833441263
-222.0,JCIR03 Espaldera,Fundiciones Benito,Avda. Nuestra Sra. del Carmen,https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR03.pdf,378779.632896,3152048.16534,-16.2384733261,28.489449899
+﻿FID;Modelo;Fabricante;Situación;ENLACE;GRAD_X;GRAD_Y
+0;155B Los Patines;TUYO HPC;P. VIera y Clavijo;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf;-16,26195733;28,46525166
+1;155F Barras Paralelas;TUYO HPC;P. VIera y Clavijo;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155F.pdf;-16,26190587;28,46527879
+2;155H El Jinete;TUYO HPC;P. VIera y Clavijo;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf;-16,26189269;28,46532814
+3;207T Step & Twist;TUYO HPC;Avda. Los Majuelos;https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf;-16,31187868;28,44314043
+4;155B Los Patines;TUYO HPC;Avda. Los Majuelos;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf;-16,31223847;28,44292645
+5;155F Barras Paralelas;TUYO HPC;Avda. Los Majuelos;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155F.pdf;-16,31274629;28,442625
+6;155H El Jinete;TUYO HPC;Avda. Los Majuelos;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf;-16,31305879;28,44243894
+7;202T Bicicleta Estática;TUYO HPC;Avda. Marítima;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,24871112;28,46187106
+8;155B Los Patines;TUYO HPC;Avda. Marítima;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf;-16,24865641;28,46197408
+9;154B Esquí de Fondo;TUYO HPC;Avda. Marítima;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf;-16,24860566;28,46206241
+10;155B Los Patines;TUYO HPC;Fernández Navarro;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf;-16,25387779;28,46189409
+11;207T Step & Twist;TUYO HPC;Fernández Navarro;https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf;-16,25384865;28,46189333
+12;202T Bicicleta Estática;TUYO HPC;Ganivet;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,26860138;28,46005851
+13;155B Los Patines;TUYO HPC;Ganivet;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf;-16,26860216;28,46002659
+14;202T Bicicleta Estática;TUYO HPC;P. La Granja;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,26632758;28,46240629
+15;154B Esquí de Fondo;TUYO HPC;P. La Granja;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf;-16,266235;28,46226403
+16;154D Sube y Baja;TUYO HPC;P. La Granja;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154D.pdf;-16,26631791;28,46218191
+17;202T Bicicleta Estática;TUYO HPC;San Juan de la Rambla;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,27621772;28,47006999
+18;207T Step & Twist;TUYO HPC;San Juan de la Rambla;https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf;-16,27623263;28,47005029
+19;154G Rueda Grande;TUYO HPC;Pza. La Victoria;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf;-16,25982022;28,45898871
+20;155B Los Patines;TUYO HPC;Pza. La Victoria;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf;-16,25981055;28,45895894
+21;202T Bicicleta Estática;TUYO HPC;Pza. García Escámez;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,273002;28,45520575
+22;155I El Remo;TUYO HPC;Pza. García Escámez;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf;-16,2729129;28,45513477
+23;154B Esquí de Fondo;TUYO HPC;Pza. García Escámez;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf;-16,27286304;28,4551306
+24;AMM-019 Torsión de Tronc;Kido;Pza. García Escámez; ;-16,27277533;28,45517621
+25;AMM-017 Stepper;Kido;Pza. García Escámez; ;-16,2727587;28,45517405
+26;AMM-018 Bicicleta Est.;Kido;Pza. San José; ;-16,33358575;28,42507268
+27;AMM-012 Movimiento Brazo;Kido;Pza. San José; ;-16,33363388;28,42506582
+28;AMM-011 Escalera Dedos;Kido;Pza. María Auxiliadora; ;-16,2574281;28,46510869
+29;155I El Remo;TUYO HPC;Avda. Príncipes de España;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf;-16,28610772;28,45097263
+30;202T Bicicleta Estática;TUYO HPC;Avda. Príncipes de España;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,28616243;28,4507634
+31;155E Silla Pectorales;TUYO HPC;Avda. Príncipes de España;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf;-16,28591142;28,4513097
+32;154B Esquí de Fondo;TUYO HPC;Avda. Príncipes de España;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf;-16,28586386;28,45151886
+33;AMM-015 Mov. Ondular;Kido;Avda. Príncipes de España; ;-16,28477971;28,45381482
+34;AMM-018 Bicicleta Est.;Kido;Avda. Príncipes de España; ;-16,28476551;28,45384813
+35;AMM-013 Mov. Circ. Brazo;Kido;Avda. Príncipes de España; ;-16,28474927;28,45388515
+36;154B Esquí de Fondo;TUYO HPC;P. Santa Catalina;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf;-16,31927813;28,43131608
+37;155I El Remo;TUYO HPC;P. Santa Catalina;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf;-16,31924793;28,43134658
+38;155C Giro de Cintura;TUYO HPC;P. Santa Catalina;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155C.pdf;-16,31935385;28,43133124
+39;154C Slalom;TUYO HPC;P. Santa Catalina;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154C.pdf;-16,31931822;28,43135861
+40;155F Barras Paralelas;TUYO HPC;P. Santa Catalina;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155F.pdf;-16,31928979;28,43138592
+41;155H El Jinete;TUYO HPC;P. Santa Catalina;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf;-16,31928615;28,43134621
+42;AMM-005 Varios;Kido;Avda. Pedro Schwartz; ;-16,193537;28,50637208
+43;AMM-004 Varios;Kido;Avda. Pedro Schwartz; ;-16,19357344;28,50638286
+44;155H El Jinete;TUYO HPC;Avda. Reyes Católicos;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf;-16,26300936;28,4634173
+45;154G Rueda Grande;TUYO HPC;Avda. Reyes Católicos;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf;-16,2629893;28,46346614
+46;155B Los Patines;TUYO HPC;Pza. Los Sabandeños;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf;-16,26252628;28,46058356
+47;202T Bicicleta Estática;TUYO HPC;Pza. Los Sabandeños;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,26253549;28,46054499
+48;207T Step & Twist;TUYO HPC;Pza. Los Sabandeños;https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf;-16,26255316;28,46048411
+49;155H El Jinete;TUYO HPC;Avda. Francisco La Roche;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf;-16,24491815;28,47718266
+50;155I El Remo;TUYO HPC;Avda. Francisco La Roche;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf;-16,24481821;28,47725236
+51;155B Los Patines;TUYO HPC;Avda. Francisco La Roche;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf;-16,24445658;28,47751038
+52;202T Bicicleta Estática;TUYO HPC;Avda. Francisco La Roche;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,24428413;28,47764549
+53;207T Step & Twist;TUYO HPC;Avda. Francisco La Roche;https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf;-16,243962;28,47790337
+54;155C Giro de Cintura;TUYO HPC;Avda. Francisco La Roche;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155C.pdf;-16,24380315;28,47802622
+55;155D Barra estiramientos;TUYO HPC;Avda. Francisco La Roche;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155D.pdf;-16,24346752;28,47830445
+56;155H El Jinete;TUYO HPC;Río Guadalete;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf;-16,27652241;28,4737168
+57;202T Bicicleta Estática;TUYO HPC;Río Guadalete;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,27651095;28,47368918
+58;154G Rueda Grande;TUYO HPC;Río Guadalete;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf;-16,27648816;28,47364558
+59;155I El Remo;TUYO HPC;Avda. Reyes Católicos;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf;-16,26357409;28,46122953
+60;202T Bicicleta Estática;TUYO HPC;Avda. Reyes Católicos;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,26353526;28,46141581
+61;154B Esquí de Fondo;TUYO HPC;Avda. Reyes Católicos;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf;-16,26322592;28,46290814
+62;155E Silla Pectorales;TUYO HPC;Pza. La Victoria;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf;-16,25983182;28,45902657
+63;202T Bicicleta Estática;TUYO HPC;Pza. Iglesia Cueva Bermeja;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,21687842;28,49621642
+64;PF9 Oblic;Novatilu;Río Orinoco;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf;-16,2153461;28,49662911
+65;155B Los Patines;TUYO HPC;Rambla Añaza;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf;-16,29935916;28,42451996
+66;155I El Remo;TUYO HPC;Rambla Añaza;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf;-16,29906589;28,4250792
+67;207T Step & Twist;TUYO HPC;Rambla Añaza;https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf;-16,29872121;28,42601833
+68;202T Bicicleta Estática;TUYO HPC;Rambla Añaza;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,29835869;28,42674127
+69;159J Espaldera;TUYO HPC;P. VIera y Clavijo;https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf;-16,26194971;28,46528836
+70;159J Espaldera;TUYO HPC;P. La Estrella;https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf;-16,30597583;28,42962017
+71;155D Barra estiramientos;TUYO HPC;P. La Estrella;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155D.pdf;-16,30602034;28,4295665
+72;J3709 Barra fija 2 m.;HPC;P. Viera y Clavijo; ;-16,26189316;28,46528215
+73;202T Bicicleta Estática;TUYO HPC;Punta de Anaga;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,30647564;28,43128118
+74;155E Silla Pectorales;TUYO HPC;Punta de Anaga;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf;-16,30624935;28,43147945
+75;155B Los Patines;TUYO HPC;Punta de Anaga;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf;-16,30600705;28,43183255
+76;155I El Remo;TUYO HPC;Pza. Los Dragos;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf;-16,19758182;28,5719245
+77;202T Bicicleta Estática;TUYO HPC;Pza. Los Dragos;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,19756086;28,571924
+78;159J Espaldera;TUYO HPC;Avda. Príncipes de España;https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf;-16,28669695;28,44968416
+79;155E Silla Pectorales;TUYO HPC;Chafira;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf;-16,28950493;28,44608974
+80;154B Esquí de Fondo;TUYO HPC;Chafira;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf;-16,28944026;28,44606897
+81;202T Bicicleta Estática;TUYO HPC;Pza. Nuestra Sra. de las Nieves;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,21694479;28,56100475
+82;155I El Remo;TUYO HPC;Pza. Nuestra Sra. de las Nieves;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf;-16,21695863;28,56100727
+83;155I El Remo;TUYO HPC;Zafiro;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf;-16,28831174;28,45406194
+84;155G Las Ruedas;TUYO HPC;Zafiro;https://www.santacruzdetenerife.es/fileadmin/biosaludables/15GF.pdf;-16,28834001;28,45403419
+85;202T Bicicleta Estática;TUYO HPC;Zafiro;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,28836637;28,45405428
+86;202T Bicicleta Estática;TUYO HPC;Pza. del Rosario;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,27547283;28,45287564
+87;155B Los Patines;TUYO HPC;Pza. del Rosario;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf;-16,27548961;28,45289889
+88;155I El Remo;TUYO HPC;Colegio Afur;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf;-16,24940582;28,55504011
+89;202T Bicicleta Estática;TUYO HPC;Colegio Afur;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,24939835;28,55504319
+90;155E Silla Pectorales;TUYO HPC;Río Guadalete;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf;-16,27653523;28,47365657
+91;155I El Remo;TUYO HPC;Río Guadalete;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf;-16,27655023;28,47369341
+92;155I El Remo;TUYO HPC;Izquierdo Azcárate;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf;-16,27233846;28,45782555
+93;202T Bicicleta Estática;TUYO HPC;Izquierdo Azcárate;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,27229717;28,45782593
+94;202T Bicicleta Estática;TUYO HPC;Paseo Peatonal Las Asuncionistas;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,26241804;28,4664962
+95;155I El Remo;TUYO HPC;Paseo Peatonal Las Asuncionistas;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf;-16,26270084;28,4666122
+96;155H El Jinete;TUYO HPC;Pza. Duggi;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf;-16,25973943;28,46620815
+97;154C Slalom;TUYO HPC;Pza. Duggi;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154C.pdf;-16,25966173;28,46620244
+98;154B Esquí de Fondo;TUYO HPC;Pza. Duggi;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf;-16,25958641;28,46619349
+99;207T Step & Twist;TUYO HPC;Cmo. La Ermita;https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf;-16,26999981;28,47256096
+100;155B Los Patines;TUYO HPC;Cmo. La Ermita;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf;-16,27000171;28,47261775
+101;154B Esquí de Fondo;TUYO HPC;Curva El Arco Iris;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf;-16,28797377;28,44701215
+102;155I El Remo;TUYO HPC;Curva El Arco Iris;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf;-16,2879767;28,4470284
+103;155B Los Patines;TUYO HPC;Avda. Príncipes de España;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155C.pdf;-16,28402111;28,45550963
+104;155E Silla Pectorales;TUYO HPC;Avda. Príncipes de España;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf;-16,28386262;28,45595514
+105;155I El Remo;TUYO HPC;Res. San Pío X;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf;-16,28374374;28,4494528
+106;155H El Jinete;TUYO HPC;Res. San Pío X;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf;-16,28368632;28,44951909
+107;155E Silla Pectorales;TUYO HPC;García Lorca;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf;-16,27083891;28,45725665
+108;154B Esquí de Fondo;TUYO HPC;García Lorca;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf;-16,27082947;28,45717742
+109;202T Bicicleta Estática;TUYO HPC;Poeta Francisco Izquierdo;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,27094571;28,45762562
+110;155D Barra estiramientos;TUYO HPC;Avda. Marítima;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155D.pdf;-16,24809249;28,46308186
+111;155E Silla Pectorales;TUYO HPC;Avda. Marítima;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf;-16,2480835;28,46306733
+112;154B Esquí de Fondo;TUYO HPC;Avda. Marítima;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf;-16,24808931;28,46305013
+113;202T Bicicleta Estática;TUYO HPC;Avda. Marítima;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,24808175;28,46311341
+114;155E Silla Pectorales;TUYO HPC;P. Leoncio Oramas;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf;-16,26994558;28,45913497
+115;202T Bicicleta Estática;TUYO HPC;P. Leoncio Oramas;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,26999435;28,45909984
+116;154B Esquí de Fondo;TUYO HPC;P. Leoncio Oramas;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf;-16,27001954;28,45908056
+117;AE004 Sky Stepper;Parkesa;P. Las Indias; ;-16,27166973;28,46803202
+118;MB001 Big Wheel;Parkesa;P. Las Indias; ;-16,27168022;28,468005
+119;TS002 Power Push;Parkesa;P. Las Indias; ;-16,27169363;28,46797622
+120;AE001 Health Walker;Parkesa;P. Las Indias; ;-16,27170894;28,46794222
+121;RB001 Rowing;Parkesa;P. Las Indias; ;-16,27172329;28,46790995
+122;RB003 Bicycle;Parkesa;P. Las Indias; ;-16,27173666;28,4678777
+123;Barra Dominadas; ;Río Guadalete; ;-16,27656158;28,47371608
+124;154B Esquí de Fondo;TUYO HPC;P. Cuchillitos de Tristán;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf;-16,27691749;28,4564705
+125;154C Slalom;TUYO HPC;P. Cuchillitos de Tristán;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154C.pdf;-16,27693964;28,45639633
+126;159J Espaldera;TUYO HPC;P. Cuchillitos de Tristán;https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf;-16,27694657;28,45636733
+127;155H El Jinete;TUYO HPC;P. Cuchillitos de Tristán;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf;-16,27696546;28,45632427
+128;154D Sube y Baja;TUYO HPC;P. Cuchillitos de Tristán;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154D.pdf;-16,27688352;28,45657051
+129;154D Sube y Baja;TUYO HPC;Maestro Borguño;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154D.pdf;-16,28551685;28,45053913
+130;155I El Remo;TUYO HPC;Maestro Borguño;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf;-16,28545208;28,45053212
+131;202T Bicicleta Estática;TUYO HPC;Juan de Mattos y Azofra;https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf;-16,27345353;28,4575303
+132;154B Esquí de Fondo;TUYO HPC;Juan de Mattos y Azofra;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf;-16,27342584;28,45751448
+133;154G Rueda Grande;TUYO HPC;Camino Los Tarajales;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf;-16,21941123;28,56179421
+134;154G Rueda Grande;TUYO HPC;Pza. Chamorga;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf;-16,15930983;28,5686785
+135;154G Rueda Grande;TUYO HPC;Pza. Taborno;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf;-16,26452124;28,55718109
+136;154G Rueda Grande;TUYO HPC;Ctra. Igueste San Andrés;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf;-16,15710479;28,52899007
+137;154B Esquí de Fondo;TUYO HPC;Pza. San Pedro;https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf;-16,15403068;28,52572703
+138;RB001 Rowing;Parkesa;Punta de Anaga; ;-16,31098696;28,42576204
+139;PF9 Oblic;Novatilu;Pza. Miguel Díaz;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf;-16,18878188;28,5121808
+140;PF6 Step;Novatilu;Pza. Miguel Díaz;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf;-16,18880642;28,51217757
+141;PF26 Pulse;Novatilu;Pza. Miguel Díaz;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf;-16,18877409;28,51215555
+142;PF6 Step;Novatilu;Pza. Taborno;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf;-16,26452119;28,55713019
+143;PF9 Oblic;Novatilu;Pza. San José;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf;-16,33360861;28,42506966
+144;PF8 Row;Novatilu;Frangollo;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf;-16,3293547;28,44736467
+145;PF1 HIP;Novatilu;Frangollo;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf;-16,32938426;28,44754687
+146;PF13 Bike;Novatilu;Pza. El Rosarito;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf;-16,3015442;28,44054758
+147;PF1 HIP;Novatilu;Pza. El Rosarito;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf;-16,3015184;28,44052974
+148;PF9 Oblic;Novatilu;Rambla Añaza;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf;-16,2988711;28,4255297
+149;PF1 HIP;Novatilu;Rambla Añaza;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf;-16,29960129;28,42381528
+150;PF3 Torax;Novatilu;Chirama;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf;-16,30744204;28,42647205
+151;PF8 Row;Novatilu;Chirama;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf;-16,30744889;28,4265363
+152;PF9 Oblic;Novatilu;Los Estudiantes;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf;-16,3044073;28,44517644
+153;JSA006 Climber;Fundiciones Benito;Panamá;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf;-16,26645904;28,45549446
+154;JSA008 Remo;Fundiciones Benito;Panamá;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA008.pdf;-16,26643214;28,45547897
+155;JSA018 Bicicleta;Fundiciones Benito;Panamá;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf;-16,2664102;28,45546431
+156;JSA003 Silla Pectorales;Fundiciones Benito;Pza. Beneharo;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf;-16,28343478;28,45127989
+157;JSA006 Climber;Fundiciones Benito;Pza. Beneharo;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf;-16,28344765;28,45125295
+158;PF8 Row;Novatilu;Ctra. Los Campitos;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf;-16,26341544;28,48622643
+159;155I El Remo;TUYO HPC;Ctra. Los Campitos;https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf;-16,26338643;28,48625406
+160;PF13 Bike;Novatilu;Tadorna;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf;-16,30806777;28,43704871
+161;PF9 Oblic;Novatilu;Tadorna;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf;-16,30813497;28,43699089
+162;JSA 003 Pectorales adap;Fundiciones Benito;Tadorna;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003D.pdf;-16,30800823;28,43707215
+163;JSA 019 Manivelas adap;Fundiciones Benito;Rambla Añaza;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf;-16,29849057;28,42658179
+164;JSA 018 Bicicleta adap;Fundiciones Benito;Rambla Añaza;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf;-16,2985557;28,4262661
+165;JSA 009 Timón adap;Fundiciones Benito;Rambla Añaza;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009D.pdf;-16,29922068;28,42486059
+166;JSA 018 Bicicleta adap;Fundiciones Benito;Avda. Los Majuelos;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf;-16,31205759;28,44303199
+167;JSA 019 Manivelas adap;Fundiciones Benito;Avda. Los Majuelos;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf;-16,31369347;28,44206476
+168;JSA 003 Pectorales adap;Fundiciones Benito;Avda. Los Majuelos;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003D.pdf;-16,31259542;28,44271501
+169;PF13 Bike;Novatilu;Pza. Nuestra Sra. de la Merced;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf;-16,30541431;28,43553424
+170;PF3 Torax;Novatilu;Pza. Nuestra Sra. de la Merced;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf;-16,30538529;28,43555924
+171;PF3 Torax;Novatilu;Agana;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf;-16,30652728;28,42501437
+172;PF6 Step;Novatilu;Agana;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf;-16,30653669;28,42504001
+173;PF1 HIP;Novatilu;Eladio Roca y Salazar;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf;-16,275629;28,46593142
+174;PF3 Torax;Novatilu;Eladio Roca y Salazar;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf;-16,27565145;28,46590709
+175;PF13 Bike;Novatilu;Eladio Roca y Salazar;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf;-16,27566999;28,46593586
+176;PF8 Row;Novatilu;Eladio Roca y Salazar;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf;-16,27568969;28,46590914
+177;PF4 Up;Novatilu;Eladio Roca y Salazar;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF4.pdf;-16,27570824;28,46593871
+178;PF6 Step;Novatilu;Pza. Manuel Castañeda;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf;-16,26558281;28,45730176
+179;PF8 Row;Novatilu;Pza. Manuel Castañeda;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf;-16,26560817;28,45731177
+180;PF1 HIP;Novatilu;Pza. Manuel Castañeda;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf;-16,26563354;28,45732179
+181;PF10 Pull;Novatilu;Pza. Manuel Castañeda;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF01.pdf;-16,26566889;28,45731121
+182;PF4 Up;Novatilu;Pza. Manuel Castañeda;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF4.pdf;-16,26568981;28,45729172
+183;PF26 Pulse;Novatilu;Pza. Manuel Castañeda;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf;-16,26570258;28,45727592
+184;PF26 Pulse;Novatilu;Eladio Roca y Salazar;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf;-16,27560779;28,46591181
+185;PF31 Barras Paralelas;Novatilu;Avda. Nuestra Sra. del Carmen;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF31.pdf;-16,23848612;28,48944637
+186;PF26 Pulse;Novatilu;Avda. Nuestra Sra. del Carmen;https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf;-16,23848946;28,48942554
+187;JSA018 Bicicleta adaptada;Fundiciones Benito;Avda. Francisco La Roche;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf;-16,24544198;28,47672348
+188;JSA003 Silla Pectorales;Fundiciones Benito;Avda. Francisco La Roche;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf;-16,24591105;28,47617676
+189;JSA019 Bíceps;Fundiciones Benito;Avda. Francisco La Roche;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf;-16,24606456;28,47595275
+190;JSA006 Climber;Fundiciones Benito;Hermanos Maffiotte;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf;-16,27584959;28,45474041
+191;JSA003 Silla Pectorales;Fundiciones Benito;Hermanos Maffiotte;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf;-16,27580568;28,45472966
+192;JSA001 Waist;Fundiciones Benito;Hermanos Maffiotte;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf;-16,27582637;28,45469971
+193;JSA003 Silla Pectorales;Fundiciones Benito;Magec;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf;-16,28181789;28,44882226
+194;JSA006 Climber;Fundiciones Benito;Magec;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf;-16,28185206;28,4488431
+195;JSA001 Waist;Fundiciones Benito;Magec;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf;-16,28188173;28,44882166
+196;JSA006 Climber;Fundiciones Benito;Pza. Cheo;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf;-16,27969153;28,45272159
+197;JSA003 Silla Pectorales;Fundiciones Benito;Pza. Cheo;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf;-16,27974353;28,45273168
+198;JSA001 Waist;Fundiciones Benito;Pza. Cheo;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf;-16,27986667;28,45251712
+199;JCIR06  Barras Paralelas;Fundiciones Benito;San Juan de la Rambla;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR06.pdf;-16,27642711;28,46989804
+200;JSA006 Climber;Fundiciones Benito;Pza. La Victoria;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf;-16,25995687;28,45895638
+201;JSA018 Bicicleta;Fundiciones Benito;Pza. Concha Castro;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf;-16,27765293;28,47388393
+202;JSA018 Bicicleta adaptada;Fundiciones Benito;Pza. Concha Castro;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf;-16,27763713;28,47390877
+203;JSA005 Rueda;Fundiciones Benito;Pza. Concha Castro;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA005.pdf;-16,27761048;28,47389898
+204;JSA009 Timón;Fundiciones Benito;Pza. Concha Castro;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009.pdf;-16,27762434;28,47386997
+205;JCIR07 Pulse;Fundiciones Benito;San Juan de la Rambla;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf;-16,27648594;28,46993585
+206;JCIR07 Pulse;Fundiciones Benito;Pza. Francisco Hernández Barroso;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf;-16,26677115;28,47052333
+207;JSA004 Barras;Fundiciones Benito;Pza. Francisco Hernández Barroso;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA004.pdf;-16,26673835;28,4705028
+208;JCIR07 Pulse;Fundiciones Benito;P. Secundino Delgado;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf;-16,26311353;28,47133236
+209;JSA004 Barras;Fundiciones Benito;P. Secundino Delgado;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA004.pdf;-16,26313903;28,47129509
+210;JSA018 Bicicleta;Fundiciones Benito;Pza. Anaga;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf;-16,2444121;28,48038521
+211;JSA008 Remo;Fundiciones Benito;Pza. Anaga;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA008.pdf;-16,24436018;28,48038393
+212;JSA001 Cintura;Fundiciones Benito;Pza. Anaga;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf;-16,24435751;28,48032575
+213;JSA009 Timón;Fundiciones Benito;Avda. Reyes Católicos;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009.pdf;-16,26336605;28,46199418
+214;JSA018 Bicicleta adaptada;Fundiciones Benito;Avda. Reyes Católicos;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf;-16,2636143;28,46111019
+215;JSA019 Bíceps;Fundiciones Benito;Avda. Reyes Católicos;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf;-16,26367223;28,46090385
+216;JCIR07 Pulse;Fundiciones Benito;Ctra. El Bailadero;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf;-16,23366197;28,53714614
+217;JSA006 Climber;Fundiciones Benito;Ctra. El Bailadero;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf;-16,23363501;28,53712388
+218;JCIR07 Pulse;Fundiciones Benito;San Antonio (Taganana);https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf;-16,21826326;28,56226892
+219;JSA006 Climber;Fundiciones Benito;San Antonio (Taganana);https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf;-16,21822762;28,56226638
+220;JSA009 Timón;Fundiciones Benito;Andrómeda;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009.pdf;-16,244741;28,48353117
+221;JSA018 Bicicleta;Fundiciones Benito;Andrómeda;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf;-16,2445641;28,48334413
+222;JCIR03 Espaldera;Fundiciones Benito;Avda. Nuestra Sra. del Carmen;https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR03.pdf;-16,23847333;28,4894499
