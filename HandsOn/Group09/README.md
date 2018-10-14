@@ -4,6 +4,17 @@ Junjie Li - jjlii
 Alejandro Cobo Cabornero - Alejandro-Cobo
 Ignacio Ballesteros González - ignaciobll
 
+# License
+
+This datasets can be used for commercial and non-commercial activities.
+
+- We must cite our sources.
+- We must specify the date of the last update in the dataset used.
+
+Further description and full conditions are available at:
+
+https://datos.madrid.es/portal/site/egob/menuitem.3efdb29b813ad8241e830cc2a8a409a0/?vgnextoid=108804d4aab90410VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default
+
 
 # Dataset analysis
 
