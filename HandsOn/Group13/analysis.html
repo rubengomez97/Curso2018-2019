@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<title> Hands-on GROUP-13 Zonas SER. Distintivos y Parquimetros </title>
+	</head>
+	<body style="margin:20px">
+		<h1> Analisis del Dataset </h1> <br>
+		<h2> Zonas SER. Distintivos y Parquimetros </h2> <br>
+		<div class="row">
+		<div class="col-md-6">Nombre de los Dataset: 
+		<ul>
+			<li>Plazas_SER_2018.csv</li>
+			<li>Listado_Plazas_SER_2018.csv</li>
+			<li>Parquimetros_2018.csv</li>
+		</ul> </div>
+		<div class="col-md-6"> Enlace al dataset: <a href="http://datos.gob.es/es/catalogo/l01280796-zonas-ser-distintivos-y-parquimetros"> Resource</a></div>
+	</div><br>
+
+<p>Parquimetros_2018</p>
+		<table class="table table-striped">
+			<thead>
+    <tr>
+      <th scope="col">Nombre del campo a analizar</th>
+      <th scope="col">Tipo del dato</th>
+      <th scope="col">Intervalo</th>
+      <th scope="col">Comentario</th>
+       <th scope="col">Problemas</th>
+    </tr>
+</thead>
+	<tbody>
+		<tr>
+		 <th scope="row">GIS_X</th>
+		 <td>Coordenada [float]</td>
+      	 <td>[437514,9048 - 443944,5168]</td>
+      	 <td>Identifica la longitud</td>
+      	 <td>Ninguno</td>
+		</tr>
+		<tr>
+		 <th scope="row">GIS_Y</th>
+		 <td>Coordenadas [float]</td>
+      	 <td>[4470587,046 - 4482253,148]</td>
+      	 <td>Identifica la latitud</td>
+      	 <td>Ninguno</td>
+		</tr>
+		<tr>
+		 <th scope="row">Fecha de Alta</th>
+		 <td>tipo date [dd/mm/YYYY]</td>
+      	 <td>[26/04/2014 - 05/06/2017]</td>
+      	 <td>Identifica la fecha cuando se activo el parquimetro</td>
+      	 <td>Ninguno</td>
+		</tr>
+		<tr>
+		 <th scope="row">Distrito</th>
+		 <td>String</td>
+      	 <td></td>
+      	 <td>Identifica el numero y nombre del distrito</td>
+      	 <td>Ninguno</td>
+		</tr>
+		<tr>
+		 <th scope="row">Barrio</th>
+		 <td>String</td>
+      	 <td></td>
+      	 <td>Identifica el barrio</td>
+      	 <td>Ninguno</td>
+		</tr>
+		<tr>
+		 <th scope="row">Calle</th>
+		 <td>String</td>
+      	 <td></td>
+      	 <td>Identifica la calle</td>
+      	 <td>Ninguno</td>
+		</tr>
+		<tr>
+		 <th scope="row">Nº de finca</th>
+		 <td>Entero</td>
+      	 <td></td>
+      	 <td>Identifica el numero de la finca</td>
+      	 <td>En algunos casos hay disparidad en el formato</td>
+		</tr>
+		<tr>
+		 <th scope="row">Matricula</th>
+		 <td>big int</td>
+      	 <td></td>
+      	 <td>identifica la matricula del parquimetro</td>
+      	 <td>Ninguno</td>
+		</tr>
+	</tbody>
+		</table>
+
+<br>
+
+<p>Listado_Plazas_SER_2018</p>
+		<table class="table table-striped">
+			<thead>
+    <tr>
+      <th scope="col">Nombre del campo a analizar</th>
+      <th scope="col">Tipo del dato</th>
+      <th scope="col">Intervalo</th>
+      <th scope="col">Comentario</th>
+       <th scope="col">Problemas</th>
+    </tr>
+</thead>
+	<tbody>
+		<tr>
+		 <th scope="row">Color</th>
+		 <td>String</td>
+      	 <td>[Verde, Naranja, Azul]</td>
+      	 <td>identifica el tipo de plaza de aparcamiento</td>
+      	 <td>Ninguno</td>
+		</tr>
+		<tr>
+		 <th scope="row">Bateria/En linea</th>
+		 <td>String</td>
+      	 <td>[Bateria, En Linea]</td>
+      	 <td>identifica la posicion de plaza</td>
+      	 <td>Ninguno</td>
+		</tr>
+		<tr>
+		 <th scope="row">Numero de plazas</th>
+		 <td>Entero</td>
+      	 <td>[0-xxx]</td>
+      	 <td>identifica el numero de plazas que existen en dicha localizacion</td>
+      	 <td>ninguno</td>
+		</tr>
+		
+	</tbody>
+
+
+		</table>
+
+		<br>
+
+<p>Plazas_SER_2018</p>
+
+		<table class="table table-striped">
+			<thead>
+    <tr>
+      <th scope="col">Nombre del campo a analizar</th>
+      <th scope="col">Tipo del dato</th>
+      <th scope="col">Intervalo</th>
+      <th scope="col">Comentario</th>
+       <th scope="col">Problemas</th>
+    </tr>
+</thead>
+	<tbody>
+		<tr>
+		 <th scope="row">Nº de plazas por color</th>
+		 <td>int</td>
+      	 <td>[0-xxxx]</td>
+      	 <td>Identifica el numero de plazas por color</td>
+      	 <td>ninguno</td>
+		</tr>
+		<tr>
+		 <th scope="row">Nº de plazas por barrio</th>
+		 <td>int</td>
+      	 <td>[0-xxx]</td>
+      	 <td>Identifica el numero de plazas por barrio</td>
+      	 <td>ninguno</td>
+		</tr>
+		
+	</tbody>
+
+
+		</table>
+
+		<br>
+
+		<h1> Analisis de la licencia de los datos </h1> <br>
+		<h2> Zonas SER. Distintivos y Parquimetros </h2> <br>
+		 Enlace al csv <a href="https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=4973b0dd4a872510VgnVCM1000000b205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default"> Resource</a></div>
+	<br>
+<br>
+<ul>
+<li>	<p>La licencia de los datos la proporciona el ayuntamiento de Madrid, aclarando que es reutilizable para fines comerciales y no comerciales:<br>
+		<em>Las condiciones generales permiten la reutilización de los documentos para fines comerciales y no comerciales</em></p>
+	</li>
+	<li>
+	<p>Establece la unica limitacion y su retriccion en uso de actividad publica: <br>
+		<em>siempre que dicho uso no constituya una actividad administrativa pública.</em></p>
+	</li>
+
+	<ul><p> Se establecen 4 condiciones para poder reutilizarse: </p>
+     <li><b> 1. Condiciones generales para la modalidad general de puesta a disposición de los documentos reutilizables del Ayuntamiento de Madrid </li></b>
+     <p> Este apartado nos indica que podremos hacer uso de estos datos siempre que nombremos o citemos la procedencia de dichos datos y la actualizacion de ellos. No se podra indicar la colaboracion del ayuntamiento y no se podran modificar</p>
+
+     <li><b> 2. Condiciones reutilización de la información de Catálogo y Préstamos de Bibliotecas Públicas de Madrid </b></li></b>
+     <p> Debera citarse la fuente de la siguiente manera: <em>Origen de los datos: Comunidad de Madrid  y Ayuntamiento de Madrid, pero solo en caso de incluir el docuemnto original en el trabajo o proyecto realizado, en caso de no usar más que ciertos datos no es necesario indicar la procedencia de los datos.</em></p>
+
+   <li><b> 3. Condiciones reutilización de la información de la Empresa Municipal de Transportes (EMT)</b></li></b>
+     <p> Al disponerse datos de la EMT para no dañar su imagen no se podra maodificar dichos datos.</p>
+
+     <li><b> 4. Condiciones reutilización información Madrid Destino </b></li></b>
+     <p>Al tener datos de Madrid Destino, se necesita dicha licencia, el uso de datos es libre para fines comerciales y no comerciales excepto en imagenes que no esta permitido</p>
+	
+	
+</ul>
+</ul>
+
+<br>
+
+<h1>Analisis de la terminologia del dataset</h1> <br>
+		<h2> Zonas SER. Distintivos y Parquimetros </h2> <br>
+
+		<p> En función de los conocimientos adquiridos durante las clases teoricas y diapositivas de la asignatura, nombraremos al dataset y sus correspondientes parametros segun estos estandares, ya vistos y que se utilizan en la gran mayoria de conjuntos de datos abiertos</p>
+
+
+		<h3> Terminologia usada </h3>
+    <ul>
+      <li> Dominio:  http://www.aparcamientos-SER.org </li>
+      <li>Términos ontológicos:  http://www.aparcamientos-SER.org/p1/g3/ontology </li>
+      <li>Patrones individuales: http://www.aparcamientos-SER.org/p1/g3/resource/ </li>
+    </ul>
+
+     <div class="footer-copyright text-center py-3">Web Semantica/ Linked Data <br>
+     	Juan Chilavert, Juan Vicente Ramos, Miguel Cerezo , Borja Marazuela, Mariano Blanco 
+    </div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+</html>
