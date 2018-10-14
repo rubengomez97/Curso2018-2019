@@ -1,0 +1,147 @@
+@prefix : <http://www.semanticweb.org/handson/grp16/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/handson/grp16/> .
+
+
+<http://www.semanticweb.org/handson/grp16/> rdf:type owl:Ontology ;
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/handson/grp16/Barrio
+:Barrio rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/handson/grp16/Calle
+:Calle rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/handson/grp16/Distrito
+:Distrito rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/handson/grp16/Direccion
+:Direccion rdf:type owl:Class .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+
+
+###  http://www.semanticweb.org/handson/grp16/estaEnDistrito
+:estaEnBarrio rdf:type owl:ObjectProperty ;
+              rdfs:domain :Barrio ;
+			  rdfs:range :Distrito .
+			  
+
+
+###  http://www.semanticweb.org/handson/grp16/estaEnBarrio
+:estaEnBarrio rdf:type owl:ObjectProperty ;
+              rdfs:domain :Distrito ;
+			  rdfs:range :Barrio .
+			  			  
+
+
+###  http://www.semanticweb.org/handson/grp16/calleEnBarrio
+:calleEnBarrio rdf:type owl:ObjectProperty ;
+               rdfs:domain :Calle ;
+			   rdfs:range :Barrio .
+			  			  
+
+
+###  http://www.semanticweb.org/handson/grp16/calleEnDistrito
+:calleEnDistrito rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Calle ;
+			     rdfs:range :Distrito .
+			  			  
+
+
+###  http://www.semanticweb.org/handson/grp16/direccionEnCalle
+:direccionEnCalle rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Direccion ;
+			      rdfs:range :Calle .			  
+			  
+
+###  http://www.semanticweb.org/handson/grp16/comienzoDeCalle
+:comienzoDeCalle rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Calle ;
+			      rdfs:range :Calle .
+
+
+###  http://www.semanticweb.org/handson/grp16/finDeCalle
+:finDeCalle rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Calle ;
+			      rdfs:range :Calle .				  
+			  
+
+
+#################################################################
+#    Data properties
+#################################################################			  
+
+### http://www.semanticweb.org/handson/grp16/esCalleTranquila
+:esCalleTranquila rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Calle ;
+			      rdfs:range xsd:boolean .
+					
+							
+###  http://www.semanticweb.org/handson/grp16/tieneNombreDeVia
+:tieneNombreDeVia rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Direccion ;
+			      rdfs:range xsd:string .
+					
+					
+###  http://www.semanticweb.org/handson/grp16/tieneNombreDeVia
+:tieneNombreDeVia rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Direccion ;
+				  rdfs:range xsd:string .						
+					
+					
+###  http://www.semanticweb.org/handson/grp16/tieneCP
+:tieneCP          rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Direccion ;
+				  rdfs:range xsd:integer .
+				  					
+					
+###  http://www.semanticweb.org/handson/grp16/tieneNumeroDireccion
+:tieneNumeroDireccion rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :Direccion ;
+				      rdfs:range xsd:integer .
+						  					
+					
+###  http://www.semanticweb.org/handson/grp16/esTipoDeDireccion
+:esTipoDeDireccion    rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :Direccion ;
+				      rdfs:range xsd: string.
+					  
+					  
+###  http://www.semanticweb.org/handson/grp16/tieneLatitud
+:tieneLatitud        rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Direccion ;
+				     rdfs:range xsd: float.
+					 					  
+					  
+###  http://www.semanticweb.org/handson/grp16/tieneLongitud
+:tieneLongitud       rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Direccion ;
+				     rdfs:range xsd: float.
+					 
+					 
+###  http://www.fiupmwsld.org/handson/group17/tieneTipoCalle
+:tieneTipoCalle rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Calle ;
+                rdfs:range xsd:string .					 
+					 
+					  
+					  			  
+					  
