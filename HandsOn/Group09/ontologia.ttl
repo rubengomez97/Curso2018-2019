@@ -1,0 +1,209 @@
+@prefix : <http://group09.data/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://group09.data/> .
+
+<http://group09.data/> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://group09.data/hasMeasurement
+:hasMeasurement rdf:type owl:ObjectProperty ;
+                rdfs:domain :AirStation ,
+                            :NoiseStation ;
+                rdfs:range :AirMeasurement ,
+                           :NoiseMeasurement .
+
+
+###  http://group09.data/hasMunicipio
+:hasMunicipio rdf:type owl:ObjectProperty ;
+              rdfs:domain :Province ;
+              rdfs:range :Municipio .
+
+
+###  http://group09.data/hasPuntoMuestreo
+:hasPuntoMuestreo rdf:type owl:ObjectProperty ;
+                  rdfs:domain :AirStation ;
+                  rdfs:range :PuntoDeMuestreo .
+
+
+###  http://group09.data/isPlacedOn
+:isPlacedOn rdf:type owl:ObjectProperty ;
+            rdfs:domain :AirStation ,
+                        :NoiseStation ;
+            rdfs:range :Province ,
+                       :Situation .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://group09.data/LAS01
+:LAS01 rdf:type owl:DatatypeProperty ;
+       rdfs:domain :NoiseMeasurement ;
+       rdfs:range xsd:integer .
+
+
+###  http://group09.data/LAS10
+:LAS10 rdf:type owl:DatatypeProperty ;
+       rdfs:domain :NoiseMeasurement ;
+       rdfs:range xsd:integer .
+
+
+###  http://group09.data/LAS50
+:LAS50 rdf:type owl:DatatypeProperty ;
+       rdfs:domain :NoiseMeasurement ;
+       rdfs:range xsd:integer .
+
+
+###  http://group09.data/LAS90
+:LAS90 rdf:type owl:DatatypeProperty ;
+       rdfs:domain :NoiseMeasurement ;
+       rdfs:range xsd:integer .
+
+
+###  http://group09.data/LAS99
+:LAS99 rdf:type owl:DatatypeProperty ;
+       rdfs:domain :NoiseMeasurement ;
+       rdfs:range xsd:integer .
+
+
+###  http://group09.data/LAeq24
+:LAeq24 rdf:type owl:DatatypeProperty ;
+        rdfs:domain :NoiseMeasurement ;
+        rdfs:range xsd:integer .
+
+
+###  http://group09.data/Ld
+:Ld rdf:type owl:DatatypeProperty ;
+    rdfs:domain :NoiseMeasurement ;
+    rdfs:range xsd:integer .
+
+
+###  http://group09.data/Le
+:Le rdf:type owl:DatatypeProperty ;
+    rdfs:domain :NoiseMeasurement ;
+    rdfs:range xsd:integer .
+
+
+###  http://group09.data/Ln
+:Ln rdf:type owl:DatatypeProperty ;
+    rdfs:domain :NoiseMeasurement ;
+    rdfs:range xsd:integer .
+
+
+###  http://group09.data/code
+:code rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Station ;
+      rdfs:range xsd:integer .
+
+
+###  http://group09.data/dayair
+:dayair rdf:type owl:DatatypeProperty ;
+        rdfs:domain :AirMeasurement ;
+        rdfs:range xsd:integer .
+
+
+###  http://group09.data/hourair
+:hourair rdf:type owl:DatatypeProperty ;
+         rdfs:domain :AirMeasurement ;
+         rdfs:range xsd:integer .
+
+
+###  http://group09.data/monthair
+:monthair rdf:type owl:DatatypeProperty ;
+          rdfs:domain :AirMeasurement ;
+          rdfs:range xsd:integer .
+
+
+###  http://group09.data/muestreocode
+:muestreocode rdf:type owl:DatatypeProperty ;
+              rdfs:domain :PuntoDeMuestreo ;
+              rdfs:range xsd:string .
+
+
+###  http://group09.data/muncode
+:muncode rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Municipio ;
+         rdfs:range xsd:integer .
+
+
+###  http://group09.data/noisedate
+:noisedate rdf:type owl:DatatypeProperty ;
+           rdfs:domain :NoiseMeasurement ;
+           rdfs:range xsd:string .
+
+
+###  http://group09.data/provcode
+:provcode rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Province ;
+          rdfs:range xsd:integer .
+
+
+###  http://group09.data/valueair
+:valueair rdf:type owl:DatatypeProperty ;
+          rdfs:domain :AirMeasurement ;
+          rdfs:range xsd:string .
+
+
+###  http://group09.data/valuesituation
+:valuesituation rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Situation ;
+                rdfs:range xsd:string .
+
+
+###  http://group09.data/yearair
+:yearair rdf:type owl:DatatypeProperty ;
+         rdfs:domain :AirMeasurement ;
+         rdfs:range xsd:integer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://group09.data/AirMeasurement
+:AirMeasurement rdf:type owl:Class .
+
+
+###  http://group09.data/AirStation
+:AirStation rdf:type owl:Class ;
+            rdfs:subClassOf :Station .
+
+
+###  http://group09.data/Municipio
+:Municipio rdf:type owl:Class .
+
+
+###  http://group09.data/NoiseMeasurement
+:NoiseMeasurement rdf:type owl:Class .
+
+
+###  http://group09.data/NoiseStation
+:NoiseStation rdf:type owl:Class ;
+              rdfs:subClassOf :Station .
+
+
+###  http://group09.data/Province
+:Province rdf:type owl:Class .
+
+
+###  http://group09.data/PuntoDeMuestreo
+:PuntoDeMuestreo rdf:type owl:Class .
+
+
+###  http://group09.data/Situation
+:Situation rdf:type owl:Class .
+
+
+###  http://group09.data/Station
+:Station rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi
