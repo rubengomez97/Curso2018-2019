@@ -5,7 +5,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix Group03: <http://BiciMAD.es/Group03/> .
-@base <http://BiciMAD.es/ontology#>  .
+@base <http://BiciMAD.es/Group03/ontology#>  .
 
 <http://BiciMAD.es/Group03/ontology#>  rdf:type owl:Ontology .
 
@@ -43,7 +43,7 @@ Group03:id rdf:type owl:ObjectProperty ;
          rdfs:domain :Barrio ;
          rdfs:range xsd:int.
 
-###  http://www.semanticweb.org/Group03/ontology#hasAddress
+###  http://www.BiciMAD.es/Group03/ontology#hasAddress
 :hasAddress rdf:type owl:DatatypeProperty ;
          rdfs:domain :Barrio ;
          rdfs:range xsd:string .
