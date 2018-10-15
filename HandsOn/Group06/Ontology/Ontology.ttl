@@ -12,115 +12,105 @@
 #    Data properties
 #################################################################
 
-###  http://www.wifipointsmad.org/group06/address
-:address rdf:type owl:DatatypeProperty ;
-         rdfs:domain :Wifipoint .
-
-
-###  http://www.wifipointsmad.org/group06/city
+###  http://www.wifipointsmad.org/grupo06/city
 :city rdf:type owl:DatatypeProperty ;
-      rdfs:subPropertyOf :address ;
+      rdfs:domain :Address ;
       rdfs:range xsd:string .
 
 
-###  http://www.wifipointsmad.org/group06/content-url
+###  http://www.wifipointsmad.org/grupo06/content-url
 :content-url rdf:type owl:DatatypeProperty ;
              rdfs:domain :Wifipoint ;
              rdfs:range xsd:anyURI .
 
 
-###  http://www.wifipointsmad.org/group06/coordenates
-:coordenates rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Wifipoint .
-
-
-###  http://www.wifipointsmad.org/group06/description
+###  http://www.wifipointsmad.org/grupo06/description
 :description rdf:type owl:DatatypeProperty ;
              rdfs:domain :Wifipoint ;
              rdfs:range xsd:string .
 
 
-###  http://www.wifipointsmad.org/group06/disctrict
+###  http://www.wifipointsmad.org/grupo06/disctrict
 :disctrict rdf:type owl:DatatypeProperty ;
-           rdfs:subPropertyOf :address ;
+           rdfs:domain :Address ;
            rdfs:range xsd:string .
 
 
-###  http://www.wifipointsmad.org/group06/email
+###  http://www.wifipointsmad.org/grupo06/email
 :email rdf:type owl:DatatypeProperty ;
        rdfs:domain :Wifipoint ;
        rdfs:range xsd:string .
 
 
-###  http://www.wifipointsmad.org/group06/equipment
+###  http://www.wifipointsmad.org/grupo06/equipment
 :equipment rdf:type owl:DatatypeProperty ;
            rdfs:domain :Wifipoint ;
            rdfs:range xsd:string .
 
 
-###  http://www.wifipointsmad.org/group06/fax
+###  http://www.wifipointsmad.org/grupo06/fax
 :fax rdf:type owl:DatatypeProperty ;
      rdfs:domain :Wifipoint ;
      rdfs:range xsd:integer .
 
 
-###  http://www.wifipointsmad.org/group06/id
+###  http://www.wifipointsmad.org/grupo06/id
 :id rdf:type owl:DatatypeProperty ;
     rdfs:domain :Wifipoint ;
     rdfs:range xsd:integer .
 
 
-###  http://www.wifipointsmad.org/group06/latitude
+###  http://www.wifipointsmad.org/grupo06/latitude
 :latitude rdf:type owl:DatatypeProperty ;
-          rdfs:subPropertyOf :coordenates ;
+          rdfs:domain :Coordenates ;
           rdfs:range xsd:double .
 
 
-###  http://www.wifipointsmad.org/group06/longitude
+###  http://www.wifipointsmad.org/grupo06/longitude
 :longitude rdf:type owl:DatatypeProperty ;
-           rdfs:subPropertyOf :coordenates ;
+           rdfs:domain :Coordenates ;
            rdfs:range xsd:double .
 
 
-###  http://www.wifipointsmad.org/group06/name
+###  http://www.wifipointsmad.org/grupo06/name
 :name rdf:type owl:DatatypeProperty ;
       rdfs:domain :Wifipoint ;
       rdfs:range xsd:string .
 
 
-###  http://www.wifipointsmad.org/group06/number
+###  http://www.wifipointsmad.org/grupo06/number
 :number rdf:type owl:DatatypeProperty ;
-        rdfs:subPropertyOf :address ;
+        rdfs:domain :Address ;
         rdfs:range xsd:integer .
 
 
-###  http://www.wifipointsmad.org/group06/phone
+###  http://www.wifipointsmad.org/grupo06/phone
 :phone rdf:type owl:DatatypeProperty ;
        rdfs:domain :Wifipoint ;
        rdfs:range xsd:integer .
 
 
-###  http://www.wifipointsmad.org/group06/postal-code
+###  http://www.wifipointsmad.org/grupo06/postal-code
 :postal-code rdf:type owl:DatatypeProperty ;
-             rdfs:subPropertyOf :address ;
+             rdfs:domain :Address ;
              rdfs:range xsd:integer .
 
 
-###  http://www.wifipointsmad.org/group06/public-transport
+###  http://www.wifipointsmad.org/grupo06/public-transport
 :public-transport rdf:type owl:DatatypeProperty ;
                   rdfs:domain :Wifipoint ;
                   rdfs:range xsd:string .
 
 
-###  http://www.wifipointsmad.org/group06/schedule
+###  http://www.wifipointsmad.org/grupo06/schedule
 :schedule rdf:type owl:DatatypeProperty ;
           rdfs:domain :Wifipoint ;
           rdfs:range xsd:string .
 
 
-###  http://www.wifipointsmad.org/group06/street
+###  http://www.wifipointsmad.org/grupo06/street
 :street rdf:type owl:DatatypeProperty ;
-        rdfs:subPropertyOf :address ;
+        rdfs:domain :Address ;
         rdfs:range xsd:string .
 
 
@@ -128,7 +118,15 @@
 #    Classes
 #################################################################
 
-###  http://www.wifipointsmad.org/group06/Wifipoint
+###  http://www.wifipointsmad.org/group06/Address
+:Address rdf:type owl:Class .
+
+
+###  http://www.wifipointsmad.org/group06/Coordenates
+:Coordenates rdf:type owl:Class .
+
+
+###  http://www.wifipointsmad.org/grupo06/Wifipoint
 :Wifipoint rdf:type owl:Class .
 
 
