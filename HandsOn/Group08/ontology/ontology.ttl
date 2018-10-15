@@ -1,73 +1,159 @@
-@prefix :       <http://www.semanticweb.org/accidentes#>
-@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix owl:    <http://www.w3.org/2002/07/owl#> .
-@prefix xml:    <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema: <http://schema.org/> .
+@prefix : <http://www.semanticweb.org/accidentes#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/accidentes> .
 
 <http://www.semanticweb.org/accidentes> rdf:type owl:Ontology .
 
-:Accidente   :hasDate              :Fecha ,
-             :hasHourRange         :RangoHorario ,
-             :hasDistrict          :Distrito ,
-             :hasPlace             :Lugar ,
-             :hasNumberOfAccidents :NoAccidentes ,
-             :hasVictimNumber      :NoVictimas ,
-             :hasAccidentType      :TipoAccidente ,
-             :hasSex               :Sexo ,
-             :hasAgeRange          :TramoEdad .
+#################################################################
+#    Object Properties
+#################################################################
 
-:RangoHorario :hasStartHour "00:00"^^xsd.hour ,
-              :hasEndHour   "23:00"^^xsd.hour .
+###  http://www.semanticweb.org/accidentes#hasAge
+:hasAge rdf:type owl:ObjectProperty ;
+        rdfs:domain :Accident ;
+        rdfs:range :RangeAge .
 
-:TramoEdad :hasStartAge "18"^^xsd.integer ,
-           :hasEndAge   "50"^^xsd.integer .
 
-# Classes
-:Fecha rdf:type owl:Class .
-:RangoHorario rdf:type owl:Class .
-:Distrito rdf:type owl:Class .
-:Lugar rdf:type owl:Class .
-:NoAccidentes rdf:type owl:Class .
-:NoVictimas rdf:type owl:Class .
-:TipoAccidente rdf:type owl:Class .
-:Sexo rdf:type owl:Class .
-:TramoEdad rdf:type owl:Class .
+###  http://www.semanticweb.org/accidentes#hasDate
+:hasDate rdf:type owl:ObjectProperty ;
+         rdfs:domain :Accident ;
+         rdfs:range :Date .
 
-# Conexiones
-:hasDate rdf:type owl:DatatypeProperty ;
-               rdfs:domain :accidentes ;
-               rdfs:range :Fecha .
 
-:hasHourRange rdf:type owl:ObjectProperty ;
-               rdfs:domain :accidentes ;
-               rdfs:range :RangoHorario .
-
+###  http://www.semanticweb.org/accidentes#hasDistrict
 :hasDistrict rdf:type owl:ObjectProperty ;
-               rdfs:domain :accidentes ;
-               rdfs:range :Distrito .
+             rdfs:domain :Accident ;
+             rdfs:range :Distric .
 
+
+###  http://www.semanticweb.org/accidentes#hasGender
+:hasGender rdf:type owl:ObjectProperty ;
+           rdfs:domain :Accident ;
+           rdfs:range :Gender .
+
+
+###  http://www.semanticweb.org/accidentes#hasHourRange
+:hasHourRange rdf:type owl:ObjectProperty ;
+              rdfs:domain :Accident ;
+              rdfs:range :HourRange .
+
+
+###  http://www.semanticweb.org/accidentes#hasPlace
 :hasPlace rdf:type owl:ObjectProperty ;
-               rdfs:domain :accidentes ;
-               rdfs:range :Lugar .
+          rdfs:domain :Accident ;
+          rdfs:range :Place .
 
-:hasNumberOfAccidents rdf:type owl:DatatypeProperty ;
-               rdfs:domain :accidentes ;
-               rdfs:range xsd:integer .
 
-:hasVictimNumber rdf:type owl:DatatypeProperty ;
-               rdfs:domain :accidentes ;
-               rdfs:range xsd:integer .
+###  http://www.semanticweb.org/accidentes#hasType
+:hasType rdf:type owl:ObjectProperty ;
+         rdfs:domain :Accident ;
+         rdfs:range :TypeAccident .
 
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/accidentes#hasAccidentType
 :hasAccidentType rdf:type owl:DatatypeProperty ;
-               rdfs:domain :accidentes ;
-               rdfs:range xsd:string .
+                 rdfs:domain :TypeAccident ;
+                 rdfs:range xsd:string .
 
-:hasSex rdf:type owl:DatatypeProperty ;
-               rdfs:domain :accidentes ;
-               rdfs:range xsd:string .
 
-:hasAgeRange rdf:type owl:ObjectProperty ;
-               rdfs:domain :accidentes ;
-               rdfs:range :RangoEdad .
+###  http://www.semanticweb.org/accidentes#hasAgeRange
+:hasAgeRange rdf:type owl:DatatypeProperty ;
+             rdfs:domain :RangeAge ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/accidentes#hasDate
+:hasDate rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Date ;
+         rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/accidentes#hasDistrict
+:hasDistrict rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Distric ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/accidentes#hasGender
+:hasGender rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Gender ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/accidentes#hasHourRange
+:hasHourRange rdf:type owl:DatatypeProperty ;
+              rdfs:domain :HourRange ;
+              rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/accidentes#hasNumberOfAccidents
+:hasNumberOfAccidents rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :Accident ;
+                      rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/accidentes#hasPlace
+:hasPlace rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Place ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/accidentes#hasVictimNumber
+:hasVictimNumber rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Accident ;
+                 rdfs:range xsd:int .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/accidentes#Accident
+:Accident rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/accidentes#Date
+:Date rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/accidentes#Distric
+:Distric rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/accidentes#Gender
+:Gender rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/accidentes#HourRange
+:HourRange rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/accidentes#NumberAccident
+:NumberAccident rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/accidentes#NumberVictim
+:NumberVictim rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/accidentes#Place
+:Place rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/accidentes#RangeAge
+:RangeAge rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/accidentes#TypeAccident
+:TypeAccident rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi

@@ -1,0 +1,107 @@
+@prefix owl: http://www.w3.org/2002/07/owl# .
+@prefix rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# .
+@prefix xml: http://www.w3.org/XML/1998/namespace .
+@prefix xsd: http://www.w3.org/2001/XMLSchema# .
+@prefix rdfs: http://www.w3.org/2000/01/rdf-schema# .
+@prefix schema: http://schema.org/ .
+@prefix property: http://www.wifimadrid.org/propiedades# .
+@prefix class: http://www.wifimadrid.org/clases# .
+
+class:Wifi rdf:type rdfs:Class.
+
+property:PK rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:integer.
+	
+property:Nombre rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:string.
+	
+property:Descripcion rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:string.
+	
+property:Horario rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:string.
+	
+property:Equipamiento rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:string.
+	
+property:Transporte rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:string.
+	
+property:Accesibilidad rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:string.
+	
+property:Content-url rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:url.
+	
+property:Nombre-Via rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:string.
+	
+property:Clase-Via rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:string.
+	
+property:Tipo-num rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:string.
+	
+property:Num rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:integer.
+	
+property:Planta rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:string.
+	
+property:Orientacion rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:string.
+	
+property:Localidad rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:string.
+	
+property:Provincia rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:string.
+	
+property:Codigo-Postal rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:string.
+	
+property:Barrio rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:string.
+	
+property:Distrito rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:string.
+	
+property:Coordenadas rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:string.
+	
+property:Telefono rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:string.
+	
+property:Fax rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:string.
+	
+property:Email rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:string.
+	
+property:Tipo rdf:type rdf:Property;
+	rdfs:domain class:Wifi;
+	rdfs:range xsd:string.
+	

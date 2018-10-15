@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Hands-on_Assignment2</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  </head>
+  
+  <body>
+	<div class = "col-md-10 col-md-offset-1">
+		<h1 class="display-1">Análisis de los Datasets</h1>
+		<h3>Callejero de Madrid</h3>
+		
+		<ul class="list-group ">
+			<li  class="list-group-item active"><b>CSV Name:</b> CALLEJERO_VIGENTE_BARRIOS_201809.csv</li>
+			<li  class="list-group-item"><b>Origin of the data: <a href="https://datos.madrid.es/portal/site/egob/">Resource</a></b>
+		</ul>
+		<table class="table">
+			<thead class="thead-dark">
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">Columna</th>
+					<th scope="col">Tipo</th>
+					<th scope="col">Rango</th>
+					<th scope="col">Comentarios</th>
+					<th scope="col">Problemas</th>
+				</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<th scope="row">1</th>
+				<td>Código de barrio</td>
+				<td>Entero</td>
+				<td>Naturales</td>
+				<td>Código que identifica al barrio en el ayuntamiento</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">2</th>
+				<td>Código de distrito</td>
+				<td>Entero</td>
+				<td>Naturales</td>
+				<td>Código que identifica al distrito en el ayuntamiento</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">3</th>
+				<td>Nombre de barrio</td>
+				<td>String</td>
+				<td>[A-Z a-z]</td>
+				<td>Nombre completo del barrio</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">4</th>
+				<td>Superficie</td>
+				<td>Entero</td>
+				<td>Naturales</td>
+				<td>Superficie que ocupa el barrio</td>
+				<td></td>			
+			</tr>
+			<tr>
+				<th scope="row">5</th>
+				<td>Perimetro</td>
+				<td>Entero</td>
+				<td>Naturales</td>
+				<td>Longitud perimetral que ocupa el barrio</td>
+				<td></td>			
+			</tr>
+			</tbody>
+		</table>
+	
+		<ul class="list-group">
+			<li class="list-group-item active"><b>CSV Name:</b> CALLEJERO_VIGENTE_DISTRITOS_201809.csv</li>
+			<li class="list-group-item"><b>Origin of the data: <a href="https://datos.madrid.es/portal/site/egob/">Resource</a></b>
+		</ul>
+		
+		<table class="table">
+			<thead class="thead-dark">
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">Columna</th>
+					<th scope="col">Tipo</th>
+					<th scope="col">Rango</th>
+					<th scope="col">Comentarios</th>
+					<th scope="col">Problemas</th>
+				</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<th scope="row">1</th>
+				<td>Código de distrito</td>
+				<td>Entero</td>
+				<td>Naturales</td>
+				<td>Código que identifica al distrito en el ayuntamiento</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">2</th>
+				<td>Código de barrio</td>
+				<td>Entero</td>
+				<td>Naturales</td>
+				<td>Código que identifica al barrio en el ayuntamiento</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">3</th>
+				<td>Nombre del distrito</td>
+				<td>String</td>
+				<td>[A-Z a-z]</td>
+				<td>Nombre completo del distrito</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">4</th>
+				<td>Superficie</td>
+				<td>Entero</td>
+				<td>Naturales</td>
+				<td>Superficie que ocupa el barrio</td>
+				<td></td>			
+			</tr>
+			<tr>
+				<th scope="row">5</th>
+				<td>Perimetro</td>
+				<td>Entero</td>
+				<td>Naturales</td>
+				<td>Longitud perimetral que ocupa el barrio</td>
+				<td></td>			
+			</tr>
+			</tbody>
+		</table>
+		
+		
+		<ul class="list-group active">
+			<li class="list-group-item"><b>CSV Name:</b> CALLE_TRANQUILAS.csv</li>
+			<li class="list-group-item"><b>Origin of the data: <a href="https://datos.madrid.es/portal/site/egob/">Resource</a></b>
+		</ul>
+
+		<table class="table">
+			<thead class="thead-dark">
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">Columna</th>
+					<th scope="col">Tipo</th>
+					<th scope="col">Rango</th>
+					<th scope="col">Comentarios</th>
+					<th scope="col">Problemas</th>
+				</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<th scope="row">1</th>
+				<td>Tipo de calle</td>
+				<td>String</td>
+				<td>[A-Z,a-z]</td>
+				<td>Tipo de calle tranquila</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">2</th>
+				<td>Nombre de la calle</td>
+				<td>String</td>
+				<td>[A-Z,a-z]</td>
+				<td>Nombre completo de la calle</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">3</th>
+				<td>Longitud de la callae</td>
+				<td>Entero</td>
+				<td>Naturales</td>
+				<td>Distancia total de la calle tranquila</td>
+				<td></td>
+			</tr>
+			</tbody>
+		</table>
+		
+		<ul class="list-group">
+			<li class="list-group-item active"><b>CSV Name:</b> DireccionesVigentes_20181003.csv</li>
+			<li class="list-group-item"><b>Origin of the data: <a href="https://datos.madrid.es/portal/site/egob/">Resource</a></b>
+		</ul>
+
+		<table class="table">
+			<thead class="thead-dark">
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">Columna</th>
+					<th scope="col">Tipo</th>
+					<th scope="col">Rango</th>
+					<th scope="col">Comentarios</th>
+					<th scope="col">Problemas</th>
+				</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<th scope="row">1</th>
+				<td>Código de via</td>
+				<td>Entero</td>
+				<td>Naturales</td>
+				<td>Código identificativo para el ayuntamiento</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">2</th>
+				<td>Tipo de via</td>
+				<td>String</td>
+				<td>[A-Z,a-z]</td>
+				<td>Tipo de la calle</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">3</th>
+				<td>Nombre completo de la calle</td>
+				<td>String</td>
+				<td>[A-Z,a-z]</td>
+				<td>Nombre completo de la calle sin direccion concreta</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">4</th>
+				<td>Número de la dirección</td>
+				<td>Entero</td>
+				<td>Naturales</td>
+				<td>Número de la dirección en la calle</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">5</th>
+				<td>Tipo de dirección</td>
+				<td>String</td>
+				<td>[A-Z,a-z]</td>
+				<td>Tipo de dirección (portal,garaje...)</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">6</th>
+				<td>Distrito</td>
+				<td>String</td>
+				<td>[A-Z,a-z]</td>
+				<td>Código del distrito al que pertenece</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">7</th>
+				<td>Barrio</td>
+				<td>Entero</td>
+				<td>Naturales</td>
+				<td>Código del barrio al que pertenece</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">8</th>
+				<td>cod_postal</td>
+				<td>Entero</td>
+				<td>Naturales</td>
+				<td>código postal asociado a la dirección</td>
+				<td></td>
+			</tr><tr>
+				<th scope="row">9</th>
+				<td>Latitud</td>
+				<td>Double</td>
+				<td>double positivos</td>
+				<td>latitud de la dirección</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">10</th>
+				<td>Longitud</td>
+				<td>Grados</td>
+				<td>positivos</td>
+				<td>longitud de la dirección</td>
+				<td></td>
+			</tr>
+			</tbody>
+		</table>
+		
+		<ul class="list-group">
+			<li class="list-group-item active"><b>CSV Name:</b> VialesVigentes_20181003.csv</li>
+			<li class="list-group-item"><b>Origin of the data: <a href="https://datos.madrid.es/portal/site/egob/">Resource</a></b>
+		</ul>
+
+		<table class="table">
+			<thead class="thead-dark">
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">Columna</th>
+					<th scope="col">Tipo</th>
+					<th scope="col">Rango</th>
+					<th scope="col">Comentarios</th>
+					<th scope="col">Problemas</th>
+				</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<th scope="row">1</th>
+				<td>Código de via</td>
+				<td>Entero</td>
+				<td>Naturales</td>
+				<td>Código identificativo para el ayuntamiento</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">2</th>
+				<td>Via_clase</td>
+				<td>String</td>
+				<td>[A-Z,a-z]</td>
+				<td>Tipo de la via</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">3</th>
+				<td>via_nombre</td>
+				<td>String</td>
+				<td>[A-Z,a-z]</td>
+				<td>Nombre completo de la calle sin direccion concreta</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">4</th>
+				<td>cod_via_comienza</td>
+				<td>Entero</td>
+				<td>Naturales</td>
+				<td>código de la calle en la que empieza</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">5</th>
+				<td>clase_comienza</td>
+				<td>String</td>
+				<td>[A-Z,a-z]</td>
+				<td>tipo de calle de la calle en la que comienza</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">6</th>
+				<td>nombre_comienza</td>
+				<td>String</td>
+				<td>[A-Z,a-z]</td>
+				<td>Nombre completo de la via</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">7</th>
+				<td>cod_via_termina</td>
+				<td>Entero</td>
+				<td>Naturales</td>
+				<td>Código de la via en la que termina</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">8</th>
+				<td>clase_termina</td>
+				<td>String</td>
+				<td>[A-Z,a-z]</td>
+				<td>tipo de calle de la calle en la que termina</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">9</th>
+				<td>nombre_termina</td>
+				<td>String</td>
+				<td>[A-Z,a-z]</td>
+				<td>Nombre de la calle en la que termina</td>
+				<td></td>
+			</tr>
+			</tbody>
+		</table>
+		
+		<ul class="list-group">
+			<li class="list-group-item active"><b>CSV Name:</b> VialesVigentesDistritosBarrios_20181003.csv</li>
+			<li class="list-group-item"><b>Origin of the data: <a href="https://datos.madrid.es/portal/site/egob/">Resource</a></b>
+		</ul >
+
+		<table class="table">
+			<thead class="thead-dark">
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">Columna</th>
+					<th scope="col">Tipo</th>
+					<th scope="col">Rango</th>
+					<th scope="col">Comentarios</th>
+					<th scope="col">Problemas</th>
+				</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<th scope="row">1</th>
+				<td>Cod_via</td>
+				<td>Entero</td>
+				<td>Naturales</td>
+				<td>Código identificativo para el ayuntamiento</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">2</th>
+				<td>Via_clase</td>
+				<td>String</td>
+				<td>[A-Z,a-z]</td>
+				<td>Tipo de la via</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">3</th>
+				<td>via_nombre</td>
+				<td>String</td>
+				<td>[A-Z,a-z]</td>
+				<td>Nombre completo de la calle sin direccion concreta</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">4</th>
+				<td>Distrito</td>
+				<td>String</td>
+				<td>[A-Z,a-z]</td>
+				<td>Código del distrito al que pertenece</td>
+				<td></td>
+			</tr>
+				<tr>
+				<th scope="row">5</th>
+				<td>Barrio</td>
+				<td>Entero</td>
+				<td>Naturales</td>
+				<td>Código del barrio al que pertenece</td>
+				<td></td>
+			</tr>
+			</tbody>
+		</table>
+		
+		<h1>Análisis de la licencia de los datos</h1>
+		<p>Para la información que nosotros generemos utilizaremos la licencia estandar de Creative Commons "CC BY". De esta manera permitimos cualquier tipo de uso mientras que se reconozca la autoría del trabajo.</p>
+	
+		<p>Los conjuntos de datos que estamos utilizando los proporciona el portal de datos abiertos de Madrid.
+		Según su apartado de condiciones de uso: "Las condiciones generales permiten la reutilización de los documentos para fines comerciales y no comerciales."
+		El uso que le demos no constituye una actividad administrativa pública, se considerará reutilización de datos y podremos hacer uso libre de ellos tanto para fines comerciales como no comerciales. 
+		</p>
+		
+		<h1>Definición de estrategia de nombrado</h1>
+		<ul class="list-group">
+			<li class= "text-primary list-group-item active">Reglas de nombrado</li>
+			<li class= "text-primary list-group-item"><b>Domain: </b>http://www.semanticweb.org/handson/grp16/</li>
+			<li class= "text-primary list-group-item"><b>Ontological terms path: </b>http://www.semanticweb.org/grp16/callejero#</li>
+			<li class= "text-primary list-group-item"><b>Individuals path: </b>http://www.semanticweb.org/grp16/</li>
+			<li class= "text-primary list-group-item"><b>Ontological terms pattern: </b>http://www.semanticweb.org/grp16/callejero#&lt;term_name&gt;</li>
+			<li class= "text-primary list-group-item"><b>Individuals pattern: </b>http://www.semanticweb.org/grp16/resource/&lt;resource_type&gt;/&lt;resource_name&gt;</li>
+		</ul>
+	</div>
+	  
+  </body>
+</html>
