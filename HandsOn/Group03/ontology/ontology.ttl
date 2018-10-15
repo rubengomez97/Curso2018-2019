@@ -5,7 +5,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix Group03: <http://BiciMAD.es/Group03/> .
-@base <http://BiciMAD.es/Group03/ontology#>  .
+@base <http://BiciMAD.es/ontology#>  .
 
 <http://BiciMAD.es/Group03/ontology#>  rdf:type owl:Ontology .
 
@@ -57,14 +57,3 @@ Group03:District rdf:type owl:Class .
 
 ###  http://BiciMAD.es/Group03/ontology#Barrio
 :Barrio rdf:type owl:subClass .
-
-#################################################################
-#    Individuals
-#################################################################
-
-###  http://BiciMAD.es/Group03/ontology#bicimad-sol
-:bicimad-sol rdf:type owl:NamedIndividual ,
-                                 :Barrio ;
-                        Group03:id "001b"^^xsd:String ;
-						:hasAddress "Calle de Alcala"^^xsd:String ;
-                        :hasPlace "24"^^xsd:int.
