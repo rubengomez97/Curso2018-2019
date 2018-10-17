@@ -14,21 +14,21 @@
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/handson/grp16/Barrio
+
+###  http://www.semanticweb.org/handson/grp16/callejero#Barrio
 :Barrio rdf:type owl:Class .
 
 
 
-###  http://www.semanticweb.org/handson/grp16/Calle
+###  http://www.semanticweb.org/handson/grp16/callejero#Calle
 :Calle rdf:type owl:Class .
 
 
-
-###  http://www.semanticweb.org/handson/grp16/Distrito
+###  http://www.semanticweb.org/handson/grp16/callejero#Distrito
 :Distrito rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/handson/grp16/Direccion
+###  http://www.semanticweb.org/handson/grp16/callejero#Direccion
 :Direccion rdf:type owl:Class .
 
 
