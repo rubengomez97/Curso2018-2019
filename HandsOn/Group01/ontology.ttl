@@ -1,4 +1,3 @@
-@prefix : <http://www.madriddeportes.es/ontologies/2017> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -6,8 +5,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 
-@prefix property: <http://www.colegiosMadrid.group01.org/property#>.
-@prefix class: <http://www.colegiosMadrid.group01.org/class#>.
+@prefix property: <http://handsOn.org/Group1/property#>.
+@prefix class: <http://handsOn.org/Group1/class#>.
 
 #Object properties
 property:isInCity rdf:type rdf:Property;
