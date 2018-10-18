@@ -1,0 +1,82 @@
+#+TITLE: Dataset Analysis
+#+AUTHOR: Luciano García Giordano, José Luis Del Pino García, Jhon Toledo Barreto, Daniel Argota García
+
+* Description of the tables
+** Stations.csv
+|-----------+--------+------------------------------------------------+----------|
+| Column    | Type   | Comments / Range (Rounded)                     | Problems |
+|-----------+--------+------------------------------------------------+----------|
+| id        | number | Unique identifier of the station.              |          |
+|-----------+--------+------------------------------------------------+----------|
+| name      | name   | Name of the station                            |          |
+|-----------+--------+------------------------------------------------+----------|
+| address   | name   | Address of the station                         |          |
+|-----------+--------+------------------------------------------------+----------|
+| lon       | number | Longitud of the station, Range: (-3.77, 3.58)  |          |
+|-----------+--------+------------------------------------------------+----------|
+| lat       | number | Latitude of the station, Range: (40.35, 40.52) |          |
+|-----------+--------+------------------------------------------------+----------|
+| elevation | number | Elevation of the station, Range: (590, 730)    |          |
+|-----------+--------+------------------------------------------------+----------|
+** Yearly data files
+|---------+--------+------------------------------------------------+--------------|
+| Column  | Type   | Comments / Range (Rounded)                     | Problems     |
+|---------+--------+------------------------------------------------+--------------|
+| date    | date   | Unique identifier of the station.              |              |
+|---------+--------+------------------------------------------------+--------------|
+| BEN     | number | Benzene, Range: (0,20)                         | Blank values |
+|---------+--------+------------------------------------------------+--------------|
+| CH4     | number | Methane, Range: (1,3.4)                        | Blank values |
+|---------+--------+------------------------------------------------+--------------|
+| CO      | number | Carbon Monoxide, Range: (0.1,4.91)             | Blank values |
+|---------+--------+------------------------------------------------+--------------|
+| EBE     | number | Ethylbenzene, Range: (0,39)                    | Blank values |
+|---------+--------+------------------------------------------------+--------------|
+| NMHC    | number | Non-methane hydrocarbons, Range: (0,4.41)      | Blank values |
+|---------+--------+------------------------------------------------+--------------|
+| NO      | number | Nitrogen monoxide, Range: (0,980)              | Blank values |
+|---------+--------+------------------------------------------------+--------------|
+| NO_2    | number | Nitrogen dioxide, Range: (0,350)               | Blank values |
+|---------+--------+------------------------------------------------+--------------|
+| NOx     | number | Nitrogen oxides, Range: (0,1800)               | Blank values |
+|---------+--------+------------------------------------------------+--------------|
+| O_3     | number | Ozone, Range: (0,200)                          | Blank values |
+|---------+--------+------------------------------------------------+--------------|
+| PM10    | number | Particles <10 μm, Range: (0,310)               | Blank values |
+|---------+--------+------------------------------------------------+--------------|
+| PM25    | number | Particles <25 μm, Range: (0,96)                | Blank values |
+|---------+--------+------------------------------------------------+--------------|
+| SO_2    | number | Sulfur Dioxide, Range: (1,99)                  | Blank values |
+|---------+--------+------------------------------------------------+--------------|
+| TCH     | number | Total hydrocarbons(hexane), Range: (0.15,6.68) | Blank values |
+|---------+--------+------------------------------------------------+--------------|
+| TOL     | number | Toluene, Range: (0,85)                         | Blank values |
+|---------+--------+------------------------------------------------+--------------|
+| station | number | Unique identifier of the station.              |              |
+|---------+--------+------------------------------------------------+--------------|
+
+* License
+As mentioned in the dataset requirements document, according to the official website of the dataset and the adaptation made by the publisher in Kaggle, the dataset has as license the Madrid Open Data Terms of Use. It allows the free usage of the data, without liability, for commercial and non-commercial use-cases. Publishing and republishing the data is also permitted as long as the original source is entitled. For access to the license as a whole, follow the link: https://datos.madrid.es/portal/site/egob/menuitem.3efdb29b813ad8241e830cc2a8a409a0/?vgnextoid=108804d4aab90410VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default. Our data is then published by the Madrid local government for all the intents and purposes.
+
+Alongside the general lines and intentions of the previously mentioned license, we intend to generate an ontology following the Creative Commons Framework. We thus decided for a CC-BY-SA-NC license for our ontology.
+
+* Naming strategy
+We decided for a clear and homogeneous naming strategy, which separates classes from properties, since we noticed that, at least for our perception as students, it is very confusing the inexistence of a clear naming distinction between classes and properties. That is the reason why we defined the /class, /property and /individual paths for classes, properties and individuals, respectively.
+
+As for the domain, we chose a dummy domain, which is www.group07.linkeddata.org, since we don't own any domain, nor have the intention to.
+
+The data to be generated will follow the given patterns:
+- Stations: http://www.group07.linkeddata.org/individual/station#station{id}
+- Measurements: http://www.group07.linkeddata.org/individual/measurement#measurement{id_of_station}_{date_of_measurement}
+- Substance Measurements: http://www.group07.linkeddata.org/individual/substanceMeasurement#substanceMeasurement{id_of_station}_{date_of_measurement}_{id_of_substance}
+
+One comment we think is important to state in this document is that a Measurement is a full measurement for a given station at a given time of all the substances it is capable of measuring. Meanwhile, a substance measurement is the entity that groups the value measured and the unit for a specific substance. That way, a Measurement is linked to many SubstanceMeasurements, which are the actual measurements for each substance measured at the station at that given time.
+
+* Benefits from linking with external data
+With the proposed dataset, many linking options arise. The chosen one is to link the stations to their districts, so that, through WikiData, we can gather information such as population, density, and even traffic information at the time of measurement. These are, of course, complex scenarios, but the linking allow for them to exist. Another possibility of linking we chose to include are the measured substances. That way, information such as descriptions, toxicity, and even typical atmospheric values can be gathered from the web.
+
+
+
+
+
+# Poner gráficas que sean por barrio/distrito (un histograma), para mostrar los más limpios/contaminados

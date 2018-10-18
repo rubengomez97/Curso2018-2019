@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DataSet's analysis</title>
+    <style>
+        .container {
+            margin: 0 auto;
+            width: 800px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .title {
+            text-align: center;
+        }
+        .analysis {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .resume {
+            display: flex;
+            justify-content: center;
+        }
+        .resume-content {
+            border: 1px solid #808080;
+            border-collapse: collapse;
+        }
+        .header-row {
+            background-color: #58D3F7;
+            color: #ffffcc;
+        }
+        .data-row {
+            text-align: center;
+        }
+        .data-row:hover {
+            background-color: #D7FFED;
+        }
+        .cell {
+            border: 1px solid #000;
+            padding: 10px;
+        }
+        .text-block {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body class="container">
+    <section>
+        <h1 class="title">License</h1>
+        <section class="analysis">
+            <ul>
+                <li>
+                    <strong>Publisher:</strong>
+                    Ayuntamiento de Madrid
+                </li>
+                <li>
+                    <strong>Rightholder:</strong>
+                    Ayuntamiento de Madrid.
+                </li>
+                <li>
+                    <a href="https://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD"> <strong>Link</strong></a>
+                </li>
+                <li>
+                    <strong>Potential license to be used:</strong>
+                    Creative Commons
+                </li>
+            </ul>
+        </section>
+
+        <h1 class="title">DataSet's analysis</h1>
+        <section class="analysis">
+            <h2>Parkings públicos</h2>
+            <ul>
+                <li>
+                    <strong>File name:</strong>
+                    202625-0-aparcamientos-publicos.csv
+                </li>
+                <li>
+                    <strong>Description:</strong>
+                    Parkings públicos de Madrid.
+                </li>
+            </ul>
+            <section class="resume">
+                <table class="resume-content">
+                    <tr class="header-row">
+                        <th class="cell">Column</th>
+                        <th class="cell">Type</th>
+                        <th class="cell">Comments / Range</th>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">PK</td>
+                        <td class="cell">Integer</td>
+                        <td class="cell">
+                            Identifier
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Nombre</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            It's unique
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Horario</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            It's not unique <br>
+                            Range: 00.00 to 23.59
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Accesibilidad</td>
+                        <td class="cell">Boolean</td>
+                        <td class="cell">
+                            It's not unique <br>
+                            Range: 0 or 1
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Plazas públicas</td>
+                        <td class="cell">Integer</td>
+                        <td class="cell">
+                            It's not unique <br>
+                            Range: 0 - 800
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Plazas para residentes</td>
+                        <td class="cell">Integer</td>
+                        <td class="cell">
+                            It's not unique <br>
+                            Range: 0 - 800
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Content-URL</td>
+                        <td class="cell">URL</td>
+                        <td class="cell">
+                            It's unique
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Nombre-via</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            It's not unique
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Número</td>
+                        <td class="cell">Integer</td>
+                        <td class="cell">
+                            It's not unique <br>
+                            Range: 1 - 800
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Localidad</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            It's not unique 
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Provincia</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            It's not unique 
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Código Postal</td>
+                        <td class="cell">Integer</td>
+                        <td class="cell">
+                            It's not unique <br>
+                            Range: 28001 - 28917
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Barrio</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            It's not unique 
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Distrito</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            It's not unique 
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Latitud</td>
+                        <td class="cell">Float</td>
+                        <td class="cell">
+                            It's not unique <br>
+                            Range: 40.0 - 41.0
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Longitud</td>
+                        <td class="cell">Float</td>
+                        <td class="cell">
+                            It's not unique <br>
+                            Range: -3.1 - -3.0
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Teléfono</td>
+                        <td class="cell">integer</td>
+                        <td class="cell">
+                            It's unique
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Email</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            It's unique
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Tipo</td>
+                        <td class="cell">Sting</td>
+                        <td class="cell">
+                            It's not unique <br>
+                            Range: Residentes or Publico
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </section>
+        <hr>
+    </section>
+</body>
+</html>
