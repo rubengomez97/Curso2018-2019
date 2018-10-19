@@ -43,7 +43,7 @@ Group03:id rdf:type owl:ObjectProperty ;
          rdfs:domain :Barrio ;
          rdfs:range xsd:int.
 
-###  http://www.semanticweb.org/Group03/ontology#hasAddress
+###  http://www.BiciMAD.es/Group03/ontology#hasAddress
 :hasAddress rdf:type owl:DatatypeProperty ;
          rdfs:domain :Barrio ;
          rdfs:range xsd:string .
@@ -57,14 +57,3 @@ Group03:District rdf:type owl:Class .
 
 ###  http://BiciMAD.es/Group03/ontology#Barrio
 :Barrio rdf:type owl:subClass .
-
-#################################################################
-#    Individuals
-#################################################################
-
-###  http://BiciMAD.es/Group03/ontology#bicimad-sol
-:bicimad-sol rdf:type owl:NamedIndividual ,
-                                 :Barrio ;
-                        Group03:id "001b"^^xsd:String ;
-						:hasAddress "Calle de Alcala"^^xsd:String ;
-                        :hasPlace "24"^^xsd:int.

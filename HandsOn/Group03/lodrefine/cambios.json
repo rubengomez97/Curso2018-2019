@@ -1,0 +1,17 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Número",
+    "columnName": "Número"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Nº Finca",
+    "columnName": "Nº Finca"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Calle",
+    "columnName": "Calle"
+  }
+]
