@@ -1,15 +1,15 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix individual: <https://www.santacruzdetenerife.es/Individual/#>.
-@prefix clases: <https://www.santacruzdetenerife.es/Clases/#>.
-@prefix propiedades: <https://www.santacruzdetenerife.es/Propiedades/#>.
+@prefix individual: <https://www.santacruzdetenerife.es/Individual/>.
+@prefix clases: <https://www.santacruzdetenerife.es/Clases/>.
+@prefix propiedades: <https://www.santacruzdetenerife.es/Propiedades/>.
 
 clases:MaquinaPublica a rdfs:Class.
 
 propiedades:URL_PDF a rdf:Property;
 	rdfs:domain clases:MaquinaPublica;
-	rdfs:range xsd:string.
+	rdfs:range xsd:anyURI.
 
 propiedades:FID a rdf:Property;
 	rdfs:domain clases:MaquinaPublica;
