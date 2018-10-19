@@ -14,21 +14,21 @@
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/handson/grp16/Barrio
+
+###  http://www.semanticweb.org/handson/grp16/callejero#Barrio
 :Barrio rdf:type owl:Class .
 
 
 
-###  http://www.semanticweb.org/handson/grp16/Calle
+###  http://www.semanticweb.org/handson/grp16/callejero#Calle
 :Calle rdf:type owl:Class .
 
 
-
-###  http://www.semanticweb.org/handson/grp16/Distrito
+###  http://www.semanticweb.org/handson/grp16/callejero#Distrito
 :Distrito rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/handson/grp16/Direccion
+###  http://www.semanticweb.org/handson/grp16/callejero#Direccion
 :Direccion rdf:type owl:Class .
 
 
@@ -38,107 +38,96 @@
 
 
 
-###  http://www.semanticweb.org/handson/grp16/callejero#estaEnDistrito
-:estaEnBarrio rdf:type owl:ObjectProperty ;
+###  http://www.semanticweb.org/handson/grp16/callejero#EstaEnDistrito
+:EstaEnDistrito rdf:type owl:ObjectProperty ;
               rdfs:domain :Barrio ;
 			  rdfs:range :Distrito .
 			  
 
-
-###  http://www.semanticweb.org/handson/grp16/callejero#estaEnBarrio
-:estaEnBarrio rdf:type owl:ObjectProperty ;
-              rdfs:domain :Distrito ;
-			  rdfs:range :Barrio .
-			  			  
-
-
-###  http://www.semanticweb.org/handson/grp16/callejero#calleEnBarrio
-:calleEnBarrio rdf:type owl:ObjectProperty ;
+###  http://www.semanticweb.org/handson/grp16/callejero#EstaEnBarrio
+:EstaEnBarrio rdf:type owl:ObjectProperty ;
                rdfs:domain :Calle ;
 			   rdfs:range :Barrio .
 			  			  
 
-
-###  http://www.semanticweb.org/handson/grp16/callejero#calleEnDistrito
-:calleEnDistrito rdf:type owl:ObjectProperty ;
-                 rdfs:domain :Calle ;
-			     rdfs:range :Distrito .
-			  			  
-
-
-###  http://www.semanticweb.org/handson/grp16/callejero#direccionEnCalle
-:direccionEnCalle rdf:type owl:ObjectProperty ;
+###  http://www.semanticweb.org/handson/grp16/callejero#EstaEnCalle
+:EstaEnCalle rdf:type owl:ObjectProperty ;
                   rdfs:domain :Direccion ;
 			      rdfs:range :Calle .			  
 			  
 
-###  http://www.semanticweb.org/handson/grp16/callejero#comienzoDeCalle
-:comienzoDeCalle rdf:type owl:ObjectProperty ;
-                  rdfs:domain :Calle ;
-			      rdfs:range :Calle .
-
-
-###  http://www.semanticweb.org/handson/grp16/callejero#finDeCalle
-:finDeCalle rdf:type owl:ObjectProperty ;
-                  rdfs:domain :Calle ;
-			      rdfs:range :Calle .				  
-			  
-
+	 
 
 #################################################################
 #    Data properties
 #################################################################			  
 
-### http://www.semanticweb.org/handson/grp16/callejero#esCalleTranquila
-:esCalleTranquila rdf:type owl:DatatypeProperty ;
+												
+###  http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie
+:TieneSuperficie rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Barrio ;
+			      rdfs:range xsd:integer .
+				  
+				  
+###  http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro
+:TienePerimetro rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Barrio ;
+			      rdfs:range xsd:integer .	
+
+###  http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie
+:TieneSuperficie rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Distrito ;
+			      rdfs:range xsd:integer .
+				  
+				  
+###  http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro
+:TienePerimetro rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Distrito ;
+			      rdfs:range xsd:integer .				  
+									  
+###  http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios
+:NumeroDeBarrios rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Distrito ;
+			      rdfs:range xsd:integer .	
+					
+###  http://www.semanticweb.org/handson/grp16/callejero#tipoCalle
+:tipoCalle rdf:type owl:DatatypeProperty ;
                   rdfs:domain :Calle ;
-			      rdfs:range xsd:boolean .
-					
-							
-###  http://www.semanticweb.org/handson/grp16/callejero#tieneNombreDeVia
-:tieneNombreDeVia rdf:type owl:DatatypeProperty ;
+			      rdfs:range xsd:string .		
+
+###  http://www.semanticweb.org/handson/grp16/callejero#tieneNombre
+:tipoCalle rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Calle ;
+			      rdfs:range xsd:string .	
+
+	
+###  http://www.semanticweb.org/handson/grp16/callejero#EsNumero
+:EsNumero rdf:type owl:DatatypeProperty ;
                   rdfs:domain :Direccion ;
-			      rdfs:range xsd:string .
+				  rdfs:range xsd:integer .						
 					
 					
-###  http://www.semanticweb.org/handson/grp16/callejero#tieneNombreDeVia
-:tieneNombreDeVia rdf:type owl:DatatypeProperty ;
-                  rdfs:domain :Direccion ;
-				  rdfs:range xsd:string .						
+###  http://www.semanticweb.org/handson/grp16/callejero#TieneCodigoPostal
+:TieneCodigoPostal  rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Direccion ;
+				    rdfs:range xsd:integer .
 					
 					
-###  http://www.semanticweb.org/handson/grp16/callejero#tieneCP
-:tieneCP          rdf:type owl:DatatypeProperty ;
-                  rdfs:domain :Direccion ;
-				  rdfs:range xsd:integer .
-				  					
-					
-###  http://www.semanticweb.org/handson/grp16/callejero#tieneNumeroDireccion
-:tieneNumeroDireccion rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/handson/grp16/callejero#NombreDireccion
+:NombreDireccion rdf:type owl:DatatypeProperty ;
                       rdfs:domain :Direccion ;
-				      rdfs:range xsd:integer .
+				      rdfs:range xsd:string .
 						  					
-					
-###  http://www.semanticweb.org/handson/grp16/callejero#esTipoDeDireccion
-:esTipoDeDireccion    rdf:type owl:DatatypeProperty ;
-                      rdfs:domain :Direccion ;
-				      rdfs:range xsd: string.
-					  
-					  
-###  http://www.semanticweb.org/handson/grp16/callejero#tieneLatitud
-:tieneLatitud        rdf:type owl:DatatypeProperty ;
+										  
+###  http://www.semanticweb.org/handson/grp16/callejero#TieneLatitud
+:TieneLatitud        rdf:type owl:DatatypeProperty ;
                      rdfs:domain :Direccion ;
-				     rdfs:range xsd: float.
+				     rdfs:range xsd: string.
 					 					  
 					  
-###  http://www.semanticweb.org/handson/grp16/callejero#tieneLongitud
-:tieneLongitud       rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/handson/grp16/callejero#TieneLongitud
+:TieneLongitud       rdf:type owl:DatatypeProperty ;
                      rdfs:domain :Direccion ;
-				     rdfs:range xsd: float.
+				     rdfs:range xsd: string.
 					 
-					 
-###  http://www.fiupmwsld.org/handson/group17/callejero#tieneTipoCalle
-:tieneTipoCalle rdf:type owl:DatatypeProperty ;
-                rdfs:domain :Calle ;
-                rdfs:range xsd:string .					 
-					
+				 
