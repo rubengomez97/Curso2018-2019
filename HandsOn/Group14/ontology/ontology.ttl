@@ -1,0 +1,311 @@
+@prefix : <http://www.semanticweb.org/pc/ontologies/2018/9#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/pc/ontologies/2018/9> .
+
+<http://www.semanticweb.org/pc/ontologies/2018/9> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#hasAccesibilidad
+:hasAccesibilidad rdf:type owl:ObjectProperty ;
+                  rdfs:domain [ rdf:type owl:Restriction ;
+                                owl:onProperty :hasAccesibilidad ;
+                                owl:allValuesFrom <http://www.semanticweb.org/pc/ontologies/2018/9/untitled-ontology-4#PK>
+                              ] ;
+                  rdfs:range [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasAccesibilidad ;
+                               owl:someValuesFrom <http://www.semanticweb.org/pc/ontologies/2018/9/Accesibilidad>
+                             ] .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#hasEmail
+:hasEmail rdf:type owl:ObjectProperty ;
+          rdfs:domain [ rdf:type owl:Restriction ;
+                        owl:onProperty :hasEmail ;
+                        owl:allValuesFrom <http://www.semanticweb.org/pc/ontologies/2018/9/untitled-ontology-4#PK>
+                      ] ;
+          rdfs:range [ rdf:type owl:Restriction ;
+                       owl:onProperty :hasEmail ;
+                       owl:someValuesFrom <http://www.semanticweb.org/pc/ontologies/2018/9/Email>
+                     ] .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#hasHorario
+:hasHorario rdf:type owl:ObjectProperty ;
+            rdfs:domain [ rdf:type owl:Restriction ;
+                          owl:onProperty :hasHorario ;
+                          owl:allValuesFrom <http://www.semanticweb.org/pc/ontologies/2018/9/untitled-ontology-4#PK>
+                        ] ;
+            rdfs:range [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasHorario ;
+                         owl:someValuesFrom <http://www.semanticweb.org/pc/ontologies/2018/9/Horario>
+                       ] .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#hasLocalizacion
+:hasLocalizacion rdf:type owl:ObjectProperty ;
+                 rdfs:domain [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasLocalizacion ;
+                               owl:allValuesFrom <http://www.semanticweb.org/pc/ontologies/2018/9/untitled-ontology-4#PK>
+                             ] ;
+                 rdfs:range [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasLocalizacion ;
+                              owl:someValuesFrom <http://www.semanticweb.org/pc/ontologies/2018/9/Localizacion>
+                            ] .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#hasNombre
+:hasNombre rdf:type owl:ObjectProperty ;
+           rdfs:domain [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasNombre ;
+                         owl:allValuesFrom <http://www.semanticweb.org/pc/ontologies/2018/9/untitled-ontology-4#PK>
+                       ] ;
+           rdfs:range [ rdf:type owl:Restriction ;
+                        owl:onProperty :hasNombre ;
+                        owl:allValuesFrom <http://www.semanticweb.org/pc/ontologies/2018/9/NombreParking>
+                      ] .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#hasPlazasPublicas
+:hasPlazasPublicas rdf:type owl:ObjectProperty ;
+                   rdfs:domain [ rdf:type owl:Restriction ;
+                                 owl:onProperty :hasPlazasPublicas ;
+                                 owl:allValuesFrom <http://www.semanticweb.org/pc/ontologies/2018/9/untitled-ontology-4#PK>
+                               ] ;
+                   rdfs:range [ rdf:type owl:Restriction ;
+                                owl:onProperty :hasPlazasPublicas ;
+                                owl:someValuesFrom <http://www.semanticweb.org/pc/ontologies/2018/9/PlazasPublicas>
+                              ] .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#hasPlazasResidentes
+:hasPlazasResidentes rdf:type owl:ObjectProperty ;
+                     rdfs:domain [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasPlazasResidentes ;
+                                   owl:allValuesFrom <http://www.semanticweb.org/pc/ontologies/2018/9/untitled-ontology-4#PK>
+                                 ] ;
+                     rdfs:range [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasPlazasResidentes ;
+                                  owl:someValuesFrom <http://www.semanticweb.org/pc/ontologies/2018/9/PlazasResidentes>
+                                ] .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#hasTlf
+:hasTlf rdf:type owl:ObjectProperty ;
+        rdfs:domain [ rdf:type owl:Restriction ;
+                      owl:onProperty :hasTlf ;
+                      owl:allValuesFrom <http://www.semanticweb.org/pc/ontologies/2018/9/untitled-ontology-4#PK>
+                    ] ;
+        rdfs:range [ rdf:type owl:Restriction ;
+                     owl:onProperty :hasTlf ;
+                     owl:someValuesFrom <http://www.semanticweb.org/pc/ontologies/2018/9/Telefono>
+                   ] .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#hasURL
+:hasURL rdf:type owl:ObjectProperty ;
+        rdfs:domain [ rdf:type owl:Restriction ;
+                      owl:onProperty :hasURL ;
+                      owl:allValuesFrom <http://www.semanticweb.org/pc/ontologies/2018/9/untitled-ontology-4#PK>
+                    ] ;
+        rdfs:range [ rdf:type owl:Restriction ;
+                     owl:onProperty :hasURL ;
+                     owl:allValuesFrom <http://www.semanticweb.org/pc/ontologies/2018/9/URL>
+                   ] .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#claseVia
+:claseVia rdf:type owl:DatatypeProperty ;
+          rdfs:domain <http://www.semanticweb.org/pc/ontologies/2018/9/Via> ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#descripcionAccesibilidad
+:descripcionAccesibilidad rdf:type owl:DatatypeProperty ;
+                          rdfs:domain <http://www.semanticweb.org/pc/ontologies/2018/9/Accesibilidad> ;
+                          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#direccionCorreo
+:direccionCorreo rdf:type owl:DatatypeProperty ;
+                 rdfs:domain <http://www.semanticweb.org/pc/ontologies/2018/9/Email> ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#idParking
+:idParking rdf:type owl:DatatypeProperty ;
+           rdfs:domain <http://www.semanticweb.org/pc/ontologies/2018/9/untitled-ontology-4#PK> ;
+           rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#intervaloHorario
+:intervaloHorario rdf:type owl:DatatypeProperty ;
+                  rdfs:domain <http://www.semanticweb.org/pc/ontologies/2018/9/Horario> ;
+                  rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#latitud
+:latitud rdf:type owl:DatatypeProperty ;
+         rdfs:domain <http://www.semanticweb.org/pc/ontologies/2018/9/Coordenadas> ;
+         rdfs:range xsd:double .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#longitud
+:longitud rdf:type owl:DatatypeProperty ;
+          rdfs:domain <http://www.semanticweb.org/pc/ontologies/2018/9/Coordenadas> ;
+          rdfs:range xsd:double .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#nombreBarrio
+:nombreBarrio rdf:type owl:DatatypeProperty ;
+              rdfs:domain <http://www.semanticweb.org/pc/ontologies/2018/9/Barrio> ;
+              rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#nombreDistrito
+:nombreDistrito rdf:type owl:DatatypeProperty ;
+                rdfs:domain <http://www.semanticweb.org/pc/ontologies/2018/9/Distrito> ;
+                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#nombreLocalidad
+:nombreLocalidad rdf:type owl:DatatypeProperty ;
+                 rdfs:domain <http://www.semanticweb.org/pc/ontologies/2018/9/Localidad> ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#nombreProvincia
+:nombreProvincia rdf:type owl:DatatypeProperty ;
+                 rdfs:domain <http://www.semanticweb.org/pc/ontologies/2018/9/Provincia> ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#nombreVia
+:nombreVia rdf:type owl:DatatypeProperty ;
+           rdfs:domain [ rdf:type owl:Restriction ;
+                         owl:onProperty :nombreVia ;
+                         owl:someValuesFrom owl:rational
+                       ] ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#numeroCodPostal
+:numeroCodPostal rdf:type owl:DatatypeProperty ;
+                 rdfs:domain <http://www.semanticweb.org/pc/ontologies/2018/9/CodigoPostal> ;
+                 rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#numeroPlazasPub
+:numeroPlazasPub rdf:type owl:DatatypeProperty ;
+                 rdfs:domain <http://www.semanticweb.org/pc/ontologies/2018/9/PlazasPublicas> ;
+                 rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#numeroPlazasRes
+:numeroPlazasRes rdf:type owl:DatatypeProperty ;
+                 rdfs:domain <http://www.semanticweb.org/pc/ontologies/2018/9/PlazasResidentes> ;
+                 rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#numeroTelefono
+:numeroTelefono rdf:type owl:DatatypeProperty ;
+                rdfs:domain <http://www.semanticweb.org/pc/ontologies/2018/9/Telefono> ;
+                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9#numeroVia
+:numeroVia rdf:type owl:DatatypeProperty ;
+           rdfs:domain <http://www.semanticweb.org/pc/ontologies/2018/9/Via> ;
+           rdfs:range xsd:int .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9/Accesibilidad
+<http://www.semanticweb.org/pc/ontologies/2018/9/Accesibilidad> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9/Barrio
+<http://www.semanticweb.org/pc/ontologies/2018/9/Barrio> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://www.semanticweb.org/pc/ontologies/2018/9/Localizacion> .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9/CodigoPostal
+<http://www.semanticweb.org/pc/ontologies/2018/9/CodigoPostal> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <http://www.semanticweb.org/pc/ontologies/2018/9/Localizacion> .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9/Coordenadas
+<http://www.semanticweb.org/pc/ontologies/2018/9/Coordenadas> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <http://www.semanticweb.org/pc/ontologies/2018/9/Localizacion> .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9/Distrito
+<http://www.semanticweb.org/pc/ontologies/2018/9/Distrito> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://www.semanticweb.org/pc/ontologies/2018/9/Localizacion> .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9/Email
+<http://www.semanticweb.org/pc/ontologies/2018/9/Email> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9/Horario
+<http://www.semanticweb.org/pc/ontologies/2018/9/Horario> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9/Localidad
+<http://www.semanticweb.org/pc/ontologies/2018/9/Localidad> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <http://www.semanticweb.org/pc/ontologies/2018/9/Localizacion> .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9/Localizacion
+<http://www.semanticweb.org/pc/ontologies/2018/9/Localizacion> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9/NombreParking
+<http://www.semanticweb.org/pc/ontologies/2018/9/NombreParking> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9/PlazasPublicas
+<http://www.semanticweb.org/pc/ontologies/2018/9/PlazasPublicas> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9/PlazasResidentes
+<http://www.semanticweb.org/pc/ontologies/2018/9/PlazasResidentes> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9/Provincia
+<http://www.semanticweb.org/pc/ontologies/2018/9/Provincia> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <http://www.semanticweb.org/pc/ontologies/2018/9/Localizacion> .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9/Telefono
+<http://www.semanticweb.org/pc/ontologies/2018/9/Telefono> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9/URL
+<http://www.semanticweb.org/pc/ontologies/2018/9/URL> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9/Via
+<http://www.semanticweb.org/pc/ontologies/2018/9/Via> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://www.semanticweb.org/pc/ontologies/2018/9/Localizacion> .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/9/untitled-ontology-4#PK
+<http://www.semanticweb.org/pc/ontologies/2018/9/untitled-ontology-4#PK> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi
