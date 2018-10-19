@@ -28,3 +28,6 @@ This is the directory where students have to upload their materials related to t
 * /lodrefine/*.json - A JSON file with the operations performed over the data for fixing and transforming them.
 * /rdf/*.ttl - An RDF file in the Turtle syntax with the data transformed into RDF.
 * /selfAssessmentHandsOn3.md - A Markdown document with the hands-on 3 self-assessment
+* /lodrefine/*-with-links.json - A JSON file with the operations performed over the data for linking them
+* /rdf/*-with-links.ttl - An RDF file in the Turtle syntax with the data linked and transformed into RDF
+
