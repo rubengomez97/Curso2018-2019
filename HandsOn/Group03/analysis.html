@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>Group 03: Analysis</title>
+  <style>
+  h1{
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+.class1{
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+text-decoration: underline;
+}
+
+td{
+  font-size: 18px;
+  margin: 3px;
+}
+
+a{
+  text-decoration: none;
+  font-style: italic;
+}
+
+p{
+  margin-left: 40px;
+  margin-right: 180px;
+  font-size: 16px;
+}
+
+.leyend td{
+  background: black;
+  color: white;
+  padding: 9px;
+}
+
+td{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.leyend2{
+margin-bottom: 40px;
+}
+  </style>
+</head>
+<body>
+  <h1> Data source analysis</h1>
+  <div class="class1">
+    <table>
+      <tr class="leyend">
+        <td><strong>Column</strong></td>
+        <td><strong>Type</strong></td>
+        <td><strong>Range</strong></td>
+        <td><strong>Comments</strong></td>
+        <td><strong>Problems</strong></td>
+      </tr>
+
+      <tr>
+        <td>	Number	</td>
+        <td>	String	</td>
+        <td>	[0-9][a-z]	</td>
+        <td>	A number or a number with a letter	</td>
+        <td>	Different ways to number	</td>
+      </tr>
+
+      <tr>
+        <td>	Geographic information system   coordinate x	</td>
+        <td>	Float	</td>
+        <td>	[500000 , 10000000]	</td>
+      </tr>
+
+
+      <tr>
+        <td>	Geographic information system   coordinate y	</td>
+        <td>	Float	</td>
+        <td>	[500000 , 10000000]	</td>
+      </tr>
+
+      <tr>
+        <td>	Discharge date	</td>
+        <td>	Integer	</td>
+        <td>	[0-9][A-Z]	</td>
+      </tr>
+
+      <tr>
+        <td>	District	</td>
+        <td>	String	</td>
+        <td>	[0-9][A-Z][a-z]	</td>
+        <td>	Number of the district and district's name	</td>
+      </tr>
+
+      <tr>
+        <td>	Neighborhood	</td>
+        <td>	String	</td>
+        <td>	[0-9][A-Z][a-z]	</td>
+        <td>	Number-Number Neighborhood's name	</td>
+      </tr>
+
+      <tr>
+        <td>	Street	</td>
+        <td>	String	</td>
+        <td>	[0-9][A-Z][a-z][,]	</td>	<td>	Street's name, type of street, grammatical articles	</td>
+      </tr>
+
+      <tr>
+        <td>	Street number	</td>
+        <td>	String	</td>
+        <td>	[0-9][A-Z][/]	</td>
+        <td>	A number or S/N if there is no number	</td>	<td>	It can be S/N (S/N is without number)	</td>
+      </tr>
+
+
+      <tr>
+        <td>	Type of reservation	</td>
+        <td>	String	</td>
+        <td>		</td>
+        <td>	Always BiciMAD	</td>
+      </tr>
+
+
+      <tr>
+        <td>	Number of places	</td>
+        <td>	Integer	</td>
+        <td>	[0-9]	</td>
+      </tr>
+
+      <tr>
+        <td>	Length	</td>
+        <td>	Double	</td>
+        <td>	[-180,180]º	</td>
+        <td> </td>
+        <td>	negative values	</td>
+      </tr>
+
+      <tr>
+        <td>	Latitude	</td>
+        <td>	Double	</td>
+        <td>	[-180,180]º	</td>
+        <td> </td>
+        <td>	negative values	</td>
+      </tr>
+
+      <tr>
+        <td>	Address	</td>
+        <td>	String	</td>
+        <td>	[0-9][A-Z][a-z][,]	</td>
+        <td>	Street, Street number	</td>
+        <td>		</td>
+      </tr>
+
+
+    </table>
+  </div>
+
+
+
+  <h1> Analyse Licensing of the Data Source</h1>
+  <p><a href="https://datos.madrid.es/sites/v/index.jsp?vgnextoid=e9b2a4059b4b7410VgnVCM2000000c205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD">The data</a>
+  </p>
+  <p>
+    The publisher and the rightsholder is the Ayuntamiento de Madrid.</p>
+
+    <br>
+
+    <p><a href="https://datos.madrid.es/egob/catalogo/aviso-legal">Use of the license:</a>
+    </p>
+
+    <p>• These general conditions allow the reuse of documents and data submitted to them for commercial and non-commercial purposes. </p>
+    <p>• It is forbidden to denaturalize the meaning of the information.  </p>
+    <p>• The source of the documents to be reused must be cited. This appointment may be made as follows: "Origin of data: City of Madrid (or, where appropriate, administrative body, agency or entity concerned)"  </p>
+    <p>•
+      The date of the last update of the documents object of the reuse must be mentioned, as long as it was included in the original document.
+      You can not indicate, suggest or suggest that the Madrid City Council participates, sponsors or supports the reuse carried out with the information.  </p>
+      <p>• The metadata about the date of update and the applicable reuse conditions included, where applicable, in the document made available for reuse must be retained, not altered or deleted.  </p>
+      <p>• In the event of anonymized information for the protection of personal data or other reasons, it is expressly forbidden to carry out tasks of re-identification of persons based on these data and other possible, past, current or future data and information sources.  </p>
+
+    </p>
+
+
+
+    <h1> Define Resource Naming Strategy</h1>
+  <div class="leyend2" align="center">
+    <table>
+      <tr class="leyend" >
+        <td><strong></strong></td>
+        <td><strong>URI</strong></td>
+        <td><strong>Example</strong></td>
+
+      </tr>
+
+      <tr>
+        <td><strong>Domain</strong></td>
+        <td>	https://BiciMAD.es/	</td>
+      </tr>
+      <tr>
+        <td><strong>Ontological terms</strong></td>
+        <td>	https://BiciMAD.es/Group03/ontology#	</td>
+        <td>	https://BiciMAD.es/Group03/ontology#neighborhood	</td>
+      </tr>
+
+      <tr>
+        <td><strong>Individual Path</strong></td>
+        <td>	https://BiciMAD.es/Group03/resources/type/number	</td>
+        <td>	https://BiciMAD.es/Group03/resources/point/73	</td>
+      </tr>
+    </table>
+  </div>
+
+
+  </body>
+  </html>

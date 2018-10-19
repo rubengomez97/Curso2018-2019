@@ -1,0 +1,2594 @@
+[
+  {
+    "op": "core/column-split",
+    "description": "Split column Column 1 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Column 1",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ";\"",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 1 1 to PK",
+    "oldColumnName": "Column 1 1",
+    "newColumnName": "PK"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Column 1 2 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Column 1 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "\";",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 1 2 1 to Nombre",
+    "oldColumnName": "Column 1 2 1",
+    "newColumnName": "Nombre"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Column 1 2 2 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Column 1 2 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "\";",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 1 2 2 1",
+    "columnName": "Column 1 2 2 1"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Column 1 2 2 2 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Column 1 2 2 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "\";",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": true,
+          "selection": [],
+          "selectError": false,
+          "invert": false,
+          "name": "PK",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PK"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 1 2 2 2 1",
+    "columnName": "Column 1 2 2 2 1"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Column 1 2 2 2 2 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Column 1 2 2 2 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "\"",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 1 2 2 2 2 1",
+    "columnName": "Column 1 2 2 2 2 1"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Column 1 2 2 2 2 2 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Column 1 2 2 2 2 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "\";",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 1 2 2 2 2 2 1 to Equipamiento",
+    "oldColumnName": "Column 1 2 2 2 2 2 1",
+    "newColumnName": "Equipamiento"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Column 1 2 2 2 2 2 2 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Column 1 2 2 2 2 2 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "\"",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 1 2 2 2 2 2 2 1",
+    "columnName": "Column 1 2 2 2 2 2 2 1"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Column 1 2 2 2 2 2 2 2 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Column 1 2 2 2 2 2 2 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "\";\"",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 1 2 2 2 2 2 2 2 1 to Transporte",
+    "oldColumnName": "Column 1 2 2 2 2 2 2 2 1",
+    "newColumnName": "Transporte"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Column 1 2 2 2 2 2 2 2 2 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Column 1 2 2 2 2 2 2 2 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "\";\"",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 1 2 2 2 2 2 2 2 2 1 to Descripcion",
+    "oldColumnName": "Column 1 2 2 2 2 2 2 2 2 1",
+    "newColumnName": "Descripcion"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          ";\"ENSEÑANZA: Educacion Infantil - Primaria - Enseñanza biling&uuml;e"
+        ],
+        "to": "ENSEÑANZA: Educacion Infantil - Primaria - Enseñanza biling&uuml;e"
+      }
+    ]
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Column 1 2 2 2 2 2 2 2 2 2 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Column 1 2 2 2 2 2 2 2 2 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "\";\"",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 1 2 2 2 2 2 2 2 2 2 1 to Accesibilidad",
+    "oldColumnName": "Column 1 2 2 2 2 2 2 2 2 2 1",
+    "newColumnName": "Accesibilidad"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educación infantil - Primaria"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil - Primaria"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educacion Infantil - Primaria"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil - Primaria"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA : Educación infantil - Primaria"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil - Primaria"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educación Infantil - Primaria  Curso 2018/19 trasladado por obras al Colegio Público Perú / Calle Baleares 18."
+        ],
+        "to": "ENSEÑANZA: Educación Infantil - Primaria"
+      }
+    ]
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 1 2 2 2 2 2 2 2 2 2 2 to Content-URL",
+    "oldColumnName": "Column 1 2 2 2 2 2 2 2 2 2 2",
+    "newColumnName": "Content-URL"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Content-URL by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Content-URL",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "\";\"",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Content-URL 2 to Nombre Vial",
+    "oldColumnName": "Content-URL 2",
+    "newColumnName": "Nombre Vial"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Nombre Vial by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Nombre Vial",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "\";\"",
+    "regex": false,
+    "maxColumns": 4
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Nombre Vial 2 to Tipo Vial",
+    "oldColumnName": "Nombre Vial 2",
+    "newColumnName": "Tipo Vial"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tipo Vial",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Tipo Vial",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "calle"
+        ],
+        "to": "CALLE"
+      }
+    ]
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Nombre Vial 3 to Tipo-Num",
+    "oldColumnName": "Nombre Vial 3",
+    "newColumnName": "Tipo-Num"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Nombre Vial 4 to Numero",
+    "oldColumnName": "Nombre Vial 4",
+    "newColumnName": "Numero"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Content-URL 1 to Content-URL",
+    "oldColumnName": "Content-URL 1",
+    "newColumnName": "Content-URL"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Nombre Vial 1 to Nombre Vial",
+    "oldColumnName": "Nombre Vial 1",
+    "newColumnName": "Nombre Vial"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Numero by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Numero",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "\";\"",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Numero 1 to Numero",
+    "oldColumnName": "Numero 1",
+    "newColumnName": "Numero"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Numero 2 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Numero 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ";\";\";\";\"MADRID\";\"MADRID\";\"",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Numero 2 1",
+    "columnName": "Numero 2 1"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Numero 2 2 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Numero 2 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "\";\"",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Numero 2 2 2 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Numero 2 2 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "\";\"",
+    "regex": false,
+    "maxColumns": 3
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Numero 2 2 1 to Codigo Postal",
+    "oldColumnName": "Numero 2 2 1",
+    "newColumnName": "Codigo Postal"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Numero 2 2 2 1 to Barrio",
+    "oldColumnName": "Numero 2 2 2 1",
+    "newColumnName": "Barrio"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Numero 2 2 2 2 to Distrito",
+    "oldColumnName": "Numero 2 2 2 2",
+    "newColumnName": "Distrito"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Numero 2 2 2 3 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Numero 2 2 2 3",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "\";\"",
+    "regex": false,
+    "maxColumns": 3
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Numero 2 2 2 3 1 to Coord X",
+    "oldColumnName": "Numero 2 2 2 3 1",
+    "newColumnName": "Coord X"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Numero 2 2 2 3 2 to Coord Y",
+    "oldColumnName": "Numero 2 2 2 3 2",
+    "newColumnName": "Coord Y"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Numero 2 2 2 3 3 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Numero 2 2 2 3 3",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "\";\"",
+    "regex": false,
+    "maxColumns": 3
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Numero 2 2 2 3 3 3 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Numero 2 2 2 3 3 3",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "\";\"",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Numero 2 2 2 3 3 1 to Latitud",
+    "oldColumnName": "Numero 2 2 2 3 3 1",
+    "newColumnName": "Latitud"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Numero 2 2 2 3 3 2 to Longitud",
+    "oldColumnName": "Numero 2 2 2 3 3 2",
+    "newColumnName": "Longitud"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Numero 2 2 2 3 3 3 1 to Telefono",
+    "oldColumnName": "Numero 2 2 2 3 3 3 1",
+    "newColumnName": "Telefono"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Numero 2 2 2 3 3 3 2",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Numero 2 2 2 3 3 3 2",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          ";\";\"/contenido/entidadesYorganismos/CentrosEducacion/ColegiosPublicos\"; "
+        ],
+        "to": "\";\";\"/contenido/entidadesYorganismos/CentrosEducacion/ColegiosPublicos\"; "
+      }
+    ]
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Numero 2 2 2 3 3 3 2 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Numero 2 2 2 3 3 3 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "\"",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Numero 2 2 2 3 3 3 2 2 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Numero 2 2 2 3 3 3 2 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ";\"",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Numero 2 2 2 3 3 3 2 1 to Fax",
+    "oldColumnName": "Numero 2 2 2 3 3 3 2 1",
+    "newColumnName": "Fax"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Numero 2 2 2 3 3 3 2 2 1",
+    "columnName": "Numero 2 2 2 3 3 3 2 2 1"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Numero 2 2 2 3 3 3 2 2 2",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Numero 2 2 2 3 3 3 2 2 2",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "/contenido/entidadesYorganismos/CentrosEducacion/ColegiosPublicos\";"
+        ],
+        "to": "\";\"/contenido/entidadesYorganismos/CentrosEducacion/ColegiosPublicos\";"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Numero 2 2 2 3 3 3 2 2 2",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Numero 2 2 2 3 3 3 2 2 2",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          ";\"/contenido/entidadesYorganismos/CentrosEducacion/ColegiosPublicos\"; "
+        ],
+        "to": "\";\"/contenido/entidadesYorganismos/CentrosEducacion/ColegiosPublicos\"; "
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Numero 2 2 2 3 3 3 2 2 2",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Numero 2 2 2 3 3 3 2 2 2",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "\";\"/contenido/entidadesYorganismos/CentrosEducacion/ColegiosPublicos\";"
+        ],
+        "to": "\";\"/contenido/entidadesYorganismos/CentrosEducacion/ColegiosPublicos\";"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Numero 2 2 2 3 3 3 2 2 2",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Numero 2 2 2 3 3 3 2 2 2",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "\";\"/contenido/entidadesYorganismos/CentrosEducacion/ColegiosPublicos\"; "
+        ],
+        "to": "\";\"/contenido/entidadesYorganismos/CentrosEducacion/ColegiosPublicos\";"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Numero 2 2 2 3 3 3 2 2 2",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Numero 2 2 2 3 3 3 2 2 2",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "\"/contenido/entidadesYorganismos/CentrosEducacion/ColegiosPublicos\";        "
+        ],
+        "to": "\";\"/contenido/entidadesYorganismos/CentrosEducacion/ColegiosPublicos\";"
+      }
+    ]
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Numero 2 2 2 3 3 3 2 2 2 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Numero 2 2 2 3 3 3 2 2 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "\";\"",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Numero 2 2 2 3 3 3 2 2 2 1 to Email",
+    "oldColumnName": "Numero 2 2 2 3 3 3 2 2 2 1",
+    "newColumnName": "Email"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Numero 2 2 2 3 3 3 2 2 2 2 to Tipo",
+    "oldColumnName": "Numero 2 2 2 3 3 3 2 2 2 2",
+    "newColumnName": "Tipo"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tipo",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Tipo",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "/contenido/entidadesYorganismos/CentrosEducacion/ColegiosPublicos\"; "
+        ],
+        "to": "/contenido/entidadesYorganismos/CentrosEducacion/ColegiosPublicos"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tipo",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Tipo",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "/contenido/entidadesYorganismos/CentrosEducacion/ColegiosPublicos\";"
+        ],
+        "to": "/contenido/entidadesYorganismos/CentrosEducacion/ColegiosPublicos"
+      }
+    ]
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": true,
+          "selection": [],
+          "selectError": false,
+          "invert": false,
+          "name": "PK",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PK"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor  - Horario ampliado"
+        ],
+        "to": "Comedor - Horario ampliado"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Horario ampliado."
+        ],
+        "to": "Comedor - Horario ampliado"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Transporte -  Horario ampliado - Planes de mejora."
+        ],
+        "to": "Comedor - Transporte -  Horario ampliado - Planes de mejora"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Transporte - Horario ampliado - Planes de mejora."
+        ],
+        "to": "Comedor - Transporte - Horario ampliado - Planes de mejora"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Transporte - Horario ampliado -Planes de mejora"
+        ],
+        "to": "Comedor - Transporte - Horario ampliado - Planes de mejora"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Transporte - Integración preferente (motóricos) - Horario ampliado"
+        ],
+        "to": "Comedor - Transporte - Integración (preferentemente motóricos) - Horario ampliado"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor -Horario ampliado - Planes de mejora"
+        ],
+        "to": "Comedor - Horario ampliado - Planes de mejora"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor. Planes de mejora."
+        ],
+        "to": "Comedor - Planes de mejora."
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Horario ampliado - Comedor - Planes de mejora"
+        ],
+        "to": "Comedor - Horario ampliado - Planes de mejora"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Horario ampliado - Comedor."
+        ],
+        "to": "Comedor - Horario ampliado"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Horario ampliado - Comedor - Planes de mejora."
+        ],
+        "to": "Comedor - Horario ampliado - Planes de mejora"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Horario ampliado - Transporte - Comedor - Planes de mejora"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Planes de mejora"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Transporte - Comedor"
+        ],
+        "to": "Comedor - Transporte"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Transporte - Comedor - Horario ampliado - Planes de mejora"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Planes de mejora"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Transporte - Horario ampliado - Comedor - Planes de mejora."
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Planes de mejora"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Transporte - Horario ampliado - Comedor - Planes de mejora"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Planes de mejora"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Transporte - Comedor - Planes de mejora - Horario ampliado"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Planes de mejora"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Transporte - Comedor - Horario ampliado - Planes de mejora - Integración preferente (trastornos generales del desarrollo)"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Planes de mejora - Integración preferente (trastornos generales del desarrollo)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Transporte - Comedor - Horario ampliado - Integración preferente (motóricos)"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Integración preferente (motóricos)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Horario ampliado - Comedor - Integración preferente: motóricos"
+        ],
+        "to": "Comedor - Horario ampliado - Integración preferente (motóricos)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Integración (General) - Comedor"
+        ],
+        "to": "Comedor - Integración (General)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Horario ampliado - Comedor"
+        ],
+        "to": "Comedor - Horario ampliado"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Transporte - Planes de mejora- Horario ampliado"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Planes de mejora"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Horario ampliado - Comedor - Integración prefernete (Trastornos generales del desarrollo)"
+        ],
+        "to": "Comedor - Horario ampliado - Integración preferente (Trastornos generales del desarrollo)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Horario ampliado - Comedor - Planes de mejora - Integración preferente (Trastornos generales del desarrollo)"
+        ],
+        "to": "Comedor - Horario ampliado - Planes de mejora - Integración preferente (Trastornos generales del desarrollo)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Transporte -  Horario ampliado - Comedor - Planes de mejora - Integración preferente (motóricos)"
+        ],
+        "to": "Comedor -  Horario ampliado - Transporte - Planes de mejora - Integración preferente (motóricos)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Transporte - Integración preferente (motóricos) - Horario ampliado - Planes de mejora"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Planes de mejora - Integración preferente (motóricos)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Transporte - Integración (preferentemente motóricos) - Horario ampliado - Planes de mejora -Convenio con el British Council"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Planes de mejora - Integración preferente (motóricos) - Convenio con el British Council"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Transporte - Integración (preferentemente motóricos) - Horario ampliado - Planes de mejora"
+        ],
+        "to": "Comedor -  Horario ampliado - Transporte - Planes de mejora - Integración preferente (motóricos)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Transporte - Integración (preferentemente auditivos) - Horario ampliado - Planes de mejora"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Planes de mejora - Integración preferente (auditivos)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Transporte - Horario Ampliado - Integración preferente: Audtitivos- Planes de mejora"
+        ],
+        "to": "Comedor - Horario Ampliado - Transporte - Planes de mejora - Integración preferente (audtitivos)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Transporte - Horario ampliado - Planes de mejora"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Planes de mejora"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Transporte - Horario ampliado - Horario ampliado"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Transporte - Horario ampliado"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Transporte - Integración (preferentemente motóricos) - Horario ampliado"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Integración preferente (motóricos)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Transporte - Horario ampliado - Planes de mejora - Integración preferente (Trastornos generales del desarrollo)"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Planes de mejora - Integración preferente (Trastornos generalizado del desarrollo)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Transporte - Horario ampliado - Integracion preferente (motóricos)"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Integracion preferente (motóricos)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Planes de mejora."
+        ],
+        "to": "Comedor - Planes de mejora"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Planes de mejora - Horario ampliado"
+        ],
+        "to": "Comedor - Horario ampliado - Planes de mejora"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Planes de mejora -  Horario ampliado"
+        ],
+        "to": "Comedor - Horario ampliado - Planes de mejora"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Integración (preferentemente auditivos) - Planes de mejora"
+        ],
+        "to": "Comedor - Planes de mejora - Integración preferente (auditivos)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Transporte -  Horario ampliado - Planes de mejora - Convenio con British Council"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Planes de mejora - Convenio con British Council"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Planes de mejora - Integración preferente (auditivos)"
+        ],
+        "to": "Comedor - Planes de mejora - Integración preferente (auditivos)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Integración (General) - Horario ampliado"
+        ],
+        "to": "Comedor - Horario ampliado - Integración (General)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Integración - Horario ampliado"
+        ],
+        "to": "Comedor - Horario ampliado - Integración"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Transporte - Horario ampliado - Integración preferente (Trastorno generalizado del desarrollo)"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Integración preferente (Trastorno generalizado del desarrollo)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Transporte -  Horario ampliado - Planes de mejora - Integración preferente (Trastornos generales del desarrollo)"
+        ],
+        "to": "Comedor -  Horario ampliado - Transporte - Planes de mejora - Integración preferente (Trastornos generales del desarrollo)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Transporte -  Horario ampliado - Planes de mejora"
+        ],
+        "to": "Comedor -  Horario ampliado - Transporte - Planes de mejora"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Horario ampliado - Transporte - Integración preferente (Trastorno generalizado del desarrollo)"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Integración preferente (Trastornos generales del desarrollo)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Horario ampliado - Transporte - Planes de mejora - Integración preferente (trastornos generales del desarrollo)"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Planes de mejora - Integración preferente (Trastornos generales del desarrollo)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Horario ampliado - Comedor - Planes de mejora"
+        ],
+        "to": "Comedor - Horario ampliado - Planes de mejora"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Horario ampliado - Integración"
+        ],
+        "to": "Comedor - Horario ampliado - Integración (General)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Horario ampliado - Integración (preferentemente auditivos)"
+        ],
+        "to": "Comedor - Horario ampliado - Integración preferente(auditivos)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Horario ampliado - Integración preferente (Tratornos generales del desarrollo)"
+        ],
+        "to": "Comedor - Horario ampliado - Integración preferente (Trastornos generales del desarrollo)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Horario ampliado - Integración preferente(auditivos)"
+        ],
+        "to": "Comedor - Horario ampliado - Integración preferente (auditivos)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Horario ampliado - Planes de mejora -Integración preferente (auditivos)."
+        ],
+        "to": "Comedor - Horario ampliado - Planes de mejora - Integración preferente (auditivos)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Horario ampliado - Transporte - Integracion preferente (motóricos)"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Integración preferente (motóricos)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Horario Ampliado - Transporte - Planes de mejora - Integración preferente (audtitivos)"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Planes de mejora - Integración preferente (audtitivos)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Horario ampliado - Transporte - Planes de mejora - Integración preferente (audtitivos)"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Planes de mejora - Integración preferente (auditivos)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor - Horario ampliado - Transporte - Planes de mejora - Integración preferente (Trastornos generalizado del desarrollo)"
+        ],
+        "to": "Comedor - Horario ampliado - Transporte - Planes de mejora - Integración preferente (Trastornos generales del desarrollo)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Equipamiento",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Equipamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Comedor -  Horario ampliado - Planes de mejora - Integración preferente (Trastornos generales del desarrollo)"
+        ],
+        "to": "Comedor - Horario ampliado - Planes de mejora - Integración preferente (Trastornos generales del desarrollo)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educación Infantil - Primaria  Otra sede en C/ Calamón, 3"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil - Primaria"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educación Infantil - Primaria -  Enseñanza biling&uuml;e -"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil - Primaria -  Enseñanza bilingue"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educación Infantil - Primaria -  Enseñanza Biling&uuml;e -"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil - Primaria -  Enseñanza Bilingue"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educación Infantil - Primaria -  Enseñanza bilingue"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil - Primaria -  Enseñanza Bilingue"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educación Infantil - Primaria -  ESO"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil - Primaria - ESO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educacion Infantil - Primaria - Enseñanza biling&uuml;e"
+        ],
+        "to": "ENSEÑANZA: Educacion Infantil - Primaria - Enseñanza Bilingue"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educación infantil - Primaria - Enseñanza biling&uuml;e"
+        ],
+        "to": "ENSEÑANZA: Educación infantil - Primaria - Enseñanza Bilingue"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educación Infantil - Primaria - Enseñanza biling&uuml;e"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil - Primaria - Enseñanza Bilingue"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educación Infantil - Primaria - Enseñanza Biling&uuml;e"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil - Primaria - Enseñanza Bilingue"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educación infantil - Primaria - Enseñanza biling&uuml;e  Integración preferente: Motóricos"
+        ],
+        "to": "ENSEÑANZA: Educación infantil - Primaria - Enseñanza ilingue  Integración preferente: Motóricos"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educación infantil - Primaria - Enseñanza ilingue  Integración preferente: Motóricos"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil - Primaria - Enseñanza Bilingue"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educación Infantil - Primaria - Enseñanza Biling&uuml;e -"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil - Primaria - Enseñanza Bilingue"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educación infantil - Primaria - Enseñanza biling&uuml;e -"
+        ],
+        "to": "ENSEÑANZA: Educación infantil - Primaria - Enseñanza Bilingue"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educación Infantil - Primaria - Enseñanza biling&uuml;e -"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil - Primaria - Enseñanza Bilingue"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educación Infantil (Segundo Ciclo) - Primaria"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil (Segundo ciclo) - Primaria"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educación Infantil 2&ordm; Ciclo - Primaria - ESO"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil (Segundo ciclo) - Primaria - ESO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Segundo ciclo de Educación Infantil - Primaria"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil (Segundo ciclo) - Primaria"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Segundo ciclo de Infantil, Educación Primaria y Educación Secundaria Obligatoria"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil (Segundo ciclo) - Primaria - ESO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Enseñanzas    Segundo ciclo de Educación Infantil  Educación Primaria   Educación especial:   Educación infantil   Educación Básica Obligatoria"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil (Segundo cliclo) - Primaria - ESO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educación Infantil (Segundo cliclo) - Primaria - ESO"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil (Segundo ciclo) - Primaria - ESO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Enseñanzas Autorizadas: Educación infantil segundo ciclo - Educación Primaria - Enseñanza biling&uuml;e - Alemán"
+        ],
+        "to": "ENSEÑANZA: Educación infantil (Segundo ciclo) - Primaria - Enseñanza Bilingue (Alemán)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZAS: Segundo ciclo de E. Infantil - Primaria - Educación Secundaria Obligatoria"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil (Segundo ciclo) - Primaria - ESO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZAS: Segundo ciclo de Educación Infantil - Primaria"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil (Segundo ciclo) - Primaria"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZAS: Segundo ciclo de Educación Infantil - Primaria -  Enseñanza Biling&uuml;e -"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil (Segundo ciclo) - Primaria - Enseñanza Bilingue"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educacion Infantil - Primaria - Enseñanza Bilingue"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil - Primaria - Enseñanza Bilingue"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educación infantil - Primaria - Enseñanza Bilingue"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil - Primaria - Enseñanza Bilingue"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ENSEÑANZA: Educación Infantil - Primaria -  Enseñanza Bilingue"
+        ],
+        "to": "ENSEÑANZA: Educación Infantil - Primaria - Enseñanza Bilingue"
+      }
+    ]
+  }
+]

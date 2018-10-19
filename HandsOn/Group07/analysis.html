@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Dataset Analysis</title>
+<!-- 2018-10-16 mar 20:33 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Luciano García Giordano, José Luis Del Pino García, Jhon Toledo Barreto, Daniel Argota García" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Dataset Analysis</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Description of the tables</a>
+<ul>
+<li><a href="#sec-1-1">1.1. Stations.csv</a></li>
+<li><a href="#sec-1-2">1.2. Yearly data files</a></li>
+</ul>
+</li>
+<li><a href="#sec-2">2. License</a></li>
+<li><a href="#sec-3">3. Naming strategy</a></li>
+<li><a href="#sec-4">4. Benefits from linking with external data</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Description of the tables</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> Stations.csv</h3>
+<div class="outline-text-3" id="text-1-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Column</th>
+<th scope="col" class="left">Type</th>
+<th scope="col" class="left">Comments / Range (Rounded)</th>
+<th scope="col" class="left">Problems</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">id</td>
+<td class="left">number</td>
+<td class="left">Unique identifier of the station.</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">name</td>
+<td class="left">name</td>
+<td class="left">Name of the station</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">address</td>
+<td class="left">name</td>
+<td class="left">Address of the station</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">lon</td>
+<td class="left">number</td>
+<td class="left">Longitud of the station, Range: (-3.77, 3.58)</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">lat</td>
+<td class="left">number</td>
+<td class="left">Latitude of the station, Range: (40.35, 40.52)</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">elevation</td>
+<td class="left">number</td>
+<td class="left">Elevation of the station, Range: (590, 730)</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2"><span class="section-number-3">1.2</span> Yearly data files</h3>
+<div class="outline-text-3" id="text-1-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Column</th>
+<th scope="col" class="left">Type</th>
+<th scope="col" class="left">Comments / Range (Rounded)</th>
+<th scope="col" class="left">Problems</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">date</td>
+<td class="left">date</td>
+<td class="left">Unique identifier of the station.</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">BEN</td>
+<td class="left">number</td>
+<td class="left">Benzene, Range: (0,20)</td>
+<td class="left">Blank values</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">CH4</td>
+<td class="left">number</td>
+<td class="left">Methane, Range: (1,3.4)</td>
+<td class="left">Blank values</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">CO</td>
+<td class="left">number</td>
+<td class="left">Carbon Monoxide, Range: (0.1,4.91)</td>
+<td class="left">Blank values</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">EBE</td>
+<td class="left">number</td>
+<td class="left">Ethylbenzene, Range: (0,39)</td>
+<td class="left">Blank values</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">NMHC</td>
+<td class="left">number</td>
+<td class="left">Non-methane hydrocarbons, Range: (0,4.41)</td>
+<td class="left">Blank values</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">NO</td>
+<td class="left">number</td>
+<td class="left">Nitrogen monoxide, Range: (0,980)</td>
+<td class="left">Blank values</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">NO<sub>2</sub></td>
+<td class="left">number</td>
+<td class="left">Nitrogen dioxide, Range: (0,350)</td>
+<td class="left">Blank values</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">NOx</td>
+<td class="left">number</td>
+<td class="left">Nitrogen oxides, Range: (0,1800)</td>
+<td class="left">Blank values</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">O<sub>3</sub></td>
+<td class="left">number</td>
+<td class="left">Ozone, Range: (0,200)</td>
+<td class="left">Blank values</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">PM10</td>
+<td class="left">number</td>
+<td class="left">Particles &lt;10 μm, Range: (0,310)</td>
+<td class="left">Blank values</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">PM25</td>
+<td class="left">number</td>
+<td class="left">Particles &lt;25 μm, Range: (0,96)</td>
+<td class="left">Blank values</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">SO<sub>2</sub></td>
+<td class="left">number</td>
+<td class="left">Sulfur Dioxide, Range: (1,99)</td>
+<td class="left">Blank values</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">TCH</td>
+<td class="left">number</td>
+<td class="left">Total hydrocarbons(hexane), Range: (0.15,6.68)</td>
+<td class="left">Blank values</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">TOL</td>
+<td class="left">number</td>
+<td class="left">Toluene, Range: (0,85)</td>
+<td class="left">Blank values</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">station</td>
+<td class="left">number</td>
+<td class="left">Unique identifier of the station.</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> License</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+As mentioned in the dataset requirements document, according to the official website of the dataset and the adaptation made by the publisher in Kaggle, the dataset has as license the Madrid Open Data Terms of Use. It allows the free usage of the data, without liability, for commercial and non-commercial use-cases. Publishing and republishing the data is also permitted as long as the original source is entitled. For access to the license as a whole, follow the link: <a href="https://datos.madrid.es/portal/site/egob/menuitem.3efdb29b813ad8241e830cc2a8a409a0/?vgnextoid=108804d4aab90410VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">https://datos.madrid.es/portal/site/egob/menuitem.3efdb29b813ad8241e830cc2a8a409a0/?vgnextoid=108804d4aab90410VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default</a>. Our data is then published by the Madrid local government for all the intents and purposes.
+</p>
+
+<p>
+Alongside the general lines and intentions of the previously mentioned license, we intend to generate an ontology following the Creative Commons Framework. We thus decided for a CC-BY-SA-NC license for our ontology.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> Naming strategy</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+We decided for a clear and homogeneous naming strategy, which separates classes from properties, since we noticed that, at least for our perception as students, it is very confusing the inexistence of a clear naming distinction between classes and properties. That is the reason why we defined the /class, /property and /individual paths for classes, properties and individuals, respectively.
+</p>
+
+<p>
+As for the domain, we chose a dummy domain, which is www.group07.linkeddata.org, since we don't own any domain, nor have the intention to.
+</p>
+
+<p>
+The data to be generated will follow the given patterns:
+</p>
+<ul class="org-ul">
+<li>Stations: <a href="http://www.group07.linkeddata.org/individual/station#station{id">http://www.group07.linkeddata.org/individual/station#station{id</a>}
+</li>
+<li>Measurements: <a href="http://www.group07.linkeddata.org/individual/measurement#measurement{id_of_station}_{date_of_measurement">http://www.group07.linkeddata.org/individual/measurement#measurement{id_of_station}_{date_of_measurement</a>}
+</li>
+<li>Substance Measurements: <a href="http://www.group07.linkeddata.org/individual/substanceMeasurement#substanceMeasurement{id_of_station}_{date_of_measurement}_{id_of_substance">http://www.group07.linkeddata.org/individual/substanceMeasurement#substanceMeasurement{id_of_station}_{date_of_measurement}_{id_of_substance</a>}
+</li>
+</ul>
+
+<p>
+One comment we think is important to state in this document is that a Measurement is a full measurement for a given station at a given time of all the substances it is capable of measuring. Meanwhile, a substance measurement is the entity that groups the value measured and the unit for a specific substance. That way, a Measurement is linked to many SubstanceMeasurements, which are the actual measurements for each substance measured at the station at that given time.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> Benefits from linking with external data</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+With the proposed dataset, many linking options arise. The chosen one is to link the stations to their districts, so that, through WikiData, we can gather information such as population, density, and even traffic information at the time of measurement. These are, of course, complex scenarios, but the linking allow for them to exist. Another possibility of linking we chose to include are the measured substances. That way, information such as descriptions, toxicity, and even typical atmospheric values can be gathered from the web.
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Luciano García Giordano, José Luis Del Pino García, Jhon Toledo Barreto, Daniel Argota García</p>
+<p class="date">Created: 2018-10-16 mar 20:33</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.3.2 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+@prefix property: <http://www.group07.linkeddata.org/property#>.
+@prefix class: <http://www.group07.linkeddata.org/class#>.
+@prefix individual: <http://www.group07.linkeddata.org/individual/>.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix wd:<http://www.wikidata.org/entity/>.
+@prefix UO:<http://purl.obolibrary.org/obo/>.
+
+@base <http://www.group07.linkeddata.org/>.
+
+
+
+# Properties
+## Object Properties
+property:isInNeighbourhood rdf:type rdf:Property;
+		rdfs:domain class:Station;
+		rdfs:range wd:Q3032114.
+# Q3032114 is "district of Madrid" in WikiData
+
+property:hasMeasurement rdf:type rdf:Property;
+		owl:inverseOf property:hasStation;
+		rdfs:domain class:Station;
+		rdfs:range class:Measurement.
+
+property:hasStation rdf:type rdf:Property;
+		owl:inverseOf property:hasMeasurement;
+		rdfs:domain class:Measurement;
+		rdfs:range class:Station.
+
+property:hasSubstanceMeasurement rdf:type rdf:Property ;
+		rdfs:domain class:Measurement ;
+		rdfs:range class:SubstanceMeasurement .
+
+## Data properties
+property:hasName rdf:type rdf:Property;
+		rdfs:domain class:Station;
+		rdfs:range xsd:string.
+
+property:hasAddress rdf:type rdf:Property;
+		rdfs:domain class:Station;
+		rdfs:range xsd:string.
+
+property:hasLatitude rdf:type rdf:Property;
+		rdfs:domain class:Station;
+		rdfs:range xsd:decimal.
+
+property:hasLongitude rdf:type rdf:Property;
+		rdfs:domain class:Station;
+		rdfs:range xsd:decimal.
+
+property:hasElevation rdf:type rdf:Property;
+		rdfs:domain class:Station;
+		rdfs:range xsd:decimal.
+
+property:hasDate rdf:type rdf:Property;
+		rdfs:domain class:Measurement;
+		rdfs:range xsd:dateTime.
+
+property:hasSubstance rdf:type rdf:Property;
+		rdfs:domain class:SubstanceMeasurement;
+		rdfs:range dbpediaowl:ChemicalSubstance.
+
+property:hasUnit rdf:type rdf:Property;
+		rdfs:domain class:SubstanceMeasurement;
+		rdfs:range UO:UO_0000000.
+# UO:0000000 has label "unit". It's the unit of measurement
+
+property:hasMetricValue rdf:type rdf:Property;
+		rdfs:domain class:SubstanceMeasurement;
+		rdfs:range xsd:decimal.
+
+
+# Classes
+
+class:Station rdf:type rdfs:Class.
+
+class:Measurement rdf:type rdfs:Class.
+
+class:SubstanceMeasurement rdf:type rdfs:Class.

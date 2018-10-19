@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title> Análisis grupo 10</title>
+  <style type="text/css">
+			table {
+				border: 1px solid #bbb;
+				margin-bottom: 1em;
+				width: 100%;
+				border-collapse: collapse;
+			}
+			thead{
+				background-color: aliceblue;
+			}
+			thead tr:hover{
+				background-color: aliceblue !important;
+			}
+			td, th {
+				height: 30px;
+				border: 1px solid 	#e2e2e2;
+				line-height: 1.7;
+				text-align: center;
+			}
+			th {
+				background: #f5f5f5;
+			}
+			tr:hover {
+				transition: background-color 0.5s ease;
+				background: #d8d8d8;
+			}
+			.tdlight{
+				background: #37bb47;
+			}
+			.tdlight:hover{
+				background: #37bb47;
+			}
+			.h1_doc{
+				text-align: center !important;
+				font-size: xx-large;
+			}
+			.asdf{
+				background-color: #f1f1f1;	
+			}
+		</style>
+</head>
+  
+  
+<body>
+<h1> Análisis de la licencia de los datos </h1>
+  
+	<b> Enlace a la licencia: <a href="https://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD"> Licencia </a></b>
+    
+	<p> La licencia utilizada es la proporcionada por el Ayuntamiento de Madrid. Se indica que esta permitida la reutilización de los datos para fines comerciales y no comerciales siempre que no constituya una actividad administrativa pública.</p>
+      
+
+<h1> Aparcabicis de Madrid </h1>  
+	<ul>
+		<li><b>Nombre del csv: </b>aparcabicis.csv</li>
+		<li><b>Origen de los datos: </b><a target="_blank" href="https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=1239827b864f4410VgnVCM2000000c205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">CSV</a></li>
+	</ul>  
+	<table>
+		<thead>
+			<tr>
+				<td>Columna</td>
+				<td>Tipo</td>
+				<td>Comentario</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Identificador</td>
+				<td>String</td>
+				<td>Identificador del aparcabicis</td>
+			</tr>
+			<tr>
+				<td>Dirección_completa</td>
+				<td>String</td>
+				<td>Dirección completa del aparcabicis</td>
+			</tr>
+			<tr>
+				<td>Cod_Barrio</td>
+				<td>String</td>
+				<td>Codigo del barrio</td>
+			</tr>
+			<tr>
+				<td>Barrio</td>
+				<td>String</td>
+				<td>Nombre del barrio</td>
+			</tr>
+			<tr>
+				<td>Cod_Distrito</td>
+				<td>String</td>
+				<td>Código del distrito</td>
+			</tr>
+			<tr>
+				<td>Distrito</td>
+				<td>String</td>
+				<td>Nombre del distrito</td>
+			</tr>
+			<tr>
+				<td>UTMX</td>
+				<td>Float</td>
+				<td>Coordenada X en GoogleMaps</td>
+			</tr>
+			<tr>
+				<td>UTMY</td>
+				<td>Float</td>
+				<td>Coordenada Y en GoogleMaps</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	
+	
+<h1> Definición de la estrategia de nombrado </h1>
+    <ul>
+		<li><b> Dominio: </b> http://www.semanticweb.org/group10/ </li>
+		<li><b> Términos de clases: </b> http://www.semanticweb.org/group10/Clases# </li>
+	 	<li><b> Términos de propiedades: </b> http://www.semanticweb.org/group10/Propiedades# </li>
+		<li><b> Términos individuales: </b> http://www.semanticweb.org/group10/Individuales# </li>
+		<li><b> Patrones individuales: </b> http://www.semanticweb.org/group10/'resource_type'/'resource_name'# </li>
+    </ul>
+</body>
+</html>
