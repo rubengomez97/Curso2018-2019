@@ -1,0 +1,59 @@
+@prefix : <http://BiciMAD.es/Group03/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix Group03: <http://BiciMAD.es/Group03/> .
+@base <http://BiciMAD.es/Group03/ontology#>  .
+
+<http://BiciMAD.es/Group03/ontology#>  rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://BiciMAD.es/Group03/dateRegistration
+Group03:dateRegistration rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Barrio ;
+                     rdfs:range xsd:int .
+### http://BiciMAD.es/Group03/id
+Group03:id rdf:type owl:ObjectProperty ;
+           rdfs:domain :Barrio ;
+           rdfs:range xsd:Stirng .
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://BiciMAD.es/Group03/ontology#hasLatitude
+:hasLatitude rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Parking ;
+             rdfs:range xsd:decimal .
+
+
+###  http://BiciMAD.es/Group03/ontology#hasLongitude
+:hasLongitude rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Barrio ;
+              rdfs:range xsd:decimal .
+
+
+### http://BiciMAD.es/Group03/ontology#hasPlace
+:hasPlace rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Barrio ;
+         rdfs:range xsd:int.
+
+###  http://www.BiciMAD.es/Group03/ontology#hasAddress
+:hasAddress rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Barrio ;
+         rdfs:range xsd:string .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://BiciMAD.es/Group03/District
+Group03:District rdf:type owl:Class .
+
+###  http://BiciMAD.es/Group03/ontology#Barrio
+:Barrio rdf:type owl:subClass .

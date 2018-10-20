@@ -1,0 +1,105 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+
+@prefix property: <http://handsOn.org/Group1/property#>.
+@prefix class: <http://handsOn.org/Group1/class#>.
+
+#Object properties
+property:isInCity rdf:type rdf:Property;
+		rdfs:domain class:School;
+		rdfs:range class:City.
+		
+#Data properties
+property:pk rdf:type rdf:Property;
+	rdfs:domain class:School;
+	rdfs:range xsd:decimal.
+
+property:name rdf:type rdf:Property;
+	rdfs:domain class:School;
+	rdfs:range xsd:string.
+	
+property:equipment rdf:type rdf:Property;
+	rdfs:domain class:School;
+	rdfs:range xsd:string.
+	
+property:transport rdf:type rdf:Property;
+	rdfs:domain class:School;
+	rdfs:range xsd:string.
+	
+property:description rdf:type rdf:Property;
+	rdfs:domain class:School;
+	rdfs:range xsd:string.
+	
+property:access rdf:type rdf:Property;
+	rdfs:domain class:School;
+	rdfs:range xsd:decimal.
+
+property:content_URL rdf:type rdf:Property;
+	rdfs:domain class:School;
+	rdfs:range xsd:string.
+	
+property:street_name rdf:type rdf:Property;
+	rdfs:domain class:School;
+	rdfs:range xsd:string.
+	
+property:street_type rdf:type rdf:Property;
+	rdfs:domain class:School;
+	rdfs:range xsd:string.
+	
+property:number_type rdf:type rdf:Property;
+	rdfs:domain class:School;
+	rdfs:range xsd:string.
+	
+property:number rdf:type rdf:Property;
+	rdfs:domain class:School;
+	rdfs:range xsd:decimal.
+	
+property:city rdf:type rdf:Property;
+	rdfs:domain class:School;
+	rdfs:range xsd:string.
+	
+property:province rdf:type rdf:Property;
+	rdfs:domain class:School;
+	rdfs:range xsd:string.
+	
+property:postal_Code rdf:type rdf:Property;
+	rdfs:domain class:School;
+	rdfs:range xsd:decimal.
+	
+property:borough rdf:type rdf:Property;
+	rdfs:domain class:School;
+	rdfs:range xsd:string.
+	
+property:district Name rdf:type rdf:Property;
+	rdfs:domain class:School;
+	rdfs:range xsd:string.
+	
+property:x-Axis rdf:type rdf:Property;
+	rdfs:domain class:School;
+	rdfs:range xsd:decimal.
+	
+property:y-Axis rdf:type rdf:Property;
+	rdfs:domain class:School;
+	rdfs:range xsd:decimal.
+	
+property:latitude rdf:type rdf:Property;
+	rdfs:domain class:School;
+	rdfs:range xsd:float.
+	
+property:longitude rdf:type rdf:Property;
+	rdfs:domain class:School;
+	rdfs:range xsd:float.
+	
+property:type rdf:type rdf:Property;
+	rdfs:domain class:School;
+	rdfs:range xsd:string.
+	
+#Classes
+class:School rdf:type rdfs:Class.
+
+class:City rdf:type rdfs:Class;
+	rdfs:SubClassOf :School.

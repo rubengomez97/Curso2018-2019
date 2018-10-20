@@ -1,0 +1,9 @@
+@prefix ex:<http://example.com/resource/>
+
+ex:Class01         ex:includes         ex:Sensor029;
+                   ex:includes         ex:Computer101.
+ex:Sensor029       ex:hasMeasurement   ex:Measurment8401.
+ex:Measurment8401  ex:hasTemperature   "29"^^xsd:int;
+                   ex:atTime           "2010-06-12T12:00:12"^^xsd:dateTime.
+ex:Computer101     ex:hasOwner         ex:user10A
+ex:user10A         ex:hasName          "Pedro"^^xsd:String

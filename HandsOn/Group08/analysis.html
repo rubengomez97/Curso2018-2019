@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8" />
+	<title>Hands-on Group 02 WSLD</title>
+	<head>
+		<style type="text/css">
+			table {
+				border: 1px solid #bbb;
+				margin-bottom: 1em;
+				width: 100%;
+				border-collapse: collapse;
+			}
+			thead{
+				background-color: aliceblue;
+			}
+			thead tr:hover{
+				background-color: aliceblue !important;
+			}
+			td, th {
+				height: 30px;
+				border: 1px solid 	#e2e2e2;
+				line-height: 1.7;
+				text-align: center;
+			}
+			th {
+				background: #f5f5f5;
+			}
+			tr:hover {
+				transition: background-color 0.5s ease;
+				background: #d8d8d8;
+			}
+			.tdlight{
+				background: #37bb47;
+			}
+			.tdlight:hover{
+				background: #37bb47;
+			}
+			.h1_doc{
+				text-align: center !important;
+				font-size: xx-large;
+			}
+			.asdf{
+				background-color: #f1f1f1;	
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="h1_doc">Analyse dataSets Requirements</h1>
+		<hr>
+		<h2>Accidentes de bicicletas</h2>
+		<ul>
+			<li><b>Nombre del fichero: </b>AccidentesBicicletas_2018.csv</li>
+			<li><b>Descripción: </b>The user can find the exact place when the accident ocurr, can also find the specific date when the accident took place, find what type of road surface was in the place of the accident, find what type of accident took place and find more specific information about the person involved in the accident like the age range.
+			The benefit that our database can provide to others, are the metadata that we have to create new relations with other kind os studies.
+			</li>
+			<li><b>Origen de los datos: </b><a target="_blank" href="http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=20f4a87ebb65b510VgnVCM1000001d4a900aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">Ver datos de origen</a></li>
+		</ul>
+		<table>
+			<thead>
+				<tr>
+					<td>Columna</td>
+					<td>Tipo</td>
+					<td>Comentario</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Fecha</td>
+					<td>DateTime</td>
+					<td>01/01/2018 - 31/08/2018</td>
+				</tr>
+				<tr>
+					<td>Rango horario</td>
+					<td>String</td>
+					<td>Cada hora</td>
+				</tr>
+				<tr>
+					<td>Distrito</td>
+					<td>String</td>
+					<td>Nombre distrito</td>
+				</tr>
+				<tr>
+					<td>Lugar accidente</td>
+					<td>String</td>
+					<td>Calle, avenida, parque...</td>
+				</tr>
+				<tr>
+					<td>Nº accidentes</td>
+					<td>Integer</td>
+					<td>0 - x</td>
+				</tr>
+				<tr>
+					<td>Nº víctimas</td>
+					<td>Integer</td>
+					<td>0 - x</td>
+				</tr>
+				<tr>
+					<td>Tipo accidente</td>
+					<td>String</td>
+					<td>Colisión, atropello, caída...</td>
+				</tr>
+				<tr>
+					<td>Sexo</td>
+					<td>String</td>
+					<td>Sexo del accidentado</td>
+				</tr>
+				<tr>
+					<td>Tramo edad</td>
+					<td>String</td>
+					<td>Edad comprendida entre X e Y</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="asdf">
+			<h2>Análisis de la licencia de los datos</h2>
+			<p>
+				Para la información que nosotros generemos utilizaremos la licencia estandar de Creative Commons "CC BY". De esta manera
+				permitimos cualquier tipo de uso mientras que se reconozca la autoría del trabajo.
+			</p>
+			<p>
+				Los conjuntos de datos que estamos utilizando los proporciona el <b><a href="https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=20f4a87ebb65b510VgnVCM1000001d4a900aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">portal de datos abiertos de Madrid</a></b>. 
+				<br>
+				Según su apartado de condiciones de uso: "Las condiciones generales permiten la reutilización de los documentos para fines comerciales
+				y no comerciales."
+				<br>
+				El uso que le demos no constituye una actividad administrativa pública, se considerará reutilización
+				de datos y podremos hacer uso libre de ellos tanto para fines comerciales como no comerciales.
+			</p>
+			<br>	
+		</div>		
+		<h1>Define Resource Naming Strategy</h1>		
+
+		<p>Domain: <b>http://wwww.semanticweb.org/accidentes#</b></p>
+
+		<p>Ontological terms path: <b>http://www.semanticweb.org/accidentes/OntologyGroup08#</b></p>
+
+		<p>Individuals path: <b>http://www.semanticweb.org/accidentes/instances#</b></p>
+
+		<p>Ontological terms pattern: <b>http://www.semanticweb.org/accidentes/OntologyGroup08#</b></p>
+
+		<p>Individuals pattern: <b>http://www.semanticweb.org/accidentes/instances/'resource_type'/'resource_name'#</b></p>
+	
+	</body>
+</html>		

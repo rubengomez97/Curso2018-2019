@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title> Análisis de los datos del CSV </title>
+</head>
+  <body>
+    <h1> Análisis del Dataset </h1>
+    <h2> Zonas WiFi en Madrid </h2>
+    <ul>
+      <li><b> Nombre del CSV: </b> 216619-0-wifi-municipal.csv</li>
+      <li><b> Descripción </b> En este dataset se encuentra la información sobre los diferentes lugares donde se puede encontrar WiFi en Madrid, indicándose la dirección, transporte con el que llegar, instalación donde se encuentra el Wifi, etc. </li>
+      <li><b> Enlace al CSV: <a href="http://datos.gob.es/es/catalogo/l01280796-instalaciones-municipales-con-zonas-wifi-gratuitas"> Resource </a></b>
+    </ul>
+
+    <table border="5" style="width:100%">
+    <tr>
+        <th> Nombre del dato </th>
+        <th> Tipo </th>
+        <th> Descripción </th>
+        <th> Rango </th>
+        <th> Problemas </th>
+    </tr>
+    <tr>
+        <td> PK </td>
+        <td> xsd:integer </td>
+        <td> Es el número de identificador del punto WiFi </td>
+        <td> [1745:10751094] </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Nombre </td>
+        <td> xsd:string </td>
+        <td> Es el nombre del lugar donde se encuentra el Wifi, puede ser una biblioteca, centro cultural, oficinas,etc </td>
+        <td> Ninguno </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Descripción </td>
+        <td> xsd:string </td>
+        <td> Describe la historia del Nombre correspondiente, como es en el caso de las bibliotecas, y en el caso de los centros de servicios sociales, o las agencias, dan indicaciones sobre si está permitido o no animales, la necesidad de cita previa, etc. </td>
+        <td> Ninguno </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Horario </td>
+        <td> xsd:string </td>
+        <td> Indica el horario de apertura en función del día de la semana, festivos y en algunos casos la modificación del horario durante el verano </td>
+        <td> Ninguno </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Equipamiento </td>
+        <td> xsd:string </td>
+        <td> Se encuentran detallados las salas de las que dispone el lugar, si es acesible para personas discapacitadas, las salas que disponen de wiFi, los servicios que puedes encontrar como cafeterías, etc. </td>
+        <td> Ninguno </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Transporte </td>
+        <td> xsd:string </td>
+        <td> Corresponde a la parada de transporte publico ya sea metro, renfe, o bus más cercana al lugar </td>
+        <td> Ninguno </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Accesibilidad </td>
+        <td> xsd:string </td>
+        <td> Se representa números y comas e indica como de fácil es acceder al lugar </td>
+        <td> Ninguno </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Content-url </td>
+        <td> xsd:url </td>
+        <td> Es la url de la página web del sitio </td>
+        <td> Ninguno </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Nombre vía </td>
+        <td> xsd:string </td>
+        <td> Nombre de la vía donde se encuentra </td>
+        <td> Ninguno </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Clase vía </td>
+        <td> xsd:string </td>
+        <td> De qué clase es la vía donde está el sitio, si es Calle, Avenida, Paseo,etc. </td>
+        <td> Ninguno </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Tipo-num </td>
+        <td> xsd:string </td>
+        <td> De qué tipo es el número de la calle </td>
+        <td> Ninguno </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Num </td>
+        <td> xsd:integer </td>
+        <td> Número del edificio donde está el lugar </td>
+        <td> [1:342] </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Planta </td>
+        <td> xsd:string </td>
+        <td> Indica el número de planta del edificio. </td>
+        <td> Ninguno </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Orientación </td>
+        <td> xsd:string </td>
+        <td> Explica si se encuentra cerca de algún lugar conocido o si antes ese edificio era un antiguo mercado , es decir da datos característicos de la zona donde está. </td>
+        <td> Ninguno </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Localidad </td>
+        <td> xsd:string </td>
+        <td> Indica la localidad en la que está, que en nuestro caso es Madrid </td>
+        <td> Ninguno </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Provincia </td>
+        <td> xsd:string </td>
+        <td> Indica la provincia en la que está que es la Comunidad de Madrid en este caso </td>
+        <td> Ninguno </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Código postal </td>
+        <td> xsd:integer </td>
+        <td> Es el código postal de la zona donde está </td>
+        <td> [28001:28053] </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Barrio </td>
+        <td> xsd:string </td>
+        <td> Indica el barrio en el que se encuentra </td>
+        <td> Ninguno </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Distrito </td>
+        <td> xsd:string </td>
+        <td> Indica el distrito en el que se encuentra </td>
+        <td> Ninguno </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Coordenadas </td>
+        <td> xsd:string </td>
+        <td> Das las coordenadas, por si es más comodo para la persona localizar así el lugar </td>
+        <td> [433370:4485754] </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Teléfono </td>
+        <td> xsd:string </td>
+        <td> Es el teléfono del centro, oficina, etc. </td>
+        <td> Ninguno </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Fax </td>
+        <td> xsd:string </td>
+        <td> Es el fax del centro, oficina, etc. </td>
+        <td> Ninguno </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Email </td>
+        <td> xsd:string </td>
+        <td> Email al que contactar con el sitio </td>
+        <td> Ninguno </td>
+        <td> Ninguno </td>
+    </tr>
+    <tr>
+        <td> Tipo </td>
+        <td> xsd:string </td>
+        <td> Indica si es un ayuntamiento, oficina, etc usando el siguiente formato /contenido/entidadesYorganismos/(Biblioteca/Ayuntamiento/Oficina) </td>
+        <td> Ninguno </td>
+        <td> Ninguno </td>
+    </tr>
+    </table>
+
+    <h1> Análisis de la licencia de los datos </h1>
+    <li><b> Descripción </b> A continuación se describirá la licencia utilizada </li>
+    <li><b> Enlace a el CSV: <a href="https://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD"> Resource </a></b>
+    
+    <p> La licencia utilizada es la que proporciona el Ayuntamiento de Madrid. En ella se indica que esta permitida la utilización de el csva para fines comerciales y no comerciales. A su vez se disponen de 4 condiciones para la reutilización de la misma </p>
+
+    <b> 1. Condiciones generales para la modalidad general de puesta a disposición de los documentos reutilizables del Ayuntamiento de Madrid </li></b>
+
+    <p> En esta licencia se indica que podrá hacerse uso de los datos siempre y cuando se cite la procedencia de los datos y la última actualización de los mismo, al igual que no se podrá indicar que el uso de los datos se debe a la colaborarión del ayuntamiento. A su vez no pueden modifcarse los mismo. </p>
+
+    <b> 2. Condiciones reutilización de la información de Catálogo y Préstamos de Bibliotecas Públicas de Madrid </b>
+
+    <p> Se indica que para la reutilización de los mismos se debe citar la fuenta de la siguieten forma Origen de los datos: Comunidad de Madrid  y Ayuntamiento de Madrid, pero solo en caso de incluir el docuemnto original en el trabajo o proyecto realizado, en caso de no usar más que ciertos datos no es necesario indicar la procedencia de los datos. </p>
+
+    <b> 3. Condiciones reutilización de la información de la Empresa Municipal de Transportes (EMT)</b>
+
+    <p> Indica la licencia de los datos del la EMT debido a que en el csv se disponen de datos de esta empresa. En este caso está permitido usar los datos siempre que no se modifiquen, se usen para dañar la imagen de la empresa o en acciones que den lugar a actos ilegales. </p>
+
+    <b> 4. Condiciones reutilización información Madrid Destino </b>
+
+    <p> Al igual que en el caso 3, se necesita esta licencia ya que se contienen datos de Madrid Destino. El uso de los datos es libre para fines comerciales y no comerciales, salvo en el caso de imagenes que no está permitido su uso. </p>
+
+
+    <h1> Definición de la estrategia de nombrado </h1>
+    <ul>
+      <li><b> Dominio: </b> http://www.wifimadrid.org </li>
+      <li><b> Términos ontológicos: </b> http://www.wifimadrid.org/p1/g3/ontology </li>
+      <li><b> Patrones individuales: </b> http://www.wifimadrid.org/p1/g3/resource/ </li>
+    </ul>
+  </body>
+</html>

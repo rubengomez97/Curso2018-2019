@@ -1,0 +1,12 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column UTM_Y",
+    "columnName": "UTM_Y"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column UTM_X",
+    "columnName": "UTM_X"
+  }
+]
