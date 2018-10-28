@@ -1,0 +1,1244 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.wifimadrid.org/clases",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Nombre at index 2 based on column NOMBRE using expression grel:substring(value,0,lastIndexOf(value,\".\"))",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "newColumnName": "Nombre",
+    "columnInsertIndex": 2,
+    "baseColumnName": "NOMBRE",
+    "expression": "grel:substring(value,0,lastIndexOf(value,\".\"))",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE",
+    "columnName": "NOMBRE"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column NOMBRE at index 2 based on column Nombre using expression grel:substring(value,0,lastIndexOf(value,\"(\"))",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "newColumnName": "NOMBRE",
+    "columnInsertIndex": 2,
+    "baseColumnName": "Nombre",
+    "expression": "grel:substring(value,0,lastIndexOf(value,\"(\"))",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Nombre",
+    "columnName": "Nombre"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PLANTA",
+    "columnName": "PLANTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PUERTA",
+    "columnName": "PUERTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ESCALERAS",
+    "columnName": "ESCALERAS"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ORIENTACION",
+    "columnName": "ORIENTACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIPO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TIPO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "/contenido/entidadesYorganismos/AyuntamientoMadrid/OficinasInformacionAtencionContribuyente"
+        ],
+        "to": "Oficinas Informacion Atencion Contribuyente"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIPO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TIPO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "/contenido/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro"
+        ],
+        "to": "Oficinas Municipales Registro"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIPO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TIPO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "/contenido/entidadesYorganismos/AyuntamientoMadrid/OtrasEntidadesAdministrativasAyto"
+        ],
+        "to": "Otras Entidades Administrativas"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIPO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TIPO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "/contenido/entidadesYorganismos/BibliotecasEspecializadasUniversitarias"
+        ],
+        "to": "Bibliotecas Universitarias"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIPO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TIPO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "/contenido/entidadesYorganismos/BibliotecasPublicas"
+        ],
+        "to": "Bibliotecas Publicas"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIPO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TIPO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "/contenido/entidadesYorganismos/CentrosAtencionMedica/CentrosSalud"
+        ],
+        "to": "Centros Salud"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIPO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TIPO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "/contenido/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales"
+        ],
+        "to": " Centros Servicios Sociales"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIPO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TIPO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "/contenido/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosMayores"
+        ],
+        "to": "Centros de Mayores"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIPO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TIPO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "/contenido/entidadesYorganismos/CentrosCulturales"
+        ],
+        "to": "Centros Culturales"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIPO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TIPO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "/contenido/entidadesYorganismos/CentrosFormacionOcupacional"
+        ],
+        "to": "Centros Formacio nOcupacional"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIPO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TIPO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos"
+        ],
+        "to": "Monumentos/Edificios Artisticos"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIPO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TIPO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "/contenido/entidadesYorganismos/Museos"
+        ],
+        "to": "Museos"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIPO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TIPO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "/contenido/entidadesYorganismos/OficinasEmpleo"
+        ],
+        "to": "Oficinas Empleo"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIPO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TIPO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "/contenido/entidadesYorganismos/ParquesJardines"
+        ],
+        "to": "Parques/Jardines"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIPO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TIPO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "/contenido/entidadesYorganismos/SalasEstudioLectura"
+        ],
+        "to": "Salas Estudio"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIPO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TIPO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "/contenido/entidadesYorganismos/SalasExposiciones"
+        ],
+        "to": "Salas Exposiciones"
+      }
+    ]
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column",
+    "columnName": "Column"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIPO-NUM",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TIPO-NUM",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "V"
+        ],
+        "to": "VIA"
+      }
+    ]
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORDENADA-X",
+    "columnName": "COORDENADA-X"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORDENADA-Y",
+    "columnName": "COORDENADA-Y"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column DESCRIPCION-ENTIDAD using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "DESCRIPCION-ENTIDAD",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NOMBRE using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column HORARIO using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "HORARIO",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column EQUIPAMIENTO using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "EQUIPAMIENTO",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TRANSPORTE using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column DESCRIPCION using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "DESCRIPCION",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ACCESIBILIDAD using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "ACCESIBILIDAD",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CONTENT-URL using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "CONTENT-URL",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NOMBRE-VIA using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CLASE-VIAL using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "CLASE-VIAL",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIPO-NUM using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TIPO-NUM",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NUM using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "NUM",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column LOCALIDAD using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "LOCALIDAD",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PROVINCIA using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "PROVINCIA",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CODIGO-POSTAL using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "CODIGO-POSTAL",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column BARRIO using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "BARRIO",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column DISTRITO using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "DISTRITO",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column LATITUD using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "LATITUD",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column LONGITUD using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "LONGITUD",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TELEFONO using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TELEFONO",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FAX",
+    "columnName": "FAX"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column EMAIL using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "EMAIL",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIPO using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TIPO",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column PROVINCIA to type Q10742",
+    "columnName": "PROVINCIA",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10742",
+        "name": "autonomous community of Spain"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column LOCALIDAD to type Q2074737",
+    "columnName": "LOCALIDAD",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q2074737",
+        "name": "municipality of Spain"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column LOCALIDAD URI DE WIKIDATA at index 14 based on column LOCALIDAD using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "LOCALIDAD URI DE WIKIDATA",
+    "columnInsertIndex": 14,
+    "baseColumnName": "LOCALIDAD",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column PROVINCIA URI DE WIKIDATA at index 16 based on column PROVINCIA using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "PROVINCIA URI DE WIKIDATA",
+    "columnInsertIndex": 16,
+    "baseColumnName": "PROVINCIA",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE-VIA to type Q79007",
+    "columnName": "NOMBRE-VIA",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q79007",
+        "name": "street"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"CAMARENA\" in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "CAMARENA"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"DE LOS COMUNEROS DE CASTILLA\" in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "DE LOS COMUNEROS DE CASTILLA"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"GRANJA DE TORREHERMOSA\" in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "GRANJA DE TORREHERMOSA"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"BOLTAÑA\" in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "BOLTAÑA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Institución Libre de Enseñanza, avenida de la (Q5740959) for cells containing \"INSTITUCIÓN LIBRE DE ENSEÑANZA (ANTIGUA CALLE HERMANOS GARCÍA NOBLEJAS)\" in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "INSTITUCIÓN LIBRE DE ENSEÑANZA (ANTIGUA CALLE HERMANOS GARCÍA NOBLEJAS)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5740959",
+      "name": "Institución Libre de Enseñanza, avenida de la",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"MANUEL FERRERO\" in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "MANUEL FERRERO"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"INDALECIO PRIETO\" in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "INDALECIO PRIETO"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"PUEBLO\" in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "PUEBLO"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BOLTA&Ntilde;A"
+        ],
+        "to": "BOLTAÑA"
+      }
+    ]
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Calle Galileo (Q27031392) for cells containing \"GALILEO\" in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "GALILEO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q27031392",
+      "name": "Calle Galileo",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"LOGROÑO\" in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "LOGROÑO"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "INSTITUCION LIBRE DE ENSE&Ntilde;ANZA"
+        ],
+        "to": "INSTITUCION LIBRE DE ENSEÑANZA"
+      }
+    ]
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Institución Libre de Enseñanza, avenida de la (Q5740959) for cells containing \"INSTITUCION LIBRE DE ENSEÑANZA\" in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "INSTITUCION LIBRE DE ENSEÑANZA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5740959",
+      "name": "Institución Libre de Enseñanza, avenida de la",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column NOMBRE VIA URI DE WIKIDATA at index 10 based on column NOMBRE-VIA using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "NOMBRE VIA URI DE WIKIDATA",
+    "columnInsertIndex": 10,
+    "baseColumnName": "NOMBRE-VIA",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column DISTRITO to type Q3032114",
+    "columnName": "DISTRITO",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column BARRIO to type Q10267336",
+    "columnName": "BARRIO",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10267336",
+        "name": "neighborhood of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Casco Histórico de Vicálvaro (Q16544374) for cells containing \"CASCO H.VICALVARO\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "BARRIO: best candidate's score",
+          "from": 32,
+          "to": 100,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "CASCO H.VICALVARO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16544374",
+      "name": "Casco Histórico de Vicálvaro",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Casco Histórico de Barajas (Q9701730) for cells containing \"CASCO H.BARAJAS\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "BARRIO: best candidate's score",
+          "from": 32,
+          "to": 100,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "CASCO H.BARAJAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q9701730",
+      "name": "Casco Histórico de Barajas",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Casco Histórico de Vallecas (Q16544370) for cells containing \"CASCO H.VALLECAS\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "BARRIO: best candidate's score",
+          "from": 32,
+          "to": 100,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "CASCO H.VALLECAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16544370",
+      "name": "Casco Histórico de Vallecas",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Peña Grande (Q23935593) for cells containing \"PEÑA GRANDE\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "BARRIO: best candidate's score",
+          "from": 32,
+          "to": 100,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "PEÑA GRANDE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q23935593",
+      "name": "Peña Grande",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"PEÑA GRANDE\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "BARRIO: best candidate's score",
+          "from": 32,
+          "to": 100,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "PEÑA GRANDE"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column BARRIO URI DE WIKIDATA at index 20 based on column BARRIO using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "BARRIO URI DE WIKIDATA",
+    "columnInsertIndex": 20,
+    "baseColumnName": "BARRIO",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column DISTRITO URI DE WIKIDATA at index 22 based on column DISTRITO using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "DISTRITO URI DE WIKIDATA",
+    "columnInsertIndex": 22,
+    "baseColumnName": "DISTRITO",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank"
+  }
+]
