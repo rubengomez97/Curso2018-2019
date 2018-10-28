@@ -2590,5 +2590,1564 @@
         "to": "ENSEÑANZA: Educación Infantil - Primaria - Enseñanza Bilingue"
       }
     ]
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Barrio to type Q10267336",
+    "columnName": "Barrio",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10267336",
+        "name": "neighborhood of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Valdefuentes (Q10388714) for cells containing \"VALDEFUENTES\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "VALDEFUENTES",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10388714",
+      "name": "Valdefuentes",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Portazgo (Q18005921) for cells containing \"PORTAZGO\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "PORTAZGO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q18005921",
+      "name": "Portazgo",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Hellín (Q10294546) for cells containing \"HELLIN\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "HELLIN",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10294546",
+      "name": "Hellín",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Las Águilas (Q5971372) for cells containing \"LAS AGUILAS\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "LAS AGUILAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5971372",
+      "name": "Las Águilas",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Hellín (Q10294546) for cells containing \"HELLIN\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "HELLIN",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10294546",
+      "name": "Hellín",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Aluche (Q31140) for cells containing \"ALUCHE\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "ALUCHE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q31140",
+      "name": "Aluche",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Fuente del Berro (Q3814564) for cells containing \"FUENTE DEL BERRO\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "FUENTE DEL BERRO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3814564",
+      "name": "Fuente del Berro",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Embajadores (Q2449844) for cells containing \"EMBAJADORES\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "EMBAJADORES",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2449844",
+      "name": "Embajadores",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Los Rosales (Q10319807) for cells containing \"LOS ROSALES\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "LOS ROSALES",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10319807",
+      "name": "Los Rosales",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Palomeras Bajas (Q10343902) for cells containing \"PALOMERAS BAJAS\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "PALOMERAS BAJAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10343902",
+      "name": "Palomeras Bajas",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item El Goloso (Q10271137) for cells containing \"EL GOLOSO\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "EL GOLOSO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10271137",
+      "name": "El Goloso",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Buenavista (Q953929) for cells containing \"BUENAVISTA\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "BUENAVISTA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q953929",
+      "name": "Buenavista",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Valdefuentes (Q10388714) for cells containing \"VALDEFUENTES\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "VALDEFUENTES",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10388714",
+      "name": "Valdefuentes",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Portazgo (Q18005921) for cells containing \"PORTAZGO\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "PORTAZGO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q18005921",
+      "name": "Portazgo",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Casco Histórico de Vallecas (Q16544370) for cells containing \"CASCO H.VALLECAS\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "CASCO H.VALLECAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16544370",
+      "name": "Casco Histórico de Vallecas",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Hellín (Q10294546) for cells containing \"HELLIN\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "HELLIN",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10294546",
+      "name": "Hellín",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Las Águilas (Q5971372) for cells containing \"LAS AGUILAS\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "LAS AGUILAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5971372",
+      "name": "Las Águilas",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Casco Histórico de Vicálvaro (Q16544374) for cells containing \"CASCO H.VICALVARO\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "CASCO H.VICALVARO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16544374",
+      "name": "Casco Histórico de Vicálvaro",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Peñagrande (Q3319582) for cells containing \"PEÑA GRANDE\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "PEÑA GRANDE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3319582",
+      "name": "Peñagrande",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Aluche (Q31140) for cells containing \"ALUCHE\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "ALUCHE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q31140",
+      "name": "Aluche",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Fuente del Berro (Q3814564) for cells containing \"FUENTE DEL BERRO\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "FUENTE DEL BERRO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3814564",
+      "name": "Fuente del Berro",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Palomeras Bajas (Q10343902) for cells containing \"PALOMERAS BAJAS\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "PALOMERAS BAJAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10343902",
+      "name": "Palomeras Bajas",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item El Goloso (Q10271137) for cells containing \"EL GOLOSO\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "EL GOLOSO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10271137",
+      "name": "El Goloso",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Buenavista (Q953929) for cells containing \"BUENAVISTA\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "BUENAVISTA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q953929",
+      "name": "Buenavista",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Embajadores (Q2449844) for cells containing \"EMBAJADORES\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "EMBAJADORES",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2449844",
+      "name": "Embajadores",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Los Rosales (Q10319807) for cells containing \"LOS ROSALES\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "LOS ROSALES",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10319807",
+      "name": "Los Rosales",
+      "score": 100,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"EL SALVADOR\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    },
+    "columnName": "Barrio",
+    "similarValue": "EL SALVADOR",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Distrito to type Q3032114",
+    "columnName": "Distrito",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Barrio"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Hortaleza (Q1928529) for cells containing \"HORTALEZA\" in column Distrito",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Distrito: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Distrito"
+        }
+      ]
+    },
+    "columnName": "Distrito",
+    "similarValue": "HORTALEZA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1928529",
+      "name": "Hortaleza",
+      "score": 100,
+      "types": [
+        "Q3032114"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Hortaleza (Q1928529) for cells containing \"HORTALEZA\" in column Distrito",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Distrito: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Distrito"
+        }
+      ]
+    },
+    "columnName": "Distrito",
+    "similarValue": "HORTALEZA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1928529",
+      "name": "Hortaleza",
+      "score": 100,
+      "types": [
+        "Q3032114"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Distrito to type Q3032114",
+    "columnName": "Distrito",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Distrito: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Distrito"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Codigo Postal to type Q430067",
+    "columnName": "Codigo Postal",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q430067",
+        "name": "list of postal codes in Spain"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Nombre Vial to type Q2074737",
+    "columnName": "Nombre Vial",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q2074737",
+        "name": "municipality of Spain"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-discard-judgments",
+    "description": "Discard recon judgments for cells in column Codigo Postal",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Codigo Postal",
+    "clearData": false
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Email",
+    "columnName": "Email"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"VESUBIO\" in column Nombre Vial",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Nombre Vial: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Nombre Vial"
+        }
+      ]
+    },
+    "columnName": "Nombre Vial",
+    "similarValue": "VESUBIO",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"CANILLEJAS A VICALVARO\" in column Nombre Vial",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Nombre Vial: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Nombre Vial"
+        }
+      ]
+    },
+    "columnName": "Nombre Vial",
+    "similarValue": "CANILLEJAS A VICALVARO",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"INFANTA CATALINA MICAELA\" in column Nombre Vial",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Nombre Vial: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Nombre Vial"
+        }
+      ]
+    },
+    "columnName": "Nombre Vial",
+    "similarValue": "INFANTA CATALINA MICAELA",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"FUENTE DE SAN PEDRO\" in column Nombre Vial",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Nombre Vial: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Nombre Vial"
+        }
+      ]
+    },
+    "columnName": "Nombre Vial",
+    "similarValue": "FUENTE DE SAN PEDRO",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"felix candela\" in column Nombre Vial",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Nombre Vial: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Nombre Vial"
+        }
+      ]
+    },
+    "columnName": "Nombre Vial",
+    "similarValue": "felix candela",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"RAFAEL ALBERTI\" in column Nombre Vial",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Nombre Vial: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Nombre Vial"
+        }
+      ]
+    },
+    "columnName": "Nombre Vial",
+    "similarValue": "RAFAEL ALBERTI",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-discard-judgments",
+    "description": "Discard recon judgments and clear recon data for cells in column Nombre Vial",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Nombre Vial: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Nombre Vial"
+        }
+      ]
+    },
+    "columnName": "Nombre Vial",
+    "clearData": true
+  },
+  {
+    "op": "core/recon-discard-judgments",
+    "description": "Discard recon judgments for cells in column Nombre Vial",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Nombre Vial",
+    "clearData": false
+  },
+  {
+    "op": "core/recon-discard-judgments",
+    "description": "Discard recon judgments and clear recon data for cells in column Nombre Vial",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Nombre Vial",
+    "clearData": true
   }
 ]
