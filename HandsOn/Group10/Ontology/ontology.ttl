@@ -1,4 +1,4 @@
-@prefix : <http://www.semanticweb.org/group10#> .
+@prefix : <http://www.semanticweb.org/group10/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -46,13 +46,13 @@ propiedad:codigo_Distrito rdf:type owl:DatatypeProperty ;
 ###  http://www.semanticweb.org/group10/Propiedades#coordenadaX
 propiedad:coordenadaX rdf:type owl:DatatypeProperty ;
                       rdfs:domain clase:Aparcamiento ;
-                      rdfs:range xsd:float .
+                      rdfs:range xsd:decimal .
 
 
 ###  http://www.semanticweb.org/group10/Propiedades#coordenadaY
 propiedad:coordenadaY rdf:type owl:DatatypeProperty ;
                       rdfs:domain clase:Aparcamiento ;
-                      rdfs:range xsd:float .
+                      rdfs:range xsd:decimal .
 
 
 ###  http://www.semanticweb.org/group10/Propiedades#direccion
