@@ -1,0 +1,401 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ap: <> .
+
+
+<http://127.0.0.1:3333/0> <http://www.aparcamientos-SER.org/propiedades#Barrio> "01-01 PALACIO" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" .
+
+<http://127.0.0.1:3333/1> <http://www.aparcamientos-SER.org/propiedades#Barrio> "01-01 PALACIO" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2037" .
+
+<http://127.0.0.1:3333/2> <http://www.aparcamientos-SER.org/propiedades#Barrio> "01-01 PALACIO" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Larga estancia" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "194" , "2231" .
+
+<http://127.0.0.1:3333/3> <http://www.aparcamientos-SER.org/propiedades#Barrio> "01-02 EMBAJADORES" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" .
+
+<http://127.0.0.1:3333/4> <http://www.aparcamientos-SER.org/propiedades#Barrio> "01-02 EMBAJADORES" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2412" .
+
+<http://127.0.0.1:3333/5> <http://www.aparcamientos-SER.org/propiedades#Barrio> "01-03 CORTES" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "127" .
+
+<http://127.0.0.1:3333/6> <http://www.aparcamientos-SER.org/propiedades#Barrio> "01-03 CORTES" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "538" , "665" .
+
+<http://127.0.0.1:3333/7> <http://www.aparcamientos-SER.org/propiedades#Barrio> "01-04 JUSTICIA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "1" .
+
+<http://127.0.0.1:3333/8> <http://www.aparcamientos-SER.org/propiedades#Barrio> "01-04 JUSTICIA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "1614" , "1615" .
+
+<http://127.0.0.1:3333/9> <http://www.aparcamientos-SER.org/propiedades#Barrio> "01-05 UNIVERSIDAD" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "442" .
+
+<http://127.0.0.1:3333/10> <http://www.aparcamientos-SER.org/propiedades#Barrio> "01-05 UNIVERSIDAD" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "1512" , "1954" .
+
+<http://127.0.0.1:3333/11> <http://www.aparcamientos-SER.org/propiedades#Barrio> "01-06 SOL" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" .
+
+<http://127.0.0.1:3333/12> <http://www.aparcamientos-SER.org/propiedades#Barrio> "01-06 SOL" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "357" .
+
+<http://127.0.0.1:3333/13> <http://www.aparcamientos-SER.org/propiedades#Barrio> "02-01 IMPERIAL" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "686" .
+
+<http://127.0.0.1:3333/14> <http://www.aparcamientos-SER.org/propiedades#Barrio> "02-01 IMPERIAL" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2986" , "3672" .
+
+<http://127.0.0.1:3333/15> <http://www.aparcamientos-SER.org/propiedades#Barrio> "02-02 ACACIAS" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "703" .
+
+<http://127.0.0.1:3333/16> <http://www.aparcamientos-SER.org/propiedades#Barrio> "02-02 ACACIAS" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "3069" , "3772" .
+
+<http://127.0.0.1:3333/17> <http://www.aparcamientos-SER.org/propiedades#Barrio> "02-03 CHOPERA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "292" .
+
+<http://127.0.0.1:3333/18> <http://www.aparcamientos-SER.org/propiedades#Barrio> "02-03 CHOPERA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "1615" , "1907" .
+
+<http://127.0.0.1:3333/19> <http://www.aparcamientos-SER.org/propiedades#Barrio> "02-04 LEGAZPI" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "688" .
+
+<http://127.0.0.1:3333/20> <http://www.aparcamientos-SER.org/propiedades#Barrio> "02-04 LEGAZPI" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2499" , "3187" .
+
+<http://127.0.0.1:3333/21> <http://www.aparcamientos-SER.org/propiedades#Barrio> "02-05 DELICIAS" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "825" .
+
+<http://127.0.0.1:3333/22> <http://www.aparcamientos-SER.org/propiedades#Barrio> "02-05 DELICIAS" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2481" , "3306" .
+
+<http://127.0.0.1:3333/23> <http://www.aparcamientos-SER.org/propiedades#Barrio> "02-06 PALOS DE MOGUER" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "459" .
+
+<http://127.0.0.1:3333/24> <http://www.aparcamientos-SER.org/propiedades#Barrio> "02-06 PALOS DE MOGUER" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2495" , "2954" .
+
+<http://127.0.0.1:3333/25> <http://www.aparcamientos-SER.org/propiedades#Barrio> "02-07 ATOCHA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "785" .
+
+<http://127.0.0.1:3333/26> <http://www.aparcamientos-SER.org/propiedades#Barrio> "02-07 ATOCHA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "537" , "1322" .
+
+<http://127.0.0.1:3333/27> <http://www.aparcamientos-SER.org/propiedades#Barrio> "03-01 PAC�FICO" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "433" .
+
+<http://127.0.0.1:3333/28> <http://www.aparcamientos-SER.org/propiedades#Barrio> "03-01 PAC�FICO" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2370" , "2803" .
+
+<http://127.0.0.1:3333/29> <http://www.aparcamientos-SER.org/propiedades#Barrio> "03-02 ADELFAS" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "339" .
+
+<http://127.0.0.1:3333/30> <http://www.aparcamientos-SER.org/propiedades#Barrio> "03-02 ADELFAS" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2168" , "2507" .
+
+<http://127.0.0.1:3333/31> <http://www.aparcamientos-SER.org/propiedades#Barrio> "03-03 ESTRELLA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "522" .
+
+<http://127.0.0.1:3333/32> <http://www.aparcamientos-SER.org/propiedades#Barrio> "03-03 ESTRELLA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "3122" , "3644" .
+
+<http://127.0.0.1:3333/33> <http://www.aparcamientos-SER.org/propiedades#Barrio> "03-04 IBIZA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "371" .
+
+<http://127.0.0.1:3333/34> <http://www.aparcamientos-SER.org/propiedades#Barrio> "03-04 IBIZA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "1666" , "2037" .
+
+<http://127.0.0.1:3333/35> <http://www.aparcamientos-SER.org/propiedades#Barrio> "03-05 JER�NIMOS" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "417" .
+
+<http://127.0.0.1:3333/36> <http://www.aparcamientos-SER.org/propiedades#Barrio> "03-05 JER�NIMOS" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "1510" , "1927" .
+
+<http://127.0.0.1:3333/37> <http://www.aparcamientos-SER.org/propiedades#Barrio> "03-06 NI�O JES�S" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "418" .
+
+<http://127.0.0.1:3333/38> <http://www.aparcamientos-SER.org/propiedades#Barrio> "03-06 NI�O JES�S" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2192" , "2610" .
+
+<http://127.0.0.1:3333/39> <http://www.aparcamientos-SER.org/propiedades#Barrio> "04-01 RECOLETOS" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "568" .
+
+<http://127.0.0.1:3333/40> <http://www.aparcamientos-SER.org/propiedades#Barrio> "04-01 RECOLETOS" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "1858" , "2426" .
+
+<http://127.0.0.1:3333/41> <http://www.aparcamientos-SER.org/propiedades#Barrio> "04-02 GOYA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "412" .
+
+<http://127.0.0.1:3333/42> <http://www.aparcamientos-SER.org/propiedades#Barrio> "04-02 GOYA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2521" , "2933" .
+
+<http://127.0.0.1:3333/43> <http://www.aparcamientos-SER.org/propiedades#Barrio> "04-03 FUENTE DEL BERRO" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "233" .
+
+<http://127.0.0.1:3333/44> <http://www.aparcamientos-SER.org/propiedades#Barrio> "04-03 FUENTE DEL BERRO" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "1941" , "2174" .
+
+<http://127.0.0.1:3333/45> <http://www.aparcamientos-SER.org/propiedades#Barrio> "04-04 GUINDALERA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "1568" .
+
+<http://127.0.0.1:3333/46> <http://www.aparcamientos-SER.org/propiedades#Barrio> "04-04 GUINDALERA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "5222" , "6790" .
+
+<http://127.0.0.1:3333/47> <http://www.aparcamientos-SER.org/propiedades#Barrio> "04-05 LISTA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "353" .
+
+<http://127.0.0.1:3333/48> <http://www.aparcamientos-SER.org/propiedades#Barrio> "04-05 LISTA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "1505" , "1858" .
+
+<http://127.0.0.1:3333/49> <http://www.aparcamientos-SER.org/propiedades#Barrio> "04-06 CASTELLANA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "431" .
+
+<http://127.0.0.1:3333/50> <http://www.aparcamientos-SER.org/propiedades#Barrio> "04-06 CASTELLANA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2059" , "2490" .
+
+<http://127.0.0.1:3333/51> <http://www.aparcamientos-SER.org/propiedades#Barrio> "05-01 EL VISO" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "1455" .
+
+<http://127.0.0.1:3333/52> <http://www.aparcamientos-SER.org/propiedades#Barrio> "05-01 EL VISO" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "4440" , "5895" .
+
+<http://127.0.0.1:3333/53> <http://www.aparcamientos-SER.org/propiedades#Barrio> "05-02 PROSPERIDAD" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "816" .
+
+<http://127.0.0.1:3333/54> <http://www.aparcamientos-SER.org/propiedades#Barrio> "05-02 PROSPERIDAD" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "3763" , "4579" .
+
+<http://127.0.0.1:3333/55> <http://www.aparcamientos-SER.org/propiedades#Barrio> "05-03 CIUDAD JARD�N" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "688" .
+
+<http://127.0.0.1:3333/56> <http://www.aparcamientos-SER.org/propiedades#Barrio> "05-03 CIUDAD JARD�N" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2677" , "3365" .
+
+<http://127.0.0.1:3333/57> <http://www.aparcamientos-SER.org/propiedades#Barrio> "05-04 HISPANOAM�RICA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "1588" .
+
+<http://127.0.0.1:3333/58> <http://www.aparcamientos-SER.org/propiedades#Barrio> "05-04 HISPANOAM�RICA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "5332" , "6920" .
+
+<http://127.0.0.1:3333/59> <http://www.aparcamientos-SER.org/propiedades#Barrio> "05-05 NUEVA ESPA�A" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "1489" .
+
+<http://127.0.0.1:3333/60> <http://www.aparcamientos-SER.org/propiedades#Barrio> "05-05 NUEVA ESPA�A" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "5261" , "6750" .
+
+<http://127.0.0.1:3333/61> <http://www.aparcamientos-SER.org/propiedades#Barrio> "05-06 CASTILLA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "931" .
+
+<http://127.0.0.1:3333/62> <http://www.aparcamientos-SER.org/propiedades#Barrio> "05-06 CASTILLA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2873" , "3804" .
+
+<http://127.0.0.1:3333/63> <http://www.aparcamientos-SER.org/propiedades#Barrio> "06-01 BELLAS VISTAS" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "321" .
+
+<http://127.0.0.1:3333/64> <http://www.aparcamientos-SER.org/propiedades#Barrio> "06-01 BELLAS VISTAS" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2588" , "2909" .
+
+<http://127.0.0.1:3333/65> <http://www.aparcamientos-SER.org/propiedades#Barrio> "06-02 CUATRO CAMINOS" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "875" .
+
+<http://127.0.0.1:3333/66> <http://www.aparcamientos-SER.org/propiedades#Barrio> "06-02 CUATRO CAMINOS" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "3505" , "4380" .
+
+<http://127.0.0.1:3333/67> <http://www.aparcamientos-SER.org/propiedades#Barrio> "06-03 CASTILLEJOS" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "456" .
+
+<http://127.0.0.1:3333/68> <http://www.aparcamientos-SER.org/propiedades#Barrio> "06-03 CASTILLEJOS" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2724" , "3180" .
+
+<http://127.0.0.1:3333/69> <http://www.aparcamientos-SER.org/propiedades#Barrio> "06-04 ALMENARA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "539" .
+
+<http://127.0.0.1:3333/70> <http://www.aparcamientos-SER.org/propiedades#Barrio> "06-04 ALMENARA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "3352" , "3891" .
+
+<http://127.0.0.1:3333/71> <http://www.aparcamientos-SER.org/propiedades#Barrio> "06-05 VALDEACEDERAS" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "204" .
+
+<http://127.0.0.1:3333/72> <http://www.aparcamientos-SER.org/propiedades#Barrio> "06-05 VALDEACEDERAS" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2150" , "2354" .
+
+<http://127.0.0.1:3333/73> <http://www.aparcamientos-SER.org/propiedades#Barrio> "06-06 BERRUGUETE" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "397" .
+
+<http://127.0.0.1:3333/74> <http://www.aparcamientos-SER.org/propiedades#Barrio> "06-06 BERRUGUETE" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "1711" , "2108" .
+
+<http://127.0.0.1:3333/75> <http://www.aparcamientos-SER.org/propiedades#Barrio> "07-01 GAZTAMBIDE" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "541" .
+
+<http://127.0.0.1:3333/76> <http://www.aparcamientos-SER.org/propiedades#Barrio> "07-01 GAZTAMBIDE" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "1693" , "2234" .
+
+<http://127.0.0.1:3333/77> <http://www.aparcamientos-SER.org/propiedades#Barrio> "07-02 ARAPILES" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "463" .
+
+<http://127.0.0.1:3333/78> <http://www.aparcamientos-SER.org/propiedades#Barrio> "07-02 ARAPILES" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "1660" , "2123" .
+
+<http://127.0.0.1:3333/79> <http://www.aparcamientos-SER.org/propiedades#Barrio> "07-03 TRAFALGAR" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "415" .
+
+<http://127.0.0.1:3333/80> <http://www.aparcamientos-SER.org/propiedades#Barrio> "07-03 TRAFALGAR" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2008" , "2423" .
+
+<http://127.0.0.1:3333/81> <http://www.aparcamientos-SER.org/propiedades#Barrio> "07-04 ALMAGRO" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "689" .
+
+<http://127.0.0.1:3333/82> <http://www.aparcamientos-SER.org/propiedades#Barrio> "07-04 ALMAGRO" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2345" , "3034" .
+
+<http://127.0.0.1:3333/83> <http://www.aparcamientos-SER.org/propiedades#Barrio> "07-05 R�OS ROSAS" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "533" .
+
+<http://127.0.0.1:3333/84> <http://www.aparcamientos-SER.org/propiedades#Barrio> "07-05 R�OS ROSAS" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2727" , "3260" .
+
+<http://127.0.0.1:3333/85> <http://www.aparcamientos-SER.org/propiedades#Barrio> "07-06 VALLEHERMOSO" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "804" .
+
+<http://127.0.0.1:3333/86> <http://www.aparcamientos-SER.org/propiedades#Barrio> "07-06 VALLEHERMOSO" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2708" , "3512" .
+
+<http://127.0.0.1:3333/87> <http://www.aparcamientos-SER.org/propiedades#Barrio> "08-04 EL PILAR" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "631" .
+
+<http://127.0.0.1:3333/88> <http://www.aparcamientos-SER.org/propiedades#Barrio> "08-04 EL PILAR" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "6643" , "7274" .
+
+<http://127.0.0.1:3333/89> <http://www.aparcamientos-SER.org/propiedades#Barrio> "08-05 LA PAZ" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "575" .
+
+<http://127.0.0.1:3333/90> <http://www.aparcamientos-SER.org/propiedades#Barrio> "08-05 LA PAZ" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "4929" .
+
+<http://127.0.0.1:3333/91> <http://www.aparcamientos-SER.org/propiedades#Barrio> "08-05 LA PAZ" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "�mbito sanitario" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "384" , "5888" .
+
+<http://127.0.0.1:3333/92> <http://www.aparcamientos-SER.org/propiedades#Barrio> "09-01 CASA DE CAMPO" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "877" .
+
+<http://127.0.0.1:3333/93> <http://www.aparcamientos-SER.org/propiedades#Barrio> "09-01 CASA DE CAMPO" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2949" .
+
+<http://127.0.0.1:3333/94> <http://www.aparcamientos-SER.org/propiedades#Barrio> "09-01 CASA DE CAMPO" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Larga estancia" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "1204" , "5030" .
+
+<http://127.0.0.1:3333/95> <http://www.aparcamientos-SER.org/propiedades#Barrio> "09-02 ARG�ELLES" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "374" .
+
+<http://127.0.0.1:3333/96> <http://www.aparcamientos-SER.org/propiedades#Barrio> "09-02 ARG�ELLES" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "2111" , "2485" .
+
+<http://127.0.0.1:3333/97> <http://www.aparcamientos-SER.org/propiedades#Barrio> "09-03 CIUDAD UNIVERSITARIA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "603" .
+
+<http://127.0.0.1:3333/98> <http://www.aparcamientos-SER.org/propiedades#Barrio> "09-03 CIUDAD UNIVERSITARIA" ;
+	<http://www.aparcamientos-SER.org/propiedades#Color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "1767" , "2370" .
+
+<http://127.0.0.1:3333/100> <http://www.aparcamientos-SER.org/propiedades#Numero-de-Plazas> "153321" .
