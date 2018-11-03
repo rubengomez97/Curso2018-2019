@@ -1,0 +1,201 @@
+@prefix individual: <http://www.group07.linkeddata.org/individual/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix property: <http://www.group07.linkeddata.org/property#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix class: <http://www.group07.linkeddata.org/class#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.group07.linkeddata.org/station/28079004> a class:Station ;
+	property:hasName "Pza. de España" ;
+	property:hasAddress "Plaza de España" ;
+	property:hasLongitude "-3.712247222222224"^^xsd:double ;
+	property:hasLatitude "40.423852777777775"^^xsd:double ;
+	property:hasElevation "635"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q1763376> .
+
+<http://www.group07.linkeddata.org/station/28079008> a class:Station ;
+	property:hasName "Escuelas Aguirre" ;
+	property:hasAddress "Entre C/ Alcalá y C/ O’ Donell " ;
+	property:hasLongitude "-3.682319444444445"^^xsd:double ;
+	property:hasLatitude "40.42156388888888"^^xsd:double ;
+	property:hasElevation "670"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q2002296> .
+
+<http://www.group07.linkeddata.org/station/28079011> a class:Station ;
+	property:hasName "Avda. Ramón y Cajal" ;
+	property:hasAddress "Avda. Ramón y Cajal  esq. C/ Príncipe de Vergara" ;
+	property:hasLongitude "-3.6773555555555553"^^xsd:double ;
+	property:hasLatitude "40.451475"^^xsd:double ;
+	property:hasElevation "708"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q1766348> .
+
+<http://www.group07.linkeddata.org/station/28079016> a class:Station ;
+	property:hasName "Arturo Soria" ;
+	property:hasAddress "C/ Arturo Soria  esq. C/  Vizconde de los Asilos " ;
+	property:hasLongitude "-3.6392333333333333"^^xsd:double ;
+	property:hasLatitude "40.44004722222222"^^xsd:double ;
+	property:hasElevation "693"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q1763694> .
+
+<http://www.group07.linkeddata.org/station/28079017> a class:Station ;
+	property:hasName "Villaverde" ;
+	property:hasAddress "C/. Juan Peñalver" ;
+	property:hasLongitude "-3.713322222222221"^^xsd:double ;
+	property:hasLatitude "40.347138888888885"^^xsd:double ;
+	property:hasElevation "604"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q919536> .
+
+<http://www.group07.linkeddata.org/station/28079018> a class:Station ;
+	property:hasName "Farolillo" ;
+	property:hasAddress "Calle Farolillo - C/Ervigio" ;
+	property:hasLongitude "-3.7318527777777777"^^xsd:double ;
+	property:hasLatitude "40.39478055555556"^^xsd:double ;
+	property:hasElevation "630"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q1001991> .
+
+<http://www.group07.linkeddata.org/station/28079024> a class:Station ;
+	property:hasName "Casa de Campo" ;
+	property:hasAddress "Casa de Campo  (Terminal del Teleférico)" ;
+	property:hasLongitude "-3.7473472222222224"^^xsd:double ;
+	property:hasLatitude "40.41935555555556"^^xsd:double ;
+	property:hasElevation "642"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q2017682> .
+
+<http://www.group07.linkeddata.org/station/28079027> a class:Station ;
+	property:hasName "Barajas Pueblo" ;
+	property:hasAddress "C/. Júpiter, 21 (Barajas) " ;
+	property:hasLongitude "-3.580030555555555"^^xsd:double ;
+	property:hasLatitude "40.47692777777778"^^xsd:double ;
+	property:hasElevation "621"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q807230> .
+
+<http://www.group07.linkeddata.org/station/28079035> a class:Station ;
+	property:hasName "Pza. del Carmen" ;
+	property:hasAddress "Plaza del Carmen esq. Tres Cruces. " ;
+	property:hasLongitude "-3.7031722222222223"^^xsd:double ;
+	property:hasLatitude "40.41920833333333"^^xsd:double ;
+	property:hasElevation "659"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q1763376> .
+
+<http://www.group07.linkeddata.org/station/28079036> a class:Station ;
+	property:hasName "Moratalaz" ;
+	property:hasAddress "Avd. Moratalaz  esq. Camino de los Vinateros" ;
+	property:hasLongitude "-3.6453055555555554"^^xsd:double ;
+	property:hasLatitude "40.40794722222222"^^xsd:double ;
+	property:hasElevation "685"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q2076109> .
+
+<http://www.group07.linkeddata.org/station/28079038> a class:Station ;
+	property:hasName "Cuatro Caminos" ;
+	property:hasAddress "Avda. Pablo Iglesias esq. C/ Marqués de Lema" ;
+	property:hasLongitude "-3.7071277777777785"^^xsd:double ;
+	property:hasLatitude "40.44554444444445"^^xsd:double ;
+	property:hasElevation "698"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q1763370> .
+
+<http://www.group07.linkeddata.org/station/28079039> a class:Station ;
+	property:hasName "Barrio del Pilar" ;
+	property:hasAddress "Avd. Betanzos esq. C/  Monforte de Lemos " ;
+	property:hasLongitude "-3.7115416666666654"^^xsd:double ;
+	property:hasLatitude "40.47822777777778"^^xsd:double ;
+	property:hasElevation "674"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q656196> .
+
+<http://www.group07.linkeddata.org/station/28079040> a class:Station ;
+	property:hasName "Vallecas" ;
+	property:hasAddress "C/ Arroyo del Olivar  esq. C/  Río Grande. " ;
+	property:hasLongitude "-3.6515222222222223"^^xsd:double ;
+	property:hasLatitude "40.38815277777777"^^xsd:double ;
+	property:hasElevation "677"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q2003054> .
+
+<http://www.group07.linkeddata.org/station/28079047> a class:Station ;
+	property:hasName "Mendez Alvaro" ;
+	property:hasAddress "C/ Juan de Mariana / Pza. Amanecer Mendez Alvaro" ;
+	property:hasLongitude "-3.686825"^^xsd:double ;
+	property:hasLatitude "40.398113888888886"^^xsd:double ;
+	property:hasElevation "599"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q2000929> .
+
+<http://www.group07.linkeddata.org/station/28079048> a class:Station ;
+	property:hasName "Castellana" ;
+	property:hasAddress "C/ Jose Gutierrez Abascal" ;
+	property:hasLongitude "-3.690366666666667"^^xsd:double ;
+	property:hasLatitude "40.43989722222222"^^xsd:double ;
+	property:hasElevation "676"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q1766348> .
+
+<http://www.group07.linkeddata.org/station/28079049> a class:Station ;
+	property:hasName "Parque del Retiro" ;
+	property:hasAddress "Paseo Venezuela- Casa de Vacas" ;
+	property:hasLongitude "-3.682583333333333"^^xsd:double ;
+	property:hasLatitude "40.414444444444435"^^xsd:double ;
+	property:hasElevation "662"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q2002296> .
+
+<http://www.group07.linkeddata.org/station/28079050> a class:Station ;
+	property:hasName "Plaza Castilla" ;
+	property:hasAddress "Plaza Castilla (Canal)" ;
+	property:hasLongitude "-3.688769444444445"^^xsd:double ;
+	property:hasLatitude "40.46557222222223"^^xsd:double ;
+	property:hasElevation "728"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q1766348> .
+
+<http://www.group07.linkeddata.org/station/28079054> a class:Station ;
+	property:hasName "Ensanche de Vallecas" ;
+	property:hasAddress "Avda La Gavia / Avda. Las Suertes" ;
+	property:hasLongitude "-3.612116666666666"^^xsd:double ;
+	property:hasLatitude "40.372933333333336"^^xsd:double ;
+	property:hasElevation "627"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q1947988> .
+
+<http://www.group07.linkeddata.org/station/28079055> a class:Station ;
+	property:hasName "Urb. Embajada" ;
+	property:hasAddress "C/ Riaño (Barajas) " ;
+	property:hasLongitude "-3.5807472222222216"^^xsd:double ;
+	property:hasLatitude "40.46253055555556"^^xsd:double ;
+	property:hasElevation "618"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q807230> .
+
+<http://www.group07.linkeddata.org/station/28079056> a class:Station ;
+	property:hasName "Pza. Fernández Ladreda" ;
+	property:hasAddress " Pza. Fernández Ladreda - Avda. Oporto" ;
+	property:hasLongitude "-3.7187277777777785"^^xsd:double ;
+	property:hasLatitude "40.38496388888889"^^xsd:double ;
+	property:hasElevation "604"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q953368> .
+
+<http://www.group07.linkeddata.org/station/28079057> a class:Station ;
+	property:hasName "Sanchinarro" ;
+	property:hasAddress "C/ Princesa de Eboli esq C/ Maria Tudor" ;
+	property:hasLongitude "-3.6605027777777774"^^xsd:double ;
+	property:hasLatitude "40.49420833333333"^^xsd:double ;
+	property:hasElevation "700"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q1928529> .
+
+<http://www.group07.linkeddata.org/station/28079058> a class:Station ;
+	property:hasName "El Pardo" ;
+	property:hasAddress "Avda. La Guardia" ;
+	property:hasLongitude "-3.774611111111111"^^xsd:double ;
+	property:hasLatitude "40.51805833333333"^^xsd:double ;
+	property:hasElevation "615"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q656196> .
+
+<http://www.group07.linkeddata.org/station/28079059> a class:Station ;
+	property:hasName "Juan Carlos I" ;
+	property:hasAddress "Parque Juan Carlos I (frente oficinas mantenimiento)" ;
+	property:hasLongitude "-3.6090722222222222"^^xsd:double ;
+	property:hasLatitude "40.46525000000001"^^xsd:double ;
+	property:hasElevation "660"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q807230> .
+
+<http://www.group07.linkeddata.org/station/28079060> a class:Station ;
+	property:hasName "Tres Olivos" ;
+	property:hasAddress "Plaza Tres Olivos " ;
+	property:hasLongitude "-3.6897611111111113"^^xsd:double ;
+	property:hasLatitude "40.50058888888889"^^xsd:double ;
+	property:hasElevation "715"^^xsd:int ;
+	property:isInNeighbourhood <http://www.wikidata.org/entity/Q656196> .
