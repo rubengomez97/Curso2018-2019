@@ -1,0 +1,2414 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://BiciMAD.es/440394,55-4474280,53> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "PUERTA DEL SOL, PLAZA, DE LA,1 B" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-06+SOL> ;
+	<http://BiciMAD.es/longitud> "-3.7025753"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.417016"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440394,55"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474280,53"^^xsd:double .
+
+<http://BiciMAD.es/01-06+SOL> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440404,21-4474287,39> <http://BiciMAD.es/estaEnCalle> "ALCALA, CALLE, DE,1" ;
+	a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-06+SOL> ;
+	<http://BiciMAD.es/longitud> "-3.7024621"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4170785"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440404,21"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474287,39"^^xsd:double .
+
+<http://BiciMAD.es/01-06+SOL> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440134,83-4474678,23> <http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/estaEnCalle> "MIGUEL MOYA, CALLE, DE,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-05+UNIVERSIDAD> ;
+	<http://BiciMAD.es/longitud> "-3.7056739"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.42058"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440134,83"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474678,23"^^xsd:double .
+
+<http://BiciMAD.es/01-05+UNIVERSIDAD> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440012,98-4475760,68> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "18"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CONDE DEL VALLE DE SUCHIL, PLAZA, DEL,2" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/07-02+ARAPILES> ;
+	<http://BiciMAD.es/longitud> "-3.7072122"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4303224"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440012,98"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475760,68"^^xsd:double .
+
+<http://BiciMAD.es/07-02+ARAPILES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/07++CHAMBER%EF%BF%BD> .
+
+<http://BiciMAD.es/07++CHAMBER%EF%BF%BD> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440396,4-4475565,36> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "MANUELA MALASA�A, CALLE, DE,3" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-05+UNIVERSIDAD> ;
+	<http://BiciMAD.es/longitud> "-3.7026739"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4285905"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440396,4"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475565,36"^^xsd:double .
+
+<http://BiciMAD.es/01-05+UNIVERSIDAD> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440446,9-4475539,69> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "FUENCARRAL, CALLE, DE,106" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-04+JUSTICIA> ;
+	<http://BiciMAD.es/longitud> "-3.7020762"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4283628"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440446,9"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475539,69"^^xsd:double .
+
+<http://BiciMAD.es/01-04+JUSTICIA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440754,26-4475071,08> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "HORTALEZA, CALLE, DE,63" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-04+JUSTICIA> ;
+	<http://BiciMAD.es/longitud> "-3.6984093"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4241633"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440754,26"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475071,08"^^xsd:double .
+
+<http://BiciMAD.es/01-04+JUSTICIA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440811,97-4475187,49> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "21"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "HORTALEZA, CALLE, DE,75" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-04+JUSTICIA> ;
+	<http://BiciMAD.es/longitud> "-3.6977399"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4252161"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440811,97"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475187,49"^^xsd:double .
+
+<http://BiciMAD.es/01-04+JUSTICIA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441020,56-4475463,16> <http://BiciMAD.es/estaEnCalle> "ALONSO MARTINEZ, PLAZA, DE,6" ;
+	a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/07-04+ALMAGRO> ;
+	<http://BiciMAD.es/longitud> "-3.6953067"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4277143"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441020,56"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475463,16"^^xsd:double .
+
+<http://BiciMAD.es/07-04+ALMAGRO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/07++CHAMBER%EF%BF%BD> .
+
+<http://BiciMAD.es/07++CHAMBER%EF%BF%BD> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439813,51-4474129,47> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SAN MIGUEL, PLAZA, DE,9" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-01+PALACIO> ;
+	<http://BiciMAD.es/longitud> "-3.7094093"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4156134"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439813,51"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474129,47"^^xsd:double .
+
+<http://BiciMAD.es/01-01+PALACIO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441292,12-4475204,43> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "MARQUES DE LA ENSENADA, CALLE, DEL,16" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-04+JUSTICIA> ;
+	<http://BiciMAD.es/longitud> "-3.6920816"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4254027"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441292,12"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475204,43"^^xsd:double .
+
+<http://BiciMAD.es/01-04+JUSTICIA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440314,86-4475395,19> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SAN ANDRES, CALLE, DE,20" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-05+UNIVERSIDAD> ;
+	<http://BiciMAD.es/longitud> "-3.7036192"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4270517"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440314,86"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475395,19"^^xsd:double .
+
+<http://BiciMAD.es/01-05+UNIVERSIDAD> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440095,53-4475560,73> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SAN BERNARDO, CALLE, DE,87" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-05+UNIVERSIDAD> ;
+	<http://BiciMAD.es/longitud> "-3.7062202"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4285271"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440095,53"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475560,73"^^xsd:double .
+
+<http://BiciMAD.es/01-05+UNIVERSIDAD> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439733,78-4475434,65> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CONDE DUQUE, CALLE, DEL,22" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-05+UNIVERSIDAD> ;
+	<http://BiciMAD.es/longitud> "-3.7104727"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4273652"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439733,78"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475434,65"^^xsd:double .
+
+<http://BiciMAD.es/01-05+UNIVERSIDAD> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439478,78-4475285,54> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "VENTURA RODRIGUEZ, CALLE, DE,2" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/09-02+ARG%EF%BF%BDELLES> ;
+	<http://BiciMAD.es/longitud> "-3.7134644"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4260035"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439478,78"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475285,54"^^xsd:double .
+
+<http://BiciMAD.es/09-02+ARG%EF%BF%BDELLES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/09++MONCLOA-ARAVACA> .
+
+<http://BiciMAD.es/09++MONCLOA-ARAVACA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440006,72-4475294,52> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "21"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SAN VICENTE FERRER, CALLE, DE,62" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-05+UNIVERSIDAD> ;
+	<http://BiciMAD.es/longitud> "-3.707242"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4261226"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440006,72"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475294,52"^^xsd:double .
+
+<http://BiciMAD.es/01-05+UNIVERSIDAD> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439982,59-4474940,94> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "21"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SAN BERNARDO, CALLE, DE,22" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-05+UNIVERSIDAD> ;
+	<http://BiciMAD.es/longitud> "-3.7074931"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4229357"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439982,59"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474940,94"^^xsd:double .
+
+<http://BiciMAD.es/01-05+UNIVERSIDAD> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440263,35-4474964,43> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CARLOS CAMBRONERO, PLAZA, DE,2" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-05+UNIVERSIDAD> ;
+	<http://BiciMAD.es/longitud> "-3.7041859"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4231675"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440263,35"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474964,43"^^xsd:double .
+
+<http://BiciMAD.es/01-05+UNIVERSIDAD> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440653,13-4474711,92> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "PEDRO ZEROLO, PLAZA, DE,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-04+JUSTICIA> ;
+	<http://BiciMAD.es/longitud> "-3.6995679"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4209206"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440653,13"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474711,92"^^xsd:double .
+
+<http://BiciMAD.es/01-04+JUSTICIA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441008,01-4474818,09> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "PRIM, CALLE, DE,4" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-04+JUSTICIA> ;
+	<http://BiciMAD.es/longitud> "-3.6953948"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4219023"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441008,01"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474818,09"^^xsd:double .
+
+<http://BiciMAD.es/01-04+JUSTICIA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441021,37-4474517,89> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ALCALA, CALLE, DE,49" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-04+JUSTICIA> ;
+	<http://BiciMAD.es/longitud> "-3.6952095"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4191989"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441021,37"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474517,89"^^xsd:double .
+
+<http://BiciMAD.es/01-04+JUSTICIA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441014,52-4474516,49> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "6"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ALCALA, CALLE, DE,49" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-04+JUSTICIA> ;
+	<http://BiciMAD.es/longitud> "-3.6952901"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4191858"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441014,52"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474516,49"^^xsd:double .
+
+<http://BiciMAD.es/01-04+JUSTICIA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440483,06-4474586,7> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "RED DE SAN LUIS, PLAZA, DE LA,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-06+SOL> ;
+	<http://BiciMAD.es/longitud> "-3.7015608"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4197804"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440483,06"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474586,7"^^xsd:double .
+
+<http://BiciMAD.es/01-06+SOL> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440488,63-4474598,34> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "RED DE SAN LUIS, PLAZA, DE LA,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-06+SOL> ;
+	<http://BiciMAD.es/longitud> "-3.7014962"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4198857"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440488,63"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474598,34"^^xsd:double .
+
+<http://BiciMAD.es/01-06+SOL> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440064,4-4474630,53> <http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/estaEnCalle> "JACOMETREZO, CALLE, DE,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-06+SOL> ;
+	<http://BiciMAD.es/longitud> "-3.7064995"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4201452"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440064,4"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474630,53"^^xsd:double .
+
+<http://BiciMAD.es/01-06+SOL> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439912,56-4474639,35> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SANTO DOMINGO, CUESTA, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-01+PALACIO> ;
+	<http://BiciMAD.es/longitud> "-3.7082901"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4202137"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439912,56"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474639,35"^^xsd:double .
+
+<http://BiciMAD.es/01-01+PALACIO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439715,67-4474384,75> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CARLOS III, CALLE, DE,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-01+PALACIO> ;
+	<http://BiciMAD.es/longitud> "-3.7105866"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.417906"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439715,67"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474384,75"^^xsd:double .
+
+<http://BiciMAD.es/01-01+PALACIO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440104,48-4474318,99> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CELENQUE, PLAZA, DEL,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-06+SOL> ;
+	<http://BiciMAD.es/longitud> "-3.7059978"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4173416"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440104,48"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474318,99"^^xsd:double .
+
+<http://BiciMAD.es/01-06+SOL> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440102,16-4474309,87> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CELENQUE, PLAZA, DEL,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-06+SOL> ;
+	<http://BiciMAD.es/longitud> "-3.7060243"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4172593"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440102,16"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474309,87"^^xsd:double .
+
+<http://BiciMAD.es/01-06+SOL> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441081,06-4475031,74> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SALESAS, PLAZA, DE LAS,8" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-04+JUSTICIA> ;
+	<http://BiciMAD.es/longitud> "-3.6945535"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4238321"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441081,06"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475031,74"^^xsd:double .
+
+<http://BiciMAD.es/01-04+JUSTICIA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440983,67-4473861,46> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "JESUS, CALLE, DE,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-03+CORTES> ;
+	<http://BiciMAD.es/longitud> "-3.6955929"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4132828"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440983,67"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473861,46"^^xsd:double .
+
+<http://BiciMAD.es/01-03+CORTES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440712,84-4474406,69> <http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/estaEnCalle> "ALCALA, CALLE, DE,25" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-03+CORTES> ;
+	<http://BiciMAD.es/longitud> "-3.6988356"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4181752"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440712,84"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474406,69"^^xsd:double .
+
+<http://BiciMAD.es/01-03+CORTES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440968,62-4474190,29> <http://BiciMAD.es/hasNPlazas> "29"^^xsd:int ;
+	a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/estaEnCalle> "MARQUES DE CUBAS, CALLE, DEL,25" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-03+CORTES> ;
+	<http://BiciMAD.es/longitud> "-3.6958008"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.416244"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440968,62"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474190,29"^^xsd:double .
+
+<http://BiciMAD.es/01-03+CORTES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439635,83-4474544,08> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "PAVIA, CALLE, DE,6" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-01+PALACIO> ;
+	<http://BiciMAD.es/longitud> "-3.7115428"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4193355"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439635,83"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474544,08"^^xsd:double .
+
+<http://BiciMAD.es/01-01+PALACIO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440050,38-4474208,74> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "MAYOR, CALLE,18" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-06+SOL> ;
+	<http://BiciMAD.es/longitud> "-3.706625"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4163446"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440050,38"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474208,74"^^xsd:double .
+
+<http://BiciMAD.es/01-06+SOL> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440090,59-4474042,64> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "PROVINCIA, PLAZA, DE LA,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-06+SOL> ;
+	<http://BiciMAD.es/longitud> "-3.7061355"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4148511"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440090,59"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474042,64"^^xsd:double .
+
+<http://BiciMAD.es/01-06+SOL> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440334,9-4474112,27> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CARRETAS, CALLE, DE LAS,23" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-06+SOL> ;
+	<http://BiciMAD.es/longitud> "-3.7032626"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.415496"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440334,9"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474112,27"^^xsd:double .
+
+<http://BiciMAD.es/01-06+SOL> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440313,43-4473992,08> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "JACINTO BENAVENTE, PLAZA, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-03+CORTES> ;
+	<http://BiciMAD.es/longitud> "-3.7035044"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4144117"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440313,43"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473992,08"^^xsd:double .
+
+<http://BiciMAD.es/01-03+CORTES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439730,93-4473970,93> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CORDON, CALLE, DEL,4" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-01+PALACIO> ;
+	<http://BiciMAD.es/longitud> "-3.7103676"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4141792"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439730,93"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473970,93"^^xsd:double .
+
+<http://BiciMAD.es/01-01+PALACIO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439626,96-4474272,13> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "RAMALES, PLAZA, DE,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-01+PALACIO> ;
+	<http://BiciMAD.es/longitud> "-3.7116215"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.416885"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439626,96"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474272,13"^^xsd:double .
+
+<http://BiciMAD.es/01-01+PALACIO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439409,3-4473605,14> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "VISTILLAS, TRAVESIA, DE LAS,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-01+PALACIO> ;
+	<http://BiciMAD.es/longitud> "-3.7141234"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4108606"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439409,3"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473605,14"^^xsd:double .
+
+<http://BiciMAD.es/01-01+PALACIO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439637-4473651,64> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SAN FRANCISCO, CARRERA, DE,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-01+PALACIO> ;
+	<http://BiciMAD.es/longitud> "-3.7114443"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4112961"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439637"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473651,64"^^xsd:double .
+
+<http://BiciMAD.es/01-01+PALACIO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439844-4473646,66> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CEBADA, PLAZA, DE LA,16" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-01+PALACIO> ;
+	<http://BiciMAD.es/longitud> "-3.7090043"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4112662"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439844"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473646,66"^^xsd:double .
+
+<http://BiciMAD.es/01-01+PALACIO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440207,51-4473923,52> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CONDE DE ROMANONES, CALLE, DEL,2" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-02+EMBAJADORES> ;
+	<http://BiciMAD.es/longitud> "-3.7047463"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4137865"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440207,51"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473923,52"^^xsd:double .
+
+<http://BiciMAD.es/01-02+EMBAJADORES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440689,3-4473748,28> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "21"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ATOCHA, CALLE, DE,54" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-02+EMBAJADORES> ;
+	<http://BiciMAD.es/longitud> "-3.6990517"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4122423"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440689,3"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473748,28"^^xsd:double .
+
+<http://BiciMAD.es/01-02+EMBAJADORES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440759,67-4473581,4> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SANTA ISABEL, CALLE, DE,32" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-02+EMBAJADORES> ;
+	<http://BiciMAD.es/longitud> "-3.6982068"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.410744"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440759,67"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473581,4"^^xsd:double .
+
+<http://BiciMAD.es/01-02+EMBAJADORES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440391,04-4473511,6> <http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-02+EMBAJADORES> ;
+	<http://BiciMAD.es/longitud> "-3.7025446"^^xsd:double ;
+	a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "LAVAPIES, CALLE, DE,36" ;
+	<http://BiciMAD.es/latitud> "40.4100889"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440391,04"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473511,6"^^xsd:double .
+
+<http://BiciMAD.es/01-02+EMBAJADORES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440274,63-4473482,26> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "21"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "MESON DE PAREDES, CALLE, DEL,35" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-02+EMBAJADORES> ;
+	<http://BiciMAD.es/longitud> "-3.7039138"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4098162"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440274,63"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473482,26"^^xsd:double .
+
+<http://BiciMAD.es/01-02+EMBAJADORES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439659,26-4473169,54> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "21"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "PUERTA DE TOLEDO, GLORIETA, DE LA,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-02+EMBAJADORES> ;
+	<http://BiciMAD.es/longitud> "-3.7111363"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4069547"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439659,26"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473169,54"^^xsd:double .
+
+<http://BiciMAD.es/01-02+EMBAJADORES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439997,73-4473006,31> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "RIBERA DE CURTIDORES, CALLE, DE LA,28" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/02-02+ACACIAS> ;
+	<http://BiciMAD.es/longitud> "-3.7071322"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4055087"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439997,73"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473006,31"^^xsd:double .
+
+<http://BiciMAD.es/02-02+ACACIAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/02++ARGANZUELA> .
+
+<http://BiciMAD.es/02++ARGANZUELA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440368,37-4472905,07> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "EMBAJADORES, GLORIETA, DE,7 B" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/02-02+ACACIAS> ;
+	<http://BiciMAD.es/longitud> "-3.702755"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4046233"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440368,37"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4472905,07"^^xsd:double .
+
+<http://BiciMAD.es/02-02+ACACIAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/02++ARGANZUELA> .
+
+<http://BiciMAD.es/02++ARGANZUELA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440424,7-4472996,09> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "MIGUEL SERVET, CALLE, DE,25" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-02+EMBAJADORES> ;
+	<http://BiciMAD.es/longitud> "-3.7020997"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4054473"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440424,7"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4472996,09"^^xsd:double .
+
+<http://BiciMAD.es/01-02+EMBAJADORES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440667,66-4473061,04> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ATOCHA, RONDA, DE,36" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-02+EMBAJADORES> ;
+	<http://BiciMAD.es/longitud> "-3.6992427"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4060497"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440667,66"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473061,04"^^xsd:double .
+
+<http://BiciMAD.es/01-02+EMBAJADORES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441180,67-4473307,92> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SANTA ISABEL, CALLE, DE,57" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-02+EMBAJADORES> ;
+	<http://BiciMAD.es/longitud> "-3.69322"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4083102"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441180,67"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473307,92"^^xsd:double .
+
+<http://BiciMAD.es/01-02+EMBAJADORES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441148,47-4473243,04> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "EMPERADOR CARLOS V, PLAZA, DEL,7" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-02+EMBAJADORES> ;
+	<http://BiciMAD.es/longitud> "-3.6935934"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4077234"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441148,47"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473243,04"^^xsd:double .
+
+<http://BiciMAD.es/01-02+EMBAJADORES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440544,34-4474002,06> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SANTA ANA, PLAZA, DE,9" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-03+CORTES> ;
+	<http://BiciMAD.es/longitud> "-3.7007838"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4145181"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440544,34"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474002,06"^^xsd:double .
+
+<http://BiciMAD.es/01-03+CORTES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440543,46-4473309,62> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "VALENCIA, CALLE, DE,4" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-02+EMBAJADORES> ;
+	<http://BiciMAD.es/longitud> "-3.7007295"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4082802"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440543,46"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473309,62"^^xsd:double .
+
+<http://BiciMAD.es/01-02+EMBAJADORES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440592,35-4475345,44> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "21"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "BARCELO, CALLE, DE,7" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-04+JUSTICIA> ;
+	<http://BiciMAD.es/longitud> "-3.7003435"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4266233"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440592,35"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475345,44"^^xsd:double .
+
+<http://BiciMAD.es/01-04+JUSTICIA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440455,56-4475063,26> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SAN ILDEFONSO, PLAZA, DE,8" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-05+UNIVERSIDAD> ;
+	<http://BiciMAD.es/longitud> "-3.7019295"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4240716"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440455,56"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475063,26"^^xsd:double .
+
+<http://BiciMAD.es/01-05+UNIVERSIDAD> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440335,43-4474443,96> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CARMEN, PLAZA, DEL,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-06+SOL> ;
+	<http://BiciMAD.es/longitud> "-3.7032875"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.418484"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440335,43"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474443,96"^^xsd:double .
+
+<http://BiciMAD.es/01-06+SOL> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439536,86-4475688,34> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SANTA CRUZ DE MARCENADO, CALLE, DE,24" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-05+UNIVERSIDAD> ;
+	<http://BiciMAD.es/longitud> "-3.7128181"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4296363"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439536,86"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475688,34"^^xsd:double .
+
+<http://BiciMAD.es/01-05+UNIVERSIDAD> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440792,31-4474859,33> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "AUGUSTO FIGUEROA, CALLE, DE,33" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-04+JUSTICIA> ;
+	<http://BiciMAD.es/longitud> "-3.6979411"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4222585"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440792,31"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474859,33"^^xsd:double .
+
+<http://BiciMAD.es/01-04+JUSTICIA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440271,27-4475221,1> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "21"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ESPIRITU SANTO, CALLE, DEL,30" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-05+UNIVERSIDAD> ;
+	<http://BiciMAD.es/longitud> "-3.7041167"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4254802"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440271,27"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475221,1"^^xsd:double .
+
+<http://BiciMAD.es/01-05+UNIVERSIDAD> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441616,3-4474541,2> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ALFONSO XII, CALLE, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> ;
+	<http://BiciMAD.es/longitud> "-3.6881994"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4194508"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441616,3"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474541,2"^^xsd:double .
+
+<http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442720,29-4474753,26> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "O'DONNELL, CALLE, DE,30" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-04+IBIZA> ;
+	<http://BiciMAD.es/longitud> "-3.675206"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4214379"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442720,29"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474753,26"^^xsd:double .
+
+<http://BiciMAD.es/03-04+IBIZA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/443105,21-4474725,61> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "O'DONNELL, CALLE, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-04+IBIZA> ;
+	<http://BiciMAD.es/longitud> "-3.6706664"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4212152"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "443105,21"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474725,61"^^xsd:double .
+
+<http://BiciMAD.es/03-04+IBIZA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/443101,23-4474356,23> <http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/estaEnCalle> "IBIZA, CALLE, DE,64" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-04+IBIZA> ;
+	<http://BiciMAD.es/longitud> "-3.6706803"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4178874"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "443101,23"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474356,23"^^xsd:double .
+
+<http://BiciMAD.es/03-04+IBIZA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441513,54-4474236,11> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ANTONIO MAURA, CALLE, DE,15" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> ;
+	<http://BiciMAD.es/longitud> "-3.6893825"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4166952"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441513,54"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474236,11"^^xsd:double .
+
+<http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441190,08-4473587,45> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "67"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ALMADEN, CALLE, DE,28" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-03+CORTES> ;
+	<http://BiciMAD.es/longitud> "-3.6931349"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.410829"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441190,08"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473587,45"^^xsd:double .
+
+<http://BiciMAD.es/01-03+CORTES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441358,92-4473802,81> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "21"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ESPALTER, CALLE, DE,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> ;
+	<http://BiciMAD.es/longitud> "-3.6911649"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.412781"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441358,92"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473802,81"^^xsd:double .
+
+<http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441551,54-4473499,36> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ALFONSO XII, CALLE, DE,54" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> ;
+	<http://BiciMAD.es/longitud> "-3.6888669"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4100609"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441551,54"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473499,36"^^xsd:double .
+
+<http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442496,79-4474058,47> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "MENENDEZ PELAYO, AVENIDA, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> ;
+	<http://BiciMAD.es/longitud> "-3.6777776"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4151635"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442496,79"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474058,47"^^xsd:double .
+
+<http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442816,22-4474149,49> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "DOCE DE OCTUBRE, CALLE, DEL,28" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-06+NI%EF%BF%BDO+JES%EF%BF%BDS> ;
+	<http://BiciMAD.es/longitud> "-3.674021"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4160054"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442816,22"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474149,49"^^xsd:double .
+
+<http://BiciMAD.es/03-06+NI%EF%BF%BDO+JES%EF%BF%BDS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/443219,95-4474136,22> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "DOCTOR ESQUERDO, CALLE, DEL,99" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-03+ESTRELLA> ;
+	<http://BiciMAD.es/longitud> "-3.6692614"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4159135"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "443219,95"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474136,22"^^xsd:double .
+
+<http://BiciMAD.es/03-03+ESTRELLA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/443229,99-4473642,11> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ASTROS, PLAZA, DE LOS,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-03+ESTRELLA> ;
+	<http://BiciMAD.es/longitud> "-3.669099"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.411463"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "443229,99"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473642,11"^^xsd:double .
+
+<http://BiciMAD.es/03-03+ESTRELLA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442595,78-4473679,92> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "MENENDEZ PELAYO, AVENIDA, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> ;
+	<http://BiciMAD.es/longitud> "-3.6765768"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4117601"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442595,78"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473679,92"^^xsd:double .
+
+<http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442436,91-4473301,34> <http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/estaEnCalle> "MENENDEZ PELAYO, AVENIDA, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> ;
+	<http://BiciMAD.es/longitud> "-3.6784149"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4083387"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442436,91"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473301,34"^^xsd:double .
+
+<http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442712,67-4473182,27> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "JUAN DE URBIETA, CALLE, DE,48" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-06+NI%EF%BF%BDO+JES%EF%BF%BDS> ;
+	<http://BiciMAD.es/longitud> "-3.6751544"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4072851"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442712,67"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473182,27"^^xsd:double .
+
+<http://BiciMAD.es/03-06+NI%EF%BF%BDO+JES%EF%BF%BDS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/443083,53-4473073,95> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CONDE DE CASAL, PLAZA, DEL,8" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-01+PAC%EF%BF%BDFICO> ;
+	<http://BiciMAD.es/longitud> "-3.6707742"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4063347"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "443083,53"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473073,95"^^xsd:double .
+
+<http://BiciMAD.es/03-01+PAC%EF%BF%BDFICO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442755,86-4472436,57> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CERRO DE LA PLATA, CALLE, DEL,2" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-02+ADELFAS> ;
+	<http://BiciMAD.es/longitud> "-3.6745783"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4005704"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442755,86"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4472436,57"^^xsd:double .
+
+<http://BiciMAD.es/03-02+ADELFAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442252,73-4472937,49> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "MENENDEZ PELAYO, AVENIDA, DE,38" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-01+PAC%EF%BF%BDFICO> ;
+	<http://BiciMAD.es/longitud> "-3.6805524"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4050482"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442252,73"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4472937,49"^^xsd:double .
+
+<http://BiciMAD.es/03-01+PAC%EF%BF%BDFICO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441417,53-4473211,23> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CIUDAD DE BARCELONA, AVENIDA, DE LA,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> ;
+	<http://BiciMAD.es/longitud> "-3.6904197"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4074558"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441417,53"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473211,23"^^xsd:double .
+
+<http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441394,74-4473233,56> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CIUDAD DE BARCELONA, AVENIDA, DE LA,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> ;
+	<http://BiciMAD.es/longitud> "-3.6906904"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4076554"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441394,74"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473233,56"^^xsd:double .
+
+<http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441288,14-4473447,57> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "PRADO, PASEO, DEL,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> ;
+	<http://BiciMAD.es/longitud> "-3.6919663"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4095758"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441288,14"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473447,57"^^xsd:double .
+
+<http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/443177,93-4473311,29> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "LIRA, CALLE, DE LA,2" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-03+ESTRELLA> ;
+	<http://BiciMAD.es/longitud> "-3.669683"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4084793"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "443177,93"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473311,29"^^xsd:double .
+
+<http://BiciMAD.es/03-03+ESTRELLA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442770,38-4473844,96> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "PIO BAROJA, CALLE, DE,8 B" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-06+NI%EF%BF%BDO+JES%EF%BF%BDS> ;
+	<http://BiciMAD.es/longitud> "-3.6745339"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4132589"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442770,38"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473844,96"^^xsd:double .
+
+<http://BiciMAD.es/03-06+NI%EF%BF%BDO+JES%EF%BF%BDS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442918,27-4472746,05> <http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/estaEnCalle> "DOCTOR ESQUERDO, CALLE, DEL,191" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-02+ADELFAS> ;
+	<http://BiciMAD.es/longitud> "-3.6726923"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4033695"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442918,27"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4472746,05"^^xsd:double .
+
+<http://BiciMAD.es/03-02+ADELFAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442319,29-4474723,43> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "MENENDEZ PELAYO, AVENIDA, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> ;
+	<http://BiciMAD.es/longitud> "-3.6799299"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4211415"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442319,29"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474723,43"^^xsd:double .
+
+<http://BiciMAD.es/03-05+JER%EF%BF%BDNIMOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/03++RETIRO> .
+
+<http://BiciMAD.es/03++RETIRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441180,29-4474447,71> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "21"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "PRADO, PASEO, DEL,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-03+CORTES> ;
+	<http://BiciMAD.es/longitud> "-3.6933298"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4185779"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441180,29"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474447,71"^^xsd:double .
+
+<http://BiciMAD.es/01-03+CORTES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442016,68-4475450,66> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "AYALA, CALLE, DE,44" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-01+RECOLETOS> ;
+	<http://BiciMAD.es/longitud> "-3.6835631"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4276717"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442016,68"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475450,66"^^xsd:double .
+
+<http://BiciMAD.es/04-01+RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442004,11-4475843,28> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "VELAZQUEZ, CALLE, DE,73" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-06+CASTELLANA> ;
+	<http://BiciMAD.es/longitud> "-3.6837471"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4312077"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442004,11"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475843,28"^^xsd:double .
+
+<http://BiciMAD.es/04-06+CASTELLANA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442728,15-4475399,8> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "AYALA, CALLE, DE,102" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-02+GOYA> ;
+	<http://BiciMAD.es/longitud> "-3.6751716"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4272628"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442728,15"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475399,8"^^xsd:double .
+
+<http://BiciMAD.es/04-02+GOYA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442000,33-4475163,96> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "GOYA, CALLE, DE,18" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-01+RECOLETOS> ;
+	<http://BiciMAD.es/longitud> "-3.6837297"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4250878"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442000,33"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475163,96"^^xsd:double .
+
+<http://BiciMAD.es/04-01+RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442417,66-4475274,35> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "HERMOSILLA, CALLE, DE,73" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-02+GOYA> ;
+	<http://BiciMAD.es/longitud> "-3.6788203"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4261113"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442417,66"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475274,35"^^xsd:double .
+
+<http://BiciMAD.es/04-02+GOYA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441767,83-4475291,85> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CLAUDIO COELLO, CALLE, DE,45" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-01+RECOLETOS> ;
+	<http://BiciMAD.es/longitud> "-3.6864821"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4262237"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441767,83"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475291,85"^^xsd:double .
+
+<http://BiciMAD.es/04-01+RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441518,8-4475235,48> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "GOYA, CALLE, DE,3" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-01+RECOLETOS> ;
+	<http://BiciMAD.es/longitud> "-3.6894124"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4256984"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441518,8"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475235,48"^^xsd:double .
+
+<http://BiciMAD.es/04-01+RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441407,18-4474977,73> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "RECOLETOS, PASEO, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-01+RECOLETOS> ;
+	<http://BiciMAD.es/longitud> "-3.6907044"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4233686"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441407,18"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474977,73"^^xsd:double .
+
+<http://BiciMAD.es/04-01+RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441721,55-4474897> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CLAUDIO COELLO, CALLE, DE,19" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-01+RECOLETOS> ;
+	<http://BiciMAD.es/longitud> "-3.6869914"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4226634"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441721,55"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474897"^^xsd:double .
+
+<http://BiciMAD.es/04-01+RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442140,46-4474825,84> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "27"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ALCALA, CALLE, DE,111" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-01+RECOLETOS> ;
+	<http://BiciMAD.es/longitud> "-3.6820471"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4220516"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442140,46"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474825,84"^^xsd:double .
+
+<http://BiciMAD.es/04-01+RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442301,64-4474872,66> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "MENENDEZ PELAYO, AVENIDA, DE,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-02+GOYA> ;
+	<http://BiciMAD.es/longitud> "-3.6801515"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4224846"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442301,64"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474872,66"^^xsd:double .
+
+<http://BiciMAD.es/04-02+GOYA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442705,5-4475058,99> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "FELIPE II, AVENIDA, DE,5" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-02+GOYA> ;
+	<http://BiciMAD.es/longitud> "-3.6754079"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4241911"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442705,5"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475058,99"^^xsd:double .
+
+<http://BiciMAD.es/04-02+GOYA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442829,62-4475270,48> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ALCANTARA, CALLE, DE,2" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-02+GOYA> ;
+	<http://BiciMAD.es/longitud> "-3.6739638"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4261048"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442829,62"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475270,48"^^xsd:double .
+
+<http://BiciMAD.es/04-02+GOYA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442835,81-4475123,85> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "GOYA, CALLE, DE,99" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-02+GOYA> ;
+	<http://BiciMAD.es/longitud> "-3.6738777"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4247843"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442835,81"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475123,85"^^xsd:double .
+
+<http://BiciMAD.es/04-02+GOYA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/443212,16-4474936,49> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "JORGE JUAN, CALLE, DE,131" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-02+GOYA> ;
+	<http://BiciMAD.es/longitud> "-3.6694246"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4231223"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "443212,16"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474936,49"^^xsd:double .
+
+<http://BiciMAD.es/04-02+GOYA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441967,18-4474727,67> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ALCALA, CALLE, DE,95" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-01+RECOLETOS> ;
+	<http://BiciMAD.es/longitud> "-3.6840806"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4211552"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441967,18"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474727,67"^^xsd:double .
+
+<http://BiciMAD.es/04-01+RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441766,91-4475752,49> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "JOSE ORTEGA Y GASSET, CALLE, DE,4" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-06+CASTELLANA> ;
+	<http://BiciMAD.es/longitud> "-3.6865351"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4303733"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441766,91"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475752,49"^^xsd:double .
+
+<http://BiciMAD.es/04-06+CASTELLANA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441505,58-4475354,07> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "21"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CASTELLANA, PASEO, DE LA,4" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-01+RECOLETOS> ;
+	<http://BiciMAD.es/longitud> "-3.6895792"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4267658"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441505,58"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475354,07"^^xsd:double .
+
+<http://BiciMAD.es/04-01+RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441684,37-4475386,27> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SERRANO, CALLE, DE,46" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-01+RECOLETOS> ;
+	<http://BiciMAD.es/longitud> "-3.6874745"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4270684"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441684,37"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475386,27"^^xsd:double .
+
+<http://BiciMAD.es/04-01+RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441648,47-4475149,56> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "36"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SERRANO, CALLE, DE,32" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-01+RECOLETOS> ;
+	<http://BiciMAD.es/longitud> "-3.687876"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4249335"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441648,47"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475149,56"^^xsd:double .
+
+<http://BiciMAD.es/04-01+RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441599,07-4474779,37> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SERRANO, CALLE, DE,8" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-01+RECOLETOS> ;
+	<http://BiciMAD.es/longitud> "-3.6884243"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4215952"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441599,07"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474779,37"^^xsd:double .
+
+<http://BiciMAD.es/04-01+RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/443111,6-4475416,83> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "MARTIRES CONCEPCIONISTAS, CALLE, DE LOS,2" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-02+GOYA> ;
+	<http://BiciMAD.es/longitud> "-3.670653"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4274425"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "443111,6"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475416,83"^^xsd:double .
+
+<http://BiciMAD.es/04-02+GOYA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442191,64-4475721,98> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "JOSE ORTEGA Y GASSET, CALLE, DE,32" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-06+CASTELLANA> ;
+	<http://BiciMAD.es/longitud> "-3.6815253"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4301281"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442191,64"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475721,98"^^xsd:double .
+
+<http://BiciMAD.es/04-06+CASTELLANA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/438921,15-4476262,7> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "MORET, PASEO, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/09-01+CASA+DE+CAMPO> ;
+	<http://BiciMAD.es/longitud> "-3.7201316"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4347654"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "438921,15"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4476262,7"^^xsd:double .
+
+<http://BiciMAD.es/09-01+CASA+DE+CAMPO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/09++MONCLOA-ARAVACA> .
+
+<http://BiciMAD.es/09++MONCLOA-ARAVACA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439144,16-4476128,65> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ARCIPRESTE DE HITA, CALLE, DEL,8" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/07-01+GAZTAMBIDE> ;
+	<http://BiciMAD.es/longitud> "-3.7174896"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4335742"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439144,16"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4476128,65"^^xsd:double .
+
+<http://BiciMAD.es/07-01+GAZTAMBIDE> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/07++CHAMBER%EF%BF%BD> .
+
+<http://BiciMAD.es/07++CHAMBER%EF%BF%BD> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439120,04-4476174,12> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ARCIPRESTE DE HITA, CALLE, DEL,10" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/07-01+GAZTAMBIDE> ;
+	<http://BiciMAD.es/longitud> "-3.7177783"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.433982"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439120,04"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4476174,12"^^xsd:double .
+
+<http://BiciMAD.es/07-01+GAZTAMBIDE> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/07++CHAMBER%EF%BF%BD> .
+
+<http://BiciMAD.es/07++CHAMBER%EF%BF%BD> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/438517,07-4476028,6> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "MORET, PASEO, DE,11" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/09-02+ARG%EF%BF%BDELLES> ;
+	<http://BiciMAD.es/longitud> "-3.7248727"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4326267"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "438517,07"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4476028,6"^^xsd:double .
+
+<http://BiciMAD.es/09-02+ARG%EF%BF%BDELLES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/09++MONCLOA-ARAVACA> .
+
+<http://BiciMAD.es/09++MONCLOA-ARAVACA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/438865,35-4475484,09> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "PINTOR ROSALES, PASEO, DEL,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/09-01+CASA+DE+CAMPO> ;
+	<http://BiciMAD.es/longitud> "-3.7207145"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4277472"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "438865,35"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475484,09"^^xsd:double .
+
+<http://BiciMAD.es/09-01+CASA+DE+CAMPO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/09++MONCLOA-ARAVACA> .
+
+<http://BiciMAD.es/09++MONCLOA-ARAVACA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439145,66-4475489,87> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "QUINTANA, CALLE, DE,13" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/09-02+ARG%EF%BF%BDELLES> ;
+	<http://BiciMAD.es/longitud> "-3.7174108"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4278199"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439145,66"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475489,87"^^xsd:double .
+
+<http://BiciMAD.es/09-02+ARG%EF%BF%BDELLES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/09++MONCLOA-ARAVACA> .
+
+<http://BiciMAD.es/09++MONCLOA-ARAVACA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439181,48-4475218,76> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "MARQUES DE CERRALBO, PLAZA, DEL,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/09-02+ARG%EF%BF%BDELLES> ;
+	<http://BiciMAD.es/longitud> "-3.7169626"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4253802"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439181,48"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475218,76"^^xsd:double .
+
+<http://BiciMAD.es/09-02+ARG%EF%BF%BDELLES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/09++MONCLOA-ARAVACA> .
+
+<http://BiciMAD.es/09++MONCLOA-ARAVACA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439616,59-4475074,01> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ESPA�A, PLAZA, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/09-02+ARG%EF%BF%BDELLES> ;
+	<http://BiciMAD.es/longitud> "-3.7118199"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4241079"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439616,59"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475074,01"^^xsd:double .
+
+<http://BiciMAD.es/09-02+ARG%EF%BF%BDELLES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/09++MONCLOA-ARAVACA> .
+
+<http://BiciMAD.es/09++MONCLOA-ARAVACA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439610,68-4475084,23> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ESPA�A, PLAZA, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/09-02+ARG%EF%BF%BDELLES> ;
+	<http://BiciMAD.es/longitud> "-3.7118905"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4241996"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439610,68"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475084,23"^^xsd:double .
+
+<http://BiciMAD.es/09-02+ARG%EF%BF%BDELLES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/09++MONCLOA-ARAVACA> .
+
+<http://BiciMAD.es/09++MONCLOA-ARAVACA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439020,83-4475833,31> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ALTAMIRANO, CALLE, DE,24" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/09-02+ARG%EF%BF%BDELLES> ;
+	<http://BiciMAD.es/longitud> "-3.7189152"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4309046"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439020,83"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475833,31"^^xsd:double .
+
+<http://BiciMAD.es/09-02+ARG%EF%BF%BDELLES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/09++MONCLOA-ARAVACA> .
+
+<http://BiciMAD.es/09++MONCLOA-ARAVACA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441605,27-4472470,69> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "JUAN MARTIN EL EMPECINADO, CALLE, DE,16" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/02-06+PALOS+DE+MOGUER> ;
+	<http://BiciMAD.es/longitud> "-3.6881393"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4007979"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441605,27"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4472470,69"^^xsd:double .
+
+<http://BiciMAD.es/02-06+PALOS+DE+MOGUER> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/02++ARGANZUELA> .
+
+<http://BiciMAD.es/02++ARGANZUELA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441738,36-4472542,79> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "MENDEZ ALVARO, CALLE, DE,7" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/02-07+ATOCHA> ;
+	<http://BiciMAD.es/longitud> "-3.6865777"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4014567"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441738,36"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4472542,79"^^xsd:double .
+
+<http://BiciMAD.es/02-07+ATOCHA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/02++ARGANZUELA> .
+
+<http://BiciMAD.es/02++ARGANZUELA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441058,14-4472722,16> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "PALOS DE LA FRONTERA, CALLE, DE,27" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/02-06+PALOS+DE+MOGUER> ;
+	<http://BiciMAD.es/longitud> "-3.6946097"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4030247"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441058,14"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4472722,16"^^xsd:double .
+
+<http://BiciMAD.es/02-06+PALOS+DE+MOGUER> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/02++ARGANZUELA> .
+
+<http://BiciMAD.es/02++ARGANZUELA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440718,1-4472592,85> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SANTA MARIA DE LA CABEZA, PASEO, DE,58" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/02-06+PALOS+DE+MOGUER> ;
+	<http://BiciMAD.es/longitud> "-3.6986046"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4018356"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440718,1"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4472592,85"^^xsd:double .
+
+<http://BiciMAD.es/02-06+PALOS+DE+MOGUER> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/02++ARGANZUELA> .
+
+<http://BiciMAD.es/02++ARGANZUELA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440941,06-4475664,68> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SANTA ENGRACIA, CALLE, DE,16" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/07-04+ALMAGRO> ;
+	<http://BiciMAD.es/longitud> "-3.6962626"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.429524"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440941,06"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475664,68"^^xsd:double .
+
+<http://BiciMAD.es/07-04+ALMAGRO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/07++CHAMBER%EF%BF%BD> .
+
+<http://BiciMAD.es/07++CHAMBER%EF%BF%BD> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439482,59-4475800,04> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "GUZMAN EL BUENO, CALLE, DE,2" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/07-01+GAZTAMBIDE> ;
+	<http://BiciMAD.es/longitud> "-3.7134685"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4306386"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439482,59"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475800,04"^^xsd:double .
+
+<http://BiciMAD.es/07-01+GAZTAMBIDE> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/07++CHAMBER%EF%BF%BD> .
+
+<http://BiciMAD.es/07++CHAMBER%EF%BF%BD> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440683,01-4475810,28> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "MANUEL SILVELA, CALLE, DE,18" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/07-03+TRAFALGAR> ;
+	<http://BiciMAD.es/longitud> "-3.6993182"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4308173"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440683,01"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475810,28"^^xsd:double .
+
+<http://BiciMAD.es/07-03+TRAFALGAR> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/07++CHAMBER%EF%BF%BD> .
+
+<http://BiciMAD.es/07++CHAMBER%EF%BF%BD> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441066,99-4476306,47> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "FERNANDEZ DE LA HOZ, CALLE, DE,29" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/07-04+ALMAGRO> ;
+	<http://BiciMAD.es/longitud> "-3.6948375"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4353145"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441066,99"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4476306,47"^^xsd:double .
+
+<http://BiciMAD.es/07-04+ALMAGRO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/07++CHAMBER%EF%BF%BD> .
+
+<http://BiciMAD.es/07++CHAMBER%EF%BF%BD> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440480,69-4476228,15> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "GENERAL ALVAREZ DE CASTRO, CALLE, DEL,4" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/07-03+TRAFALGAR> ;
+	<http://BiciMAD.es/longitud> "-3.7017424"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4345672"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440480,69"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4476228,15"^^xsd:double .
+
+<http://BiciMAD.es/07-03+TRAFALGAR> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/07++CHAMBER%EF%BF%BD> .
+
+<http://BiciMAD.es/07++CHAMBER%EF%BF%BD> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439915,53-4476159,48> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "FERNANDO EL CATOLICO, CALLE, DE,19" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/07-02+ARAPILES> ;
+	<http://BiciMAD.es/longitud> "-3.7083987"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.433908"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439915,53"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4476159,48"^^xsd:double .
+
+<http://BiciMAD.es/07-02+ARAPILES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/07++CHAMBER%EF%BF%BD> .
+
+<http://BiciMAD.es/07++CHAMBER%EF%BF%BD> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439310,29-4476734,2> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CEA BERMUDEZ, CALLE, DE,59" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/07-01+GAZTAMBIDE> ;
+	<http://BiciMAD.es/longitud> "-3.7155889"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4390413"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439310,29"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4476734,2"^^xsd:double .
+
+<http://BiciMAD.es/07-01+GAZTAMBIDE> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/07++CHAMBER%EF%BF%BD> .
+
+<http://BiciMAD.es/07++CHAMBER%EF%BF%BD> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440776,2-4476658,18> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "JOSE ABASCAL, CALLE, DE,33" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/07-05+R%EF%BF%BDOS+ROSAS> ;
+	<http://BiciMAD.es/longitud> "-3.6982986"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4384622"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440776,2"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4476658,18"^^xsd:double .
+
+<http://BiciMAD.es/07-05+R%EF%BF%BDOS+ROSAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/07++CHAMBER%EF%BF%BD> .
+
+<http://BiciMAD.es/07++CHAMBER%EF%BF%BD> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440485,91-4477025,58> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "18"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SANTA ENGRACIA, CALLE, DE,129" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/07-05+R%EF%BF%BDOS+ROSAS> ;
+	<http://BiciMAD.es/longitud> "-3.7017555"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4417512"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440485,91"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4477025,58"^^xsd:double .
+
+<http://BiciMAD.es/07-05+R%EF%BF%BDOS+ROSAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/07++CHAMBER%EF%BF%BD> .
+
+<http://BiciMAD.es/07++CHAMBER%EF%BF%BD> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440293,58-4477026,74> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "BRAVO MURILLO, CALLE, DE,44" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/07-05+R%EF%BF%BDOS+ROSAS> ;
+	<http://BiciMAD.es/longitud> "-3.7040233"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4417479"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440293,58"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4477026,74"^^xsd:double .
+
+<http://BiciMAD.es/07-05+R%EF%BF%BDOS+ROSAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/07++CHAMBER%EF%BF%BD> .
+
+<http://BiciMAD.es/07++CHAMBER%EF%BF%BD> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440334,34-4477541,61> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SANTA ENGRACIA, CALLE, DE,168" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/07-05+R%EF%BF%BDOS+ROSAS> ;
+	<http://BiciMAD.es/longitud> "-3.7035911"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4463889"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440334,34"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4477541,61"^^xsd:double .
+
+<http://BiciMAD.es/07-05+R%EF%BF%BDOS+ROSAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/07++CHAMBER%EF%BF%BD> .
+
+<http://BiciMAD.es/07++CHAMBER%EF%BF%BD> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440637,08-4477625,61> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "DULCINEA, CALLE, DE,3" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/06-02+CUATRO+CAMINOS> ;
+	<http://BiciMAD.es/longitud> "-3.7000292"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4471673"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440637,08"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4477625,61"^^xsd:double .
+
+<http://BiciMAD.es/06-02+CUATRO+CAMINOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/06++TETU%EF%BF%BDN> .
+
+<http://BiciMAD.es/06++TETU%EF%BF%BDN> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441017,64-4477274,53> <http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/estaEnCalle> "MARIA DE GUZMAN, CALLE, DE,58" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/07-05+R%EF%BF%BDOS+ROSAS> ;
+	<http://BiciMAD.es/longitud> "-3.6955092"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4440317"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441017,64"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4477274,53"^^xsd:double .
+
+<http://BiciMAD.es/07-05+R%EF%BF%BDOS+ROSAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/07++CHAMBER%EF%BF%BD> .
+
+<http://BiciMAD.es/07++CHAMBER%EF%BF%BD> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441237,58-4476989,99> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SAN JUAN DE LA CRUZ, PLAZA, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/07-05+R%EF%BF%BDOS+ROSAS> ;
+	<http://BiciMAD.es/longitud> "-3.6928896"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.441484"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441237,58"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4476989,99"^^xsd:double .
+
+<http://BiciMAD.es/07-05+R%EF%BF%BDOS+ROSAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/07++CHAMBER%EF%BF%BD> .
+
+<http://BiciMAD.es/07++CHAMBER%EF%BF%BD> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441417,02-4477410,33> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CASTELLANA, PASEO, DE LA,106" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/05-01+EL+VISO> ;
+	<http://BiciMAD.es/longitud> "-3.6908127"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4452833"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441417,02"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4477410,33"^^xsd:double .
+
+<http://BiciMAD.es/05-01+EL+VISO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/05++CHAMART%EF%BF%BDN> .
+
+<http://BiciMAD.es/05++CHAMART%EF%BF%BDN> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441885,33-4477430,27> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "REPUBLICA ARGENTINA, PLAZA, DE LA,6" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/05-01+EL+VISO> ;
+	<http://BiciMAD.es/longitud> "-3.6852925"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4454958"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441885,33"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4477430,27"^^xsd:double .
+
+<http://BiciMAD.es/05-01+EL+VISO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/05++CHAMART%EF%BF%BDN> .
+
+<http://BiciMAD.es/05++CHAMART%EF%BF%BDN> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441352,15-4477455,81> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CASTELLANA, PASEO, DE LA,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/07-05+R%EF%BF%BDOS+ROSAS> ;
+	<http://BiciMAD.es/longitud> "-3.6915818"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4456884"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441352,15"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4477455,81"^^xsd:double .
+
+<http://BiciMAD.es/07-05+R%EF%BF%BDOS+ROSAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/07++CHAMBER%EF%BF%BD> .
+
+<http://BiciMAD.es/07++CHAMBER%EF%BF%BD> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441442,67-4476752,13> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "JOSE GUTIERREZ ABASCAL, CALLE, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/05-01+EL+VISO> ;
+	<http://BiciMAD.es/longitud> "-3.6904495"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4393558"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441442,67"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4476752,13"^^xsd:double .
+
+<http://BiciMAD.es/05-01+EL+VISO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/05++CHAMART%EF%BF%BDN> .
+
+<http://BiciMAD.es/05++CHAMART%EF%BF%BDN> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442081,57-4476664,17> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "VELAZQUEZ, CALLE, DE,134" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/05-01+EL+VISO> ;
+	<http://BiciMAD.es/longitud> "-3.6829088"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4386081"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442081,57"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4476664,17"^^xsd:double .
+
+<http://BiciMAD.es/05-01+EL+VISO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/05++CHAMART%EF%BF%BDN> .
+
+<http://BiciMAD.es/05++CHAMART%EF%BF%BDN> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441537,59-4476315,08> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CASTELLANA, PASEO, DE LA,43" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/07-04+ALMAGRO> ;
+	<http://BiciMAD.es/longitud> "-3.6892902"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4354253"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441537,59"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4476315,08"^^xsd:double .
+
+<http://BiciMAD.es/07-04+ALMAGRO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/07++CHAMBER%EF%BF%BD> .
+
+<http://BiciMAD.es/07++CHAMBER%EF%BF%BD> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441641,97-4476103,45> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CASTELLANA, PASEO, DE LA,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-06+CASTELLANA> ;
+	<http://BiciMAD.es/longitud> "-3.6880402"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4335262"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441641,97"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4476103,45"^^xsd:double .
+
+<http://BiciMAD.es/04-06+CASTELLANA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442474,52-4476217,99> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "DIEGO DE LEON, CALLE, DE,54" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-05+LISTA> ;
+	<http://BiciMAD.es/longitud> "-3.6782355"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.434616"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442474,52"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4476217,99"^^xsd:double .
+
+<http://BiciMAD.es/04-05+LISTA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442707,74-4475961,24> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "JUAN BRAVO, CALLE, DE,50" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-05+LISTA> ;
+	<http://BiciMAD.es/longitud> "-3.6754628"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4323192"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442707,74"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475961,24"^^xsd:double .
+
+<http://BiciMAD.es/04-05+LISTA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/443050,11-4475675,85> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "JOSE ORTEGA Y GASSET, CALLE, DE,87" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/04-05+LISTA> ;
+	<http://BiciMAD.es/longitud> "-3.671401"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4297717"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "443050,11"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4475675,85"^^xsd:double .
+
+<http://BiciMAD.es/04-05+LISTA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/04++SALAMANCA> .
+
+<http://BiciMAD.es/04++SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442434,99-4477286,31> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "MARIA FRANCISCA, CALLE, DE,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/05-01+EL+VISO> ;
+	<http://BiciMAD.es/longitud> "-3.6787983"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4442372"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442434,99"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4477286,31"^^xsd:double .
+
+<http://BiciMAD.es/05-01+EL+VISO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/05++CHAMART%EF%BF%BDN> .
+
+<http://BiciMAD.es/05++CHAMART%EF%BF%BDN> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442372,1-4477741,71> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "DOCTOR ARCE, AVENIDA, DEL,45" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/05-01+EL+VISO> ;
+	<http://BiciMAD.es/longitud> "-3.6795811"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4483353"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442372,1"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4477741,71"^^xsd:double .
+
+<http://BiciMAD.es/05-01+EL+VISO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/05++CHAMART%EF%BF%BDN> .
+
+<http://BiciMAD.es/05++CHAMART%EF%BF%BDN> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442194,62-4478041,41> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SERRANO, CALLE, DE,210" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/05-01+EL+VISO> ;
+	<http://BiciMAD.es/longitud> "-3.6817012"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4510228"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442194,62"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4478041,41"^^xsd:double .
+
+<http://BiciMAD.es/05-01+EL+VISO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/05++CHAMART%EF%BF%BDN> .
+
+<http://BiciMAD.es/05++CHAMART%EF%BF%BDN> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441672,37-4477914,72> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "LA HABANA, PASEO, DE,42" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/05-01+EL+VISO> ;
+	<http://BiciMAD.es/longitud> "-3.6878481"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.449845"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441672,37"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4477914,72"^^xsd:double .
+
+<http://BiciMAD.es/05-01+EL+VISO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/05++CHAMART%EF%BF%BDN> .
+
+<http://BiciMAD.es/05++CHAMART%EF%BF%BDN> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441443,71-4477839,96> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CASTELLANA, PASEO, DE LA,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/05-01+EL+VISO> ;
+	<http://BiciMAD.es/longitud> "-3.6905376"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4491555"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441443,71"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4477839,96"^^xsd:double .
+
+<http://BiciMAD.es/05-01+EL+VISO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/05++CHAMART%EF%BF%BDN> .
+
+<http://BiciMAD.es/05++CHAMART%EF%BF%BDN> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441047,09-4477810,46> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ORENSE, CALLE, DE,10" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/06-02+CUATRO+CAMINOS> ;
+	<http://BiciMAD.es/longitud> "-3.6952117"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4488617"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441047,09"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4477810,46"^^xsd:double .
+
+<http://BiciMAD.es/06-02+CUATRO+CAMINOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/06++TETU%EF%BF%BDN> .
+
+<http://BiciMAD.es/06++TETU%EF%BF%BDN> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440733,5-4478240,82> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "GENERAL PERON, AVENIDA, DEL,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/06-02+CUATRO+CAMINOS> ;
+	<http://BiciMAD.es/longitud> "-3.6989497"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4527163"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440733,5"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4478240,82"^^xsd:double .
+
+<http://BiciMAD.es/06-02+CUATRO+CAMINOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/06++TETU%EF%BF%BDN> .
+
+<http://BiciMAD.es/06++TETU%EF%BF%BDN> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441229,67-4478195,07> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "GENERAL PERON, AVENIDA, DEL,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/06-02+CUATRO+CAMINOS> ;
+	<http://BiciMAD.es/longitud> "-3.6930944"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4523394"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441229,67"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4478195,07"^^xsd:double .
+
+<http://BiciMAD.es/06-02+CUATRO+CAMINOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/06++TETU%EF%BF%BDN> .
+
+<http://BiciMAD.es/06++TETU%EF%BF%BDN> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441096,52-4478466,6> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ORENSE, CALLE, DE,36" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/06-02+CUATRO+CAMINOS> ;
+	<http://BiciMAD.es/longitud> "-3.6946897"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.454776"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441096,52"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4478466,6"^^xsd:double .
+
+<http://BiciMAD.es/06-02+CUATRO+CAMINOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/06++TETU%EF%BF%BDN> .
+
+<http://BiciMAD.es/06++TETU%EF%BF%BDN> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440572,97-4478750,49> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SAN GERM�N, CALLE, DE,55" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/06-02+CUATRO+CAMINOS> ;
+	<http://BiciMAD.es/longitud> "-3.7008905"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4572961"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440572,97"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4478750,49"^^xsd:double .
+
+<http://BiciMAD.es/06-02+CUATRO+CAMINOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/06++TETU%EF%BF%BDN> .
+
+<http://BiciMAD.es/06++TETU%EF%BF%BDN> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441385,88-4478959,93> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SOR ANGELA DE LA CRUZ, CALLE, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/06-03+CASTILLEJOS> ;
+	<http://BiciMAD.es/longitud> "-3.6913229"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4592406"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441385,88"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4478959,93"^^xsd:double .
+
+<http://BiciMAD.es/06-03+CASTILLEJOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/06++TETU%EF%BF%BDN> .
+
+<http://BiciMAD.es/06++TETU%EF%BF%BDN> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441554,84-4478963,2> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "CASTELLANA, PASEO, DE LA,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/05-05+NUEVA+ESPA%EF%BF%BDA> ;
+	<http://BiciMAD.es/longitud> "-3.6893305"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.459282"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441554,84"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4478963,2"^^xsd:double .
+
+<http://BiciMAD.es/05-05+NUEVA+ESPA%EF%BF%BDA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/05++CHAMART%EF%BF%BDN> .
+
+<http://BiciMAD.es/05++CHAMART%EF%BF%BDN> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441946,46-4478886,67> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ALBERTO ALCOCER, AVENIDA, DE,22 A" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/05-04+HISPANOAM%EF%BF%BDRICA> ;
+	<http://BiciMAD.es/longitud> "-3.6847049"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.45862"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441946,46"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4478886,67"^^xsd:double .
+
+<http://BiciMAD.es/05-04+HISPANOAM%EF%BF%BDRICA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/05++CHAMART%EF%BF%BDN> .
+
+<http://BiciMAD.es/05++CHAMART%EF%BF%BDN> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442024,96-4478401,51> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "LA HABANA, PASEO, DE,63" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/05-04+HISPANOAM%EF%BF%BDRICA> ;
+	<http://BiciMAD.es/longitud> "-3.6837348"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4542549"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442024,96"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4478401,51"^^xsd:double .
+
+<http://BiciMAD.es/05-04+HISPANOAM%EF%BF%BDRICA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/05++CHAMART%EF%BF%BDN> .
+
+<http://BiciMAD.es/05++CHAMART%EF%BF%BDN> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/442637,46-4478722,46> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "COLOMBIA, CALLE, DE,7" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/05-04+HISPANOAM%EF%BF%BDRICA> ;
+	<http://BiciMAD.es/longitud> "-3.6765407"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4571887"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "442637,46"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4478722,46"^^xsd:double .
+
+<http://BiciMAD.es/05-04+HISPANOAM%EF%BF%BDRICA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/05++CHAMART%EF%BF%BDN> .
+
+<http://BiciMAD.es/05++CHAMART%EF%BF%BDN> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/438748,24-4474860,98> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "FLORIDA, PASEO, DE LA,8" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/09-01+CASA+DE+CAMPO> ;
+	<http://BiciMAD.es/longitud> "-3.722035"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4221254"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "438748,24"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4474860,98"^^xsd:double .
+
+<http://BiciMAD.es/09-01+CASA+DE+CAMPO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/09++MONCLOA-ARAVACA> .
+
+<http://BiciMAD.es/09++MONCLOA-ARAVACA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439688,47-4472787,76> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "OLMOS, PASEO, DE LOS,28" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/02-02+ACACIAS> ;
+	<http://BiciMAD.es/longitud> "-3.7107559"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4035176"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439688,47"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4472787,76"^^xsd:double .
+
+<http://BiciMAD.es/02-02+ACACIAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/02++ARGANZUELA> .
+
+<http://BiciMAD.es/02++ARGANZUELA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440055,04-4472797,85> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "ESPERANZA, PASEO, DE LA," ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/02-02+ACACIAS> ;
+	<http://BiciMAD.es/longitud> "-3.7064372"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4036349"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440055,04"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4472797,85"^^xsd:double .
+
+<http://BiciMAD.es/02-02+ACACIAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/02++ARGANZUELA> .
+
+<http://BiciMAD.es/02++ARGANZUELA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/441064,15-4472071,33> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "DELICIAS, PASEO, DE LAS,92" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/02-05+DELICIAS> ;
+	<http://BiciMAD.es/longitud> "-3.6944786"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.3971621"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "441064,15"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4472071,33"^^xsd:double .
+
+<http://BiciMAD.es/02-05+DELICIAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/02++ARGANZUELA> .
+
+<http://BiciMAD.es/02++ARGANZUELA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/440779,23-4471608,61> <http://BiciMAD.es/estaEnCalle> "CHOPERA, PASEO, DE LA,47" ;
+	a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/02-03+CHOPERA> ;
+	<http://BiciMAD.es/longitud> "-3.6977928"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.3929735"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "440779,23"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4471608,61"^^xsd:double .
+
+<http://BiciMAD.es/02-03+CHOPERA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/02++ARGANZUELA> .
+
+<http://BiciMAD.es/02++ARGANZUELA> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439477,71-4473947,39> a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	<http://BiciMAD.es/estaEnCalle> "SEGOVIA, CALLE, DE,26" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/01-01+PALACIO> ;
+	<http://BiciMAD.es/longitud> "-3.7133497"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4139487"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439477,71"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473947,39"^^xsd:double .
+
+<http://BiciMAD.es/01-01+PALACIO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/01++CENTRO> .
+
+<http://BiciMAD.es/01++CENTRO> a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/439117,28-4473925,6> <http://BiciMAD.es/hasNPlazas> "24"^^xsd:int ;
+	a <http://BiciMAD.es/Group03/ID> ;
+	<http://BiciMAD.es/estaEnCalle> "SEGOVIA, CALLE, DE,45" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/02-01+IMPERIAL> ;
+	<http://BiciMAD.es/longitud> "-3.7175955"^^xsd:double ;
+	<http://BiciMAD.es/latitud> "40.4137262"^^xsd:double ;
+	<http://BiciMAD.es/Gis_X> "439117,28"^^xsd:double ;
+	<http://BiciMAD.es/Gis_Y> "4473925,6"^^xsd:double .
+
+<http://BiciMAD.es/02-01+IMPERIAL> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/estaEnDistrito> <http://BiciMAD.es/02++ARGANZUELA> .
+
+<http://BiciMAD.es/02++ARGANZUELA> a <http://BiciMAD.es/Group03/Distrito> .

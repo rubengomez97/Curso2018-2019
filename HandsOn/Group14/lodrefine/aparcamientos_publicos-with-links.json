@@ -1,0 +1,1004 @@
+[
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column to Parking ID",
+    "oldColumnName": "Column",
+    "newColumnName": "Parking ID"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 2 to Parking Name",
+    "oldColumnName": "Column 2",
+    "newColumnName": "Parking Name"
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": true,
+          "selection": [],
+          "selectError": false,
+          "invert": false,
+          "name": "Parking ID",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Parking ID"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PK",
+                "l": "PK"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Parking ID",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Parking ID"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 3",
+    "columnName": "Column 3"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 4 to Horario",
+    "oldColumnName": "Column 4",
+    "newColumnName": "Horario"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Horario",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": true,
+        "fromError": false,
+        "from": [],
+        "to": "Abierto 24 horas"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Horario",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "De lunes a domingo servicio ininterrumpido"
+        ],
+        "to": "Abierto 24 horas"
+      }
+    ]
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 5",
+    "columnName": "Column 5"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 6",
+    "columnName": "Column 6"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column IsAccesible at index 5 based on column Column 8 using expression grel:value==\"0\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "IsAccesible",
+    "columnInsertIndex": 5,
+    "baseColumnName": "Column 8",
+    "expression": "grel:value==\"0\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Plazas at index 4 based on column Column 7 using expression grel:if(cells[\"Column 7\"].value.indexOf(\"Plazas:\")>-1,substring(cells[\"Column 7\"].value,cells[\"Column 7\"].value.indexOf(\"Plazas:\"),cells[\"Column 7\"].value.indexOf(\"residentes \")+length(\"residentes \")),substring(cells[\"Column 7\"].value,cells[\"Column 7\"].value.indexOf(\"Plazas :\"),cells[\"Column 7\"].value.indexOf(\"residentes \")+length(\"residentes \")))",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Plazas",
+    "columnInsertIndex": 4,
+    "baseColumnName": "Column 7",
+    "expression": "grel:if(cells[\"Column 7\"].value.indexOf(\"Plazas:\")>-1,substring(cells[\"Column 7\"].value,cells[\"Column 7\"].value.indexOf(\"Plazas:\"),cells[\"Column 7\"].value.indexOf(\"residentes \")+length(\"residentes \")),substring(cells[\"Column 7\"].value,cells[\"Column 7\"].value.indexOf(\"Plazas :\"),cells[\"Column 7\"].value.indexOf(\"residentes \")+length(\"residentes \")))",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Accesibilidad at index 4 based on column Column 7 using expression grel:if(cells[\"Column 7\"].value.contains(\"Plazas:\"),substring(cells[\"Column 7\"].value,0,indexOf(cells[\"Column 7\"].value,\"Plazas:\")),substring(cells[\"Column 7\"].value,0,indexOf(cells[\"Column 7\"].value,\"Plazas :\")))\n + \nsubstring(cells[\"Column 7\"].value,indexOf(cells[\"Column 7\"].value,\"residentes \")+length(\"residentes \"))",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Accesibilidad",
+    "columnInsertIndex": 4,
+    "baseColumnName": "Column 7",
+    "expression": "grel:if(cells[\"Column 7\"].value.contains(\"Plazas:\"),substring(cells[\"Column 7\"].value,0,indexOf(cells[\"Column 7\"].value,\"Plazas:\")),substring(cells[\"Column 7\"].value,0,indexOf(cells[\"Column 7\"].value,\"Plazas :\")))\n + \nsubstring(cells[\"Column 7\"].value,indexOf(cells[\"Column 7\"].value,\"residentes \")+length(\"residentes \"))",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 7",
+    "columnName": "Column 7"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column IsAccesible",
+    "columnName": "IsAccesible"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 9 to URL parking",
+    "oldColumnName": "Column 9",
+    "newColumnName": "URL parking"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 14",
+    "columnName": "Column 14"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 15",
+    "columnName": "Column 15"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 16",
+    "columnName": "Column 16"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 23",
+    "columnName": "Column 23"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 24",
+    "columnName": "Column 24"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 10 to Nombre Via",
+    "oldColumnName": "Column 10",
+    "newColumnName": "Nombre Via"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 11 to Tipo Via",
+    "oldColumnName": "Column 11",
+    "newColumnName": "Tipo Via"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 13 to Numero Via",
+    "oldColumnName": "Column 13",
+    "newColumnName": "Numero Via"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 17",
+    "columnName": "Column 17"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 18 to Ciudad",
+    "oldColumnName": "Column 18",
+    "newColumnName": "Ciudad"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 19 to Provincia",
+    "oldColumnName": "Column 19",
+    "newColumnName": "Provincia"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 20 to Cod. Postal",
+    "oldColumnName": "Column 20",
+    "newColumnName": "Cod. Postal"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 22 to Distrito",
+    "oldColumnName": "Column 22",
+    "newColumnName": "Distrito"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 21 to Barrio",
+    "oldColumnName": "Column 21",
+    "newColumnName": "Barrio"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 25 to Latitud",
+    "oldColumnName": "Column 25",
+    "newColumnName": "Latitud"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 26 to Longitud",
+    "oldColumnName": "Column 26",
+    "newColumnName": "Longitud"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 27 to Telefono",
+    "oldColumnName": "Column 27",
+    "newColumnName": "Telefono"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 29 to email",
+    "oldColumnName": "Column 29",
+    "newColumnName": "email"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 28",
+    "columnName": "Column 28"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 31",
+    "columnName": "Column 31"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Telefono using expression grel:\"Tlf: \" + value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Telefono",
+    "expression": "grel:\"Tlf: \" + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 8",
+    "columnName": "Column 8"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Accesibilidad to Descripcion",
+    "oldColumnName": "Accesibilidad",
+    "newColumnName": "Descripcion"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Accesibilidad at index 4 based on column Descripcion using expression grel:or(value.contains(\"minusválidos\"),value.contains(\"minusvalidos\"))",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Accesibilidad",
+    "columnInsertIndex": 4,
+    "baseColumnName": "Descripcion",
+    "expression": "grel:or(value.contains(\"minusválidos\"),value.contains(\"minusvalidos\"))",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": true,
+        "fromError": false,
+        "from": [],
+        "to": "Abierto 24 horas"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Descripcion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Abierto 24 horas   Titularidad : Ayuntamiento de Madrid",
+          " Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid",
+          "Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid",
+          "Abierto 24 horas   Titularidad  : Ayuntamiento de Madrid",
+          "Abierto 24 horas   Titularidad : Ayuntamiento de Madrid"
+        ],
+        "to": "Abierto 24 horas  **Titularidad : Ayuntamiento de Madrid**"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid",
+          "Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid",
+          "Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid",
+          " Abierto 24 horas  Admite Tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid",
+          " Abierto: 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid"
+        ],
+        "to": "Abierto 24 horas  --Admite Tarjeta BonoRed--   **Titularidad:  Ayuntamiento de Madrid**"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Abierto 24 horas      Titularidad : Ayuntamiento de Madrid   Gestión : Empresa Municipal de Transportes (EMT) ( más información )",
+          "Abierto 24 horas      Titularidad:   Ayuntamiento de Madrid    Gestión:  Empresa Municipal de Transportes (EMT) ( más información )"
+        ],
+        "to": "Abierto 24 horas   **Titularidad : Ayuntamiento de Madrid**   ||Gestión : Empresa Municipal de Transportes (EMT)||"
+      }
+    ]
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Desciption at index 4 based on column Descripcion using expression grel:if(value.startsWith(\" \"),substring(value,1),value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Desciption",
+    "columnInsertIndex": 4,
+    "baseColumnName": "Descripcion",
+    "expression": "grel:if(value.startsWith(\" \"),substring(value,1),value)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Descripcion1 at index 5 based on column Desciption using expression grel:if(value.startsWith(\" \"),substring(value,1),value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Descripcion1",
+    "columnInsertIndex": 5,
+    "baseColumnName": "Desciption",
+    "expression": "grel:if(value.startsWith(\" \"),substring(value,1),value)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Descripcion",
+    "columnName": "Descripcion"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Desciption",
+    "columnName": "Desciption"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Descripcion1 to Descripcion",
+    "oldColumnName": "Descripcion1",
+    "newColumnName": "Descripcion"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 30",
+    "columnName": "Column 30"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://parkingsmadrid.org/",
+      "prefixes": [
+        {
+          "name": "pwl",
+          "uri": "http://www.semanticweb.org/pc/ontologies/2018/9#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Parking ID",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/pc/ontologies/2018/9#PK",
+              "curie": "pwl:PK"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/pc/ontologies/2018/9#idParking",
+              "curie": "pwl:idParking",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Parking ID"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/pc/ontologies/2018/9#hasNombre",
+              "curie": "pwl:hasNombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Parking Name"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/pc/ontologies/2018/9#hasHorario",
+              "curie": "pwl:hasHorario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Horario"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/pc/ontologies/2018/9#descripcionAccesibilidad",
+              "curie": "pwl:descripcionAccesibilidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Descripcion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/pc/ontologies/2018/9#hasAccesibilidad",
+              "curie": "pwl:hasAccesibilidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Accesibilidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/pc/ontologies/2018/9#hasPlazasPublicas",
+              "curie": "pwl:hasPlazasPublicas",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Plazas"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/pc/ontologies/2018/9#hasURL",
+              "curie": "pwl:hasURL",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URL parking"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/pc/ontologies/2018/9#nombreVia",
+              "curie": "pwl:nombreVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Nombre Via"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/pc/ontologies/2018/9#claseVia",
+              "curie": "pwl:claseVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Tipo Via"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/pc/ontologies/2018/9#numeroVia",
+              "curie": "pwl:numeroVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Numero Via"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/pc/ontologies/2018/9#nombreLocalidad",
+              "curie": "pwl:nombreLocalidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Ciudad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/pc/ontologies/2018/9#nombreProvincia",
+              "curie": "pwl:nombreProvincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/pc/ontologies/2018/9#numeroCodPostal",
+              "curie": "pwl:numeroCodPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Cod. Postal"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/pc/ontologies/2018/9#nombreBarrio",
+              "curie": "pwl:nombreBarrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/pc/ontologies/2018/9#nombreDistrito",
+              "curie": "pwl:nombreDistrito",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Distrito"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/pc/ontologies/2018/9#latitud",
+              "curie": "pwl:latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Latitud"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/pc/ontologies/2018/9#longitud",
+              "curie": "pwl:longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Longitud"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/pc/ontologies/2018/9#hasTlf",
+              "curie": "pwl:hasTlf",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Telefono"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/pc/ontologies/2018/9#hasEmail",
+              "curie": "pwl:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "email"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Provincia to type Q10742",
+    "columnName": "Provincia",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10742",
+        "name": "autonomous community of Spain"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Ciudad to type Q515",
+    "columnName": "Ciudad",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q515",
+        "name": "city"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Madrid (Q2807) for cells containing \"MADRID\" in column Ciudad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Ciudad",
+    "similarValue": "MADRID",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2807",
+      "name": "Madrid",
+      "score": 100,
+      "types": [
+        "Q2074737",
+        "Q515"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Barrio to type Q10267336",
+    "columnName": "Barrio",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10267336",
+        "name": "neighborhood of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [
+        {
+          "column": "Ciudad",
+          "propertyName": "located in the administrative territorial entity",
+          "propertyID": "P131"
+        }
+      ],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Justicia (Q1992319) for cells containing \"JUSTICIA\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Barrio",
+    "similarValue": "JUSTICIA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1992319",
+      "name": "Justicia",
+      "score": 71.42857142857143,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Cuatro Caminos (Q5824684) for cells containing \"CUATRO CAMINOS\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Barrio",
+    "similarValue": "CUATRO CAMINOS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5824684",
+      "name": "Cuatro Caminos",
+      "score": 71.42857142857143,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Castellana (Q4781) for cells containing \"CASTELLANA\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Barrio",
+    "similarValue": "CASTELLANA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4781",
+      "name": "Castellana",
+      "score": 71.42857142857143,
+      "types": [
+        "Q10267336"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Distrito to type Q3032114",
+    "columnName": "Distrito",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Distrito to type Q3032114",
+    "columnName": "Distrito",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(blank)",
+                "l": "(blank)"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Distrito: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Distrito"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Distrito to type Q3032114",
+    "columnName": "Distrito",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Distrito: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Distrito"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column schema:City at index 12 based on column Ciudad using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "schema:City",
+    "columnInsertIndex": 12,
+    "baseColumnName": "Ciudad",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column schema:Provincia at index 14 based on column Provincia using expression grel:\"https://www.wikidata.org/wiki\" + cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "schema:Provincia",
+    "columnInsertIndex": 14,
+    "baseColumnName": "Provincia",
+    "expression": "grel:\"https://www.wikidata.org/wiki\" + cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column schema:Barrio at index 17 based on column Barrio using expression grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "schema:Barrio",
+    "columnInsertIndex": 17,
+    "baseColumnName": "Barrio",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column schema:Provincia",
+    "columnName": "schema:Provincia"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column schema:Provincia at index 14 based on column Provincia using expression grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "schema:Provincia",
+    "columnInsertIndex": 14,
+    "baseColumnName": "Provincia",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column schema:Districto at index 19 based on column Distrito using expression grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "schema:Districto",
+    "columnInsertIndex": 19,
+    "baseColumnName": "Distrito",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
+    "onError": "set-to-blank"
+  }
+]

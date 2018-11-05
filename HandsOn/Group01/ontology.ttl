@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://handsOn.org/Group1#"
+     xml:base="http://handsOn.org/Group1"
+     xmlns:HO="http://handsOn.org/Group1#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://handsOn.org/Group1"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://handsOn.org/Group1#isInCity -->
+
+    <owl:ObjectProperty rdf:about="http://handsOn.org/Group1#isInCity">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://handsOn.org/Group1#City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://handsOn.org/Group1#Access -->
+
+    <owl:DatatypeProperty rdf:about="http://handsOn.org/Group1#Access">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://handsOn.org/Group1#Borough -->
+
+    <owl:DatatypeProperty rdf:about="http://handsOn.org/Group1#Borough">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://handsOn.org/Group1#City -->
+
+    <owl:DatatypeProperty rdf:about="http://handsOn.org/Group1#City">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://handsOn.org/Group1#Content_URL -->
+
+    <owl:DatatypeProperty rdf:about="http://handsOn.org/Group1#Content_URL">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://handsOn.org/Group1#Description -->
+
+    <owl:DatatypeProperty rdf:about="http://handsOn.org/Group1#Description">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://handsOn.org/Group1#District_Name -->
+
+    <owl:DatatypeProperty rdf:about="http://handsOn.org/Group1#District_Name">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://handsOn.org/Group1#Equipment -->
+
+    <owl:DatatypeProperty rdf:about="http://handsOn.org/Group1#Equipment">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://handsOn.org/Group1#Latitude -->
+
+    <owl:DatatypeProperty rdf:about="http://handsOn.org/Group1#Latitude">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://handsOn.org/Group1#Longitude -->
+
+    <owl:DatatypeProperty rdf:about="http://handsOn.org/Group1#Longitude">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://handsOn.org/Group1#Name -->
+
+    <owl:DatatypeProperty rdf:about="http://handsOn.org/Group1#Name">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://handsOn.org/Group1#Number -->
+
+    <owl:DatatypeProperty rdf:about="http://handsOn.org/Group1#Number">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://handsOn.org/Group1#Number_type -->
+
+    <owl:DatatypeProperty rdf:about="http://handsOn.org/Group1#Number_type">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://handsOn.org/Group1#PK -->
+
+    <owl:DatatypeProperty rdf:about="http://handsOn.org/Group1#PK">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://handsOn.org/Group1#Postal_Code -->
+
+    <owl:DatatypeProperty rdf:about="http://handsOn.org/Group1#Postal_Code">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://handsOn.org/Group1#Province -->
+
+    <owl:DatatypeProperty rdf:about="http://handsOn.org/Group1#Province">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://handsOn.org/Group1#Street_name -->
+
+    <owl:DatatypeProperty rdf:about="http://handsOn.org/Group1#Street_name">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://handsOn.org/Group1#Street_type -->
+
+    <owl:DatatypeProperty rdf:about="http://handsOn.org/Group1#Street_type">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://handsOn.org/Group1#Transport -->
+
+    <owl:DatatypeProperty rdf:about="http://handsOn.org/Group1#Transport">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://handsOn.org/Group1#Type -->
+
+    <owl:DatatypeProperty rdf:about="http://handsOn.org/Group1#Type">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://handsOn.org/Group1#X-Axis -->
+
+    <owl:DatatypeProperty rdf:about="http://handsOn.org/Group1#X-Axis">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://handsOn.org/Group1#Y-Axis -->
+
+    <owl:DatatypeProperty rdf:about="http://handsOn.org/Group1#Y-Axis">
+        <rdfs:domain rdf:resource="http://handsOn.org/Group1#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://handsOn.org/Group1#City -->
+
+    <owl:Class rdf:about="http://handsOn.org/Group1#City"/>
+    
+
+
+    <!-- http://handsOn.org/Group1#School -->
+
+    <owl:Class rdf:about="http://handsOn.org/Group1#School"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://handsOn.org/Group1/Madrid -->
+
+    <owl:NamedIndividual rdf:about="http://handsOn.org/Group1/Madrid">
+        <rdf:type rdf:resource="http://handsOn.org/Group1#City"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
