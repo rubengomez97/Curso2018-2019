@@ -1,0 +1,415 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/handson/grp16/callejero#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "Distrito",
+          "uri": "http://www.semanticweb.org/handson/grp16/callejero#Distrito"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Nombre de distrito",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#Distrito",
+              "curie": "Distrito:"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Numero de barrios"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Superficie (m2)"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Perimetro (m)"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Nombre de distrito using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Nombre de distrito",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Nombre de distrito using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Nombre de distrito",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/handson/grp16/callejero#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "Distrito",
+          "uri": "http://www.semanticweb.org/handson/grp16/callejero#Distrito"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Nombre de distrito",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#Distrito",
+              "curie": "Distrito:"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Numero de barrios"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Superficie (m2)"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Perimetro (m)"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Nombre de distrito to type Q3032114",
+    "columnName": "Nombre de distrito",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column schema:Distrito at index 3 based on column Nombre de distrito using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "schema:Distrito",
+    "columnInsertIndex": 3,
+    "baseColumnName": "Nombre de distrito",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/handson/grp16/callejero#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "Distrito",
+          "uri": "http://www.semanticweb.org/handson/grp16/callejero#Distrito"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Nombre de distrito",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#Distrito",
+              "curie": "Distrito:"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Numero de barrios"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Superficie (m2)"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Perimetro (m)"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "schema:Distrito",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/handson/grp16/callejero#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "Distrito",
+          "uri": "http://www.semanticweb.org/handson/grp16/callejero#Distrito"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Nombre de distrito",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#Distrito",
+              "curie": "Distrito:"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Numero de barrios"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Superficie (m2)"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Perimetro (m)"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "schema:Distrito",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
