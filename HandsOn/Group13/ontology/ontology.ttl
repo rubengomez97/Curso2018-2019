@@ -14,7 +14,8 @@
 @prefix schema: <http://schema.org/> .
 @prefix property: <http://www.aparcamientos-SER.org/propiedades#> .
 @prefix class: <http://www.aparcamientos-SER.org/clases#> .
-
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix km: <http://www.disit.org/km4city/schema#> .
 ###########################################
 # Object properties
 ###########################################
@@ -22,8 +23,8 @@ property:has_address rdf:type owl:ObjectProperty .
 property:has_location rdf:type owl:ObjectProperty .
 property:has_barrio rdf:type owl:ObjectProperty .
 property:has_distrito rdf:type owl:ObjectProperty .
-property:fecha_alta rdf:type owl:ObjectProperty .
-property:colot rdf:type owl:ObjectProperty .
+
+property:color rdf:type owl:ObjectProperty .
 property:tipo rdf:type owl:ObjectProperty .
 property:plazas rdf:type owl:ObjectProperty .
 property:longitud rdf:type owl:ObjectProperty .
@@ -40,3 +41,14 @@ class:address rdf:type owl:Class.
 class:location rdf:type owl:Class.
 class:barrio rdf:type owl:Class.
 class:distrito rdf:type owl:Class.
+###########################################
+# Actualizacion
+###########################################
+property:fecha_alta km:lastUpdate rdf:type .
+property:address km:otherStreetAddress rdf:type .
+property:latitud geo:lat rdf:type .
+property:longitud geo:long rdf:type .
+
+
+
+
