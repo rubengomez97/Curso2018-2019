@@ -1,0 +1,133 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix Distrito: <http://www.semanticweb.org/handson/grp16/callejero#Distrito> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.semanticweb.org/handson/grp16/callejero#CENTRO> a <http://www.semanticweb.org/handson/grp16/callejero#Distrito> ;
+	<http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios> "6"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie> "5231264"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro> "10304"^^xsd:int ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
+
+<http://www.semanticweb.org/handson/grp16/callejero#ARGANZUELA> <http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios> "7"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie> "6466400"^^xsd:int ;
+	a <http://www.semanticweb.org/handson/grp16/callejero#Distrito> ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro> "12834"^^xsd:int ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2000929> .
+
+<http://www.semanticweb.org/handson/grp16/callejero#RETIRO> a <http://www.semanticweb.org/handson/grp16/callejero#Distrito> ;
+	<http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios> "6"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie> "5465307"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro> "9523"^^xsd:int ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2002296> .
+
+<http://www.semanticweb.org/handson/grp16/callejero#SALAMANCA> a <http://www.semanticweb.org/handson/grp16/callejero#Distrito> ;
+	<http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios> "6"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie> "5387243"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro> "10862"^^xsd:int ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773521> .
+
+<http://www.semanticweb.org/handson/grp16/callejero#CHAMARTIN> <http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios> "6"^^xsd:int ;
+	a <http://www.semanticweb.org/handson/grp16/callejero#Distrito> ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie> "9170122"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro> "13401"^^xsd:int ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1766348> .
+
+<http://www.semanticweb.org/handson/grp16/callejero#TETUAN> <http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios> "6"^^xsd:int ;
+	a <http://www.semanticweb.org/handson/grp16/callejero#Distrito> ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie> "5388121"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro> "9925"^^xsd:int ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773540> .
+
+<http://www.semanticweb.org/handson/grp16/callejero#CHAMBERI> a <http://www.semanticweb.org/handson/grp16/callejero#Distrito> ;
+	<http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios> "6"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie> "4674105"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro> "9020"^^xsd:int ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763370> .
+
+<http://www.semanticweb.org/handson/grp16/callejero#FUENCARRAL-EL+PARDO> a <http://www.semanticweb.org/handson/grp16/callejero#Distrito> ;
+	<http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios> "8"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie> "237810357"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro> "94525"^^xsd:int ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q656196> .
+
+<http://www.semanticweb.org/handson/grp16/callejero#MONCLOA-ARAVACA> <http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios> "7"^^xsd:int ;
+	a <http://www.semanticweb.org/handson/grp16/callejero#Distrito> ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie> "46531134"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro> "41015"^^xsd:int ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2017682> .
+
+<http://www.semanticweb.org/handson/grp16/callejero#LATINA> a <http://www.semanticweb.org/handson/grp16/callejero#Distrito> ;
+	<http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios> "7"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie> "25417269"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro> "28169"^^xsd:int ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q794954> .
+
+<http://www.semanticweb.org/handson/grp16/callejero#CARABANCHEL> <http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios> "7"^^xsd:int ;
+	a <http://www.semanticweb.org/handson/grp16/callejero#Distrito> ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie> "14048399"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro> "18083"^^xsd:int ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1001991> .
+
+<http://www.semanticweb.org/handson/grp16/callejero#USERA> <http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios> "7"^^xsd:int ;
+	a <http://www.semanticweb.org/handson/grp16/callejero#Distrito> ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie> "7755083"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro> "11860"^^xsd:int ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q953368> .
+
+<http://www.semanticweb.org/handson/grp16/callejero#PUENTE+DE+VALLECAS> <http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios> "6"^^xsd:int ;
+	a <http://www.semanticweb.org/handson/grp16/callejero#Distrito> ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie> "15005833"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro> "17293"^^xsd:int ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2003054> .
+
+<http://www.semanticweb.org/handson/grp16/callejero#MORATALAZ> <http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios> "6"^^xsd:int ;
+	a <http://www.semanticweb.org/handson/grp16/callejero#Distrito> ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie> "6110071"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro> "10824"^^xsd:int ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2076109> .
+
+<http://www.semanticweb.org/handson/grp16/callejero#CIUDAD+LINEAL> a <http://www.semanticweb.org/handson/grp16/callejero#Distrito> ;
+	<http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios> "9"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie> "11425706"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro> "21524"^^xsd:int ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763694> .
+
+<http://www.semanticweb.org/handson/grp16/callejero#HORTALEZA> <http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios> "6"^^xsd:int ;
+	a <http://www.semanticweb.org/handson/grp16/callejero#Distrito> ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie> "27414593"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro> "26944"^^xsd:int ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1928529> .
+
+<http://www.semanticweb.org/handson/grp16/callejero#VILLAVERDE> <http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios> "5"^^xsd:int ;
+	a <http://www.semanticweb.org/handson/grp16/callejero#Distrito> ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie> "20176220"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro> "18390"^^xsd:int ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q919536> .
+
+<http://www.semanticweb.org/handson/grp16/callejero#VILLA+DE+VALLECAS> a <http://www.semanticweb.org/handson/grp16/callejero#Distrito> ;
+	<http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios> "3"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie> "51417806"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro> "33553"^^xsd:int ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1947988> .
+
+<http://www.semanticweb.org/handson/grp16/callejero#VICALVARO> a <http://www.semanticweb.org/handson/grp16/callejero#Distrito> ;
+	<http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios> "4"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie> "35193627"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro> "34157"^^xsd:int ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q589403> .
+
+<http://www.semanticweb.org/handson/grp16/callejero#SAN+BLAS-CANILLEJAS> <http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie> "22370042"^^xsd:int ;
+	a <http://www.semanticweb.org/handson/grp16/callejero#Distrito> ;
+	<http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios> "8"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro> "26698"^^xsd:int ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2001937> .
+
+<http://www.semanticweb.org/handson/grp16/callejero#BARAJAS> a <http://www.semanticweb.org/handson/grp16/callejero#Distrito> ;
+	<http://www.semanticweb.org/handson/grp16/callejero#NumeroDeBarrios> "5"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TieneSuperficie> "41908185"^^xsd:int ;
+	<http://www.semanticweb.org/handson/grp16/callejero#TienePerimetro> "28708"^^xsd:int ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q807230> .

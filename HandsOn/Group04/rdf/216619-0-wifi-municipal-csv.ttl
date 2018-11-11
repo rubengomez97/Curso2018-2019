@@ -1,0 +1,1623 @@
+@prefix schema: <http://schema.org/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+
+
+<http://www.wifimadrid.org/recurso#Establecimiento/5627235> a schema:PK ;
+	rdfs:label "Agencia de Actividades" ;
+	geo:lat "40.400.449.587.879.100"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.882.686.006.118.100"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f7c6f4061d497210VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "DELICIAS" , "ARGANZUELA" ;
+	dbpedia:postalCode "28045"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1757> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Aluche " ;
+	geo:lat "4.039.597.072.367.930"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.562.716.852.987.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7f0e3d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ALUCHE" , "LATINA" ;
+	dbpedia:postalCode "28047"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1755> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Ana María Matute " ;
+	geo:lat "403.975.850.662.447"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.207.386.328.562.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=628e3d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "SAN ISIDRO" , "CARABANCHEL" ;
+	dbpedia:postalCode "28019"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/5768564> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Ángel González " ;
+	geo:lat "40.397.074.625.115.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.664.885.474.841.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ec750a2153ef9210VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "ALUCHE" , "LATINA" ;
+	dbpedia:postalCode "28024"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1762> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Buenavista " ;
+	geo:lat "4.043.199.309.720.510"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.670.929.243.543.710"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c53e3d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "GUINDALERA" , "SALAMANCA" ;
+	dbpedia:postalCode "28028"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1745> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Canillejas " ;
+	geo:lat "4.044.640.229.188.280"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.117.933.204.271.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eb9e995a8bf5d010VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "CANILLEJAS" , "SAN BLAS-CANILLEJAS" ;
+	dbpedia:postalCode "28022"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1794> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Ciudad Lineal " ;
+	geo:lat "4.043.641.736.294.720"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.637.346.971.302.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=82ce995a8bf5d010VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "PUEBLO NUEVO" , "CIUDAD LINEAL" ;
+	dbpedia:postalCode "28037"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1882> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Conde Duque " ;
+	geo:lat "4.042.738.668.300.470"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.105.999.955.473.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=13ec3d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "UNIVERSIDAD" , "CENTRO" ;
+	dbpedia:postalCode "28015"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/51188> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Dámaso Alonso " ;
+	geo:lat "40.467.453.379.213.100"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.846.112.774.442.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5870007f8441f010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CASTILLA" , "CHAMARTIN" ;
+	dbpedia:postalCode "28036"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/6893633> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Eugenio Tría" ;
+	geo:lat "404.166.091.081.099"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.795.930.368.034.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e791bed05ceed310VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "LOS JERONIMOS" , "RETIRO" ;
+	dbpedia:postalCode "28009"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/167128> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Francisco Ayala " ;
+	geo:lat "4.039.982.891.410.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.621.281.890.570.370"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f05279262ef5d010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "VALDEBERNARDO" , "VICALVARO" ;
+	dbpedia:postalCode "28032"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1760> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Francisco Ibáñez " ;
+	geo:lat "4.044.810.636.195.710"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.762.309.620.097.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0fce3d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CIUDAD JARDIN" , "CHAMARTIN" ;
+	dbpedia:postalCode "28002"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1754> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Gabriel García Márquez " ;
+	geo:lat "40.366.768.324.753.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.701.141.063.083.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e4bf3d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ORCASUR" , "USERA" ;
+	dbpedia:postalCode "28041"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1748> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Gerardo Diego " ;
+	geo:lat "4.037.790.196.240.430"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.227.296.605.039.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ca903d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CASCO HISTORICO VALLECAS" , "VILLA DE VALLECAS" ;
+	dbpedia:postalCode "28031"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/79941> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Gloria Fuertes " ;
+	geo:lat "4.046.055.947.228.690"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-35.937.461.811.785.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1f64c2c6e051c010VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "CORRALEJOS" , "BARAJAS" ;
+	dbpedia:postalCode "28042"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1750> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Huerta de la Salud " ;
+	geo:lat "4.047.571.688.103.060"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-364.667.257.750.353"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9c5879262ef5d010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PINAR DEL REY" , "HORTALEZA" ;
+	dbpedia:postalCode "28033"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/5975465> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Iván de Vargas " ;
+	geo:lat "4.041.410.290.844.660"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.098.591.212.735.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0b60e92be3c5e210VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PALACIO" , "CENTRO" ;
+	dbpedia:postalCode "28005"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/115056> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal José Hierro " ;
+	geo:lat "40.433.291.625.973.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.105.662.311.927.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=338879262ef5d010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ROSAS" , "SAN BLAS-CANILLEJAS" ;
+	dbpedia:postalCode "28022"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1790> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal José Saramago " ;
+	geo:lat "4.047.860.087.334.550"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.094.408.342.979.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=70d879262ef5d010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "EL PILAR" , "FUENCARRAL-EL PARDO" ;
+	dbpedia:postalCode "28029"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1756> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal La Chata " ;
+	geo:lat "4.038.330.593.504.340"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.420.633.861.175.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d9a879262ef5d010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "VISTA ALEGRE" , "CARABANCHEL" ;
+	dbpedia:postalCode "28025"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/51849> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal La Elipa " ;
+	geo:lat "4.042.342.659.084.210"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.651.841.641.389.480"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=697c598d1351c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "LA ELIPA" , "CIUDAD LINEAL" ;
+	dbpedia:postalCode "28017"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/185595> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Manuel Vázquez Montalbán " ;
+	geo:lat "4.045.749.513.485.950"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.710.539.712.535.910"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b5ca89e2c9e5d010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "BELLAS VISTAS" , "TETUAN" ;
+	dbpedia:postalCode "28039"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/10395362> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal María Lejárraga " ;
+	geo:lat "4.049.041.562.546.540"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.655.356.751.728.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d862492de8c8c510VgnVCM2000001f4a900aRCRD" ;
+	geo:location "MADRID" , "VALDEFUENTES" , "HORTALEZA" ;
+	dbpedia:postalCode "28050"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1759> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal María Zambrano " ;
+	geo:lat "4.046.903.299.144.090"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.976.620.067.964.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=74703d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ALMENARA" , "TETUAN" ;
+	dbpedia:postalCode "28029"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/7697128> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Mario Vargas Llosa " ;
+	geo:lat "40.426.642.215.368.100"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.699.722.994.908.340"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6c4dbc2658739410VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "JUSTICIA" , "CENTRO" ;
+	dbpedia:postalCode "28004"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1752> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Miguel Delibes " ;
+	geo:lat "4.040.971.737.692.920"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.529.822.109.115.100"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9e8f3d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "MEDIA LEGUA" , "MORATALAZ" ;
+	dbpedia:postalCode "28030"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/186714> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Pablo Neruda " ;
+	geo:lat "4.042.941.133.441.140"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.416.899.839.787.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d5c548d20675e010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PUEBLO NUEVO" , "CIUDAD LINEAL" ;
+	dbpedia:postalCode "28017"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1763> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Pío Baroja " ;
+	geo:lat "4.040.003.652.682.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.074.488.154.950.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=17f879262ef5d010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ACACIAS" , "ARGANZUELA" ;
+	dbpedia:postalCode "28005"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1753> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Portazgo " ;
+	geo:lat "40.393.189.968.014.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.554.147.649.183.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=89a40a47f441f010VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "NUMANCIA" , "PUENTE DE VALLECAS" ;
+	dbpedia:postalCode "28038"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1792> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Pozo del Tío Raimundo " ;
+	geo:lat "403.735.856.436.473"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.602.546.064.905.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d7203d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ENTREVIAS" , "PUENTE DE VALLECAS" ;
+	dbpedia:postalCode "28053"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1746> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal San Blas " ;
+	geo:lat "40.420.231.627.534.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.218.113.860.909.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2e403d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ARCOS" , "SAN BLAS-CANILLEJAS" ;
+	dbpedia:postalCode "28037"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1761> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Vallecas " ;
+	geo:lat "40.395.023.959.810.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.665.554.302.127.490"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=11c03d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "SAN DIEGO" , "PUENTE DE VALLECAS" ;
+	dbpedia:postalCode "28053"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1747> a schema:PK ;
+	rdfs:label "Biblioteca Pública Municipal Vicálva" ;
+	geo:lat "40.405.283.650.744.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.086.278.232.922.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=67e03d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CASCO HISTORICO VICALVARO" , "VICALVARO" ;
+	dbpedia:postalCode "28032"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/10658053> a schema:PK ;
+	rdfs:label "Casa del Empleo " ;
+	geo:lat "40.393.607.739.794.100"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.627.171.720.477.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=96279242be422610VgnVCM1000001d4a900aRCRD" ;
+	geo:location "MADRID" , "PALOMERAS BAJAS" , "PUENTE DE VALLECAS" ;
+	dbpedia:postalCode "28053"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/117288> a schema:PK ;
+	rdfs:label "Centro Cultural Agustín Díaz " ;
+	geo:lat "40.427.538.776.051.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.732.422.725.110.930"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2d07cbf06c81c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CASA DE CAMPO" , "MONCLOA-ARAVACA" ;
+	dbpedia:postalCode "28008"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/118067> a schema:PK ;
+	rdfs:label "Centro Cultural Alfredo Kraus " ;
+	geo:lat "4.049.082.275.610.170"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.216.054.330.053.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7337cbf06c81c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "MIRASIERRA" , "FUENCARRAL-EL PARDO" ;
+	dbpedia:postalCode "28035"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1990> a schema:PK ;
+	rdfs:label "Centro Cultural Almirante Churruca " ;
+	geo:lat "403.829.835.905.706"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.800.890.564.106.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=76c43d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "LAS AGUILAS" , "LATINA" ;
+	dbpedia:postalCode "28024"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1919> a schema:PK ;
+	rdfs:label "Centro Cultural Aravaca " ;
+	geo:lat "4.045.843.103.553.320"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.785.855.667.139.090"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=13153d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ARAVACA" , "MONCLOA-ARAVACA" ;
+	dbpedia:postalCode "28023"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/64851> a schema:PK ;
+	rdfs:label "Centro Cultural Buenavista " ;
+	geo:lat "4.043.200.210.571.460"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.709.293.330.780.200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=068e598d1351c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "GUINDALERA" , "SALAMANCA" ;
+	dbpedia:postalCode "28028"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1943> a schema:PK ;
+	rdfs:label "Centro Cultural Buero Vallejo " ;
+	geo:lat "4.044.477.474.902.180"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.129.105.844.633.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=98953d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CANILLEJAS" , "SAN BLAS-CANILLEJAS" ;
+	dbpedia:postalCode "28022"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/118317> a schema:PK ;
+	rdfs:label "Centro Cultural Carril del Conde " ;
+	geo:lat "4.046.088.953.531.130"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.544.210.187.969.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=66a7cbf06c81c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CANILLAS" , "HORTALEZA" ;
+	dbpedia:postalCode "28043"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1945> a schema:PK ;
+	rdfs:label "Centro Cultural Casa de Vacas " ;
+	geo:lat "4.041.906.024.374.350"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.840.615.387.926.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=35e53d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "LOS JERONIMOS" , "RETIRO" ;
+	dbpedia:postalCode "28009"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1925> a schema:PK ;
+	rdfs:label "Centro Cultural Casa del Reloj " ;
+	geo:lat "40.394.522.745.106.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.000.855.961.559.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8b063d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CHOPERA" , "ARGANZUELA" ;
+	dbpedia:postalCode "28045"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/4551096> a schema:PK ;
+	rdfs:label "Centro Cultural Ciudad Pegaso " ;
+	geo:lat "40.448.428.925.762.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-35.980.969.888.187.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=07f63190712b1110VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "REJAS" , "SAN BLAS-CANILLEJAS" ;
+	dbpedia:postalCode "28022"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/80143> a schema:PK ;
+	rdfs:label "Centro Cultural Dotacional Integrado Arganzue" ;
+	geo:lat "4.040.207.279.862.860"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.955.325.387.824.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f9ea79262ef5d010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PALOS DE MOGUER" , "ARGANZUELA" ;
+	dbpedia:postalCode "28045"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/5498725> a schema:PK ;
+	rdfs:label "Centro Cultural Eduardo Úrculo " ;
+	geo:lat "4.046.903.299.144.090"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.976.620.067.964.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f8f9338588355210VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ALMENARA" , "TETUAN" ;
+	dbpedia:postalCode "28029"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1953> a schema:PK ;
+	rdfs:label "Centro Cultural el Madroño " ;
+	geo:lat "40.405.292.721.436.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.086.161.200.017.100"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=57b63d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CASCO H.VICALVARO" , "VICALVARO" ;
+	dbpedia:postalCode "28032"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1940> a schema:PK ;
+	rdfs:label "Centro Cultural el Torito " ;
+	geo:lat "4.040.609.591.857.160"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.646.536.107.063.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f3073d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "VINATEROS" , "MORATALAZ" ;
+	dbpedia:postalCode "28030"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1954> a schema:PK ;
+	rdfs:label "Centro Cultural Fernando de los Ríos " ;
+	geo:lat "4.039.552.931.214.330"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.562.667.464.373.200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3d973d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ALUCHE" , "LATINA" ;
+	dbpedia:postalCode "28047"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1921> a schema:PK ;
+	rdfs:label "Centro Cultural Galileo " ;
+	geo:lat "4.043.371.190.964.790"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.104.543.597.957.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=30181e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ARAPILES" , "CHAMBERI" ;
+	dbpedia:postalCode "28015"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/70243> a schema:PK ;
+	rdfs:label "Centro Cultural Gloria Fuertes " ;
+	geo:lat "40.460.622.835.379.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-35.936.877.657.335.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2e5068540e41c010VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "CORRALEJOS" , "BARAJAS" ;
+	dbpedia:postalCode "28042"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1930> a schema:PK ;
+	rdfs:label "Centro Cultural Hortale" ;
+	geo:lat "40.476.859.845.869.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.420.353.342.333.200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=86381e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PINAR DEL REY" , "HORTALEZA" ;
+	dbpedia:postalCode "28033"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1929> a schema:PK ;
+	rdfs:label "Centro Cultural Huerta de la Salud " ;
+	geo:lat "4.047.484.735.634.340"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.645.543.866.498.550"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dc581e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PINAR DEL REY" , "HORTALEZA" ;
+	dbpedia:postalCode "28033"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/6017747> a schema:PK ;
+	rdfs:label "Centro Cultural José Luis López Vázquez " ;
+	geo:lat "40.446.818.592.300.200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.572.741.163.820.910"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b790e37de110f210VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "REJAS" , "SAN BLAS-CANILLEJAS" ;
+	dbpedia:postalCode "28022"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/142944> a schema:PK ;
+	rdfs:label "Centro Cultural José Luis Sampedro " ;
+	geo:lat "4.040.159.394.334.660"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.749.110.841.406.560"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bd3fba61e681c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "LUCERO" , "LATINA" ;
+	dbpedia:postalCode "28047"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1913> a schema:PK ;
+	rdfs:label "Centro Cultural Juan Gris " ;
+	geo:lat "40.457.862.962.907.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-371.225.373.746.578"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=79a81e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "VALDEZARZA" , "MONCLOA-ARAVACA" ;
+	dbpedia:postalCode "28039"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1911> a schema:PK ;
+	rdfs:label "Centro Cultural Julio Cortázar " ;
+	geo:lat "4.046.678.159.096.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.195.669.111.891.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cfc81e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "VALDEZARZA" , "MONCLOA-ARAVACA" ;
+	dbpedia:postalCode "28035"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1951> a schema:PK ;
+	rdfs:label "Centro Cultural la Elipa " ;
+	geo:lat "4.042.447.060.804.350"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.504.253.324.201.100"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6c191e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "VENTAS" , "CIUDAD LINEAL" ;
+	dbpedia:postalCode "28017"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1917> a schema:PK ;
+	rdfs:label "Centro Cultural La Vaguada " ;
+	geo:lat "4.047.900.813.206.290"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.709.138.377.702.430"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=09691e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "EL PILAR" , "FUENCARRAL-EL PARDO" ;
+	dbpedia:postalCode "28029"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/4606802> a schema:PK ;
+	rdfs:label "Centro Cultural Las Californias " ;
+	geo:lat "40.397.020.792.322.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.673.881.351.837.230"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a6c875993dc63110VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ADELFAS" , "RETIRO" ;
+	dbpedia:postalCode "28007"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1938> a schema:PK ;
+	rdfs:label "Centro Cultural Lope de Vega " ;
+	geo:lat "40.386.293.684.801.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.718.658.006.661.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4a273d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ENTREVIAS" , "PUENTE DE VALLECAS" ;
+	dbpedia:postalCode "28053"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1973> a schema:PK ;
+	rdfs:label "Centro Cultural Los Rosales " ;
+	geo:lat "4.035.074.797.433.510"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.773.064.421.969.200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a5b91e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "BUTARQUE" , "VILLAVERDE" ;
+	dbpedia:postalCode "28021"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/6469004> a schema:PK ;
+	rdfs:label "Centro Cultural Mercado de Ibiza " ;
+	geo:lat "4.041.817.157.699.020"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.677.392.762.224.420"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dbeab973f50e7310VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "IBIZA" , "RETIRO" ;
+	dbpedia:postalCode "28009"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1933> a schema:PK ;
+	rdfs:label "Centro Cultural Meseta de Orcasitas " ;
+	geo:lat "4.036.968.950.845.350"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.081.679.144.829.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fbd91e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ORCASITAS" , "USERA" ;
+	dbpedia:postalCode "28041"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1955> a schema:PK ;
+	rdfs:label "Centro Cultural Miguel Hernández " ;
+	geo:lat "40.378.853.797.128.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.819.616.113.032.100"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=420a1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "LAS AGUILAS" , "LATINA" ;
+	dbpedia:postalCode "28044"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1932> a schema:PK ;
+	rdfs:label "Centro Cultural Nicolás Salmerón " ;
+	geo:lat "4.044.810.636.195.710"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.762.309.620.097.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ee4a1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CIUDAD JARDIN" , "CHAMARTIN" ;
+	dbpedia:postalCode "28002"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1934> a schema:PK ;
+	rdfs:label "Centro Cultural Orcasur " ;
+	geo:lat "40.366.768.324.753.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.701.141.063.083.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8b9a1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ORCASUR" , "USERA" ;
+	dbpedia:postalCode "28041"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1939> a schema:PK ;
+	rdfs:label "Centro Cultural Pozo del tío Raimundo " ;
+	geo:lat "403.735.856.436.473"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.602.546.064.905.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=add63d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ENTREVIAS" , "PUENTE DE VALLECAS" ;
+	dbpedia:postalCode "28053"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1920> a schema:PK ;
+	rdfs:label "Centro Cultural Puerta de Toledo " ;
+	geo:lat "4.040.740.551.053.050"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.119.218.940.274.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=28ea1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PALACIO" , "CENTRO" ;
+	dbpedia:postalCode "28005"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/114978> a schema:PK ;
+	rdfs:label "Centro Cultural Rafael Altamira, antes Palacete Quinta del Berro " ;
+	geo:lat "4.042.206.601.994.430"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.662.968.075.865.230"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bcc7cbf06c81c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "FUENTE DEL BERRO" , "SALAMANCA" ;
+	dbpedia:postalCode "28028"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1958> a schema:PK ;
+	rdfs:label "Centro Cultural San Juan Bautista " ;
+	geo:lat "4.045.224.737.965.270"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.580.402.287.911.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=618b1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "SAN JUAN BAUTISTA" , "CIUDAD LINEAL" ;
+	dbpedia:postalCode "28043"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/115404> a schema:PK ;
+	rdfs:label "Centro Cultural Sara Montiel " ;
+	geo:lat "40.399.764.677.637.100"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.775.144.917.950.530"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c957cbf06c81c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CAMPAMENTO" , "LATINA" ;
+	dbpedia:postalCode "28024"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1971> a schema:PK ;
+	rdfs:label "Centro Cultural Teresa de Calcuta " ;
+	geo:lat "4.045.531.140.556.260"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.587.638.001.688.090"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f50e1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ALAMEDA DE OSUNA" , "BARAJAS" ;
+	dbpedia:postalCode "28042"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1994> a schema:PK ;
+	rdfs:label "Centro Cultural Usera" ;
+	geo:lat "40.381.095.838.993.100"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.710.973.351.109.330"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=54fb1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PRADOLONGO" , "USERA" ;
+	dbpedia:postalCode "28026"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/7416137> a schema:PK ;
+	rdfs:label "Centro Cultural Usera" ;
+	geo:lat "4.038.429.664.257.210"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.090.866.533.057.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3cadb2cffdc15410VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PRADOLONGO" , "USERA" ;
+	dbpedia:postalCode "28026"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/123948> a schema:PK ;
+	rdfs:label "Centro Cultural Valdebernardo " ;
+	geo:lat "4.039.982.891.410.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.621.281.890.570.370"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=69188899fc81c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CASCO H.VICALVARO" , "VICALVARO" ;
+	dbpedia:postalCode "28032"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1980> a schema:PK ;
+	rdfs:label "Centro Cultural Zazuar " ;
+	geo:lat "4.038.281.899.948.720"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.606.140.062.044.450"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9d8c1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "SANTA EUGENIA" , "VILLA DE VALLECAS" ;
+	dbpedia:postalCode "28031"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1914> a schema:PK ;
+	rdfs:label "Centro Cultural - Centro Socio Cultural Villa de Baraj" ;
+	geo:lat "40.473.402.418.562.200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-35.785.233.191.070.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=476c1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CASCO H.BARAJAS" , "BARAJAS" ;
+	dbpedia:postalCode "28042"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/10303632> a schema:PK ;
+	rdfs:label "Centro de Formación de Ánco" ;
+	geo:lat "4.040.294.595.308.370"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.896.374.651.582.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0c8acba8e241b510VgnVCM2000001f4a900aRCRD" ;
+	geo:location "MADRID" , "PALOS DE MOGUER" , "ARGANZUELA" ;
+	dbpedia:postalCode "28045"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/187859> a schema:PK ;
+	rdfs:label "Centro de Formación de Baraj" ;
+	geo:lat "4.045.463.575.922.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.587.632.115.472.540"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e73a0a47f441f010VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "ALAMEDA DE OSUNA" , "BARAJAS" ;
+	dbpedia:postalCode "28042"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/8952> a schema:PK ;
+	rdfs:label "Centro de Salud Santa Hortens" ;
+	geo:lat "40.445.161.353.404.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.698.809.711.248.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6b8d4b6faa61c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PROSPERIDAD" , "CHAMARTIN" ;
+	dbpedia:postalCode "28002"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11961> a schema:PK ;
+	rdfs:label "Centro de Servicios Sociales Dehesa de la Vil" ;
+	geo:lat "4.046.711.526.748.940"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.195.114.936.540.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=67d966051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "VALDEZARZA" , "MONCLOA-ARAVACA" ;
+	dbpedia:postalCode "28035"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11954> a schema:PK ;
+	rdfs:label "Centro de Servicios Sociales Eduardo Mingui" ;
+	geo:lat "4.034.854.935.708.130"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.686.539.661.954.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6c3c66051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "LOS ROSALES" , "VILLAVERDE" ;
+	dbpedia:postalCode "28021"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11957> a schema:PK ;
+	rdfs:label "Centro de Servicios Sociales Entreví" ;
+	geo:lat "4.037.641.666.740.880"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.692.821.142.332.200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bdf966051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ENTREVIAS" , "PUENTE DE VALLECAS" ;
+	dbpedia:postalCode "28053"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11966> a schema:PK ;
+	rdfs:label "Centro de Servicios Sociales Guindale" ;
+	geo:lat "4.043.349.910.050.290"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.691.167.784.691.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f69a66051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "GUINDALERA" , "SALAMANCA" ;
+	dbpedia:postalCode "28028"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11955> a schema:PK ;
+	rdfs:label "Centro de Servicios Sociales Luis Viv" ;
+	geo:lat "40.423.960.764.556.200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.628.588.601.009.720"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4dba66051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PUEBLO NUEVO" , "CIUDAD LINEAL" ;
+	dbpedia:postalCode "28037"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11972> a schema:PK ;
+	rdfs:label "Centro de Servicios Sociales Pablo Neru" ;
+	geo:lat "40.385.179.370.371.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.444.628.142.076.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e90b66051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PALOMERAS SURESTE" , "PUENTE DE VALLECAS" ;
+	dbpedia:postalCode "28018"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/49836> a schema:PK ;
+	rdfs:label "Centro de Servicios Sociales San Die" ;
+	geo:lat "4.038.871.930.363.660"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.663.689.575.700.870"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=41b3598d1351c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PALOMERAS BAJAS" , "PUENTE DE VALLECAS" ;
+	dbpedia:postalCode "28018"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11967> a schema:PK ;
+	rdfs:label "Centro de Servicios Sociales Santa Hortens" ;
+	geo:lat "4.044.476.894.081.760"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.691.931.472.225.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cfeb66051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PROSPERIDAD" , "CHAMARTIN" ;
+	dbpedia:postalCode "28002"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/72864> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Alfonso XI" ;
+	geo:lat "4.051.967.355.005.560"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.777.870.156.722.290"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=86bb3d232e91f010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "EL PARDO" , "FUENCARRAL-EL PARDO" ;
+	dbpedia:postalCode "28048"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/6166668> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Antón Martí" ;
+	geo:lat "4.041.182.992.691.990"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.702.928.583.465.710"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c5a8ff0f9ae32310VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "EMBAJADORES" , "CENTRO" ;
+	dbpedia:postalCode "28012"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11720> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Antonio Machad" ;
+	geo:lat "4.042.027.705.095.570"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.621.741.078.700.330"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c73d66051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ARCOS" , "SAN BLAS-CANILLEJAS" ;
+	dbpedia:postalCode "28037"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/57828> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Asca" ;
+	geo:lat "4.042.958.439.423.380"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.413.497.414.718.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bd5a8ed67151c010VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "PUEBLO NUEVO" , "CIUDAD LINEAL" ;
+	dbpedia:postalCode "28017"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/76080> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Blasco de Gara" ;
+	geo:lat "40.433.840.945.976.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.711.446.072.668.330"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aa4268540e41c010VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "ARAPILES" , "CHAMBERI" ;
+	dbpedia:postalCode "28015"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11715> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Bucaramang" ;
+	geo:lat "4.047.280.872.386.730"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.398.851.240.592.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=57fd66051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PINAR DEL REY" , "HORTALEZA" ;
+	dbpedia:postalCode "28033"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/22753> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Campament" ;
+	geo:lat "4.039.869.732.367.930"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.676.853.284.742.100"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4eb1e35bba51c010VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "CAMPAMENTO" , "LATINA" ;
+	dbpedia:postalCode "28024"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11688> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Casa del Relo" ;
+	geo:lat "403.933.877.847.248"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.698.565.632.659.460"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4a6e66051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CHOPERA" , "ARGANZUELA" ;
+	dbpedia:postalCode "28045"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11698> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Ciudad de Méjic" ;
+	geo:lat "40.379.796.096.543.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.690.728.792.725.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=830f66051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "LAS AGUILAS" , "LATINA" ;
+	dbpedia:postalCode "28044"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11719> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Daroc" ;
+	geo:lat "40.403.496.149.688.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.609.330.588.862.220"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=37a366051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CASCO H.VICALVARO" , "VICALVARO" ;
+	dbpedia:postalCode "28032"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11696> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Dehesa de la Vill" ;
+	geo:lat "4.046.711.526.748.940"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.195.114.936.540.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d92f66051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "VALDEZARZA" , "MONCLOA-ARAVACA" ;
+	dbpedia:postalCode "28035"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/6166665> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Dos Amigo" ;
+	geo:lat "4.042.471.327.582.070"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.102.299.982.331.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=04941bc268e32310VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "UNIVERSIDAD" , "CENTRO" ;
+	dbpedia:postalCode "28015"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/5912581> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Eduardo Minguit" ;
+	geo:lat "4.034.854.935.708.130"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.686.539.661.954.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=603ff860f205d210VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "LOS ROSALES" , "VILLAVERDE" ;
+	dbpedia:postalCode "28021"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/4997526> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'El Almendr" ;
+	geo:lat "4.040.210.302.381.570"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.239.189.412.211.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f4c02f0875e9c110VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CASCO H.VICALVARO" , "VICALVARO" ;
+	dbpedia:postalCode "28032"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11756> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'El Poz" ;
+	geo:lat "403.735.856.436.473"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.602.546.064.905.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=205f66051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ENTREVIAS" , "PUENTE DE VALLECAS" ;
+	dbpedia:postalCode "28053"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11709> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Entrevía" ;
+	geo:lat "4.037.641.666.740.880"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.692.821.142.332.200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=767f66051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ENTREVIAS" , "PUENTE DE VALLECAS" ;
+	dbpedia:postalCode "28053"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/87027> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Infante Don Jua" ;
+	geo:lat "4.043.424.297.757.210"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.207.172.544.795.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=939fdef5ab41c010VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "ARGUELLES" , "MONCLOA-ARAVACA" ;
+	dbpedia:postalCode "28008"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/122352> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Islas Filipina" ;
+	geo:lat "4.042.342.659.084.210"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.651.841.641.389.480"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d34e8899fc81c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "VENTAS" , "CIUDAD LINEAL" ;
+	dbpedia:postalCode "28017"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11741> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'La Guindaler" ;
+	geo:lat "4.043.349.910.050.290"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.691.167.784.691.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=373b79262ef5d010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "GUINDALERA" , "SALAMANCA" ;
+	dbpedia:postalCode "28028"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11742> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'La Vaguad" ;
+	geo:lat "4.047.860.087.334.550"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.094.408.342.979.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a28066051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "EL PILAR" , "FUENCARRAL-EL PARDO" ;
+	dbpedia:postalCode "28029"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/133983> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Leñero" ;
+	geo:lat "4.045.406.088.024.460"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.093.713.617.566.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=85e515a11a81c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "BELLAS VISTAS" , "TETUAN" ;
+	dbpedia:postalCode "28039"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/108513> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Lucer" ;
+	geo:lat "4.040.178.273.810.310"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.491.718.558.671.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=db0615a11a81c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "LUCERO" , "LATINA" ;
+	dbpedia:postalCode "28047"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/20241> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Luis Vive" ;
+	geo:lat "40.423.960.764.556.200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.628.588.601.009.720"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3132e35bba51c010VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "PUEBLO NUEVO" , "CIUDAD LINEAL" ;
+	dbpedia:postalCode "28037"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/122369> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Maestro Alons" ;
+	geo:lat "404.293.527.096.082"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.664.819.790.735.590"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dd5b79262ef5d010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "FUENTE DEL BERRO" , "SALAMANCA" ;
+	dbpedia:postalCode "28028"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11758> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'María Zambran" ;
+	geo:lat "4.034.333.382.494.160"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.909.491.943.684.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=adabae7cb2e4f010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "SAN CRISTOBAL" , "VILLAVERDE" ;
+	dbpedia:postalCode "28021"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11710> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Nicanor Barros" ;
+	geo:lat "4.039.887.768.991.450"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.420.363.186.993.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=324166051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "FONTARRON" , "MORATALAZ" ;
+	dbpedia:postalCode "28030"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/113094> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Nuestra Señora del Carme" ;
+	geo:lat "4.046.337.730.558.990"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.631.515.434.596.130"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c6be8899fc81c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CANILLAS" , "HORTALEZA" ;
+	dbpedia:postalCode "28043"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11708> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Pablo Nerud" ;
+	geo:lat "40.385.179.370.371.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.444.628.142.076.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=886166051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PALOMERAS SURESTE" , "PUENTE DE VALLECAS" ;
+	dbpedia:postalCode "28018"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/4724726> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Pamplon" ;
+	geo:lat "4.045.458.138.286.930"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.052.844.690.568.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2937de75fd187110VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "BELLAS VISTAS" , "TETUAN" ;
+	dbpedia:postalCode "28039"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11724> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Pío Baroj" ;
+	geo:lat "4.041.339.399.749.280"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.674.787.205.505.520"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c10266051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "NIÑO JESUS" , "RETIRO" ;
+	dbpedia:postalCode "28009"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11712> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Príncipe de Asturia" ;
+	geo:lat "40.436.444.648.624.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.373.000.672.722.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=182266051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PUEBLO NUEVO" , "CIUDAD LINEAL" ;
+	dbpedia:postalCode "28037"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11690> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Prosperidad Santa Hortensi" ;
+	geo:lat "4.044.476.894.081.760"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.691.931.472.225.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6e4266051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PROSPERIDAD" , "CHAMARTIN" ;
+	dbpedia:postalCode "28002"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/49541> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'San Dieg" ;
+	geo:lat "4.038.871.930.363.660"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.663.689.575.700.870"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6cb4598d1351c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PALOMERAS BAJAS" , "PUENTE DE VALLECAS" ;
+	dbpedia:postalCode "28018"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11759> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'San Juan Bautist" ;
+	geo:lat "4.045.252.617.323.740"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.581.255.009.849.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=443366051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "SAN JUAN BAUTISTA" , "CIUDAD LINEAL" ;
+	dbpedia:postalCode "28043"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/122268> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'San Vicente de Paú" ;
+	geo:lat "40.386.075.026.633.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.230.547.190.101.200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=630f8899fc81c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "OPAÑEL" , "CARABANCHEL" ;
+	dbpedia:postalCode "28019"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/11764> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Santa Engraci" ;
+	geo:lat "40.439.987.457.420.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.700.733.879.498.950"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9a5366051361c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "RIOS ROSAS" , "CHAMBERI" ;
+	dbpedia:postalCode "28003"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/31019> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Teresa de Calcut" ;
+	geo:lat "4.045.531.140.556.260"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.587.638.001.688.090"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0c07b3e42751c010VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "ALAMEDA DE OSUNA" , "BARAJAS" ;
+	dbpedia:postalCode "28042"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/29184> a schema:PK ;
+	rdfs:label "Centro Municipal de Mayores 'Villa de Valleca" ;
+	geo:lat "4.037.732.438.108.780"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.212.400.484.216.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5237b3e42751c010VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "CASCO H.VALLECAS" , "VILLA DE VALLECAS" ;
+	dbpedia:postalCode "28031"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/56495> a schema:PK ;
+	rdfs:label "Centro Sociocultural Siena " ;
+	geo:lat "4.043.316.516.575.710"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.651.876.723.048.770"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1114c2c6e051c010VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "QUINTANA" , "CIUDAD LINEAL" ;
+	dbpedia:postalCode "28027"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1996> a schema:PK ;
+	rdfs:label "Centro Sociocultural Ágata " ;
+	geo:lat "4.034.636.268.334.180"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.708.524.395.897.370"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d9743d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "SAN ANDRES" , "VILLAVERDE" ;
+	dbpedia:postalCode "28021"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1936> a schema:PK ;
+	rdfs:label "Centro Sociocultural Alberto Sánchez " ;
+	geo:lat "40.393.612.303.425.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.556.073.868.098.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=20a43d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "NUMANCIA" , "PUENTE DE VALLECAS" ;
+	dbpedia:postalCode "28038"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/72862> a schema:PK ;
+	rdfs:label "Centro Sociocultural Alfonso XII " ;
+	geo:lat "40.519.673.311.658.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.779.055.687.726.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b7d168540e41c010VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "EL PARDO" , "FUENCARRAL-EL PARDO" ;
+	dbpedia:postalCode "28048"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1927> a schema:PK ;
+	rdfs:label "Centro Sociocultural Blasco Ibáñez " ;
+	geo:lat "40.394.959.912.881.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.732.764.798.621.330"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb453d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "SAN ISIDRO" , "CARABANCHEL" ;
+	dbpedia:postalCode "28019"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1949> a schema:PK ;
+	rdfs:label "Centro Sociocultural Bohemios " ;
+	geo:lat "4.035.639.654.251.880"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.940.501.846.610.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=42753d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "LOS ANGELES" , "VILLAVERDE" ;
+	dbpedia:postalCode "28041"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/118935> a schema:PK ;
+	rdfs:label "Centro Sociocultural Cánovas del Castillo " ;
+	geo:lat "4.038.626.143.332.090"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.000.825.227.295.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1087cbf06c81c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ALMENDRALES" , "USERA" ;
+	dbpedia:postalCode "28026"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1967> a schema:PK ;
+	rdfs:label "Centro Sociocultural Ciudad Line" ;
+	geo:lat "40.422.850.906.984.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.651.682.839.770.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=16f81e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "VENTAS" , "CIUDAD LINEAL" ;
+	dbpedia:postalCode "28017"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/124354> a schema:PK ;
+	rdfs:label "Centro Sociocultural de Moratal" ;
+	geo:lat "40.399.222.766.804.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.366.543.437.448.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bf388899fc81c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PAVONES" , "MORATALAZ" ;
+	dbpedia:postalCode "28030"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1941> a schema:PK ;
+	rdfs:label "Centro Sociocultural Eduardo Chillida " ;
+	geo:lat "4.040.939.173.676.510"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.653.214.777.359.330"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=01963d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "MEDIA LEGUA" , "MORATALAZ" ;
+	dbpedia:postalCode "28030"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/26904> a schema:PK ;
+	rdfs:label "Centro Sociocultural El Greco " ;
+	geo:lat "40.407.316.328.180.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.747.465.416.906.970"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cae2b3e42751c010VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "LUCERO" , "LATINA" ;
+	dbpedia:postalCode "28011"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1947> a schema:PK ;
+	rdfs:label "Centro Sociocultural José Espronceda " ;
+	geo:lat "4.044.863.106.357.680"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.045.265.016.586.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=23881e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "BELLAS VISTAS" , "TETUAN" ;
+	dbpedia:postalCode "28039"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1965> a schema:PK ;
+	rdfs:label "Centro Sociocultural Juvenil de Use" ;
+	geo:lat "40.389.856.130.874.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.074.718.790.538.200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=876e1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "MOSCARDO" , "USERA" ;
+	dbpedia:postalCode "28026"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/102131> a schema:PK ;
+	rdfs:label "Centro Sociocultural Lati" ;
+	geo:lat "403.796.366.471.018"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.659.492.448.759.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a4ed8899fc81c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "LAS AGUILAS" , "LATINA" ;
+	dbpedia:postalCode "28044"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1918> a schema:PK ;
+	rdfs:label "Centro Sociocultural Lavapiés " ;
+	geo:lat "4.040.966.697.102.750"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.701.574.291.636.870"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5f891e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "EMBAJADORES" , "CENTRO" ;
+	dbpedia:postalCode "28012"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1961> a schema:PK ;
+	rdfs:label "Centro Sociocultural Luis Gonzaga " ;
+	geo:lat "4.044.489.723.228.660"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.780.972.922.453.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ba8b3d232e91f010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CIUDAD JARDIN" , "CHAMARTIN" ;
+	dbpedia:postalCode "28002"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1909> a schema:PK ;
+	rdfs:label "Centro Sociocultural Maestro Alonso " ;
+	geo:lat "4.042.938.854.032.780"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.664.855.511.110.750"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=783f1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "FUENTE DEL BERRO" , "SALAMANCA" ;
+	dbpedia:postalCode "28028"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/170066> a schema:PK ;
+	rdfs:label "Centro Sociocultural Marconi " ;
+	geo:lat "40.334.751.832.113.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.700.809.560.921.590"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6cb0085f5181c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "SAN ANDRES" , "VILLAVERDE" ;
+	dbpedia:postalCode "28021"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1970> a schema:PK ;
+	rdfs:label "Centro Sociocultural Miguel de Cervantes " ;
+	geo:lat "4.043.664.778.776.810"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.611.362.970.564.870"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=24be1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CANILLEJAS" , "SAN BLAS-CANILLEJAS" ;
+	dbpedia:postalCode "28022"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1924> a schema:PK ;
+	rdfs:label "Centro Sociocultural Rafael de León " ;
+	geo:lat "4.048.025.613.358.830"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.214.686.777.952.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7e0b1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PEÑA GRANDE" , "FUENCARRAL-EL PARDO" ;
+	dbpedia:postalCode "28035"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/43311> a schema:PK ;
+	rdfs:label "Centro Sociocultural Rosario de Acuña " ;
+	geo:lat "4.040.647.389.284.970"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.327.010.920.242.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2bae598d1351c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PUERTA DEL ANGEL" , "LATINA" ;
+	dbpedia:postalCode "28011"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1950> a schema:PK ;
+	rdfs:label "Centro Sociocultural San Cristóbal de los Ángeles " ;
+	geo:lat "4.034.233.618.931.460"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.905.504.735.084.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7f4a79262ef5d010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "SAN CRISTOBAL" , "VILLAVERDE" ;
+	dbpedia:postalCode "28021"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1935> a schema:PK ;
+	rdfs:label "Centro Sociocultural San Fermín " ;
+	geo:lat "4.037.164.288.657.410"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.920.627.827.867.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1b5b1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "SAN FERMIN" , "USERA" ;
+	dbpedia:postalCode "28041"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/117716> a schema:PK ;
+	rdfs:label "Centro Sociocultural Santa Petronila " ;
+	geo:lat "4.035.087.114.162.280"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.691.508.909.255.180"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=03f7cbf06c81c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "LOS ROSALES" , "VILLAVERDE" ;
+	dbpedia:postalCode "28021"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1937> a schema:PK ;
+	rdfs:label "Centro Sociocultural Talleres de Creatividad " ;
+	geo:lat "4.039.009.728.291.880"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.665.329.063.724.780"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b7ab1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "SAN DIEGO" , "PUENTE DE VALLECAS" ;
+	dbpedia:postalCode "28053"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1948> a schema:PK ;
+	rdfs:label "Centro Sociocultural Tetu" ;
+	geo:lat "4.045.907.130.615.820"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.700.271.645.324.860"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0ecb1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "BERRUGUETE" , "TETUAN" ;
+	dbpedia:postalCode "28020"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1923> a schema:PK ;
+	rdfs:label "Centro Sociocultural Valle Inclán " ;
+	geo:lat "4.048.106.787.416.520"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.933.504.628.706.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aa1c1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "LA PAZ" , "FUENCARRAL-EL PARDO" ;
+	dbpedia:postalCode "28029"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1908> a schema:PK ;
+	rdfs:label "Centro Sociocultural Valverde " ;
+	geo:lat "4.049.504.564.211.650"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.880.070.256.093.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f04c1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "VALVERDE" , "FUENCARRAL-EL PARDO" ;
+	dbpedia:postalCode "28034"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/4679597> a schema:PK ;
+	rdfs:label "Centro Sociocultural Vicálva" ;
+	geo:lat "4.040.219.442.341.810"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.084.585.863.003.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=05ec3ef2c5ff5110VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CASCO H.VICALVARO" , "VICALVARO" ;
+	dbpedia:postalCode "28032"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/6013703> a schema:PK ;
+	rdfs:label "CentroCent" ;
+	geo:lat "40.419.011.767.401.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.692.206.111.679.650"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5ff519cd7bcee210VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "LOS JERONIMOS" , "RETIRO" ;
+	dbpedia:postalCode "28014"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1916> a schema:PK ;
+	rdfs:label "Conde Duq" ;
+	geo:lat "4.042.802.889.001.870"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.710.182.353.581.840"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=64463d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "UNIVERSIDAD" , "CENTRO" ;
+	dbpedia:postalCode "28015"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/2047> a schema:PK ;
+	rdfs:label "Hemeroteca Municip" ;
+	geo:lat "4.042.802.889.001.870"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.710.182.353.581.840"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=11951e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "UNIVERSIDAD" , "CENTRO" ;
+	dbpedia:postalCode "28015"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/2054> a schema:PK ;
+	rdfs:label "Museo de Historia de Madr" ;
+	geo:lat "4.042.577.054.821.340"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.700.845.660.719.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8f3079262ef5d010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "JUSTICIA" , "CENTRO" ;
+	dbpedia:postalCode "28004"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/2112> a schema:PK ;
+	rdfs:label "Museo de San Isidr" ;
+	geo:lat "4.041.207.900.253.880"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.108.161.027.466.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7b7aef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PALACIO" , "CENTRO" ;
+	dbpedia:postalCode "28005"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/24242> a schema:PK ;
+	rdfs:label "Oficina Auxiliar de Atención a la Ciudadanía de El Pardo. Oficina de Atención a la Ciudadanía " ;
+	geo:lat "4.051.990.216.989.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.777.365.185.426.130"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=73210a47f441f010VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "EL PARDO" , "FUENCARRAL-EL PARDO" ;
+	dbpedia:postalCode "28048"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/24245> a schema:PK ;
+	rdfs:label "Oficina Auxiliar de Atención a la Ciudadanía de Valverde. Oficina de Atención a la Ciudadanía " ;
+	geo:lat "4.049.504.578.261.260"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.687.983.425.734.920"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=76310a47f441f010VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "VALVERDE" , "FUENCARRAL-EL PARDO" ;
+	dbpedia:postalCode "28034"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/180717> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "403.933.877.847.248"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.698.565.632.659.460"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=67da8aa6bd91f010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CHOPERA" , "ARGANZUELA" ;
+	dbpedia:postalCode "28045"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/180005> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "4.047.479.357.890.760"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.577.768.444.536.060"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7a0b8aa6bd91f010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CASCO H.BARAJAS" , "BARAJAS" ;
+	dbpedia:postalCode "28042"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/4706011> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "40.386.962.506.825.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.386.530.020.939.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9c8fa5a18b3c6110VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "VISTA ALEGRE" , "CARABANCHEL" ;
+	dbpedia:postalCode "28025"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/5727898> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "4.041.151.901.471.160"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.697.739.488.614.280"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=70141da64ba49210VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "EMBAJADORES" , "CENTRO" ;
+	dbpedia:postalCode "28012"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/182853> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "4.044.489.723.228.660"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.780.972.922.453.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=614b8aa6bd91f010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CIUDAD JARDIN" , "CHAMARTIN" ;
+	dbpedia:postalCode "28002"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/183012> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "40.446.683.231.882.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.048.363.430.688.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=499b8aa6bd91f010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "VALLEHERMOSO" , "CHAMBERI" ;
+	dbpedia:postalCode "28003"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/180078> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "404.359.990.280.135"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.369.662.067.437.200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=50eb8aa6bd91f010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PUEBLO NUEVO" , "CIUDAD LINEAL" ;
+	dbpedia:postalCode "28037"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/180291> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "40.478.526.343.687.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.709.841.173.334.440"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eb0c8aa6bd91f010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "EL PILAR" , "FUENCARRAL-EL PARDO" ;
+	dbpedia:postalCode "28029"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/182794> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "4.046.299.114.016.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.571.542.769.919.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0a8c8aa6bd91f010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CANILLAS" , "HORTALEZA" ;
+	dbpedia:postalCode "28043"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/181203> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "403.849.364.255.536"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.764.218.505.722.320"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8bcc8aa6bd91f010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "LAS AGUILAS" , "LATINA" ;
+	dbpedia:postalCode "28044"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/4618663> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "4.043.519.137.700.080"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.718.876.324.432.250"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1d6607151bcf3110VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ARGUELLES" , "MONCLOA-ARAVACA" ;
+	dbpedia:postalCode "28008"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/182199> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "4.039.664.109.245.880"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.663.361.506.752.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0ced8aa6bd91f010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "SAN DIEGO" , "PUENTE DE VALLECAS" ;
+	dbpedia:postalCode "28038"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/180011> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "4.040.236.125.879.460"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.772.931.748.500.200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a74e8aa6bd91f010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PACIFICO" , "RETIRO" ;
+	dbpedia:postalCode "28007"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/180854> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "4.042.732.326.877.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.683.768.008.487.210"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c3ae8aa6bd91f010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "RECOLETOS" , "SALAMANCA" ;
+	dbpedia:postalCode "28001"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/183637> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "40.434.476.793.953.100"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.096.219.543.135.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e2fe8aa6bd91f010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ROSAS" , "SAN BLAS-CANILLEJAS" ;
+	dbpedia:postalCode "28022"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/4533790> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "40.465.712.459.445"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.940.418.104.349.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=567c1b7dd5621110VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "ALMENARA" , "TETUAN" ;
+	dbpedia:postalCode "28029"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/181625> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "4.038.241.253.009.170"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.107.515.747.822.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bf6f8aa6bd91f010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PRADOLONGO" , "USERA" ;
+	dbpedia:postalCode "28026"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/183881> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "40.402.270.479.784.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.059.845.330.840.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1eef8aa6bd91f010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CASCO H.VICALVARO" , "VICALVARO" ;
+	dbpedia:postalCode "28032"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/182351> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "403.788.998.244.401"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.621.454.785.869.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1e308aa6bd91f010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CASCO H.VALLECAS" , "VILLA DE VALLECAS" ;
+	dbpedia:postalCode "28031"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/181738> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "40.348.895.848.554.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-371.120.030.905.872"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=69a08aa6bd91f010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "SAN ANDRES" , "VILLAVERDE" ;
+	dbpedia:postalCode "28021"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/5262382> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "4.039.786.211.392.550"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.670.669.926.439.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7978b5ddd36cf110VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "NUMANCIA" , "PUENTE DE VALLECAS" ;
+	dbpedia:postalCode "28038"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/190825> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía. " ;
+	geo:lat "40.490.415.625.465.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.655.356.751.728.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c2b3f5ae13d60110VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "VALDEFUENTES" , "HORTALEZA" ;
+	dbpedia:postalCode "28050"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/180014> a schema:PK ;
+	rdfs:label "Oficina de Atención a la Ciudadanía." ;
+	geo:lat "4.039.859.980.911.480"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.368.959.356.337.200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7e5d8aa6bd91f010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PAVONES" , "MORATALAZ" ;
+	dbpedia:postalCode "28030"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/5321993> a schema:PK ;
+	rdfs:label "Oficina de Atención Integral al Contribuyente " ;
+	geo:lat "4.039.063.439.598.590"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.690.501.580.631.820"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e25edf836af01210VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "LEGAZPI" , "ARGANZUELA" ;
+	dbpedia:postalCode "28045"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/5620158> a schema:PK ;
+	rdfs:label "Oficina de Atención Integral al Contribuyente " ;
+	geo:lat "4.044.613.326.792.270"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.989.699.295.578.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=401f5361e8b67210VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "RIOS ROSAS" , "CHAMBERI" ;
+	dbpedia:postalCode "28003"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/8628334> a schema:PK ;
+	rdfs:label "Oficina de Atención Integral al Contribuyente " ;
+	geo:lat "40.463.444.731.027.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-363.236.531.637.309"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ce533233b8f32510VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CANILLAS" , "HORTALEZA" ;
+	dbpedia:postalCode "28043"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/4561585> a schema:PK ;
+	rdfs:label "Oficina de Atención Integral al Contribuyente " ;
+	geo:lat "4.041.449.174.864.590"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.110.890.097.804.200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b7313873fed02110VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "PALACIO" , "CENTRO" ;
+	dbpedia:postalCode "28005"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/13834> a schema:PK ;
+	rdfs:label "Oficina de objetos perdidos del Ayuntamiento de Madri" ;
+	geo:lat "4.039.065.926.812.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.938.716.039.760.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7c365a0f8161c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "LEGAZPI" , "ARGANZUELA" ;
+	dbpedia:postalCode "28045"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/104624> a schema:PK ;
+	rdfs:label "Oficina especializada del Servicio de Estacionamiento Regulado, APR y Biciregistr" ;
+	geo:lat "4.040.039.462.478.580"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-368.842.123.426.747"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ce42a328be81c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "DELICIAS" , "ARGANZUELA" ;
+	dbpedia:postalCode "28045"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/1984> a schema:PK ;
+	rdfs:label "Pabellón de los Jardines de Cecilio Rodrígu" ;
+	geo:lat "4.041.250.110.617.820"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.676.499.075.231.230"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0d8def4d7f71c010VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "NIÑO JESUS" , "RETIRO" ;
+	dbpedia:postalCode "28009"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/7829427> a schema:PK ;
+	rdfs:label "Punto de Atención Social El Quer" ;
+	geo:lat "4.047.612.370.683.220"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.639.006.166.974.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3ffc666934dda410VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "APOSTOL SANTIAGO" , "HORTALEZA" ;
+	dbpedia:postalCode "28033"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/4814317> a schema:PK ;
+	rdfs:label "Sala de estudio Cánovas del Castillo " ;
+	geo:lat "4.038.626.143.332.090"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.000.825.227.295.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b10c750b1c058110VgnVCM2000000c205a0aRCRD" ;
+	geo:location "MADRID" , "ALMENDRALES" , "USERA" ;
+	dbpedia:postalCode "28026"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/4815414> a schema:PK ;
+	rdfs:label "Sala de estudio El Madroño " ;
+	geo:lat "40.405.292.721.436.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.086.161.200.017.100"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=62c0c0e48a558110VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CASCO H.VICALVARO" , "VICALVARO" ;
+	dbpedia:postalCode "28032"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/6468021> a schema:PK ;
+	rdfs:label "Sala de estudio Luis García Berlanga " ;
+	geo:lat "4.046.527.083.469.680"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-36.940.726.509.061.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f5abe23a26bd7310VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "ALMENARA" , "TETUAN" ;
+	dbpedia:postalCode "28029"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/10751094> a schema:PK ;
+	rdfs:label "Sala de estudio Motilla del Palancar " ;
+	geo:lat "4.046.532.067.984.830"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.633.321.598.436.630"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f2114531d18a4610VgnVCM1000001d4a900aRCRD" ;
+	geo:location "MADRID" , "CANILLAS" , "HORTALEZA" ;
+	dbpedia:postalCode "28043"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/4815493> a schema:PK ;
+	rdfs:label "Sala de estudio Pilares " ;
+	geo:lat "4.047.504.564.286"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.577.805.996.745.730"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=747e48136c558110VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CASCO H.BARAJAS" , "BARAJAS" ;
+	dbpedia:postalCode "28042"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/4815389> a schema:PK ;
+	rdfs:label "Sala de estudio Valdebernardo " ;
+	geo:lat "4.039.982.891.410.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.621.281.890.570.370"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1dc9c0e48a558110VgnVCM1000000b205a0aRCRD" ;
+	geo:location "MADRID" , "CASCO H.VICALVARO" , "VICALVARO" ;
+	dbpedia:postalCode "28032"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/10107814> a schema:PK ;
+	rdfs:label "Sala de estudio y lectura Arquitecto Juan de Herrera " ;
+	geo:lat "4.040.647.389.284.970"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.327.010.920.242.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6a6c61366ded5510VgnVCM1000001d4a900aRCRD" ;
+	geo:location "MADRID" , "PUERTA DEL ANGEL" , "LATINA" ;
+	dbpedia:postalCode "28011"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.wifimadrid.org/recurso#Establecimiento/10107702> a schema:PK ;
+	rdfs:label "Sala de estudio y lectura Escritor Pedro de Répide " ;
+	geo:lat "4.040.647.389.284.970"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-37.327.010.920.242.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	rdfs:seeAlso "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5e0861366ded5510VgnVCM1000001d4a900aRCRD" ;
+	geo:location "MADRID" , "PUERTA DEL ANGEL" , "LATINA" ;
+	dbpedia:postalCode "28011"^^<http://www.w3.org/2001/XMLSchema#int> .

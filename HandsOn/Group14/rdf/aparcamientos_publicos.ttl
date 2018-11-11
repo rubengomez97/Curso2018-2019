@@ -1,0 +1,1101 @@
+@prefix pwl: <http://www.semanticweb.org/pc/ontologies/2018/9#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://parkingsmadrid.org/13470> a pwl:PK ;
+	pwl:idParking "13470" ;
+	pwl:hasNombre "Aparcamiento mixto. Arquitecto Ribera" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  --Admite Tarjeta BonoRed--   **Titularidad:  Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas:  318 públicas y 298 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a50e15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "BARCELO" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "2" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28004" ;
+	pwl:nombreBarrio "JUSTICIA" ;
+	pwl:nombreDistrito "CENTRO" ;
+	pwl:latitud "40.426687899755734" ;
+	pwl:longitud "-3.6996173701222492" .
+
+<http://parkingsmadrid.org/59060> a pwl:PK ;
+	pwl:idParking "59060" ;
+	pwl:hasNombre "Aparcamiento mixto. Avenida de América (intercambiador)" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Información sobre accesibilidad :  Tiene escaleras adaptadas  Ascensor de salida a la calle Avenida de América, 9  Tiene aseos accesibles  Plazas para minusválidos       Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
+	pwl:hasAccesibilidad "true" ;
+	pwl:hasPlazasPublicas "Plazas : 269 públicas y 392 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3f3bc2c6e051c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "PRADENA DEL RINCON" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "4" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28002" ;
+	pwl:nombreBarrio "PROSPERIDAD" ;
+	pwl:nombreDistrito "CHAMARTIN" ;
+	pwl:latitud "40.43886083125741" ;
+	pwl:longitud "-3.6766217383743345" ;
+	pwl:hasTlf "Tlf: 917 376 257" ;
+	pwl:hasEmail "intercambiador@intercambiador.net" .
+
+<http://parkingsmadrid.org/5898885> a pwl:PK ;
+	pwl:idParking "5898885" ;
+	pwl:hasNombre "Aparcamiento mixto. Avenida de Portugal" ;
+	pwl:hasHorario "Horario de apertura de 6:00 h a 22:00 h los días laborables." ;
+	pwl:descripcionAccesibilidad "Informacion sobre accesibilidad:   No tiene escalera adaptada  Tiene ascensor de salida a Avenida de Portugal, s/n  1 aseo accesible (nivel-3)  Plazas para minusválidos residentes: 20    Abierto 24 horas   Titularidad : Ayuntamiento de Madrid   Gestión : Empresa Municipal de Transportes (EMT) ( más información )" ;
+	pwl:hasAccesibilidad "true" ;
+	pwl:hasPlazasPublicas "Plazas:  432 públicas y 437 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c313e26f2b3fc210VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "PORTUGAL" ;
+	pwl:claseVia "AVENIDA" ;
+	pwl:numeroVia "155" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28011" ;
+	pwl:nombreBarrio "PUERTA DEL ANGEL" ;
+	pwl:nombreDistrito "LATINA" ;
+	pwl:latitud "40.411180021966345" ;
+	pwl:longitud "-3.7378318857463158" ;
+	pwl:hasTlf "Tlf: 917 877 292 (grúa municipal)" ;
+	pwl:hasEmail "aparcamientos@madridmovilidad.es" .
+
+<http://parkingsmadrid.org/13475> a pwl:PK ;
+	pwl:idParking "13475" ;
+	pwl:hasNombre "Aparcamiento mixto. Brasil" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas:  226 públicas y 400 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb2e15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "GENERAL YAG&Uuml;E" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "11" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28020" ;
+	pwl:nombreBarrio "CUATRO CAMINOS" ;
+	pwl:nombreDistrito "TETUAN" ;
+	pwl:latitud "40.45610834965894" ;
+	pwl:longitud "-3.694131675088486" .
+
+<http://parkingsmadrid.org/183747> a pwl:PK ;
+	pwl:idParking "183747" ;
+	pwl:hasNombre "Aparcamiento mixto. Casino de la Reina" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas:  135 públicas y 449 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c5f4bdc85c01c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "CASINO" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "3" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28005" ;
+	pwl:nombreBarrio "EMBAJADORES" ;
+	pwl:nombreDistrito "CENTRO" ;
+	pwl:latitud "40.406792648617134" ;
+	pwl:longitud "-3.7046086019457167" .
+
+<http://parkingsmadrid.org/13477> a pwl:PK ;
+	pwl:idParking "13477" ;
+	pwl:hasNombre "Aparcamiento mixto. Condesa de Gavia" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "El horario de apertura para la parte del aparcamiento rotacional es de lunes a viernes de 9:00h a 20:40h. Sábados de 9:00 a 14:30h.   Titularidad : Ayuntamiento de Madrid" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas : 73 públicas y 79 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7e5f15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "CONDESA DE GAVIA" ;
+	pwl:claseVia "PLAZA" ;
+	pwl:numeroVia "0" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28020" ;
+	pwl:nombreBarrio "CUATRO CAMINOS" ;
+	pwl:nombreDistrito "TETUAN" ;
+	pwl:latitud "40.44938567948415" ;
+	pwl:longitud "-3.7019164121880888" .
+
+<http://parkingsmadrid.org/24103> a pwl:PK ;
+	pwl:idParking "24103" ;
+	pwl:hasNombre "Aparcamiento mixto. Corazón de María II" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Informacion sobre accesibilidad:   No tiene escalera adaptada  No tiene ascensor de salida a calle  2 aseos accesibles ( 1&ordf;  planta)   Plazas para minusválidos residentes: 6     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
+	pwl:hasAccesibilidad "true" ;
+	pwl:hasPlazasPublicas "Plazas : 327 públicas y 750 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b74e6545f951c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "CORAZON DE MARIA" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "46" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28002" ;
+	pwl:nombreBarrio "PROSPERIDAD" ;
+	pwl:nombreDistrito "CHAMARTIN" ;
+	pwl:latitud "40.444421820483264" ;
+	pwl:longitud "-3.666902094780133" ;
+	pwl:hasTlf "Tlf: 915 563 165 / 915 195 280" ;
+	pwl:hasEmail "aparcamientocorazondemaria@grupocogesa.es" .
+
+<http://parkingsmadrid.org/81736> a pwl:PK ;
+	pwl:idParking "81736" ;
+	pwl:hasNombre "Aparcamiento mixto. Corona Boreal" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Información sobre accesibilidad:   No tiene escaleras adaptadas  Ascensor de salida a la calle Pérez de Victoria  2 aseos accesibles (1&ordf; planta)  Plazas para minusválidos residentes: 3     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
+	pwl:hasAccesibilidad "true" ;
+	pwl:hasPlazasPublicas "Plazas : 120 públicas y 125 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=db8bc2c6e051c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "PEREZ DE VICTORIA" ;
+	pwl:claseVia "CALLE" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28023" ;
+	pwl:nombreBarrio "ARAVACA" ;
+	pwl:nombreDistrito "MONCLOA-ARAVACA" ;
+	pwl:latitud "40.45852127134047" ;
+	pwl:longitud "-3.78317943069732" ;
+	pwl:hasTlf "Tlf: 913 573 714" ;
+	pwl:hasEmail "parkingcoronaboreal@hotmail.com" .
+
+<http://parkingsmadrid.org/183748> a pwl:PK ;
+	pwl:idParking "183748" ;
+	pwl:hasNombre "Aparcamiento mixto. Daoíz y Velarde" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas:  312 públicas y 174 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0f85bdc85c01c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "CIUDAD DE BARCELONA" ;
+	pwl:claseVia "AVENIDA" ;
+	pwl:numeroVia "3" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28007" ;
+	pwl:nombreBarrio "PACIFICO" ;
+	pwl:nombreDistrito "RETIRO" ;
+	pwl:latitud "40.40531540835356" ;
+	pwl:longitud "-3.683557034656531" ;
+	pwl:hasTlf "Tlf: S/T" .
+
+<http://parkingsmadrid.org/44724> a pwl:PK ;
+	pwl:idParking "44724" ;
+	pwl:hasNombre "Aparcamiento mixto. Díaz Porlier" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas:  203 públicas y 421 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9e69946be351c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "DIEGO DE LEON" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "62" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28006" ;
+	pwl:nombreBarrio "LISTA" ;
+	pwl:nombreDistrito "SALAMANCA" ;
+	pwl:latitud "40.434415601006386" ;
+	pwl:longitud "-3.675728293375598" ;
+	pwl:hasTlf "Tlf: 91 401 73 74" .
+
+<http://parkingsmadrid.org/36269> a pwl:PK ;
+	pwl:idParking "36269" ;
+	pwl:hasNombre "Aparcamiento mixto. Encuentro" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas:  104 públicas y 550 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c3e12c798651c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "ENCUENTRO" ;
+	pwl:claseVia "PLAZA" ;
+	pwl:numeroVia "1" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28030" ;
+	pwl:nombreBarrio "MEDIA LEGUA" ;
+	pwl:nombreDistrito "MORATALAZ" ;
+	pwl:latitud "40.40581270738191" ;
+	pwl:longitud "-3.652048809515808" ;
+	pwl:hasTlf "Tlf: 91 328 36 80" .
+
+<http://parkingsmadrid.org/13464> a pwl:PK ;
+	pwl:idParking "13464" ;
+	pwl:hasNombre "Aparcamiento mixto. Felipe II" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Información sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor de salida a la plaza de Felipe II  Aseo accesible (1&ordf; planta)  Plazas para minusválidos residentes:23    Abierto 24 horas    Admite tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid" ;
+	pwl:hasAccesibilidad "true" ;
+	pwl:hasPlazasPublicas "Plazas : 1175 públicas rotacionales y 615 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=425e15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "ANTONIA MERCE" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "5" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28009" ;
+	pwl:nombreBarrio "GOYA" ;
+	pwl:nombreDistrito "SALAMANCA" ;
+	pwl:latitud "40.42422175692137" ;
+	pwl:longitud "-3.673433652213169" .
+
+<http://parkingsmadrid.org/13462> a pwl:PK ;
+	pwl:idParking "13462" ;
+	pwl:hasNombre "Aparcamiento mixto. Fuencarral" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Información sobre accesibilidad:    No tiene escalera adaptada  1 ascensor con salida a la calle Fuencarral, 117  1 aseo accesible en la 1&ordf; planta  Plazas para minusválidos residentes: 7    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid" ;
+	pwl:hasAccesibilidad "true" ;
+	pwl:hasPlazasPublicas "Plazas : 410 públicas y 111 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=987e15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "FUENCARRAL" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "111" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28010" ;
+	pwl:nombreBarrio "TRAFALGAR" ;
+	pwl:nombreDistrito "CHAMBERI" ;
+	pwl:latitud "40.42948845687032" ;
+	pwl:longitud "-3.7027941027177986" ;
+	pwl:hasTlf "Tlf: 915 468 939" ;
+	pwl:hasEmail "clientes@empark.es" .
+
+<http://parkingsmadrid.org/13515> a pwl:PK ;
+	pwl:idParking "13515" ;
+	pwl:hasNombre "Aparcamiento mixto. General Yagüe" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas:  409 públicas y 717 residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ee9e15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "BRASIL" ;
+	pwl:claseVia "AVENIDA" ;
+	pwl:numeroVia "15" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28020" ;
+	pwl:nombreBarrio "CASTILLEJOS" ;
+	pwl:nombreDistrito "TETUAN" ;
+	pwl:latitud "40.45673936450418" ;
+	pwl:longitud "-3.694067405537416" .
+
+<http://parkingsmadrid.org/36270> a pwl:PK ;
+	pwl:idParking "36270" ;
+	pwl:hasNombre "Aparcamiento mixto. Hernani" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Información sobre accesibilidad:   No tiene escaleras adptadas  Ascensor de salida a la calle Hernai, 68  1 aseo accesible en 1&ordf; planta  Plazas para minusválidos residentes. 3      Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid" ;
+	pwl:hasAccesibilidad "true" ;
+	pwl:hasPlazasPublicas "Plazas:  115 públicas y 383 residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d0712c798651c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "HERNANI" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "60" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28020" ;
+	pwl:nombreBarrio "CUATRO CAMINOS" ;
+	pwl:nombreDistrito "TETUAN" ;
+	pwl:latitud "40.448394729978006" ;
+	pwl:longitud "-3.7033919552673127" ;
+	pwl:hasTlf "Tlf: 915 545 326" .
+
+<http://parkingsmadrid.org/13459> a pwl:PK ;
+	pwl:idParking "13459" ;
+	pwl:hasNombre "Aparcamiento mixto. Jacinto Benavente" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Información sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor con salida a la calle Jacinto benavente, s/n  1 aseo accesible Plaza para minusválidos residentes: 16   Abierto 24 horas   Titularidad:   Ayuntamiento de Madrid    Gestión:  Empresa Municipal de Transportes (EMT) ( más información )" ;
+	pwl:hasAccesibilidad "true" ;
+	pwl:hasPlazasPublicas "Plazas:  285 públicas y 110 para residentes.   Plazas motos:  7.   " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c48f15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "JACINTO BENAVENTE" ;
+	pwl:claseVia "PLAZA" ;
+	pwl:numeroVia "6" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28012" ;
+	pwl:nombreBarrio "CORTES" ;
+	pwl:nombreDistrito "CENTRO" ;
+	pwl:latitud "40.41444016371457" ;
+	pwl:longitud "-3.70332112917586" ;
+	pwl:hasTlf "Tlf: 917 877 292 (grúa municipal)" ;
+	pwl:hasEmail "aparcamientos@madridmovilidad.es" .
+
+<http://parkingsmadrid.org/13479> a pwl:PK ;
+	pwl:idParking "13479" ;
+	pwl:hasNombre "Aparcamiento mixto. José Castán Tobeñas" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Información sobre accesibilidad:   No tiene escaleras adaptadas  No disponde ascensor  No disponde de aseos accesible  Plazas para minusválidos residentes: 5     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid" ;
+	pwl:hasAccesibilidad "true" ;
+	pwl:hasPlazasPublicas "Plazas:  205 públicas y 43 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=35ce15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "CAPITAN HAYA" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "57" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28020" ;
+	pwl:nombreBarrio "CASTILLEJOS" ;
+	pwl:nombreDistrito "TETUAN" ;
+	pwl:latitud "40.46451060463543" ;
+	pwl:longitud "-3.6916467875121377" ;
+	pwl:hasTlf "Tlf: 915 707 612" ;
+	pwl:hasEmail "aeuropeos@gmail.com" .
+
+<http://parkingsmadrid.org/6143690> a pwl:PK ;
+	pwl:idParking "6143690" ;
+	pwl:hasNombre "Aparcamiento mixto. Marqués de Salamanca" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Información sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida a la plaza del Marqués de Salamanca  1 aseo accesible en  2&ordf;   planta  Plaza para minusválidos residentes: 14    Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
+	pwl:hasAccesibilidad "true" ;
+	pwl:hasPlazasPublicas "Plazas : 360 públicas y 70 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cb5b1b2bb5b61310VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "MARQUES DE SALAMANCA" ;
+	pwl:claseVia "PLAZA" ;
+	pwl:numeroVia "8" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28006" ;
+	pwl:nombreBarrio "LISTA" ;
+	pwl:nombreDistrito "SALAMANCA" ;
+	pwl:latitud "40.43046723981028" ;
+	pwl:longitud "-3.6792137901324056" ;
+	pwl:hasTlf "Tlf: 917 877 292 (grúa municipal)" ;
+	pwl:hasEmail "aparcamientos@madridmovilidad.es" .
+
+<http://parkingsmadrid.org/182188> a pwl:PK ;
+	pwl:idParking "182188" ;
+	pwl:hasNombre "Aparcamiento mixto. Miguel Yuste" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  --Admite Tarjeta BonoRed--   **Titularidad:  Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas:  182  públicas y 68 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1c15bdc85c01c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "MIGUEL YUSTE" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "11" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28037" ;
+	pwl:nombreBarrio "SIMANCAS" ;
+	pwl:nombreDistrito "SAN BLAS-CANILLEJAS" ;
+	pwl:latitud "40.4402052387976" ;
+	pwl:longitud "-3.625049272913964" .
+
+<http://parkingsmadrid.org/5517342> a pwl:PK ;
+	pwl:idParking "5517342" ;
+	pwl:hasNombre "Aparcamiento mixto. Orense" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Información sobre accesibilidad:   1 escalera adaptada  No dispone de ascensor  1 aseo accesible  Plaza para minusválidos residentes: 5     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid   Gestión:  Empresa Municipal de Transportes (EMT) ( más información )" ;
+	pwl:hasAccesibilidad "true" ;
+	pwl:hasPlazasPublicas "Plazas : 128 públicas y 663 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eee35ed15bb95210VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "SOR ANGELA DE LA CRUZ" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "27" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28020" ;
+	pwl:nombreBarrio "CASTILLEJOS" ;
+	pwl:nombreDistrito "TETUAN" ;
+	pwl:latitud "40.45973534025835" ;
+	pwl:longitud "-3.6962330375922363" ;
+	pwl:hasEmail "aparcamientos@emtmadrid.es" .
+
+<http://parkingsmadrid.org/52114> a pwl:PK ;
+	pwl:idParking "52114" ;
+	pwl:hasNombre "Aparcamiento mixto. Pedro Zerolo ?antes denominado Vázquez de Mella?" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Información sobre accesibilidad:   No tiene escaleras adaptadas  1 ascensor con salida a la Plaza de Vazquez de Mella  1 aseo accesible  Plaza para minusválidos residentes: 7     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid   Gestión:  Empresa Municipal de Transportes (EMT) ( más información )   " ;
+	pwl:hasAccesibilidad "true" ;
+	pwl:hasPlazasPublicas "Plazas:  107 públicas y 261 para residentes.   Plazas motos:  6.   " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e499946be351c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "PEDRO ZEROLO" ;
+	pwl:claseVia "PLAZA" ;
+	pwl:numeroVia "1" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28004" ;
+	pwl:nombreBarrio "JUSTICIA" ;
+	pwl:nombreDistrito "CENTRO" ;
+	pwl:latitud "40.4209564450911" ;
+	pwl:longitud "-3.699899832865304" ;
+	pwl:hasTlf "Tlf: Residentes - 91 522 50 29          Rotacional -  91 532 19 10" ;
+	pwl:hasEmail "aparcamientos@emtmadrid.es" .
+
+<http://parkingsmadrid.org/33440> a pwl:PK ;
+	pwl:idParking "33440" ;
+	pwl:hasNombre "Aparcamiento mixto. Plaza de Oriente" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  Admite Tarjeta BonoRed  Este PAR está adherido a la zona de APR   Titularidad : Ayuntamiento de Madrid" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas : 242 públicas rotacionales (30 plazas para autobuses) y 511 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7db12c798651c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "ORIENTE" ;
+	pwl:claseVia "PLAZA" ;
+	pwl:numeroVia "1" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28013" ;
+	pwl:nombreBarrio "PALACIO" ;
+	pwl:nombreDistrito "CENTRO" ;
+	pwl:latitud "40.417632509561116" ;
+	pwl:longitud "-3.7116407088004757" .
+
+<http://parkingsmadrid.org/36271> a pwl:PK ;
+	pwl:idParking "36271" ;
+	pwl:hasNombre "Aparcamiento mixto. Presidente Carmona" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas : 379 públicas y 124 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8a412c798651c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "PRESIDENTE CARMONA" ;
+	pwl:claseVia "AVENIDA" ;
+	pwl:numeroVia "3" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28020" ;
+	pwl:nombreBarrio "CUATRO CAMINOS" ;
+	pwl:nombreDistrito "TETUAN" ;
+	pwl:latitud "40.45362846199134" ;
+	pwl:longitud "-3.6975262417380064" ;
+	pwl:hasTlf "Tlf: 91 556 62 26" .
+
+<http://parkingsmadrid.org/13476> a pwl:PK ;
+	pwl:idParking "13476" ;
+	pwl:hasNombre "Aparcamiento mixto. Recoletos" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Información sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida al Paseo de Recoletos  1 aseo accesible  Plaza para minusválidos residentes: 10    Abierto 24 horas    Titularidad  : Ayuntamiento de Madrid    Gestión:  Empresa Municipal de Transportes (EMT) ( más información )" ;
+	pwl:hasAccesibilidad "true" ;
+	pwl:hasPlazasPublicas "Plazas : 102 públicas y 289 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=283f15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "RECOLETOS" ;
+	pwl:claseVia "PASEO" ;
+	pwl:numeroVia "4" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28001" ;
+	pwl:nombreBarrio "RECOLETOS" ;
+	pwl:nombreDistrito "SALAMANCA" ;
+	pwl:latitud "40.42054469225109" ;
+	pwl:longitud "-3.691974283683488" ;
+	pwl:hasEmail "aparcamientos@emtmadrid.es" .
+
+<http://parkingsmadrid.org/24193> a pwl:PK ;
+	pwl:idParking "24193" ;
+	pwl:hasNombre "Aparcamiento mixto. República Dominicana" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas : 892 públicas y 203 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aabe6545f951c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "REPUBLICA DOMINICANA" ;
+	pwl:claseVia "PLAZA" ;
+	pwl:numeroVia "6" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28016" ;
+	pwl:nombreBarrio "NUEVA ESPAÑA" ;
+	pwl:nombreDistrito "CHAMARTIN" ;
+	pwl:latitud "40.45887037458626" ;
+	pwl:longitud "-3.6765275895176677" .
+
+<http://parkingsmadrid.org/167692> a pwl:PK ;
+	pwl:idParking "167692" ;
+	pwl:hasNombre "Aparcamiento mixto. San Cayetano" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas : 222 públicas y 261 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a284ff632081c010VgnVCM1000000b205a0aRCRD" ;
+	pwl:nombreVia "SAN CAYETANO" ;
+	pwl:claseVia "PLAZA" ;
+	pwl:numeroVia "1" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28028" ;
+	pwl:nombreBarrio "GUINDALERA" ;
+	pwl:nombreDistrito "SALAMANCA" ;
+	pwl:latitud "40.43432235224971" ;
+	pwl:longitud "-3.6700799322371056" .
+
+<http://parkingsmadrid.org/19053> a pwl:PK ;
+	pwl:idParking "19053" ;
+	pwl:hasNombre "Aparcamiento mixto. Sánchez Bustillo" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas : 132 públicas y 408 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=27912c798651c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "SANCHEZ BUSTILLO" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "1" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28012" ;
+	pwl:nombreBarrio "EMBAJADORES" ;
+	pwl:nombreDistrito "CENTRO" ;
+	pwl:latitud "40.40917205238472" ;
+	pwl:longitud "-3.6940145592988043" .
+
+<http://parkingsmadrid.org/7416748> a pwl:PK ;
+	pwl:idParking "7416748" ;
+	pwl:hasNombre "Aparcamiento mixto. Serrano I" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas : 307 públicas y 831 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bd61f94ae1d15410VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "JUAN BRAVO" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "4" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28006" ;
+	pwl:nombreBarrio "CASTELLANA" ;
+	pwl:nombreDistrito "SALAMANCA" ;
+	pwl:latitud "40.43289700914247" ;
+	pwl:longitud "-3.6857697780390155" .
+
+<http://parkingsmadrid.org/7417028> a pwl:PK ;
+	pwl:idParking "7417028" ;
+	pwl:hasNombre "Aparcamiento mixto. Serrano II" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas : 379 públicas y 794 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bc096f1c35d15410VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "JOSE ORTEGA Y GASSET" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "1" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28006" ;
+	pwl:nombreBarrio "CASTELLANA" ;
+	pwl:nombreDistrito "SALAMANCA" ;
+	pwl:latitud "40.43059379257075" ;
+	pwl:longitud "-3.688281097618061" .
+
+<http://parkingsmadrid.org/7417052> a pwl:PK ;
+	pwl:idParking "7417052" ;
+	pwl:hasNombre "Aparcamiento mixto. Serrano III" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas : 261 públicas y 725 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9a1c6f1c35d15410VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "JORGE JUAN" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "1" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28001" ;
+	pwl:nombreBarrio "RECOLETOS" ;
+	pwl:nombreDistrito "SALAMANCA" ;
+	pwl:latitud "40.42446775888825" ;
+	pwl:longitud "-3.6897747066093993" .
+
+<http://parkingsmadrid.org/13460> a pwl:PK ;
+	pwl:idParking "13460" ;
+	pwl:hasNombre "Aparcamiento mixto. Sevilla" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  --Admite Tarjeta BonoRed--   **Titularidad:  Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas : 649 públicas rotacionales y 74 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9dd67339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "ALCALA" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "17" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28014" ;
+	pwl:nombreBarrio "SOL" ;
+	pwl:nombreDistrito "CENTRO" ;
+	pwl:latitud "40.41780383567921" ;
+	pwl:longitud "-3.6998082261071747" ;
+	pwl:hasTlf "Tlf: 915 219 281" .
+
+<http://parkingsmadrid.org/13458> pwl:longitud "-3.6841676172873936" ;
+	pwl:idParking "13458" ;
+	pwl:latitud "40.427203787185476" ;
+	pwl:nombreDistrito "SALAMANCA" ;
+	pwl:hasNombre "Aparcamiento mixto. Velázquez - Ayala" ;
+	pwl:nombreBarrio "RECOLETOS" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:numeroCodPostal "28001" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  --Admite Tarjeta BonoRed--   **Titularidad:  Ayuntamiento de Madrid**" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:numeroVia "47" ;
+	pwl:hasPlazasPublicas "Plazas:  464 públicas y 235 para residentes " ;
+	pwl:claseVia "CALLE" ;
+	pwl:nombreVia "VELAZQUEZ" ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8bee15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	a pwl:PK .
+
+<http://parkingsmadrid.org/13457> a pwl:PK ;
+	pwl:idParking "13457" ;
+	pwl:hasNombre "Aparcamiento mixto. Velázquez - Jorge Juan" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  --Admite Tarjeta BonoRed--   **Titularidad:  Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas:  549 públicas y 395 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d11f15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "VELAZQUEZ" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "25" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28001" ;
+	pwl:nombreBarrio "RECOLETOS" ;
+	pwl:nombreDistrito "SALAMANCA" ;
+	pwl:latitud "40.4243649253884" ;
+	pwl:longitud "-3.684339253399854" .
+
+<http://parkingsmadrid.org/183607> a pwl:PK ;
+	pwl:idParking "183607" ;
+	pwl:hasNombre "Aparcamiento mixto. Verdaguer y García" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Información sobre accesibilidad:   No tiene escaleras adaptadas  1 ascensor en la salida a la Calle Verdaguer y garcía  1 aseo accesible en la planta -1  Plaza para minusválidos residentes: 4     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid" ;
+	pwl:hasAccesibilidad "true" ;
+	pwl:hasPlazasPublicas "Plazas:  83 públicas y 180 para residentes " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6245bdc85c01c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "VERDAGUER Y GARCIA" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "1" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28027" ;
+	pwl:nombreBarrio "SAN PASCUAL" ;
+	pwl:nombreDistrito "CIUDAD LINEAL" ;
+	pwl:latitud "40.43992277144076" ;
+	pwl:longitud "-3.656505118007155" ;
+	pwl:hasTlf "Tlf: 913 531 050" .
+
+<http://parkingsmadrid.org/10489514> pwl:hasAccesibilidad "false" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas" ;
+	pwl:numeroCodPostal "28022" ;
+	pwl:hasHorario "Horario de apertura de 6:00 h a 22:00 h los días laborables excepto los días de partido en el estadio Metropolitano" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:numeroVia "37" ;
+	pwl:hasNombre "Aparcamiento público disuasorio Estadio Metropolitano Sur ES-02b" ;
+	pwl:claseVia "AVENIDA" ;
+	a pwl:PK ;
+	pwl:nombreVia "ARCENTALES" ;
+	pwl:idParking "10489514" ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=975b89a80c49e510VgnVCM1000001d4a900aRCRD" ;
+	pwl:hasPlazasPublicas "Plazas :   para automóviles 1719  para motocicletas 61" ;
+	pwl:nombreBarrio "ROSAS" ;
+	pwl:nombreDistrito "SAN BLAS-CANILLEJAS" ;
+	pwl:latitud "40.434154" ;
+	pwl:longitud "-3.598831" .
+
+<http://parkingsmadrid.org/13452> pwl:numeroVia "13" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:longitud "-3.6931471299523446" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28010" ;
+	pwl:latitud "40.43030345785862" ;
+	pwl:nombreBarrio "ALMAGRO" ;
+	pwl:nombreDistrito "CHAMBERI" ;
+	a pwl:PK ;
+	pwl:idParking "13452" ;
+	pwl:hasNombre "Aparcamiento público. Almagro" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Informacion sobre accesibilidad:    1 escalera adaptada  No tiene ascensor de salida a calle  1 aseo accesible  Plazas para minusválidos residentes: 17   Abierto 24 horas   Titularidad  : Ayuntamiento de Madrid    Gestión : Empresa Municipal de Transportes (EMT) ( más información )" ;
+	pwl:hasAccesibilidad "true" ;
+	pwl:hasPlazasPublicas "Plazas : 462" ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0e167339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "ALMAGRO" ;
+	pwl:claseVia "CALLE" .
+
+<http://parkingsmadrid.org/7393089> a pwl:PK ;
+	pwl:idParking "7393089" ;
+	pwl:hasNombre "Aparcamiento público. Auditorio Nacional de Música (Príncipe de Vergara)" ;
+	pwl:nombreDistrito "CHAMARTIN" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  Admite la Tarjeta Bono Red   Titularidad:  Ayuntamiento de Madrid" ;
+	pwl:hasPlazasPublicas "Plazas:  376  " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ed88f25e040c4410VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreBarrio "CIUDAD JARDIN" ;
+	pwl:nombreVia "CARTAGENA" ;
+	pwl:numeroCodPostal "28002" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "176" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:latitud "40.44426892073378" ;
+	pwl:longitud "-3.6777018495296048" .
+
+<http://parkingsmadrid.org/13473> pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28013" ;
+	pwl:numeroVia "4" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  --Admite Tarjeta BonoRed--   **Titularidad:  Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:nombreVia "DESCALZAS" ;
+	pwl:hasPlazasPublicas "Plazas:  400" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=98e77339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	a pwl:PK ;
+	pwl:claseVia "PLAZA" ;
+	pwl:idParking "13473" ;
+	pwl:hasNombre "Aparcamiento público. Descalzas" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:nombreBarrio "SOL" ;
+	pwl:nombreDistrito "CENTRO" ;
+	pwl:latitud "40.41809765692244" ;
+	pwl:longitud "-3.706306013191402" ;
+	pwl:hasTlf "Tlf: 91 532 57 57" .
+
+<http://parkingsmadrid.org/24809> a pwl:PK ;
+	pwl:idParking "24809" ;
+	pwl:hasNombre "Aparcamiento público. Fernández Shaw" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas : 245" ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0e6e6545f951c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "CARLOS Y GUILLERMO FERNANDEZ SHAW" ;
+	pwl:claseVia "CALLE" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28007" ;
+	pwl:nombreBarrio "ADELFAS" ;
+	pwl:nombreDistrito "RETIRO" ;
+	pwl:latitud "40.406002468696784" ;
+	pwl:longitud "-3.669292239090564" .
+
+<http://parkingsmadrid.org/13478> pwl:descripcionAccesibilidad "Abierto 24 horas  **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:claseVia "CALLE" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas:  244" ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5f477339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "CAPITAN SALAZAR MARTINEZ" ;
+	a pwl:PK ;
+	pwl:idParking "13478" ;
+	pwl:hasNombre "Aparcamiento público. Glorieta Puerta de Toledo" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:numeroVia "2" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28005" ;
+	pwl:nombreBarrio "EMBAJADORES" ;
+	pwl:nombreDistrito "CENTRO" ;
+	pwl:latitud "40.40745328367243" ;
+	pwl:longitud "-3.7100131737859567" .
+
+<http://parkingsmadrid.org/13467> pwl:hasNombre "Aparcamiento público. Las Cortes" ;
+	pwl:numeroVia "0" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  --Admite Tarjeta BonoRed--   **Titularidad:  Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas : 480" ;
+	pwl:nombreVia "LAS CORTES" ;
+	pwl:claseVia "PLAZA" ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=42c77339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	a pwl:PK ;
+	pwl:idParking "13467" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28014" ;
+	pwl:nombreBarrio "CORTES" ;
+	pwl:latitud "40.41576756093728" ;
+	pwl:longitud "-3.695367083138702" .
+
+<http://parkingsmadrid.org/13449> pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=54467339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:hasAccesibilidad "false" ;
+	a pwl:PK ;
+	pwl:idParking "13449" ;
+	pwl:hasNombre "Aparcamiento público. Luna - Tudescos" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  --Admite Tarjeta BonoRed--   **Titularidad:  Ayuntamiento de Madrid**" ;
+	pwl:hasPlazasPublicas "Plazas : 481" ;
+	pwl:nombreVia "SANTA MARIA SOLEDAD TORRES ACOSTA" ;
+	pwl:claseVia "PLAZA" ;
+	pwl:numeroVia "2" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28004" ;
+	pwl:nombreBarrio "UNIVERSIDAD" ;
+	pwl:nombreDistrito "CENTRO" ;
+	pwl:latitud "40.4214535549175" ;
+	pwl:longitud "-3.705563118253955" .
+
+<http://parkingsmadrid.org/13469> a pwl:PK ;
+	pwl:idParking "13469" ;
+	pwl:hasNombre "Aparcamiento público. Marqués de Urquijo" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:claseVia "CALLE" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  Admite Tarjeta BonoRed" ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aa667339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "MARQUES DE URQUIJO" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas : 482" ;
+	pwl:numeroVia "27" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28008" ;
+	pwl:nombreBarrio "ARGUELLES" ;
+	pwl:nombreDistrito "MONCLOA-ARAVACA" ;
+	pwl:latitud "40.42955928333471" ;
+	pwl:longitud "-3.719111078507027" .
+
+<http://parkingsmadrid.org/13465> pwl:hasPlazasPublicas "Plazas:  275" ;
+	a pwl:PK ;
+	pwl:idParking "13465" ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f0967339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "MONTALBAN" ;
+	pwl:hasNombre "Aparcamiento público. Montalbán" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas   **Titularidad : Ayuntamiento de Madrid**   ||Gestión : Empresa Municipal de Transportes (EMT)||" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "4" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28014" ;
+	pwl:nombreBarrio "LOS JERONIMOS" ;
+	pwl:nombreDistrito "RETIRO" ;
+	pwl:latitud "40.41802725000116" ;
+	pwl:longitud "-3.691123387515545" .
+
+<http://parkingsmadrid.org/13451> pwl:numeroVia "4" ;
+	pwl:idParking "13451" ;
+	pwl:claseVia "CALLE" ;
+	pwl:hasNombre "Aparcamiento público. Mostenses" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Información sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en  2&ordf;   planta  Plaza para minusválidos residentes: 16    Abierto 24 horas    Admite Tarjeta BonoRed     Titularidad:  Ayuntamiento de Madrid" ;
+	pwl:hasAccesibilidad "true" ;
+	pwl:nombreVia "GARCIA MOLINAS" ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fe0881eb5f51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:hasPlazasPublicas "Plazas:  362" ;
+	a pwl:PK ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28015" ;
+	pwl:nombreBarrio "UNIVERSIDAD" ;
+	pwl:nombreDistrito "CENTRO" ;
+	pwl:latitud "40.4227759148193" ;
+	pwl:longitud "-3.708830424647755" ;
+	pwl:hasTlf "Tlf: 902 283 080" .
+
+<http://parkingsmadrid.org/88141> a pwl:PK ;
+	pwl:idParking "88141" ;
+	pwl:hasNombre "Aparcamiento público. Museo de la Ciudad" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas:  147" ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bdc7bdc85c01c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "PRINCIPE DE VERGARA" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "134" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28002" ;
+	pwl:nombreBarrio "CIUDAD JARDIN" ;
+	pwl:nombreDistrito "CHAMARTIN" ;
+	pwl:latitud "40.44366224087455" ;
+	pwl:longitud "-3.6782263814004565" .
+
+<http://parkingsmadrid.org/13450> a pwl:PK ;
+	pwl:idParking "13450" ;
+	pwl:hasNombre "Aparcamiento público. Olavide" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Información sobre accesibilidad:    Disponde de escaleras adaptadas  1 ascensor en la salida a la Plaza de Olavide  1 aseo accesible en la  1&ordf;   planta  Plaza para minusválidos residentes: 8   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	pwl:hasAccesibilidad "true" ;
+	pwl:hasPlazasPublicas "Plazas : 397" ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=453881eb5f51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "OLAVIDE" ;
+	pwl:claseVia "PLAZA" ;
+	pwl:numeroVia "17" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28010" ;
+	pwl:nombreBarrio "TRAFALGAR" ;
+	pwl:nombreDistrito "CHAMBERI" ;
+	pwl:latitud "40.43277769820206" ;
+	pwl:longitud "-3.7011542013121264" ;
+	pwl:hasTlf "Tlf: 914 468 570" .
+
+<http://parkingsmadrid.org/13454> a pwl:PK ;
+	pwl:idParking "13454" ;
+	pwl:hasNombre "Aparcamiento público. Plaza de Colón" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  --Admite Tarjeta BonoRed--   **Titularidad:  Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas : 605" ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a5777339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "GOYA" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "2" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28001" ;
+	pwl:nombreBarrio "RECOLETOS" ;
+	pwl:nombreDistrito "SALAMANCA" ;
+	pwl:latitud "40.42518540300912" ;
+	pwl:longitud "-3.6887800207651495" ;
+	pwl:hasTlf "Tlf: 915 761 837" .
+
+<http://parkingsmadrid.org/13463> a pwl:PK ;
+	pwl:idParking "13463" ;
+	pwl:hasNombre "Aparcamiento público. Plaza de España" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas   **Titularidad : Ayuntamiento de Madrid**   ||Gestión : Empresa Municipal de Transportes (EMT)||" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasPlazasPublicas "Plazas : 800(hasta 535 abonados)  " ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb977339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "ESPA&Ntilde;A" ;
+	pwl:claseVia "PLAZA" ;
+	pwl:numeroVia "20" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28008" ;
+	pwl:nombreBarrio "ARGUELLES" ;
+	pwl:nombreDistrito "MONCLOA-ARAVACA" ;
+	pwl:latitud "40.42372251184839" ;
+	pwl:longitud "-3.7116577340508523" .
+
+<http://parkingsmadrid.org/13472> a pwl:PK ;
+	pwl:idParking "13472" ;
+	pwl:hasNombre "Aparcamiento público. Plaza del Carmen" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Información sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en   1&ordf;   planta  Plaza para minusválidos residentes: 7    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad:  Ayuntamiento de Madrid" ;
+	pwl:hasAccesibilidad "true" ;
+	pwl:hasPlazasPublicas "Plazas:  450" ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8ec881eb5f51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "CARMEN" ;
+	pwl:claseVia "PLAZA" ;
+	pwl:numeroVia "10" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28013" ;
+	pwl:nombreBarrio "SOL" ;
+	pwl:nombreDistrito "CENTRO" ;
+	pwl:latitud "40.41848676016168" ;
+	pwl:longitud "-3.703068586180966" ;
+	pwl:hasTlf "Tlf: 915 214 312" .
+
+<http://parkingsmadrid.org/13474> a pwl:PK ;
+	pwl:idParking "13474" ;
+	pwl:hasNombre "Aparcamiento público. Plaza del Rey" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Información sobre accesibilidad:    Si tiene escaleras adaptadas  1 ascensor  3 aseos accesibles (uno por planta): 8  Plaza para minusválidos residentes: 16   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	pwl:hasAccesibilidad "true" ;
+	pwl:hasPlazasPublicas "Plazas : 160" ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d4f881eb5f51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "REY" ;
+	pwl:claseVia "PLAZA" ;
+	pwl:numeroVia "1" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28004" ;
+	pwl:nombreBarrio "JUSTICIA" ;
+	pwl:nombreDistrito "CENTRO" ;
+	pwl:latitud "40.42018796139455" ;
+	pwl:longitud "-3.69587231093941" ;
+	pwl:hasTlf "Tlf: 915 225 219" .
+
+<http://parkingsmadrid.org/13466> pwl:numeroVia "11" ;
+	pwl:hasNombre "Aparcamiento público. Plaza Mayor" ;
+	pwl:nombreDistrito "CENTRO" ;
+	pwl:nombreVia "FELIPE III" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:numeroCodPostal "28012" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:claseVia "CALLE" ;
+	pwl:latitud "40.41586882022003" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:hasPlazasPublicas "Plazas : 694" ;
+	pwl:nombreBarrio "SOL" ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2b1981eb5f51c010VgnVCM2000000c205a0aRCRD" ;
+	a pwl:PK ;
+	pwl:idParking "13466" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:longitud "-3.706895619414367" .
+
+<http://parkingsmadrid.org/13456> pwl:hasPlazasPublicas "Plazas:  3" ;
+	a pwl:PK ;
+	pwl:idParking "13456" ;
+	pwl:hasNombre "Aparcamiento público. Santa Ana" ;
+	pwl:nombreVia "SANTA ANA" ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9b5881eb5f51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "25   Información sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en  1&ordf;  planta  Plaza para minusválidos residentes: 6    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad:  Ayuntamiento de Madrid" ;
+	pwl:hasAccesibilidad "true" ;
+	pwl:claseVia "PLAZA" ;
+	pwl:numeroVia "16" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28012" ;
+	pwl:nombreBarrio "CORTES" ;
+	pwl:nombreDistrito "CENTRO" ;
+	pwl:latitud "40.41487830605113" ;
+	pwl:longitud "-3.700897645451053" ;
+	pwl:hasTlf "Tlf: 915 214 312" .
+
+<http://parkingsmadrid.org/10737574> pwl:hasPlazasPublicas "Plazas : 36" ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ce8907e1fd534610VgnVCM1000001d4a900aRCRD" ;
+	pwl:hasAccesibilidad "false" ;
+	a pwl:PK ;
+	pwl:nombreVia "AMPARO USERA" ;
+	pwl:idParking "10737574" ;
+	pwl:hasNombre "Aparcamiento público. Usera" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Titularidad  : Ayuntamiento de Madrid" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "46" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28026" ;
+	pwl:nombreBarrio "MOSCARDO" ;
+	pwl:nombreDistrito "USERA" ;
+	pwl:latitud "40.38710254642704" ;
+	pwl:longitud "-3.7065255061698053" .
+
+<http://parkingsmadrid.org/13468> a pwl:PK ;
+	pwl:idParking "13468" ;
+	pwl:claseVia "CALLE" ;
+	pwl:hasNombre "Aparcamiento público. Velázquez - Juan Bravo" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Abierto 24 horas  --Admite Tarjeta BonoRed--   **Titularidad:  Ayuntamiento de Madrid**" ;
+	pwl:nombreVia "VELAZQUEZ" ;
+	pwl:hasAccesibilidad "false" ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e3077339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:hasPlazasPublicas "Plazas:  371" ;
+	pwl:numeroVia "88" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28006" ;
+	pwl:nombreBarrio "CASTELLANA" ;
+	pwl:nombreDistrito "SALAMANCA" ;
+	pwl:latitud "40.431991827319116" ;
+	pwl:longitud "-3.683449815935094" .
+
+<http://parkingsmadrid.org/13453> a pwl:PK ;
+	pwl:idParking "13453" ;
+	pwl:hasNombre "Aparcamiento público. Villa de París" ;
+	pwl:hasHorario "Abierto 24 horas" ;
+	pwl:descripcionAccesibilidad "Plazas rotación:  169   Plazas motos:  2    Información sobre accesibilidad:    No tiene escaleras adaptadas  No disponde de ascensor  1 aseo accesible  Plaza para minusválidos residentes: 13    Abierto 24 horas         Titularidad:  Ayuntamiento de Madrid   Gestión:  Empresa Municipal de Transportes (EMT) ( más información ación:  169   Plazas motos:  2    Información sobre accesibilidad:    No tiene escaleras adaptadas  No disponde de ascensor  1 aseo accesible  Plaza para minusválidos residentes: 13    Abierto 24 horas         Titularidad:  Ayuntamiento de Madrid   Gestión:  Empresa Municipal de Transportes (EMT) ( más información )" ;
+	pwl:hasAccesibilidad "true" ;
+	pwl:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=38a881eb5f51c010VgnVCM2000000c205a0aRCRD" ;
+	pwl:nombreVia "MARQUES DE LA ENSENADA" ;
+	pwl:claseVia "CALLE" ;
+	pwl:numeroVia "1" ;
+	pwl:nombreLocalidad "MADRID" ;
+	pwl:nombreProvincia "MADRID" ;
+	pwl:numeroCodPostal "28004" ;
+	pwl:nombreBarrio "JUSTICIA" ;
+	pwl:nombreDistrito "CENTRO" ;
+	pwl:latitud "40.42533530030625" ;
+	pwl:longitud "-3.6923416648619947" .
