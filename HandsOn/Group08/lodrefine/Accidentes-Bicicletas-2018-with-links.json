@@ -1,0 +1,17 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Numero",
+    "columnName": "Numero"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Sexo",
+    "columnName": "Sexo"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Tramo Edad",
+    "columnName": "Tramo Edad"
+  }
+]

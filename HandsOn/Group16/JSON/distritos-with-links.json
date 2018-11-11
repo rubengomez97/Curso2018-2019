@@ -1,0 +1,636 @@
+[
+  {
+    op corecolumn-addition,
+    description Create column Distrito at index 2 based on column Codigo de distrito al que pertenece using expression grelcell.cross(Distritos, Codigo de distrito)[0].cells[Nombre de distrito].value,
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    newColumnName Distrito,
+    columnInsertIndex 2,
+    baseColumnName Codigo de distrito al que pertenece,
+    expression grelcell.cross(Distritos, Codigo de distrito)[0].cells[Nombre de distrito].value,
+    onError set-to-blank
+  },
+  {
+    op corecolumn-removal,
+    description Remove column Codigo de distrito al que pertenece,
+    columnName Codigo de distrito al que pertenece
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column Distrito using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName Distrito,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column Distrito using expression value.replace(s+,' '),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName Distrito,
+    expression value.replace(s+,' '),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column Nombre de barrio using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName Nombre de barrio,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column Nombre de barrio using expression value.replace(s+,' '),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName Nombre de barrio,
+    expression value.replace(s+,' '),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column Superficie (m2) using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName Superficie (m2),
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op rdf-extensionsave-rdf-schema,
+    description Save RDF schema skeleton,
+    schema {
+      baseUri httpwww.semanticweb.orghandsongrp16callejero#,
+      prefixes [
+        {
+          name rdf,
+          uri httpwww.w3.org19990222-rdf-syntax-ns#
+        },
+        {
+          name owl,
+          uri httpwww.w3.org200207owl#
+        },
+        {
+          name xsd,
+          uri httpwww.w3.org2001XMLSchema#
+        },
+        {
+          name rdfs,
+          uri httpwww.w3.org200001rdf-schema#
+        },
+        {
+          name foaf,
+          uri httpxmlns.comfoaf0.1
+        }
+      ],
+      rootNodes [
+        {
+          nodeType cell-as-resource,
+          expression value,
+          isRowNumberCell false,
+          columnName Nombre de barrio,
+          rdfTypes [
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#Barrio,
+              curie httpwww.semanticweb.orghandsongrp16callejero#Barrio
+            }
+          ],
+          links [
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#PerteneceA,
+              curie httpwww.semanticweb.orghandsongrp16callejero#PerteneceA,
+              target {
+                nodeType cell-as-resource,
+                expression value,
+                isRowNumberCell false,
+                columnName Distrito,
+                rdfTypes [
+                  {
+                    uri httpwww.semanticweb.orghandsongrp16callejero#Distrito,
+                    curie httpwww.semanticweb.orghandsongrp16callejero#Distrito
+                  }
+                ],
+                links []
+              }
+            },
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#TieneSuperficie,
+              curie httpwww.semanticweb.orghandsongrp16callejero#TieneSuperficie,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                valueType httpwww.w3.org2001XMLSchema#int,
+                columnName Superficie (m2)
+              }
+            },
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#TienePerimetro,
+              curie httpwww.semanticweb.orghandsongrp16callejero#TienePerimetro,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                valueType httpwww.w3.org2001XMLSchema#int,
+                columnName Perimetro (m)
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    op rdf-extensionsave-rdf-schema,
+    description Save RDF schema skeleton,
+    schema {
+      baseUri httpwww.semanticweb.orghandsongrp16callejero#,
+      prefixes [
+        {
+          name rdf,
+          uri httpwww.w3.org19990222-rdf-syntax-ns#
+        },
+        {
+          name owl,
+          uri httpwww.w3.org200207owl#
+        },
+        {
+          name xsd,
+          uri httpwww.w3.org2001XMLSchema#
+        },
+        {
+          name rdfs,
+          uri httpwww.w3.org200001rdf-schema#
+        },
+        {
+          name foaf,
+          uri httpxmlns.comfoaf0.1
+        }
+      ],
+      rootNodes [
+        {
+          nodeType cell-as-resource,
+          expression value,
+          isRowNumberCell false,
+          columnName Nombre de barrio,
+          rdfTypes [
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#Barrio,
+              curie httpwww.semanticweb.orghandsongrp16callejero#Barrio
+            }
+          ],
+          links [
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#PerteneceA,
+              curie httpwww.semanticweb.orghandsongrp16callejero#PerteneceA,
+              target {
+                nodeType cell-as-resource,
+                expression value,
+                isRowNumberCell false,
+                columnName Distrito,
+                rdfTypes [
+                  {
+                    uri httpwww.semanticweb.orghandsongrp16callejero#Distrito,
+                    curie httpwww.semanticweb.orghandsongrp16callejero#Distrito
+                  }
+                ],
+                links []
+              }
+            },
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#TieneSuperficie,
+              curie httpwww.semanticweb.orghandsongrp16callejero#TieneSuperficie,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                valueType httpwww.w3.org2001XMLSchema#int,
+                columnName Superficie (m2)
+              }
+            },
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#TienePerimetro,
+              curie httpwww.semanticweb.orghandsongrp16callejero#TienePerimetro,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                valueType httpwww.w3.org2001XMLSchema#int,
+                columnName Perimetro (m)
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    op rdf-extensionsave-rdf-schema,
+    description Save RDF schema skeleton,
+    schema {
+      baseUri httpwww.semanticweb.orghandsongrp16callejero#,
+      prefixes [
+        {
+          name rdf,
+          uri httpwww.w3.org19990222-rdf-syntax-ns#
+        },
+        {
+          name owl,
+          uri httpwww.w3.org200207owl#
+        },
+        {
+          name xsd,
+          uri httpwww.w3.org2001XMLSchema#
+        },
+        {
+          name rdfs,
+          uri httpwww.w3.org200001rdf-schema#
+        },
+        {
+          name foaf,
+          uri httpxmlns.comfoaf0.1
+        }
+      ],
+      rootNodes [
+        {
+          nodeType cell-as-resource,
+          expression value,
+          isRowNumberCell false,
+          columnName Nombre de barrio,
+          rdfTypes [
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#Barrio,
+              curie httpwww.semanticweb.orghandsongrp16callejero#Barrio
+            }
+          ],
+          links [
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#PerteneceA,
+              curie httpwww.semanticweb.orghandsongrp16callejero#PerteneceA,
+              target {
+                nodeType cell-as-resource,
+                expression value,
+                isRowNumberCell false,
+                columnName Distrito,
+                rdfTypes [
+                  {
+                    uri httpwww.semanticweb.orghandsongrp16callejero#Distrito,
+                    curie httpwww.semanticweb.orghandsongrp16callejero#Distrito
+                  }
+                ],
+                links []
+              }
+            },
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#TieneSuperficie,
+              curie httpwww.semanticweb.orghandsongrp16callejero#TieneSuperficie,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                valueType httpwww.w3.org2001XMLSchema#int,
+                columnName Superficie (m2)
+              }
+            },
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#TienePerimetro,
+              curie httpwww.semanticweb.orghandsongrp16callejero#TienePerimetro,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                valueType httpwww.w3.org2001XMLSchema#int,
+                columnName Perimetro (m)
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    op rdf-extensionsave-rdf-schema,
+    description Save RDF schema skeleton,
+    schema {
+      baseUri httpwww.semanticweb.orghandsongrp16callejero#,
+      prefixes [
+        {
+          name rdf,
+          uri httpwww.w3.org19990222-rdf-syntax-ns#
+        },
+        {
+          name owl,
+          uri httpwww.w3.org200207owl#
+        },
+        {
+          name xsd,
+          uri httpwww.w3.org2001XMLSchema#
+        },
+        {
+          name rdfs,
+          uri httpwww.w3.org200001rdf-schema#
+        },
+        {
+          name foaf,
+          uri httpxmlns.comfoaf0.1
+        }
+      ],
+      rootNodes [
+        {
+          nodeType cell-as-resource,
+          expression value,
+          isRowNumberCell false,
+          columnName Nombre de barrio,
+          rdfTypes [
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#Barrio,
+              curie httpwww.semanticweb.orghandsongrp16callejero#Barrio
+            }
+          ],
+          links [
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#EstaEnDistrito,
+              curie httpwww.semanticweb.orghandsongrp16callejero#EstaEnDistrito,
+              target {
+                nodeType cell-as-resource,
+                expression value,
+                isRowNumberCell false,
+                columnName Distrito,
+                rdfTypes [
+                  {
+                    uri httpwww.semanticweb.orghandsongrp16callejero#Distrito,
+                    curie httpwww.semanticweb.orghandsongrp16callejero#Distrito
+                  }
+                ],
+                links []
+              }
+            },
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#TieneSuperficie,
+              curie httpwww.semanticweb.orghandsongrp16callejero#TieneSuperficie,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                valueType httpwww.w3.org2001XMLSchema#int,
+                columnName Superficie (m2)
+              }
+            },
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#TienePerimetro,
+              curie httpwww.semanticweb.orghandsongrp16callejero#TienePerimetro,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                valueType httpwww.w3.org2001XMLSchema#int,
+                columnName Perimetro (m)
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    op rdf-extensionsave-rdf-schema,
+    description Save RDF schema skeleton,
+    schema {
+      baseUri httpwww.semanticweb.orghandsongrp16callejero#,
+      prefixes [
+        {
+          name rdf,
+          uri httpwww.w3.org19990222-rdf-syntax-ns#
+        },
+        {
+          name owl,
+          uri httpwww.w3.org200207owl#
+        },
+        {
+          name xsd,
+          uri httpwww.w3.org2001XMLSchema#
+        },
+        {
+          name rdfs,
+          uri httpwww.w3.org200001rdf-schema#
+        },
+        {
+          name foaf,
+          uri httpxmlns.comfoaf0.1
+        }
+      ],
+      rootNodes [
+        {
+          nodeType cell-as-resource,
+          expression value,
+          isRowNumberCell false,
+          columnName Nombre de barrio,
+          rdfTypes [
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#Barrio,
+              curie httpwww.semanticweb.orghandsongrp16callejero#Barrio
+            }
+          ],
+          links [
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#EstaEnDistrito,
+              curie httpwww.semanticweb.orghandsongrp16callejero#EstaEnDistrito,
+              target {
+                nodeType cell-as-resource,
+                expression value,
+                isRowNumberCell false,
+                columnName Distrito,
+                rdfTypes [
+                  {
+                    uri httpwww.semanticweb.orghandsongrp16callejero#Distrito,
+                    curie httpwww.semanticweb.orghandsongrp16callejero#Distrito
+                  }
+                ],
+                links []
+              }
+            },
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#TieneSuperficie,
+              curie httpwww.semanticweb.orghandsongrp16callejero#TieneSuperficie,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                valueType httpwww.w3.org2001XMLSchema#int,
+                columnName Superficie (m2)
+              }
+            },
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#TienePerimetro,
+              curie httpwww.semanticweb.orghandsongrp16callejero#TienePerimetro,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                valueType httpwww.w3.org2001XMLSchema#int,
+                columnName Perimetro (m)
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column Nombre de barrio to type Q10267336,
+    columnName Nombre de barrio,
+    config {
+      mode standard-service,
+      service httpstools.wmflabs.orgopenrefine-wikidataenapi,
+      identifierSpace httpwww.wikidata.orgentity,
+      schemaSpace httpwww.wikidata.orgpropdirect,
+      type {
+        id Q10267336,
+        name neighborhood of Madrid
+      },
+      autoMatch true,
+      columnDetails [],
+      limit 0
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corecolumn-addition,
+    description Create column schemabarrio at index 3 based on column Nombre de barrio using expression grelhttpswww.wikidata.orgwiki+cell.recon.match.id,
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    newColumnName schemabarrio,
+    columnInsertIndex 3,
+    baseColumnName Nombre de barrio,
+    expression grelhttpswww.wikidata.orgwiki+cell.recon.match.id,
+    onError set-to-blank
+  },
+  {
+    op rdf-extensionsave-rdf-schema,
+    description Save RDF schema skeleton,
+    schema {
+      baseUri httpwww.semanticweb.orghandsongrp16callejero#,
+      prefixes [
+        {
+          name rdf,
+          uri httpwww.w3.org19990222-rdf-syntax-ns#
+        },
+        {
+          name owl,
+          uri httpwww.w3.org200207owl#
+        },
+        {
+          name xsd,
+          uri httpwww.w3.org2001XMLSchema#
+        },
+        {
+          name rdfs,
+          uri httpwww.w3.org200001rdf-schema#
+        },
+        {
+          name foaf,
+          uri httpxmlns.comfoaf0.1
+        }
+      ],
+      rootNodes [
+        {
+          nodeType cell-as-resource,
+          expression value,
+          isRowNumberCell false,
+          columnName Nombre de barrio,
+          rdfTypes [
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#Barrio,
+              curie httpwww.semanticweb.orghandsongrp16callejero#Barrio
+            }
+          ],
+          links [
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#EstaEnDistrito,
+              curie httpwww.semanticweb.orghandsongrp16callejero#EstaEnDistrito,
+              target {
+                nodeType cell-as-resource,
+                expression value,
+                isRowNumberCell false,
+                columnName Distrito,
+                rdfTypes [
+                  {
+                    uri httpwww.semanticweb.orghandsongrp16callejero#Distrito,
+                    curie httpwww.semanticweb.orghandsongrp16callejero#Distrito
+                  }
+                ],
+                links []
+              }
+            },
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#TieneSuperficie,
+              curie httpwww.semanticweb.orghandsongrp16callejero#TieneSuperficie,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                valueType httpwww.w3.org2001XMLSchema#int,
+                columnName Superficie (m2)
+              }
+            },
+            {
+              uri httpwww.semanticweb.orghandsongrp16callejero#TienePerimetro,
+              curie httpwww.semanticweb.orghandsongrp16callejero#TienePerimetro,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                valueType httpwww.w3.org2001XMLSchema#int,
+                columnName Perimetro (m)
+              }
+            },
+            {
+              uri httpwww.w3.org200207owl#sameAs,
+              curie owlsameAs,
+              target {
+                nodeType cell-as-resource,
+                expression value,
+                isRowNumberCell false,
+                columnName schemabarrio,
+                rdfTypes [],
+                links []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
