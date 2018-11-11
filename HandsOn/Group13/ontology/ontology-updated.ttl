@@ -48,7 +48,7 @@ property:fecha_alta km:lastUpdate rdf:type .
 property:address km:otherStreetAddress rdf:type .
 property:latitud geo:lat rdf:type .
 property:longitud geo:long rdf:type .
-
+geo:SpatialThing rdf:type owl:Class .
 
 
 
