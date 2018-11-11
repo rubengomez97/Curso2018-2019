@@ -5,7 +5,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <http://www.semanticweb.org/handson/grp16/> .
-
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+@prefix ns: <http://www.w3.org/2006/vcard/ns#>.
 
 <http://www.semanticweb.org/handson/grp16/> rdf:type owl:Ontology ;
 
@@ -114,23 +115,21 @@
                       rdfs:domain :Direccion ;
 				      rdfs:range xsd:string .
 										  
-###  http://www.semanticweb.org/handson/grp16/callejero#TieneLatitud
-:TieneLatitud        rdf:type owl:DatatypeProperty ;
+###  http://www.w3.org/2003/01/geo/wgs84_pos#
+:lat        		 rdf:type owl:DatatypeProperty ;
                      rdfs:domain :Direccion ;
 				     rdfs:range xsd: string.
-					 					  
-					  
-###  http://www.semanticweb.org/handson/grp16/callejero#TieneLongitud
-:TieneLongitud       rdf:type owl:DatatypeProperty ;
+					 					  				  
+###  http://www.w3.org/2003/01/geo/wgs84_pos#
+geo:long        	 rdf:type owl:DatatypeProperty ;
                      rdfs:domain :Direccion ;
 				     rdfs:range xsd: string.
-
-:codigo-postal rdf:type owl:DatatypeProperty ;
+###  http://www.w3.org/2006/vcard/ns#postal-code
+ns:postal-code 		 rdf:type owl:DatatypeProperty ;
     				 rdfs:domain :Distrito ;
-				     rdfs:range xsd: integer.
-    				 rdfs:isDefinedBy <http://www.w3.org/2006/vcard/ns> ;
-   			     
-
+				     rdfs:range xsd: string.
+    				 
+   			   
 #################################################################
 #    General axioms
 #################################################################
