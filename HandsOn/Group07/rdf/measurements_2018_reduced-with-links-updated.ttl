@@ -1,3 +1,4 @@
+# Only a small part of the entries are included in this file (each of them includes approximately 65000 entries. Here only a few of them are represented). Furthermore, there is one ttl file for each year since 2004.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix property: <http://www.group07.linkeddata.org/property#> .
