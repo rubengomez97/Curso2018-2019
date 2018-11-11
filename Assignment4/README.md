@@ -20,7 +20,7 @@ How to answer SPARQL queries over stadistics CSV(s) without transforming them to
 
 
 ## What do I have to upload?
-One folder (name-nºmatricula) with:
+One folder (Name-StudentID) with:
 - The mappings from Assignment 4.1 and 4.2, please name each file as: "Mapping-Assing[1|2].ttl"
 - The queries from Assignment 4.1 and 4.2, please name each file as: "Query[1|2|3]-Assing[1|2].rq"
 - The results from the queries and the full RDF, please name each file as "Result[1|2|3|4(RDF)]-Assign[1|2].[xml|nt]"
