@@ -13,7 +13,7 @@ How to answer manage CSV(s) without transforming them to RDF:
 
 ## Asignment 4.2: RMLC-Statistics
 How to answer SPARQL queries over stadistics CSV(s) without transforming them to RDF:
-- Create a mapping based on a statistics CSV and the RMLC-Iterator proposal
+- Create a mapping based on eurostats statistics CSV and the RMLC-Iterator proposal
 - Generate 2 different SPARQL queries and execute using rmlc-iterator
 - Generate the full RDF from the CSVs.
 
