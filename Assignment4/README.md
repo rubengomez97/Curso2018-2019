@@ -3,20 +3,19 @@ This assignment is not mandatory
 
 ## Requirements:
 - Java installed
-- Learn  how to use the command line with morph-rdb (Slides) and [rmlc-iterator](https://github.com/oeg-upm/rmlc-statistic/blob/master/README.md)
+- Clone the repositories and install [morph-rdb](https://github.com/oeg-upm/morph-rdb) and [rmlc-iterator](https://github.com/oeg-upm/rmlc-statistic/)
 
-## Asignment 4.1:
+## Asignment 4.1: Morph-RDB
 How to answer manage CSV(s) without transforming them to RDF:
-- Create the mapping based on R2RML and the CSV provide
-- Generate 3 different SPARQL queries and execute using morph-rdb jar
-- Generate the full RDF from the CSVs.
+- Create a mapping based on R2RML and a CSV(s).
+- Generate 2 different SPARQL queries and execute using morph-rdb
+- Generate the full RDF from the CSV(s).
 
-## Asignment 4.2:
+## Asignment 4.2: RMLC-Statistics
 How to answer SPARQL queries over stadistics CSV(s) without transforming them to RDF:
-- Create the mapping based on the provided CSV and the RMLC-Iterator proposal
-- Generate 3 different SPARQL queries and execute using rmlc-iterator jar
+- Create a mapping based on a statistics CSV and the RMLC-Iterator proposal
+- Generate 2 different SPARQL queries and execute using rmlc-iterator
 - Generate the full RDF from the CSVs.
-
 
 
 ## What do I have to upload?
