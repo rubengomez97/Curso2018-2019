@@ -2,7 +2,7 @@
 This assignment is not mandatory
 
 ## Requirements:
-- Java installed
+- Java and Maven installed
 - Clone the repositories and install [morph-rdb](https://github.com/oeg-upm/morph-rdb) and [rmlc-iterator](https://github.com/oeg-upm/rmlc-statistic/)
 
 ## Asignment 4.1: Morph-RDB
