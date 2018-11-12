@@ -7,8 +7,8 @@ This assignment is not mandatory
 
 ## Asignment 4.1: Morph-RDB
 How to answer manage CSV(s) without transforming them to RDF:
-- Create a mapping based on R2RML and a CSV(s).
-- Generate 2 different SPARQL queries and execute using morph-rdb
+- Create a mapping based on R2RML and the Students-Sports CSV(s).
+- Generate 2 different SPARQL queries and execute using morph-rdb.
 - Generate the full RDF from the CSV(s).
 
 ## Asignment 4.2: RMLC-Statistics
