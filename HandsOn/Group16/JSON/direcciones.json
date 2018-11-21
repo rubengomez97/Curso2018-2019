@@ -1,0 +1,1726 @@
+[
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "CARRERA",
+                "l": "CARRERA"
+              }
+            },
+            {
+              "v": {
+                "v": "PASAJE",
+                "l": "PASAJE"
+              }
+            },
+            {
+              "v": {
+                "v": "PLAZUELA",
+                "l": "PLAZUELA"
+              }
+            },
+            {
+              "v": {
+                "v": "RONDA",
+                "l": "RONDA"
+              }
+            },
+            {
+              "v": {
+                "v": "PUENTE",
+                "l": "PUENTE"
+              }
+            },
+            {
+              "v": {
+                "v": "BULEVAR",
+                "l": "BULEVAR"
+              }
+            },
+            {
+              "v": {
+                "v": "GLORIETA",
+                "l": "GLORIETA"
+              }
+            },
+            {
+              "v": {
+                "v": "PASADIZO",
+                "l": "PASADIZO"
+              }
+            },
+            {
+              "v": {
+                "v": "AUTOPISTA",
+                "l": "AUTOPISTA"
+              }
+            },
+            {
+              "v": {
+                "v": "ACCESO",
+                "l": "ACCESO"
+              }
+            },
+            {
+              "v": {
+                "v": "AUTOVÍA",
+                "l": "AUTOVÍA"
+              }
+            },
+            {
+              "v": {
+                "v": "CAÑADA",
+                "l": "CAÑADA"
+              }
+            },
+            {
+              "v": {
+                "v": "GALERÍA",
+                "l": "GALERÍA"
+              }
+            },
+            {
+              "v": {
+                "v": "PASEO",
+                "l": "PASEO"
+              }
+            },
+            {
+              "v": {
+                "v": "COSTANILLA",
+                "l": "COSTANILLA"
+              }
+            },
+            {
+              "v": {
+                "v": "CUESTA",
+                "l": "CUESTA"
+              }
+            },
+            {
+              "v": {
+                "v": "PISTA",
+                "l": "PISTA"
+              }
+            },
+            {
+              "v": {
+                "v": "CARRETERA",
+                "l": "CARRETERA"
+              }
+            },
+            {
+              "v": {
+                "v": "CAMINO",
+                "l": "CAMINO"
+              }
+            },
+            {
+              "v": {
+                "v": "PARTICULAR",
+                "l": "PARTICULAR"
+              }
+            },
+            {
+              "v": {
+                "v": "CALLEJÓN",
+                "l": "CALLEJÓN"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "VIA_CLASE",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "VIA_CLASE"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PLAZA",
+                "l": "PLAZA"
+              }
+            },
+            {
+              "v": {
+                "v": "CARRERA",
+                "l": "CARRERA"
+              }
+            },
+            {
+              "v": {
+                "v": "PASAJE",
+                "l": "PASAJE"
+              }
+            },
+            {
+              "v": {
+                "v": "PLAZUELA",
+                "l": "PLAZUELA"
+              }
+            },
+            {
+              "v": {
+                "v": "RONDA",
+                "l": "RONDA"
+              }
+            },
+            {
+              "v": {
+                "v": "PUENTE",
+                "l": "PUENTE"
+              }
+            },
+            {
+              "v": {
+                "v": "BULEVAR",
+                "l": "BULEVAR"
+              }
+            },
+            {
+              "v": {
+                "v": "GLORIETA",
+                "l": "GLORIETA"
+              }
+            },
+            {
+              "v": {
+                "v": "PASADIZO",
+                "l": "PASADIZO"
+              }
+            },
+            {
+              "v": {
+                "v": "AUTOPISTA",
+                "l": "AUTOPISTA"
+              }
+            },
+            {
+              "v": {
+                "v": "ACCESO",
+                "l": "ACCESO"
+              }
+            },
+            {
+              "v": {
+                "v": "AUTOVÍA",
+                "l": "AUTOVÍA"
+              }
+            },
+            {
+              "v": {
+                "v": "CAÑADA",
+                "l": "CAÑADA"
+              }
+            },
+            {
+              "v": {
+                "v": "GALERÍA",
+                "l": "GALERÍA"
+              }
+            },
+            {
+              "v": {
+                "v": "PASEO",
+                "l": "PASEO"
+              }
+            },
+            {
+              "v": {
+                "v": "COSTANILLA",
+                "l": "COSTANILLA"
+              }
+            },
+            {
+              "v": {
+                "v": "CUESTA",
+                "l": "CUESTA"
+              }
+            },
+            {
+              "v": {
+                "v": "PISTA",
+                "l": "PISTA"
+              }
+            },
+            {
+              "v": {
+                "v": "CARRETERA",
+                "l": "CARRETERA"
+              }
+            },
+            {
+              "v": {
+                "v": "CAMINO",
+                "l": "CAMINO"
+              }
+            },
+            {
+              "v": {
+                "v": "PARTICULAR",
+                "l": "PARTICULAR"
+              }
+            },
+            {
+              "v": {
+                "v": "CALLEJÓN",
+                "l": "CALLEJÓN"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "VIA_CLASE",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "VIA_CLASE"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COD_NDP",
+    "columnName": "COD_NDP"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column REALNAME at index 2 based on column VIA_CLASE using expression grel:value + \" \" + cells[\"VIA_PAR\"].value + \" \" + cells[\"VIA_NOMBRE_ACENTOS\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "REALNAME",
+    "columnInsertIndex": 2,
+    "baseColumnName": "VIA_CLASE",
+    "expression": "grel:value + \" \" + cells[\"VIA_PAR\"].value + \" \" + cells[\"VIA_NOMBRE_ACENTOS\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column NOMBREDIR at index 3 based on column REALNAME using expression grel:value + \"-\" + cells[\"NUMERO\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "NOMBREDIR",
+    "columnInsertIndex": 3,
+    "baseColumnName": "REALNAME",
+    "expression": "grel:value + \"-\" + cells[\"NUMERO\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column REALBARRIO at index 12 based on column DISTRITO using expression grel:value + cells[\"BARRIO\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "REALBARRIO",
+    "columnInsertIndex": 12,
+    "baseColumnName": "DISTRITO",
+    "expression": "grel:value + cells[\"BARRIO\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column NOMBREBARRIO at index 13 based on column REALBARRIO using expression grel:cell.cross(\"sss\", \"REAL\")[0].cells[\"Nombre de barrio\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "NOMBREBARRIO",
+    "columnInsertIndex": 13,
+    "baseColumnName": "REALBARRIO",
+    "expression": "grel:cell.cross(\"sss\", \"REAL\")[0].cells[\"Nombre de barrio\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/handson/grp16/callejero#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBREDIR",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#Direccion",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#Direccion"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnCalle",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnCalle",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "REALNAME",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/handson/grp16/callejero#Calle",
+                    "curie": "http://www.semanticweb.org/handson/grp16/callejero#Calle"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/handson/grp16/callejero#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBREDIR",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#Direccion",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#Direccion"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnCalle",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnCalle",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "REALNAME",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/handson/grp16/callejero#Calle",
+                    "curie": "http://www.semanticweb.org/handson/grp16/callejero#Calle"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnBarrio",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnBarrio",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBREBARRIO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/handson/grp16/callejero#Barrio",
+                    "curie": "http://www.semanticweb.org/handson/grp16/callejero#Barrio"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#NumeroDireccion",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#NumeroDireccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUMERO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#CP",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#CP",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COD_POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#latitud",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#longitud",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LONGITUD"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NOMBREDIR using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBREDIR",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/handson/grp16/callejero#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBREDIR",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#Direccion",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#Direccion"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnCalle",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnCalle",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "REALNAME",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/handson/grp16/callejero#Calle",
+                    "curie": "http://www.semanticweb.org/handson/grp16/callejero#Calle"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnBarrio",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnBarrio",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBREBARRIO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/handson/grp16/callejero#Barrio",
+                    "curie": "http://www.semanticweb.org/handson/grp16/callejero#Barrio"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#NumeroDireccion",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#NumeroDireccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUMERO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#CP",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#CP",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COD_POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#latitud",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#longitud",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LONGITUD"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NOMBREBARRIO using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBREBARRIO",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NOMBREDIR using expression grel:replace(value,\"Á\",\"A\")\nreplace(value,\"É\",\"E\")\nreplace(value,\"Í\",\"I\")\nreplace(value,\"Ó\",\"O\")\nreplace(value,\"Ú\",\"U\")\nreplace(value,\"-\",\" \")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBREDIR",
+    "expression": "grel:replace(value,\"Á\",\"A\")\nreplace(value,\"É\",\"E\")\nreplace(value,\"Í\",\"I\")\nreplace(value,\"Ó\",\"O\")\nreplace(value,\"Ú\",\"U\")\nreplace(value,\"-\",\" \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column REALNAME using expression grel:replace(value,\"Á\",\"A\")\nreplace(value,\"É\",\"E\")\nreplace(value,\"Í\",\"I\")\nreplace(value,\"Ó\",\"O\")\nreplace(value,\"Ú\",\"U\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "REALNAME",
+    "expression": "grel:replace(value,\"Á\",\"A\")\nreplace(value,\"É\",\"E\")\nreplace(value,\"Í\",\"I\")\nreplace(value,\"Ó\",\"O\")\nreplace(value,\"Ú\",\"U\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column DIRECCIONBUENA at index 3 based on column REALNAME using expression grel:value + \" \" + cells[\"NUMERO\"].value + \",\" +\" Madrid\" +  \",\" +\" España\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "DIRECCIONBUENA",
+    "columnInsertIndex": 3,
+    "baseColumnName": "REALNAME",
+    "expression": "grel:value + \" \" + cells[\"NUMERO\"].value + \",\" +\" Madrid\" +  \",\" +\" España\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column DIRECCIONBUENA using expression grel:replace(value,\", España\",\"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DIRECCIONBUENA",
+    "expression": "grel:replace(value,\", España\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": true,
+          "selection": [
+            {
+              "v": {
+                "v": "CASA DE CAMPO",
+                "l": "CASA DE CAMPO"
+              }
+            },
+            {
+              "v": {
+                "v": "EL PILAR",
+                "l": "EL PILAR"
+              }
+            },
+            {
+              "v": {
+                "v": "VILLAVERDE ALTO C.H.",
+                "l": "VILLAVERDE ALTO C.H."
+              }
+            },
+            {
+              "v": {
+                "v": "COSTILLARES",
+                "l": "COSTILLARES"
+              }
+            },
+            {
+              "v": {
+                "v": "CORTES",
+                "l": "CORTES"
+              }
+            },
+            {
+              "v": {
+                "v": "CIUDAD JARDIN",
+                "l": "CIUDAD JARDIN"
+              }
+            },
+            {
+              "v": {
+                "v": "LA PAZ",
+                "l": "LA PAZ"
+              }
+            },
+            {
+              "v": {
+                "v": "CASTILLEJOS",
+                "l": "CASTILLEJOS"
+              }
+            },
+            {
+              "v": {
+                "v": "RIOS ROSAS",
+                "l": "RIOS ROSAS"
+              }
+            },
+            {
+              "v": {
+                "v": "SAN DIEGO",
+                "l": "SAN DIEGO"
+              }
+            },
+            {
+              "v": {
+                "v": "VENTAS",
+                "l": "VENTAS"
+              }
+            },
+            {
+              "v": {
+                "v": "EL GOLOSO",
+                "l": "EL GOLOSO"
+              }
+            },
+            {
+              "v": {
+                "v": "ENTREVIAS",
+                "l": "ENTREVIAS"
+              }
+            },
+            {
+              "v": {
+                "v": "PRADOLONGO",
+                "l": "PRADOLONGO"
+              }
+            },
+            {
+              "v": {
+                "v": "HISPANOAMERICA",
+                "l": "HISPANOAMERICA"
+              }
+            },
+            {
+              "v": {
+                "v": "QUINTANA",
+                "l": "QUINTANA"
+              }
+            },
+            {
+              "v": {
+                "v": "VALDERRIVAS",
+                "l": "VALDERRIVAS"
+              }
+            },
+            {
+              "v": {
+                "v": "ARGUELLES",
+                "l": "ARGUELLES"
+              }
+            },
+            {
+              "v": {
+                "v": "LOS ANGELES",
+                "l": "LOS ANGELES"
+              }
+            },
+            {
+              "v": {
+                "v": "NUEVA ESPAÑA",
+                "l": "NUEVA ESPAÑA"
+              }
+            },
+            {
+              "v": {
+                "v": "CONCEPCION",
+                "l": "CONCEPCION"
+              }
+            },
+            {
+              "v": {
+                "v": "ATALAYA",
+                "l": "ATALAYA"
+              }
+            },
+            {
+              "v": {
+                "v": "ABRANTES",
+                "l": "ABRANTES"
+              }
+            },
+            {
+              "v": {
+                "v": "CANILLEJAS",
+                "l": "CANILLEJAS"
+              }
+            },
+            {
+              "v": {
+                "v": "ARCOS",
+                "l": "ARCOS"
+              }
+            },
+            {
+              "v": {
+                "v": "LOS JERONIMOS",
+                "l": "LOS JERONIMOS"
+              }
+            },
+            {
+              "v": {
+                "v": "ATOCHA",
+                "l": "ATOCHA"
+              }
+            },
+            {
+              "v": {
+                "v": "LAS AGUILAS",
+                "l": "LAS AGUILAS"
+              }
+            },
+            {
+              "v": {
+                "v": "LISTA",
+                "l": "LISTA"
+              }
+            },
+            {
+              "v": {
+                "v": "COMILLAS",
+                "l": "COMILLAS"
+              }
+            },
+            {
+              "v": {
+                "v": "PINAR DEL REY",
+                "l": "PINAR DEL REY"
+              }
+            },
+            {
+              "v": {
+                "v": "EL PARDO",
+                "l": "EL PARDO"
+              }
+            },
+            {
+              "v": {
+                "v": "CASTELLANA",
+                "l": "CASTELLANA"
+              }
+            },
+            {
+              "v": {
+                "v": "MARROQUINA",
+                "l": "MARROQUINA"
+              }
+            },
+            {
+              "v": {
+                "v": "BUENAVISTA",
+                "l": "BUENAVISTA"
+              }
+            },
+            {
+              "v": {
+                "v": "VALVERDE",
+                "l": "VALVERDE"
+              }
+            },
+            {
+              "v": {
+                "v": "VISTA ALEGRE",
+                "l": "VISTA ALEGRE"
+              }
+            },
+            {
+              "v": {
+                "v": "ALAMEDA DE OSUNA",
+                "l": "ALAMEDA DE OSUNA"
+              }
+            },
+            {
+              "v": {
+                "v": "CUATRO VIENTOS",
+                "l": "CUATRO VIENTOS"
+              }
+            },
+            {
+              "v": {
+                "v": "BERRUGUETE",
+                "l": "BERRUGUETE"
+              }
+            },
+            {
+              "v": {
+                "v": "PACIFICO",
+                "l": "PACIFICO"
+              }
+            },
+            {
+              "v": {
+                "v": "CASCO H.VALLECAS",
+                "l": "CASCO H.VALLECAS"
+              }
+            },
+            {
+              "v": {
+                "v": "REJAS",
+                "l": "REJAS"
+              }
+            },
+            {
+              "v": {
+                "v": "ARAPILES",
+                "l": "ARAPILES"
+              }
+            },
+            {
+              "v": {
+                "v": "CASCO H.VICALVARO",
+                "l": "CASCO H.VICALVARO"
+              }
+            },
+            {
+              "v": {
+                "v": "IBIZA",
+                "l": "IBIZA"
+              }
+            },
+            {
+              "v": {
+                "v": "FUENTELARREINA",
+                "l": "FUENTELARREINA"
+              }
+            },
+            {
+              "v": {
+                "v": "LUCERO",
+                "l": "LUCERO"
+              }
+            },
+            {
+              "v": {
+                "v": "UNIVERSIDAD",
+                "l": "UNIVERSIDAD"
+              }
+            },
+            {
+              "v": {
+                "v": "ESTRELLA",
+                "l": "ESTRELLA"
+              }
+            },
+            {
+              "v": {
+                "v": "NIÑO JESUS",
+                "l": "NIÑO JESUS"
+              }
+            },
+            {
+              "v": {
+                "v": "RECOLETOS",
+                "l": "RECOLETOS"
+              }
+            },
+            {
+              "v": {
+                "v": "TRAFALGAR",
+                "l": "TRAFALGAR"
+              }
+            },
+            {
+              "v": {
+                "v": "CAMPAMENTO",
+                "l": "CAMPAMENTO"
+              }
+            },
+            {
+              "v": {
+                "v": "CASTILLA",
+                "l": "CASTILLA"
+              }
+            },
+            {
+              "v": {
+                "v": "FUENTE DEL BERRO",
+                "l": "FUENTE DEL BERRO"
+              }
+            },
+            {
+              "v": {
+                "v": "DELICIAS",
+                "l": "DELICIAS"
+              }
+            },
+            {
+              "v": {
+                "v": "APOSTOL SANTIAGO",
+                "l": "APOSTOL SANTIAGO"
+              }
+            },
+            {
+              "v": {
+                "v": "SAN PASCUAL",
+                "l": "SAN PASCUAL"
+              }
+            },
+            {
+              "v": {
+                "v": "ARAVACA",
+                "l": "ARAVACA"
+              }
+            },
+            {
+              "v": {
+                "v": "PAVONES",
+                "l": "PAVONES"
+              }
+            },
+            {
+              "v": {
+                "v": "CANILLAS",
+                "l": "CANILLAS"
+              }
+            },
+            {
+              "v": {
+                "v": "SAN CRISTOBAL",
+                "l": "SAN CRISTOBAL"
+              }
+            },
+            {
+              "v": {
+                "v": "GAZTAMBIDE",
+                "l": "GAZTAMBIDE"
+              }
+            },
+            {
+              "v": {
+                "v": "JUSTICIA",
+                "l": "JUSTICIA"
+              }
+            },
+            {
+              "v": {
+                "v": "CIUDAD UNIVERSITARIA",
+                "l": "CIUDAD UNIVERSITARIA"
+              }
+            },
+            {
+              "v": {
+                "v": "CASCO H.BARAJAS",
+                "l": "CASCO H.BARAJAS"
+              }
+            },
+            {
+              "v": {
+                "v": "ALMENARA",
+                "l": "ALMENARA"
+              }
+            },
+            {
+              "v": {
+                "v": "EL VISO",
+                "l": "EL VISO"
+              }
+            },
+            {
+              "v": {
+                "v": "NUMANCIA",
+                "l": "NUMANCIA"
+              }
+            },
+            {
+              "v": {
+                "v": "PUERTA BONITA",
+                "l": "PUERTA BONITA"
+              }
+            },
+            {
+              "v": {
+                "v": "PALOS DE MOGUER",
+                "l": "PALOS DE MOGUER"
+              }
+            },
+            {
+              "v": {
+                "v": "MIRASIERRA",
+                "l": "MIRASIERRA"
+              }
+            },
+            {
+              "v": {
+                "v": "ACACIAS",
+                "l": "ACACIAS"
+              }
+            },
+            {
+              "v": {
+                "v": "GUINDALERA",
+                "l": "GUINDALERA"
+              }
+            },
+            {
+              "v": {
+                "v": "COLINA",
+                "l": "COLINA"
+              }
+            },
+            {
+              "v": {
+                "v": "ZOFIO",
+                "l": "ZOFIO"
+              }
+            },
+            {
+              "v": {
+                "v": "EMBAJADORES",
+                "l": "EMBAJADORES"
+              }
+            },
+            {
+              "v": {
+                "v": "ORCASITAS",
+                "l": "ORCASITAS"
+              }
+            },
+            {
+              "v": {
+                "v": "PIOVERA",
+                "l": "PIOVERA"
+              }
+            },
+            {
+              "v": {
+                "v": "AMPOSTA",
+                "l": "AMPOSTA"
+              }
+            },
+            {
+              "v": {
+                "v": "VALDEFUENTES",
+                "l": "VALDEFUENTES"
+              }
+            },
+            {
+              "v": {
+                "v": "TIMON",
+                "l": "TIMON"
+              }
+            },
+            {
+              "v": {
+                "v": "VALDEBERNARDO",
+                "l": "VALDEBERNARDO"
+              }
+            },
+            {
+              "v": {
+                "v": "AEROPUERTO",
+                "l": "AEROPUERTO"
+              }
+            },
+            {
+              "v": {
+                "v": "FONTARRON",
+                "l": "FONTARRON"
+              }
+            },
+            {
+              "v": {
+                "v": "BUTARQUE",
+                "l": "BUTARQUE"
+              }
+            },
+            {
+              "v": {
+                "v": "VALDEACEDERAS",
+                "l": "VALDEACEDERAS"
+              }
+            },
+            {
+              "v": {
+                "v": "PROSPERIDAD",
+                "l": "PROSPERIDAD"
+              }
+            },
+            {
+              "v": {
+                "v": "SANTA EUGENIA",
+                "l": "SANTA EUGENIA"
+              }
+            },
+            {
+              "v": {
+                "v": "EL PLANTIO",
+                "l": "EL PLANTIO"
+              }
+            },
+            {
+              "v": {
+                "v": "VALDEZARZA",
+                "l": "VALDEZARZA"
+              }
+            },
+            {
+              "v": {
+                "v": "PUERTA DEL ANGEL",
+                "l": "PUERTA DEL ANGEL"
+              }
+            },
+            {
+              "v": {
+                "v": "PALOMERAS BAJAS",
+                "l": "PALOMERAS BAJAS"
+              }
+            },
+            {
+              "v": {
+                "v": "PALOMAS",
+                "l": "PALOMAS"
+              }
+            },
+            {
+              "v": {
+                "v": "VINATEROS",
+                "l": "VINATEROS"
+              }
+            },
+            {
+              "v": {
+                "v": "ADELFAS",
+                "l": "ADELFAS"
+              }
+            },
+            {
+              "v": {
+                "v": "ROSAS",
+                "l": "ROSAS"
+              }
+            },
+            {
+              "v": {
+                "v": "VALDEMARIN",
+                "l": "VALDEMARIN"
+              }
+            },
+            {
+              "v": {
+                "v": "MEDIA LEGUA",
+                "l": "MEDIA LEGUA"
+              }
+            },
+            {
+              "v": {
+                "v": "SAN FERMIN",
+                "l": "SAN FERMIN"
+              }
+            },
+            {
+              "v": {
+                "v": "ORCASUR",
+                "l": "ORCASUR"
+              }
+            },
+            {
+              "v": {
+                "v": "PUEBLO NUEVO",
+                "l": "PUEBLO NUEVO"
+              }
+            },
+            {
+              "v": {
+                "v": "VALLEHERMOSO",
+                "l": "VALLEHERMOSO"
+              }
+            },
+            {
+              "v": {
+                "v": "EL CAÑAVERAL",
+                "l": "EL CAÑAVERAL"
+              }
+            },
+            {
+              "v": {
+                "v": "CORRALEJOS",
+                "l": "CORRALEJOS"
+              }
+            },
+            {
+              "v": {
+                "v": "GOYA",
+                "l": "GOYA"
+              }
+            },
+            {
+              "v": {
+                "v": "SIMANCAS",
+                "l": "SIMANCAS"
+              }
+            },
+            {
+              "v": {
+                "v": "IMPERIAL",
+                "l": "IMPERIAL"
+              }
+            },
+            {
+              "v": {
+                "v": "MOSCARDO",
+                "l": "MOSCARDO"
+              }
+            },
+            {
+              "v": {
+                "v": "BELLAS VISTAS",
+                "l": "BELLAS VISTAS"
+              }
+            },
+            {
+              "v": {
+                "v": "SAN JUAN BAUTISTA",
+                "l": "SAN JUAN BAUTISTA"
+              }
+            },
+            {
+              "v": {
+                "v": "ALMAGRO",
+                "l": "ALMAGRO"
+              }
+            },
+            {
+              "v": {
+                "v": "ALMENDRALES",
+                "l": "ALMENDRALES"
+              }
+            },
+            {
+              "v": {
+                "v": "PALACIO",
+                "l": "PALACIO"
+              }
+            },
+            {
+              "v": {
+                "v": "PALOMERAS SURESTE",
+                "l": "PALOMERAS SURESTE"
+              }
+            },
+            {
+              "v": {
+                "v": "ENSANCHE DE VALLECAS",
+                "l": "ENSANCHE DE VALLECAS"
+              }
+            },
+            {
+              "v": {
+                "v": "OPAÑEL",
+                "l": "OPAÑEL"
+              }
+            },
+            {
+              "v": {
+                "v": "HELLIN",
+                "l": "HELLIN"
+              }
+            },
+            {
+              "v": {
+                "v": "CUATRO CAMINOS",
+                "l": "CUATRO CAMINOS"
+              }
+            },
+            {
+              "v": {
+                "v": "CHOPERA",
+                "l": "CHOPERA"
+              }
+            },
+            {
+              "v": {
+                "v": "PORTAZGO",
+                "l": "PORTAZGO"
+              }
+            },
+            {
+              "v": {
+                "v": "PEÑA GRANDE",
+                "l": "PEÑA GRANDE"
+              }
+            },
+            {
+              "v": {
+                "v": "EL SALVADOR",
+                "l": "EL SALVADOR"
+              }
+            },
+            {
+              "v": {
+                "v": "ALUCHE",
+                "l": "ALUCHE"
+              }
+            },
+            {
+              "v": {
+                "v": "SAN ISIDRO",
+                "l": "SAN ISIDRO"
+              }
+            },
+            {
+              "v": {
+                "v": "LOS CARMENES",
+                "l": "LOS CARMENES"
+              }
+            },
+            {
+              "v": {
+                "v": "HORCAJO",
+                "l": "HORCAJO"
+              }
+            },
+            {
+              "v": {
+                "v": "LOS ROSALES",
+                "l": "LOS ROSALES"
+              }
+            },
+            {
+              "v": {
+                "v": "LEGAZPI",
+                "l": "LEGAZPI"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBREBARRIO",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBREBARRIO"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column LATITUD to type Q319608",
+    "columnName": "LATITUD",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q319608",
+        "name": "address"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/handson/grp16/callejero#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBREDIR",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#Direccion",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#Direccion"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnCalle",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnCalle",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "REALNAME",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/handson/grp16/callejero#Calle",
+                    "curie": "http://www.semanticweb.org/handson/grp16/callejero#Calle"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnBarrio",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnBarrio",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBREBARRIO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/handson/grp16/callejero#Barrio",
+                    "curie": "http://www.semanticweb.org/handson/grp16/callejero#Barrio"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#NumeroDireccion",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#NumeroDireccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUMERO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#CP",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#CP",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COD_POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#latitud",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#longitud",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LONGITUD"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column REALNAME to type Q41176",
+    "columnName": "REALNAME",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q41176",
+        "name": "building"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column DIRECCIONBUENA to type null",
+    "columnName": "DIRECCIONBUENA",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": null,
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  }
+]

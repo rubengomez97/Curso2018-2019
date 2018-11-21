@@ -1,0 +1,1436 @@
+[
+  {
+    "op": "core/column-rename",
+    "description": "Rename column N� to Numero",
+    "oldColumnName": "N�",
+    "newColumnName": "Numero"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column FECHA to Fecha",
+    "oldColumnName": "FECHA",
+    "newColumnName": "Fecha"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column RANGO HORARIO to Rango Horario",
+    "oldColumnName": "RANGO HORARIO",
+    "newColumnName": "Rango Horario"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column DIA SEMANA to Dia Semana",
+    "oldColumnName": "DIA SEMANA",
+    "newColumnName": "Dia Semana"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column DISTRITO to Distrito",
+    "oldColumnName": "DISTRITO",
+    "newColumnName": "Distrito"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column LUGAR ACCIDENTE to Lugar Accidente",
+    "oldColumnName": "LUGAR ACCIDENTE",
+    "newColumnName": "Lugar Accidente"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column N� PARTE to Numero Parte",
+    "oldColumnName": "N� PARTE",
+    "newColumnName": "Numero Parte"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column *N� VICTIMAS to Numero Victimas",
+    "oldColumnName": "*N� VICTIMAS",
+    "newColumnName": "Numero Victimas"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TIPO ACCIDENTE to Tipo Accidente",
+    "oldColumnName": "TIPO ACCIDENTE",
+    "newColumnName": "Tipo Accidente"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TIPO PERSONA to Tipo Persona",
+    "oldColumnName": "TIPO PERSONA",
+    "newColumnName": "Tipo Persona"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column SEXO to Sexo",
+    "oldColumnName": "SEXO",
+    "newColumnName": "Sexo"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column LESIVIDAD to Lesividad",
+    "oldColumnName": "LESIVIDAD",
+    "newColumnName": "Lesividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tipo Accidente",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Accidente",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "COLISI�N DOBLE                          "
+        ],
+        "to": "COLISION DOBLE                          "
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tipo Accidente",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Accidente",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CA�DA MOTOCICLETA                       "
+        ],
+        "to": "CAIDA MOTOCICLETA                       "
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tipo Accidente",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Accidente",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CA�DA BICICLETA                         "
+        ],
+        "to": "CAIDA BICICLETA                         "
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tipo Accidente",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Accidente",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "COLISI�N M�LTIPLE                       "
+        ],
+        "to": "COLISION MULTIPLE                       "
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tramo Edad",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tramo Edad",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DE 30 A 34 ANOS"
+        ],
+        "to": "DE 30 A 34 ANIOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tramo Edad",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tramo Edad",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DE 25 A 29 A�OS"
+        ],
+        "to": "DE 25 A 29 ANIOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tramo Edad",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tramo Edad",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DE 40 A 44 A�OS"
+        ],
+        "to": "DE 40 A 44 ANIOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tramo Edad",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tramo Edad",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DE 50 A 54 A�OS"
+        ],
+        "to": "DE 50 A 54 ANIOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tramo Edad",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tramo Edad",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DE 35 A 39 A�OS"
+        ],
+        "to": "DE 35 A 39 ANIOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tramo Edad",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tramo Edad",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DE 45 A 49 A�OS"
+        ],
+        "to": "DE 45 A 49 ANIOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tramo Edad",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tramo Edad",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DE 18 A 20 A�OS"
+        ],
+        "to": "DE 18 A 20 ANIOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tramo Edad",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tramo Edad",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DE 65 A 69 A�OS"
+        ],
+        "to": "DE 65 A 69 ANIOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tramo Edad",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tramo Edad",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DE 21 A 24 A�OS"
+        ],
+        "to": "DE 21 A 24 ANIOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tramo Edad",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tramo Edad",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DE 55 A 59 A�OS"
+        ],
+        "to": "DE 55 A 59 ANIOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tramo Edad",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tramo Edad",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DE 60 A 64 A�OS"
+        ],
+        "to": "DE 60 A 64 ANIOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tramo Edad",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tramo Edad",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DE 10 A 14 A�OS"
+        ],
+        "to": "DE 10 A 14 ANIOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Lugar Accidente",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Lugar Accidente",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PASEO DEL FERNAN NU�EZ                                                                              "
+        ],
+        "to": "PASEO DEL FERNAN NUNIEZ                                                                              "
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tramo Edad",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tramo Edad",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DE 15 A 17 A�OS"
+        ],
+        "to": "DE 15 A 17 ANIOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Lugar Accidente",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Lugar Accidente",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "AVENIDA DE LUIS ARAGON�S - CALLE DE SAN HILARIO                                                     "
+        ],
+        "to": "AVENIDA DE LUIS ARAGONES - CALLE DE SAN HILARIO                                                     "
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Lugar Accidente",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Lugar Accidente",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE DE SIERRA GORDA - PLAZA DE JUAN DE MALASA�A                                                   "
+        ],
+        "to": "CALLE DE SIERRA GORDA - PLAZA DE JUAN DE MALASANIA                                                   "
+      }
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Fecha using expression grel:substring(value,0,lastIndexOf(value, \" \"))",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha",
+    "expression": "grel:substring(value,0,lastIndexOf(value, \" \"))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Rango Horario using expression grel:substring(value, 3,7)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "grel:substring(value, 3,7)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "13:0"
+        ],
+        "to": "13:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "15:0"
+        ],
+        "to": "15:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "12:0"
+        ],
+        "to": "12:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "22:0"
+        ],
+        "to": "22:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "8:00"
+        ],
+        "to": "8:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "9:00"
+        ],
+        "to": "9:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "20:0"
+        ],
+        "to": "20:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "16:0"
+        ],
+        "to": "16:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "14:0"
+        ],
+        "to": "14:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "11:0"
+        ],
+        "to": "11:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "1:00"
+        ],
+        "to": "1:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "21:0"
+        ],
+        "to": "21:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "17:0"
+        ],
+        "to": "17:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "19:0"
+        ],
+        "to": "19:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "18:0"
+        ],
+        "to": "18:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "2:00"
+        ],
+        "to": "2:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "5:00"
+        ],
+        "to": "5:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "4:00"
+        ],
+        "to": "4:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "3:00"
+        ],
+        "to": "3:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "7:00"
+        ],
+        "to": "7:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "10:0"
+        ],
+        "to": "10:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "23:0"
+        ],
+        "to": "23:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "6:00"
+        ],
+        "to": "6:30"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Rango Horario",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rango Horario",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "00:0"
+        ],
+        "to": "00:30"
+      }
+    ]
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Fechanueva at index 1 based on column Fecha using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "Fechanueva",
+    "columnInsertIndex": 1,
+    "baseColumnName": "Fecha",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Fechanueva using expression grel:value(\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fechanueva",
+    "expression": "grel:value(\"\")",
+    "onError": "set-to-blank",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Fechanueva using expression grel:cells[\"Fecha\"].value + \" \" +cells[\"Rango Horario\"].value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fechanueva",
+    "expression": "grel:cells[\"Fecha\"].value + \" \" +cells[\"Rango Horario\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Fechanueva using expression grel:value.toDate('dd/MM/yyyy hh:mm')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fechanueva",
+    "expression": "grel:value.toDate('dd/MM/yyyy hh:mm')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Fecha",
+    "columnName": "Fecha"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Rango Horario",
+    "columnName": "Rango Horario"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Fechanueva to Fecha Hora",
+    "oldColumnName": "Fechanueva",
+    "newColumnName": "Fecha Hora"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Dia Semana",
+    "columnName": "Dia Semana"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Numero Parte",
+    "columnName": "Numero Parte"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CPFA Hielo",
+    "columnName": "CPFA Hielo"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CPFA Lluvia",
+    "columnName": "CPFA Lluvia"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CPFA Niebla",
+    "columnName": "CPFA Niebla"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CPFA Seco",
+    "columnName": "CPFA Seco"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CPFA Nieve",
+    "columnName": "CPFA Nieve"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CPSV Mojada",
+    "columnName": "CPSV Mojada"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CPSV Barro",
+    "columnName": "CPSV Barro"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CPSV Grava Suelta",
+    "columnName": "CPSV Grava Suelta"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CPSV Hielo",
+    "columnName": "CPSV Hielo"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CPSV Aceite",
+    "columnName": "CPSV Aceite"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CPFA Granizo",
+    "columnName": "CPFA Granizo"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CPSV Seca Y Limpia",
+    "columnName": "CPSV Seca Y Limpia"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Lesividad",
+    "columnName": "Lesividad"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Tipo Persona",
+    "columnName": "Tipo Persona"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Tipo Vehiculo",
+    "columnName": "Tipo Vehiculo"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column id at index 3 based on column Lugar Accidente using expression grel:md5(cells[\"Fecha Hora\"].value.toString()+cells[\"Distrito\"].value+cells[\"Lugar Accidente\"].value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "id",
+    "columnInsertIndex": 3,
+    "baseColumnName": "Lugar Accidente",
+    "expression": "grel:md5(cells[\"Fecha Hora\"].value.toString()+cells[\"Distrito\"].value+cells[\"Lugar Accidente\"].value)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/accidentes#",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "example",
+          "uri": "http://www.example.org/rdf#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [
+            {
+              "uri": "Accident",
+              "curie": ":Accident"
+            }
+          ],
+          "links": [
+            {
+              "uri": "hasDate",
+              "curie": ":hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "Fecha Hora"
+              }
+            },
+            {
+              "uri": "hasDistrict",
+              "curie": ":hasDistrict",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Distrito"
+              }
+            },
+            {
+              "uri": "hasPlace",
+              "curie": ":hasPlace",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Lugar Accidente"
+              }
+            },
+            {
+              "uri": "hasId",
+              "curie": ":hasId",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "id"
+              }
+            },
+            {
+              "uri": "hasNumber",
+              "curie": ":hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Numero"
+              }
+            },
+            {
+              "uri": "hasVictimNumber",
+              "curie": ":hasVictimNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Numero Victimas"
+              }
+            },
+            {
+              "uri": "hasAccidentType",
+              "curie": ":hasAccidentType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Tipo Accidente"
+              }
+            },
+            {
+              "uri": "hasGender",
+              "curie": ":hasGender",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Sexo"
+              }
+            },
+            {
+              "uri": "hasAge",
+              "curie": ":hasAge",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Tramo Edad"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/accidentes#",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "example",
+          "uri": "http://www.example.org/rdf#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [
+            {
+              "uri": "Accident",
+              "curie": ":Accident"
+            }
+          ],
+          "links": [
+            {
+              "uri": "hasDate",
+              "curie": ":hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "Fecha Hora"
+              }
+            },
+            {
+              "uri": "hasDistrict",
+              "curie": ":hasDistrict",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Distrito"
+              }
+            },
+            {
+              "uri": "hasPlace",
+              "curie": ":hasPlace",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Lugar Accidente"
+              }
+            },
+            {
+              "uri": "hasId",
+              "curie": ":hasId",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "id"
+              }
+            },
+            {
+              "uri": "hasNumber",
+              "curie": ":hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Numero"
+              }
+            },
+            {
+              "uri": "hasVictimNumber",
+              "curie": ":hasVictimNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Numero Victimas"
+              }
+            },
+            {
+              "uri": "hasAccidentType",
+              "curie": ":hasAccidentType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Tipo Accidente"
+              }
+            },
+            {
+              "uri": "hasGender",
+              "curie": ":hasGender",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Sexo"
+              }
+            },
+            {
+              "uri": "hasAge",
+              "curie": ":hasAge",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Tramo Edad"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

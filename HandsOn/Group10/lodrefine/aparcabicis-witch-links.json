@@ -1,0 +1,52 @@
+{
+   "name":"aparcabicis",
+   "created":"2018-10-31T15:57:11Z",
+   "modified":"2018-10-31T17:06:54Z",
+   "customMetadata":{
+
+   },
+   "password":"null",
+   "encoding":"UTF-8",
+   "encodingConfidence":0,
+   "preferences":{
+      "entries":{
+         "scripting.starred-expressions":{
+            "class":"com.google.refine.preference.TopList",
+            "top":2147483647,
+            "list":[
+
+            ]
+         },
+         "scripting.expressions":{
+            "class":"com.google.refine.preference.TopList",
+            "top":100,
+            "list":[
+               "grel:cell.recon.match.id",
+               "grel:value",
+               "grel:\"Individuales/Distrito-\" + value",
+               "grel:\"Individuales/Barrio-\" + value",
+               "grel:\"Individuales/Aparcamiento-\" + value",
+               "grel:\"Individuales/Distrito/Distrito-\" + value",
+               "grel:\"Individuales/Barrio/Barrio-\" + value",
+               "grel:\"Individuales/Aparcamiento/Aparcamiento-\" + value",
+               "grel:\"Clases#Distrito\"",
+               "grel:\"Clases#Barrio\"",
+               "grel:\"Clases#Aparcamiento-\" + value",
+               "grel:\"Clases/Aparcamiento/Aparcamiento-\" + value",
+               "grel:\"Clases#Barrio-\" + value",
+               "grel:\"Clases#Distrito-\" + value",
+               "grel:\"Clases#Barrio\" + value",
+               "grel:\"Clases#Distrito\" + value",
+               "grel:\"Clases/Aparcamiento-\" + value",
+               "grel:\"Clases/Distrito#\" + value",
+               "grel:\"Clases/Barrio#\" + value",
+               "grel:\"Clases/Distrito\" + value",
+               "grel:\"Clases/Barrio\" + value",
+               "grel:\"Clases/Aparcamiento\" + value",
+               "grel:\"Clases/Aparcamiento\"+value",
+               "grel:\"Clases/\"+value"
+            ]
+         }
+      }
+   }
+}
