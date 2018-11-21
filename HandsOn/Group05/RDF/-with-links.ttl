@@ -1,0 +1,1137 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<https://www.santacruzdetenerife.es/Clases/0> xsd:float "0" ;
+	xsd:string "155B Los Patines" , "TUYO HPC" , "P. VIera y Clavijo" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf" ;
+	xsd:float "-16,26195733" , "28,46525166" .
+
+<https://www.santacruzdetenerife.es/Clases/1> xsd:string "155F Barras Paralelas" , "TUYO HPC" ;
+	xsd:float "1" ;
+	xsd:string "P. VIera y Clavijo" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155F.pdf" ;
+	xsd:float "-16,26190587" , "28,46527879" .
+
+<https://www.santacruzdetenerife.es/Clases/2> xsd:float "2" ;
+	xsd:string "155H El Jinete" , "TUYO HPC" , "P. VIera y Clavijo" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf" ;
+	xsd:float "-16,26189269" , "28,46532814" .
+
+<https://www.santacruzdetenerife.es/Clases/3> xsd:float "3" ;
+	xsd:string "207T Step & Twist" , "TUYO HPC" , "Avda. Los Majuelos" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf" ;
+	xsd:float "-16,31187868" , "28,44314043" .
+
+<https://www.santacruzdetenerife.es/Clases/4> xsd:float "4" ;
+	xsd:string "155B Los Patines" , "TUYO HPC" , "Avda. Los Majuelos" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf" ;
+	xsd:float "-16,31223847" , "28,44292645" .
+
+<https://www.santacruzdetenerife.es/Clases/5> xsd:float "5" ;
+	xsd:string "155F Barras Paralelas" , "TUYO HPC" , "Avda. Los Majuelos" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155F.pdf" ;
+	xsd:float "-16,31274629" , "28,442625" .
+
+<https://www.santacruzdetenerife.es/Clases/6> xsd:float "6" ;
+	xsd:string "155H El Jinete" , "TUYO HPC" , "Avda. Los Majuelos" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf" ;
+	xsd:float "-16,31305879" , "28,44243894" .
+
+<https://www.santacruzdetenerife.es/Clases/7> xsd:string "202T Bicicleta EstÃ¡tica" ;
+	xsd:float "7" ;
+	xsd:string "TUYO HPC" , "Avda. MarÃ­tima" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,24871112" , "28,46187106" .
+
+<https://www.santacruzdetenerife.es/Clases/8> xsd:float "8" ;
+	xsd:string "155B Los Patines" , "TUYO HPC" , "Avda. MarÃ­tima" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf" ;
+	xsd:float "-16,24865641" , "28,46197408" .
+
+<https://www.santacruzdetenerife.es/Clases/9> xsd:float "9" ;
+	xsd:string "154B EsquÃ­ de Fondo" , "TUYO HPC" , "Avda. MarÃ­tima" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf" ;
+	xsd:float "-16,24860566" , "28,46206241" .
+
+<https://www.santacruzdetenerife.es/Clases/10> xsd:float "10" ;
+	xsd:string "155B Los Patines" , "TUYO HPC" , "FernÃ¡ndez Navarro" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf" ;
+	xsd:float "-16,25387779" , "28,46189409" .
+
+<https://www.santacruzdetenerife.es/Clases/11> xsd:float "11" ;
+	xsd:string "207T Step & Twist" , "TUYO HPC" , "FernÃ¡ndez Navarro" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf" ;
+	xsd:float "-16,25384865" , "28,46189333" .
+
+<https://www.santacruzdetenerife.es/Clases/12> xsd:string "Ganivet" ;
+	xsd:float "12" ;
+	xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,26860138" , "28,46005851" .
+
+<https://www.santacruzdetenerife.es/Clases/13> xsd:float "13" ;
+	xsd:string "155B Los Patines" , "TUYO HPC" , "Ganivet" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf" ;
+	xsd:float "-16,26860216" , "28,46002659" .
+
+<https://www.santacruzdetenerife.es/Clases/14> xsd:float "14" ;
+	xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "P. La Granja" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,26632758" , "28,46240629" .
+
+<https://www.santacruzdetenerife.es/Clases/15> xsd:float "15" ;
+	xsd:string "154B EsquÃ­ de Fondo" , "TUYO HPC" , "P. La Granja" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf" ;
+	xsd:float "-16,266235" , "28,46226403" .
+
+<https://www.santacruzdetenerife.es/Clases/16> xsd:float "16" ;
+	xsd:string "154D Sube y Baja" , "TUYO HPC" , "P. La Granja" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154D.pdf" ;
+	xsd:float "-16,26631791" , "28,46218191" .
+
+<https://www.santacruzdetenerife.es/Clases/17> xsd:float "17" ;
+	xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "San Juan de la Rambla" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,27621772" , "28,47006999" .
+
+<https://www.santacruzdetenerife.es/Clases/18> xsd:float "18" ;
+	xsd:string "207T Step & Twist" , "TUYO HPC" , "San Juan de la Rambla" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf" ;
+	xsd:float "-16,27623263" , "28,47005029" .
+
+<https://www.santacruzdetenerife.es/Clases/19> xsd:string "TUYO HPC" , "Pza. La Victoria" ;
+	xsd:float "19" ;
+	xsd:string "154G Rueda Grande" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf" ;
+	xsd:float "-16,25982022" , "28,45898871" .
+
+<https://www.santacruzdetenerife.es/Clases/20> xsd:float "20" ;
+	xsd:string "155B Los Patines" , "TUYO HPC" , "Pza. La Victoria" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf" ;
+	xsd:float "-16,25981055" , "28,45895894" .
+
+<https://www.santacruzdetenerife.es/Clases/21> xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "Pza. GarcÃ­a EscÃ¡mez" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,273002" , "21" , "28,45520575" .
+
+<https://www.santacruzdetenerife.es/Clases/22> xsd:float "22" ;
+	xsd:string "155I El Remo" , "TUYO HPC" , "Pza. GarcÃ­a EscÃ¡mez" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf" ;
+	xsd:float "-16,2729129" , "28,45513477" .
+
+<https://www.santacruzdetenerife.es/Clases/23> xsd:float "28,4551306" , "23" ;
+	xsd:string "154B EsquÃ­ de Fondo" , "TUYO HPC" , "Pza. GarcÃ­a EscÃ¡mez" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf" ;
+	xsd:float "-16,27286304" .
+
+<https://www.santacruzdetenerife.es/Clases/24> xsd:float "24" ;
+	xsd:string "AMM-019 TorsiÃ³n de Tronc" , "Kido" , "Pza. GarcÃ­a EscÃ¡mez" ;
+	xsd:anyURI " " ;
+	xsd:float "-16,27277533" , "28,45517621" .
+
+<https://www.santacruzdetenerife.es/Clases/25> xsd:float "25" ;
+	xsd:string "AMM-017 Stepper" , "Kido" , "Pza. GarcÃ­a EscÃ¡mez" ;
+	xsd:anyURI " " ;
+	xsd:float "-16,2727587" , "28,45517405" .
+
+<https://www.santacruzdetenerife.es/Clases/26> xsd:float "26" ;
+	xsd:string "AMM-018 Bicicleta Est." , "Kido" , "Pza. San JosÃ©" ;
+	xsd:anyURI " " ;
+	xsd:float "-16,33358575" , "28,42507268" .
+
+<https://www.santacruzdetenerife.es/Clases/27> xsd:float "27" ;
+	xsd:string "AMM-012 Movimiento Brazo" , "Kido" , "Pza. San JosÃ©" ;
+	xsd:anyURI " " ;
+	xsd:float "-16,33363388" , "28,42506582" .
+
+<https://www.santacruzdetenerife.es/Clases/28> xsd:float "28" ;
+	xsd:string "AMM-011 Escalera Dedos" , "Kido" , "Pza. MarÃ­a Auxiliadora" ;
+	xsd:anyURI " " ;
+	xsd:float "-16,2574281" , "28,46510869" .
+
+<https://www.santacruzdetenerife.es/Clases/29> xsd:string "TUYO HPC" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf" ;
+	xsd:string "Avda. PrÃ­ncipes de EspaÃ±a" ;
+	xsd:float "29" ;
+	xsd:string "155I El Remo" ;
+	xsd:float "-16,28610772" , "28,45097263" .
+
+<https://www.santacruzdetenerife.es/Clases/30> xsd:float "30" ;
+	xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "Avda. PrÃ­ncipes de EspaÃ±a" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,28616243" , "28,4507634" .
+
+<https://www.santacruzdetenerife.es/Clases/31> xsd:float "31" ;
+	xsd:string "155E Silla Pectorales" , "TUYO HPC" , "Avda. PrÃ­ncipes de EspaÃ±a" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf" ;
+	xsd:float "-16,28591142" , "28,4513097" .
+
+<https://www.santacruzdetenerife.es/Clases/32> xsd:string "154B EsquÃ­ de Fondo" ;
+	xsd:float "32" ;
+	xsd:string "TUYO HPC" , "Avda. PrÃ­ncipes de EspaÃ±a" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf" ;
+	xsd:float "-16,28586386" , "28,45151886" .
+
+<https://www.santacruzdetenerife.es/Clases/33> xsd:float "33" ;
+	xsd:string "AMM-015 Mov. Ondular" , "Kido" , "Avda. PrÃ­ncipes de EspaÃ±a" ;
+	xsd:anyURI " " ;
+	xsd:float "-16,28477971" , "28,45381482" .
+
+<https://www.santacruzdetenerife.es/Clases/34> xsd:float "34" ;
+	xsd:string "AMM-018 Bicicleta Est." , "Kido" , "Avda. PrÃ­ncipes de EspaÃ±a" ;
+	xsd:anyURI " " ;
+	xsd:float "-16,28476551" , "28,45384813" .
+
+<https://www.santacruzdetenerife.es/Clases/35> xsd:float "35" ;
+	xsd:string "AMM-013 Mov. Circ. Brazo" , "Kido" , "Avda. PrÃ­ncipes de EspaÃ±a" ;
+	xsd:anyURI " " ;
+	xsd:float "-16,28474927" , "28,45388515" .
+
+<https://www.santacruzdetenerife.es/Clases/36> xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf" ;
+	xsd:float "36" ;
+	xsd:string "154B EsquÃ­ de Fondo" , "TUYO HPC" , "P. Santa Catalina" ;
+	xsd:float "-16,31927813" , "28,43131608" .
+
+<https://www.santacruzdetenerife.es/Clases/37> xsd:float "37" ;
+	xsd:string "155I El Remo" , "TUYO HPC" , "P. Santa Catalina" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf" ;
+	xsd:float "-16,31924793" , "28,43134658" .
+
+<https://www.santacruzdetenerife.es/Clases/38> xsd:string "155C Giro de Cintura" ;
+	xsd:float "38" ;
+	xsd:string "TUYO HPC" , "P. Santa Catalina" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155C.pdf" ;
+	xsd:float "-16,31935385" , "28,43133124" .
+
+<https://www.santacruzdetenerife.es/Clases/39> xsd:string "154C Slalom" ;
+	xsd:float "39" ;
+	xsd:string "TUYO HPC" , "P. Santa Catalina" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154C.pdf" ;
+	xsd:float "-16,31931822" , "28,43135861" .
+
+<https://www.santacruzdetenerife.es/Clases/40> xsd:float "40" ;
+	xsd:string "155F Barras Paralelas" , "TUYO HPC" , "P. Santa Catalina" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155F.pdf" ;
+	xsd:float "-16,31928979" , "28,43138592" .
+
+<https://www.santacruzdetenerife.es/Clases/41> xsd:string "155H El Jinete" ;
+	xsd:float "41" ;
+	xsd:string "TUYO HPC" , "P. Santa Catalina" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf" ;
+	xsd:float "-16,31928615" , "28,43134621" .
+
+<https://www.santacruzdetenerife.es/Clases/42> xsd:float "42" ;
+	xsd:string "AMM-005 Varios" , "Kido" , "Avda. Pedro Schwartz" ;
+	xsd:anyURI " " ;
+	xsd:float "-16,193537" , "28,50637208" .
+
+<https://www.santacruzdetenerife.es/Clases/43> xsd:string "AMM-004 Varios" ;
+	xsd:float "43" ;
+	xsd:string "Kido" , "Avda. Pedro Schwartz" ;
+	xsd:anyURI " " ;
+	xsd:float "-16,19357344" , "28,50638286" .
+
+<https://www.santacruzdetenerife.es/Clases/44> xsd:float "44" ;
+	xsd:string "155H El Jinete" , "TUYO HPC" , "Avda. Reyes CatÃ³licos" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf" ;
+	xsd:float "-16,26300936" , "28,4634173" .
+
+<https://www.santacruzdetenerife.es/Clases/45> xsd:string "154G Rueda Grande" ;
+	xsd:float "45" ;
+	xsd:string "TUYO HPC" , "Avda. Reyes CatÃ³licos" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf" ;
+	xsd:float "-16,2629893" , "28,46346614" .
+
+<https://www.santacruzdetenerife.es/Clases/46> xsd:float "46" ;
+	xsd:string "155B Los Patines" , "TUYO HPC" , "Pza. Los SabandeÃ±os" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf" ;
+	xsd:float "-16,26252628" , "28,46058356" .
+
+<https://www.santacruzdetenerife.es/Clases/47> xsd:float "47" ;
+	xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "Pza. Los SabandeÃ±os" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,26253549" , "28,46054499" .
+
+<https://www.santacruzdetenerife.es/Clases/48> xsd:float "48" ;
+	xsd:string "207T Step & Twist" , "TUYO HPC" , "Pza. Los SabandeÃ±os" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf" ;
+	xsd:float "-16,26255316" , "28,46048411" .
+
+<https://www.santacruzdetenerife.es/Clases/49> xsd:float "49" ;
+	xsd:string "155H El Jinete" , "TUYO HPC" , "Avda. Francisco La Roche" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf" ;
+	xsd:float "-16,24491815" , "28,47718266" .
+
+<https://www.santacruzdetenerife.es/Clases/50> xsd:float "28,47725236" , "50" ;
+	xsd:string "155I El Remo" , "TUYO HPC" , "Avda. Francisco La Roche" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf" ;
+	xsd:float "-16,24481821" .
+
+<https://www.santacruzdetenerife.es/Clases/51> xsd:float "51" ;
+	xsd:string "155B Los Patines" , "TUYO HPC" , "Avda. Francisco La Roche" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf" ;
+	xsd:float "-16,24445658" , "28,47751038" .
+
+<https://www.santacruzdetenerife.es/Clases/52> xsd:float "52" ;
+	xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "Avda. Francisco La Roche" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,24428413" , "28,47764549" .
+
+<https://www.santacruzdetenerife.es/Clases/53> xsd:float "53" ;
+	xsd:string "207T Step & Twist" , "TUYO HPC" , "Avda. Francisco La Roche" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf" ;
+	xsd:float "-16,243962" , "28,47790337" .
+
+<https://www.santacruzdetenerife.es/Clases/54> xsd:float "54" ;
+	xsd:string "155C Giro de Cintura" , "TUYO HPC" , "Avda. Francisco La Roche" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155C.pdf" ;
+	xsd:float "-16,24380315" , "28,47802622" .
+
+<https://www.santacruzdetenerife.es/Clases/55> xsd:float "55" ;
+	xsd:string "155D Barra estiramientos" , "TUYO HPC" , "Avda. Francisco La Roche" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155D.pdf" ;
+	xsd:float "-16,24346752" , "28,47830445" .
+
+<https://www.santacruzdetenerife.es/Clases/56> xsd:string "155H El Jinete" ;
+	xsd:float "56" ;
+	xsd:string "TUYO HPC" , "RÃ­o Guadalete" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf" ;
+	xsd:float "-16,27652241" , "28,4737168" .
+
+<https://www.santacruzdetenerife.es/Clases/57> xsd:float "57" ;
+	xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "RÃ­o Guadalete" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,27651095" , "28,47368918" .
+
+<https://www.santacruzdetenerife.es/Clases/58> xsd:string "154G Rueda Grande" ;
+	xsd:float "58" ;
+	xsd:string "TUYO HPC" , "RÃ­o Guadalete" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf" ;
+	xsd:float "-16,27648816" , "28,47364558" .
+
+<https://www.santacruzdetenerife.es/Clases/59> xsd:float "59" ;
+	xsd:string "155I El Remo" , "TUYO HPC" , "Avda. Reyes CatÃ³licos" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf" ;
+	xsd:float "-16,26357409" , "28,46122953" .
+
+<https://www.santacruzdetenerife.es/Clases/60> xsd:float "60" ;
+	xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "Avda. Reyes CatÃ³licos" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,26353526" , "28,46141581" .
+
+<https://www.santacruzdetenerife.es/Clases/61> xsd:float "61" ;
+	xsd:string "154B EsquÃ­ de Fondo" , "TUYO HPC" , "Avda. Reyes CatÃ³licos" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf" ;
+	xsd:float "-16,26322592" , "28,46290814" .
+
+<https://www.santacruzdetenerife.es/Clases/62> xsd:float "62" ;
+	xsd:string "155E Silla Pectorales" , "TUYO HPC" , "Pza. La Victoria" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf" ;
+	xsd:float "-16,25983182" , "28,45902657" .
+
+<https://www.santacruzdetenerife.es/Clases/63> xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "Pza. Iglesia Cueva Bermeja" ;
+	xsd:float "63" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,21687842" , "28,49621642" .
+
+<https://www.santacruzdetenerife.es/Clases/64> xsd:string "RÃ­o Orinoco" ;
+	xsd:float "64" ;
+	xsd:string "PF9 Oblic" , "Novatilu" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf" ;
+	xsd:float "-16,2153461" , "28,49662911" .
+
+<https://www.santacruzdetenerife.es/Clases/65> xsd:float "65" ;
+	xsd:string "155B Los Patines" , "TUYO HPC" , "Rambla AÃ±aza" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf" ;
+	xsd:float "-16,29935916" , "28,42451996" .
+
+<https://www.santacruzdetenerife.es/Clases/66> xsd:float "66" ;
+	xsd:string "155I El Remo" , "TUYO HPC" , "Rambla AÃ±aza" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf" ;
+	xsd:float "-16,29906589" , "28,4250792" .
+
+<https://www.santacruzdetenerife.es/Clases/67> xsd:string "207T Step & Twist" ;
+	xsd:float "67" ;
+	xsd:string "TUYO HPC" , "Rambla AÃ±aza" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf" ;
+	xsd:float "-16,29872121" , "28,42601833" .
+
+<https://www.santacruzdetenerife.es/Clases/68> xsd:float "68" ;
+	xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "Rambla AÃ±aza" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,29835869" , "28,42674127" .
+
+<https://www.santacruzdetenerife.es/Clases/69> xsd:float "69" ;
+	xsd:string "159J Espaldera" , "TUYO HPC" , "P. VIera y Clavijo" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf" ;
+	xsd:float "-16,26194971" , "28,46528836" .
+
+<https://www.santacruzdetenerife.es/Clases/70> xsd:float "70" ;
+	xsd:string "159J Espaldera" , "TUYO HPC" , "P. La Estrella" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf" ;
+	xsd:float "-16,30597583" , "28,42962017" .
+
+<https://www.santacruzdetenerife.es/Clases/71> xsd:float "71" ;
+	xsd:string "155D Barra estiramientos" , "TUYO HPC" , "P. La Estrella" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155D.pdf" ;
+	xsd:float "-16,30602034" , "28,4295665" .
+
+<https://www.santacruzdetenerife.es/Clases/72> xsd:string "J3709 Barra fija 2 m." ;
+	xsd:float "72" ;
+	xsd:string "HPC" , "P. Viera y Clavijo" ;
+	xsd:anyURI " " ;
+	xsd:float "-16,26189316" , "28,46528215" .
+
+<https://www.santacruzdetenerife.es/Clases/73> xsd:float "73" ;
+	xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "Punta de Anaga" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,30647564" , "28,43128118" .
+
+<https://www.santacruzdetenerife.es/Clases/74> xsd:float "74" ;
+	xsd:string "155E Silla Pectorales" , "TUYO HPC" , "Punta de Anaga" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf" ;
+	xsd:float "-16,30624935" , "28,43147945" .
+
+<https://www.santacruzdetenerife.es/Clases/75> xsd:float "75" ;
+	xsd:string "155B Los Patines" , "TUYO HPC" , "Punta de Anaga" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf" ;
+	xsd:float "-16,30600705" , "28,43183255" .
+
+<https://www.santacruzdetenerife.es/Clases/76> xsd:float "76" ;
+	xsd:string "155I El Remo" , "TUYO HPC" , "Pza. Los Dragos" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf" ;
+	xsd:float "-16,19758182" , "28,5719245" .
+
+<https://www.santacruzdetenerife.es/Clases/77> xsd:float "77" ;
+	xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "Pza. Los Dragos" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,19756086" , "28,571924" .
+
+<https://www.santacruzdetenerife.es/Clases/78> xsd:float "78" ;
+	xsd:string "159J Espaldera" , "TUYO HPC" , "Avda. PrÃ­ncipes de EspaÃ±a" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf" ;
+	xsd:float "-16,28669695" , "28,44968416" .
+
+<https://www.santacruzdetenerife.es/Clases/79> xsd:float "79" ;
+	xsd:string "155E Silla Pectorales" , "TUYO HPC" , "Chafira" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf" ;
+	xsd:float "-16,28950493" , "28,44608974" .
+
+<https://www.santacruzdetenerife.es/Clases/80> xsd:float "80" ;
+	xsd:string "154B EsquÃ­ de Fondo" , "TUYO HPC" , "Chafira" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf" ;
+	xsd:float "-16,28944026" , "28,44606897" .
+
+<https://www.santacruzdetenerife.es/Clases/81> xsd:float "81" ;
+	xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "Pza. Nuestra Sra. de las Nieves" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,21694479" , "28,56100475" .
+
+<https://www.santacruzdetenerife.es/Clases/82> xsd:float "82" ;
+	xsd:string "155I El Remo" , "TUYO HPC" , "Pza. Nuestra Sra. de las Nieves" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf" ;
+	xsd:float "-16,21695863" , "28,56100727" .
+
+<https://www.santacruzdetenerife.es/Clases/83> xsd:float "83" ;
+	xsd:string "155I El Remo" , "TUYO HPC" , "Zafiro" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf" ;
+	xsd:float "-16,28831174" , "28,45406194" .
+
+<https://www.santacruzdetenerife.es/Clases/84> xsd:float "84" ;
+	xsd:string "155G Las Ruedas" , "TUYO HPC" , "Zafiro" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/15GF.pdf" ;
+	xsd:float "-16,28834001" , "28,45403419" .
+
+<https://www.santacruzdetenerife.es/Clases/85> xsd:float "85" ;
+	xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "Zafiro" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,28836637" , "28,45405428" .
+
+<https://www.santacruzdetenerife.es/Clases/86> xsd:float "86" ;
+	xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "Pza. del Rosario" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,27547283" , "28,45287564" .
+
+<https://www.santacruzdetenerife.es/Clases/87> xsd:float "87" ;
+	xsd:string "155B Los Patines" , "TUYO HPC" , "Pza. del Rosario" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf" ;
+	xsd:float "-16,27548961" , "28,45289889" .
+
+<https://www.santacruzdetenerife.es/Clases/88> xsd:string "155I El Remo" ;
+	xsd:float "88" ;
+	xsd:string "TUYO HPC" , "Colegio Afur" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf" ;
+	xsd:float "-16,24940582" , "28,55504011" .
+
+<https://www.santacruzdetenerife.es/Clases/89> xsd:float "89" ;
+	xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "Colegio Afur" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,24939835" , "28,55504319" .
+
+<https://www.santacruzdetenerife.es/Clases/90> xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf" ;
+	xsd:float "-16,27653523" , "28,47365657" , "90" ;
+	xsd:string "155E Silla Pectorales" , "TUYO HPC" , "RÃ­o Guadalete" .
+
+<https://www.santacruzdetenerife.es/Clases/91> xsd:float "91" ;
+	xsd:string "155I El Remo" , "TUYO HPC" , "RÃ­o Guadalete" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf" ;
+	xsd:float "-16,27655023" , "28,47369341" .
+
+<https://www.santacruzdetenerife.es/Clases/92> xsd:float "92" ;
+	xsd:string "155I El Remo" , "TUYO HPC" , "Izquierdo AzcÃ¡rate" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf" ;
+	xsd:float "-16,27233846" , "28,45782555" .
+
+<https://www.santacruzdetenerife.es/Clases/93> xsd:float "93" ;
+	xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "Izquierdo AzcÃ¡rate" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,27229717" , "28,45782593" .
+
+<https://www.santacruzdetenerife.es/Clases/94> xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,26241804" , "28,4664962" , "94" ;
+	xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "Paseo Peatonal Las Asuncionistas" .
+
+<https://www.santacruzdetenerife.es/Clases/95> xsd:float "95" ;
+	xsd:string "155I El Remo" , "TUYO HPC" , "Paseo Peatonal Las Asuncionistas" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf" ;
+	xsd:float "-16,26270084" , "28,4666122" .
+
+<https://www.santacruzdetenerife.es/Clases/96> xsd:float "96" ;
+	xsd:string "155H El Jinete" , "TUYO HPC" , "Pza. Duggi" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf" ;
+	xsd:float "-16,25973943" , "28,46620815" .
+
+<https://www.santacruzdetenerife.es/Clases/97> xsd:float "97" ;
+	xsd:string "154C Slalom" , "TUYO HPC" , "Pza. Duggi" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154C.pdf" ;
+	xsd:float "-16,25966173" , "28,46620244" .
+
+<https://www.santacruzdetenerife.es/Clases/98> xsd:float "98" ;
+	xsd:string "154B EsquÃ­ de Fondo" , "TUYO HPC" , "Pza. Duggi" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf" ;
+	xsd:float "-16,25958641" , "28,46619349" .
+
+<https://www.santacruzdetenerife.es/Clases/99> xsd:float "99" ;
+	xsd:string "207T Step & Twist" , "TUYO HPC" , "Cmo. La Ermita" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf" ;
+	xsd:float "-16,26999981" , "28,47256096" .
+
+<https://www.santacruzdetenerife.es/Clases/100> xsd:float "100" ;
+	xsd:string "155B Los Patines" , "TUYO HPC" , "Cmo. La Ermita" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf" ;
+	xsd:float "-16,27000171" , "28,47261775" .
+
+<https://www.santacruzdetenerife.es/Clases/101> xsd:float "101" ;
+	xsd:string "154B EsquÃ­ de Fondo" , "TUYO HPC" , "Curva El Arco Iris" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf" ;
+	xsd:float "-16,28797377" , "28,44701215" .
+
+<https://www.santacruzdetenerife.es/Clases/102> xsd:float "102" ;
+	xsd:string "155I El Remo" , "TUYO HPC" , "Curva El Arco Iris" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf" ;
+	xsd:float "-16,2879767" , "28,4470284" .
+
+<https://www.santacruzdetenerife.es/Clases/103> xsd:float "103" ;
+	xsd:string "155B Los Patines" , "TUYO HPC" , "Avda. PrÃ­ncipes de EspaÃ±a" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155C.pdf" ;
+	xsd:float "-16,28402111" , "28,45550963" .
+
+<https://www.santacruzdetenerife.es/Clases/104> xsd:float "104" ;
+	xsd:string "155E Silla Pectorales" , "TUYO HPC" , "Avda. PrÃ­ncipes de EspaÃ±a" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf" ;
+	xsd:float "-16,28386262" , "28,45595514" .
+
+<https://www.santacruzdetenerife.es/Clases/105> xsd:float "105" ;
+	xsd:string "155I El Remo" , "TUYO HPC" , "Res. San PÃ­o X" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf" ;
+	xsd:float "-16,28374374" , "28,4494528" .
+
+<https://www.santacruzdetenerife.es/Clases/106> xsd:float "106" ;
+	xsd:string "155H El Jinete" , "TUYO HPC" , "Res. San PÃ­o X" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf" ;
+	xsd:float "-16,28368632" , "28,44951909" .
+
+<https://www.santacruzdetenerife.es/Clases/107> xsd:float "107" ;
+	xsd:string "155E Silla Pectorales" , "TUYO HPC" , "GarcÃ­a Lorca" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf" ;
+	xsd:float "-16,27083891" , "28,45725665" .
+
+<https://www.santacruzdetenerife.es/Clases/108> xsd:float "108" ;
+	xsd:string "154B EsquÃ­ de Fondo" , "TUYO HPC" , "GarcÃ­a Lorca" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf" ;
+	xsd:float "-16,27082947" , "28,45717742" .
+
+<https://www.santacruzdetenerife.es/Clases/109> xsd:float "109" ;
+	xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "Poeta Francisco Izquierdo" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,27094571" , "28,45762562" .
+
+<https://www.santacruzdetenerife.es/Clases/110> xsd:float "110" ;
+	xsd:string "155D Barra estiramientos" , "TUYO HPC" , "Avda. MarÃ­tima" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155D.pdf" ;
+	xsd:float "-16,24809249" , "28,46308186" .
+
+<https://www.santacruzdetenerife.es/Clases/111> xsd:float "111" ;
+	xsd:string "155E Silla Pectorales" , "TUYO HPC" , "Avda. MarÃ­tima" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf" ;
+	xsd:float "-16,2480835" , "28,46306733" .
+
+<https://www.santacruzdetenerife.es/Clases/112> xsd:float "112" ;
+	xsd:string "154B EsquÃ­ de Fondo" , "TUYO HPC" , "Avda. MarÃ­tima" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf" ;
+	xsd:float "-16,24808931" , "28,46305013" .
+
+<https://www.santacruzdetenerife.es/Clases/113> xsd:float "113" ;
+	xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "Avda. MarÃ­tima" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,24808175" , "28,46311341" .
+
+<https://www.santacruzdetenerife.es/Clases/114> xsd:float "114" ;
+	xsd:string "155E Silla Pectorales" , "TUYO HPC" , "P. Leoncio Oramas" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf" ;
+	xsd:float "-16,26994558" , "28,45913497" .
+
+<https://www.santacruzdetenerife.es/Clases/115> xsd:float "115" ;
+	xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "P. Leoncio Oramas" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,26999435" , "28,45909984" .
+
+<https://www.santacruzdetenerife.es/Clases/116> xsd:float "116" ;
+	xsd:string "154B EsquÃ­ de Fondo" , "TUYO HPC" , "P. Leoncio Oramas" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf" ;
+	xsd:float "-16,27001954" , "28,45908056" .
+
+<https://www.santacruzdetenerife.es/Clases/117> xsd:float "117" ;
+	xsd:string "AE004 Sky Stepper" , "Parkesa" , "P. Las Indias" ;
+	xsd:anyURI " " ;
+	xsd:float "-16,27166973" , "28,46803202" .
+
+<https://www.santacruzdetenerife.es/Clases/118> xsd:float "118" ;
+	xsd:string "MB001 Big Wheel" , "Parkesa" , "P. Las Indias" ;
+	xsd:anyURI " " ;
+	xsd:float "-16,27168022" , "28,468005" .
+
+<https://www.santacruzdetenerife.es/Clases/119> xsd:float "119" ;
+	xsd:string "TS002 Power Push" , "Parkesa" , "P. Las Indias" ;
+	xsd:anyURI " " ;
+	xsd:float "-16,27169363" , "28,46797622" .
+
+<https://www.santacruzdetenerife.es/Clases/120> xsd:float "120" ;
+	xsd:string "AE001 Health Walker" , "Parkesa" , "P. Las Indias" ;
+	xsd:anyURI " " ;
+	xsd:float "-16,27170894" , "28,46794222" .
+
+<https://www.santacruzdetenerife.es/Clases/121> xsd:float "121" ;
+	xsd:string "RB001 Rowing" , "Parkesa" , "P. Las Indias" ;
+	xsd:anyURI " " ;
+	xsd:float "-16,27172329" , "28,46790995" .
+
+<https://www.santacruzdetenerife.es/Clases/122> xsd:float "122" ;
+	xsd:string "RB003 Bicycle" , "Parkesa" , "P. Las Indias" ;
+	xsd:anyURI " " ;
+	xsd:float "-16,27173666" , "28,4678777" .
+
+<https://www.santacruzdetenerife.es/Clases/123> xsd:float "123" ;
+	xsd:string "Barra Dominadas" , " " , "RÃ­o Guadalete" ;
+	xsd:anyURI " " ;
+	xsd:float "-16,27656158" , "28,47371608" .
+
+<https://www.santacruzdetenerife.es/Clases/124> xsd:float "124" ;
+	xsd:string "154B EsquÃ­ de Fondo" , "TUYO HPC" , "P. Cuchillitos de TristÃ¡n" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf" ;
+	xsd:float "-16,27691749" , "28,4564705" .
+
+<https://www.santacruzdetenerife.es/Clases/125> xsd:float "125" ;
+	xsd:string "154C Slalom" , "TUYO HPC" , "P. Cuchillitos de TristÃ¡n" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154C.pdf" ;
+	xsd:float "-16,27693964" , "28,45639633" .
+
+<https://www.santacruzdetenerife.es/Clases/126> xsd:float "126" ;
+	xsd:string "159J Espaldera" , "TUYO HPC" , "P. Cuchillitos de TristÃ¡n" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf" ;
+	xsd:float "-16,27694657" , "28,45636733" .
+
+<https://www.santacruzdetenerife.es/Clases/127> xsd:float "127" ;
+	xsd:string "155H El Jinete" , "TUYO HPC" , "P. Cuchillitos de TristÃ¡n" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf" ;
+	xsd:float "-16,27696546" , "28,45632427" .
+
+<https://www.santacruzdetenerife.es/Clases/128> xsd:float "128" ;
+	xsd:string "154D Sube y Baja" , "TUYO HPC" , "P. Cuchillitos de TristÃ¡n" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154D.pdf" ;
+	xsd:float "-16,27688352" , "28,45657051" .
+
+<https://www.santacruzdetenerife.es/Clases/129> xsd:float "129" ;
+	xsd:string "154D Sube y Baja" , "TUYO HPC" , "Maestro BorguÃ±o" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154D.pdf" ;
+	xsd:float "-16,28551685" , "28,45053913" .
+
+<https://www.santacruzdetenerife.es/Clases/130> xsd:float "130" ;
+	xsd:string "155I El Remo" , "TUYO HPC" , "Maestro BorguÃ±o" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf" ;
+	xsd:float "-16,28545208" , "28,45053212" .
+
+<https://www.santacruzdetenerife.es/Clases/131> xsd:float "131" ;
+	xsd:string "202T Bicicleta EstÃ¡tica" , "TUYO HPC" , "Juan de Mattos y Azofra" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf" ;
+	xsd:float "-16,27345353" , "28,4575303" .
+
+<https://www.santacruzdetenerife.es/Clases/132> xsd:float "132" ;
+	xsd:string "154B EsquÃ­ de Fondo" , "TUYO HPC" , "Juan de Mattos y Azofra" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf" ;
+	xsd:float "-16,27342584" , "28,45751448" .
+
+<https://www.santacruzdetenerife.es/Clases/133> xsd:float "133" ;
+	xsd:string "154G Rueda Grande" , "TUYO HPC" , "Camino Los Tarajales" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf" ;
+	xsd:float "-16,21941123" , "28,56179421" .
+
+<https://www.santacruzdetenerife.es/Clases/134> xsd:float "134" ;
+	xsd:string "154G Rueda Grande" , "TUYO HPC" , "Pza. Chamorga" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf" ;
+	xsd:float "-16,15930983" , "28,5686785" .
+
+<https://www.santacruzdetenerife.es/Clases/135> xsd:float "135" ;
+	xsd:string "154G Rueda Grande" , "TUYO HPC" , "Pza. Taborno" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf" ;
+	xsd:float "-16,26452124" , "28,55718109" .
+
+<https://www.santacruzdetenerife.es/Clases/136> xsd:float "136" ;
+	xsd:string "154G Rueda Grande" , "TUYO HPC" , "Ctra. Igueste San AndrÃ©s" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf" ;
+	xsd:float "-16,15710479" , "28,52899007" .
+
+<https://www.santacruzdetenerife.es/Clases/137> xsd:float "137" ;
+	xsd:string "154B EsquÃ­ de Fondo" , "TUYO HPC" , "Pza. San Pedro" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf" ;
+	xsd:float "-16,15403068" , "28,52572703" .
+
+<https://www.santacruzdetenerife.es/Clases/138> xsd:float "138" ;
+	xsd:string "RB001 Rowing" , "Parkesa" , "Punta de Anaga" ;
+	xsd:anyURI " " ;
+	xsd:float "-16,31098696" , "28,42576204" .
+
+<https://www.santacruzdetenerife.es/Clases/139> xsd:float "139" ;
+	xsd:string "PF9 Oblic" , "Novatilu" , "Pza. Miguel DÃ­az" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf" ;
+	xsd:float "-16,18878188" , "28,5121808" .
+
+<https://www.santacruzdetenerife.es/Clases/140> xsd:float "140" ;
+	xsd:string "PF6 Step" , "Novatilu" , "Pza. Miguel DÃ­az" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf" ;
+	xsd:float "-16,18880642" , "28,51217757" .
+
+<https://www.santacruzdetenerife.es/Clases/141> xsd:float "141" ;
+	xsd:string "PF26 Pulse" , "Novatilu" , "Pza. Miguel DÃ­az" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf" ;
+	xsd:float "-16,18877409" , "28,51215555" .
+
+<https://www.santacruzdetenerife.es/Clases/142> xsd:float "142" ;
+	xsd:string "PF6 Step" , "Novatilu" , "Pza. Taborno" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf" ;
+	xsd:float "-16,26452119" , "28,55713019" .
+
+<https://www.santacruzdetenerife.es/Clases/143> xsd:float "143" ;
+	xsd:string "PF9 Oblic" , "Novatilu" , "Pza. San JosÃ©" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf" ;
+	xsd:float "-16,33360861" , "28,42506966" .
+
+<https://www.santacruzdetenerife.es/Clases/144> xsd:float "144" ;
+	xsd:string "PF8 Row" , "Novatilu" , "Frangollo" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf" ;
+	xsd:float "-16,3293547" , "28,44736467" .
+
+<https://www.santacruzdetenerife.es/Clases/145> xsd:string "Frangollo" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf" ;
+	xsd:float "-16,32938426" , "145" ;
+	xsd:string "PF1 HIP" , "Novatilu" ;
+	xsd:float "28,44754687" .
+
+<https://www.santacruzdetenerife.es/Clases/146> xsd:float "146" ;
+	xsd:string "PF13 Bike" , "Novatilu" , "Pza. El Rosarito" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf" ;
+	xsd:float "-16,3015442" , "28,44054758" .
+
+<https://www.santacruzdetenerife.es/Clases/147> xsd:float "147" ;
+	xsd:string "PF1 HIP" , "Novatilu" , "Pza. El Rosarito" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf" ;
+	xsd:float "-16,3015184" , "28,44052974" .
+
+<https://www.santacruzdetenerife.es/Clases/148> xsd:float "148" ;
+	xsd:string "PF9 Oblic" , "Novatilu" , "Rambla AÃ±aza" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf" ;
+	xsd:float "-16,2988711" , "28,4255297" .
+
+<https://www.santacruzdetenerife.es/Clases/149> xsd:float "149" ;
+	xsd:string "PF1 HIP" , "Novatilu" , "Rambla AÃ±aza" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf" ;
+	xsd:float "-16,29960129" , "28,42381528" .
+
+<https://www.santacruzdetenerife.es/Clases/150> xsd:string "Novatilu" , "Chirama" ;
+	xsd:float "150" ;
+	xsd:string "PF3 Torax" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf" ;
+	xsd:float "-16,30744204" , "28,42647205" .
+
+<https://www.santacruzdetenerife.es/Clases/151> xsd:float "151" ;
+	xsd:string "PF8 Row" , "Novatilu" , "Chirama" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf" ;
+	xsd:float "-16,30744889" , "28,4265363" .
+
+<https://www.santacruzdetenerife.es/Clases/152> xsd:float "152" ;
+	xsd:string "PF9 Oblic" , "Novatilu" , "Los Estudiantes" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf" ;
+	xsd:float "-16,3044073" , "28,44517644" .
+
+<https://www.santacruzdetenerife.es/Clases/153> xsd:float "153" ;
+	xsd:string "JSA006 Climber" , "Fundiciones Benito" , "PanamÃ¡" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf" ;
+	xsd:float "-16,26645904" , "28,45549446" .
+
+<https://www.santacruzdetenerife.es/Clases/154> xsd:float "154" ;
+	xsd:string "JSA008 Remo" , "Fundiciones Benito" , "PanamÃ¡" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA008.pdf" ;
+	xsd:float "-16,26643214" , "28,45547897" .
+
+<https://www.santacruzdetenerife.es/Clases/155> xsd:float "155" ;
+	xsd:string "JSA018 Bicicleta" , "Fundiciones Benito" , "PanamÃ¡" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf" ;
+	xsd:float "-16,2664102" , "28,45546431" .
+
+<https://www.santacruzdetenerife.es/Clases/156> xsd:float "156" ;
+	xsd:string "JSA003 Silla Pectorales" , "Fundiciones Benito" , "Pza. Beneharo" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf" ;
+	xsd:float "-16,28343478" , "28,45127989" .
+
+<https://www.santacruzdetenerife.es/Clases/157> xsd:float "157" ;
+	xsd:string "JSA006 Climber" , "Fundiciones Benito" , "Pza. Beneharo" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf" ;
+	xsd:float "-16,28344765" , "28,45125295" .
+
+<https://www.santacruzdetenerife.es/Clases/158> xsd:float "158" ;
+	xsd:string "PF8 Row" , "Novatilu" , "Ctra. Los Campitos" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf" ;
+	xsd:float "-16,26341544" , "28,48622643" .
+
+<https://www.santacruzdetenerife.es/Clases/159> xsd:float "159" ;
+	xsd:string "155I El Remo" , "TUYO HPC" , "Ctra. Los Campitos" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf" ;
+	xsd:float "-16,26338643" , "28,48625406" .
+
+<https://www.santacruzdetenerife.es/Clases/160> xsd:float "160" ;
+	xsd:string "PF13 Bike" , "Novatilu" , "Tadorna" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf" ;
+	xsd:float "-16,30806777" , "28,43704871" .
+
+<https://www.santacruzdetenerife.es/Clases/161> xsd:float "161" ;
+	xsd:string "PF9 Oblic" , "Novatilu" , "Tadorna" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf" ;
+	xsd:float "-16,30813497" , "28,43699089" .
+
+<https://www.santacruzdetenerife.es/Clases/162> xsd:float "162" ;
+	xsd:string "JSA 003 Pectorales adap" , "Fundiciones Benito" , "Tadorna" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003D.pdf" ;
+	xsd:float "-16,30800823" , "28,43707215" .
+
+<https://www.santacruzdetenerife.es/Clases/163> xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf" ;
+	xsd:float "-16,29849057" , "28,42658179" , "163" ;
+	xsd:string "JSA 019 Manivelas adap" , "Fundiciones Benito" , "Rambla AÃ±aza" .
+
+<https://www.santacruzdetenerife.es/Clases/164> xsd:float "164" ;
+	xsd:string "JSA 018 Bicicleta adap" , "Fundiciones Benito" , "Rambla AÃ±aza" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf" ;
+	xsd:float "-16,2985557" , "28,4262661" .
+
+<https://www.santacruzdetenerife.es/Clases/165> xsd:float "165" ;
+	xsd:string "JSA 009 TimÃ³n adap" , "Fundiciones Benito" , "Rambla AÃ±aza" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009D.pdf" ;
+	xsd:float "-16,29922068" , "28,42486059" .
+
+<https://www.santacruzdetenerife.es/Clases/166> xsd:float "166" ;
+	xsd:string "JSA 018 Bicicleta adap" , "Fundiciones Benito" , "Avda. Los Majuelos" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf" ;
+	xsd:float "-16,31205759" , "28,44303199" .
+
+<https://www.santacruzdetenerife.es/Clases/167> xsd:float "167" ;
+	xsd:string "JSA 019 Manivelas adap" , "Fundiciones Benito" , "Avda. Los Majuelos" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf" ;
+	xsd:float "-16,31369347" , "28,44206476" .
+
+<https://www.santacruzdetenerife.es/Clases/168> xsd:float "168" ;
+	xsd:string "JSA 003 Pectorales adap" , "Fundiciones Benito" , "Avda. Los Majuelos" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003D.pdf" ;
+	xsd:float "-16,31259542" , "28,44271501" .
+
+<https://www.santacruzdetenerife.es/Clases/169> xsd:float "169" ;
+	xsd:string "PF13 Bike" , "Novatilu" , "Pza. Nuestra Sra. de la Merced" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf" ;
+	xsd:float "-16,30541431" , "28,43553424" .
+
+<https://www.santacruzdetenerife.es/Clases/170> xsd:float "170" ;
+	xsd:string "PF3 Torax" , "Novatilu" , "Pza. Nuestra Sra. de la Merced" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf" ;
+	xsd:float "-16,30538529" , "28,43555924" .
+
+<https://www.santacruzdetenerife.es/Clases/171> xsd:float "171" ;
+	xsd:string "PF3 Torax" , "Novatilu" , "Agana" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf" ;
+	xsd:float "-16,30652728" , "28,42501437" .
+
+<https://www.santacruzdetenerife.es/Clases/172> xsd:float "172" ;
+	xsd:string "PF6 Step" , "Novatilu" , "Agana" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf" ;
+	xsd:float "-16,30653669" , "28,42504001" .
+
+<https://www.santacruzdetenerife.es/Clases/173> xsd:float "173" ;
+	xsd:string "PF1 HIP" , "Novatilu" , "Eladio Roca y Salazar" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf" ;
+	xsd:float "-16,275629" , "28,46593142" .
+
+<https://www.santacruzdetenerife.es/Clases/174> xsd:float "174" ;
+	xsd:string "PF3 Torax" , "Novatilu" , "Eladio Roca y Salazar" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf" ;
+	xsd:float "-16,27565145" , "28,46590709" .
+
+<https://www.santacruzdetenerife.es/Clases/175> xsd:float "175" ;
+	xsd:string "PF13 Bike" , "Novatilu" , "Eladio Roca y Salazar" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf" ;
+	xsd:float "-16,27566999" , "28,46593586" .
+
+<https://www.santacruzdetenerife.es/Clases/176> xsd:float "176" ;
+	xsd:string "PF8 Row" , "Novatilu" , "Eladio Roca y Salazar" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf" ;
+	xsd:float "-16,27568969" , "28,46590914" .
+
+<https://www.santacruzdetenerife.es/Clases/177> xsd:float "177" ;
+	xsd:string "PF4 Up" , "Novatilu" , "Eladio Roca y Salazar" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF4.pdf" ;
+	xsd:float "-16,27570824" , "28,46593871" .
+
+<https://www.santacruzdetenerife.es/Clases/178> xsd:float "178" ;
+	xsd:string "PF6 Step" , "Novatilu" , "Pza. Manuel CastaÃ±eda" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf" ;
+	xsd:float "-16,26558281" , "28,45730176" .
+
+<https://www.santacruzdetenerife.es/Clases/179> xsd:float "179" ;
+	xsd:string "PF8 Row" , "Novatilu" , "Pza. Manuel CastaÃ±eda" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf" ;
+	xsd:float "-16,26560817" , "28,45731177" .
+
+<https://www.santacruzdetenerife.es/Clases/180> xsd:string "PF1 HIP" , "Novatilu" , "Pza. Manuel CastaÃ±eda" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf" ;
+	xsd:float "180" , "-16,26563354" , "28,45732179" .
+
+<https://www.santacruzdetenerife.es/Clases/181> xsd:float "181" ;
+	xsd:string "PF10 Pull" , "Novatilu" , "Pza. Manuel CastaÃ±eda" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF01.pdf" ;
+	xsd:float "-16,26566889" , "28,45731121" .
+
+<https://www.santacruzdetenerife.es/Clases/182> xsd:float "182" ;
+	xsd:string "PF4 Up" , "Novatilu" , "Pza. Manuel CastaÃ±eda" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF4.pdf" ;
+	xsd:float "-16,26568981" , "28,45729172" .
+
+<https://www.santacruzdetenerife.es/Clases/183> xsd:float "183" ;
+	xsd:string "PF26 Pulse" , "Novatilu" , "Pza. Manuel CastaÃ±eda" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf" ;
+	xsd:float "-16,26570258" , "28,45727592" .
+
+<https://www.santacruzdetenerife.es/Clases/184> xsd:float "184" ;
+	xsd:string "PF26 Pulse" , "Novatilu" , "Eladio Roca y Salazar" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf" ;
+	xsd:float "-16,27560779" , "28,46591181" .
+
+<https://www.santacruzdetenerife.es/Clases/185> xsd:float "185" ;
+	xsd:string "PF31 Barras Paralelas" , "Novatilu" , "Avda. Nuestra Sra. del Carmen" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF31.pdf" ;
+	xsd:float "-16,23848612" , "28,48944637" .
+
+<https://www.santacruzdetenerife.es/Clases/186> xsd:float "186" ;
+	xsd:string "PF26 Pulse" , "Novatilu" , "Avda. Nuestra Sra. del Carmen" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf" ;
+	xsd:float "-16,23848946" , "28,48942554" .
+
+<https://www.santacruzdetenerife.es/Clases/187> xsd:float "187" ;
+	xsd:string "JSA018 Bicicleta adaptada" , "Fundiciones Benito" , "Avda. Francisco La Roche" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf" ;
+	xsd:float "-16,24544198" , "28,47672348" .
+
+<https://www.santacruzdetenerife.es/Clases/188> xsd:float "188" ;
+	xsd:string "JSA003 Silla Pectorales" , "Fundiciones Benito" , "Avda. Francisco La Roche" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf" ;
+	xsd:float "-16,24591105" , "28,47617676" .
+
+<https://www.santacruzdetenerife.es/Clases/189> xsd:float "189" ;
+	xsd:string "JSA019 BÃ­ceps" , "Fundiciones Benito" , "Avda. Francisco La Roche" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf" ;
+	xsd:float "-16,24606456" , "28,47595275" .
+
+<https://www.santacruzdetenerife.es/Clases/190> xsd:float "190" ;
+	xsd:string "JSA006 Climber" , "Fundiciones Benito" , "Hermanos Maffiotte" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf" ;
+	xsd:float "-16,27584959" , "28,45474041" .
+
+<https://www.santacruzdetenerife.es/Clases/191> xsd:float "191" ;
+	xsd:string "JSA003 Silla Pectorales" , "Fundiciones Benito" , "Hermanos Maffiotte" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf" ;
+	xsd:float "-16,27580568" , "28,45472966" .
+
+<https://www.santacruzdetenerife.es/Clases/192> xsd:float "192" ;
+	xsd:string "JSA001 Waist" , "Fundiciones Benito" , "Hermanos Maffiotte" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf" ;
+	xsd:float "-16,27582637" , "28,45469971" .
+
+<https://www.santacruzdetenerife.es/Clases/193> xsd:float "193" ;
+	xsd:string "JSA003 Silla Pectorales" , "Fundiciones Benito" , "Magec" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf" ;
+	xsd:float "-16,28181789" , "28,44882226" .
+
+<https://www.santacruzdetenerife.es/Clases/194> xsd:float "194" ;
+	xsd:string "JSA006 Climber" , "Fundiciones Benito" , "Magec" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf" ;
+	xsd:float "-16,28185206" , "28,4488431" .
+
+<https://www.santacruzdetenerife.es/Clases/195> xsd:float "195" ;
+	xsd:string "JSA001 Waist" , "Fundiciones Benito" , "Magec" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf" ;
+	xsd:float "-16,28188173" , "28,44882166" .
+
+<https://www.santacruzdetenerife.es/Clases/196> xsd:float "196" ;
+	xsd:string "JSA006 Climber" , "Fundiciones Benito" , "Pza. Cheo" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf" ;
+	xsd:float "-16,27969153" , "28,45272159" .
+
+<https://www.santacruzdetenerife.es/Clases/197> xsd:float "197" ;
+	xsd:string "JSA003 Silla Pectorales" , "Fundiciones Benito" , "Pza. Cheo" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf" ;
+	xsd:float "-16,27974353" , "28,45273168" .
+
+<https://www.santacruzdetenerife.es/Clases/198> xsd:float "198" ;
+	xsd:string "JSA001 Waist" , "Fundiciones Benito" , "Pza. Cheo" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf" ;
+	xsd:float "-16,27986667" , "28,45251712" .
+
+<https://www.santacruzdetenerife.es/Clases/199> xsd:float "199" ;
+	xsd:string "JCIR06  Barras Paralelas" , "Fundiciones Benito" , "San Juan de la Rambla" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR06.pdf" ;
+	xsd:float "-16,27642711" , "28,46989804" .
+
+<https://www.santacruzdetenerife.es/Clases/200> xsd:float "200" ;
+	xsd:string "JSA006 Climber" , "Fundiciones Benito" , "Pza. La Victoria" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf" ;
+	xsd:float "-16,25995687" , "28,45895638" .
+
+<https://www.santacruzdetenerife.es/Clases/201> xsd:float "201" ;
+	xsd:string "JSA018 Bicicleta" , "Fundiciones Benito" , "Pza. Concha Castro" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf" ;
+	xsd:float "-16,27765293" , "28,47388393" .
+
+<https://www.santacruzdetenerife.es/Clases/202> xsd:float "202" ;
+	xsd:string "JSA018 Bicicleta adaptada" , "Fundiciones Benito" , "Pza. Concha Castro" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf" ;
+	xsd:float "-16,27763713" , "28,47390877" .
+
+<https://www.santacruzdetenerife.es/Clases/203> xsd:float "203" ;
+	xsd:string "JSA005 Rueda" , "Fundiciones Benito" , "Pza. Concha Castro" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA005.pdf" ;
+	xsd:float "-16,27761048" , "28,47389898" .
+
+<https://www.santacruzdetenerife.es/Clases/204> xsd:float "204" ;
+	xsd:string "JSA009 TimÃ³n" , "Fundiciones Benito" , "Pza. Concha Castro" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009.pdf" ;
+	xsd:float "-16,27762434" , "28,47386997" .
+
+<https://www.santacruzdetenerife.es/Clases/205> xsd:float "205" ;
+	xsd:string "JCIR07 Pulse" , "Fundiciones Benito" , "San Juan de la Rambla" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf" ;
+	xsd:float "-16,27648594" , "28,46993585" .
+
+<https://www.santacruzdetenerife.es/Clases/206> xsd:float "206" ;
+	xsd:string "JCIR07 Pulse" , "Fundiciones Benito" , "Pza. Francisco HernÃ¡ndez Barroso" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf" ;
+	xsd:float "-16,26677115" , "28,47052333" .
+
+<https://www.santacruzdetenerife.es/Clases/207> xsd:float "207" ;
+	xsd:string "JSA004 Barras" , "Fundiciones Benito" , "Pza. Francisco HernÃ¡ndez Barroso" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA004.pdf" ;
+	xsd:float "-16,26673835" , "28,4705028" .
+
+<https://www.santacruzdetenerife.es/Clases/208> xsd:float "208" ;
+	xsd:string "JCIR07 Pulse" , "Fundiciones Benito" , "P. Secundino Delgado" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf" ;
+	xsd:float "-16,26311353" , "28,47133236" .
+
+<https://www.santacruzdetenerife.es/Clases/209> xsd:float "209" ;
+	xsd:string "JSA004 Barras" , "Fundiciones Benito" , "P. Secundino Delgado" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA004.pdf" ;
+	xsd:float "-16,26313903" , "28,47129509" .
+
+<https://www.santacruzdetenerife.es/Clases/210> xsd:float "210" ;
+	xsd:string "JSA018 Bicicleta" , "Fundiciones Benito" , "Pza. Anaga" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf" ;
+	xsd:float "-16,2444121" , "28,48038521" .
+
+<https://www.santacruzdetenerife.es/Clases/211> xsd:string "JSA008 Remo" ;
+	xsd:float "211" ;
+	xsd:string "Fundiciones Benito" , "Pza. Anaga" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA008.pdf" ;
+	xsd:float "-16,24436018" , "28,48038393" .
+
+<https://www.santacruzdetenerife.es/Clases/212> xsd:float "212" ;
+	xsd:string "JSA001 Cintura" , "Fundiciones Benito" , "Pza. Anaga" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf" ;
+	xsd:float "-16,24435751" , "28,48032575" .
+
+<https://www.santacruzdetenerife.es/Clases/213> xsd:float "213" ;
+	xsd:string "JSA009 TimÃ³n" , "Fundiciones Benito" , "Avda. Reyes CatÃ³licos" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009.pdf" ;
+	xsd:float "-16,26336605" , "28,46199418" .
+
+<https://www.santacruzdetenerife.es/Clases/214> xsd:float "214" ;
+	xsd:string "JSA018 Bicicleta adaptada" , "Fundiciones Benito" , "Avda. Reyes CatÃ³licos" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf" ;
+	xsd:float "-16,2636143" , "28,46111019" .
+
+<https://www.santacruzdetenerife.es/Clases/215> xsd:float "215" ;
+	xsd:string "JSA019 BÃ­ceps" , "Fundiciones Benito" , "Avda. Reyes CatÃ³licos" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf" ;
+	xsd:float "-16,26367223" , "28,46090385" .
+
+<https://www.santacruzdetenerife.es/Clases/216> xsd:float "216" ;
+	xsd:string "JCIR07 Pulse" , "Fundiciones Benito" , "Ctra. El Bailadero" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf" ;
+	xsd:float "-16,23366197" , "28,53714614" .
+
+<https://www.santacruzdetenerife.es/Clases/217> xsd:float "217" ;
+	xsd:string "JSA006 Climber" , "Fundiciones Benito" , "Ctra. El Bailadero" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf" ;
+	xsd:float "-16,23363501" , "28,53712388" .
+
+<https://www.santacruzdetenerife.es/Clases/218> xsd:float "218" ;
+	xsd:string "JCIR07 Pulse" , "Fundiciones Benito" , "San Antonio (Taganana)" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf" ;
+	xsd:float "-16,21826326" , "28,56226892" .
+
+<https://www.santacruzdetenerife.es/Clases/219> xsd:float "219" ;
+	xsd:string "JSA006 Climber" , "Fundiciones Benito" , "San Antonio (Taganana)" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf" ;
+	xsd:float "-16,21822762" , "28,56226638" .
+
+<https://www.santacruzdetenerife.es/Clases/220> xsd:float "220" ;
+	xsd:string "JSA009 TimÃ³n" , "Fundiciones Benito" , "AndrÃ³meda" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009.pdf" ;
+	xsd:float "-16,244741" , "28,48353117" .
+
+<https://www.santacruzdetenerife.es/Clases/221> xsd:float "221" ;
+	xsd:string "JSA018 Bicicleta" , "Fundiciones Benito" , "AndrÃ³meda" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf" ;
+	xsd:float "-16,2445641" , "28,48334413" .
+
+<https://www.santacruzdetenerife.es/Clases/222> xsd:float "222" ;
+	xsd:string "JCIR03 Espaldera" , "Fundiciones Benito" , "Avda. Nuestra Sra. del Carmen" ;
+	xsd:anyURI "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR03.pdf" ;
+	xsd:float "-16,23847333" , "28,4894499" .
