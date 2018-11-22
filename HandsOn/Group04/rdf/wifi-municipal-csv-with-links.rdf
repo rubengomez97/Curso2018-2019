@@ -1,0 +1,2435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:schema="http://schema.org/"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:clases="http://www.wifimadrid.org/clases#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dbpedia="http://dbpedia.org/resource/">
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/5627235">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Agencia de Actividades</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.400.449.587.879.100</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.882.686.006.118.100</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f7c6f4061d497210VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>DELICIAS</geo:location>
+	<geo:location>ARGANZUELA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28045</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1757">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Aluche </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.039.597.072.367.930</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.562.716.852.987.800</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7f0e3d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ALUCHE</geo:location>
+	<geo:location>LATINA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28047</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1755">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Ana María Matute </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">403.975.850.662.447</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.207.386.328.562.300</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=628e3d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>SAN ISIDRO</geo:location>
+	<geo:location>CARABANCHEL</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28019</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/5768564">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Ángel González </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.397.074.625.115.900</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.664.885.474.841.500</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=ec750a2153ef9210VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ALUCHE</geo:location>
+	<geo:location>LATINA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28024</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1762">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Buenavista </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.043.199.309.720.510</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.670.929.243.543.710</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c53e3d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>GUINDALERA</geo:location>
+	<geo:location>SALAMANCA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28028</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1745">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Canillejas </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.044.640.229.188.280</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.117.933.204.271.000</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=eb9e995a8bf5d010VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CANILLEJAS</geo:location>
+	<geo:location>SAN BLAS-CANILLEJAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28022</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1794">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Ciudad Lineal </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.043.641.736.294.720</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.637.346.971.302.500</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=82ce995a8bf5d010VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PUEBLO NUEVO</geo:location>
+	<geo:location>CIUDAD LINEAL</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28037</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1882">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Conde Duque </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.042.738.668.300.470</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.105.999.955.473.600</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=13ec3d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>UNIVERSIDAD</geo:location>
+	<geo:location>CENTRO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28015</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/51188">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Dámaso Alonso </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.467.453.379.213.100</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.846.112.774.442.700</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=5870007f8441f010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CASTILLA</geo:location>
+	<geo:location>CHAMARTIN</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28036</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/6893633">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Eugenio Tría</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">404.166.091.081.099</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.795.930.368.034.800</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=e791bed05ceed310VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>LOS JERONIMOS</geo:location>
+	<geo:location>RETIRO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28009</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/167128">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Francisco Ayala </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.039.982.891.410.400</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.621.281.890.570.370</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f05279262ef5d010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>VALDEBERNARDO</geo:location>
+	<geo:location>VICALVARO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28032</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1760">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Francisco Ibáñez </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.044.810.636.195.710</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.762.309.620.097.300</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0fce3d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CIUDAD JARDIN</geo:location>
+	<geo:location>CHAMARTIN</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28002</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1754">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Gabriel García Márquez </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.366.768.324.753.400</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.701.141.063.083.800</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=e4bf3d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ORCASUR</geo:location>
+	<geo:location>USERA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28041</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1748">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Gerardo Diego </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.037.790.196.240.430</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.227.296.605.039.500</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=ca903d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CASCO HISTORICO VALLECAS</geo:location>
+	<geo:location>VILLA DE VALLECAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28031</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/79941">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Gloria Fuertes </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.046.055.947.228.690</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-35.937.461.811.785.300</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=1f64c2c6e051c010VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CORRALEJOS</geo:location>
+	<geo:location>BARAJAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28042</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1750">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Huerta de la Salud </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.047.571.688.103.060</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-364.667.257.750.353</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9c5879262ef5d010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PINAR DEL REY</geo:location>
+	<geo:location>HORTALEZA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28033</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/5975465">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Iván de Vargas </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.041.410.290.844.660</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.098.591.212.735.800</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0b60e92be3c5e210VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PALACIO</geo:location>
+	<geo:location>CENTRO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28005</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/115056">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal José Hierro </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.433.291.625.973.600</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.105.662.311.927.400</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=338879262ef5d010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ROSAS</geo:location>
+	<geo:location>SAN BLAS-CANILLEJAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28022</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1790">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal José Saramago </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.047.860.087.334.550</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.094.408.342.979.900</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=70d879262ef5d010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>EL PILAR</geo:location>
+	<geo:location>FUENCARRAL-EL PARDO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28029</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1756">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal La Chata </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.038.330.593.504.340</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.420.633.861.175.700</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d9a879262ef5d010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>VISTA ALEGRE</geo:location>
+	<geo:location>CARABANCHEL</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28025</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/51849">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal La Elipa </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.042.342.659.084.210</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.651.841.641.389.480</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=697c598d1351c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>LA ELIPA</geo:location>
+	<geo:location>CIUDAD LINEAL</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28017</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/185595">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Manuel Vázquez Montalbán </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.045.749.513.485.950</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.710.539.712.535.910</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b5ca89e2c9e5d010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>BELLAS VISTAS</geo:location>
+	<geo:location>TETUAN</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28039</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/10395362">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal María Lejárraga </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.049.041.562.546.540</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.655.356.751.728.000</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d862492de8c8c510VgnVCM2000001f4a900aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>VALDEFUENTES</geo:location>
+	<geo:location>HORTALEZA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28050</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1759">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal María Zambrano </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.046.903.299.144.090</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.976.620.067.964.900</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=74703d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ALMENARA</geo:location>
+	<geo:location>TETUAN</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28029</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/7697128">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Mario Vargas Llosa </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.426.642.215.368.100</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.699.722.994.908.340</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=6c4dbc2658739410VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>JUSTICIA</geo:location>
+	<geo:location>CENTRO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28004</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1752">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Miguel Delibes </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.040.971.737.692.920</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.529.822.109.115.100</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9e8f3d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>MEDIA LEGUA</geo:location>
+	<geo:location>MORATALAZ</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28030</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/186714">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Pablo Neruda </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.042.941.133.441.140</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.416.899.839.787.600</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d5c548d20675e010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PUEBLO NUEVO</geo:location>
+	<geo:location>CIUDAD LINEAL</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28017</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1763">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Pío Baroja </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.040.003.652.682.000</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.074.488.154.950.500</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=17f879262ef5d010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ACACIAS</geo:location>
+	<geo:location>ARGANZUELA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28005</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1753">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Portazgo </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.393.189.968.014.600</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.554.147.649.183.900</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=89a40a47f441f010VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>NUMANCIA</geo:location>
+	<geo:location>PUENTE DE VALLECAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28038</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1792">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Pozo del Tío Raimundo </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">403.735.856.436.473</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.602.546.064.905.300</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d7203d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ENTREVIAS</geo:location>
+	<geo:location>PUENTE DE VALLECAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28053</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1746">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal San Blas </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.420.231.627.534.900</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.218.113.860.909.000</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=2e403d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ARCOS</geo:location>
+	<geo:location>SAN BLAS-CANILLEJAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28037</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1761">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Vallecas </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.395.023.959.810.600</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.665.554.302.127.490</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=11c03d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>SAN DIEGO</geo:location>
+	<geo:location>PUENTE DE VALLECAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28053</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1747">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Biblioteca Pública Municipal Vicálva</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.405.283.650.744.300</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.086.278.232.922.800</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=67e03d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CASCO HISTORICO VICALVARO</geo:location>
+	<geo:location>VICALVARO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28032</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/10658053">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Casa del Empleo </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.393.607.739.794.100</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.627.171.720.477.600</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=96279242be422610VgnVCM1000001d4a900aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PALOMERAS BAJAS</geo:location>
+	<geo:location>PUENTE DE VALLECAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28053</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/117288">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Agustín Díaz </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.427.538.776.051.800</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.732.422.725.110.930</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=2d07cbf06c81c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CASA DE CAMPO</geo:location>
+	<geo:location>MONCLOA-ARAVACA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28008</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/118067">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Alfredo Kraus </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.049.082.275.610.170</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.216.054.330.053.600</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7337cbf06c81c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>MIRASIERRA</geo:location>
+	<geo:location>FUENCARRAL-EL PARDO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28035</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1990">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Almirante Churruca </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">403.829.835.905.706</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.800.890.564.106.600</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=76c43d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>LAS AGUILAS</geo:location>
+	<geo:location>LATINA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28024</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1919">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Aravaca </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.045.843.103.553.320</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.785.855.667.139.090</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=13153d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ARAVACA</geo:location>
+	<geo:location>MONCLOA-ARAVACA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28023</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/64851">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Buenavista </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.043.200.210.571.460</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.709.293.330.780.200</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=068e598d1351c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>GUINDALERA</geo:location>
+	<geo:location>SALAMANCA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28028</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1943">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Buero Vallejo </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.044.477.474.902.180</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.129.105.844.633.700</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=98953d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CANILLEJAS</geo:location>
+	<geo:location>SAN BLAS-CANILLEJAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28022</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/118317">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Carril del Conde </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.046.088.953.531.130</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.544.210.187.969.400</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=66a7cbf06c81c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CANILLAS</geo:location>
+	<geo:location>HORTALEZA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28043</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1945">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Casa de Vacas </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.041.906.024.374.350</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.840.615.387.926.900</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=35e53d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>LOS JERONIMOS</geo:location>
+	<geo:location>RETIRO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28009</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1925">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Casa del Reloj </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.394.522.745.106.700</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.000.855.961.559.800</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8b063d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CHOPERA</geo:location>
+	<geo:location>ARGANZUELA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28045</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/4551096">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Ciudad Pegaso </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.448.428.925.762.600</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-35.980.969.888.187.300</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=07f63190712b1110VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>REJAS</geo:location>
+	<geo:location>SAN BLAS-CANILLEJAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28022</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/80143">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Dotacional Integrado Arganzue</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.040.207.279.862.860</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.955.325.387.824.000</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f9ea79262ef5d010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PALOS DE MOGUER</geo:location>
+	<geo:location>ARGANZUELA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28045</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/5498725">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Eduardo Úrculo </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.046.903.299.144.090</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.976.620.067.964.900</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f8f9338588355210VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ALMENARA</geo:location>
+	<geo:location>TETUAN</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28029</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1953">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural el Madroño </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.405.292.721.436.000</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.086.161.200.017.100</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=57b63d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CASCO H.VICALVARO</geo:location>
+	<geo:location>VICALVARO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28032</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1940">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural el Torito </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.040.609.591.857.160</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.646.536.107.063.500</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f3073d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>VINATEROS</geo:location>
+	<geo:location>MORATALAZ</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28030</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1954">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Fernando de los Ríos </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.039.552.931.214.330</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.562.667.464.373.200</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=3d973d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ALUCHE</geo:location>
+	<geo:location>LATINA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28047</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1921">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Galileo </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.043.371.190.964.790</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.104.543.597.957.700</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=30181e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ARAPILES</geo:location>
+	<geo:location>CHAMBERI</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28015</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/70243">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Gloria Fuertes </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.460.622.835.379.600</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-35.936.877.657.335.900</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=2e5068540e41c010VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CORRALEJOS</geo:location>
+	<geo:location>BARAJAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28042</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1930">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Hortale</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.476.859.845.869.500</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.420.353.342.333.200</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=86381e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PINAR DEL REY</geo:location>
+	<geo:location>HORTALEZA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28033</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1929">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Huerta de la Salud </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.047.484.735.634.340</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.645.543.866.498.550</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=dc581e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PINAR DEL REY</geo:location>
+	<geo:location>HORTALEZA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28033</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/6017747">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural José Luis López Vázquez </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.446.818.592.300.200</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.572.741.163.820.910</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b790e37de110f210VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>REJAS</geo:location>
+	<geo:location>SAN BLAS-CANILLEJAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28022</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/142944">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural José Luis Sampedro </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.040.159.394.334.660</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.749.110.841.406.560</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bd3fba61e681c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>LUCERO</geo:location>
+	<geo:location>LATINA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28047</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1913">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Juan Gris </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.457.862.962.907.300</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-371.225.373.746.578</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=79a81e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>VALDEZARZA</geo:location>
+	<geo:location>MONCLOA-ARAVACA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28039</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1911">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Julio Cortázar </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.046.678.159.096.300</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.195.669.111.891.700</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=cfc81e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>VALDEZARZA</geo:location>
+	<geo:location>MONCLOA-ARAVACA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28035</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1951">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural la Elipa </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.042.447.060.804.350</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.504.253.324.201.100</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=6c191e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>VENTAS</geo:location>
+	<geo:location>CIUDAD LINEAL</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28017</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1917">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural La Vaguada </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.047.900.813.206.290</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.709.138.377.702.430</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=09691e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>EL PILAR</geo:location>
+	<geo:location>FUENCARRAL-EL PARDO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28029</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/4606802">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Las Californias </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.397.020.792.322.300</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.673.881.351.837.230</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=a6c875993dc63110VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ADELFAS</geo:location>
+	<geo:location>RETIRO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28007</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1938">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Lope de Vega </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.386.293.684.801.800</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.718.658.006.661.900</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=4a273d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ENTREVIAS</geo:location>
+	<geo:location>PUENTE DE VALLECAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28053</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1973">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Los Rosales </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.035.074.797.433.510</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.773.064.421.969.200</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=a5b91e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>BUTARQUE</geo:location>
+	<geo:location>VILLAVERDE</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28021</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/6469004">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Mercado de Ibiza </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.041.817.157.699.020</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.677.392.762.224.420</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=dbeab973f50e7310VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>IBIZA</geo:location>
+	<geo:location>RETIRO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28009</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1933">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Meseta de Orcasitas </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.036.968.950.845.350</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.081.679.144.829.000</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fbd91e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ORCASITAS</geo:location>
+	<geo:location>USERA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28041</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1955">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Miguel Hernández </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.378.853.797.128.300</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.819.616.113.032.100</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=420a1e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>LAS AGUILAS</geo:location>
+	<geo:location>LATINA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28044</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1932">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Nicolás Salmerón </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.044.810.636.195.710</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.762.309.620.097.300</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=ee4a1e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CIUDAD JARDIN</geo:location>
+	<geo:location>CHAMARTIN</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28002</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1934">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Orcasur </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.366.768.324.753.400</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.701.141.063.083.800</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8b9a1e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ORCASUR</geo:location>
+	<geo:location>USERA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28041</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1939">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Pozo del tío Raimundo </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">403.735.856.436.473</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.602.546.064.905.300</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=add63d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ENTREVIAS</geo:location>
+	<geo:location>PUENTE DE VALLECAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28053</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1920">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Puerta de Toledo </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.040.740.551.053.050</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.119.218.940.274.000</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=28ea1e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PALACIO</geo:location>
+	<geo:location>CENTRO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28005</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/114978">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Rafael Altamira, antes Palacete Quinta del Berro </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.042.206.601.994.430</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.662.968.075.865.230</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bcc7cbf06c81c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>FUENTE DEL BERRO</geo:location>
+	<geo:location>SALAMANCA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28028</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1958">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural San Juan Bautista </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.045.224.737.965.270</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.580.402.287.911.900</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=618b1e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>SAN JUAN BAUTISTA</geo:location>
+	<geo:location>CIUDAD LINEAL</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28043</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/115404">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Sara Montiel </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.399.764.677.637.100</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.775.144.917.950.530</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c957cbf06c81c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CAMPAMENTO</geo:location>
+	<geo:location>LATINA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28024</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1971">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Teresa de Calcuta </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.045.531.140.556.260</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.587.638.001.688.090</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f50e1e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ALAMEDA DE OSUNA</geo:location>
+	<geo:location>BARAJAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28042</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1994">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Usera</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.381.095.838.993.100</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.710.973.351.109.330</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=54fb1e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PRADOLONGO</geo:location>
+	<geo:location>USERA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28026</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/7416137">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Usera</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.038.429.664.257.210</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.090.866.533.057.700</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=3cadb2cffdc15410VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PRADOLONGO</geo:location>
+	<geo:location>USERA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28026</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/123948">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Valdebernardo </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.039.982.891.410.400</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.621.281.890.570.370</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=69188899fc81c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CASCO H.VICALVARO</geo:location>
+	<geo:location>VICALVARO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28032</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1980">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural Zazuar </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.038.281.899.948.720</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.606.140.062.044.450</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9d8c1e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>SANTA EUGENIA</geo:location>
+	<geo:location>VILLA DE VALLECAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28031</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1914">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Cultural - Centro Socio Cultural Villa de Baraj</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.473.402.418.562.200</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-35.785.233.191.070.300</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=476c1e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CASCO H.BARAJAS</geo:location>
+	<geo:location>BARAJAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28042</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/10303632">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro de Formación de Ánco</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.040.294.595.308.370</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.896.374.651.582.400</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0c8acba8e241b510VgnVCM2000001f4a900aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PALOS DE MOGUER</geo:location>
+	<geo:location>ARGANZUELA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28045</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/187859">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro de Formación de Baraj</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.045.463.575.922.800</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.587.632.115.472.540</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=e73a0a47f441f010VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ALAMEDA DE OSUNA</geo:location>
+	<geo:location>BARAJAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28042</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/8952">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro de Salud Santa Hortens</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.445.161.353.404.300</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.698.809.711.248.300</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=6b8d4b6faa61c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PROSPERIDAD</geo:location>
+	<geo:location>CHAMARTIN</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28002</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11961">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro de Servicios Sociales Dehesa de la Vil</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.046.711.526.748.940</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.195.114.936.540.900</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=67d966051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>VALDEZARZA</geo:location>
+	<geo:location>MONCLOA-ARAVACA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28035</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11954">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro de Servicios Sociales Eduardo Mingui</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.034.854.935.708.130</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.686.539.661.954.900</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=6c3c66051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>LOS ROSALES</geo:location>
+	<geo:location>VILLAVERDE</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28021</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11957">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro de Servicios Sociales Entreví</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.037.641.666.740.880</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.692.821.142.332.200</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bdf966051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ENTREVIAS</geo:location>
+	<geo:location>PUENTE DE VALLECAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28053</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11966">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro de Servicios Sociales Guindale</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.043.349.910.050.290</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.691.167.784.691.700</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f69a66051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>GUINDALERA</geo:location>
+	<geo:location>SALAMANCA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28028</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11955">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro de Servicios Sociales Luis Viv</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.423.960.764.556.200</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.628.588.601.009.720</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=4dba66051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PUEBLO NUEVO</geo:location>
+	<geo:location>CIUDAD LINEAL</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28037</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11972">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro de Servicios Sociales Pablo Neru</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.385.179.370.371.400</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.444.628.142.076.500</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=e90b66051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PALOMERAS SURESTE</geo:location>
+	<geo:location>PUENTE DE VALLECAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28018</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/49836">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro de Servicios Sociales San Die</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.038.871.930.363.660</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.663.689.575.700.870</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=41b3598d1351c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PALOMERAS BAJAS</geo:location>
+	<geo:location>PUENTE DE VALLECAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28018</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11967">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro de Servicios Sociales Santa Hortens</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.044.476.894.081.760</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.691.931.472.225.400</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=cfeb66051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PROSPERIDAD</geo:location>
+	<geo:location>CHAMARTIN</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28002</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/72864">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Alfonso XI</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.051.967.355.005.560</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.777.870.156.722.290</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=86bb3d232e91f010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>EL PARDO</geo:location>
+	<geo:location>FUENCARRAL-EL PARDO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28048</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/6166668">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Antón Martí</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.041.182.992.691.990</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.702.928.583.465.710</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c5a8ff0f9ae32310VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>EMBAJADORES</geo:location>
+	<geo:location>CENTRO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28012</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11720">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Antonio Machad</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.042.027.705.095.570</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.621.741.078.700.330</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c73d66051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ARCOS</geo:location>
+	<geo:location>SAN BLAS-CANILLEJAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28037</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/57828">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Asca</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.042.958.439.423.380</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.413.497.414.718.700</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bd5a8ed67151c010VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PUEBLO NUEVO</geo:location>
+	<geo:location>CIUDAD LINEAL</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28017</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/76080">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Blasco de Gara</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.433.840.945.976.400</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.711.446.072.668.330</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=aa4268540e41c010VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ARAPILES</geo:location>
+	<geo:location>CHAMBERI</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28015</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11715">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Bucaramang</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.047.280.872.386.730</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.398.851.240.592.300</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=57fd66051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PINAR DEL REY</geo:location>
+	<geo:location>HORTALEZA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28033</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/22753">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Campament</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.039.869.732.367.930</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.676.853.284.742.100</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=4eb1e35bba51c010VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CAMPAMENTO</geo:location>
+	<geo:location>LATINA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28024</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11688">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Casa del Relo</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">403.933.877.847.248</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.698.565.632.659.460</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=4a6e66051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CHOPERA</geo:location>
+	<geo:location>ARGANZUELA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28045</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11698">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Ciudad de Méjic</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.379.796.096.543.600</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.690.728.792.725.700</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=830f66051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>LAS AGUILAS</geo:location>
+	<geo:location>LATINA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28044</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11719">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Daroc</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.403.496.149.688.700</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.609.330.588.862.220</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=37a366051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CASCO H.VICALVARO</geo:location>
+	<geo:location>VICALVARO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28032</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11696">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Dehesa de la Vill</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.046.711.526.748.940</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.195.114.936.540.900</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d92f66051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>VALDEZARZA</geo:location>
+	<geo:location>MONCLOA-ARAVACA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28035</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/6166665">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Dos Amigo</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.042.471.327.582.070</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.102.299.982.331.000</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=04941bc268e32310VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>UNIVERSIDAD</geo:location>
+	<geo:location>CENTRO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28015</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/5912581">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Eduardo Minguit</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.034.854.935.708.130</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.686.539.661.954.900</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=603ff860f205d210VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>LOS ROSALES</geo:location>
+	<geo:location>VILLAVERDE</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28021</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/4997526">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'El Almendr</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.040.210.302.381.570</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.239.189.412.211.400</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f4c02f0875e9c110VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CASCO H.VICALVARO</geo:location>
+	<geo:location>VICALVARO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28032</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11756">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'El Poz</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">403.735.856.436.473</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.602.546.064.905.300</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=205f66051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ENTREVIAS</geo:location>
+	<geo:location>PUENTE DE VALLECAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28053</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11709">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Entrevía</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.037.641.666.740.880</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.692.821.142.332.200</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=767f66051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ENTREVIAS</geo:location>
+	<geo:location>PUENTE DE VALLECAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28053</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/87027">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Infante Don Jua</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.043.424.297.757.210</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.207.172.544.795.700</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=939fdef5ab41c010VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ARGUELLES</geo:location>
+	<geo:location>MONCLOA-ARAVACA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28008</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/122352">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Islas Filipina</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.042.342.659.084.210</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.651.841.641.389.480</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d34e8899fc81c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>VENTAS</geo:location>
+	<geo:location>CIUDAD LINEAL</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28017</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11741">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'La Guindaler</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.043.349.910.050.290</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.691.167.784.691.700</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=373b79262ef5d010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>GUINDALERA</geo:location>
+	<geo:location>SALAMANCA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28028</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11742">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'La Vaguad</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.047.860.087.334.550</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.094.408.342.979.900</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=a28066051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>EL PILAR</geo:location>
+	<geo:location>FUENCARRAL-EL PARDO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28029</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/133983">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Leñero</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.045.406.088.024.460</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.093.713.617.566.300</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=85e515a11a81c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>BELLAS VISTAS</geo:location>
+	<geo:location>TETUAN</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28039</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/108513">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Lucer</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.040.178.273.810.310</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.491.718.558.671.400</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=db0615a11a81c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>LUCERO</geo:location>
+	<geo:location>LATINA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28047</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/20241">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Luis Vive</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.423.960.764.556.200</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.628.588.601.009.720</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=3132e35bba51c010VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PUEBLO NUEVO</geo:location>
+	<geo:location>CIUDAD LINEAL</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28037</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/122369">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Maestro Alons</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">404.293.527.096.082</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.664.819.790.735.590</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=dd5b79262ef5d010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>FUENTE DEL BERRO</geo:location>
+	<geo:location>SALAMANCA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28028</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11758">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'María Zambran</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.034.333.382.494.160</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.909.491.943.684.400</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=adabae7cb2e4f010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>SAN CRISTOBAL</geo:location>
+	<geo:location>VILLAVERDE</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28021</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11710">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Nicanor Barros</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.039.887.768.991.450</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.420.363.186.993.700</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=324166051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>FONTARRON</geo:location>
+	<geo:location>MORATALAZ</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28030</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/113094">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Nuestra Señora del Carme</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.046.337.730.558.990</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.631.515.434.596.130</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c6be8899fc81c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CANILLAS</geo:location>
+	<geo:location>HORTALEZA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28043</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11708">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Pablo Nerud</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.385.179.370.371.400</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.444.628.142.076.500</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=886166051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PALOMERAS SURESTE</geo:location>
+	<geo:location>PUENTE DE VALLECAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28018</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/4724726">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Pamplon</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.045.458.138.286.930</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.052.844.690.568.000</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=2937de75fd187110VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>BELLAS VISTAS</geo:location>
+	<geo:location>TETUAN</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28039</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11724">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Pío Baroj</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.041.339.399.749.280</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.674.787.205.505.520</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c10266051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>NIÑO JESUS</geo:location>
+	<geo:location>RETIRO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28009</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11712">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Príncipe de Asturia</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.436.444.648.624.800</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.373.000.672.722.600</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=182266051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PUEBLO NUEVO</geo:location>
+	<geo:location>CIUDAD LINEAL</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28037</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11690">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Prosperidad Santa Hortensi</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.044.476.894.081.760</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.691.931.472.225.400</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=6e4266051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PROSPERIDAD</geo:location>
+	<geo:location>CHAMARTIN</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28002</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/49541">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'San Dieg</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.038.871.930.363.660</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.663.689.575.700.870</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=6cb4598d1351c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PALOMERAS BAJAS</geo:location>
+	<geo:location>PUENTE DE VALLECAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28018</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11759">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'San Juan Bautist</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.045.252.617.323.740</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.581.255.009.849.300</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=443366051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>SAN JUAN BAUTISTA</geo:location>
+	<geo:location>CIUDAD LINEAL</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28043</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/122268">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'San Vicente de Paú</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.386.075.026.633.900</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.230.547.190.101.200</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=630f8899fc81c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>OPAÑEL</geo:location>
+	<geo:location>CARABANCHEL</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28019</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/11764">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Santa Engraci</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.439.987.457.420.300</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.700.733.879.498.950</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9a5366051361c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>RIOS ROSAS</geo:location>
+	<geo:location>CHAMBERI</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28003</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/31019">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Teresa de Calcut</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.045.531.140.556.260</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.587.638.001.688.090</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0c07b3e42751c010VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ALAMEDA DE OSUNA</geo:location>
+	<geo:location>BARAJAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28042</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/29184">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Municipal de Mayores 'Villa de Valleca</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.037.732.438.108.780</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.212.400.484.216.900</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=5237b3e42751c010VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CASCO H.VALLECAS</geo:location>
+	<geo:location>VILLA DE VALLECAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28031</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/56495">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Siena </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.043.316.516.575.710</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.651.876.723.048.770</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=1114c2c6e051c010VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>QUINTANA</geo:location>
+	<geo:location>CIUDAD LINEAL</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28027</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1996">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Ágata </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.034.636.268.334.180</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.708.524.395.897.370</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d9743d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>SAN ANDRES</geo:location>
+	<geo:location>VILLAVERDE</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28021</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1936">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Alberto Sánchez </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.393.612.303.425.900</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.556.073.868.098.400</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=20a43d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>NUMANCIA</geo:location>
+	<geo:location>PUENTE DE VALLECAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28038</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/72862">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Alfonso XII </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.519.673.311.658.600</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.779.055.687.726.500</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b7d168540e41c010VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>EL PARDO</geo:location>
+	<geo:location>FUENCARRAL-EL PARDO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28048</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1927">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Blasco Ibáñez </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.394.959.912.881.800</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.732.764.798.621.330</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fb453d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>SAN ISIDRO</geo:location>
+	<geo:location>CARABANCHEL</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28019</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1949">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Bohemios </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.035.639.654.251.880</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.940.501.846.610.800</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=42753d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>LOS ANGELES</geo:location>
+	<geo:location>VILLAVERDE</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28041</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/118935">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Cánovas del Castillo </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.038.626.143.332.090</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.000.825.227.295.000</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=1087cbf06c81c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ALMENDRALES</geo:location>
+	<geo:location>USERA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28026</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1967">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Ciudad Line</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.422.850.906.984.400</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.651.682.839.770.600</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=16f81e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>VENTAS</geo:location>
+	<geo:location>CIUDAD LINEAL</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28017</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/124354">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural de Moratal</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.399.222.766.804.500</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.366.543.437.448.800</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bf388899fc81c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PAVONES</geo:location>
+	<geo:location>MORATALAZ</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28030</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1941">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Eduardo Chillida </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.040.939.173.676.510</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.653.214.777.359.330</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=01963d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>MEDIA LEGUA</geo:location>
+	<geo:location>MORATALAZ</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28030</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/26904">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural El Greco </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.407.316.328.180.400</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.747.465.416.906.970</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=cae2b3e42751c010VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>LUCERO</geo:location>
+	<geo:location>LATINA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28011</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1947">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural José Espronceda </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.044.863.106.357.680</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.045.265.016.586.000</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=23881e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>BELLAS VISTAS</geo:location>
+	<geo:location>TETUAN</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28039</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1965">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Juvenil de Use</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.389.856.130.874.600</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.074.718.790.538.200</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=876e1e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>MOSCARDO</geo:location>
+	<geo:location>USERA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28026</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/102131">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Lati</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">403.796.366.471.018</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.659.492.448.759.000</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=a4ed8899fc81c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>LAS AGUILAS</geo:location>
+	<geo:location>LATINA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28044</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1918">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Lavapiés </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.040.966.697.102.750</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.701.574.291.636.870</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=5f891e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>EMBAJADORES</geo:location>
+	<geo:location>CENTRO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28012</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1961">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Luis Gonzaga </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.044.489.723.228.660</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.780.972.922.453.600</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=ba8b3d232e91f010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CIUDAD JARDIN</geo:location>
+	<geo:location>CHAMARTIN</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28002</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1909">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Maestro Alonso </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.042.938.854.032.780</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.664.855.511.110.750</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=783f1e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>FUENTE DEL BERRO</geo:location>
+	<geo:location>SALAMANCA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28028</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/170066">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Marconi </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.334.751.832.113.700</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.700.809.560.921.590</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=6cb0085f5181c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>SAN ANDRES</geo:location>
+	<geo:location>VILLAVERDE</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28021</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1970">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Miguel de Cervantes </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.043.664.778.776.810</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.611.362.970.564.870</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=24be1e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CANILLEJAS</geo:location>
+	<geo:location>SAN BLAS-CANILLEJAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28022</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1924">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Rafael de León </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.048.025.613.358.830</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.214.686.777.952.900</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7e0b1e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PEÑA GRANDE</geo:location>
+	<geo:location>FUENCARRAL-EL PARDO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28035</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/43311">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Rosario de Acuña </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.040.647.389.284.970</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.327.010.920.242.000</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=2bae598d1351c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PUERTA DEL ANGEL</geo:location>
+	<geo:location>LATINA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28011</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1950">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural San Cristóbal de los Ángeles </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.034.233.618.931.460</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.905.504.735.084.300</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7f4a79262ef5d010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>SAN CRISTOBAL</geo:location>
+	<geo:location>VILLAVERDE</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28021</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1935">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural San Fermín </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.037.164.288.657.410</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.920.627.827.867.500</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=1b5b1e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>SAN FERMIN</geo:location>
+	<geo:location>USERA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28041</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/117716">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Santa Petronila </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.035.087.114.162.280</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.691.508.909.255.180</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=03f7cbf06c81c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>LOS ROSALES</geo:location>
+	<geo:location>VILLAVERDE</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28021</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1937">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Talleres de Creatividad </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.039.009.728.291.880</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.665.329.063.724.780</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b7ab1e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>SAN DIEGO</geo:location>
+	<geo:location>PUENTE DE VALLECAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28053</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1948">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Tetu</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.045.907.130.615.820</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.700.271.645.324.860</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0ecb1e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>BERRUGUETE</geo:location>
+	<geo:location>TETUAN</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28020</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1923">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Valle Inclán </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.048.106.787.416.520</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.933.504.628.706.000</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=aa1c1e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>LA PAZ</geo:location>
+	<geo:location>FUENCARRAL-EL PARDO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28029</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1908">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Valverde </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.049.504.564.211.650</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.880.070.256.093.700</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f04c1e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>VALVERDE</geo:location>
+	<geo:location>FUENCARRAL-EL PARDO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28034</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/4679597">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Centro Sociocultural Vicálva</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.040.219.442.341.810</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.084.585.863.003.700</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=05ec3ef2c5ff5110VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CASCO H.VICALVARO</geo:location>
+	<geo:location>VICALVARO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28032</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/6013703">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>CentroCent</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.419.011.767.401.000</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.692.206.111.679.650</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=5ff519cd7bcee210VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>LOS JERONIMOS</geo:location>
+	<geo:location>RETIRO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28014</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1916">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Conde Duq</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.042.802.889.001.870</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.710.182.353.581.840</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=64463d0b5e71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>UNIVERSIDAD</geo:location>
+	<geo:location>CENTRO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28015</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/2047">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Hemeroteca Municip</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.042.802.889.001.870</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.710.182.353.581.840</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=11951e79ee71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>UNIVERSIDAD</geo:location>
+	<geo:location>CENTRO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28015</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/2054">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Museo de Historia de Madr</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.042.577.054.821.340</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.700.845.660.719.600</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8f3079262ef5d010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>JUSTICIA</geo:location>
+	<geo:location>CENTRO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28004</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/2112">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Museo de San Isidr</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.041.207.900.253.880</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.108.161.027.466.300</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7b7aef4d7f71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PALACIO</geo:location>
+	<geo:location>CENTRO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28005</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/24242">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina Auxiliar de Atención a la Ciudadanía de El Pardo. Oficina de Atención a la Ciudadanía </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.051.990.216.989.400</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.777.365.185.426.130</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=73210a47f441f010VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>EL PARDO</geo:location>
+	<geo:location>FUENCARRAL-EL PARDO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28048</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/24245">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina Auxiliar de Atención a la Ciudadanía de Valverde. Oficina de Atención a la Ciudadanía </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.049.504.578.261.260</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.687.983.425.734.920</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=76310a47f441f010VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>VALVERDE</geo:location>
+	<geo:location>FUENCARRAL-EL PARDO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28034</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/180717">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">403.933.877.847.248</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.698.565.632.659.460</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=67da8aa6bd91f010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CHOPERA</geo:location>
+	<geo:location>ARGANZUELA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28045</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/180005">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.047.479.357.890.760</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.577.768.444.536.060</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7a0b8aa6bd91f010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CASCO H.BARAJAS</geo:location>
+	<geo:location>BARAJAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28042</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/4706011">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.386.962.506.825.900</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.386.530.020.939.600</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9c8fa5a18b3c6110VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>VISTA ALEGRE</geo:location>
+	<geo:location>CARABANCHEL</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28025</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/5727898">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.041.151.901.471.160</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.697.739.488.614.280</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=70141da64ba49210VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>EMBAJADORES</geo:location>
+	<geo:location>CENTRO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28012</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/182853">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.044.489.723.228.660</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.780.972.922.453.600</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=614b8aa6bd91f010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CIUDAD JARDIN</geo:location>
+	<geo:location>CHAMARTIN</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28002</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/183012">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.446.683.231.882.800</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.048.363.430.688.800</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=499b8aa6bd91f010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>VALLEHERMOSO</geo:location>
+	<geo:location>CHAMBERI</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28003</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/180078">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">404.359.990.280.135</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.369.662.067.437.200</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=50eb8aa6bd91f010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PUEBLO NUEVO</geo:location>
+	<geo:location>CIUDAD LINEAL</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28037</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/180291">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.478.526.343.687.900</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.709.841.173.334.440</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=eb0c8aa6bd91f010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>EL PILAR</geo:location>
+	<geo:location>FUENCARRAL-EL PARDO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28029</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/182794">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.046.299.114.016.900</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.571.542.769.919.400</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0a8c8aa6bd91f010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CANILLAS</geo:location>
+	<geo:location>HORTALEZA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28043</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/181203">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">403.849.364.255.536</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.764.218.505.722.320</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8bcc8aa6bd91f010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>LAS AGUILAS</geo:location>
+	<geo:location>LATINA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28044</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/4618663">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.043.519.137.700.080</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.718.876.324.432.250</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=1d6607151bcf3110VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ARGUELLES</geo:location>
+	<geo:location>MONCLOA-ARAVACA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28008</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/182199">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.039.664.109.245.880</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.663.361.506.752.000</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0ced8aa6bd91f010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>SAN DIEGO</geo:location>
+	<geo:location>PUENTE DE VALLECAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28038</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/180011">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.040.236.125.879.460</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.772.931.748.500.200</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=a74e8aa6bd91f010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PACIFICO</geo:location>
+	<geo:location>RETIRO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28007</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/180854">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.042.732.326.877.900</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.683.768.008.487.210</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c3ae8aa6bd91f010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>RECOLETOS</geo:location>
+	<geo:location>SALAMANCA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28001</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/183637">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.434.476.793.953.100</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.096.219.543.135.800</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=e2fe8aa6bd91f010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ROSAS</geo:location>
+	<geo:location>SAN BLAS-CANILLEJAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28022</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/4533790">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.465.712.459.445</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.940.418.104.349.500</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=567c1b7dd5621110VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ALMENARA</geo:location>
+	<geo:location>TETUAN</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28029</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/181625">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.038.241.253.009.170</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.107.515.747.822.300</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bf6f8aa6bd91f010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PRADOLONGO</geo:location>
+	<geo:location>USERA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28026</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/183881">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.402.270.479.784.800</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.059.845.330.840.700</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=1eef8aa6bd91f010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CASCO H.VICALVARO</geo:location>
+	<geo:location>VICALVARO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28032</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/182351">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">403.788.998.244.401</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.621.454.785.869.900</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=1e308aa6bd91f010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CASCO H.VALLECAS</geo:location>
+	<geo:location>VILLA DE VALLECAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28031</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/181738">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.348.895.848.554.600</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-371.120.030.905.872</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=69a08aa6bd91f010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>SAN ANDRES</geo:location>
+	<geo:location>VILLAVERDE</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28021</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/5262382">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.039.786.211.392.550</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.670.669.926.439.900</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7978b5ddd36cf110VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>NUMANCIA</geo:location>
+	<geo:location>PUENTE DE VALLECAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28038</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/190825">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía. </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.490.415.625.465.400</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.655.356.751.728.000</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c2b3f5ae13d60110VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>VALDEFUENTES</geo:location>
+	<geo:location>HORTALEZA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28050</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/180014">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención a la Ciudadanía.</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.039.859.980.911.480</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.368.959.356.337.200</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7e5d8aa6bd91f010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PAVONES</geo:location>
+	<geo:location>MORATALAZ</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28030</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/5321993">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención Integral al Contribuyente </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.039.063.439.598.590</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.690.501.580.631.820</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=e25edf836af01210VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>LEGAZPI</geo:location>
+	<geo:location>ARGANZUELA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28045</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/5620158">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención Integral al Contribuyente </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.044.613.326.792.270</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.989.699.295.578.300</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=401f5361e8b67210VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>RIOS ROSAS</geo:location>
+	<geo:location>CHAMBERI</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28003</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/8628334">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención Integral al Contribuyente </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.463.444.731.027.300</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-363.236.531.637.309</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=ce533233b8f32510VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CANILLAS</geo:location>
+	<geo:location>HORTALEZA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28043</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/4561585">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de Atención Integral al Contribuyente </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.041.449.174.864.590</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.110.890.097.804.200</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b7313873fed02110VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PALACIO</geo:location>
+	<geo:location>CENTRO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28005</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/13834">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina de objetos perdidos del Ayuntamiento de Madri</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.039.065.926.812.700</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.938.716.039.760.700</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7c365a0f8161c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>LEGAZPI</geo:location>
+	<geo:location>ARGANZUELA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28045</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/104624">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Oficina especializada del Servicio de Estacionamiento Regulado, APR y Biciregistr</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.040.039.462.478.580</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-368.842.123.426.747</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=ce42a328be81c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>DELICIAS</geo:location>
+	<geo:location>ARGANZUELA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28045</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/1984">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Pabellón de los Jardines de Cecilio Rodrígu</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.041.250.110.617.820</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.676.499.075.231.230</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0d8def4d7f71c010VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>NIÑO JESUS</geo:location>
+	<geo:location>RETIRO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28009</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/7829427">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Punto de Atención Social El Quer</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.047.612.370.683.220</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.639.006.166.974.000</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=3ffc666934dda410VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>APOSTOL SANTIAGO</geo:location>
+	<geo:location>HORTALEZA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28033</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/4814317">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Sala de estudio Cánovas del Castillo </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.038.626.143.332.090</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.000.825.227.295.000</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b10c750b1c058110VgnVCM2000000c205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ALMENDRALES</geo:location>
+	<geo:location>USERA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28026</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/4815414">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Sala de estudio El Madroño </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.405.292.721.436.000</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.086.161.200.017.100</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=62c0c0e48a558110VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CASCO H.VICALVARO</geo:location>
+	<geo:location>VICALVARO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28032</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/6468021">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Sala de estudio Luis García Berlanga </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.046.527.083.469.680</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-36.940.726.509.061.600</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f5abe23a26bd7310VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>ALMENARA</geo:location>
+	<geo:location>TETUAN</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28029</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/10751094">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Sala de estudio Motilla del Palancar </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.046.532.067.984.830</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.633.321.598.436.630</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f2114531d18a4610VgnVCM1000001d4a900aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CANILLAS</geo:location>
+	<geo:location>HORTALEZA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28043</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/4815493">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Sala de estudio Pilares </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.047.504.564.286</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.577.805.996.745.730</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=747e48136c558110VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CASCO H.BARAJAS</geo:location>
+	<geo:location>BARAJAS</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28042</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/4815389">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Sala de estudio Valdebernardo </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.039.982.891.410.400</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.621.281.890.570.370</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=1dc9c0e48a558110VgnVCM1000000b205a0aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>CASCO H.VICALVARO</geo:location>
+	<geo:location>VICALVARO</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28032</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/10107814">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Sala de estudio y lectura Arquitecto Juan de Herrera </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.040.647.389.284.970</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.327.010.920.242.000</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=6a6c61366ded5510VgnVCM1000001d4a900aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PUERTA DEL ANGEL</geo:location>
+	<geo:location>LATINA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28011</dbpedia:postalCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wifimadrid.org/recurso#Establecimiento/10107702">
+	<rdf:type rdf:resource="http://schema.org/PK"/>
+	<rdfs:label>Sala de estudio y lectura Escritor Pedro de Répide </rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.040.647.389.284.970</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-37.327.010.920.242.000</geo:long>
+	<rdfs:seeAlso>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=5e0861366ded5510VgnVCM1000001d4a900aRCRD</rdfs:seeAlso>
+	<geo:location>MADRID</geo:location>
+	<geo:location>PUERTA DEL ANGEL</geo:location>
+	<geo:location>LATINA</geo:location>
+	<dbpedia:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28011</dbpedia:postalCode>
+</rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,748 @@
+[
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "CARRERA",
+                "l": "CARRERA"
+              }
+            },
+            {
+              "v": {
+                "v": "PASAJE",
+                "l": "PASAJE"
+              }
+            },
+            {
+              "v": {
+                "v": "PLAZUELA",
+                "l": "PLAZUELA"
+              }
+            },
+            {
+              "v": {
+                "v": "RONDA",
+                "l": "RONDA"
+              }
+            },
+            {
+              "v": {
+                "v": "JARDÍN",
+                "l": "JARDÍN"
+              }
+            },
+            {
+              "v": {
+                "v": "SENDA",
+                "l": "SENDA"
+              }
+            },
+            {
+              "v": {
+                "v": "PUENTE",
+                "l": "PUENTE"
+              }
+            },
+            {
+              "v": {
+                "v": "BULEVAR",
+                "l": "BULEVAR"
+              }
+            },
+            {
+              "v": {
+                "v": "GLORIETA",
+                "l": "GLORIETA"
+              }
+            },
+            {
+              "v": {
+                "v": "PASADIZO",
+                "l": "PASADIZO"
+              }
+            },
+            {
+              "v": {
+                "v": "AUTOPISTA",
+                "l": "AUTOPISTA"
+              }
+            },
+            {
+              "v": {
+                "v": "ARROYO",
+                "l": "ARROYO"
+              }
+            },
+            {
+              "v": {
+                "v": "ESCALINATA",
+                "l": "ESCALINATA"
+              }
+            },
+            {
+              "v": {
+                "v": "AEROPUERTO",
+                "l": "AEROPUERTO"
+              }
+            },
+            {
+              "v": {
+                "v": "ACCESO",
+                "l": "ACCESO"
+              }
+            },
+            {
+              "v": {
+                "v": "AUTOVÍA",
+                "l": "AUTOVÍA"
+              }
+            },
+            {
+              "v": {
+                "v": "CAÑADA",
+                "l": "CAÑADA"
+              }
+            },
+            {
+              "v": {
+                "v": "PLAZA",
+                "l": "PLAZA"
+              }
+            },
+            {
+              "v": {
+                "v": "GALERÍA",
+                "l": "GALERÍA"
+              }
+            },
+            {
+              "v": {
+                "v": "POBLADO DE ABSORCIÓN",
+                "l": "POBLADO DE ABSORCIÓN"
+              }
+            },
+            {
+              "v": {
+                "v": "PASEO",
+                "l": "PASEO"
+              }
+            },
+            {
+              "v": {
+                "v": "POLÍGONO",
+                "l": "POLÍGONO"
+              }
+            },
+            {
+              "v": {
+                "v": "COSTANILLA",
+                "l": "COSTANILLA"
+              }
+            },
+            {
+              "v": {
+                "v": "CUESTA",
+                "l": "CUESTA"
+              }
+            },
+            {
+              "v": {
+                "v": "CARRETERA",
+                "l": "CARRETERA"
+              }
+            },
+            {
+              "v": {
+                "v": "COLONIA",
+                "l": "COLONIA"
+              }
+            },
+            {
+              "v": {
+                "v": "CAMINO",
+                "l": "CAMINO"
+              }
+            },
+            {
+              "v": {
+                "v": "TRASERA",
+                "l": "TRASERA"
+              }
+            },
+            {
+              "v": {
+                "v": "PASO ELEVADO",
+                "l": "PASO ELEVADO"
+              }
+            },
+            {
+              "v": {
+                "v": "PARTICULAR",
+                "l": "PARTICULAR"
+              }
+            },
+            {
+              "v": {
+                "v": "CALLEJÓN",
+                "l": "CALLEJÓN"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "VIA_CLASE",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "VIA_CLASE"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column NOMBRE VIA at index 2 based on column VIA_CLASE using expression grel:value + \" \" + cells[\"VIA_PAR\"].value + \" \" + cells[\"VIA_NOMBRE_ACENTOS\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "NOMBRE VIA",
+    "columnInsertIndex": 2,
+    "baseColumnName": "VIA_CLASE",
+    "expression": "grel:value + \" \" + cells[\"VIA_PAR\"].value + \" \" + cells[\"VIA_NOMBRE_ACENTOS\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column DISTRITOSN at index 7 based on column DISTRITO using expression grel:if (value!='null',cell.cross(\"Distritos\", \"Codigo de distrito\").cells[\"Nombre de distrito\"].value[0],'')",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "DISTRITOSN",
+    "columnInsertIndex": 7,
+    "baseColumnName": "DISTRITO",
+    "expression": "grel:if (value!='null',cell.cross(\"Distritos\", \"Codigo de distrito\").cells[\"Nombre de distrito\"].value[0],'')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column DISTRIBARRIO at index 7 based on column DISTRITO using expression grel:value + cells[\"BARRIO\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "DISTRIBARRIO",
+    "columnInsertIndex": 7,
+    "baseColumnName": "DISTRITO",
+    "expression": "grel:value + cells[\"BARRIO\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column BARRIOREAL at index 8 based on column DISTRIBARRIO using expression grel:cell.cross(\"sss\", \"REAL\")[0].cells[\"Nombre de barrio\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "BARRIOREAL",
+    "columnInsertIndex": 8,
+    "baseColumnName": "DISTRIBARRIO",
+    "expression": "grel:cell.cross(\"sss\", \"REAL\")[0].cells[\"Nombre de barrio\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column IMPAR_MIN",
+    "columnName": "IMPAR_MIN"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column IMPAR_MAX",
+    "columnName": "IMPAR_MAX"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PAR_MIN",
+    "columnName": "PAR_MIN"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PAR_MAX",
+    "columnName": "PAR_MAX"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/handson/grp16/callejero#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE VIA",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#Calle",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#Calle"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnDistrito",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnDistrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITOSN",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/handson/grp16/callejero#Distrito",
+                    "curie": "http://www.semanticweb.org/handson/grp16/callejero#Distrito"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnBarrio",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnBarrio",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/handson/grp16/callejero#Barrio",
+                    "curie": "http://www.semanticweb.org/handson/grp16/callejero#Barrio"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/handson/grp16/callejero#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE VIA",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#Calle",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#Calle"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnDistrito",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnDistrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITOSN",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/handson/grp16/callejero#Distrito",
+                    "curie": "http://www.semanticweb.org/handson/grp16/callejero#Distrito"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnBarrio",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnBarrio",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/handson/grp16/callejero#Barrio",
+                    "curie": "http://www.semanticweb.org/handson/grp16/callejero#Barrio"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NOMBRE VIA using expression grel:replace(value,\"Á\",\"A\")\nreplace(value,\"É\",\"E\")\nreplace(value,\"Í\",\"I\")\nreplace(value,\"Ó\",\"O\")\nreplace(value,\"Ú\",\"U\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE VIA",
+    "expression": "grel:replace(value,\"Á\",\"A\")\nreplace(value,\"É\",\"E\")\nreplace(value,\"Í\",\"I\")\nreplace(value,\"Ó\",\"O\")\nreplace(value,\"Ú\",\"U\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/handson/grp16/callejero#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE VIA",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#Calle",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#Calle"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnDistrito",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnDistrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITOSN",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/handson/grp16/callejero#Distrito",
+                    "curie": "http://www.semanticweb.org/handson/grp16/callejero#Distrito"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnBarrio",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnBarrio",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/handson/grp16/callejero#Barrio",
+                    "curie": "http://www.semanticweb.org/handson/grp16/callejero#Barrio"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/handson/grp16/callejero#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE VIA",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#Calle",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#Calle"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnDistrito",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnDistrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITOSN",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/handson/grp16/callejero#Distrito",
+                    "curie": "http://www.semanticweb.org/handson/grp16/callejero#Distrito"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnBarrio",
+              "curie": "http://www.semanticweb.org/handson/grp16/callejero#EstaEnBarrio",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIOREAL",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/handson/grp16/callejero#Barrio",
+                    "curie": "http://www.semanticweb.org/handson/grp16/callejero#Barrio"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column BARRIOREAL using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "BARRIOREAL",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE VIA to type Q79007",
+    "columnName": "NOMBRE VIA",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q79007",
+        "name": "street"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"CALLE DEL ABAD JUAN CATALAN\" in column NOMBRE VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE VIA",
+    "similarValue": "CALLE DEL ABAD JUAN CATALAN"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Abalos (Q56752908) for cells containing \"CALLE DE ABALOS\" in column NOMBRE VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            },
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            },
+            {
+              "v": {
+                "v": "(blank)",
+                "l": "(blank)"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE VIA: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE VIA"
+        }
+      ]
+    },
+    "columnName": "NOMBRE VIA",
+    "similarValue": "CALLE DE ABALOS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56752908",
+      "name": "Abalos",
+      "score": 57,
+      "types": [
+        "Q79007"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            },
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            },
+            {
+              "v": {
+                "v": "(blank)",
+                "l": "(blank)"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE VIA: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE VIA"
+        }
+      ]
+    }
+  }
+]

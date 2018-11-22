@@ -1,0 +1,2045 @@
+@prefix individual: <http://www.semanticweb.org/group10/Individuales/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix propiedad: <http://www.semanticweb.org/group10/Propiedades#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix clase: <http://www.semanticweb.org/group10/Clases#> .
+
+
+individual:Aparcamiento-3542121 a clase:Aparcamiento ;
+	propiedad:indentificador "3542121" ;
+	propiedad:direccion "PLAZA DE DAOIZ Y VELARDE 5" ;
+	propiedad:coordenadaX "442484,2242"^^xsd:decimal ;
+	propiedad:coordenadaY "4472509,267"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-PACÍFICO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-RETIRO> .
+
+individual:Barrio-PACÍFICO a clase:Barrio ;
+	propiedad:codigo_Barrio "031" ;
+	propiedad:nombre_Barrio "PACÍFICO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3773753> .
+
+individual:Distrito-RETIRO a clase:Distrito ;
+	propiedad:codigo_distrito "03" ;
+	propiedad:nombre_Distrito "RETIRO" ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+individual:Aparcamiento-3543373 a clase:Aparcamiento ;
+	propiedad:indentificador "3543373" ;
+	propiedad:direccion "PASEO DE LA REINA CRISTINA 4" ;
+	propiedad:coordenadaX "441956,4347"^^xsd:decimal ;
+	propiedad:coordenadaY "4473100,641"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-PACÍFICO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-RETIRO> .
+
+individual:Aparcamiento-3569265 a clase:Aparcamiento ;
+	propiedad:indentificador "3569265" ;
+	propiedad:direccion "AVENIDA DE LA CIUDAD DE BARCELONA 25" ;
+	propiedad:coordenadaX "442239,8183"^^xsd:decimal ;
+	propiedad:coordenadaY "4472858,408"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-PACÍFICO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-RETIRO> .
+
+individual:Aparcamiento-3542809 a clase:Aparcamiento ;
+	propiedad:indentificador "3542809" ;
+	propiedad:direccion "AVENIDA DE LA CIUDAD DE BARCELONA 79" ;
+	propiedad:coordenadaX "442728,1251"^^xsd:decimal ;
+	propiedad:coordenadaY "4472534,244"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-PACÍFICO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-RETIRO> .
+
+individual:Aparcamiento-3542222 a clase:Aparcamiento ;
+	propiedad:indentificador "3542222" ;
+	propiedad:direccion "AVENIDA DE LA CIUDAD DE BARCELONA 156" ;
+	propiedad:coordenadaX "442499,2035"^^xsd:decimal ;
+	propiedad:coordenadaY "4472644,739"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-PACÍFICO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-RETIRO> .
+
+individual:Aparcamiento-3543425 a clase:Aparcamiento ;
+	propiedad:indentificador "3543425" ;
+	propiedad:direccion "CALLE DE FUENTERRABIA 2" ;
+	propiedad:coordenadaX "442088,4138"^^xsd:decimal ;
+	propiedad:coordenadaY "4473057,694"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-PACÍFICO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-RETIRO> .
+
+individual:Aparcamiento-3542152 a clase:Aparcamiento ;
+	propiedad:indentificador "3542152" ;
+	propiedad:direccion "CALLE DE TELLEZ 31" ;
+	propiedad:coordenadaX "442447,9714"^^xsd:decimal ;
+	propiedad:coordenadaY "4472557,023"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-PACÍFICO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-RETIRO> .
+
+individual:Aparcamiento-3553745 a clase:Aparcamiento ;
+	propiedad:indentificador "3553745" ;
+	propiedad:direccion "PLAZA DE LA INDEPENDENCIA 9" ;
+	propiedad:coordenadaX "441534,6734"^^xsd:decimal ;
+	propiedad:coordenadaY "4474557,434"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-JERÓNIMOS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-RETIRO> .
+
+individual:Barrio-JERÓNIMOS a clase:Barrio ;
+	propiedad:codigo_Barrio "035" ;
+	propiedad:nombre_Barrio "JERÓNIMOS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10306766> .
+
+individual:Aparcamiento-3554534 a clase:Aparcamiento ;
+	propiedad:indentificador "3554534" ;
+	propiedad:direccion "CALLE DE RUIZ DE ALARCON 27" ;
+	propiedad:coordenadaX "441328,1286"^^xsd:decimal ;
+	propiedad:coordenadaY "4473788,059"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-JERÓNIMOS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-RETIRO> .
+
+individual:Aparcamiento-3554461 a clase:Aparcamiento ;
+	propiedad:indentificador "3554461" ;
+	propiedad:direccion "PASEO DE LA INFANTA ISABEL 11" ;
+	propiedad:coordenadaX "441528,1647"^^xsd:decimal ;
+	propiedad:coordenadaY "4473213,887"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-JERÓNIMOS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-RETIRO> .
+
+individual:Aparcamiento-3554625 a clase:Aparcamiento ;
+	propiedad:indentificador "3554625" ;
+	propiedad:direccion "PLAZA DE LA LEALTAD 5" ;
+	propiedad:coordenadaX "441215,9289"^^xsd:decimal ;
+	propiedad:coordenadaY "4474133,153"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-JERÓNIMOS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-RETIRO> .
+
+individual:Aparcamiento-3553949 a clase:Aparcamiento ;
+	propiedad:indentificador "3553949" ;
+	propiedad:direccion "CALLE DE ALFONSO XII 14" ;
+	propiedad:coordenadaX "441541,9434"^^xsd:decimal ;
+	propiedad:coordenadaY "4474371,666"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-JERÓNIMOS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-RETIRO> .
+
+individual:Aparcamiento-4740793 a clase:Aparcamiento ;
+	propiedad:indentificador "4740793" ;
+	propiedad:direccion "CALLE DE MONTALBAN 4" ;
+	propiedad:coordenadaX "441366,4632"^^xsd:decimal ;
+	propiedad:coordenadaY "4474384,104"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-JERÓNIMOS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-RETIRO> .
+
+individual:Aparcamiento-3553892 a clase:Aparcamiento ;
+	propiedad:indentificador "3553892" ;
+	propiedad:direccion "CALLE DE ALCALA 54" ;
+	propiedad:coordenadaX "441410,8494"^^xsd:decimal ;
+	propiedad:coordenadaY "4474556,507"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-JERÓNIMOS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-RETIRO> .
+
+individual:Aparcamiento-3554928 a clase:Aparcamiento ;
+	propiedad:indentificador "3554928" ;
+	propiedad:direccion "CALLE DE MONTALBAN 3" ;
+	propiedad:coordenadaX "441345,6373"^^xsd:decimal ;
+	propiedad:coordenadaY "4474403,596"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-JERÓNIMOS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-RETIRO> .
+
+individual:Aparcamiento-4741045 a clase:Aparcamiento ;
+	propiedad:indentificador "4741045" ;
+	propiedad:direccion "CALLE DE MONTALBAN 3" ;
+	propiedad:coordenadaX "441358,6769"^^xsd:decimal ;
+	propiedad:coordenadaY "4474402,704"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-JERÓNIMOS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-RETIRO> .
+
+individual:Aparcamiento-3555722 a clase:Aparcamiento ;
+	propiedad:indentificador "3555722" ;
+	propiedad:direccion "CALLE DEL POETA ESTEBAN DE VILLEGAS 1" ;
+	propiedad:coordenadaX "442088,7145"^^xsd:decimal ;
+	propiedad:coordenadaY "4473339,067"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-JERÓNIMOS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-RETIRO> .
+
+individual:Aparcamiento-3554495 a clase:Aparcamiento ;
+	propiedad:indentificador "3554495" ;
+	propiedad:direccion "CALLE DE CLAUDIO MOYANO 1" ;
+	propiedad:coordenadaX "441541,7497"^^xsd:decimal ;
+	propiedad:coordenadaY "4473471,313"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-JERÓNIMOS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-RETIRO> .
+
+individual:Aparcamiento-3553943 a clase:Aparcamiento ;
+	propiedad:indentificador "3553943" ;
+	propiedad:direccion "CALLE DE ALFONSO XII 12" ;
+	propiedad:coordenadaX "441542,0755"^^xsd:decimal ;
+	propiedad:coordenadaY "4474394,733"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-JERÓNIMOS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-RETIRO> .
+
+individual:Aparcamiento-3554462 a clase:Aparcamiento ;
+	propiedad:indentificador "3554462" ;
+	propiedad:direccion "CALLE DE ALFONSO XII 64" ;
+	propiedad:coordenadaX "441552,2192"^^xsd:decimal ;
+	propiedad:coordenadaY "4473293,593"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-JERÓNIMOS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-RETIRO> .
+
+individual:Aparcamiento-3551763 a clase:Aparcamiento ;
+	propiedad:indentificador "3551763" ;
+	propiedad:direccion "CALLE DE PIO BAROJA 4" ;
+	propiedad:coordenadaX "442802,7264"^^xsd:decimal ;
+	propiedad:coordenadaY "4473975,07"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-NI%C3%91O+JES%C3%9AS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-RETIRO> .
+
+<http://www.semanticweb.org/group10/Individuales%2FBarrio-NI%C3%91O+JES%C3%9AS> a clase:Barrio ;
+	propiedad:codigo_Barrio "036" ;
+	propiedad:nombre_Barrio "NIÑO JESÚS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3773746> .
+
+individual:Aparcamiento-161936 a clase:Aparcamiento ;
+	propiedad:indentificador "161936" ;
+	propiedad:direccion "CALLE DE PRADILLO 25" ;
+	propiedad:coordenadaX "442978,6115"^^xsd:decimal ;
+	propiedad:coordenadaY "4477808,898"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CIUDAD+JARD%C3%8DN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+<http://www.semanticweb.org/group10/Individuales%2FBarrio-CIUDAD+JARD%C3%8DN> a clase:Barrio ;
+	propiedad:codigo_Barrio "053" ;
+	propiedad:nombre_Barrio "CIUDAD JARDÍN" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3773744> .
+
+individual:Distrito-CHAMARTÍN a clase:Distrito ;
+	propiedad:codigo_distrito "05" ;
+	propiedad:nombre_Distrito "CHAMARTÍN" ;
+	owl:sameAs <http://dbpedia.org/resource/Chamartin_(Madrid)> .
+
+individual:Aparcamiento-159396 a clase:Aparcamiento ;
+	propiedad:indentificador "159396" ;
+	propiedad:direccion "CALLE DE SUERO DE QUIÑONES 25" ;
+	propiedad:coordenadaX "442562,5884"^^xsd:decimal ;
+	propiedad:coordenadaY "4477548,51"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CIUDAD+JARD%C3%8DN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-3541227 a clase:Aparcamiento ;
+	propiedad:indentificador "3541227" ;
+	propiedad:direccion "CALLE DEL PRINCIPE DE VERGARA 142" ;
+	propiedad:coordenadaX "442493,5156"^^xsd:decimal ;
+	propiedad:coordenadaY "4477389,842"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CIUDAD+JARD%C3%8DN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-157887 a clase:Aparcamiento ;
+	propiedad:indentificador "157887" ;
+	propiedad:direccion "PLAZA DE ANDRES SEGOVIA 2" ;
+	propiedad:coordenadaX "442496,1798"^^xsd:decimal ;
+	propiedad:coordenadaY "4477418,107"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CIUDAD+JARD%C3%8DN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-161602 a clase:Aparcamiento ;
+	propiedad:indentificador "161602" ;
+	propiedad:direccion "CALLE DE EUGENIO SALAZAR 55" ;
+	propiedad:coordenadaX "442708,6115"^^xsd:decimal ;
+	propiedad:coordenadaY "4477765,635"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CIUDAD+JARD%C3%8DN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-155979 a clase:Aparcamiento ;
+	propiedad:indentificador "155979" ;
+	propiedad:direccion "PLAZA DE LA PROSPERIDAD 3" ;
+	propiedad:coordenadaX "442761,586"^^xsd:decimal ;
+	propiedad:coordenadaY "4477278,506"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CIUDAD+JARD%C3%8DN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-164052 a clase:Aparcamiento ;
+	propiedad:indentificador "164052" ;
+	propiedad:direccion "AVENIDA DE RAMON Y CAJAL 5" ;
+	propiedad:coordenadaX "442603,4811"^^xsd:decimal ;
+	propiedad:coordenadaY "4478095,352"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CIUDAD+JARD%C3%8DN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-162466 a clase:Aparcamiento ;
+	propiedad:indentificador "162466" ;
+	propiedad:direccion "CALLE DEL DOCTOR MARCO CORERA 2" ;
+	propiedad:coordenadaX "442589,9304"^^xsd:decimal ;
+	propiedad:coordenadaY "4477862,663"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CIUDAD+JARD%C3%8DN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-3569266 a clase:Aparcamiento ;
+	propiedad:indentificador "3569266" ;
+	propiedad:direccion "CALLE DE LUIS LARRAINZA 57" ;
+	propiedad:coordenadaX "443358,8718"^^xsd:decimal ;
+	propiedad:coordenadaY "4478025,585"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CIUDAD+JARD%C3%8DN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-3569267 a clase:Aparcamiento ;
+	propiedad:indentificador "3569267" ;
+	propiedad:direccion "AVENIDA DE ALFONSO XIII 21" ;
+	propiedad:coordenadaX "443373,1676"^^xsd:decimal ;
+	propiedad:coordenadaY "4478028,376"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CIUDAD+JARD%C3%8DN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-3569268 a clase:Aparcamiento ;
+	propiedad:indentificador "3569268" ;
+	propiedad:direccion "CALLE DE LUIS LARRAINZA 57" ;
+	propiedad:coordenadaX "443344,4057"^^xsd:decimal ;
+	propiedad:coordenadaY "4478031,543"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CIUDAD+JARD%C3%8DN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-163739 a clase:Aparcamiento ;
+	propiedad:indentificador "163739" ;
+	propiedad:direccion "AVENIDA DE ALFONSO XIII 23" ;
+	propiedad:coordenadaX "443384,4718"^^xsd:decimal ;
+	propiedad:coordenadaY "4478041,716"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CIUDAD+JARD%C3%8DN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-167171 a clase:Aparcamiento ;
+	propiedad:indentificador "167171" ;
+	propiedad:direccion "CALLE DEL PADRE DAMIAN 24" ;
+	propiedad:coordenadaX "441793,5543"^^xsd:decimal ;
+	propiedad:coordenadaY "4478627,047"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-HISPANOAMÉRICA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Barrio-HISPANOAMÉRICA a clase:Barrio ;
+	propiedad:codigo_Barrio "054" ;
+	propiedad:nombre_Barrio "HISPANOAMÉRICA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814573> .
+
+individual:Aparcamiento-168626 a clase:Aparcamiento ;
+	propiedad:indentificador "168626" ;
+	propiedad:direccion "PASEO DE LA CASTELLANA 162" ;
+	propiedad:coordenadaX "441517,7401"^^xsd:decimal ;
+	propiedad:coordenadaY "4478873,914"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-HISPANOAMÉRICA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-167812 a clase:Aparcamiento ;
+	propiedad:indentificador "167812" ;
+	propiedad:direccion "CALLE DE JUAN RAMON JIMENEZ 9" ;
+	propiedad:coordenadaX "441744,5608"^^xsd:decimal ;
+	propiedad:coordenadaY "4478751,079"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-HISPANOAMÉRICA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-3549651 a clase:Aparcamiento ;
+	propiedad:indentificador "3549651" ;
+	propiedad:direccion "CALLE DE PUERTO RICO 34" ;
+	propiedad:coordenadaX "442836,6469"^^xsd:decimal ;
+	propiedad:coordenadaY "4478588,15"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-HISPANOAMÉRICA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-168705 a clase:Aparcamiento ;
+	propiedad:indentificador "168705" ;
+	propiedad:direccion "AVENIDA DE ALBERTO ALCOCER 10" ;
+	propiedad:coordenadaX "441775,7"^^xsd:decimal ;
+	propiedad:coordenadaY "4478883,584"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-HISPANOAMÉRICA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-3566709 a clase:Aparcamiento ;
+	propiedad:indentificador "3566709" ;
+	propiedad:direccion "AVENIDA DE CONCHA ESPINA 2" ;
+	propiedad:coordenadaX "441501,2233"^^xsd:decimal ;
+	propiedad:coordenadaY "4478168,286"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-HISPANOAMÉRICA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-167650 a clase:Aparcamiento ;
+	propiedad:indentificador "167650" ;
+	propiedad:direccion "AVENIDA DE ALFONSO XIII 97" ;
+	propiedad:coordenadaX "443426,9023"^^xsd:decimal ;
+	propiedad:coordenadaY "4478710,649"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-HISPANOAMÉRICA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-3549858 a clase:Aparcamiento ;
+	propiedad:indentificador "3549858" ;
+	propiedad:direccion "AVENIDA DE ALFONSO XIII 56" ;
+	propiedad:coordenadaX "443443,2249"^^xsd:decimal ;
+	propiedad:coordenadaY "4478265,119"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-HISPANOAMÉRICA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-3543608 a clase:Aparcamiento ;
+	propiedad:indentificador "3543608" ;
+	propiedad:direccion "AVENIDA DE ALFONSO XIII 90" ;
+	propiedad:coordenadaX "443456,1218"^^xsd:decimal ;
+	propiedad:coordenadaY "4478547,726"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-HISPANOAMÉRICA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-3547483 a clase:Aparcamiento ;
+	propiedad:indentificador "3547483" ;
+	propiedad:direccion "CALLE DE COSTA RICA 32" ;
+	propiedad:coordenadaX "443038,6747"^^xsd:decimal ;
+	propiedad:coordenadaY "4478844,584"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-HISPANOAMÉRICA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-166611 a clase:Aparcamiento ;
+	propiedad:indentificador "166611" ;
+	propiedad:direccion "CALLE DE HERREROS DE TEJADA 7" ;
+	propiedad:coordenadaX "442170,0541"^^xsd:decimal ;
+	propiedad:coordenadaY "4478532,451"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-HISPANOAMÉRICA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-168988 a clase:Aparcamiento ;
+	propiedad:indentificador "168988" ;
+	propiedad:direccion "CALLE DEL PRINCIPE DE VERGARA 283" ;
+	propiedad:coordenadaX "442606,4526"^^xsd:decimal ;
+	propiedad:coordenadaY "4478919,291"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-NUEVA+ESPA%C3%91A> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+<http://www.semanticweb.org/group10/Individuales%2FBarrio-NUEVA+ESPA%C3%91A> a clase:Barrio ;
+	propiedad:codigo_Barrio "055" ;
+	propiedad:nombre_Barrio "NUEVA ESPAÑA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10338128> .
+
+individual:Aparcamiento-170099 a clase:Aparcamiento ;
+	propiedad:indentificador "170099" ;
+	propiedad:direccion "AVENIDA DE ALFONSO XIII 180" ;
+	propiedad:coordenadaX "442655,15"^^xsd:decimal ;
+	propiedad:coordenadaY "4479095,331"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-NUEVA+ESPA%C3%91A> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-3547448 a clase:Aparcamiento ;
+	propiedad:indentificador "3547448" ;
+	propiedad:direccion "CALLE DE LA DRACENA 29" ;
+	propiedad:coordenadaX "443293,3971"^^xsd:decimal ;
+	propiedad:coordenadaY "4479473,929"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-NUEVA+ESPA%C3%91A> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-170181 a clase:Aparcamiento ;
+	propiedad:indentificador "170181" ;
+	propiedad:direccion "CALLE DE JUAN HURTADO DE MENDOZA 1" ;
+	propiedad:coordenadaX "441575,5927"^^xsd:decimal ;
+	propiedad:coordenadaY "4479111,604"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-NUEVA+ESPA%C3%91A> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-173548 a clase:Aparcamiento ;
+	propiedad:indentificador "173548" ;
+	propiedad:direccion "CALLE DE ROSA JARDON 6" ;
+	propiedad:coordenadaX "443247,6694"^^xsd:decimal ;
+	propiedad:coordenadaY "4479646,761"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-NUEVA+ESPA%C3%91A> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-169946 a clase:Aparcamiento ;
+	propiedad:indentificador "169946" ;
+	propiedad:direccion "AVENIDA DE ALFONSO XIII 165" ;
+	propiedad:coordenadaX "442382,7757"^^xsd:decimal ;
+	propiedad:coordenadaY "4479060,829"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-NUEVA+ESPA%C3%91A> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-169252 a clase:Aparcamiento ;
+	propiedad:indentificador "169252" ;
+	propiedad:direccion "CALLE DE PARAGUAY 8" ;
+	propiedad:coordenadaX "443035,5945"^^xsd:decimal ;
+	propiedad:coordenadaY "4478953,508"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-NUEVA+ESPA%C3%91A> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-172981 a clase:Aparcamiento ;
+	propiedad:indentificador "172981" ;
+	propiedad:direccion "PLAZA DE CASTILLA 9" ;
+	propiedad:coordenadaX "441621,6049"^^xsd:decimal ;
+	propiedad:coordenadaY "4479663,529"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-NUEVA+ESPA%C3%91A> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-169332 a clase:Aparcamiento ;
+	propiedad:indentificador "169332" ;
+	propiedad:direccion "PLAZA DE JOSE MARIA SOLER 7" ;
+	propiedad:coordenadaX "443296,6961"^^xsd:decimal ;
+	propiedad:coordenadaY "4478958,278"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-NUEVA+ESPA%C3%91A> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-3547243 a clase:Aparcamiento ;
+	propiedad:indentificador "3547243" ;
+	propiedad:direccion "AVENIDA DE PIO XII 11" ;
+	propiedad:coordenadaX "442669,2052"^^xsd:decimal ;
+	propiedad:coordenadaY "4479203,826"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-NUEVA+ESPA%C3%91A> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-3546898 a clase:Aparcamiento ;
+	propiedad:indentificador "3546898" ;
+	propiedad:direccion "CALLE DE FELIX BOIX 2" ;
+	propiedad:coordenadaX "441594,209"^^xsd:decimal ;
+	propiedad:coordenadaY "4479409,723"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-NUEVA+ESPA%C3%91A> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CHAMARTÍN> .
+
+individual:Aparcamiento-211592 a clase:Aparcamiento ;
+	propiedad:indentificador "211592" ;
+	propiedad:direccion "CALLE DE FRESNEDILLAS 8" ;
+	propiedad:coordenadaX "437310,1"^^xsd:decimal ;
+	propiedad:coordenadaY "4481182,434"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-FUENTELAREINA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-FUENCARRAL-EL+PARDO> .
+
+individual:Barrio-FUENTELAREINA a clase:Barrio ;
+	propiedad:codigo_Barrio "082" ;
+	propiedad:nombre_Barrio "FUENTELAREINA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10286156> .
+
+<http://www.semanticweb.org/group10/Individuales%2FDistrito-FUENCARRAL-EL+PARDO> a clase:Distrito ;
+	propiedad:codigo_distrito "08" ;
+	propiedad:nombre_Distrito "FUENCARRAL-EL PARDO" ;
+	owl:sameAs <http://dbpedia.org/resource/Fuencarral-El_Pardo> .
+
+individual:Aparcamiento-205615 a clase:Aparcamiento ;
+	propiedad:indentificador "205615" ;
+	propiedad:direccion "CALLE DE LA CABRERA 33" ;
+	propiedad:coordenadaX "439064,6253"^^xsd:decimal ;
+	propiedad:coordenadaY "4480413,56"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-PEÑAGRANDE> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-FUENCARRAL-EL+PARDO> .
+
+individual:Barrio-PEÑAGRANDE a clase:Barrio ;
+	propiedad:codigo_Barrio "083" ;
+	propiedad:nombre_Barrio "PEÑAGRANDE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3319582> .
+
+individual:Aparcamiento-209788 a clase:Aparcamiento ;
+	propiedad:indentificador "209788" ;
+	propiedad:direccion "CALLE DE SANTIAGO DE COMPOSTELA 104" ;
+	propiedad:coordenadaX "438918,6287"^^xsd:decimal ;
+	propiedad:coordenadaY "4480937,564"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-PEÑAGRANDE> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-FUENCARRAL-EL+PARDO> .
+
+individual:Aparcamiento-216640 a clase:Aparcamiento ;
+	propiedad:indentificador "216640" ;
+	propiedad:direccion "CALLE DE LOS RISCOS DE POLANCO 3" ;
+	propiedad:coordenadaX "438735,6342"^^xsd:decimal ;
+	propiedad:coordenadaY "4481846,569"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-PEÑAGRANDE> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-FUENCARRAL-EL+PARDO> .
+
+individual:Aparcamiento-214877 a clase:Aparcamiento ;
+	propiedad:indentificador "214877" ;
+	propiedad:direccion "CALLE DE RAMON GOMEZ DE LA SERNA 103" ;
+	propiedad:coordenadaX "438342,3976"^^xsd:decimal ;
+	propiedad:coordenadaY "4481550,262"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-PEÑAGRANDE> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-FUENCARRAL-EL+PARDO> .
+
+individual:Aparcamiento-214609 a clase:Aparcamiento ;
+	propiedad:indentificador "214609" ;
+	propiedad:direccion "CALLE DE LA ISLA DE AROSA 47" ;
+	propiedad:coordenadaX "439167,111"^^xsd:decimal ;
+	propiedad:coordenadaY "4481527,959"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-PEÑAGRANDE> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-FUENCARRAL-EL+PARDO> .
+
+individual:Aparcamiento-212758 a clase:Aparcamiento ;
+	propiedad:indentificador "212758" ;
+	propiedad:direccion "CALLE DE FERMIN CABALLERO 82" ;
+	propiedad:coordenadaX "439202,6287"^^xsd:decimal ;
+	propiedad:coordenadaY "4481297,562"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-PEÑAGRANDE> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-FUENCARRAL-EL+PARDO> .
+
+individual:Aparcamiento-215420 a clase:Aparcamiento ;
+	propiedad:indentificador "215420" ;
+	propiedad:direccion "PLAZA DEL PICO SALVAGUARDIA 8" ;
+	propiedad:coordenadaX "438938,5991"^^xsd:decimal ;
+	propiedad:coordenadaY "4481621,411"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-PEÑAGRANDE> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-FUENCARRAL-EL+PARDO> .
+
+individual:Aparcamiento-216205 a clase:Aparcamiento ;
+	propiedad:indentificador "216205" ;
+	propiedad:direccion "CALLE DE ROSALIA DE CASTRO 69" ;
+	propiedad:coordenadaX "437758,3187"^^xsd:decimal ;
+	propiedad:coordenadaY "4481790,769"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-PEÑAGRANDE> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-FUENCARRAL-EL+PARDO> .
+
+individual:Aparcamiento-211608 a clase:Aparcamiento ;
+	propiedad:indentificador "211608" ;
+	propiedad:direccion "AVENIDA DE MONFORTE DE LEMOS 13" ;
+	propiedad:coordenadaX "441204,6158"^^xsd:decimal ;
+	propiedad:coordenadaY "4481173,539"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-LA+PAZ> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-FUENCARRAL-EL+PARDO> .
+
+<http://www.semanticweb.org/group10/Individuales%2FBarrio-LA+PAZ> a clase:Barrio ;
+	propiedad:codigo_Barrio "085" ;
+	propiedad:nombre_Barrio "LA PAZ" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5869740> .
+
+individual:Aparcamiento-212414 a clase:Aparcamiento ;
+	propiedad:indentificador "212414" ;
+	propiedad:direccion "AVENIDA DE MONFORTE DE LEMOS 28" ;
+	propiedad:coordenadaX "440442,9857"^^xsd:decimal ;
+	propiedad:coordenadaY "4481258,647"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-LA+PAZ> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-FUENCARRAL-EL+PARDO> .
+
+individual:Aparcamiento-217460 a clase:Aparcamiento ;
+	propiedad:indentificador "217460" ;
+	propiedad:direccion "CALLE DE ALFREDO MARQUERIE 21" ;
+	propiedad:coordenadaX "440601,6498"^^xsd:decimal ;
+	propiedad:coordenadaY "4482088,656"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-LA+PAZ> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-FUENCARRAL-EL+PARDO> .
+
+individual:Aparcamiento-207342 a clase:Aparcamiento ;
+	propiedad:indentificador "207342" ;
+	propiedad:direccion "CALLE DE SINESIO DELGADO 2" ;
+	propiedad:coordenadaX "441627,6103"^^xsd:decimal ;
+	propiedad:coordenadaY "4480656,532"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-LA+PAZ> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-FUENCARRAL-EL+PARDO> .
+
+individual:Aparcamiento-208440 a clase:Aparcamiento ;
+	propiedad:indentificador "208440" ;
+	propiedad:direccion "CALLE DE GINZO DE LIMIA 2" ;
+	propiedad:coordenadaX "440441,1901"^^xsd:decimal ;
+	propiedad:coordenadaY "4480774,813"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-LA+PAZ> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-FUENCARRAL-EL+PARDO> .
+
+individual:Aparcamiento-216786 a clase:Aparcamiento ;
+	propiedad:indentificador "216786" ;
+	propiedad:direccion "CALLE DE VALENCIA DE DON JUAN 4" ;
+	propiedad:coordenadaX "440221,9406"^^xsd:decimal ;
+	propiedad:coordenadaY "4481875,553"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-LA+PAZ> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-FUENCARRAL-EL+PARDO> .
+
+individual:Aparcamiento-217575 a clase:Aparcamiento ;
+	propiedad:indentificador "217575" ;
+	propiedad:direccion "CALLE DE SANGENJO 38" ;
+	propiedad:coordenadaX "440804,3972"^^xsd:decimal ;
+	propiedad:coordenadaY "4482160,865"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-LA+PAZ> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-FUENCARRAL-EL+PARDO> .
+
+individual:Aparcamiento-3554248 a clase:Aparcamiento ;
+	propiedad:indentificador "3554248" ;
+	propiedad:direccion "PASEO DE LA FLORIDA 4" ;
+	propiedad:coordenadaX "438817,5485"^^xsd:decimal ;
+	propiedad:coordenadaY "4474827,403"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASA+DE+CAMPO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MONCLOA-ARAVACA> .
+
+<http://www.semanticweb.org/group10/Individuales%2FBarrio-CASA+DE+CAMPO> a clase:Barrio ;
+	propiedad:codigo_Barrio "091" ;
+	propiedad:nombre_Barrio "CASA DE CAMPO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q16302441> .
+
+individual:Distrito-MONCLOA-ARAVACA a clase:Distrito ;
+	propiedad:codigo_distrito "09" ;
+	propiedad:nombre_Distrito "MONCLOA-ARAVACA" ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+individual:Aparcamiento-3554257 a clase:Aparcamiento ;
+	propiedad:indentificador "3554257" ;
+	propiedad:direccion "PASEO DE LA FLORIDA 4" ;
+	propiedad:coordenadaX "438831,6518"^^xsd:decimal ;
+	propiedad:coordenadaY "4474813,733"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASA+DE+CAMPO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MONCLOA-ARAVACA> .
+
+individual:Aparcamiento-3554428 a clase:Aparcamiento ;
+	propiedad:indentificador "3554428" ;
+	propiedad:direccion "PASEO DE LA FLORIDA 2" ;
+	propiedad:coordenadaX "438898,4394"^^xsd:decimal ;
+	propiedad:coordenadaY "4474706,365"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASA+DE+CAMPO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MONCLOA-ARAVACA> .
+
+individual:Aparcamiento-3556362 a clase:Aparcamiento ;
+	propiedad:indentificador "3556362" ;
+	propiedad:direccion "AVENIDA 0 PRINCIPAL 2" ;
+	propiedad:coordenadaX "437294,1662"^^xsd:decimal ;
+	propiedad:coordenadaY "4473730,118"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASA+DE+CAMPO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MONCLOA-ARAVACA> .
+
+individual:Aparcamiento-3555626 a clase:Aparcamiento ;
+	propiedad:indentificador "3555626" ;
+	propiedad:direccion "PASEO DEL COMANDANTE FORTEA 66" ;
+	propiedad:coordenadaX "437756,8676"^^xsd:decimal ;
+	propiedad:coordenadaY "4475615,769"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASA+DE+CAMPO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MONCLOA-ARAVACA> .
+
+individual:Aparcamiento-3541340 a clase:Aparcamiento ;
+	propiedad:indentificador "3541340" ;
+	propiedad:direccion "CALLE DE SANTA POLA 13" ;
+	propiedad:coordenadaX "437503,6391"^^xsd:decimal ;
+	propiedad:coordenadaY "4475962,184"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASA+DE+CAMPO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MONCLOA-ARAVACA> .
+
+individual:Aparcamiento-3541341 a clase:Aparcamiento ;
+	propiedad:indentificador "3541341" ;
+	propiedad:direccion "CALLE DE SANTA POLA 20" ;
+	propiedad:coordenadaX "437510,2505"^^xsd:decimal ;
+	propiedad:coordenadaY "4475974,7"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASA+DE+CAMPO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MONCLOA-ARAVACA> .
+
+individual:Aparcamiento-3544389 a clase:Aparcamiento ;
+	propiedad:indentificador "3544389" ;
+	propiedad:direccion "CALLE DE SANTA POLA 22" ;
+	propiedad:coordenadaX "437505,2446"^^xsd:decimal ;
+	propiedad:coordenadaY "4475987,311"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASA+DE+CAMPO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MONCLOA-ARAVACA> .
+
+individual:Aparcamiento-187018 a clase:Aparcamiento ;
+	propiedad:indentificador "187018" ;
+	propiedad:direccion "CALLE DE LA SENDA DEL REY 8" ;
+	propiedad:coordenadaX "437942,2521"^^xsd:decimal ;
+	propiedad:coordenadaY "4475994,318"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASA+DE+CAMPO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MONCLOA-ARAVACA> .
+
+individual:Aparcamiento-186977 a clase:Aparcamiento ;
+	propiedad:indentificador "186977" ;
+	propiedad:direccion "CALLE DE SANTA FE 4" ;
+	propiedad:coordenadaX "437592,2628"^^xsd:decimal ;
+	propiedad:coordenadaY "4475921,823"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASA+DE+CAMPO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MONCLOA-ARAVACA> .
+
+individual:Aparcamiento-186568 a clase:Aparcamiento ;
+	propiedad:indentificador "186568" ;
+	propiedad:direccion "AVENIDA DE VALLADOLID 2" ;
+	propiedad:coordenadaX "438291,6089"^^xsd:decimal ;
+	propiedad:coordenadaY "4475391,55"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASA+DE+CAMPO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MONCLOA-ARAVACA> .
+
+individual:Aparcamiento-196061 a clase:Aparcamiento ;
+	propiedad:indentificador "196061" ;
+	propiedad:direccion "CARRETERA DE EL PARDO 19" ;
+	propiedad:coordenadaX "436775,3785"^^xsd:decimal ;
+	propiedad:coordenadaY "4479032,797"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CIUDAD+UNIVERSITARIA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MONCLOA-ARAVACA> .
+
+<http://www.semanticweb.org/group10/Individuales%2FBarrio-CIUDAD+UNIVERSITARIA> a clase:Barrio ;
+	propiedad:codigo_Barrio "093" ;
+	propiedad:nombre_Barrio "CIUDAD UNIVERSITARIA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3319235> .
+
+individual:Aparcamiento-3538189 a clase:Aparcamiento ;
+	propiedad:indentificador "3538189" ;
+	propiedad:direccion "PLAZA DEL CRISTO REY 5" ;
+	propiedad:coordenadaX "439120,934"^^xsd:decimal ;
+	propiedad:coordenadaY "4476803,246"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CIUDAD+UNIVERSITARIA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MONCLOA-ARAVACA> .
+
+individual:Aparcamiento-3556665 a clase:Aparcamiento ;
+	propiedad:indentificador "3556665" ;
+	propiedad:direccion "AVENIDA DEL DOCTOR FEDERICO RUBIO Y GALI 82" ;
+	propiedad:coordenadaX "439463,8649"^^xsd:decimal ;
+	propiedad:coordenadaY "4478304,85"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CIUDAD+UNIVERSITARIA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MONCLOA-ARAVACA> .
+
+individual:Aparcamiento-193973 a clase:Aparcamiento ;
+	propiedad:indentificador "193973" ;
+	propiedad:direccion "AVENIDA DE PABLO IGLESIAS 93" ;
+	propiedad:coordenadaX "439637,6133"^^xsd:decimal ;
+	propiedad:coordenadaY "4478747,547"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CIUDAD+UNIVERSITARIA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MONCLOA-ARAVACA> .
+
+individual:Aparcamiento-3557017 a clase:Aparcamiento ;
+	propiedad:indentificador "3557017" ;
+	propiedad:direccion "CALLE DE FRANCOS RODRIGUEZ 83" ;
+	propiedad:coordenadaX "438995,3429"^^xsd:decimal ;
+	propiedad:coordenadaY "4479022,663"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CIUDAD+UNIVERSITARIA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MONCLOA-ARAVACA> .
+
+individual:Aparcamiento-3566672 a clase:Aparcamiento ;
+	propiedad:indentificador "3566672" ;
+	propiedad:direccion "CALLE DE ARROYOFRESNO 15" ;
+	propiedad:coordenadaX "436987,6501"^^xsd:decimal ;
+	propiedad:coordenadaY "4480646,389"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CIUDAD+UNIVERSITARIA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MONCLOA-ARAVACA> .
+
+individual:Aparcamiento-194451 a clase:Aparcamiento ;
+	propiedad:indentificador "194451" ;
+	propiedad:direccion "CALLE DE MARIA AUXILIADORA 2" ;
+	propiedad:coordenadaX "439316,2839"^^xsd:decimal ;
+	propiedad:coordenadaY "4478829,478"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CIUDAD+UNIVERSITARIA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MONCLOA-ARAVACA> .
+
+individual:Aparcamiento-3562264 a clase:Aparcamiento ;
+	propiedad:indentificador "3562264" ;
+	propiedad:direccion "CARRETERA DE CASTILLA 12" ;
+	propiedad:coordenadaX "437185,7639"^^xsd:decimal ;
+	propiedad:coordenadaY "4476848,355"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CIUDAD+UNIVERSITARIA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MONCLOA-ARAVACA> .
+
+individual:Aparcamiento-3538347 a clase:Aparcamiento ;
+	propiedad:indentificador "3538347" ;
+	propiedad:direccion "AVENIDA DE LOS REYES CATOLICOS 4" ;
+	propiedad:coordenadaX "438923,0026"^^xsd:decimal ;
+	propiedad:coordenadaY "4476645,646"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CIUDAD+UNIVERSITARIA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MONCLOA-ARAVACA> .
+
+individual:Aparcamiento-201810 a clase:Aparcamiento ;
+	propiedad:indentificador "201810" ;
+	propiedad:direccion "CALLE DE RAFAEL BOTI 64" ;
+	propiedad:coordenadaX "431501,582"^^xsd:decimal ;
+	propiedad:coordenadaY "4479686,822"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-EL+PLANT%C3%8DO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MONCLOA-ARAVACA> .
+
+<http://www.semanticweb.org/group10/Individuales%2FBarrio-EL+PLANT%C3%8DO> a clase:Barrio ;
+	propiedad:codigo_Barrio "096" ;
+	propiedad:nombre_Barrio "EL PLANTÍO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3773742> .
+
+individual:Aparcamiento-3553305 a clase:Aparcamiento ;
+	propiedad:indentificador "3553305" ;
+	propiedad:direccion "CALLE DE GALLUR 2" ;
+	propiedad:coordenadaX "437553,0694"^^xsd:decimal ;
+	propiedad:coordenadaY "4472403,014"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-CÁRMENES> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-LATINA> .
+
+individual:Barrio-CÁRMENES a clase:Barrio ;
+	propiedad:codigo_Barrio "101" ;
+	propiedad:nombre_Barrio "CÁRMENES" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10319792> .
+
+individual:Distrito-LATINA a clase:Distrito ;
+	propiedad:codigo_distrito "10" ;
+	propiedad:nombre_Distrito "LATINA" ;
+	owl:sameAs <http://dbpedia.org/resource/Latina_(Madrid)> .
+
+individual:Aparcamiento-176608 a clase:Aparcamiento ;
+	propiedad:indentificador "176608" ;
+	propiedad:direccion "CALLE DE GALLUR 1" ;
+	propiedad:coordenadaX "437570,6019"^^xsd:decimal ;
+	propiedad:coordenadaY "4472241,546"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-CÁRMENES> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-LATINA> .
+
+individual:Aparcamiento-176854 a clase:Aparcamiento ;
+	propiedad:indentificador "176854" ;
+	propiedad:direccion "CALLE DE GALLUR 2" ;
+	propiedad:coordenadaX "437629,0864"^^xsd:decimal ;
+	propiedad:coordenadaY "4472261,946"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-CÁRMENES> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-LATINA> .
+
+individual:Aparcamiento-181202 a clase:Aparcamiento ;
+	propiedad:indentificador "181202" ;
+	propiedad:direccion "PASEO DE LA ERMITA DEL SANTO 66" ;
+	propiedad:coordenadaX "438507,7512"^^xsd:decimal ;
+	propiedad:coordenadaY "4473081,716"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-CÁRMENES> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-LATINA> .
+
+individual:Aparcamiento-236539 a clase:Aparcamiento ;
+	propiedad:indentificador "236539" ;
+	propiedad:direccion "CALLE DE LA ALHAMBRA 102" ;
+	propiedad:coordenadaX "436910,9285"^^xsd:decimal ;
+	propiedad:coordenadaY "4471957,453"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-CÁRMENES> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-LATINA> .
+
+individual:Aparcamiento-3568892 a clase:Aparcamiento ;
+	propiedad:indentificador "3568892" ;
+	propiedad:direccion "CALLE DE SANTA LUCRECIA 11" ;
+	propiedad:coordenadaX "438953,6634"^^xsd:decimal ;
+	propiedad:coordenadaY "4470871,347"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-OPAÑEL> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CARABANCHEL> .
+
+individual:Barrio-OPAÑEL a clase:Barrio ;
+	propiedad:codigo_Barrio "112" ;
+	propiedad:nombre_Barrio "OPAÑEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3813756> .
+
+individual:Distrito-CARABANCHEL a clase:Distrito ;
+	propiedad:codigo_distrito "11" ;
+	propiedad:nombre_Distrito "CARABANCHEL" ;
+	owl:sameAs <http://dbpedia.org/resource/Carabanchel> .
+
+individual:Aparcamiento-528293 a clase:Aparcamiento ;
+	propiedad:indentificador "528293" ;
+	propiedad:direccion "PLAZA DE GANDARA DE ORO 3" ;
+	propiedad:coordenadaX "438054,4958"^^xsd:decimal ;
+	propiedad:coordenadaY "4471149,682"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-OPAÑEL> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CARABANCHEL> .
+
+individual:Aparcamiento-3568866 a clase:Aparcamiento ;
+	propiedad:indentificador "3568866" ;
+	propiedad:direccion "AVENIDA DE OPORTO 100" ;
+	propiedad:coordenadaX "438062,0327"^^xsd:decimal ;
+	propiedad:coordenadaY "4471013,859"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-OPAÑEL> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CARABANCHEL> .
+
+individual:Aparcamiento-3568867 a clase:Aparcamiento ;
+	propiedad:indentificador "3568867" ;
+	propiedad:direccion "AVENIDA DE OPORTO 30" ;
+	propiedad:coordenadaX "438621,6649"^^xsd:decimal ;
+	propiedad:coordenadaY "4470786,027"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-OPAÑEL> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CARABANCHEL> .
+
+individual:Aparcamiento-528378 a clase:Aparcamiento ;
+	propiedad:indentificador "528378" ;
+	propiedad:direccion "AVENIDA DE OPORTO 2" ;
+	propiedad:coordenadaX "439038,9381"^^xsd:decimal ;
+	propiedad:coordenadaY "4470773,191"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-OPAÑEL> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-CARABANCHEL> .
+
+individual:Aparcamiento-3569013 a clase:Aparcamiento ;
+	propiedad:indentificador "3569013" ;
+	propiedad:direccion "CALLE DE LA SILVINA 9" ;
+	propiedad:coordenadaX "441310,2367"^^xsd:decimal ;
+	propiedad:coordenadaY "4468650,865"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-SAN+FERM%C3%8DN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-USERA> .
+
+<http://www.semanticweb.org/group10/Individuales%2FBarrio-SAN+FERM%C3%8DN> a clase:Barrio ;
+	propiedad:codigo_Barrio "123" ;
+	propiedad:nombre_Barrio "SAN FERMÍN" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q71758> .
+
+individual:Distrito-USERA a clase:Distrito ;
+	propiedad:codigo_distrito "12" ;
+	propiedad:nombre_Distrito "USERA" ;
+	owl:sameAs <http://dbpedia.org/resource/Usera> .
+
+individual:Aparcamiento-528539 a clase:Aparcamiento ;
+	propiedad:indentificador "528539" ;
+	propiedad:direccion "CALLE DE SAN MAXIMO 4" ;
+	propiedad:coordenadaX "441079,7367"^^xsd:decimal ;
+	propiedad:coordenadaY "4469682,024"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-SAN+FERM%C3%8DN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-USERA> .
+
+individual:Aparcamiento-528543 a clase:Aparcamiento ;
+	propiedad:indentificador "528543" ;
+	propiedad:direccion "CALLE DE LA ESTAFETA 2" ;
+	propiedad:coordenadaX "441202,032"^^xsd:decimal ;
+	propiedad:coordenadaY "4469557,627"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-SAN+FERM%C3%8DN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-USERA> .
+
+individual:Aparcamiento-528540 a clase:Aparcamiento ;
+	propiedad:indentificador "528540" ;
+	propiedad:direccion "CAMINO DE PERALES 90" ;
+	propiedad:coordenadaX "441379,4441"^^xsd:decimal ;
+	propiedad:coordenadaY "4469913,344"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-SAN+FERM%C3%8DN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-USERA> .
+
+individual:Aparcamiento-528544 a clase:Aparcamiento ;
+	propiedad:indentificador "528544" ;
+	propiedad:direccion "AVENIDA DE SAN FERMIN 5" ;
+	propiedad:coordenadaX "441270,6946"^^xsd:decimal ;
+	propiedad:coordenadaY "4469207,755"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-SAN+FERM%C3%8DN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-USERA> .
+
+individual:Aparcamiento-528347 a clase:Aparcamiento ;
+	propiedad:indentificador "528347" ;
+	propiedad:direccion "CALLE DE VALLANDES 5" ;
+	propiedad:coordenadaX "440265,2476"^^xsd:decimal ;
+	propiedad:coordenadaY "4471378,97"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-MOSCARDÓ> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-USERA> .
+
+individual:Barrio-MOSCARDÓ a clase:Barrio ;
+	propiedad:codigo_Barrio "125" ;
+	propiedad:nombre_Barrio "MOSCARDÓ" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q11937679> .
+
+individual:Aparcamiento-528546 a clase:Aparcamiento ;
+	propiedad:indentificador "528546" ;
+	propiedad:direccion "PLAZA 0 ELIPTICA 1" ;
+	propiedad:coordenadaX "439149,6579"^^xsd:decimal ;
+	propiedad:coordenadaY "4470818,804"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-MOSCARDÓ> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-USERA> .
+
+individual:Aparcamiento-528335 a clase:Aparcamiento ;
+	propiedad:indentificador "528335" ;
+	propiedad:direccion "CALLE DE MIRASIERRA 35" ;
+	propiedad:coordenadaX "440243,6791"^^xsd:decimal ;
+	propiedad:coordenadaY "4471121,941"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-MOSCARDÓ> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-USERA> .
+
+individual:Aparcamiento-528538 a clase:Aparcamiento ;
+	propiedad:indentificador "528538" ;
+	propiedad:direccion "CALLE DE ANDRES ARTEAGA 3" ;
+	propiedad:coordenadaX "440074,4027"^^xsd:decimal ;
+	propiedad:coordenadaY "4471193,224"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-MOSCARDÓ> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-USERA> .
+
+individual:Aparcamiento-528547 a clase:Aparcamiento ;
+	propiedad:indentificador "528547" ;
+	propiedad:direccion "CALLE DE AMPARO USERA 48" ;
+	propiedad:coordenadaX "439997,7383"^^xsd:decimal ;
+	propiedad:coordenadaY "4470957,394"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-MOSCARDÓ> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-USERA> .
+
+individual:Aparcamiento-528343 a clase:Aparcamiento ;
+	propiedad:indentificador "528343" ;
+	propiedad:direccion "CALLE DE RICARDO BELTRAN Y ROZPIDE 14" ;
+	propiedad:coordenadaX "439049,6828"^^xsd:decimal ;
+	propiedad:coordenadaY "4470214,741"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-ZOFÍO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-USERA> .
+
+individual:Barrio-ZOFÍO a clase:Barrio ;
+	propiedad:codigo_Barrio "126" ;
+	propiedad:nombre_Barrio "ZOFÍO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q71751> .
+
+individual:Aparcamiento-528338 a clase:Aparcamiento ;
+	propiedad:indentificador "528338" ;
+	propiedad:direccion "CALLE DE CERECINOS 8" ;
+	propiedad:coordenadaX "439436,6092"^^xsd:decimal ;
+	propiedad:coordenadaY "4470603,24"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-ZOFÍO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-USERA> .
+
+individual:Aparcamiento-529218 a clase:Aparcamiento ;
+	propiedad:indentificador "529218" ;
+	propiedad:direccion "CALLE DE LA AVENA 11" ;
+	propiedad:coordenadaX "439247,4375"^^xsd:decimal ;
+	propiedad:coordenadaY "4469737,588"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-ZOFÍO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-USERA> .
+
+individual:Aparcamiento-528342 a clase:Aparcamiento ;
+	propiedad:indentificador "528342" ;
+	propiedad:direccion "AVENIDA DE RAFAELA YBARRA 52" ;
+	propiedad:coordenadaX "439522,4601"^^xsd:decimal ;
+	propiedad:coordenadaY "4469700,845"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-ZOFÍO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-USERA> .
+
+individual:Aparcamiento-4741424 a clase:Aparcamiento ;
+	propiedad:indentificador "4741424" ;
+	propiedad:direccion "CALLE DE LOS VECINOS DEL POZO 9" ;
+	propiedad:coordenadaX "443935,8395"^^xsd:decimal ;
+	propiedad:coordenadaY "4469436,368"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-ENTREVÍAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-PUENTE+DE+VALLECAS> .
+
+individual:Barrio-ENTREVÍAS a clase:Barrio ;
+	propiedad:codigo_Barrio "131" ;
+	propiedad:nombre_Barrio "ENTREVÍAS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q71756> .
+
+<http://www.semanticweb.org/group10/Individuales%2FDistrito-PUENTE+DE+VALLECAS> a clase:Distrito ;
+	propiedad:codigo_distrito "13" ;
+	propiedad:nombre_Distrito "PUENTE DE VALLECAS" ;
+	owl:sameAs <http://dbpedia.org/resource/Puente_de_Vallecas> .
+
+individual:Aparcamiento-4741982 a clase:Aparcamiento ;
+	propiedad:indentificador "4741982" ;
+	propiedad:direccion "CALLE DE LA REGUERA DE TOMATEROS 39" ;
+	propiedad:coordenadaX "444239,3949"^^xsd:decimal ;
+	propiedad:coordenadaY "4469236,519"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-ENTREVÍAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-PUENTE+DE+VALLECAS> .
+
+individual:Aparcamiento-528515 a clase:Aparcamiento ;
+	propiedad:indentificador "528515" ;
+	propiedad:direccion "RONDA 0 SUR 6" ;
+	propiedad:coordenadaX "442978,4966"^^xsd:decimal ;
+	propiedad:coordenadaY "4469801,568"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-ENTREVÍAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-PUENTE+DE+VALLECAS> .
+
+individual:Aparcamiento-4738110 a clase:Aparcamiento ;
+	propiedad:indentificador "4738110" ;
+	propiedad:direccion "CALLE DEL PUERTO DE BALBARAN 10" ;
+	propiedad:coordenadaX "444331,525"^^xsd:decimal ;
+	propiedad:coordenadaY "4469673,416"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-ENTREVÍAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-PUENTE+DE+VALLECAS> .
+
+individual:Aparcamiento-528449 a clase:Aparcamiento ;
+	propiedad:indentificador "528449" ;
+	propiedad:direccion "CALLE DEL PADRE LLANOS 5" ;
+	propiedad:coordenadaX "444352,5956"^^xsd:decimal ;
+	propiedad:coordenadaY "4469526,733"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-ENTREVÍAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-PUENTE+DE+VALLECAS> .
+
+individual:Aparcamiento-528368 a clase:Aparcamiento ;
+	propiedad:indentificador "528368" ;
+	propiedad:direccion "AVENIDA 0 ENTREVIAS 92" ;
+	propiedad:coordenadaX "443651,4573"^^xsd:decimal ;
+	propiedad:coordenadaY "4469960,33"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-ENTREVÍAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-PUENTE+DE+VALLECAS> .
+
+individual:Aparcamiento-528580 a clase:Aparcamiento ;
+	propiedad:indentificador "528580" ;
+	propiedad:direccion "AVENIDA 0 ENTREVIAS 24" ;
+	propiedad:coordenadaX "443011,6067"^^xsd:decimal ;
+	propiedad:coordenadaY "4470897,493"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-ENTREVÍAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-PUENTE+DE+VALLECAS> .
+
+individual:Aparcamiento-528610 a clase:Aparcamiento ;
+	propiedad:indentificador "528610" ;
+	propiedad:direccion "PLAZA DEL ENCUENTRO 4" ;
+	propiedad:coordenadaX "444679,3861"^^xsd:decimal ;
+	propiedad:coordenadaY "4472960,698"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-FONTARRÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MORATALAZ> .
+
+individual:Barrio-FONTARRÓN a clase:Barrio ;
+	propiedad:codigo_Barrio "145" ;
+	propiedad:nombre_Barrio "FONTARRÓN" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10283284> .
+
+individual:Distrito-MORATALAZ a clase:Distrito ;
+	propiedad:codigo_distrito "14" ;
+	propiedad:nombre_Distrito "MORATALAZ" ;
+	owl:sameAs <http://dbpedia.org/resource/Moratalaz> .
+
+individual:Aparcamiento-528277 a clase:Aparcamiento ;
+	propiedad:indentificador "528277" ;
+	propiedad:direccion "CALLE DE LA ENCOMIENDA DE PALACIOS 87" ;
+	propiedad:coordenadaX "445577,3039"^^xsd:decimal ;
+	propiedad:coordenadaY "4472403,988"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-FONTARRÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MORATALAZ> .
+
+individual:Aparcamiento-528618 a clase:Aparcamiento ;
+	propiedad:indentificador "528618" ;
+	propiedad:direccion "CALLE DEL CORREGIDOR JUAN FRANCISCO DE LUJAN 106" ;
+	propiedad:coordenadaX "445187,8781"^^xsd:decimal ;
+	propiedad:coordenadaY "4472534,035"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-FONTARRÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MORATALAZ> .
+
+individual:Aparcamiento-528620 a clase:Aparcamiento ;
+	propiedad:indentificador "528620" ;
+	propiedad:direccion "CALLE DEL ARROYO FONTARRON 199" ;
+	propiedad:coordenadaX "445357,1824"^^xsd:decimal ;
+	propiedad:coordenadaY "4472161,599"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-FONTARRÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-MORATALAZ> .
+
+individual:Aparcamiento-4704628 a clase:Aparcamiento ;
+	propiedad:indentificador "4704628" ;
+	propiedad:direccion "CALLE DE LA VIRGEN DE LA ALEGRIA 18" ;
+	propiedad:coordenadaX "444441,61"^^xsd:decimal ;
+	propiedad:coordenadaY "4476235,82"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-CONCEPCIÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-CIUDAD+LINEAL> .
+
+individual:Barrio-CONCEPCIÓN a clase:Barrio ;
+	propiedad:codigo_Barrio "154" ;
+	propiedad:nombre_Barrio "CONCEPCIÓN" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q11915156> .
+
+<http://www.semanticweb.org/group10/Individuales%2FDistrito-CIUDAD+LINEAL> a clase:Distrito ;
+	propiedad:codigo_distrito "15" ;
+	propiedad:nombre_Distrito "CIUDAD LINEAL" ;
+	owl:sameAs <http://dbpedia.org/resource/Ciudad_Lineal> .
+
+individual:Aparcamiento-4704629 a clase:Aparcamiento ;
+	propiedad:indentificador "4704629" ;
+	propiedad:direccion "CALLE DE LA VIRGEN DE NURIA 4" ;
+	propiedad:coordenadaX "444623,39"^^xsd:decimal ;
+	propiedad:coordenadaY "4476326,57"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-CONCEPCIÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-CIUDAD+LINEAL> .
+
+individual:Aparcamiento-529155 a clase:Aparcamiento ;
+	propiedad:indentificador "529155" ;
+	propiedad:direccion "CALLE DE JUAN PEREZ ZUÑIGA 36" ;
+	propiedad:coordenadaX "445138,1467"^^xsd:decimal ;
+	propiedad:coordenadaY "4477277,053"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-CONCEPCIÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-CIUDAD+LINEAL> .
+
+individual:Aparcamiento-529167 a clase:Aparcamiento ;
+	propiedad:indentificador "529167" ;
+	propiedad:direccion "CALLE DE LOPEZ DE ARANDA 5" ;
+	propiedad:coordenadaX "445721,7992"^^xsd:decimal ;
+	propiedad:coordenadaY "4477009,362"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-CONCEPCIÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-CIUDAD+LINEAL> .
+
+individual:Aparcamiento-529169 a clase:Aparcamiento ;
+	propiedad:indentificador "529169" ;
+	propiedad:direccion "CALLE DE JOSE DEL HIERRO 5" ;
+	propiedad:coordenadaX "445004,8683"^^xsd:decimal ;
+	propiedad:coordenadaY "4476485,471"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-CONCEPCIÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-CIUDAD+LINEAL> .
+
+individual:Aparcamiento-529171 a clase:Aparcamiento ;
+	propiedad:indentificador "529171" ;
+	propiedad:direccion "CALLE DE JOSE DEL HIERRO 1" ;
+	propiedad:coordenadaX "444681,9437"^^xsd:decimal ;
+	propiedad:coordenadaY "4476296,955"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-CONCEPCIÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-CIUDAD+LINEAL> .
+
+individual:Aparcamiento-529215 a clase:Aparcamiento ;
+	propiedad:indentificador "529215" ;
+	propiedad:direccion "CALLE DE JOSE DEL HIERRO 17" ;
+	propiedad:coordenadaX "445217,3983"^^xsd:decimal ;
+	propiedad:coordenadaY "4476740,482"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-CONCEPCIÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-CIUDAD+LINEAL> .
+
+individual:Aparcamiento-529235 a clase:Aparcamiento ;
+	propiedad:indentificador "529235" ;
+	propiedad:direccion "CALLE DE JOSE DEL HIERRO 3" ;
+	propiedad:coordenadaX "444823,2735"^^xsd:decimal ;
+	propiedad:coordenadaY "4476399,074"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-CONCEPCIÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-CIUDAD+LINEAL> .
+
+individual:Aparcamiento-529162 a clase:Aparcamiento ;
+	propiedad:indentificador "529162" ;
+	propiedad:direccion "CALLE DE LOPEZ DE HOYOS 310" ;
+	propiedad:coordenadaX "443999,9407"^^xsd:decimal ;
+	propiedad:coordenadaY "4478815,256"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-COLINA> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-CIUDAD+LINEAL> .
+
+individual:Barrio-COLINA a clase:Barrio ;
+	propiedad:codigo_Barrio "157" ;
+	propiedad:nombre_Barrio "COLINA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q18475981> .
+
+individual:Aparcamiento-528841 a clase:Aparcamiento ;
+	propiedad:indentificador "528841" ;
+	propiedad:direccion "CARRETERA A LA ESTACION DE HORTALEZA 11" ;
+	propiedad:coordenadaX "444675,1548"^^xsd:decimal ;
+	propiedad:coordenadaY "4481096,936"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-APOSTOL+SANTIAGO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-HORTALEZA> .
+
+<http://www.semanticweb.org/group10/Individuales%2FBarrio-APOSTOL+SANTIAGO> a clase:Barrio ;
+	propiedad:codigo_Barrio "165" ;
+	propiedad:nombre_Barrio "APOSTOL SANTIAGO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q27183535> .
+
+individual:Distrito-HORTALEZA a clase:Distrito ;
+	propiedad:codigo_distrito "16" ;
+	propiedad:nombre_Distrito "HORTALEZA" ;
+	owl:sameAs <http://dbpedia.org/resource/Hortaleza> .
+
+individual:Aparcamiento-528847 a clase:Aparcamiento ;
+	propiedad:indentificador "528847" ;
+	propiedad:direccion "CALLE DE MONOVAR 19" ;
+	propiedad:coordenadaX "444396,4392"^^xsd:decimal ;
+	propiedad:coordenadaY "4481063,349"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-APOSTOL+SANTIAGO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-HORTALEZA> .
+
+individual:Aparcamiento-4704606 a clase:Aparcamiento ;
+	propiedad:indentificador "4704606" ;
+	propiedad:direccion "CALLE DE CARRION DE LOS CONDES 21" ;
+	propiedad:coordenadaX "444194,85"^^xsd:decimal ;
+	propiedad:coordenadaY "4480829,69"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-APOSTOL+SANTIAGO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-HORTALEZA> .
+
+individual:Aparcamiento-529116 a clase:Aparcamiento ;
+	propiedad:indentificador "529116" ;
+	propiedad:direccion "CALLE DE PURCHENA 22" ;
+	propiedad:coordenadaX "443715,8594"^^xsd:decimal ;
+	propiedad:coordenadaY "4480784,478"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-APOSTOL+SANTIAGO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-HORTALEZA> .
+
+individual:Aparcamiento-529117 a clase:Aparcamiento ;
+	propiedad:indentificador "529117" ;
+	propiedad:direccion "CALLE DE SOMONTIN 26" ;
+	propiedad:coordenadaX "443876,1972"^^xsd:decimal ;
+	propiedad:coordenadaY "4480775,747"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-APOSTOL+SANTIAGO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-HORTALEZA> .
+
+individual:Aparcamiento-529131 a clase:Aparcamiento ;
+	propiedad:indentificador "529131" ;
+	propiedad:direccion "CALLE DE SOMONTIN 59" ;
+	propiedad:coordenadaX "444022,8456"^^xsd:decimal ;
+	propiedad:coordenadaY "4480986,329"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-APOSTOL+SANTIAGO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-HORTALEZA> .
+
+individual:Aparcamiento-528529 a clase:Aparcamiento ;
+	propiedad:indentificador "528529" ;
+	propiedad:direccion "CALLE DE VALLE DE TOBALINA 52" ;
+	propiedad:coordenadaX "439444,8781"^^xsd:decimal ;
+	propiedad:coordenadaY "4465857,231"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-SAN+ANDR%C3%89S> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VILLAVERDE> .
+
+<http://www.semanticweb.org/group10/Individuales%2FBarrio-SAN+ANDR%C3%89S> a clase:Barrio ;
+	propiedad:codigo_Barrio "171" ;
+	propiedad:nombre_Barrio "SAN ANDRÉS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q390435> .
+
+individual:Distrito-VILLAVERDE a clase:Distrito ;
+	propiedad:codigo_distrito "17" ;
+	propiedad:nombre_Distrito "VILLAVERDE" ;
+	owl:sameAs <http://dbpedia.org/resource/Villaverde_(Madrid)> .
+
+individual:Aparcamiento-4745164 a clase:Aparcamiento ;
+	propiedad:indentificador "4745164" ;
+	propiedad:direccion "CALLE DE SAN DALMACIO 1" ;
+	propiedad:coordenadaX "441132,6029"^^xsd:decimal ;
+	propiedad:coordenadaY "4465918,531"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-SAN+ANDR%C3%89S> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VILLAVERDE> .
+
+individual:Aparcamiento-528534 a clase:Aparcamiento ;
+	propiedad:indentificador "528534" ;
+	propiedad:direccion "CALLE DE LA RESINA 27" ;
+	propiedad:coordenadaX "440417,1916"^^xsd:decimal ;
+	propiedad:coordenadaY "4465257,804"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-SAN+ANDR%C3%89S> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VILLAVERDE> .
+
+individual:Aparcamiento-528414 a clase:Aparcamiento ;
+	propiedad:indentificador "528414" ;
+	propiedad:direccion "PLAZA DE AGATA 11" ;
+	propiedad:coordenadaX "439817,0883"^^xsd:decimal ;
+	propiedad:coordenadaY "4466494,076"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-SAN+ANDR%C3%89S> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VILLAVERDE> .
+
+individual:Aparcamiento-528430 a clase:Aparcamiento ;
+	propiedad:indentificador "528430" ;
+	propiedad:direccion "CALLE 0 PRINCIPAL 1" ;
+	propiedad:coordenadaX "440698,5735"^^xsd:decimal ;
+	propiedad:coordenadaY "4465036,567"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-SAN+ANDR%C3%89S> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VILLAVERDE> .
+
+individual:Aparcamiento-528415 a clase:Aparcamiento ;
+	propiedad:indentificador "528415" ;
+	propiedad:direccion "PASEO 0 PLATA Y CASTAÑAR 7" ;
+	propiedad:coordenadaX "439043,1148"^^xsd:decimal ;
+	propiedad:coordenadaY "4466915,364"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-SAN+ANDR%C3%89S> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VILLAVERDE> .
+
+individual:Aparcamiento-4749612 a clase:Aparcamiento ;
+	propiedad:indentificador "4749612" ;
+	propiedad:direccion "PASEO 0 PLATA Y CASTAÑAR 5" ;
+	propiedad:coordenadaX "438934,9018"^^xsd:decimal ;
+	propiedad:coordenadaY "4466631,402"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-SAN+ANDR%C3%89S> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VILLAVERDE> .
+
+individual:Aparcamiento-528417 a clase:Aparcamiento ;
+	propiedad:indentificador "528417" ;
+	propiedad:direccion "PASEO DE LAS MORERAS 5" ;
+	propiedad:coordenadaX "439638,9885"^^xsd:decimal ;
+	propiedad:coordenadaY "4466494,617"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-SAN+ANDR%C3%89S> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VILLAVERDE> .
+
+individual:Aparcamiento-528420 a clase:Aparcamiento ;
+	propiedad:indentificador "528420" ;
+	propiedad:direccion "PASEO DE ALBERTO PALACIOS 16" ;
+	propiedad:coordenadaX "439662,7199"^^xsd:decimal ;
+	propiedad:coordenadaY "4466424,937"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-SAN+ANDR%C3%89S> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VILLAVERDE> .
+
+individual:Aparcamiento-3569427 a clase:Aparcamiento ;
+	propiedad:indentificador "3569427" ;
+	propiedad:direccion "PASEO DE ALBERTO PALACIOS 15" ;
+	propiedad:coordenadaX "439622,0806"^^xsd:decimal ;
+	propiedad:coordenadaY "4466419,824"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-SAN+ANDR%C3%89S> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VILLAVERDE> .
+
+individual:Aparcamiento-528463 a clase:Aparcamiento ;
+	propiedad:indentificador "528463" ;
+	propiedad:direccion "CALLE DE LAS OLAS 2" ;
+	propiedad:coordenadaX "439703,4551"^^xsd:decimal ;
+	propiedad:coordenadaY "4466801,917"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-SAN+ANDR%C3%89S> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VILLAVERDE> .
+
+individual:Aparcamiento-528525 a clase:Aparcamiento ;
+	propiedad:indentificador "528525" ;
+	propiedad:direccion "CALLE DE JUAN PEÑALVER 8" ;
+	propiedad:coordenadaX "439416,1521"^^xsd:decimal ;
+	propiedad:coordenadaY "4466666,581"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-SAN+ANDR%C3%89S> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VILLAVERDE> .
+
+individual:Aparcamiento-528532 a clase:Aparcamiento ;
+	propiedad:indentificador "528532" ;
+	propiedad:direccion "CALLE DE DOMINGO PARRAGA 15" ;
+	propiedad:coordenadaX "439543,9969"^^xsd:decimal ;
+	propiedad:coordenadaY "4465919,817"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-SAN+ANDR%C3%89S> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VILLAVERDE> .
+
+individual:Aparcamiento-528458 a clase:Aparcamiento ;
+	propiedad:indentificador "528458" ;
+	propiedad:direccion "CALLE DEL DOCTOR MARTIN AREVALO 4" ;
+	propiedad:coordenadaX "439841,0395"^^xsd:decimal ;
+	propiedad:coordenadaY "4466441,046"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-SAN+ANDR%C3%89S> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VILLAVERDE> .
+
+individual:Aparcamiento-3569428 a clase:Aparcamiento ;
+	propiedad:indentificador "3569428" ;
+	propiedad:direccion "CALLE DEL ARROYO BUENO 53" ;
+	propiedad:coordenadaX "439589,6017"^^xsd:decimal ;
+	propiedad:coordenadaY "4466743,111"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-SAN+ANDR%C3%89S> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VILLAVERDE> .
+
+individual:Aparcamiento-528439 a clase:Aparcamiento ;
+	propiedad:indentificador "528439" ;
+	propiedad:direccion "CALLE DE ALCOCER 45" ;
+	propiedad:coordenadaX "440085,0474"^^xsd:decimal ;
+	propiedad:coordenadaY "4466855,811"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-SAN+ANDR%C3%89S> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VILLAVERDE> .
+
+individual:Aparcamiento-461388 a clase:Aparcamiento ;
+	propiedad:indentificador "461388" ;
+	propiedad:direccion "CALLE DE VILLARINO DE LOS AIRES 14" ;
+	propiedad:coordenadaX "446999,911"^^xsd:decimal ;
+	propiedad:coordenadaY "4469583,839"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+<http://www.semanticweb.org/group10/Individuales%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> a clase:Barrio ;
+	propiedad:codigo_Barrio "181" ;
+	propiedad:nombre_Barrio "CASCO HISTÓRICO DE VALLECAS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q16544370> .
+
+<http://www.semanticweb.org/group10/Individuales%2FDistrito-VILLA+DE+VALLECAS> a clase:Distrito ;
+	propiedad:codigo_distrito "18" ;
+	propiedad:nombre_Distrito "VILLA DE VALLECAS" ;
+	owl:sameAs <http://dbpedia.org/resource/Villa_de_Vallecas> .
+
+individual:Aparcamiento-3575550 a clase:Aparcamiento ;
+	propiedad:indentificador "3575550" ;
+	propiedad:direccion "CALLE DE LA SIERRA VIEJA 62" ;
+	propiedad:coordenadaX "447028,3362"^^xsd:decimal ;
+	propiedad:coordenadaY "4469954,725"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528489 a clase:Aparcamiento ;
+	propiedad:indentificador "528489" ;
+	propiedad:direccion "CALLE DE LA SIERRA GADOR 42" ;
+	propiedad:coordenadaX "447030,2913"^^xsd:decimal ;
+	propiedad:coordenadaY "4470195,701"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528488 a clase:Aparcamiento ;
+	propiedad:indentificador "528488" ;
+	propiedad:direccion "CALLE DE LA SIERRA DE PALOMERAS 12" ;
+	propiedad:coordenadaX "447007,183"^^xsd:decimal ;
+	propiedad:coordenadaY "4469772,162"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528471 a clase:Aparcamiento ;
+	propiedad:indentificador "528471" ;
+	propiedad:direccion "CALLE DE SAN JAIME 46" ;
+	propiedad:coordenadaX "446767,7445"^^xsd:decimal ;
+	propiedad:coordenadaY "4470101,984"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528473 a clase:Aparcamiento ;
+	propiedad:indentificador "528473" ;
+	propiedad:direccion "CALLE DEL PUERTO DE SOMOSIERRA 11" ;
+	propiedad:coordenadaX "447173,3079"^^xsd:decimal ;
+	propiedad:coordenadaY "4469975,572"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528447 a clase:Aparcamiento ;
+	propiedad:indentificador "528447" ;
+	propiedad:direccion "CALLE DEL PUERTO DE REINOSA 2" ;
+	propiedad:coordenadaX "447604,8245"^^xsd:decimal ;
+	propiedad:coordenadaY "4469941,133"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528423 a clase:Aparcamiento ;
+	propiedad:indentificador "528423" ;
+	propiedad:direccion "CALLE DE PUENTEDEY 5" ;
+	propiedad:coordenadaX "447927,2985"^^xsd:decimal ;
+	propiedad:coordenadaY "4468908,664"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528419 a clase:Aparcamiento ;
+	propiedad:indentificador "528419" ;
+	propiedad:direccion "CALLE DE PUENTEDEY 5" ;
+	propiedad:coordenadaX "447920,2365"^^xsd:decimal ;
+	propiedad:coordenadaY "4468906,492"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528486 a clase:Aparcamiento ;
+	propiedad:indentificador "528486" ;
+	propiedad:direccion "CALLE DE PUENTEDEY 5" ;
+	propiedad:coordenadaX "447982,9866"^^xsd:decimal ;
+	propiedad:coordenadaY "4468919,711"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528468 a clase:Aparcamiento ;
+	propiedad:indentificador "528468" ;
+	propiedad:direccion "CALLE DE LA PEÑA VEIGA 6" ;
+	propiedad:coordenadaX "447103,6884"^^xsd:decimal ;
+	propiedad:coordenadaY "4469805,671"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528494 a clase:Aparcamiento ;
+	propiedad:indentificador "528494" ;
+	propiedad:direccion "PASEO DE FEDERICO GARCIA LORCA 12" ;
+	propiedad:coordenadaX "447256,774"^^xsd:decimal ;
+	propiedad:coordenadaY "4470002,292"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-529234 a clase:Aparcamiento ;
+	propiedad:indentificador "529234" ;
+	propiedad:direccion "CALLE DE LA MUELA DE SAN JUAN 42" ;
+	propiedad:coordenadaX "447588,4026"^^xsd:decimal ;
+	propiedad:coordenadaY "4469278,999"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528483 a clase:Aparcamiento ;
+	propiedad:indentificador "528483" ;
+	propiedad:direccion "CALLE DE LOS MONTES DE BARBANZA 25" ;
+	propiedad:coordenadaX "447398,2754"^^xsd:decimal ;
+	propiedad:coordenadaY "4469782,51"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528361 a clase:Aparcamiento ;
+	propiedad:indentificador "528361" ;
+	propiedad:direccion "CALLE DE LOS MONTES DE BARBANZA 15" ;
+	propiedad:coordenadaX "447539,2575"^^xsd:decimal ;
+	propiedad:coordenadaY "4469790,959"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528481 a clase:Aparcamiento ;
+	propiedad:indentificador "528481" ;
+	propiedad:direccion "CALLE DEL MONTE AYA 12" ;
+	propiedad:coordenadaX "447148,5548"^^xsd:decimal ;
+	propiedad:coordenadaY "4469896,156"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528472 a clase:Aparcamiento ;
+	propiedad:indentificador "528472" ;
+	propiedad:direccion "CALLE DE MANUEL VELEZ 10" ;
+	propiedad:coordenadaX "447099,3633"^^xsd:decimal ;
+	propiedad:coordenadaY "4470071,334"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528475 a clase:Aparcamiento ;
+	propiedad:indentificador "528475" ;
+	propiedad:direccion "CALLE DE LA REVOLTOSA 19" ;
+	propiedad:coordenadaX "447211,1203"^^xsd:decimal ;
+	propiedad:coordenadaY "4469521,854"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528552 a clase:Aparcamiento ;
+	propiedad:indentificador "528552" ;
+	propiedad:direccion "CALLE DE JESUS DEL PINO 32" ;
+	propiedad:coordenadaX "446995,2896"^^xsd:decimal ;
+	propiedad:coordenadaY "4470324,047"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528478 a clase:Aparcamiento ;
+	propiedad:indentificador "528478" ;
+	propiedad:direccion "CALLE DE LA HUELGA 6" ;
+	propiedad:coordenadaX "447092,2592"^^xsd:decimal ;
+	propiedad:coordenadaY "4469002,859"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528461 a clase:Aparcamiento ;
+	propiedad:indentificador "528461" ;
+	propiedad:direccion "CALLE DE FUENTIDUEÑA 41" ;
+	propiedad:coordenadaX "447219,775"^^xsd:decimal ;
+	propiedad:coordenadaY "4469110,524"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528476 a clase:Aparcamiento ;
+	propiedad:indentificador "528476" ;
+	propiedad:direccion "CALLE DE FUENTIDUEÑA 19" ;
+	propiedad:coordenadaX "447115,2428"^^xsd:decimal ;
+	propiedad:coordenadaY "4469409,194"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528465 a clase:Aparcamiento ;
+	propiedad:indentificador "528465" ;
+	propiedad:direccion "CALLE DE FUENTIDUEÑA 11" ;
+	propiedad:coordenadaX "447065,5528"^^xsd:decimal ;
+	propiedad:coordenadaY "4469502,01"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528474 a clase:Aparcamiento ;
+	propiedad:indentificador "528474" ;
+	propiedad:direccion "CALLE DEL CONGOSTO 35" ;
+	propiedad:coordenadaX "447481,1713"^^xsd:decimal ;
+	propiedad:coordenadaY "4469229,907"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528479 a clase:Aparcamiento ;
+	propiedad:indentificador "528479" ;
+	propiedad:direccion "CAMINO DE LA SUERTE 25" ;
+	propiedad:coordenadaX "447610,4979"^^xsd:decimal ;
+	propiedad:coordenadaY "4469634,945"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528575 a clase:Aparcamiento ;
+	propiedad:indentificador "528575" ;
+	propiedad:direccion "CALLE DE LA CAÑADA DEL SANTISIMO 45" ;
+	propiedad:coordenadaX "449088,3464"^^xsd:decimal ;
+	propiedad:coordenadaY "4468244,673"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-3579662 a clase:Aparcamiento ;
+	propiedad:indentificador "3579662" ;
+	propiedad:direccion "AVENIDA DEL CERRO MILANO 3" ;
+	propiedad:coordenadaX "447603,6905"^^xsd:decimal ;
+	propiedad:coordenadaY "4468890,49"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528554 a clase:Aparcamiento ;
+	propiedad:indentificador "528554" ;
+	propiedad:direccion "AVENIDA DEL ENSANCHE DE VALLECAS 120" ;
+	propiedad:coordenadaX "449645,4185"^^xsd:decimal ;
+	propiedad:coordenadaY "4467886,374"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528427 a clase:Aparcamiento ;
+	propiedad:indentificador "528427" ;
+	propiedad:direccion "AVENIDA DEL ENSANCHE DE VALLECAS 14" ;
+	propiedad:coordenadaX "447956,4209"^^xsd:decimal ;
+	propiedad:coordenadaY "4468957,747"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VALLECAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-VILLA+DE+VALLECAS> .
+
+individual:Aparcamiento-528320 a clase:Aparcamiento ;
+	propiedad:indentificador "528320" ;
+	propiedad:direccion "CALLE DE VILLARDONDIEGO 34" ;
+	propiedad:coordenadaX "448353,3376"^^xsd:decimal ;
+	propiedad:coordenadaY "4472941,27"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VIC%C3%81LVARO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VICÁLVARO> .
+
+<http://www.semanticweb.org/group10/Individuales%2FBarrio-CASCO+HIST%C3%93RICO+DE+VIC%C3%81LVARO> a clase:Barrio ;
+	propiedad:codigo_Barrio "191" ;
+	propiedad:nombre_Barrio "CASCO HISTÓRICO DE VICÁLVARO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q16544374> .
+
+individual:Distrito-VICÁLVARO a clase:Distrito ;
+	propiedad:codigo_distrito "19" ;
+	propiedad:nombre_Distrito "VICÁLVARO" ;
+	owl:sameAs <http://dbpedia.org/resource/Vicalvaro> .
+
+individual:Aparcamiento-528321 a clase:Aparcamiento ;
+	propiedad:indentificador "528321" ;
+	propiedad:direccion "CALLE DE SAN CIPRIANO 85" ;
+	propiedad:coordenadaX "449424,2461"^^xsd:decimal ;
+	propiedad:coordenadaY "4472476,968"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VIC%C3%81LVARO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VICÁLVARO> .
+
+individual:Aparcamiento-528282 a clase:Aparcamiento ;
+	propiedad:indentificador "528282" ;
+	propiedad:direccion "CALLE DE SAN CIPRIANO 46" ;
+	propiedad:coordenadaX "448755,7857"^^xsd:decimal ;
+	propiedad:coordenadaY "4472762,901"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VIC%C3%81LVARO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VICÁLVARO> .
+
+individual:Aparcamiento-528495 a clase:Aparcamiento ;
+	propiedad:indentificador "528495" ;
+	propiedad:direccion "PLAZA DE DON ANTONIO DE ANDRES 18" ;
+	propiedad:coordenadaX "448589,2865"^^xsd:decimal ;
+	propiedad:coordenadaY "4472576,443"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VIC%C3%81LVARO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VICÁLVARO> .
+
+individual:Aparcamiento-528279 a clase:Aparcamiento ;
+	propiedad:indentificador "528279" ;
+	propiedad:direccion "PASEO DE LOS ARTILLEROS 35" ;
+	propiedad:coordenadaX "448337,4562"^^xsd:decimal ;
+	propiedad:coordenadaY "4472828,488"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VIC%C3%81LVARO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VICÁLVARO> .
+
+individual:Aparcamiento-528502 a clase:Aparcamiento ;
+	propiedad:indentificador "528502" ;
+	propiedad:direccion "CALLE DE MINERVA 161" ;
+	propiedad:coordenadaX "448529,8972"^^xsd:decimal ;
+	propiedad:coordenadaY "4471576,481"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VIC%C3%81LVARO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VICÁLVARO> .
+
+individual:Aparcamiento-528480 a clase:Aparcamiento ;
+	propiedad:indentificador "528480" ;
+	propiedad:direccion "CALLE DEL MERCURIO 20" ;
+	propiedad:coordenadaX "448615,5133"^^xsd:decimal ;
+	propiedad:coordenadaY "4472899,174"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VIC%C3%81LVARO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VICÁLVARO> .
+
+individual:Aparcamiento-528281 a clase:Aparcamiento ;
+	propiedad:indentificador "528281" ;
+	propiedad:direccion "CALLE DE LA MARMOLINA 5" ;
+	propiedad:coordenadaX "448450,7742"^^xsd:decimal ;
+	propiedad:coordenadaY "4472018,044"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VIC%C3%81LVARO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VICÁLVARO> .
+
+individual:Aparcamiento-528309 a clase:Aparcamiento ;
+	propiedad:indentificador "528309" ;
+	propiedad:direccion "CALLE DE LA LADERA DE LOS ALMENDROS 2" ;
+	propiedad:coordenadaX "447166,5668"^^xsd:decimal ;
+	propiedad:coordenadaY "4472839,641"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VIC%C3%81LVARO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VICÁLVARO> .
+
+individual:Aparcamiento-528356 a clase:Aparcamiento ;
+	propiedad:indentificador "528356" ;
+	propiedad:direccion "CALLE DE LA LADERA DE LOS ALMENDROS 2" ;
+	propiedad:coordenadaX "447138,3527"^^xsd:decimal ;
+	propiedad:coordenadaY "4472785,67"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VIC%C3%81LVARO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VICÁLVARO> .
+
+individual:Aparcamiento-528454 a clase:Aparcamiento ;
+	propiedad:indentificador "528454" ;
+	propiedad:direccion "CALLE DE CORDEL DE PAVONES 2" ;
+	propiedad:coordenadaX "447584,5343"^^xsd:decimal ;
+	propiedad:coordenadaY "4472638,566"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VIC%C3%81LVARO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VICÁLVARO> .
+
+individual:Aparcamiento-528421 a clase:Aparcamiento ;
+	propiedad:indentificador "528421" ;
+	propiedad:direccion "BULEVAR DE INDALECIO PRIETO 21" ;
+	propiedad:coordenadaX "447275,6768"^^xsd:decimal ;
+	propiedad:coordenadaY "4472329,918"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VIC%C3%81LVARO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VICÁLVARO> .
+
+individual:Aparcamiento-528351 a clase:Aparcamiento ;
+	propiedad:indentificador "528351" ;
+	propiedad:direccion "BULEVAR DE INDALECIO PRIETO 21" ;
+	propiedad:coordenadaX "447266,998"^^xsd:decimal ;
+	propiedad:coordenadaY "4472302,561"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VIC%C3%81LVARO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VICÁLVARO> .
+
+individual:Aparcamiento-528319 a clase:Aparcamiento ;
+	propiedad:indentificador "528319" ;
+	propiedad:direccion "BULEVAR DE INDALECIO PRIETO 16" ;
+	propiedad:coordenadaX "447297,0427"^^xsd:decimal ;
+	propiedad:coordenadaY "4472568,649"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VIC%C3%81LVARO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VICÁLVARO> .
+
+individual:Aparcamiento-528499 a clase:Aparcamiento ;
+	propiedad:indentificador "528499" ;
+	propiedad:direccion "BULEVAR DE INDALECIO PRIETO 7" ;
+	propiedad:coordenadaX "447459,5268"^^xsd:decimal ;
+	propiedad:coordenadaY "4472807,168"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VIC%C3%81LVARO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VICÁLVARO> .
+
+individual:Aparcamiento-528310 a clase:Aparcamiento ;
+	propiedad:indentificador "528310" ;
+	propiedad:direccion "BULEVAR DE INDALECIO PRIETO 3" ;
+	propiedad:coordenadaX "447439,2211"^^xsd:decimal ;
+	propiedad:coordenadaY "4472888,455"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VIC%C3%81LVARO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VICÁLVARO> .
+
+individual:Aparcamiento-3577914 a clase:Aparcamiento ;
+	propiedad:indentificador "3577914" ;
+	propiedad:direccion "AVENIDA DE DAROCA 327" ;
+	propiedad:coordenadaX "448266,3676"^^xsd:decimal ;
+	propiedad:coordenadaY "4472807,221"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+VIC%C3%81LVARO> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-VICÁLVARO> .
+
+individual:Aparcamiento-529206 a clase:Aparcamiento ;
+	propiedad:indentificador "529206" ;
+	propiedad:direccion "CALLE DE ARCOS DE JALON 59" ;
+	propiedad:coordenadaX "448152,1521"^^xsd:decimal ;
+	propiedad:coordenadaY "4475547,516"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-HELLÍN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-SAN+BLAS-CANILLEJAS> .
+
+individual:Barrio-HELLÍN a clase:Barrio ;
+	propiedad:codigo_Barrio "202" ;
+	propiedad:nombre_Barrio "HELLÍN" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10294546> .
+
+<http://www.semanticweb.org/group10/Individuales%2FDistrito-SAN+BLAS-CANILLEJAS> a clase:Distrito ;
+	propiedad:codigo_distrito "20" ;
+	propiedad:nombre_Distrito "SAN BLAS-CANILLEJAS" ;
+	owl:sameAs <http://dbpedia.org/resource/San_Blas-Canillejas> .
+
+individual:Aparcamiento-3847544 a clase:Aparcamiento ;
+	propiedad:indentificador "3847544" ;
+	propiedad:direccion "AVENIDA DE CANILLEJAS A VICALVARO 67" ;
+	propiedad:coordenadaX "448074,4416"^^xsd:decimal ;
+	propiedad:coordenadaY "4476120,98"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-HELLÍN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales%2FDistrito%2FDistrito-SAN+BLAS-CANILLEJAS> .
+
+individual:Aparcamiento-529149 a clase:Aparcamiento ;
+	propiedad:indentificador "529149" ;
+	propiedad:direccion "CALLE DE ORION 3" ;
+	propiedad:coordenadaX "451014,4324"^^xsd:decimal ;
+	propiedad:coordenadaY "4480593,468"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales%2FBarrio%2FBarrio-CASCO+HIST%C3%93RICO+DE+BARAJAS> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-BARAJAS> .
+
+<http://www.semanticweb.org/group10/Individuales%2FBarrio-CASCO+HIST%C3%93RICO+DE+BARAJAS> a clase:Barrio ;
+	propiedad:codigo_Barrio "213" ;
+	propiedad:nombre_Barrio "CASCO HISTÓRICO DE BARAJAS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q9701730> .
+
+individual:Distrito-BARAJAS a clase:Distrito ;
+	propiedad:codigo_distrito "21" ;
+	propiedad:nombre_Distrito "BARAJAS" ;
+	owl:sameAs <http://dbpedia.org/resource/Barajas_(Madrid)> .
+
+individual:Aparcamiento-529147 a clase:Aparcamiento ;
+	propiedad:indentificador "529147" ;
+	propiedad:direccion "CALLE DEL TIMON 20" ;
+	propiedad:coordenadaX "450412,901"^^xsd:decimal ;
+	propiedad:coordenadaY "4480424,134"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-TIMÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-BARAJAS> .
+
+individual:Barrio-TIMÓN a clase:Barrio ;
+	propiedad:codigo_Barrio "214" ;
+	propiedad:nombre_Barrio "TIMÓN" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10382570> .
+
+individual:Aparcamiento-529148 a clase:Aparcamiento ;
+	propiedad:indentificador "529148" ;
+	propiedad:direccion "AVENIDA DE LOGROÑO 365" ;
+	propiedad:coordenadaX "450623,5098"^^xsd:decimal ;
+	propiedad:coordenadaY "4480733,962"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-TIMÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-BARAJAS> .
+
+individual:Aparcamiento-3914147 a clase:Aparcamiento ;
+	propiedad:indentificador "3914147" ;
+	propiedad:direccion "CALLE DE JOSE ANTONIO FERNANDEZ ORDOÑEZ 65" ;
+	propiedad:coordenadaX "448761,43"^^xsd:decimal ;
+	propiedad:coordenadaY "4482474,51"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-TIMÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-BARAJAS> .
+
+individual:Aparcamiento-3914158 a clase:Aparcamiento ;
+	propiedad:indentificador "3914158" ;
+	propiedad:direccion "CALLE DE ESTANISLAO PEREZ PITA 28" ;
+	propiedad:coordenadaX "448293,12"^^xsd:decimal ;
+	propiedad:coordenadaY "4482203,05"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-TIMÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-BARAJAS> .
+
+individual:Aparcamiento-3914164 a clase:Aparcamiento ;
+	propiedad:indentificador "3914164" ;
+	propiedad:direccion "CALLE DE ESTANISLAO PEREZ PITA 56" ;
+	propiedad:coordenadaX "448404,24"^^xsd:decimal ;
+	propiedad:coordenadaY "4482229,24"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-TIMÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-BARAJAS> .
+
+individual:Aparcamiento-3914171 a clase:Aparcamiento ;
+	propiedad:indentificador "3914171" ;
+	propiedad:direccion "CALLE DE ESTANISLAO PEREZ PITA 66" ;
+	propiedad:coordenadaX "448462,19"^^xsd:decimal ;
+	propiedad:coordenadaY "4482221,31"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-TIMÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-BARAJAS> .
+
+individual:Aparcamiento-3914176 a clase:Aparcamiento ;
+	propiedad:indentificador "3914176" ;
+	propiedad:direccion "CALLE DE ESTANISLAO PEREZ PITA 71" ;
+	propiedad:coordenadaX "448710,63"^^xsd:decimal ;
+	propiedad:coordenadaY "4482231,62"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-TIMÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-BARAJAS> .
+
+individual:Aparcamiento-3914193 a clase:Aparcamiento ;
+	propiedad:indentificador "3914193" ;
+	propiedad:direccion "CALLE DE MARIA REICHE 29" ;
+	propiedad:coordenadaX "448220,09"^^xsd:decimal ;
+	propiedad:coordenadaY "4482068,11"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-TIMÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-BARAJAS> .
+
+individual:Aparcamiento-3914209 a clase:Aparcamiento ;
+	propiedad:indentificador "3914209" ;
+	propiedad:direccion "CALLE DE MARIA REICHE 34" ;
+	propiedad:coordenadaX "448220,09"^^xsd:decimal ;
+	propiedad:coordenadaY "4482043,51"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-TIMÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-BARAJAS> .
+
+individual:Aparcamiento-3914213 a clase:Aparcamiento ;
+	propiedad:indentificador "3914213" ;
+	propiedad:direccion "CALLE DE ESTANISLAO PEREZ PITA 44" ;
+	propiedad:coordenadaX "448327,25"^^xsd:decimal ;
+	propiedad:coordenadaY "4482068,91"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-TIMÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-BARAJAS> .
+
+individual:Aparcamiento-3914214 a clase:Aparcamiento ;
+	propiedad:indentificador "3914214" ;
+	propiedad:direccion "CALLE DE MARIA REICHE 48" ;
+	propiedad:coordenadaX "448327,25"^^xsd:decimal ;
+	propiedad:coordenadaY "4482044,3"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-TIMÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-BARAJAS> .
+
+individual:Aparcamiento-3914215 a clase:Aparcamiento ;
+	propiedad:indentificador "3914215" ;
+	propiedad:direccion "CALLE DE MARIA REICHE 69" ;
+	propiedad:coordenadaX "448543,15"^^xsd:decimal ;
+	propiedad:coordenadaY "4482069,7"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-TIMÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-BARAJAS> .
+
+individual:Aparcamiento-3914216 a clase:Aparcamiento ;
+	propiedad:indentificador "3914216" ;
+	propiedad:direccion "CALLE DE MARIA REICHE 70" ;
+	propiedad:coordenadaX "448543,15"^^xsd:decimal ;
+	propiedad:coordenadaY "4482044,3"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-TIMÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-BARAJAS> .
+
+individual:Aparcamiento-3914220 a clase:Aparcamiento ;
+	propiedad:indentificador "3914220" ;
+	propiedad:direccion "CALLE DE MARIA REICHE 81" ;
+	propiedad:coordenadaX "448643,96"^^xsd:decimal ;
+	propiedad:coordenadaY "4482069,7"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-TIMÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-BARAJAS> .
+
+individual:Aparcamiento-3914223 a clase:Aparcamiento ;
+	propiedad:indentificador "3914223" ;
+	propiedad:direccion "CALLE DE MARIA REICHE 86" ;
+	propiedad:coordenadaX "448643,96"^^xsd:decimal ;
+	propiedad:coordenadaY "4482042,71"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-TIMÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-BARAJAS> .
+
+individual:Aparcamiento-3914394 a clase:Aparcamiento ;
+	propiedad:indentificador "3914394" ;
+	propiedad:direccion "CALLE DE FERNANDO HIGUERAS 69" ;
+	propiedad:coordenadaX "448292,92"^^xsd:decimal ;
+	propiedad:coordenadaY "4481906,98"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-TIMÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-BARAJAS> .
+
+individual:Aparcamiento-3914398 a clase:Aparcamiento ;
+	propiedad:indentificador "3914398" ;
+	propiedad:direccion "CALLE DE FERNANDO HIGUERAS 69" ;
+	propiedad:coordenadaX "448404,81"^^xsd:decimal ;
+	propiedad:coordenadaY "4481881,96"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-TIMÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-BARAJAS> .
+
+individual:Aparcamiento-3914402 a clase:Aparcamiento ;
+	propiedad:indentificador "3914402" ;
+	propiedad:direccion "CALLE DE FERNANDO HIGUERAS 85" ;
+	propiedad:coordenadaX "448462,58"^^xsd:decimal ;
+	propiedad:coordenadaY "4481907,58"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-TIMÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-BARAJAS> .
+
+individual:Aparcamiento-3914406 a clase:Aparcamiento ;
+	propiedad:indentificador "3914406" ;
+	propiedad:direccion "CALLE DE FERNANDO HIGUERAS 105" ;
+	propiedad:coordenadaX "448710,23"^^xsd:decimal ;
+	propiedad:coordenadaY "4481880,19"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-TIMÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-BARAJAS> .
+
+individual:Aparcamiento-3914421 a clase:Aparcamiento ;
+	propiedad:indentificador "3914421" ;
+	propiedad:direccion "AVENIDA DE LAS FUERZAS ARMADAS 9" ;
+	propiedad:coordenadaX "448328,35"^^xsd:decimal ;
+	propiedad:coordenadaY "4481439,94"^^xsd:decimal ;
+	propiedad:localizado_En <http://www.semanticweb.org/group10/Individuales/Barrio/Barrio-TIMÓN> ;
+	propiedad:pertenece_A <http://www.semanticweb.org/group10/Individuales/Distrito/Distrito-BARAJAS> .

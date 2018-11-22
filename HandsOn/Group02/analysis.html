@@ -1,0 +1,186 @@
+<!--
+An HTML document that includes:
+- The analyses performed over the data source
+- The licensing of the data source and the potential license
+- The resource naming strategy defined
+
+- Includes the potential license of the dataset to be generated
+- Includes the resource naming strategy
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+</style>
+	<meta charset="utf-8">
+	<title>
+		Grupo 02 - Análisis del dataset
+	</title>
+</head>
+<body>
+	<h1>
+		Análisis del dataset
+	</h1>
+	<section>
+		<h2>
+			Localización de las bases
+		</h2>
+		Este fichero muestra las bases para encontrar las bicicletas públicas de Madrid.
+		
+		<ul>
+			<li>
+				<b>Nombre del fichero:</b>
+				bases_bicimad.csv
+			</li>
+			<li>
+				<b>CSV obtenido de:</b>
+				<a href="https://datos.madrid.es/sites/v/index.jsp?vgnextoid=e9b2a4059b4b7410VgnVCM2000000c205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD">Portal de datos abiertos del Ayuntamiento de Madrid. BiciMAD. Bases del servicio público de bicicleta eléctrica de la ciudad de Madrid.</a>
+			</li>
+		</ul>
+	</section>
+	<section>
+		<table style="width:100%">
+			<tr>
+				<th>Nombre del dato</th>
+				<th>Tipo</th>
+				<th>Descripción</th>
+				<th>Rango</th>
+				<th>Problemas</th>
+			</tr>
+
+			<tr>
+				<td>Número</td>
+				<td>String</td>
+				<td>Número identificativo de la base</td>
+				<td style="text-align:center;">-</td>
+				<td>Existen una serie de números, y excepcionalmente,<br>acompañados de una letra</td>
+			</tr>
+
+			<tr>
+				<td>Gis_X</td>
+				<td>Float</td>
+				<td>Sin descripción</td>
+				<td style="text-align:center;">[3.4E-38, 3.4E+38]</td>
+				<td>El nombre del dato no es identificativo</td>
+			</tr>
+
+			<tr>
+				<td>Gis_Y</td>
+				<td>Float</td>
+				<td>Sin descripción</td>
+				<td style="text-align:center;">[3.4E-38, 3.4E+38]</td>
+				<td>El nombre del dato no es identificativo</td>
+			</tr>
+
+			<tr>
+				<td>Fecha de Alta</td>
+				<td>Integer</td>
+				<td>Fecha de alta de la base</td>
+				<td style="text-align:center;">[-32768, 32767]</td>
+				<td>Debería ser de tipo Date</td>
+			</tr>
+
+			<tr>
+				<td>Distrito</td>
+				<td>String</td>
+				<td>Indica el distrito mediante su código y el nombre del mismo</td>
+				<td style="text-align:center;">-</td>
+				<td>No se encuentran problemas</td>
+			</tr>
+
+			<tr>
+				<td>Barrio</td>
+				<td>Integer</td>
+				<td>Indica el barrio mediante el código del distrito, su código y el nombre del mismo</td>
+				<td style="text-align:center;">[-32768, 32767]</td>
+				<td>No se encuentran problemas</td>
+			</tr>
+
+			<tr>
+				<td>Calle</td>
+				<td>String</td>
+				<td>Indica la localización de la base mediante el nombre de la calle,<br>seguido del tipo de la vía y de un nexo</td>
+				<td style="text-align:center;">-</td>
+				<td>No se encuentran problemas</td>
+			</tr>
+
+			<tr>
+				<td>Nº Finca</td>
+				<td>String</td>
+				<td>Indica el número en la calle donde se posiciona la base</td>
+				<td style="text-align:center;">-</td>
+				<td>Puede ser un número o S/N</td>
+			</tr>
+
+			<tr>
+				<td>Tipo de Reserva</td>
+				<td>String</td>
+				<td>Indica el tipo de reserva</td>
+				<td style="text-align:center;">-</td>
+				<td>No deja muy claro si existen más tipos de reserva, ya que<br>sólo aparece un único valor: BiciMAD</td>
+			</tr>
+
+			<tr>
+				<td>Número de Plazas</td>
+				<td>Integer</td>
+				<td>Indica la capacidad que tiene la base</td>
+				<td style="text-align:center;">[-32768, 32767]</td>
+				<td>No se encuentran problemas</td>
+			</tr>
+
+			<tr>
+				<td>LONGITUD</td>
+				<td>Integer</td>
+				<td>Indica la longitud donde se encuentra la base</td>
+				<td style="text-align:center;">[-32768, 32767]</td>
+				<td>No se encuentran problemas</td>
+			</tr>
+
+			<tr>
+				<td>LATITUD</td>
+				<td>Integer</td>
+				<td>Indica la latitud donde se encuentra la base</td>
+				<td style="text-align:center;">[-32768, 32767]</td>
+				<td>No se encuentran problemas</td>
+			</tr>
+
+			<tr>
+				<td>DIRECCION</td>
+				<td>String</td>
+				<td>Indica la localización de la base mediante el nombre de la calle,<br>seguido del tipo de la vía, el un nexo y el número de finca</td>
+				<td style="text-align:center;">-</td>
+				<td>No se encuentran problemas</td>
+			</tr>
+		</table>
+	</section>
+
+	<section>
+		<h1><a href="https://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD">Análisis de la licencia del dataset</a></h1>
+		<p>Las condiciones generales permiten la reutilización de los documentos para fines comerciales y no comerciales. Se entiende por reutilización el uso de documentos que obran en poder del Ayuntamiento de Madrid, siempre que dicho uso no constituya una actividad administrativa pública.</p>
+
+		<p>Lo que esto implica, es que se pueden utilizar estos documentos para generar dinero (fines comerciales) o no.<br>
+		Si se reutiliza esta información, existen unas <a href="https://datos.madrid.es/portal/site/egob/menuitem.3efdb29b813ad8241e830cc2a8a409a0/?vgnextoid=108804d4aab90410VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">series de pautas a seguir:</a></p>
+		<ul>
+			<li>Está prohibido desnaturalizar el sentido de la información.</li>
+			<li>Hay que citar la fuente de los documentos.</li>
+			<li>Se debe indicar la fecha de la última actualización de los mismos.</li>
+			<li>No se podrá indicar, insinuar o sugerir que el Ayuntamiento de Madrid participa, patrocina o apoya la reutilización que se lleve a cabo con la información.</li>
+			<li>Los metadatos no deben ni ser modificados, ni ser eliminados.</li>
+			<li>En caso de información anonimizada por protección de datos personales u otros motivos, <b>está expresamente prohibido realizar labores de re-identificación de personas</b> a partir de estos datos y otras fuentes de datos e información posibles, pasadas, actuales o futuras.</li>
+		</ul>
+	</section>
+	<section>
+		<h1>Estrategia de nombrado de recursos</h1>
+		<ul>
+			<li><b>Dominio: </b>http://www.madridbici.es/group02</li>
+			<li><b>Términos ontológicos: </b></li>
+			<li><b>Patrones individuales: </b></li>
+		</ul>
+	</section>
+</body>
+</html>

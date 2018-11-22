@@ -1,0 +1,22 @@
+#+TITLE: Dataset Requirements
+#+AUTHOR: Luciano García Giordano, José Luis Del Pino García, Jhon Toledo Barreto, Daniel Argota García
+Jesús Hormigos Villalba - jesushvillalba
+* Discussion of the satisfaction of the proposed requirements
+** R1: Data are in one of the selected smart city domains
+The dataset chosen aggregates air quality data gathered by weather stations in the city of Madrid. This is one of the most prominent topics in the Smart City domain. Furthermore, the chosen topic is of special relevance in the city of Madrid, infamous by the pollution of its air.
+** R2. Data are available as a CSV file
+The data can be found as csv in the following Kaggle dataset: https://www.kaggle.com/decide-soluciones/air-quality-madrid
+** R3. Data have an open license so they can be published
+According to the official website of the dataset and the adaptation made by the publisher in Kaggle, the dataset has as license the Madrid Open Data Terms of Use. It allows the free usage of the data, without liability, for commercial and non-commercial use-cases. Publishing and republishing the data is also permitted as long as the original source is entitled. For access to the license as a whole, follow the link: https://datos.madrid.es/portal/site/egob/menuitem.3efdb29b813ad8241e830cc2a8a409a0/?vgnextoid=108804d4aab90410VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default
+** R4. Data can be easily linked with generic real-world entities (e.g., locations)
+As especially interesting data points, we can extract the locations of the weather stations, as well as the neighbourhoods in which they are located. However, more feasible links are to be studied.
+Thus, at least the following entities can be linked to real-world entities:
+- Weather stations locations (coordinates and streets)
+- Weather stations neighbourhoods
+** R5. Documentation exists for the data (optional)
+The Kaggle dataset webpage (https://www.kaggle.com/decide-soluciones/air-quality-madrid/home) documents all the variables available in the dataset.
+** R6. Data can come from multiple data sources (optional)
+Other information regarding, for example the neighbourhoods, can be retrieved from other data sources. Thus, R6 is satisfied.
+
+* Conclusion
+As a conclusion, we can confidently state that all the proposed requirements are satisfied.

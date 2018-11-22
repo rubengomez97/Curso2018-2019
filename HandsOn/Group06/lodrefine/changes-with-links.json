@@ -1,0 +1,1292 @@
+[
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column PROVINCIA to type Q515",
+    "columnName": "PROVINCIA",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q515",
+        "name": "city"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Madrid (Q2807) for cells containing \"MADRID\" in column PROVINCIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PROVINCIA: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PROVINCIA"
+        }
+      ]
+    },
+    "columnName": "PROVINCIA",
+    "similarValue": "MADRID",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2807",
+      "name": "Madrid",
+      "score": 100,
+      "types": [
+        "Q2074737",
+        "Q515"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column schema:provincia at index 10 based on column PROVINCIA using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PROVINCIA: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PROVINCIA"
+        }
+      ]
+    },
+    "newColumnName": "schema:provincia",
+    "columnInsertIndex": 10,
+    "baseColumnName": "PROVINCIA",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.wifipointsmad.org/group06/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "prf",
+          "uri": "http://www.wifipointsmad.org/group06/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Wifipoint",
+              "curie": "rdf:Wifipoint"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasName",
+              "curie": "prf:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "replaceChars(value,\" .\",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasPone",
+              "curie": "prf:hasPone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasFax",
+              "curie": "prf:hasFax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasEmail",
+              "curie": "prf:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasPublicTransport",
+              "curie": "prf:hasPublicTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasSchedule",
+              "curie": "prf:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasContentUrl",
+              "curie": "prf:hasContentUrl",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasDescription",
+              "curie": "prf:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasEquipment",
+              "curie": "prf:hasEquipment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"coordinates\"+\"-\"+ value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.wifipointsmad.org/group06/Coordinates",
+              "curie": "prf:Coordinates"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasLatitude",
+              "curie": "prf:hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasLongitude",
+              "curie": "prf:hasLongitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replaceChars(value,\" .-\",\"\")+\"-\"+rowIndex",
+          "isRowNumberCell": false,
+          "columnName": "DISTRITO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.wifipointsmad.org/group06/Address",
+              "curie": "prf:Address"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasNumber",
+              "curie": "prf:hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasPostalCode",
+              "curie": "prf:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasStreet",
+              "curie": "prf:hasStreet",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CALLE"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasDistrict",
+              "curie": "prf:hasDistrict",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasCity",
+              "curie": "prf:hasCity",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "schema:provincia"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.wifipointsmad.org/group06/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "prf",
+          "uri": "http://www.wifipointsmad.org/group06/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Wifipoint",
+              "curie": "rdf:Wifipoint"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasName",
+              "curie": "prf:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "replaceChars(value,\" .\",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasPone",
+              "curie": "prf:hasPone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasFax",
+              "curie": "prf:hasFax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasEmail",
+              "curie": "prf:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasPublicTransport",
+              "curie": "prf:hasPublicTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasSchedule",
+              "curie": "prf:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasContentUrl",
+              "curie": "prf:hasContentUrl",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasDescription",
+              "curie": "prf:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasEquipment",
+              "curie": "prf:hasEquipment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"coordinates\"+\"-\"+ value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.wifipointsmad.org/group06/Coordinates",
+              "curie": "prf:Coordinates"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasLatitude",
+              "curie": "prf:hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasLongitude",
+              "curie": "prf:hasLongitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replaceChars(value,\" .-\",\"\")+\"-\"+rowIndex",
+          "isRowNumberCell": false,
+          "columnName": "DISTRITO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.wifipointsmad.org/group06/Address",
+              "curie": "prf:Address"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasNumber",
+              "curie": "prf:hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasPostalCode",
+              "curie": "prf:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasStreet",
+              "curie": "prf:hasStreet",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CALLE"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasDistrict",
+              "curie": "prf:hasDistrict",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasCity",
+              "curie": "prf:hasCity",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "schema:provincia"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column LATITUD to type Q35120",
+    "columnName": "LATITUD",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q35120",
+        "name": "Q35120"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PROVINCIA: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PROVINCIA"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column DISTRITO to type Q3032114",
+    "columnName": "DISTRITO",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "LATITUD: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "LATITUD"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column schema:distrito at index 13 based on column DISTRITO using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "DISTRITO"
+        }
+      ]
+    },
+    "newColumnName": "schema:distrito",
+    "columnInsertIndex": 13,
+    "baseColumnName": "DISTRITO",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.wifipointsmad.org/group06/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "prf",
+          "uri": "http://www.wifipointsmad.org/group06/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Wifipoint",
+              "curie": "rdf:Wifipoint"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasName",
+              "curie": "prf:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "replaceChars(value,\" .\",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasPone",
+              "curie": "prf:hasPone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasFax",
+              "curie": "prf:hasFax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasEmail",
+              "curie": "prf:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasPublicTransport",
+              "curie": "prf:hasPublicTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasSchedule",
+              "curie": "prf:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasContentUrl",
+              "curie": "prf:hasContentUrl",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasDescription",
+              "curie": "prf:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasEquipment",
+              "curie": "prf:hasEquipment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"coordinates\"+\"-\"+ value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.wifipointsmad.org/group06/Coordinates",
+              "curie": "prf:Coordinates"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasLatitude",
+              "curie": "prf:hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasLongitude",
+              "curie": "prf:hasLongitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replaceChars(value,\" .-\",\"\")+\"-\"+rowIndex",
+          "isRowNumberCell": false,
+          "columnName": "DISTRITO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.wifipointsmad.org/group06/Address",
+              "curie": "prf:Address"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasNumber",
+              "curie": "prf:hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasPostalCode",
+              "curie": "prf:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasStreet",
+              "curie": "prf:hasStreet",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CALLE"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasCity",
+              "curie": "prf:hasCity",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "schema:provincia"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasDistrict",
+              "curie": "prf:hasDistrict",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "schema:distrito"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column CALLE to type Q79007",
+    "columnName": "CALLE",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q79007",
+        "name": "street"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "DISTRITO"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column schema:calle at index 8 based on column CALLE using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "schema:calle",
+    "columnInsertIndex": 8,
+    "baseColumnName": "CALLE",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.wifipointsmad.org/group06/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "prf",
+          "uri": "http://www.wifipointsmad.org/group06/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Wifipoint",
+              "curie": "rdf:Wifipoint"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasName",
+              "curie": "prf:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "replaceChars(value,\" .\",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasPone",
+              "curie": "prf:hasPone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasFax",
+              "curie": "prf:hasFax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasEmail",
+              "curie": "prf:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasPublicTransport",
+              "curie": "prf:hasPublicTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasSchedule",
+              "curie": "prf:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasContentUrl",
+              "curie": "prf:hasContentUrl",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasDescription",
+              "curie": "prf:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasEquipment",
+              "curie": "prf:hasEquipment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"coordinates\"+\"-\"+ value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.wifipointsmad.org/group06/Coordinates",
+              "curie": "prf:Coordinates"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasLatitude",
+              "curie": "prf:hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasLongitude",
+              "curie": "prf:hasLongitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replaceChars(value,\" .-\",\"\")+\"-\"+rowIndex",
+          "isRowNumberCell": false,
+          "columnName": "DISTRITO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.wifipointsmad.org/group06/Address",
+              "curie": "prf:Address"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasNumber",
+              "curie": "prf:hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasPostalCode",
+              "curie": "prf:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasCity",
+              "curie": "prf:hasCity",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "schema:provincia"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasDistrict",
+              "curie": "prf:hasDistrict",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "schema:distrito"
+              }
+            },
+            {
+              "uri": "http://www.wifipointsmad.org/group06/hasStreet",
+              "curie": "prf:hasStreet",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CALLE"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "schema:calle"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

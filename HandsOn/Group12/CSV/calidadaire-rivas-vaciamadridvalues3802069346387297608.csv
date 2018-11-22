@@ -1,0 +1,5 @@
+﻿city,normalization_date,emisor_id,source,emisor,measure_date,no,no2,o3,humidity,lat,lon,active
+28123,2018-07-10T14:30:20,CalidadAire_emisor_1,CalidadAire,emisor_1,2018-07-10T14:30:00,7,24,97,57,40.36445,-3.549891,1
+28123,2018-07-10T14:30:20,CalidadAire_emisor_2,CalidadAire,emisor_2,2018-07-10T14:30:00,8,25,98,59,40.324159,-3.511792,1
+28123,2018-07-10T14:30:20,CalidadAire_emisor_3,CalidadAire,emisor_3,2018-07-10T14:30:00,9,26,99,89,40.348217,-3.518519,1
+28123,2018-07-10T14:30:20,CalidadAire_emisor_4,CalidadAire,emisor_4,2018-07-10T14:30:00,10,27,100,74,40.323819,-3.512939,1

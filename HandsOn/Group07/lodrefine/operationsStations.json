@@ -1,0 +1,222 @@
+[
+    {
+      "op": "rdf-extension/save-rdf-schema",
+      "description": "Save RDF schema skeleton",
+      "schema": {
+        "baseUri": "http://www.group07.linkeddata.org/",
+        "prefixes": [
+          {
+            "name": "individual",
+            "uri": "http://www.group07.linkeddata.org/individual/"
+          },
+          {
+            "name": "rdf",
+            "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          },
+          {
+            "name": "owl",
+            "uri": "http://www.w3.org/2002/07/owl#"
+          },
+          {
+            "name": "xsd",
+            "uri": "http://www.w3.org/2001/XMLSchema#"
+          },
+          {
+            "name": "property",
+            "uri": "http://www.group07.linkeddata.org/property#"
+          },
+          {
+            "name": "rdfs",
+            "uri": "http://www.w3.org/2000/01/rdf-schema#"
+          },
+          {
+            "name": "class",
+            "uri": "http://www.group07.linkeddata.org/class#"
+          },
+          {
+            "name": "foaf",
+            "uri": "http://xmlns.com/foaf/0.1/"
+          }
+        ],
+        "rootNodes": [
+          {
+            "nodeType": "cell-as-resource",
+            "expression": "value",
+            "isRowNumberCell": false,
+            "columnName": "id",
+            "rdfTypes": [
+              {
+                "uri": "http://www.group07.linkeddata.org/class#Station",
+                "curie": "class:Station"
+              }
+            ],
+            "links": [
+              {
+                "uri": "http://www.group07.linkeddata.org/property#hasName",
+                "curie": "property:hasName",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "name"
+                }
+              },
+              {
+                "uri": "http://www.group07.linkeddata.org/property#hasAddress",
+                "curie": "property:hasAddress",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "address"
+                }
+              },
+              {
+                "uri": "http://www.group07.linkeddata.org/property#hasLongitude",
+                "curie": "property:hasLongitude",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                  "columnName": "lon"
+                }
+              },
+              {
+                "uri": "http://www.group07.linkeddata.org/property#hasLatitude",
+                "curie": "property:hasLatitude",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                  "columnName": "lat"
+                }
+              },
+              {
+                "uri": "http://www.group07.linkeddata.org/property#hasElevation",
+                "curie": "property:hasElevation",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                  "columnName": "elevation"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "op": "rdf-extension/save-rdf-schema",
+      "description": "Save RDF schema skeleton",
+      "schema": {
+        "baseUri": "http://www.group07.linkeddata.org/",
+        "prefixes": [
+          {
+            "name": "individual",
+            "uri": "http://www.group07.linkeddata.org/individual/"
+          },
+          {
+            "name": "rdf",
+            "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          },
+          {
+            "name": "owl",
+            "uri": "http://www.w3.org/2002/07/owl#"
+          },
+          {
+            "name": "xsd",
+            "uri": "http://www.w3.org/2001/XMLSchema#"
+          },
+          {
+            "name": "property",
+            "uri": "http://www.group07.linkeddata.org/property#"
+          },
+          {
+            "name": "rdfs",
+            "uri": "http://www.w3.org/2000/01/rdf-schema#"
+          },
+          {
+            "name": "class",
+            "uri": "http://www.group07.linkeddata.org/class#"
+          },
+          {
+            "name": "foaf",
+            "uri": "http://xmlns.com/foaf/0.1/"
+          }
+        ],
+        "rootNodes": [
+          {
+            "nodeType": "cell-as-resource",
+            "expression": "\"station/\" + value",
+            "isRowNumberCell": false,
+            "columnName": "id",
+            "rdfTypes": [
+              {
+                "uri": "http://www.group07.linkeddata.org/class#Station",
+                "curie": "class:Station"
+              }
+            ],
+            "links": [
+              {
+                "uri": "http://www.group07.linkeddata.org/property#hasName",
+                "curie": "property:hasName",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "name"
+                }
+              },
+              {
+                "uri": "http://www.group07.linkeddata.org/property#hasAddress",
+                "curie": "property:hasAddress",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "address"
+                }
+              },
+              {
+                "uri": "http://www.group07.linkeddata.org/property#hasLongitude",
+                "curie": "property:hasLongitude",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                  "columnName": "lon"
+                }
+              },
+              {
+                "uri": "http://www.group07.linkeddata.org/property#hasLatitude",
+                "curie": "property:hasLatitude",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                  "columnName": "lat"
+                }
+              },
+              {
+                "uri": "http://www.group07.linkeddata.org/property#hasElevation",
+                "curie": "property:hasElevation",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                  "columnName": "elevation"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]

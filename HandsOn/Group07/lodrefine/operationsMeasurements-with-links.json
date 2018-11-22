@@ -1,0 +1,3288 @@
+[
+  {
+    "op": "core/column-move",
+    "description": "Move column station to position 0",
+    "columnName": "station",
+    "index": 0
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "individual",
+          "uri": "http://www.group07.linkeddata.org/individual/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://www.group07.linkeddata.org/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "class",
+          "uri": "http://www.group07.linkeddata.org/class#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "station",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "individual",
+          "uri": "http://www.group07.linkeddata.org/individual/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://www.group07.linkeddata.org/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "class",
+          "uri": "http://www.group07.linkeddata.org/class#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "cells[\"station\"].value + \"_\" + replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\")",
+          "isRowNumberCell": false,
+          "columnName": "station",
+          "rdfTypes": [
+            {
+              "uri": "http://www.group07.linkeddata.org/class#Measurement",
+              "curie": "class:Measurement"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.group07.linkeddata.org/individual/",
+      "prefixes": [
+        {
+          "name": "individual",
+          "uri": "http://www.group07.linkeddata.org/individual/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://www.group07.linkeddata.org/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "class",
+          "uri": "http://www.group07.linkeddata.org/class#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "cells[\"station\"].value + \"_\" + replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\")",
+          "isRowNumberCell": false,
+          "columnName": "station",
+          "rdfTypes": [
+            {
+              "uri": "http://www.group07.linkeddata.org/class#Measurement",
+              "curie": "class:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasDate",
+              "curie": "property:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "date"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.group07.linkeddata.org/individual/",
+      "prefixes": [
+        {
+          "name": "individual",
+          "uri": "http://www.group07.linkeddata.org/individual/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://www.group07.linkeddata.org/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "class",
+          "uri": "http://www.group07.linkeddata.org/class#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "cells[\"station\"].value + \"_\" + replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\")",
+          "isRowNumberCell": false,
+          "columnName": "station",
+          "rdfTypes": [
+            {
+              "uri": "http://www.group07.linkeddata.org/class#Measurement",
+              "curie": "class:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasDate",
+              "curie": "property:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasStation",
+              "curie": "property:hasStation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "station",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.group07.linkeddata.org/individual/",
+      "prefixes": [
+        {
+          "name": "individual",
+          "uri": "http://www.group07.linkeddata.org/individual/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://www.group07.linkeddata.org/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "class",
+          "uri": "http://www.group07.linkeddata.org/class#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "cells[\"station\"].value + \"_\" + replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\")",
+          "isRowNumberCell": false,
+          "columnName": "station",
+          "rdfTypes": [
+            {
+              "uri": "http://www.group07.linkeddata.org/class#Measurement",
+              "curie": "class:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasDate",
+              "curie": "property:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasStation",
+              "curie": "property:hasStation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"station/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "station",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_BEN\"",
+                "isRowNumberCell": false,
+                "columnName": "BEN",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasValue",
+                    "curie": "property:hasValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                      "columnName": "BEN"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.group07.linkeddata.org/individual/",
+      "prefixes": [
+        {
+          "name": "individual",
+          "uri": "http://www.group07.linkeddata.org/individual/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://www.group07.linkeddata.org/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "class",
+          "uri": "http://www.group07.linkeddata.org/class#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "cells[\"station\"].value + \"_\" + replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\")",
+          "isRowNumberCell": false,
+          "columnName": "station",
+          "rdfTypes": [
+            {
+              "uri": "http://www.group07.linkeddata.org/class#Measurement",
+              "curie": "class:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasDate",
+              "curie": "property:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasStation",
+              "curie": "property:hasStation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"station/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "station",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_BEN\"",
+                "isRowNumberCell": false,
+                "columnName": "BEN",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasValue",
+                    "curie": "property:hasValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                      "columnName": "BEN"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column BEN using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "BEN",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.group07.linkeddata.org/individual/",
+      "prefixes": [
+        {
+          "name": "individual",
+          "uri": "http://www.group07.linkeddata.org/individual/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://www.group07.linkeddata.org/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "class",
+          "uri": "http://www.group07.linkeddata.org/class#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "cells[\"station\"].value + \"_\" + replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\")",
+          "isRowNumberCell": false,
+          "columnName": "station",
+          "rdfTypes": [
+            {
+              "uri": "http://www.group07.linkeddata.org/class#Measurement",
+              "curie": "class:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasDate",
+              "curie": "property:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasStation",
+              "curie": "property:hasStation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"station/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "station",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_BEN\"",
+                "isRowNumberCell": false,
+                "columnName": "BEN",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000000)",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                      "columnName": "BEN"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Benzene\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_CH4\"",
+                "isRowNumberCell": false,
+                "columnName": "CH4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.group07.linkeddata.org/individual/",
+      "prefixes": [
+        {
+          "name": "individual",
+          "uri": "http://www.group07.linkeddata.org/individual/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://www.group07.linkeddata.org/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "class",
+          "uri": "http://www.group07.linkeddata.org/class#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "cells[\"station\"].value + \"_\" + replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\")",
+          "isRowNumberCell": false,
+          "columnName": "station",
+          "rdfTypes": [
+            {
+              "uri": "http://www.group07.linkeddata.org/class#Measurement",
+              "curie": "class:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasDate",
+              "curie": "property:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasStation",
+              "curie": "property:hasStation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"station/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "station",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_BEN\"",
+                "isRowNumberCell": false,
+                "columnName": "BEN",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000000)",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                      "columnName": "BEN"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Benzene\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_CH4\"",
+                "isRowNumberCell": false,
+                "columnName": "CH4",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.group07.linkeddata.org/individual/",
+      "prefixes": [
+        {
+          "name": "individual",
+          "uri": "http://www.group07.linkeddata.org/individual/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://www.group07.linkeddata.org/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "class",
+          "uri": "http://www.group07.linkeddata.org/class#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "cells[\"station\"].value + \"_\" + replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\")",
+          "isRowNumberCell": false,
+          "columnName": "station",
+          "rdfTypes": [
+            {
+              "uri": "http://www.group07.linkeddata.org/class#Measurement",
+              "curie": "class:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasDate",
+              "curie": "property:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasStation",
+              "curie": "property:hasStation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"station/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "station",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_BEN\"",
+                "isRowNumberCell": false,
+                "columnName": "BEN",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                      "columnName": "BEN"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Benzene\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_CH4\"",
+                "isRowNumberCell": false,
+                "columnName": "CH4",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "CH4"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Benzene\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Methane\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.group07.linkeddata.org/individual/",
+      "prefixes": [
+        {
+          "name": "individual",
+          "uri": "http://www.group07.linkeddata.org/individual/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://www.group07.linkeddata.org/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "class",
+          "uri": "http://www.group07.linkeddata.org/class#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "cells[\"station\"].value + \"_\" + replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\")",
+          "isRowNumberCell": false,
+          "columnName": "station",
+          "rdfTypes": [
+            {
+              "uri": "http://www.group07.linkeddata.org/class#Measurement",
+              "curie": "class:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasDate",
+              "curie": "property:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasStation",
+              "curie": "property:hasStation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"station/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "station",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_BEN\"",
+                "isRowNumberCell": false,
+                "columnName": "BEN",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                      "columnName": "BEN"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Benzene\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_CH4\"",
+                "isRowNumberCell": false,
+                "columnName": "CH4",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "CH4"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Methane\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_CO\"",
+                "isRowNumberCell": false,
+                "columnName": "CO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "CO"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Carbon_monoxide\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_EBE\"",
+                "isRowNumberCell": false,
+                "columnName": "EBE",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "EBE"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Ethylbenzene\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_NO\"",
+                "isRowNumberCell": false,
+                "columnName": "NO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "NO"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Nitric_oxide\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_NO_2\"",
+                "isRowNumberCell": false,
+                "columnName": "NO_2",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "NO_2"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Nitrogen_dioxide\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_NOx\"",
+                "isRowNumberCell": false,
+                "columnName": "NOx",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "NOx"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Nitrous_oxide\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_O_3\"",
+                "isRowNumberCell": false,
+                "columnName": "O_3",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "O_3"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Ozone\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_TCH\"",
+                "isRowNumberCell": false,
+                "columnName": "TCH",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "TCH"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Hydrocarbon\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_TOL\"",
+                "isRowNumberCell": false,
+                "columnName": "TOL",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "TOL"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Toluene\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.group07.linkeddata.org/individual/",
+      "prefixes": [
+        {
+          "name": "individual",
+          "uri": "http://www.group07.linkeddata.org/individual/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://www.group07.linkeddata.org/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "class",
+          "uri": "http://www.group07.linkeddata.org/class#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "cells[\"station\"].value + \"_\" + replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\")",
+          "isRowNumberCell": false,
+          "columnName": "station",
+          "rdfTypes": [
+            {
+              "uri": "http://www.group07.linkeddata.org/class#Measurement",
+              "curie": "class:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasDate",
+              "curie": "property:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasStation",
+              "curie": "property:hasStation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"station/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "station",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_BEN\"",
+                "isRowNumberCell": false,
+                "columnName": "BEN",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                      "columnName": "BEN"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Benzene\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_CH4\"",
+                "isRowNumberCell": false,
+                "columnName": "CH4",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "CH4"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Methane\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_CO\"",
+                "isRowNumberCell": false,
+                "columnName": "CO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "CO"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Carbon_monoxide\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_EBE\"",
+                "isRowNumberCell": false,
+                "columnName": "EBE",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "EBE"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Ethylbenzene\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_NO\"",
+                "isRowNumberCell": false,
+                "columnName": "NO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "NO"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Nitric_oxide\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_NO_2\"",
+                "isRowNumberCell": false,
+                "columnName": "NO_2",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "NO_2"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Nitrogen_dioxide\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_NOx\"",
+                "isRowNumberCell": false,
+                "columnName": "NOx",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "NOx"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Nitrous_oxide\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_O_3\"",
+                "isRowNumberCell": false,
+                "columnName": "O_3",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "O_3"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Ozone\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_TCH\"",
+                "isRowNumberCell": false,
+                "columnName": "TCH",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "TCH"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Hydrocarbon\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_TOL\"",
+                "isRowNumberCell": false,
+                "columnName": "TOL",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "TOL"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Toluene\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.group07.linkeddata.org/individual/",
+      "prefixes": [
+        {
+          "name": "individual",
+          "uri": "http://www.group07.linkeddata.org/individual/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://www.group07.linkeddata.org/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "class",
+          "uri": "http://www.group07.linkeddata.org/class#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"measurement/\" + cells[\"station\"].value + \"_\" + replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\")",
+          "isRowNumberCell": false,
+          "columnName": "station",
+          "rdfTypes": [
+            {
+              "uri": "http://www.group07.linkeddata.org/class#Measurement",
+              "curie": "class:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasDate",
+              "curie": "property:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasStation",
+              "curie": "property:hasStation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"station/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "station",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_BEN\"",
+                "isRowNumberCell": false,
+                "columnName": "BEN",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                      "columnName": "BEN"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Benzene\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_CH4\"",
+                "isRowNumberCell": false,
+                "columnName": "CH4",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "CH4"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Methane\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_CO\"",
+                "isRowNumberCell": false,
+                "columnName": "CO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "CO"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Carbon_monoxide\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_EBE\"",
+                "isRowNumberCell": false,
+                "columnName": "EBE",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "EBE"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Ethylbenzene\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_NO\"",
+                "isRowNumberCell": false,
+                "columnName": "NO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "NO"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Nitric_oxide\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_NO_2\"",
+                "isRowNumberCell": false,
+                "columnName": "NO_2",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "NO_2"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Nitrogen_dioxide\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_NOx\"",
+                "isRowNumberCell": false,
+                "columnName": "NOx",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "NOx"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Nitrous_oxide\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_O_3\"",
+                "isRowNumberCell": false,
+                "columnName": "O_3",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "O_3"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Ozone\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_TCH\"",
+                "isRowNumberCell": false,
+                "columnName": "TCH",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "TCH"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Hydrocarbon\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_TOL\"",
+                "isRowNumberCell": false,
+                "columnName": "TOL",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "TOL"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Toluene\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.group07.linkeddata.org/individual/",
+      "prefixes": [
+        {
+          "name": "individual",
+          "uri": "http://www.group07.linkeddata.org/individual/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://www.group07.linkeddata.org/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "class",
+          "uri": "http://www.group07.linkeddata.org/class#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"measurement/\" + cells[\"station\"].value + \"_\" + replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\")",
+          "isRowNumberCell": false,
+          "columnName": "station",
+          "rdfTypes": [
+            {
+              "uri": "http://www.group07.linkeddata.org/class#Measurement",
+              "curie": "class:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasDate",
+              "curie": "property:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasStation",
+              "curie": "property:hasStation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"station/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "station",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_BEN\"",
+                "isRowNumberCell": false,
+                "columnName": "BEN",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                      "columnName": "BEN"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Benzene\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_CH4\"",
+                "isRowNumberCell": false,
+                "columnName": "CH4",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "CH4"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Methane\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_CO\"",
+                "isRowNumberCell": false,
+                "columnName": "CO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "CO"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Carbon_monoxide\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_EBE\"",
+                "isRowNumberCell": false,
+                "columnName": "EBE",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "EBE"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Ethylbenzene\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_NO\"",
+                "isRowNumberCell": false,
+                "columnName": "NO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "NO"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Nitric_oxide\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_NO_2\"",
+                "isRowNumberCell": false,
+                "columnName": "NO_2",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "NO_2"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Nitrogen_dioxide\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_NOx\"",
+                "isRowNumberCell": false,
+                "columnName": "NOx",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "NOx"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Nitrous_oxide\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_O_3\"",
+                "isRowNumberCell": false,
+                "columnName": "O_3",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "O_3"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Ozone\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_TCH\"",
+                "isRowNumberCell": false,
+                "columnName": "TCH",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "TCH"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Hydrocarbon\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.group07.linkeddata.org/property#hasSubstanceMeasurement",
+              "curie": "property:hasSubstanceMeasurement",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"substanceMeasurement/\"+cells[\"station\"].value+replaceChars(replaceChars(cells[\"date\"].value,\":\",\"_\"),\" \",\"_\") + \"_TOL\"",
+                "isRowNumberCell": false,
+                "columnName": "TOL",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/class#substanceMeasurement",
+                    "curie": "class:substanceMeasurement"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasMetricValue",
+                    "curie": "property:hasMetricValue",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value/(1000*1000*1000)",
+                      "isRowNumberCell": false,
+                      "columnName": "TOL"
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasUnit",
+                    "curie": "property:hasUnit",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://purl.obolibrary.org/obo/UO_0000083\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.group07.linkeddata.org/property#hasSubstance",
+                    "curie": "property:hasSubstance",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"http://dbpedia.org/resource/Toluene\"",
+                      "isRowNumberCell": true,
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
