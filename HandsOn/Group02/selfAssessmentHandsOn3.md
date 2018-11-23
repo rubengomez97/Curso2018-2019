@@ -5,10 +5,10 @@
 - [ X ] JSON file
 
 **Every RDF file:**
-- [  ] Uses the .ttl extension
-- [  ] Is serialized in the Turtle format
-- [  ] Follows the resource naming strategy
-- [  ] Uses class and property URIs that are the same as those used in the ontology
+- [ X ] Uses the .ttl extension
+- [ X ] Is serialized in the Turtle format
+- [ X ] Follows the resource naming strategy
+- [ X ] Uses class and property URIs that are the same as those used in the ontology
 
 **Every URI in the RDF files:**
 - [ X ] Is "readable" and has some meaning (e.g., it is not an auto-increased integer)
