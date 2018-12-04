@@ -1,0 +1,9 @@
+@prefix "http://www.ontogrid.net/exercise1b"
+@prefix ont <http://www.ontogrid.net/exercise1b#>  
+:Class01 ont:includes: Sensor029 ;
+		 ont:includes: Computer101 .
+:Sensor029 ont:hasMeasurent: Measurement8401 ;
+:Computer101 ont:hasOwner: User10A .
+:Measurement8401 ont: hasTemperature 29^^xsd:integer ;
+				 ont: atTime 2010-06-12T12:00:12^^xsd:dateTime .
+:User10A ont: hasName Pedro ^^xsd:String .
