@@ -1,0 +1,1198 @@
+[
+  {
+    "op": "core/column-addition",
+    "description": "Create column Fecha at index 8 based on column DIA using expression grel:cells[\"DIA\"].value + \"/\" + cells[\"MES\"].value + \"/\" + cells[\"ANO\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Fecha",
+    "columnInsertIndex": 8,
+    "baseColumnName": "DIA",
+    "expression": "grel:cells[\"DIA\"].value + \"/\" + cells[\"MES\"].value + \"/\" + cells[\"ANO\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Fecha using expression value.toDate()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Fecha",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DIA",
+    "columnName": "DIA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MES",
+    "columnName": "MES"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ANO",
+    "columnName": "ANO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PROVINCIA",
+    "columnName": "PROVINCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MUNICIPIO",
+    "columnName": "MUNICIPIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ESTACION",
+    "columnName": "ESTACION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MAGNITUD",
+    "columnName": "MAGNITUD"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column PUNTO_MUESTREO by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "_",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column PUNTO_MUESTREO 2 to MAGNITUD",
+    "oldColumnName": "PUNTO_MUESTREO 2",
+    "newColumnName": "MAGNITUD"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column PUNTO_MUESTREO 3 to TÉCNICA_DE_MEDIDA",
+    "oldColumnName": "PUNTO_MUESTREO 3",
+    "newColumnName": "TÉCNICA_DE_MEDIDA"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression value.toString()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": 28079056,
+                "l": "28079056"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO 1",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO 1"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression value.toString()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:substring(value, 6)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:substring(value, 6)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"04\", \"Plaza de España\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"04\", \"Plaza de España\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"08\", \"Escuelas Aguirre\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"08\", \"Escuelas Aguirre\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"11\", \"Avenida Ramón y Cajal\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"11\", \"Avenida Ramón y Cajal\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"16\", \"Arturo Soria\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"16\", \"Arturo Soria\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"17\", \"Villaverde Alto\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"17\", \"Villaverde Alto\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"18\", \"Calle Farolillo\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"18\", \"Calle Farolillo\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"24\", \"Casa de Campo\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"24\", \"Casa de Campo\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"27\", \"Barajas\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"27\", \"Barajas\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"35\", \"Plaza del Carmen\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"35\", \"Plaza del Carmen\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"36\", \"Moratalaz\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"36\", \"Moratalaz\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"38\", \"Cuatro Caminos\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"38\", \"Cuatro Caminos\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"39\", \"Barrio del Pilar\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"39\", \"Barrio del Pilar\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"40\", \"Vallecas\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"40\", \"Vallecas\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"47\", \"Méndez Álvaro\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"47\", \"Méndez Álvaro\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"48\", \"Paseo de la Castellana\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"48\", \"Paseo de la Castellana\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"49\", \"Retiro\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"49\", \"Retiro\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"50\", \"Plaza Castilla\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"50\", \"Plaza Castilla\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"54\", \"Ensanche Vallecas\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"54\", \"Ensanche Vallecas\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"55\", \"Urbanización Embajada (Barajas)\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"55\", \"Urbanización Embajada (Barajas)\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"56\", \"Plaza de Fernández Ladreda\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"56\", \"Plaza de Fernández Ladreda\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"57\", \"Sanchinarro\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"57\", \"Sanchinarro\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"58\", \"El Pardo\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"58\", \"El Pardo\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"59\", \"Parque Juan Carlos I\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"59\", \"Parque Juan Carlos I\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"60\", \"Tres Olivos\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"60\", \"Tres Olivos\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression value.toString()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"1\", \"Dióxido de Azufre\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"1\", \"Dióxido de Azufre\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"10\", \"Partículas  < 10 μm\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"10\", \"Partículas  < 10 μm\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"12\", \"Óxidos de Nitrógeno\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"12\", \"Óxidos de Nitrógeno\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"14\", \"Ozono\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"14\", \"Ozono\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"20\", \"Tolueno\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"20\", \"Tolueno\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"30\", \"Benceno\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"30\", \"Benceno\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"35\", \"Etilbenceno\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"35\", \"Etilbenceno\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"42\", \"Hidrocarburos totales (hexano)\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"42\", \"Hidrocarburos totales (hexano)\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"43\", \"Metano\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"43\", \"Metano\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"44\", \"Hidrocarburos no metánicos (hexano)\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"44\", \"Hidrocarburos no metánicos (hexano)\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"6\", \"Monóxido de Carbono\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"6\", \"Monóxido de Carbono\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"7\", \"Monóxido de Nitrógeno\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"7\", \"Monóxido de Nitrógeno\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"8\", \"Dióxido de Nitrógeno\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"8\", \"Dióxido de Nitrógeno\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"9\", \"Partículas  < 2.5 μm\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"9\", \"Partículas  < 2.5 μm\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TÉCNICA_DE_MEDIDA using expression value.toString()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TÉCNICA_DE_MEDIDA using expression grel:if(value==\"2\", \"Ionización de llama\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "expression": "grel:if(value==\"2\", \"Ionización de llama\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TÉCNICA_DE_MEDIDA using expression grel:if(value==\"38\", \"Fluorescencia ultravioleta\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "expression": "grel:if(value==\"38\", \"Fluorescencia ultravioleta\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TÉCNICA_DE_MEDIDA using expression grel:if(value==\"47\", \"Microbalanza\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "expression": "grel:if(value==\"47\", \"Microbalanza\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TÉCNICA_DE_MEDIDA using expression grel:if(value==\"48\", \"Absorción infrarroja\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "expression": "grel:if(value==\"48\", \"Absorción infrarroja\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TÉCNICA_DE_MEDIDA using expression grel:if(value==\"59\", \"Cromatografía de gases\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "expression": "grel:if(value==\"59\", \"Cromatografía de gases\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TÉCNICA_DE_MEDIDA using expression grel:if(value==\"6\", \"Absorción ultravioleta\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "expression": "grel:if(value==\"6\", \"Absorción ultravioleta\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TÉCNICA_DE_MEDIDA using expression grel:if(value==\"8\", \"Quimioluminiscencia\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "expression": "grel:if(value==\"8\", \"Quimioluminiscencia\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H01 using expression grel:if(cells[\"V01\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H01",
+    "expression": "grel:if(cells[\"V01\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V01",
+    "columnName": "V01"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H02 using expression grel:if(cells[\"V02\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H02",
+    "expression": "grel:if(cells[\"V02\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V02",
+    "columnName": "V02"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H03 using expression grel:if(cells[\"V03\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H03",
+    "expression": "grel:if(cells[\"V03\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V03",
+    "columnName": "V03"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H04 using expression grel:if(cells[\"V04\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H04",
+    "expression": "grel:if(cells[\"V04\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V04",
+    "columnName": "V04"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H05 using expression grel:if(cells[\"V05\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H05",
+    "expression": "grel:if(cells[\"V05\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V05",
+    "columnName": "V05"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H06 using expression grel:if(cells[\"V06\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H06",
+    "expression": "grel:if(cells[\"V06\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V06",
+    "columnName": "V06"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H07 using expression grel:if(cells[\"V07\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H07",
+    "expression": "grel:if(cells[\"V07\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V07",
+    "columnName": "V07"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H08 using expression grel:if(cells[\"V08\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H08",
+    "expression": "grel:if(cells[\"V08\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V08",
+    "columnName": "V08"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H09 using expression grel:if(cells[\"V09\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H09",
+    "expression": "grel:if(cells[\"V09\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V09",
+    "columnName": "V09"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H10 using expression grel:if(cells[\"V10\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H10",
+    "expression": "grel:if(cells[\"V10\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V10",
+    "columnName": "V10"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H11 using expression grel:if(cells[\"V11\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H11",
+    "expression": "grel:if(cells[\"V11\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V11",
+    "columnName": "V11"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H12 using expression grel:if(cells[\"V12\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H12",
+    "expression": "grel:if(cells[\"V12\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V12",
+    "columnName": "V12"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H13 using expression grel:if(cells[\"V13\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H13",
+    "expression": "grel:if(cells[\"V13\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V13",
+    "columnName": "V13"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H14 using expression grel:if(cells[\"V14\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H14",
+    "expression": "grel:if(cells[\"V14\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V14",
+    "columnName": "V14"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H15 using expression grel:if(cells[\"V15\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H15",
+    "expression": "grel:if(cells[\"V15\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V15",
+    "columnName": "V15"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H16 using expression grel:if(cells[\"V16\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H16",
+    "expression": "grel:if(cells[\"V16\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V16",
+    "columnName": "V16"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H17 using expression grel:if(cells[\"V17\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H17",
+    "expression": "grel:if(cells[\"V17\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V17",
+    "columnName": "V17"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H18 using expression grel:if(cells[\"V18\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H18",
+    "expression": "grel:if(cells[\"V18\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V18",
+    "columnName": "V18"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H19 using expression grel:if(cells[\"V19\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H19",
+    "expression": "grel:if(cells[\"V19\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V19",
+    "columnName": "V19"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H20 using expression grel:if(cells[\"V20\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H20",
+    "expression": "grel:if(cells[\"V20\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V20",
+    "columnName": "V20"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H21 using expression grel:if(cells[\"V21\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H21",
+    "expression": "grel:if(cells[\"V21\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V21",
+    "columnName": "V21"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H22 using expression grel:if(cells[\"V22\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H22",
+    "expression": "grel:if(cells[\"V22\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V22",
+    "columnName": "V22"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H23 using expression grel:if(cells[\"V23\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H23",
+    "expression": "grel:if(cells[\"V23\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V23",
+    "columnName": "V23"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H24 using expression grel:if(cells[\"V24\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H24",
+    "expression": "grel:if(cells[\"V24\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V24",
+    "columnName": "V24"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column PUNTO_MUESTREO 1 to PUNTO_MUESTREO",
+    "oldColumnName": "PUNTO_MUESTREO 1",
+    "newColumnName": "PUNTO_MUESTREO"
+  }
+]
