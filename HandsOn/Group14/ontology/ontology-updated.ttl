@@ -1,0 +1,159 @@
+@prefix : <http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix topo: <http://data.ign.fr/def/topo#> .
+@prefix schema: <http://schema.org/> .
+@base <http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology> .
+
+<http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#hasBarrio
+:hasBarrio rdf:type owl:ObjectProperty ;
+           rdfs:domain topo:Parking ;
+           rdfs:range :Barrio .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#hasCiudad
+:hasCiudad rdf:type owl:ObjectProperty ;
+           rdfs:domain topo:Parking ;
+           rdfs:range :Ciudad .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#hasDistrito
+:hasDistrito rdf:type owl:ObjectProperty ;
+             rdfs:domain topo:Parking ;
+             rdfs:range :Distrito .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#hasProvincia
+:hasProvincia rdf:type owl:ObjectProperty ;
+              rdfs:domain topo:Parking ;
+              rdfs:range :Provincia .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#accesibilidad
+:accesibilidad rdf:type owl:DatatypeProperty ;
+               rdfs:domain topo:Parking ;
+               rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#address
+:address rdf:type owl:DatatypeProperty ;
+         rdfs:domain topo:Parking ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#codigoPostal
+:codigoPostal rdf:type owl:DatatypeProperty ;
+              rdfs:domain topo:Parking ;
+              rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#descripcion
+:descripcion rdf:type owl:DatatypeProperty ;
+             rdfs:domain topo:Parking ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#email
+:email rdf:type owl:DatatypeProperty ;
+       rdfs:domain topo:Parking ;
+       rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#horario
+:horario rdf:type owl:DatatypeProperty ;
+         rdfs:domain topo:Parking ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#latitud
+:latitud rdf:type owl:DatatypeProperty ;
+         rdfs:domain topo:Parking ;
+         rdfs:range xsd:double .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#longitud
+:longitud rdf:type owl:DatatypeProperty ;
+          rdfs:domain topo:Parking ;
+          rdfs:range xsd:double .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#nombre
+:nombre rdf:type owl:DatatypeProperty ;
+        rdfs:domain topo:Parking ,
+                    :Barrio ,
+                    :Ciudad ,
+                    :Distrito ,
+                    :Provincia ;
+        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#plazasPublicas
+:plazasPublicas rdf:type owl:DatatypeProperty ;
+                rdfs:domain topo:Parking ;
+                rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#plazasResidentes
+:plazasResidentes rdf:type owl:DatatypeProperty ;
+                  rdfs:domain topo:Parking ;
+                  rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#telefono
+:telefono rdf:type owl:DatatypeProperty ;
+          rdfs:domain topo:Parking ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#url
+:url rdf:type owl:DatatypeProperty ;
+     rdfs:domain topo:Parking ;
+     rdfs:range xsd:anyURI .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://data.ign.fr/def/topo#Parking
+topo:Parking rdf:type owl:Class .
+
+
+###  http://schema.org/Place
+schema:Place rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#Barrio
+:Barrio rdf:type owl:Class ;
+        rdfs:subClassOf schema:Place .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#Ciudad
+:Ciudad rdf:type owl:Class ;
+        rdfs:subClassOf schema:Place .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#Distrito
+:Distrito rdf:type owl:Class ;
+          rdfs:subClassOf schema:Place .
+
+
+###  http://www.semanticweb.org/pc/ontologies/2018/10/parkingontology#Provincia
+:Provincia rdf:type owl:Class ;
+           rdfs:subClassOf schema:Place .
+
+
+###  Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi
