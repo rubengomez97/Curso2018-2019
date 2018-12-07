@@ -1,0 +1,593 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LAS01",
+    "columnName": "LAS01"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LAS10",
+    "columnName": "LAS10"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LAS50",
+    "columnName": "LAS50"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LAS90",
+    "columnName": "LAS90"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LAS99",
+    "columnName": "LAS99"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Situaci�n to Situación",
+    "oldColumnName": "Situaci�n",
+    "newColumnName": "Situación"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Situación",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situación",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Plaza de Espa�a"
+        ],
+        "to": "Plaza de España"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Situación",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situación",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Gregorio Mara��n"
+        ],
+        "to": "Gregorio Marañón"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Situación",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situación",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Ram�n y Cajal"
+        ],
+        "to": "Ramón y Cajal"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Situación",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situación",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "M�ndez �lvaro"
+        ],
+        "to": "Méndez Álvaro"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Situación",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situación",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Urbanizaci�n Embajada II"
+        ],
+        "to": "Urbanización Embajada II"
+      }
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Fecha using expression grel:replace(value,\"ene-17\", \"2017-01-01\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Fecha",
+    "expression": "grel:replace(value,\"ene-17\", \"2017-01-01\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Fecha using expression grel:replace(value,\"feb-17\", \"2017-02-01\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Fecha",
+    "expression": "grel:replace(value,\"feb-17\", \"2017-02-01\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Fecha using expression grel:replace(value,\"abr-17\", \"2017-04-01\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "abr-17",
+                "l": "abr-17"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Fecha",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Fecha"
+        }
+      ]
+    },
+    "columnName": "Fecha",
+    "expression": "grel:replace(value,\"abr-17\", \"2017-04-01\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Fecha using expression grel:replace(value,\"ago-17\", \"2017-08-01\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "ago-17",
+                "l": "ago-17"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Fecha",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Fecha"
+        }
+      ]
+    },
+    "columnName": "Fecha",
+    "expression": "grel:replace(value,\"ago-17\", \"2017-08-01\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Fecha using expression grel:replace(value,\"dic-17\", \"2017-12-01\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "dic-17",
+                "l": "dic-17"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Fecha",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Fecha"
+        }
+      ]
+    },
+    "columnName": "Fecha",
+    "expression": "grel:replace(value,\"dic-17\", \"2017-12-01\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Fecha using expression grel:replace(value,\"jul-17\", \"2017-07-01\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "jul-17",
+                "l": "jul-17"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Fecha",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Fecha"
+        }
+      ]
+    },
+    "columnName": "Fecha",
+    "expression": "grel:replace(value,\"jul-17\", \"2017-07-01\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Fecha using expression grel:replace(value,\"jun-17\", \"2017-06-01\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "jun-17",
+                "l": "jun-17"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Fecha",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Fecha"
+        }
+      ]
+    },
+    "columnName": "Fecha",
+    "expression": "grel:replace(value,\"jun-17\", \"2017-06-01\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Fecha using expression grel:replace(value,\"mar-17\", \"2017-03-01\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "mar-17",
+                "l": "mar-17"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Fecha",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Fecha"
+        }
+      ]
+    },
+    "columnName": "Fecha",
+    "expression": "grel:replace(value,\"mar-17\", \"2017-03-01\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Fecha using expression grel:replace(value,\"may-17\", \"2017-05-01\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "may-17",
+                "l": "may-17"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Fecha",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Fecha"
+        }
+      ]
+    },
+    "columnName": "Fecha",
+    "expression": "grel:replace(value,\"may-17\", \"2017-05-01\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Fecha using expression grel:replace(value,\"nov-17\", \"2017-11-01\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "nov-17",
+                "l": "nov-17"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Fecha",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Fecha"
+        }
+      ]
+    },
+    "columnName": "Fecha",
+    "expression": "grel:replace(value,\"nov-17\", \"2017-11-01\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Fecha using expression grel:replace(value,\"oct-17\", \"2017-10-01\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "oct-17",
+                "l": "oct-17"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Fecha",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Fecha"
+        }
+      ]
+    },
+    "columnName": "Fecha",
+    "expression": "grel:replace(value,\"oct-17\", \"2017-10-01\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Fecha using expression grel:replace(value,\"sep-17\", \"2017-09-01\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "sep-17",
+                "l": "sep-17"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Fecha",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Fecha"
+        }
+      ]
+    },
+    "columnName": "Fecha",
+    "expression": "grel:replace(value,\"sep-17\", \"2017-09-01\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Ld using expression grel:replace(value,\",\",\".\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Ld",
+    "expression": "grel:replace(value,\",\",\".\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Ld using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Ld",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Le using expression grel:replace(value,\",\",\".\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Le",
+    "expression": "grel:replace(value,\",\",\".\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Ln using expression grel:replace(value,\",\",\".\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Ln",
+    "expression": "grel:replace(value,\",\",\".\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Le using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Le",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Ln using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Ln",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column LAeq24 using expression grel:replace(value,\",\",\".\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "LAeq24",
+    "expression": "grel:replace(value,\",\",\".\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column LAeq24 using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "LAeq24",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  }
+]

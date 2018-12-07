@@ -1,0 +1,348 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix individual: <http://www.group07.linkeddata.org/individual/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix property: <http://www.group07.linkeddata.org/property#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix class: <http://www.group07.linkeddata.org/class#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ssn: <http://purl.oclc.org/NET/ssnx/ssn#> .
+
+
+<http://www.group07.linkeddata.org/station/28079004> a ssn:Sensor ;
+	rdfs:label "Pza. de España" ;
+	property:address "Plaza de España" .
+
+<http://www.group07.linkeddata.org/individual/point/Pza.deEspaña> a geo:Point ;
+	geo:lat "40.423852777777775"^^xsd:double ;
+	geo:long "-3.712247222222224"^^xsd:double .
+
+wd:Q1763376 a wd:Q3032114 .
+
+<http://www.group07.linkeddata.org/individual/point/Pza.deEspaña> property:neighbourhood wd:Q1763376 ;
+	geo:alt "635"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079004> geo:location <http://www.group07.linkeddata.org/individual/point/Pza.deEspaña> .
+
+<http://www.group07.linkeddata.org/station/28079008> a ssn:Sensor ;
+	rdfs:label "Escuelas Aguirre" ;
+	property:address "Entre C/ Alcalá y C/ O’ Donell " .
+
+<http://www.group07.linkeddata.org/individual/point/EscuelasAguirre> a geo:Point ;
+	geo:lat "40.42156388888888"^^xsd:double ;
+	geo:long "-3.682319444444445"^^xsd:double .
+
+wd:Q2002296 a wd:Q3032114 .
+
+<http://www.group07.linkeddata.org/individual/point/EscuelasAguirre> property:neighbourhood wd:Q2002296 ;
+	geo:alt "670"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079008> geo:location <http://www.group07.linkeddata.org/individual/point/EscuelasAguirre> .
+
+<http://www.group07.linkeddata.org/station/28079011> a ssn:Sensor ;
+	rdfs:label "Avda. Ramón y Cajal" ;
+	property:address "Avda. Ramón y Cajal  esq. C/ Príncipe de Vergara" .
+
+<http://www.group07.linkeddata.org/individual/point/Avda.RamónyCajal> a geo:Point ;
+	geo:lat "40.451475"^^xsd:double ;
+	geo:long "-3.6773555555555553"^^xsd:double .
+
+wd:Q1766348 a wd:Q3032114 .
+
+<http://www.group07.linkeddata.org/individual/point/Avda.RamónyCajal> property:neighbourhood wd:Q1766348 ;
+	geo:alt "708"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079011> geo:location <http://www.group07.linkeddata.org/individual/point/Avda.RamónyCajal> .
+
+<http://www.group07.linkeddata.org/station/28079016> a ssn:Sensor ;
+	rdfs:label "Arturo Soria" ;
+	property:address "C/ Arturo Soria  esq. C/  Vizconde de los Asilos " .
+
+<http://www.group07.linkeddata.org/individual/point/ArturoSoria> a geo:Point ;
+	geo:lat "40.44004722222222"^^xsd:double ;
+	geo:long "-3.6392333333333333"^^xsd:double .
+
+wd:Q1763694 a wd:Q3032114 .
+
+<http://www.group07.linkeddata.org/individual/point/ArturoSoria> property:neighbourhood wd:Q1763694 ;
+	geo:alt "693"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079016> geo:location <http://www.group07.linkeddata.org/individual/point/ArturoSoria> .
+
+<http://www.group07.linkeddata.org/station/28079017> a ssn:Sensor ;
+	rdfs:label "Villaverde" ;
+	property:address "C/. Juan Peñalver" .
+
+<http://www.group07.linkeddata.org/individual/point/Villaverde> a geo:Point ;
+	geo:lat "40.347138888888885"^^xsd:double ;
+	geo:long "-3.713322222222221"^^xsd:double .
+
+wd:Q919536 a wd:Q3032114 .
+
+<http://www.group07.linkeddata.org/individual/point/Villaverde> property:neighbourhood wd:Q919536 ;
+	geo:alt "604"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079017> geo:location <http://www.group07.linkeddata.org/individual/point/Villaverde> .
+
+<http://www.group07.linkeddata.org/station/28079018> a ssn:Sensor ;
+	rdfs:label "Farolillo" ;
+	property:address "Calle Farolillo - C/Ervigio" .
+
+<http://www.group07.linkeddata.org/individual/point/Farolillo> a geo:Point ;
+	geo:lat "40.39478055555556"^^xsd:double ;
+	geo:long "-3.7318527777777777"^^xsd:double .
+
+wd:Q1001991 a wd:Q3032114 .
+
+<http://www.group07.linkeddata.org/individual/point/Farolillo> property:neighbourhood wd:Q1001991 ;
+	geo:alt "630"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079018> geo:location <http://www.group07.linkeddata.org/individual/point/Farolillo> .
+
+<http://www.group07.linkeddata.org/station/28079024> a ssn:Sensor ;
+	rdfs:label "Casa de Campo" ;
+	property:address "Casa de Campo  (Terminal del Teleférico)" .
+
+<http://www.group07.linkeddata.org/individual/point/CasadeCampo> a geo:Point ;
+	geo:lat "40.41935555555556"^^xsd:double ;
+	geo:long "-3.7473472222222224"^^xsd:double .
+
+wd:Q2017682 a wd:Q3032114 .
+
+<http://www.group07.linkeddata.org/individual/point/CasadeCampo> property:neighbourhood wd:Q2017682 ;
+	geo:alt "642"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079024> geo:location <http://www.group07.linkeddata.org/individual/point/CasadeCampo> .
+
+<http://www.group07.linkeddata.org/station/28079027> a ssn:Sensor ;
+	rdfs:label "Barajas Pueblo" ;
+	property:address "C/. Júpiter, 21 (Barajas) " .
+
+<http://www.group07.linkeddata.org/individual/point/BarajasPueblo> a geo:Point ;
+	geo:lat "40.47692777777778"^^xsd:double ;
+	geo:long "-3.580030555555555"^^xsd:double .
+
+wd:Q807230 a wd:Q3032114 .
+
+<http://www.group07.linkeddata.org/individual/point/BarajasPueblo> property:neighbourhood wd:Q807230 ;
+	geo:alt "621"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079027> geo:location <http://www.group07.linkeddata.org/individual/point/BarajasPueblo> .
+
+<http://www.group07.linkeddata.org/station/28079035> a ssn:Sensor ;
+	rdfs:label "Pza. del Carmen" ;
+	property:address "Plaza del Carmen esq. Tres Cruces. " .
+
+<http://www.group07.linkeddata.org/individual/point/Pza.delCarmen> a geo:Point ;
+	geo:lat "40.41920833333333"^^xsd:double ;
+	geo:long "-3.7031722222222223"^^xsd:double ;
+	property:neighbourhood wd:Q1763376 ;
+	geo:alt "659"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079035> geo:location <http://www.group07.linkeddata.org/individual/point/Pza.delCarmen> .
+
+<http://www.group07.linkeddata.org/station/28079036> a ssn:Sensor ;
+	rdfs:label "Moratalaz" ;
+	property:address "Avd. Moratalaz  esq. Camino de los Vinateros" .
+
+<http://www.group07.linkeddata.org/individual/point/Moratalaz> a geo:Point ;
+	geo:lat "40.40794722222222"^^xsd:double ;
+	geo:long "-3.6453055555555554"^^xsd:double .
+
+wd:Q2076109 a wd:Q3032114 .
+
+<http://www.group07.linkeddata.org/individual/point/Moratalaz> property:neighbourhood wd:Q2076109 ;
+	geo:alt "685"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079036> geo:location <http://www.group07.linkeddata.org/individual/point/Moratalaz> .
+
+<http://www.group07.linkeddata.org/station/28079038> a ssn:Sensor ;
+	rdfs:label "Cuatro Caminos" ;
+	property:address "Avda. Pablo Iglesias esq. C/ Marqués de Lema" .
+
+<http://www.group07.linkeddata.org/individual/point/CuatroCaminos> a geo:Point ;
+	geo:lat "40.44554444444445"^^xsd:double ;
+	geo:long "-3.7071277777777785"^^xsd:double .
+
+wd:Q1763370 a wd:Q3032114 .
+
+<http://www.group07.linkeddata.org/individual/point/CuatroCaminos> property:neighbourhood wd:Q1763370 ;
+	geo:alt "698"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079038> geo:location <http://www.group07.linkeddata.org/individual/point/CuatroCaminos> .
+
+<http://www.group07.linkeddata.org/station/28079039> a ssn:Sensor ;
+	rdfs:label "Barrio del Pilar" ;
+	property:address "Avd. Betanzos esq. C/  Monforte de Lemos " .
+
+<http://www.group07.linkeddata.org/individual/point/BarriodelPilar> a geo:Point ;
+	geo:lat "40.47822777777778"^^xsd:double ;
+	geo:long "-3.7115416666666654"^^xsd:double .
+
+wd:Q656196 a wd:Q3032114 .
+
+<http://www.group07.linkeddata.org/individual/point/BarriodelPilar> property:neighbourhood wd:Q656196 ;
+	geo:alt "674"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079039> geo:location <http://www.group07.linkeddata.org/individual/point/BarriodelPilar> .
+
+<http://www.group07.linkeddata.org/station/28079040> a ssn:Sensor ;
+	rdfs:label "Vallecas" ;
+	property:address "C/ Arroyo del Olivar  esq. C/  Río Grande. " .
+
+<http://www.group07.linkeddata.org/individual/point/Vallecas> a geo:Point ;
+	geo:lat "40.38815277777777"^^xsd:double ;
+	geo:long "-3.6515222222222223"^^xsd:double .
+
+wd:Q2003054 a wd:Q3032114 .
+
+<http://www.group07.linkeddata.org/individual/point/Vallecas> property:neighbourhood wd:Q2003054 ;
+	geo:alt "677"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079040> geo:location <http://www.group07.linkeddata.org/individual/point/Vallecas> .
+
+<http://www.group07.linkeddata.org/station/28079047> a ssn:Sensor ;
+	rdfs:label "Mendez Alvaro" ;
+	property:address "C/ Juan de Mariana / Pza. Amanecer Mendez Alvaro" .
+
+<http://www.group07.linkeddata.org/individual/point/MendezAlvaro> a geo:Point ;
+	geo:lat "40.398113888888886"^^xsd:double ;
+	geo:long "-3.686825"^^xsd:double .
+
+wd:Q2000929 a wd:Q3032114 .
+
+<http://www.group07.linkeddata.org/individual/point/MendezAlvaro> property:neighbourhood wd:Q2000929 ;
+	geo:alt "599"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079047> geo:location <http://www.group07.linkeddata.org/individual/point/MendezAlvaro> .
+
+<http://www.group07.linkeddata.org/station/28079048> a ssn:Sensor ;
+	rdfs:label "Castellana" ;
+	property:address "C/ Jose Gutierrez Abascal" .
+
+<http://www.group07.linkeddata.org/individual/point/Castellana> a geo:Point ;
+	geo:lat "40.43989722222222"^^xsd:double ;
+	geo:long "-3.690366666666667"^^xsd:double ;
+	property:neighbourhood wd:Q1766348 ;
+	geo:alt "676"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079048> geo:location <http://www.group07.linkeddata.org/individual/point/Castellana> .
+
+<http://www.group07.linkeddata.org/station/28079049> a ssn:Sensor ;
+	rdfs:label "Parque del Retiro" ;
+	property:address "Paseo Venezuela- Casa de Vacas" .
+
+<http://www.group07.linkeddata.org/individual/point/ParquedelRetiro> a geo:Point ;
+	geo:lat "40.414444444444435"^^xsd:double ;
+	geo:long "-3.682583333333333"^^xsd:double ;
+	property:neighbourhood wd:Q2002296 ;
+	geo:alt "662"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079049> geo:location <http://www.group07.linkeddata.org/individual/point/ParquedelRetiro> .
+
+<http://www.group07.linkeddata.org/station/28079050> a ssn:Sensor ;
+	rdfs:label "Plaza Castilla" ;
+	property:address "Plaza Castilla (Canal)" .
+
+<http://www.group07.linkeddata.org/individual/point/PlazaCastilla> a geo:Point ;
+	geo:lat "40.46557222222223"^^xsd:double ;
+	geo:long "-3.688769444444445"^^xsd:double ;
+	property:neighbourhood wd:Q1766348 ;
+	geo:alt "728"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079050> geo:location <http://www.group07.linkeddata.org/individual/point/PlazaCastilla> .
+
+<http://www.group07.linkeddata.org/station/28079054> a ssn:Sensor ;
+	rdfs:label "Ensanche de Vallecas" ;
+	property:address "Avda La Gavia / Avda. Las Suertes" .
+
+<http://www.group07.linkeddata.org/individual/point/EnsanchedeVallecas> a geo:Point ;
+	geo:lat "40.372933333333336"^^xsd:double ;
+	geo:long "-3.612116666666666"^^xsd:double .
+
+wd:Q1947988 a wd:Q3032114 .
+
+<http://www.group07.linkeddata.org/individual/point/EnsanchedeVallecas> property:neighbourhood wd:Q1947988 ;
+	geo:alt "627"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079054> geo:location <http://www.group07.linkeddata.org/individual/point/EnsanchedeVallecas> .
+
+<http://www.group07.linkeddata.org/station/28079055> a ssn:Sensor ;
+	rdfs:label "Urb. Embajada" ;
+	property:address "C/ Riaño (Barajas) " .
+
+<http://www.group07.linkeddata.org/individual/point/Urb.Embajada> a geo:Point ;
+	geo:lat "40.46253055555556"^^xsd:double ;
+	geo:long "-3.5807472222222216"^^xsd:double ;
+	property:neighbourhood wd:Q807230 ;
+	geo:alt "618"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079055> geo:location <http://www.group07.linkeddata.org/individual/point/Urb.Embajada> .
+
+<http://www.group07.linkeddata.org/station/28079056> a ssn:Sensor ;
+	rdfs:label "Pza. Fernández Ladreda" ;
+	property:address " Pza. Fernández Ladreda - Avda. Oporto" .
+
+<http://www.group07.linkeddata.org/individual/point/Pza.FernándezLadreda> a geo:Point ;
+	geo:lat "40.38496388888889"^^xsd:double ;
+	geo:long "-3.7187277777777785"^^xsd:double .
+
+wd:Q953368 a wd:Q3032114 .
+
+<http://www.group07.linkeddata.org/individual/point/Pza.FernándezLadreda> property:neighbourhood wd:Q953368 ;
+	geo:alt "604"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079056> geo:location <http://www.group07.linkeddata.org/individual/point/Pza.FernándezLadreda> .
+
+<http://www.group07.linkeddata.org/station/28079057> a ssn:Sensor ;
+	rdfs:label "Sanchinarro" ;
+	property:address "C/ Princesa de Eboli esq C/ Maria Tudor" .
+
+<http://www.group07.linkeddata.org/individual/point/Sanchinarro> a geo:Point ;
+	geo:lat "40.49420833333333"^^xsd:double ;
+	geo:long "-3.6605027777777774"^^xsd:double .
+
+wd:Q1928529 a wd:Q3032114 .
+
+<http://www.group07.linkeddata.org/individual/point/Sanchinarro> property:neighbourhood wd:Q1928529 ;
+	geo:alt "700"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079057> geo:location <http://www.group07.linkeddata.org/individual/point/Sanchinarro> .
+
+<http://www.group07.linkeddata.org/station/28079058> a ssn:Sensor ;
+	rdfs:label "El Pardo" ;
+	property:address "Avda. La Guardia" .
+
+<http://www.group07.linkeddata.org/individual/point/ElPardo> a geo:Point ;
+	geo:lat "40.51805833333333"^^xsd:double ;
+	geo:long "-3.774611111111111"^^xsd:double ;
+	property:neighbourhood wd:Q656196 ;
+	geo:alt "615"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079058> geo:location <http://www.group07.linkeddata.org/individual/point/ElPardo> .
+
+<http://www.group07.linkeddata.org/station/28079059> a ssn:Sensor ;
+	rdfs:label "Juan Carlos I" ;
+	property:address "Parque Juan Carlos I (frente oficinas mantenimiento)" .
+
+<http://www.group07.linkeddata.org/individual/point/JuanCarlosI> a geo:Point ;
+	geo:lat "40.46525000000001"^^xsd:double ;
+	geo:long "-3.6090722222222222"^^xsd:double ;
+	property:neighbourhood wd:Q807230 ;
+	geo:alt "660"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079059> geo:location <http://www.group07.linkeddata.org/individual/point/JuanCarlosI> .
+
+<http://www.group07.linkeddata.org/station/28079060> a ssn:Sensor ;
+	rdfs:label "Tres Olivos" ;
+	property:address "Plaza Tres Olivos " .
+
+<http://www.group07.linkeddata.org/individual/point/TresOlivos> a geo:Point ;
+	geo:lat "40.50058888888889"^^xsd:double ;
+	geo:long "-3.6897611111111113"^^xsd:double ;
+	property:neighbourhood wd:Q656196 ;
+	geo:alt "715"^^xsd:int .
+
+<http://www.group07.linkeddata.org/station/28079060> geo:location <http://www.group07.linkeddata.org/individual/point/TresOlivos> .
