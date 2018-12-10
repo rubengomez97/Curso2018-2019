@@ -22,12 +22,13 @@
 	geo:lat "40.400449587879166"^^xsd:double ;
 	geo:long "-3.6882686006118175"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/ARGANZUELA-0> prf:hasNumber "16" ;
-	a prf:Address ;
+<http://www.wifipointsmad.org/group06/resource/address/ARGANZUELA-0> a prf:Address ;
+	prf:hasNumber "16" ;
 	prf:hasPostalCode "28045" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/ARGANZUELA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE BUSTAMANTE" .
 
 <http://www.wifipointsmad.org/group06/resource/ARGANZUELA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2000929> .
@@ -51,24 +52,25 @@
 	geo:lat "40.39597072367931"^^xsd:double ;
 	geo:long "-3.7562716852987847"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/LATINA-1> prf:hasNumber "10" ;
+<http://www.wifipointsmad.org/group06/resource/address/LATINA-1> a prf:Address ;
+	prf:hasNumber "10" ;
 	prf:hasPostalCode "28047" ;
-	a prf:Address ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/LATINA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE CAMARENA" .
 
-<http://www.wifipointsmad.org/group06/resource/LATINA> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ794954> .
+<http://www.wifipointsmad.org/group06/resource/LATINA> owl:sameAs <https://www.wikidata.org/wikiQ794954> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
 
-<http://www.wifipointsmad.org/group06/resource/wifipoint/1755> a prf:Wifipoint ;
-	prf:hasName "Biblioteca Pública Municipal Ana María Matute (Carabanchel)" ;
+<http://www.wifipointsmad.org/group06/resource/wifipoint/1755> prf:hasName "Biblioteca Pública Municipal Ana María Matute (Carabanchel)" ;
 	prf:hasPhone """91 588 08 30                                                                                                                                                      
 """ ;
 	prf:hasPublicTransport "Metro : Marqués de Vadillo  Bus:  34, 35, 50, 118 y 119." ;
+	a prf:Wifipoint ;
 	prf:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano:  del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20 horas.   Cerrado  festivos y los días 24 y 31 de diciembre." ;
 	prf:hasContentUrl <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=628e3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
 	prf:hasDescription "La Biblioteca Pública Municipal Ana María Matute sustituyó a la antigua Biblioteca Pública Municipal de Carabanchel. La Biblioteca de Carabanchel, sita en la calle de los Hermanos del Moral 15, fue inaugurada el 12 de diciembre de 1981 por el entonces alcalde, Enrique Tierno Galván, contaba con unos 250  m&sup2; . Despues de 32 años de servicio, se traslada a su actual emplazamiento bajo el nombre actual. El proyecto arquitectónico fue encargado al estudio RSP. A la inauguración, el 28 de enero de 2013, asistieron la escritora Ana María Matute y la alcaldesa Ana María Botella." ;
@@ -77,16 +79,17 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/CARABANCHEL-2> ;
 	prf:hasEmail "bpanammatute@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-2> geo:lat "40.3975850662447"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-2> a prf:Coordinates ;
+	geo:lat "40.3975850662447"^^xsd:double ;
 	geo:long "-3.7207386328562357"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/CARABANCHEL-2> prf:hasPostalCode "28019" ;
+<http://www.wifipointsmad.org/group06/resource/address/CARABANCHEL-2> prf:hasNumber "30" ;
 	a prf:Address ;
-	prf:hasNumber "30" ;
+	prf:hasPostalCode "28019" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CARABANCHEL> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE DE LOS COMUNEROS DE CASTILLA" .
 
 <http://www.wifipointsmad.org/group06/resource/CARABANCHEL> owl:sameAs <https://www.wikidata.org/wikiQ1001991> ;
 	a prf:hasDistrict .
@@ -115,7 +118,8 @@
 	prf:hasPostalCode "28024" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/LATINA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE GRANJA DE TORREHERMOSA" .
 
 <http://www.wifipointsmad.org/group06/resource/LATINA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ794954> .
@@ -135,16 +139,17 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/SALAMANCA-4> ;
 	prf:hasEmail "bpbuenavista@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-4> geo:long "-3.670929243543714"^^xsd:double ;
-	a prf:Coordinates ;
-	geo:lat "40.43199309720514"^^xsd:double .
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-4> a prf:Coordinates ;
+	geo:lat "40.43199309720514"^^xsd:double ;
+	geo:long "-3.670929243543714"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/SALAMANCA-4> prf:hasNumber "5" ;
-	a prf:Address ;
+<http://www.wifipointsmad.org/group06/resource/address/SALAMANCA-4> a prf:Address ;
+	prf:hasNumber "5" ;
 	prf:hasPostalCode "28028" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/SALAMANCA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA TOREROS" .
 
 <http://www.wifipointsmad.org/group06/resource/SALAMANCA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1773521> .
@@ -164,8 +169,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address%2FSAN+BLAS-CANILLEJAS-5> ;
 	prf:hasEmail "bpcanillejas@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-5> geo:lat "40.44640229188281"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-5> a prf:Coordinates ;
+	geo:lat "40.44640229188281"^^xsd:double ;
 	geo:long "-3.6117933204271098"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address%2FSAN+BLAS-CANILLEJAS-5> a prf:Address ;
@@ -173,7 +178,8 @@
 	prf:hasPostalCode "28022" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/SAN+BLAS-CANILLEJAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE BOLTAÑA" .
 
 <http://www.wifipointsmad.org/group06/resource/SAN+BLAS-CANILLEJAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2001937> .
@@ -202,7 +208,8 @@
 	prf:hasPostalCode "28037" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA INSTITUCIÓN LIBRE DE ENSEÑANZA (ANTIGUA CALLE HERMANOS GARCÍA NOBLEJAS)" .
 
 <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763694> .
@@ -231,7 +238,8 @@
 	prf:hasPostalCode "28015" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CENTRO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE CONDE DUQUE" .
 
 <http://www.wifipointsmad.org/group06/resource/CENTRO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763376> .
@@ -251,8 +259,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/CHAMARTIN-8> ;
 	prf:hasEmail "bpdamasoalonso@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-8> geo:lat "40.467453379213175"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-8> a prf:Coordinates ;
+	geo:lat "40.467453379213175"^^xsd:double ;
 	geo:long "-3.6846112774442705"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/CHAMARTIN-8> a prf:Address ;
@@ -260,10 +268,11 @@
 	prf:hasPostalCode "28036" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CHAMARTIN> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE MANUEL FERRERO" .
 
-<http://www.wifipointsmad.org/group06/resource/CHAMARTIN> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ1766348> .
+<http://www.wifipointsmad.org/group06/resource/CHAMARTIN> owl:sameAs <https://www.wikidata.org/wikiQ1766348> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -280,19 +289,20 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/RETIRO-9> ;
 	prf:hasEmail "bpeugeniotrias@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-9> geo:lat "40.4166091081099"^^xsd:double ;
-	geo:long "-3.6795930368034804"^^xsd:double ;
-	a prf:Coordinates .
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-9> a prf:Coordinates ;
+	geo:lat "40.4166091081099"^^xsd:double ;
+	geo:long "-3.6795930368034804"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/RETIRO-9> a prf:Address ;
 	prf:hasNumber "24" ;
 	prf:hasPostalCode "28009" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/RETIRO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PASEO FERNAN NUÑEZ" .
 
-<http://www.wifipointsmad.org/group06/resource/RETIRO> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ2002296> .
+<http://www.wifipointsmad.org/group06/resource/RETIRO> owl:sameAs <https://www.wikidata.org/wikiQ2002296> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -318,7 +328,8 @@
 	prf:hasPostalCode "28032" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VICALVARO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "BULEVAR INDALECIO PRIETO" .
 
 <http://www.wifipointsmad.org/group06/resource/VICALVARO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ589403> .
@@ -342,12 +353,13 @@
 	geo:lat "40.44810636195716"^^xsd:double ;
 	geo:long "-3.6762309620097398"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/CHAMARTIN-11> prf:hasNumber "51" ;
-	a prf:Address ;
+<http://www.wifipointsmad.org/group06/resource/address/CHAMARTIN-11> a prf:Address ;
+	prf:hasNumber "51" ;
 	prf:hasPostalCode "28002" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CHAMARTIN> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE MANTUANO" .
 
 <http://www.wifipointsmad.org/group06/resource/CHAMARTIN> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1766348> .
@@ -355,12 +367,12 @@
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
 
-<http://www.wifipointsmad.org/group06/resource/wifipoint/1754> prf:hasPublicTransport "Bus:  78, 116   Metro:  San Fermín - Orcasur  Renfe:  Orcasitas" ;
-	prf:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano:  del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20 horas.   Cerrado : festivos y los días 24 y 31 de diciembre." ;
-	a prf:Wifipoint ;
+<http://www.wifipointsmad.org/group06/resource/wifipoint/1754> a prf:Wifipoint ;
 	prf:hasName "Biblioteca Pública Municipal Gabriel García Márquez (Usera)" ;
 	prf:hasPhone """91 318 86 91                                                  
 """ ;
+	prf:hasPublicTransport "Bus:  78, 116   Metro:  San Fermín - Orcasur  Renfe:  Orcasitas" ;
+	prf:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano:  del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20 horas.   Cerrado : festivos y los días 24 y 31 de diciembre." ;
 	prf:hasContentUrl <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e4bf3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
 	prf:hasDescription "La Biblioteca Pública Municipal Gabriel García Marquez es heredera de la antigua biblioteca dela Meseta de Orcasur, abierta al público en 1983. En esta misma ubicación se abrió la actual en 1987 remodelandose en 2014, a la vez que se cambió el nombre por el de Gabriel García Marquez." ;
 	prf:hasEquipment "Accesible a personas con discapacidad física.   Espacios:  Sala de consulta y lectura; Sala infantil y juvenil; Zona de publicaciones periódicas; Salas de trabajo en grupo; Sala polivalente  Servicios:  Préstamo de libros, multimedia y revistas; Servicio de Acceso Público a Internet; Zona wifi; Información bibliográfica; Animación a la lectura; Formación de usuarios; Reprografía." ;
@@ -377,7 +389,8 @@
 	prf:hasPostalCode "28041" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/USERA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PLAZA PUEBLO" .
 
 <http://www.wifipointsmad.org/group06/resource/USERA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ953368> .
@@ -397,16 +410,17 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address%2FVILLA+DE+VALLECAS-13> ;
 	prf:hasEmail "bpgerardodiego@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-13> geo:long "-3.6227296605039516"^^xsd:double ;
-	a prf:Coordinates ;
-	geo:lat "40.37790196240434"^^xsd:double .
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-13> a prf:Coordinates ;
+	geo:lat "40.37790196240434"^^xsd:double ;
+	geo:long "-3.6227296605039516"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address%2FVILLA+DE+VALLECAS-13> a prf:Address ;
 	prf:hasNumber "12" ;
 	prf:hasPostalCode "28031" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VILLA+DE+VALLECAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE MONTE AYA" .
 
 <http://www.wifipointsmad.org/group06/resource/VILLA+DE+VALLECAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1947988> .
@@ -435,7 +449,8 @@
 	prf:hasPostalCode "28042" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/BARAJAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA LOGROÑO" .
 
 <http://www.wifipointsmad.org/group06/resource/BARAJAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ807230> .
@@ -459,12 +474,13 @@
 	geo:lat "40.47571688103069"^^xsd:double ;
 	geo:long "-3.64667257750353"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/HORTALEZA-15> prf:hasNumber "10" ;
-	a prf:Address ;
+<http://www.wifipointsmad.org/group06/resource/address/HORTALEZA-15> a prf:Address ;
+	prf:hasNumber "10" ;
 	prf:hasPostalCode "28033" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/HORTALEZA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE MAR DE LAS ANTILLAS" .
 
 <http://www.wifipointsmad.org/group06/resource/HORTALEZA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1928529> .
@@ -488,12 +504,13 @@
 	geo:lat "40.41410290844665"^^xsd:double ;
 	geo:long "-3.7098591212735883"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/CENTRO-16> prf:hasNumber "5" ;
-	a prf:Address ;
+<http://www.wifipointsmad.org/group06/resource/address/CENTRO-16> a prf:Address ;
+	prf:hasNumber "5" ;
 	prf:hasPostalCode "28005" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CENTRO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE SAN JUSTO" .
 
 <http://www.wifipointsmad.org/group06/resource/CENTRO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763376> .
@@ -522,7 +539,8 @@
 	prf:hasPostalCode "28022" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/SAN+BLAS-CANILLEJAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE MARIA SEVILLA DIAGO" .
 
 <http://www.wifipointsmad.org/group06/resource/SAN+BLAS-CANILLEJAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2001937> .
@@ -551,7 +569,8 @@
 	prf:hasPostalCode "28029" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA MONFORTE DE LEMOS" .
 
 <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ656196> .
@@ -571,8 +590,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/CARABANCHEL-19> ;
 	prf:hasEmail "bplachata@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-19> a prf:Coordinates ;
-	geo:lat "40.38330593504341"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-19> geo:lat "40.38330593504341"^^xsd:double ;
+	a prf:Coordinates ;
 	geo:long "-3.7420633861175796"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/CARABANCHEL-19> a prf:Address ;
@@ -580,7 +599,8 @@
 	prf:hasPostalCode "28025" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CARABANCHEL> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE GENERAL RICARDOS" .
 
 <http://www.wifipointsmad.org/group06/resource/CARABANCHEL> owl:sameAs <https://www.wikidata.org/wikiQ1001991> ;
 	a prf:hasDistrict .
@@ -588,8 +608,8 @@
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
 
-<http://www.wifipointsmad.org/group06/resource/wifipoint/51849> prf:hasName "Biblioteca Pública Municipal La Elipa (Ciudad Lineal)" ;
-	a prf:Wifipoint ;
+<http://www.wifipointsmad.org/group06/resource/wifipoint/51849> a prf:Wifipoint ;
+	prf:hasName "Biblioteca Pública Municipal La Elipa (Ciudad Lineal)" ;
 	prf:hasPhone "91 403 63 22" ;
 	prf:hasPublicTransport "Bus:  líneas 15, 28, 110, 113, 210  Metro:  La Elipa (línea 2)" ;
 	prf:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano:  del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20 horas.   Cerrado : festivos y los días 24 y 31 de diciembre." ;
@@ -600,8 +620,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address%2FCIUDAD+LINEAL-20> ;
 	prf:hasEmail "bplaelipa@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-20> geo:lat "40.42342659084215"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-20> a prf:Coordinates ;
+	geo:lat "40.42342659084215"^^xsd:double ;
 	geo:long "-3.651841641389484"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address%2FCIUDAD+LINEAL-20> a prf:Address ;
@@ -609,10 +629,11 @@
 	prf:hasPostalCode "28017" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE NUESTRA SEÑORA DEL VILLAR" .
 
-<http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> owl:sameAs <https://www.wikidata.org/wikiQ1763694> ;
-	a prf:hasDistrict .
+<http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> a prf:hasDistrict ;
+	owl:sameAs <https://www.wikidata.org/wikiQ1763694> .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -639,7 +660,8 @@
 	prf:hasPostalCode "28039" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/TETUAN> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE FRANCOS RODRIGUEZ" .
 
 <http://www.wifipointsmad.org/group06/resource/TETUAN> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1773540> .
@@ -663,12 +685,13 @@
 	geo:lat "40.49041562546542"^^xsd:double ;
 	geo:long "-3.655356751728003"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/HORTALEZA-22> a prf:Address ;
-	prf:hasNumber "29" ;
+<http://www.wifipointsmad.org/group06/resource/address/HORTALEZA-22> prf:hasNumber "29" ;
+	a prf:Address ;
 	prf:hasPostalCode "28050" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/HORTALEZA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE PRINCESA DE EBOLI" .
 
 <http://www.wifipointsmad.org/group06/resource/HORTALEZA> owl:sameAs <https://www.wikidata.org/wikiQ1928529> ;
 	a prf:hasDistrict .
@@ -697,10 +720,11 @@
 	prf:hasPostalCode "28029" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/TETUAN> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PLAZA DONOSO" .
 
-<http://www.wifipointsmad.org/group06/resource/TETUAN> owl:sameAs <https://www.wikidata.org/wikiQ1773540> ;
-	a prf:hasDistrict .
+<http://www.wifipointsmad.org/group06/resource/TETUAN> a prf:hasDistrict ;
+	owl:sameAs <https://www.wikidata.org/wikiQ1773540> .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -727,7 +751,8 @@
 	prf:hasPostalCode "28004" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CENTRO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE BARCELO" .
 
 <http://www.wifipointsmad.org/group06/resource/CENTRO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763376> .
@@ -747,16 +772,17 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/MORATALAZ-25> ;
 	prf:hasEmail "bpmigueldelibes@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-25> geo:long "-3.6529822109115133"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-25> a prf:Coordinates ;
 	geo:lat "40.40971737692924"^^xsd:double ;
-	a prf:Coordinates .
+	geo:long "-3.6529822109115133"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/MORATALAZ-25> a prf:Address ;
 	prf:hasNumber "11" ;
 	prf:hasPostalCode "28030" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/MORATALAZ> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE ARROYO BELINCOSO" .
 
 <http://www.wifipointsmad.org/group06/resource/MORATALAZ> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2076109> .
@@ -776,8 +802,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address%2FCIUDAD+LINEAL-26> ;
 	prf:hasEmail "bppabloneruda@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-26> geo:lat "40.42941133441142"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-26> a prf:Coordinates ;
+	geo:lat "40.42941133441142"^^xsd:double ;
 	geo:long "-3.6416899839787695"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address%2FCIUDAD+LINEAL-26> a prf:Address ;
@@ -785,13 +811,14 @@
 	prf:hasPostalCode "28017" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE ASCAO" .
 
 <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763694> .
 
-<http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
-	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
+<http://www.wifipointsmad.org/group06/resource/MADRID> owl:sameAs <https://www.wikidata.org/wikiQ2807> ;
+	a prf:hasCIty .
 
 <http://www.wifipointsmad.org/group06/resource/wifipoint/1763> a prf:Wifipoint ;
 	prf:hasName "Biblioteca Pública Municipal Pío Baroja (Arganzuela)" ;
@@ -805,16 +832,17 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/ARGANZUELA-27> ;
 	prf:hasEmail "bppiobaroja@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-27> geo:lat "40.40003652682007"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-27> a prf:Coordinates ;
+	geo:lat "40.40003652682007"^^xsd:double ;
 	geo:long "-3.7074488154950584"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/ARGANZUELA-27> prf:hasNumber "12" ;
-	a prf:Address ;
+<http://www.wifipointsmad.org/group06/resource/address/ARGANZUELA-27> a prf:Address ;
+	prf:hasNumber "12" ;
 	prf:hasPostalCode "28005" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/ARGANZUELA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE ARGANDA" .
 
 <http://www.wifipointsmad.org/group06/resource/ARGANZUELA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2000929> .
@@ -843,7 +871,8 @@
 	prf:hasPostalCode "28038" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE CANTALAPIEDRA" .
 
 <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2003054> .
@@ -872,7 +901,8 @@
 	prf:hasPostalCode "28053" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA GLORIETAS" .
 
 <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2003054> .
@@ -880,9 +910,9 @@
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
 
-<http://www.wifipointsmad.org/group06/resource/wifipoint/1746> prf:hasName "Biblioteca Pública Municipal San Blas (San Blas-Canillejas)" ;
+<http://www.wifipointsmad.org/group06/resource/wifipoint/1746> a prf:Wifipoint ;
+	prf:hasName "Biblioteca Pública Municipal San Blas (San Blas-Canillejas)" ;
 	prf:hasPhone "91 313 52 97" ;
-	a prf:Wifipoint ;
 	prf:hasPublicTransport "Bus:  4, 38, 48, 70, 106, 140  Metro:  Alsacia (Línea 2)" ;
 	prf:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano:  del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20 horas.   Cerrado : festivos y los días 24 y 31 de diciembre." ;
 	prf:hasContentUrl <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2e403d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
@@ -901,7 +931,8 @@
 	prf:hasPostalCode "28037" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/SAN+BLAS-CANILLEJAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE SAN ROMAN DEL VALLE" .
 
 <http://www.wifipointsmad.org/group06/resource/SAN+BLAS-CANILLEJAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2001937> .
@@ -921,8 +952,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address%2FPUENTE+DE+VALLECAS-31> ;
 	prf:hasEmail "bpvallecas@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-31> geo:lat "40.395023959810636"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-31> a prf:Coordinates ;
+	geo:lat "40.395023959810636"^^xsd:double ;
 	geo:long "-3.665554302127492"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address%2FPUENTE+DE+VALLECAS-31> a prf:Address ;
@@ -930,7 +961,8 @@
 	prf:hasPostalCode "28053" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE PUERTO DEL MONASTERIO" .
 
 <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2003054> .
@@ -959,7 +991,8 @@
 	prf:hasPostalCode "28032" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VICALVARO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE VILLARDONDIEGO" .
 
 <http://www.wifipointsmad.org/group06/resource/VICALVARO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ589403> .
@@ -986,7 +1019,8 @@
 	prf:hasPostalCode "28053" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PLAZA SIERRA MINISTRA" .
 
 <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2003054> .
@@ -1005,16 +1039,17 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/MONCLOA-ARAVACA-34> ;
 	prf:hasEmail "ccadiaz@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-34> geo:lat "40.427538776051804"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-34> a prf:Coordinates ;
+	geo:lat "40.427538776051804"^^xsd:double ;
 	geo:long "-3.732422725110936"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/MONCLOA-ARAVACA-34> a prf:Address ;
-	prf:hasPostalCode "28008" ;
 	prf:hasNumber "42" ;
+	prf:hasPostalCode "28008" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/MONCLOA-ARAVACA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PASEO COMANDANTE FORTEA" .
 
 <http://www.wifipointsmad.org/group06/resource/MONCLOA-ARAVACA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2017682> .
@@ -1042,10 +1077,11 @@
 	prf:hasPostalCode "28035" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "GLORIETA PRADERA DE VAQUERIZAS" .
 
-<http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> owl:sameAs <https://www.wikidata.org/wikiQ656196> ;
-	a prf:hasDistrict .
+<http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> a prf:hasDistrict ;
+	owl:sameAs <https://www.wikidata.org/wikiQ656196> .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -1061,19 +1097,20 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/LATINA-36> ;
 	prf:hasEmail "ccchurruca@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-36> geo:lat "40.3829835905706"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-36> a prf:Coordinates ;
+	geo:lat "40.3829835905706"^^xsd:double ;
 	geo:long "-3.7800890564106613"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/LATINA-36> prf:hasNumber "72" ;
-	a prf:Address ;
+<http://www.wifipointsmad.org/group06/resource/address/LATINA-36> a prf:Address ;
+	prf:hasNumber "72" ;
 	prf:hasPostalCode "28024" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/LATINA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE FUENTE DEL TIRO" .
 
-<http://www.wifipointsmad.org/group06/resource/LATINA> owl:sameAs <https://www.wikidata.org/wikiQ794954> ;
-	a prf:hasDistrict .
+<http://www.wifipointsmad.org/group06/resource/LATINA> a prf:hasDistrict ;
+	owl:sameAs <https://www.wikidata.org/wikiQ794954> .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -1098,7 +1135,8 @@
 	prf:hasPostalCode "28023" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/MONCLOA-ARAVACA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE DE LA ZARZA" .
 
 <http://www.wifipointsmad.org/group06/resource/MONCLOA-ARAVACA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2017682> .
@@ -1106,8 +1144,8 @@
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
 
-<http://www.wifipointsmad.org/group06/resource/wifipoint/64851> prf:hasName "Centro Cultural Buenavista (Salamanca)" ;
-	a prf:Wifipoint ;
+<http://www.wifipointsmad.org/group06/resource/wifipoint/64851> a prf:Wifipoint ;
+	prf:hasName "Centro Cultural Buenavista (Salamanca)" ;
 	prf:hasPhone "917 240 800 / 917 240 802" ;
 	prf:hasPublicTransport "Metro: Diego de León (líneas 4 , 5 , 6)  Bus: 1, 74, 48, 12, 43, 56, C1, C2" ;
 	prf:hasSchedule "De lunes a jueves, 9 a 13 horas y de 16 a 18 horas. Viernes, de 9 a 13 horas.  Julio: de lunes a viernes, de 9 a 13 horas.  Agosto: cerrado  Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
@@ -1117,8 +1155,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/SALAMANCA-38> ;
 	prf:hasEmail "ccbuenavista@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-38> geo:lat "40.43200210571468"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-38> a prf:Coordinates ;
+	geo:lat "40.43200210571468"^^xsd:double ;
 	geo:long "-3.6709293330780204"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/SALAMANCA-38> a prf:Address ;
@@ -1126,10 +1164,11 @@
 	prf:hasPostalCode "28028" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/SALAMANCA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA TOREROS" .
 
-<http://www.wifipointsmad.org/group06/resource/SALAMANCA> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ1773521> .
+<http://www.wifipointsmad.org/group06/resource/SALAMANCA> owl:sameAs <https://www.wikidata.org/wikiQ1773521> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -1154,7 +1193,8 @@
 	prf:hasPostalCode "28022" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/SAN+BLAS-CANILLEJAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE BOLTA&Ntilde;A" .
 
 <http://www.wifipointsmad.org/group06/resource/SAN+BLAS-CANILLEJAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2001937> .
@@ -1174,15 +1214,16 @@
 	prf:hasEmail "cccarrilconde@madrid.es" .
 
 <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-40> a prf:Coordinates ;
-	geo:lat "40.46088953531134"^^xsd:double ;
-	geo:long "-3.6544210187969433"^^xsd:double .
+	geo:long "-3.6544210187969433"^^xsd:double ;
+	geo:lat "40.46088953531134"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/HORTALEZA-40> a prf:Address ;
 	prf:hasNumber "57" ;
 	prf:hasPostalCode "28043" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/HORTALEZA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE CARRIL DEL CONDE" .
 
 <http://www.wifipointsmad.org/group06/resource/HORTALEZA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1928529> .
@@ -1202,8 +1243,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/RETIRO-41> ;
 	prf:hasEmail "cccasadevacas@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-41> a prf:Coordinates ;
-	geo:lat "40.41906024374356"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-41> geo:lat "40.41906024374356"^^xsd:double ;
+	a prf:Coordinates ;
 	geo:long "-3.6840615387926956"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/RETIRO-41> a prf:Address ;
@@ -1211,7 +1252,8 @@
 	prf:hasPostalCode "28009" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/RETIRO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PASEO COLOMBIA" .
 
 <http://www.wifipointsmad.org/group06/resource/RETIRO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2002296> .
@@ -1239,7 +1281,8 @@
 	prf:hasPostalCode "28045" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/ARGANZUELA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PASEO CHOPERA" .
 
 <http://www.wifipointsmad.org/group06/resource/ARGANZUELA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2000929> .
@@ -1267,7 +1310,8 @@
 	prf:hasPostalCode "28022" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/SAN+BLAS-CANILLEJAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA SÉPTIMA" .
 
 <http://www.wifipointsmad.org/group06/resource/SAN+BLAS-CANILLEJAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2001937> .
@@ -1275,29 +1319,30 @@
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
 
-<http://www.wifipointsmad.org/group06/resource/wifipoint/80143> prf:hasPublicTransport "Metro: Palos de la Frontera (línea 3)  Bus: 8, 19, 45, 47, 86, 247, 55, E1, 6, 59, 85  BICIMAD: Estación 120 (calle Palos de la Frontera, 40)  Renfe: Delicias" ;
+<http://www.wifipointsmad.org/group06/resource/wifipoint/80143> a prf:Wifipoint ;
+	prf:hasName "Centro Cultural Dotacional Integrado Arganzuela" ;
+	prf:hasPhone "915 063 610" ;
+	prf:hasPublicTransport "Metro: Palos de la Frontera (línea 3)  Bus: 8, 19, 45, 47, 86, 247, 55, E1, 6, 59, 85  BICIMAD: Estación 120 (calle Palos de la Frontera, 40)  Renfe: Delicias" ;
 	prf:hasSchedule "De lunes a jueves, de 10 a 13 y de 16:30 a 18:30. Viernes de 10 a 13 horas.    Julio: de lunes a viernes, de 10 a 13 horas.   Agosto cerrado.  Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
 	prf:hasContentUrl <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f9ea79262ef5d010VgnVCM1000000b205a0aRCRD> ;
 	prf:hasEquipment "Sala de exposiciones  Sala de lectura y estudio  Salón de actos / auditorio (aforo 151)  8 aulas  2 salas de ensayo  Zona wifi" ;
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-44> ;
-	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/ARGANZUELA-44> ;
-	a prf:Wifipoint ;
-	prf:hasName "Centro Cultural Dotacional Integrado Arganzuela" ;
-	prf:hasPhone "915 063 610" .
+	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/ARGANZUELA-44> .
 
 <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-44> a prf:Coordinates ;
-	geo:long "-3.6955325387824014"^^xsd:double ;
-	geo:lat "40.40207279862862"^^xsd:double .
+	geo:lat "40.40207279862862"^^xsd:double ;
+	geo:long "-3.6955325387824014"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/ARGANZUELA-44> prf:hasNumber "17" ;
-	a prf:Address ;
+<http://www.wifipointsmad.org/group06/resource/address/ARGANZUELA-44> a prf:Address ;
+	prf:hasNumber "17" ;
 	prf:hasPostalCode "28045" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/ARGANZUELA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE CANARIAS" .
 
-<http://www.wifipointsmad.org/group06/resource/ARGANZUELA> owl:sameAs <https://www.wikidata.org/wikiQ2000929> ;
-	a prf:hasDistrict .
+<http://www.wifipointsmad.org/group06/resource/ARGANZUELA> a prf:hasDistrict ;
+	owl:sameAs <https://www.wikidata.org/wikiQ2000929> .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -1317,12 +1362,13 @@
 	geo:lat "40.46903299144094"^^xsd:double ;
 	geo:long "-3.6976620067964996"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/TETUAN-45> prf:hasNumber "5" ;
-	a prf:Address ;
+<http://www.wifipointsmad.org/group06/resource/address/TETUAN-45> prf:hasCity "MADRID" ;
+	prf:hasNumber "5" ;
 	prf:hasPostalCode "28029" ;
-	prf:hasCity "MADRID" ;
+	a prf:Address ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/TETUAN> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PLAZA DONOSO" .
 
 <http://www.wifipointsmad.org/group06/resource/TETUAN> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1773540> .
@@ -1341,16 +1387,17 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-46> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/VICALVARO-46> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-46> geo:lat "40.405292721436055"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-46> a prf:Coordinates ;
+	geo:lat "40.405292721436055"^^xsd:double ;
 	geo:long "-3.6086161200017157"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/VICALVARO-46> a prf:Address ;
-	prf:hasNumber "36" ;
+<http://www.wifipointsmad.org/group06/resource/address/VICALVARO-46> prf:hasNumber "36" ;
+	a prf:Address ;
 	prf:hasPostalCode "28032" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VICALVARO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE VILLARDONDIEGO" .
 
 <http://www.wifipointsmad.org/group06/resource/VICALVARO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ589403> .
@@ -1369,8 +1416,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/MORATALAZ-47> ;
 	prf:hasEmail "cceltorito@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-47> geo:lat "40.40609591857167"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-47> a prf:Coordinates ;
+	geo:lat "40.40609591857167"^^xsd:double ;
 	geo:long "-3.646536107063507"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/MORATALAZ-47> a prf:Address ;
@@ -1378,18 +1425,19 @@
 	prf:hasPostalCode "28030" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/MORATALAZ> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA MORATALAZ" .
 
 <http://www.wifipointsmad.org/group06/resource/MORATALAZ> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2076109> .
 
-<http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
-	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
+<http://www.wifipointsmad.org/group06/resource/MADRID> owl:sameAs <https://www.wikidata.org/wikiQ2807> ;
+	a prf:hasCIty .
 
-<http://www.wifipointsmad.org/group06/resource/wifipoint/1954> prf:hasPhone "917 198 930 / 917 198 931 / 917 198 993" ;
-	prf:hasPublicTransport "Metro: Laguna (línea 6), Aluche (línea 5)  Bus: 25, 31, 138  Renfe: Laguna (C5), Aluche (C5)" ;
-	a prf:Wifipoint ;
+<http://www.wifipointsmad.org/group06/resource/wifipoint/1954> a prf:Wifipoint ;
 	prf:hasName "Centro Cultural Fernando de los Ríos (Latina)" ;
+	prf:hasPhone "917 198 930 / 917 198 931 / 917 198 993" ;
+	prf:hasPublicTransport "Metro: Laguna (línea 6), Aluche (línea 5)  Bus: 25, 31, 138  Renfe: Laguna (C5), Aluche (C5)" ;
 	prf:hasSchedule "De lunes a viernes, de 9 a 14 horas y de 16:30 a 19 horas.  Julio, de lunes a viernes, de 9 a 14 horas.  Agosto cerrado.  Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
 	prf:hasContentUrl <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3d973d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
 	prf:hasEquipment "Sala de exposiciones  Salón de actos / auditorio (Aforo 194 personas)  11 aulas  Cafetería  Zona wifi" ;
@@ -1401,12 +1449,13 @@
 	geo:lat "40.39552931214334"^^xsd:double ;
 	geo:long "-3.7562667464373223"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/LATINA-48> prf:hasNumber "10" ;
-	a prf:Address ;
+<http://www.wifipointsmad.org/group06/resource/address/LATINA-48> a prf:Address ;
+	prf:hasNumber "10" ;
 	prf:hasPostalCode "28047" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/LATINA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE CAMARENA" .
 
 <http://www.wifipointsmad.org/group06/resource/LATINA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ794954> .
@@ -1434,10 +1483,11 @@
 	prf:hasPostalCode "28015" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CHAMBERI> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE GALILEO" .
 
-<http://www.wifipointsmad.org/group06/resource/CHAMBERI> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ1763370> .
+<http://www.wifipointsmad.org/group06/resource/CHAMBERI> owl:sameAs <https://www.wikidata.org/wikiQ1763370> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -1452,16 +1502,17 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-50> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/BARAJAS-50> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-50> geo:lat "40.460622835379624"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-50> a prf:Coordinates ;
+	geo:lat "40.460622835379624"^^xsd:double ;
 	geo:long "-3.5936877657335935"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/BARAJAS-50> prf:hasPostalCode "28042" ;
-	a prf:Address ;
+<http://www.wifipointsmad.org/group06/resource/address/BARAJAS-50> a prf:Address ;
 	prf:hasNumber "179" ;
+	prf:hasPostalCode "28042" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/BARAJAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA LOGROÑO" .
 
 <http://www.wifipointsmad.org/group06/resource/BARAJAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ807230> .
@@ -1484,12 +1535,13 @@
 	geo:lat "40.476859845869534"^^xsd:double ;
 	geo:long "-3.6420353342333227"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/HORTALEZA-51> a prf:Address ;
-	prf:hasNumber "15" ;
+<http://www.wifipointsmad.org/group06/resource/address/HORTALEZA-51> prf:hasNumber "15" ;
+	a prf:Address ;
 	prf:hasPostalCode "28033" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/HORTALEZA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE SANTA VIRGILIA" .
 
 <http://www.wifipointsmad.org/group06/resource/HORTALEZA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1928529> .
@@ -1517,7 +1569,8 @@
 	prf:hasPostalCode "28033" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/HORTALEZA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE MAR DE LAS ANTILLAS" .
 
 <http://www.wifipointsmad.org/group06/resource/HORTALEZA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1928529> .
@@ -1536,8 +1589,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address%2FSAN+BLAS-CANILLEJAS-53> ;
 	prf:hasEmail "ccjllopezvazquez@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-53> a prf:Coordinates ;
-	geo:lat "40.446818592300296"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-53> geo:lat "40.446818592300296"^^xsd:double ;
+	a prf:Coordinates ;
 	geo:long "-3.572741163820915"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address%2FSAN+BLAS-CANILLEJAS-53> a prf:Address ;
@@ -1545,7 +1598,8 @@
 	prf:hasPostalCode "28022" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/SAN+BLAS-CANILLEJAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE FEBRERO" .
 
 <http://www.wifipointsmad.org/group06/resource/SAN+BLAS-CANILLEJAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2001937> .
@@ -1553,8 +1607,8 @@
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
 
-<http://www.wifipointsmad.org/group06/resource/wifipoint/142944> prf:hasName "Centro Cultural José Luis Sampedro (Latina)" ;
-	a prf:Wifipoint ;
+<http://www.wifipointsmad.org/group06/resource/wifipoint/142944> a prf:Wifipoint ;
+	prf:hasName "Centro Cultural José Luis Sampedro (Latina)" ;
 	prf:hasPhone "915 267 820 / 915 267 821" ;
 	prf:hasPublicTransport "Metro: Laguna (línea 6)  Bus: 55, 119, 138  Renfe: Laguna" ;
 	prf:hasSchedule "Mañanas, de lunes a viernes, de 9 a 14 horas.  Tardes, de lunes a jueves, de 16 a 20 horas y viernes de 16 a 18:30 horas.  Cerrado del 1 al 26 agosto.  Semana San Isidro: mañanas de lunes a jueves, de 9 a 13 horas. Tardes, de lunes a jueves, de 16 a 20 horas y viernes, de 16 a 18:30 horas.  Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
@@ -1564,8 +1618,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/LATINA-54> ;
 	prf:hasEmail "cclucero@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-54> geo:lat "40.40159394334669"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-54> a prf:Coordinates ;
+	geo:lat "40.40159394334669"^^xsd:double ;
 	geo:long "-3.749110841406562"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/LATINA-54> a prf:Address ;
@@ -1573,7 +1627,8 @@
 	prf:hasPostalCode "28047" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/LATINA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE CASTROSERNA" .
 
 <http://www.wifipointsmad.org/group06/resource/LATINA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ794954> .
@@ -1601,10 +1656,11 @@
 	prf:hasPostalCode "28039" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/MONCLOA-ARAVACA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE FRANCOS RODRíGUEZ" .
 
-<http://www.wifipointsmad.org/group06/resource/MONCLOA-ARAVACA> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ2017682> .
+<http://www.wifipointsmad.org/group06/resource/MONCLOA-ARAVACA> owl:sameAs <https://www.wikidata.org/wikiQ2017682> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -1629,7 +1685,8 @@
 	prf:hasPostalCode "28035" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/MONCLOA-ARAVACA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE ANTONIO MACHADO" .
 
 <http://www.wifipointsmad.org/group06/resource/MONCLOA-ARAVACA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2017682> .
@@ -1657,13 +1714,14 @@
 	prf:hasPostalCode "28017" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE SANTA FELICIDAD" .
 
-<http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> owl:sameAs <https://www.wikidata.org/wikiQ1763694> ;
-	a prf:hasDistrict .
+<http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> a prf:hasDistrict ;
+	owl:sameAs <https://www.wikidata.org/wikiQ1763694> .
 
-<http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
-	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
+<http://www.wifipointsmad.org/group06/resource/MADRID> owl:sameAs <https://www.wikidata.org/wikiQ2807> ;
+	a prf:hasCIty .
 
 <http://www.wifipointsmad.org/group06/resource/wifipoint/1917> a prf:Wifipoint ;
 	prf:hasName "Centro Cultural La Vaguada (Fuencarral - El Pardo)" ;
@@ -1685,7 +1743,8 @@
 	prf:hasPostalCode "28029" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA MONFORTE DE LEMOS" .
 
 <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ656196> .
@@ -1714,7 +1773,8 @@
 	prf:hasPostalCode "28007" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/RETIRO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE LUIS PEIDRO" .
 
 <http://www.wifipointsmad.org/group06/resource/RETIRO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2002296> .
@@ -1743,17 +1803,18 @@
 	prf:hasPostalCode "28053" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE CONCEJO DE TEVERGA" .
 
 <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2003054> .
 
-<http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
-	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
+<http://www.wifipointsmad.org/group06/resource/MADRID> owl:sameAs <https://www.wikidata.org/wikiQ2807> ;
+	a prf:hasCIty .
 
-<http://www.wifipointsmad.org/group06/resource/wifipoint/1973> a prf:Wifipoint ;
+<http://www.wifipointsmad.org/group06/resource/wifipoint/1973> prf:hasPhone "917 109 273" ;
+	a prf:Wifipoint ;
 	prf:hasName "Centro Cultural Los Rosales (Villaverde)" ;
-	prf:hasPhone "917 109 273" ;
 	prf:hasPublicTransport "Bus: 85" ;
 	prf:hasSchedule "Secretaría: de lunes a jueves de 9:30 a 13:30 y de 17 a 19 y viernes de 9:30 a 13:30 horas.  Durante el mes de julio el horario será de 9 a 14 horas." ;
 	prf:hasContentUrl <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a5b91e79ee71c010VgnVCM1000000b205a0aRCRD> ;
@@ -1771,7 +1832,8 @@
 	prf:hasPostalCode "28021" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VILLAVERDE> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA LOS ROSALES" .
 
 <http://www.wifipointsmad.org/group06/resource/VILLAVERDE> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ919536> .
@@ -1791,8 +1853,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/RETIRO-62> ;
 	prf:hasEmail "ccibiza@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-62> a prf:Coordinates ;
-	geo:lat "40.41817157699025"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-62> geo:lat "40.41817157699025"^^xsd:double ;
+	a prf:Coordinates ;
 	geo:long "-3.677392762224429"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/RETIRO-62> a prf:Address ;
@@ -1800,7 +1862,8 @@
 	prf:hasPostalCode "28009" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/RETIRO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE IBIZA" .
 
 <http://www.wifipointsmad.org/group06/resource/RETIRO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2002296> .
@@ -1827,7 +1890,8 @@
 	prf:hasPostalCode "28041" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/USERA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PLAZA ASOCIACION" .
 
 <http://www.wifipointsmad.org/group06/resource/USERA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ953368> .
@@ -1855,7 +1919,8 @@
 	prf:hasPostalCode "28044" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/LATINA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE SERRADILLA" .
 
 <http://www.wifipointsmad.org/group06/resource/LATINA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ794954> .
@@ -1883,7 +1948,8 @@
 	prf:hasPostalCode "28002" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CHAMARTIN> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE MANTUANO" .
 
 <http://www.wifipointsmad.org/group06/resource/CHAMARTIN> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1766348> .
@@ -1911,7 +1977,8 @@
 	prf:hasPostalCode "28041" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/USERA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PLAZA PUEBLO" .
 
 <http://www.wifipointsmad.org/group06/resource/USERA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ953368> .
@@ -1939,7 +2006,8 @@
 	prf:hasPostalCode "28053" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA DE LAS GLORIETAS" .
 
 <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2003054> .
@@ -1958,8 +2026,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/CENTRO-68> ;
 	prf:hasEmail "ccptoledo@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-68> geo:lat "40.40740551053055"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-68> a prf:Coordinates ;
+	geo:lat "40.40740551053055"^^xsd:double ;
 	geo:long "-3.7119218940274026"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/CENTRO-68> a prf:Address ;
@@ -1967,7 +2035,8 @@
 	prf:hasPostalCode "28005" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CENTRO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA GRAN VIA DE SAN FRANCISCO" .
 
 <http://www.wifipointsmad.org/group06/resource/CENTRO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763376> .
@@ -1995,7 +2064,8 @@
 	prf:hasPostalCode "28028" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/SALAMANCA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE ENRIQUE D'ALMONTE" .
 
 <http://www.wifipointsmad.org/group06/resource/SALAMANCA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1773521> .
@@ -2014,8 +2084,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address%2FCIUDAD+LINEAL-70> ;
 	prf:hasEmail "ccsanjuanbautista@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-70> geo:lat "40.45224737965276"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-70> a prf:Coordinates ;
+	geo:lat "40.45224737965276"^^xsd:double ;
 	geo:long "-3.6580402287911937"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address%2FCIUDAD+LINEAL-70> a prf:Address ;
@@ -2023,7 +2093,8 @@
 	prf:hasPostalCode "28043" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE SAN NEMESIO" .
 
 <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763694> .
@@ -2042,8 +2113,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/LATINA-71> ;
 	prf:hasEmail "ccsaramontiel@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-71> a prf:Coordinates ;
-	geo:lat "40.399764677637116"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-71> geo:lat "40.399764677637116"^^xsd:double ;
+	a prf:Coordinates ;
 	geo:long "-3.775144917950534"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/LATINA-71> a prf:Address ;
@@ -2051,10 +2122,11 @@
 	prf:hasPostalCode "28024" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/LATINA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CARRETERA BOADILLA DEL MONTE" .
 
-<http://www.wifipointsmad.org/group06/resource/LATINA> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ794954> .
+<http://www.wifipointsmad.org/group06/resource/LATINA> owl:sameAs <https://www.wikidata.org/wikiQ794954> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -2070,16 +2142,17 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/BARAJAS-72> ;
 	prf:hasEmail "ccteresacalcuta@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-72> a prf:Coordinates ;
-	geo:lat "40.45531140556268"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-72> geo:lat "40.45531140556268"^^xsd:double ;
+	a prf:Coordinates ;
 	geo:long "-3.587638001688095"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/BARAJAS-72> a prf:Address ;
-	prf:hasNumber "4" ;
+<http://www.wifipointsmad.org/group06/resource/address/BARAJAS-72> prf:hasNumber "4" ;
+	a prf:Address ;
 	prf:hasPostalCode "28042" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/BARAJAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PLAZA NAVIO" .
 
 <http://www.wifipointsmad.org/group06/resource/BARAJAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ807230> .
@@ -2108,7 +2181,8 @@
 	prf:hasPostalCode "28026" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/USERA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA RAFAELA YBARRA" .
 
 <http://www.wifipointsmad.org/group06/resource/USERA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ953368> .
@@ -2128,16 +2202,17 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/USERA-74> ;
 	prf:hasEmail "ccusera@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-74> a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-74> geo:long "-3.7090866533057723"^^xsd:double ;
 	geo:lat "40.38429664257218"^^xsd:double ;
-	geo:long "-3.7090866533057723"^^xsd:double .
+	a prf:Coordinates .
 
 <http://www.wifipointsmad.org/group06/resource/address/USERA-74> a prf:Address ;
 	prf:hasNumber "30" ;
 	prf:hasPostalCode "28026" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/USERA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE FELIPE CASTRO" .
 
 <http://www.wifipointsmad.org/group06/resource/USERA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ953368> .
@@ -2165,7 +2240,8 @@
 	prf:hasPostalCode "28032" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VICALVARO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "BULEVAR INDALECIO PRIETO" .
 
 <http://www.wifipointsmad.org/group06/resource/VICALVARO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ589403> .
@@ -2184,16 +2260,17 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address%2FVILLA+DE+VALLECAS-76> ;
 	prf:hasEmail "cczazuar@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-76> a prf:Coordinates ;
-	geo:lat "40.38281899948726"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-76> geo:lat "40.38281899948726"^^xsd:double ;
+	a prf:Coordinates ;
 	geo:long "-3.606140062044455"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address%2FVILLA+DE+VALLECAS-76> prf:hasCity "MADRID" ;
-	prf:hasPostalCode "28031" ;
+<http://www.wifipointsmad.org/group06/resource/address%2FVILLA+DE+VALLECAS-76> a prf:Address ;
 	prf:hasNumber "4" ;
-	a prf:Address ;
+	prf:hasPostalCode "28031" ;
+	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VILLA+DE+VALLECAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE ZAZUAR" .
 
 <http://www.wifipointsmad.org/group06/resource/VILLA+DE+VALLECAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1947988> .
@@ -2212,16 +2289,17 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/BARAJAS-77> ;
 	prf:hasEmail "ccvillabarajas@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-77> geo:long "-3.5785233191070316"^^xsd:double ;
-	a prf:Coordinates ;
-	geo:lat "40.473402418562216"^^xsd:double .
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-77> a prf:Coordinates ;
+	geo:lat "40.473402418562216"^^xsd:double ;
+	geo:long "-3.5785233191070316"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/BARAJAS-77> a prf:Address ;
 	prf:hasNumber "7" ;
 	prf:hasPostalCode "28042" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/BARAJAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE BOTICA" .
 
 <http://www.wifipointsmad.org/group06/resource/BARAJAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ807230> .
@@ -2242,15 +2320,16 @@
 	geo:lat "40.40294595308372"^^xsd:double ;
 	geo:long "-3.6896374651582446"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/ARGANZUELA-78> prf:hasNumber "41" ;
-	a prf:Address ;
+<http://www.wifipointsmad.org/group06/resource/address/ARGANZUELA-78> a prf:Address ;
+	prf:hasNumber "41" ;
 	prf:hasPostalCode "28045" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/ARGANZUELA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE ANCORA" .
 
-<http://www.wifipointsmad.org/group06/resource/ARGANZUELA> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ2000929> .
+<http://www.wifipointsmad.org/group06/resource/ARGANZUELA> owl:sameAs <https://www.wikidata.org/wikiQ2000929> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -2265,16 +2344,17 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-79> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/BARAJAS-79> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-79> geo:lat "40.45463575922803"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-79> a prf:Coordinates ;
+	geo:lat "40.45463575922803"^^xsd:double ;
 	geo:long "-3.587632115472542"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/BARAJAS-79> a prf:Address ;
-	prf:hasNumber "6" ;
+<http://www.wifipointsmad.org/group06/resource/address/BARAJAS-79> prf:hasNumber "6" ;
+	a prf:Address ;
 	prf:hasPostalCode "28042" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/BARAJAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA CANTABRIA" .
 
 <http://www.wifipointsmad.org/group06/resource/BARAJAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ807230> .
@@ -2292,22 +2372,23 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-80> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/CHAMARTIN-80> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-80> a prf:Coordinates ;
-	geo:lat "40.445161353404394"^^xsd:double ;
-	geo:long "-3.6698809711248352"^^xsd:double .
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-80> geo:long "-3.6698809711248352"^^xsd:double ;
+	a prf:Coordinates ;
+	geo:lat "40.445161353404394"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/CHAMARTIN-80> prf:hasNumber "14" ;
 	a prf:Address ;
 	prf:hasPostalCode "28002" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CHAMARTIN> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE SANTA HORTENSIA" .
 
 <http://www.wifipointsmad.org/group06/resource/CHAMARTIN> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1766348> .
 
-<http://www.wifipointsmad.org/group06/resource/MADRID> owl:sameAs <https://www.wikidata.org/wikiQ2807> ;
-	a prf:hasCIty .
+<http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
+	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
 
 <http://www.wifipointsmad.org/group06/resource/wifipoint/11961> a prf:Wifipoint ;
 	prf:hasName "Centro de Servicios Sociales Dehesa de la Villa" ;
@@ -2321,19 +2402,20 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/MONCLOA-ARAVACA-81> ;
 	prf:hasEmail "cssdehesavilla@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-81> geo:long "-3.7195114936540987"^^xsd:double ;
-	geo:lat "40.46711526748946"^^xsd:double ;
-	a prf:Coordinates .
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-81> geo:lat "40.46711526748946"^^xsd:double ;
+	a prf:Coordinates ;
+	geo:long "-3.7195114936540987"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/MONCLOA-ARAVACA-81> a prf:Address ;
-	prf:hasNumber "22" ;
-	prf:hasPostalCode "28035" ;
+<http://www.wifipointsmad.org/group06/resource/address/MONCLOA-ARAVACA-81> prf:hasPostalCode "28035" ;
 	prf:hasCity "MADRID" ;
+	prf:hasNumber "22" ;
+	a prf:Address ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/MONCLOA-ARAVACA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE ANTONIO MACHADO" .
 
-<http://www.wifipointsmad.org/group06/resource/MONCLOA-ARAVACA> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ2017682> .
+<http://www.wifipointsmad.org/group06/resource/MONCLOA-ARAVACA> owl:sameAs <https://www.wikidata.org/wikiQ2017682> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -2351,8 +2433,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/VILLAVERDE-82> ;
 	prf:hasEmail "csseduardominguito@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-82> a prf:Coordinates ;
-	geo:lat "40.34854935708132"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-82> geo:lat "40.34854935708132"^^xsd:double ;
+	a prf:Coordinates ;
 	geo:long "-3.686539661954902"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/VILLAVERDE-82> a prf:Address ;
@@ -2360,10 +2442,11 @@
 	prf:hasPostalCode "28021" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VILLAVERDE> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE LEONOR GONGORA" .
 
-<http://www.wifipointsmad.org/group06/resource/VILLAVERDE> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ919536> .
+<http://www.wifipointsmad.org/group06/resource/VILLAVERDE> owl:sameAs <https://www.wikidata.org/wikiQ919536> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -2389,7 +2472,8 @@
 	prf:hasPostalCode "28053" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE YUSTE" .
 
 <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2003054> .
@@ -2418,7 +2502,8 @@
 	prf:hasPostalCode "28028" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/SALAMANCA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE PILAR DE ZARAGOZA" .
 
 <http://www.wifipointsmad.org/group06/resource/SALAMANCA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1773521> .
@@ -2447,7 +2532,8 @@
 	prf:hasPostalCode "28037" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA INSTITUCION LIBRE DE ENSE&Ntilde;ANZA" .
 
 <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763694> .
@@ -2476,7 +2562,8 @@
 	prf:hasPostalCode "28018" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE GERARDO DIEGO" .
 
 <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2003054> .
@@ -2496,8 +2583,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address%2FPUENTE+DE+VALLECAS-87> ;
 	prf:hasEmail "csssandiego@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-87> a prf:Coordinates ;
-	geo:lat "40.38871930363662"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-87> geo:lat "40.38871930363662"^^xsd:double ;
+	a prf:Coordinates ;
 	geo:long "-3.663689575700872"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address%2FPUENTE+DE+VALLECAS-87> a prf:Address ;
@@ -2505,7 +2592,8 @@
 	prf:hasPostalCode "28018" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE JAVIER DE MIGUEL" .
 
 <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2003054> .
@@ -2525,16 +2613,17 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/CHAMARTIN-88> ;
 	prf:hasEmail "csstahortensia@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-88> geo:long "-3.6691931472225465"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-88> geo:lat "40.44476894081767"^^xsd:double ;
 	a prf:Coordinates ;
-	geo:lat "40.44476894081767"^^xsd:double .
+	geo:long "-3.6691931472225465"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/CHAMARTIN-88> a prf:Address ;
+<http://www.wifipointsmad.org/group06/resource/address/CHAMARTIN-88> prf:hasCity "MADRID" ;
 	prf:hasNumber "15" ;
 	prf:hasPostalCode "28002" ;
-	prf:hasCity "MADRID" ;
+	a prf:Address ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CHAMARTIN> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE SANTA HORTENSIA" .
 
 <http://www.wifipointsmad.org/group06/resource/CHAMARTIN> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1766348> .
@@ -2561,7 +2650,8 @@
 	prf:hasPostalCode "28048" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE MIRA EL RIO" .
 
 <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ656196> .
@@ -2569,9 +2659,9 @@
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
 
-<http://www.wifipointsmad.org/group06/resource/wifipoint/6166668> a prf:Wifipoint ;
-	prf:hasName "Centro Municipal de Mayores 'Antón Martín'" ;
+<http://www.wifipointsmad.org/group06/resource/wifipoint/6166668> prf:hasName "Centro Municipal de Mayores 'Antón Martín'" ;
 	prf:hasPhone "915 273 119" ;
+	a prf:Wifipoint ;
 	prf:hasPublicTransport "Bus: 26, 32, 6  Metro: Tirso de Molina, Antón Martín" ;
 	prf:hasSchedule "Invierno: de 9 a 20,30 horas.  Verano: de 9 a 20 horas." ;
 	prf:hasContentUrl <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c5a8ff0f9ae32310VgnVCM1000000b205a0aRCRD> ;
@@ -2579,22 +2669,23 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-90> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/CENTRO-90> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-90> geo:long "-3.702928583465715"^^xsd:double ;
-	a prf:Coordinates ;
-	geo:lat "40.41182992691991"^^xsd:double .
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-90> a prf:Coordinates ;
+	geo:lat "40.41182992691991"^^xsd:double ;
+	geo:long "-3.702928583465715"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/CENTRO-90> prf:hasPostalCode "28012" ;
+<http://www.wifipointsmad.org/group06/resource/address/CENTRO-90> a prf:Address ;
 	prf:hasNumber "14" ;
-	a prf:Address ;
+	prf:hasPostalCode "28012" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CENTRO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE CABEZA" .
 
 <http://www.wifipointsmad.org/group06/resource/CENTRO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763376> .
 
-<http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
-	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
+<http://www.wifipointsmad.org/group06/resource/MADRID> owl:sameAs <https://www.wikidata.org/wikiQ2807> ;
+	a prf:hasCIty .
 
 <http://www.wifipointsmad.org/group06/resource/wifipoint/11720> a prf:Wifipoint ;
 	prf:hasName "Centro Municipal de Mayores 'Antonio Machado'" ;
@@ -2615,7 +2706,8 @@
 	prf:hasPostalCode "28037" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/SAN+BLAS-CANILLEJAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE SAN ROMAN DEL VALLE" .
 
 <http://www.wifipointsmad.org/group06/resource/SAN+BLAS-CANILLEJAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2001937> .
@@ -2633,8 +2725,8 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-92> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address%2FCIUDAD+LINEAL-92> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-92> a prf:Coordinates ;
-	geo:lat "40.42958439423385"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-92> geo:lat "40.42958439423385"^^xsd:double ;
+	a prf:Coordinates ;
 	geo:long "-3.6413497414718736"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address%2FCIUDAD+LINEAL-92> a prf:Address ;
@@ -2642,7 +2734,8 @@
 	prf:hasPostalCode "28017" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE ASCAO" .
 
 <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763694> .
@@ -2665,12 +2758,13 @@
 	geo:lat "40.433840945976456"^^xsd:double ;
 	geo:long "-3.711446072668338"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/CHAMBERI-93> a prf:Address ;
-	prf:hasNumber "40" ;
-	prf:hasPostalCode "28015" ;
-	prf:hasCity "MADRID" ;
+<http://www.wifipointsmad.org/group06/resource/address/CHAMBERI-93> prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CHAMBERI> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasPostalCode "28015" ;
+	a prf:Address ;
+	prf:hasNumber "40" ;
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE BLASCO DE GARAY" .
 
 <http://www.wifipointsmad.org/group06/resource/CHAMBERI> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763370> .
@@ -2692,12 +2786,13 @@
 	geo:lat "40.47280872386733"^^xsd:double ;
 	geo:long "-3.6398851240592336"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/HORTALEZA-94> prf:hasNumber "1" ;
-	a prf:Address ;
+<http://www.wifipointsmad.org/group06/resource/address/HORTALEZA-94> a prf:Address ;
+	prf:hasNumber "1" ;
 	prf:hasPostalCode "28033" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/HORTALEZA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA BARRANQUILLA" .
 
 <http://www.wifipointsmad.org/group06/resource/HORTALEZA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1928529> .
@@ -2705,8 +2800,8 @@
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
 
-<http://www.wifipointsmad.org/group06/resource/wifipoint/22753> prf:hasName "Centro Municipal de Mayores 'Campamento'" ;
-	a prf:Wifipoint ;
+<http://www.wifipointsmad.org/group06/resource/wifipoint/22753> a prf:Wifipoint ;
+	prf:hasName "Centro Municipal de Mayores 'Campamento'" ;
 	prf:hasPhone "915 120 171" ;
 	prf:hasPublicTransport "Bus. 33, 39, 65, 131" ;
 	prf:hasSchedule "Lunes a viernes: de 9 a 21 horas  Fines de semana y festivos: de 10 a 14 horas y de 16 a 21 horas" ;
@@ -2724,10 +2819,11 @@
 	prf:hasPostalCode "28024" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/LATINA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CARRETERA BOADILLA DEL MONTE" .
 
-<http://www.wifipointsmad.org/group06/resource/LATINA> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ794954> .
+<http://www.wifipointsmad.org/group06/resource/LATINA> owl:sameAs <https://www.wikidata.org/wikiQ794954> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -2751,7 +2847,8 @@
 	prf:hasPostalCode "28045" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/ARGANZUELA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PASEO CHOPERA" .
 
 <http://www.wifipointsmad.org/group06/resource/ARGANZUELA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2000929> .
@@ -2778,7 +2875,8 @@
 	prf:hasPostalCode "28044" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/LATINA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE RAFAEL FINAT" .
 
 <http://www.wifipointsmad.org/group06/resource/LATINA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ794954> .
@@ -2805,13 +2903,14 @@
 	prf:hasPostalCode "28032" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VICALVARO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA DAROCA" .
 
 <http://www.wifipointsmad.org/group06/resource/VICALVARO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ589403> .
 
-<http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
-	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
+<http://www.wifipointsmad.org/group06/resource/MADRID> owl:sameAs <https://www.wikidata.org/wikiQ2807> ;
+	a prf:hasCIty .
 
 <http://www.wifipointsmad.org/group06/resource/wifipoint/11696> a prf:Wifipoint ;
 	prf:hasName "Centro Municipal de Mayores 'Dehesa de la Villa'" ;
@@ -2827,12 +2926,13 @@
 	geo:lat "40.46711526748946"^^xsd:double ;
 	geo:long "-3.7195114936540987"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/MONCLOA-ARAVACA-99> prf:hasNumber "22" ;
-	a prf:Address ;
+<http://www.wifipointsmad.org/group06/resource/address/MONCLOA-ARAVACA-99> a prf:Address ;
+	prf:hasNumber "22" ;
 	prf:hasPostalCode "28035" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/MONCLOA-ARAVACA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE ANTONIO MACHADO" .
 
 <http://www.wifipointsmad.org/group06/resource/MONCLOA-ARAVACA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2017682> .
@@ -2859,13 +2959,14 @@
 	prf:hasPostalCode "28015" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CENTRO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE DOS AMIGOS" .
 
 <http://www.wifipointsmad.org/group06/resource/CENTRO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763376> .
 
-<http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
-	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
+<http://www.wifipointsmad.org/group06/resource/MADRID> owl:sameAs <https://www.wikidata.org/wikiQ2807> ;
+	a prf:hasCIty .
 
 <http://www.wifipointsmad.org/group06/resource/wifipoint/5912581> a prf:Wifipoint ;
 	prf:hasName "Centro Municipal de Mayores 'Eduardo Minguito'" ;
@@ -2886,7 +2987,8 @@
 	prf:hasPostalCode "28021" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VILLAVERDE> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE LEONOR GONGORA" .
 
 <http://www.wifipointsmad.org/group06/resource/VILLAVERDE> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ919536> .
@@ -2894,9 +2996,9 @@
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
 
-<http://www.wifipointsmad.org/group06/resource/wifipoint/4997526> a prf:Wifipoint ;
-	prf:hasName "Centro Municipal de Mayores 'El Almendro'" ;
+<http://www.wifipointsmad.org/group06/resource/wifipoint/4997526> prf:hasName "Centro Municipal de Mayores 'El Almendro'" ;
 	prf:hasPhone "913 016 722" ;
+	a prf:Wifipoint ;
 	prf:hasPublicTransport "Metro: Valdebernardo  Bus: 8, 71, 130, N8" ;
 	prf:hasSchedule "Lunes a Viernes: de 10 a 21 horas  Fines de semana: de 10 a 20 horas" ;
 	prf:hasContentUrl <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f4c02f0875e9c110VgnVCM1000000b205a0aRCRD> ;
@@ -2904,8 +3006,8 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-102> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/VICALVARO-102> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-102> a prf:Coordinates ;
-	geo:lat "40.40210302381573"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-102> geo:lat "40.40210302381573"^^xsd:double ;
+	a prf:Coordinates ;
 	geo:long "-3.6239189412211457"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/VICALVARO-102> a prf:Address ;
@@ -2913,7 +3015,8 @@
 	prf:hasPostalCode "28032" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VICALVARO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE LADERA DE LOS ALMENDROS" .
 
 <http://www.wifipointsmad.org/group06/resource/VICALVARO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ589403> .
@@ -2940,13 +3043,14 @@
 	prf:hasPostalCode "28053" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA GLORIETAS" .
 
-<http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ2003054> .
+<http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> owl:sameAs <https://www.wikidata.org/wikiQ2003054> ;
+	a prf:hasDistrict .
 
-<http://www.wifipointsmad.org/group06/resource/MADRID> owl:sameAs <https://www.wikidata.org/wikiQ2807> ;
-	a prf:hasCIty .
+<http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
+	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
 
 <http://www.wifipointsmad.org/group06/resource/wifipoint/11709> a prf:Wifipoint ;
 	prf:hasName "Centro Municipal de Mayores 'Entrevías'" ;
@@ -2958,16 +3062,17 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-104> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address%2FPUENTE+DE+VALLECAS-104> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-104> a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-104> geo:long "-3.6692821142332264"^^xsd:double ;
 	geo:lat "40.37641666740886"^^xsd:double ;
-	geo:long "-3.6692821142332264"^^xsd:double .
+	a prf:Coordinates .
 
 <http://www.wifipointsmad.org/group06/resource/address%2FPUENTE+DE+VALLECAS-104> a prf:Address ;
 	prf:hasNumber "8" ;
 	prf:hasPostalCode "28053" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE YUSTE" .
 
 <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2003054> .
@@ -2985,8 +3090,8 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-105> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/MONCLOA-ARAVACA-105> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-105> a prf:Coordinates ;
-	geo:lat "40.43424297757217"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-105> geo:lat "40.43424297757217"^^xsd:double ;
+	a prf:Coordinates ;
 	geo:long "-3.7207172544795784"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/MONCLOA-ARAVACA-105> a prf:Address ;
@@ -2994,7 +3099,8 @@
 	prf:hasPostalCode "28008" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/MONCLOA-ARAVACA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PASEO MORET" .
 
 <http://www.wifipointsmad.org/group06/resource/MONCLOA-ARAVACA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2017682> .
@@ -3021,7 +3127,8 @@
 	prf:hasPostalCode "28017" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE NUESTRA SEÑORA DEL VILLAR" .
 
 <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763694> .
@@ -3043,12 +3150,13 @@
 	geo:lat "40.43349910050292"^^xsd:double ;
 	geo:long "-3.6691167784691703"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/SALAMANCA-107> a prf:Address ;
-	prf:hasNumber "28" ;
+<http://www.wifipointsmad.org/group06/resource/address/SALAMANCA-107> prf:hasNumber "28" ;
+	a prf:Address ;
 	prf:hasPostalCode "28028" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/SALAMANCA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE PILAR DE ZARAGOZA" .
 
 <http://www.wifipointsmad.org/group06/resource/SALAMANCA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1773521> .
@@ -3066,8 +3174,8 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-108> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address%2FFUENCARRAL-EL+PARDO-108> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-108> a prf:Coordinates ;
-	geo:lat "40.47860087334554"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-108> geo:lat "40.47860087334554"^^xsd:double ;
+	a prf:Coordinates ;
 	geo:long "-3.7094408342979954"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address%2FFUENCARRAL-EL+PARDO-108> a prf:Address ;
@@ -3075,10 +3183,11 @@
 	prf:hasPostalCode "28029" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA MONFORTE DE LEMOS" .
 
-<http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ656196> .
+<http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> owl:sameAs <https://www.wikidata.org/wikiQ656196> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -3093,8 +3202,8 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-109> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/TETUAN-109> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-109> a prf:Coordinates ;
-	geo:lat "40.45406088024461"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-109> geo:lat "40.45406088024461"^^xsd:double ;
+	a prf:Coordinates ;
 	geo:long "-3.7093713617566357"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/TETUAN-109> a prf:Address ;
@@ -3102,16 +3211,17 @@
 	prf:hasPostalCode "28039" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/TETUAN> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE LEÑEROS" .
 
-<http://www.wifipointsmad.org/group06/resource/TETUAN> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ1773540> .
+<http://www.wifipointsmad.org/group06/resource/TETUAN> owl:sameAs <https://www.wikidata.org/wikiQ1773540> ;
+	a prf:hasDistrict .
 
-<http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
-	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
+<http://www.wifipointsmad.org/group06/resource/MADRID> owl:sameAs <https://www.wikidata.org/wikiQ2807> ;
+	a prf:hasCIty .
 
-<http://www.wifipointsmad.org/group06/resource/wifipoint/108513> a prf:Wifipoint ;
-	prf:hasName "Centro Municipal de Mayores 'Lucero'" ;
+<http://www.wifipointsmad.org/group06/resource/wifipoint/108513> prf:hasName "Centro Municipal de Mayores 'Lucero'" ;
+	a prf:Wifipoint ;
 	prf:hasPhone "915 267 870" ;
 	prf:hasPublicTransport "Metro: Lucero  Bus: 31, 119, 138" ;
 	prf:hasSchedule "Lunes a viernes: de 9 a 21 horas   Fines de semana y festivos: de 10 a 14 horas y de 16 a 21 horas" ;
@@ -3129,7 +3239,8 @@
 	prf:hasPostalCode "28047" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/LATINA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE CASTROSERNA" .
 
 <http://www.wifipointsmad.org/group06/resource/LATINA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ794954> .
@@ -3147,19 +3258,20 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-111> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address%2FCIUDAD+LINEAL-111> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-111> geo:lat "40.423960764556284"^^xsd:double ;
-	a prf:Coordinates ;
-	geo:long "-3.628588601009724"^^xsd:double .
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-111> geo:long "-3.628588601009724"^^xsd:double ;
+	geo:lat "40.423960764556284"^^xsd:double ;
+	a prf:Coordinates .
 
 <http://www.wifipointsmad.org/group06/resource/address%2FCIUDAD+LINEAL-111> a prf:Address ;
 	prf:hasNumber "160" ;
 	prf:hasPostalCode "28037" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA INSTITUCION LIBRE DE ENSE&Ntilde;ANZA" .
 
-<http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ1763694> .
+<http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> owl:sameAs <https://www.wikidata.org/wikiQ1763694> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -3174,16 +3286,17 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-112> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/SALAMANCA-112> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-112> a prf:Coordinates ;
-	geo:lat "40.4293527096082"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-112> geo:lat "40.4293527096082"^^xsd:double ;
+	a prf:Coordinates ;
 	geo:long "-3.664819790735596"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/SALAMANCA-112> a prf:Address ;
-	prf:hasNumber "6" ;
+<http://www.wifipointsmad.org/group06/resource/address/SALAMANCA-112> prf:hasNumber "6" ;
 	prf:hasPostalCode "28028" ;
 	prf:hasCity "MADRID" ;
+	a prf:Address ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/SALAMANCA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE MAESTRO ALONSO" .
 
 <http://www.wifipointsmad.org/group06/resource/SALAMANCA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1773521> .
@@ -3201,16 +3314,17 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-113> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/VILLAVERDE-113> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-113> geo:long "-3.6909491943684447"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-113> a prf:Coordinates ;
 	geo:lat "40.34333382494165"^^xsd:double ;
-	a prf:Coordinates .
+	geo:long "-3.6909491943684447"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/VILLAVERDE-113> a prf:Address ;
 	prf:hasNumber "1" ;
 	prf:hasPostalCode "28021" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VILLAVERDE> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PLAZA PINAZO" .
 
 <http://www.wifipointsmad.org/group06/resource/VILLAVERDE> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ919536> .
@@ -3237,7 +3351,8 @@
 	prf:hasPostalCode "28030" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/MORATALAZ> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE ENCOMIENDA DE PALACIOS" .
 
 <http://www.wifipointsmad.org/group06/resource/MORATALAZ> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2076109> .
@@ -3259,12 +3374,13 @@
 	geo:lat "40.46337730558992"^^xsd:double ;
 	geo:long "-3.631515434596136"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/HORTALEZA-115> a prf:Address ;
-	prf:hasNumber "26" ;
-	prf:hasPostalCode "28043" ;
-	prf:hasCity "MADRID" ;
+<http://www.wifipointsmad.org/group06/resource/address/HORTALEZA-115> prf:hasPostalCode "28043" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/HORTALEZA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity "MADRID" ;
+	a prf:Address ;
+	prf:hasNumber "26" ;
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE RAMON POWER" .
 
 <http://www.wifipointsmad.org/group06/resource/HORTALEZA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1928529> .
@@ -3287,11 +3403,12 @@
 	geo:long "-3.6444628142076514"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address%2FPUENTE+DE+VALLECAS-116> a prf:Address ;
-	prf:hasNumber "8" ;
 	prf:hasPostalCode "28018" ;
+	prf:hasNumber "8" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE GERARDO DIEGO" .
 
 <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2003054> .
@@ -3318,7 +3435,8 @@
 	prf:hasPostalCode "28039" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/TETUAN> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE PAMPLONA" .
 
 <http://www.wifipointsmad.org/group06/resource/TETUAN> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1773540> .
@@ -3345,7 +3463,8 @@
 	prf:hasPostalCode "28009" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/RETIRO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE PIO BAROJA" .
 
 <http://www.wifipointsmad.org/group06/resource/RETIRO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2002296> .
@@ -3353,26 +3472,27 @@
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
 
-<http://www.wifipointsmad.org/group06/resource/wifipoint/11712> a prf:Wifipoint ;
+<http://www.wifipointsmad.org/group06/resource/wifipoint/11712> prf:hasPublicTransport "Metro: Ciudad Lineal  Bus: 4, 38, 48, 70, 109" ;
 	prf:hasName "Centro Municipal de Mayores 'Príncipe de Asturias'" ;
 	prf:hasPhone "915 887 591" ;
-	prf:hasPublicTransport "Metro: Ciudad Lineal  Bus: 4, 38, 48, 70, 109" ;
+	a prf:Wifipoint ;
 	prf:hasSchedule "Lunes a domingo: de 9 a 21 horas" ;
 	prf:hasContentUrl <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=182266051361c010VgnVCM1000000b205a0aRCRD> ;
 	prf:hasEquipment "Servicios      Animación sociocultural   Peluquería     Cafetería   Voluntariado     Talleres manuales      Encaje de bolillos   Dibujo     Pintura al óleo   Bisutería     Pintura en tela   Otros     Talleres culturales      Alfabetización   Comunicación     Ortografía   Otros     Talleres de ejercicio físico      Gimnasia   Salud y cuidados personales     Taichí   Relajación     Caminar / senderismo        Actividades de turismo      Excursiones trimestrales        Actividades culturales      Jornadas / conferencias   Otros     Visitas a museos, exposiciones        Actividades de ocio      Baile   Otras     Otras actividades      Repujado en estaño   Mente activa     Memoria   Conferencias     Abalorios        Zona wifi" ;
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-119> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address%2FCIUDAD+LINEAL-119> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-119> geo:long "-3.6373000672722675"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-119> a prf:Coordinates ;
 	geo:lat "40.436444648624814"^^xsd:double ;
-	a prf:Coordinates .
+	geo:long "-3.6373000672722675"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address%2FCIUDAD+LINEAL-119> a prf:Address ;
 	prf:hasNumber "14" ;
 	prf:hasPostalCode "28037" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA INSTITUCION LIBRE DE ENSE&Ntilde;ANZA" .
 
 <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763694> .
@@ -3394,12 +3514,13 @@
 	geo:lat "40.44476894081767"^^xsd:double ;
 	geo:long "-3.6691931472225465"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/CHAMARTIN-120> prf:hasNumber "15" ;
-	a prf:Address ;
+<http://www.wifipointsmad.org/group06/resource/address/CHAMARTIN-120> a prf:Address ;
+	prf:hasNumber "15" ;
 	prf:hasPostalCode "28002" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CHAMARTIN> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE SANTA HORTENSIA" .
 
 <http://www.wifipointsmad.org/group06/resource/CHAMARTIN> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1766348> .
@@ -3426,7 +3547,8 @@
 	prf:hasPostalCode "28018" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE JAVIER DE MIGUEL" .
 
 <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2003054> .
@@ -3453,7 +3575,8 @@
 	prf:hasPostalCode "28043" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE BUESO PINEDA" .
 
 <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763694> .
@@ -3471,8 +3594,8 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-123> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/CARABANCHEL-123> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-123> geo:lat "40.386075026633925"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-123> a prf:Coordinates ;
+	geo:lat "40.386075026633925"^^xsd:double ;
 	geo:long "-3.7230547190101255"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/CARABANCHEL-123> a prf:Address ;
@@ -3480,13 +3603,14 @@
 	prf:hasPostalCode "28019" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CARABANCHEL> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE ANTONIA LANCHA" .
 
 <http://www.wifipointsmad.org/group06/resource/CARABANCHEL> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1001991> .
 
-<http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
-	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
+<http://www.wifipointsmad.org/group06/resource/MADRID> owl:sameAs <https://www.wikidata.org/wikiQ2807> ;
+	a prf:hasCIty .
 
 <http://www.wifipointsmad.org/group06/resource/wifipoint/11764> a prf:Wifipoint ;
 	prf:hasName "Centro Municipal de Mayores 'Santa Engracia'" ;
@@ -3499,16 +3623,17 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-124> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/CHAMBERI-124> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-124> geo:lat "40.439987457420344"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-124> geo:long "-3.700733879498953"^^xsd:double ;
 	a prf:Coordinates ;
-	geo:long "-3.700733879498953"^^xsd:double .
+	geo:lat "40.439987457420344"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/CHAMBERI-124> a prf:Address ;
 	prf:hasNumber "116" ;
 	prf:hasPostalCode "28003" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CHAMBERI> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE SANTA ENGRACIA" .
 
 <http://www.wifipointsmad.org/group06/resource/CHAMBERI> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763370> .
@@ -3531,11 +3656,12 @@
 	geo:long "-3.587638001688095"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/BARAJAS-125> a prf:Address ;
-	prf:hasNumber "4" ;
 	prf:hasPostalCode "28042" ;
+	prf:hasNumber "4" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/BARAJAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PLAZA NAVIO" .
 
 <http://www.wifipointsmad.org/group06/resource/BARAJAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ807230> .
@@ -3562,7 +3688,8 @@
 	prf:hasPostalCode "28031" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VILLA+DE+VALLECAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE PICO MAMPODRE" .
 
 <http://www.wifipointsmad.org/group06/resource/VILLA+DE+VALLECAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1947988> .
@@ -3589,7 +3716,8 @@
 	prf:hasPostalCode "28027" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE SIENA" .
 
 <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763694> .
@@ -3608,16 +3736,17 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/VILLAVERDE-128> ;
 	prf:hasEmail "ccagata@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-128> geo:lat "40.34636268334182"^^xsd:double ;
-	geo:long "-3.708524395897377"^^xsd:double ;
-	a prf:Coordinates .
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-128> a prf:Coordinates ;
+	geo:lat "40.34636268334182"^^xsd:double ;
+	geo:long "-3.708524395897377"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/VILLAVERDE-128> a prf:Address ;
 	prf:hasNumber "2" ;
 	prf:hasPostalCode "28021" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VILLAVERDE> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE DOCTOR MARTIN AREVALO" .
 
 <http://www.wifipointsmad.org/group06/resource/VILLAVERDE> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ919536> .
@@ -3645,7 +3774,8 @@
 	prf:hasPostalCode "28038" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE RISCO DE PELOCHE" .
 
 <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2003054> .
@@ -3673,7 +3803,8 @@
 	prf:hasPostalCode "28048" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE MIRA EL RIO" .
 
 <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ656196> .
@@ -3696,12 +3827,13 @@
 	geo:lat "40.394959912881816"^^xsd:double ;
 	geo:long "-3.732764798621339"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/CARABANCHEL-131> a prf:Address ;
-	prf:hasNumber "44" ;
+<http://www.wifipointsmad.org/group06/resource/address/CARABANCHEL-131> prf:hasNumber "44" ;
 	prf:hasPostalCode "28019" ;
 	prf:hasCity "MADRID" ;
+	a prf:Address ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CARABANCHEL> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE SOLDADO JOSE MARIA REY" .
 
 <http://www.wifipointsmad.org/group06/resource/CARABANCHEL> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1001991> .
@@ -3729,10 +3861,11 @@
 	prf:hasPostalCode "28041" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VILLAVERDE> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE LOS BOHEMIOS" .
 
-<http://www.wifipointsmad.org/group06/resource/VILLAVERDE> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ919536> .
+<http://www.wifipointsmad.org/group06/resource/VILLAVERDE> owl:sameAs <https://www.wikidata.org/wikiQ919536> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -3757,7 +3890,8 @@
 	prf:hasPostalCode "28026" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/USERA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE JULIO AGUIRRE" .
 
 <http://www.wifipointsmad.org/group06/resource/USERA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ953368> .
@@ -3776,8 +3910,8 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-134> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address%2FCIUDAD+LINEAL-134> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-134> geo:lat "40.422850906984415"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-134> a prf:Coordinates ;
+	geo:lat "40.422850906984415"^^xsd:double ;
 	geo:long "-3.651682839770605"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address%2FCIUDAD+LINEAL-134> a prf:Address ;
@@ -3785,7 +3919,8 @@
 	prf:hasPostalCode "28017" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE POETA BLAS DE OTERO" .
 
 <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763694> .
@@ -3804,8 +3939,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/MORATALAZ-135> ;
 	prf:hasEmail "ccjmoratalaz@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-135> geo:lat "40.399222766804556"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-135> a prf:Coordinates ;
+	geo:lat "40.399222766804556"^^xsd:double ;
 	geo:long "-3.6366543437448824"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/MORATALAZ-135> a prf:Address ;
@@ -3813,10 +3948,11 @@
 	prf:hasPostalCode "28030" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/MORATALAZ> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE FUENTE CARRANTONA" .
 
-<http://www.wifipointsmad.org/group06/resource/MORATALAZ> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ2076109> .
+<http://www.wifipointsmad.org/group06/resource/MORATALAZ> owl:sameAs <https://www.wikidata.org/wikiQ2076109> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -3841,7 +3977,8 @@
 	prf:hasPostalCode "28030" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/MORATALAZ> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE ARROYO BELINCOSO" .
 
 <http://www.wifipointsmad.org/group06/resource/MORATALAZ> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2076109> .
@@ -3860,8 +3997,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/LATINA-137> ;
 	prf:hasEmail "ccgreco@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-137> geo:lat "40.407316328180464"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-137> a prf:Coordinates ;
+	geo:lat "40.407316328180464"^^xsd:double ;
 	geo:long "-3.747465416906973"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/LATINA-137> a prf:Address ;
@@ -3869,7 +4006,8 @@
 	prf:hasPostalCode "28011" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/LATINA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE EL GRECO" .
 
 <http://www.wifipointsmad.org/group06/resource/LATINA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ794954> .
@@ -3889,16 +4027,17 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/TETUAN-138> ;
 	prf:hasEmail "cscjespronceda@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-138> geo:lat "40.44863106357685"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-138> a prf:Coordinates ;
+	geo:lat "40.44863106357685"^^xsd:double ;
 	geo:long "-3.7045265016586013"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/TETUAN-138> prf:hasNumber "9" ;
+<http://www.wifipointsmad.org/group06/resource/address/TETUAN-138> a prf:Address ;
+	prf:hasNumber "9" ;
 	prf:hasPostalCode "28039" ;
 	prf:hasCity "MADRID" ;
-	a prf:Address ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/TETUAN> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE ALMANSA" .
 
 <http://www.wifipointsmad.org/group06/resource/TETUAN> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1773540> .
@@ -3926,7 +4065,8 @@
 	prf:hasPostalCode "28026" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/USERA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE CUESTA" .
 
 <http://www.wifipointsmad.org/group06/resource/USERA> owl:sameAs <https://www.wikidata.org/wikiQ953368> ;
 	a prf:hasDistrict .
@@ -3955,13 +4095,14 @@
 	prf:hasPostalCode "28044" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/LATINA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE RODRIGO DE ARANA" .
 
 <http://www.wifipointsmad.org/group06/resource/LATINA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ794954> .
 
-<http://www.wifipointsmad.org/group06/resource/MADRID> owl:sameAs <https://www.wikidata.org/wikiQ2807> ;
-	a prf:hasCIty .
+<http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
+	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
 
 <http://www.wifipointsmad.org/group06/resource/wifipoint/1918> a prf:Wifipoint ;
 	prf:hasName "Centro Sociocultural Lavapiés (Centro)" ;
@@ -3983,7 +4124,8 @@
 	prf:hasPostalCode "28012" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CENTRO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE OLIVAR" .
 
 <http://www.wifipointsmad.org/group06/resource/CENTRO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763376> .
@@ -4011,10 +4153,11 @@
 	prf:hasPostalCode "28002" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CHAMARTIN> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE PRINCIPE DE VERGARA" .
 
-<http://www.wifipointsmad.org/group06/resource/CHAMARTIN> owl:sameAs <https://www.wikidata.org/wikiQ1766348> ;
-	a prf:hasDistrict .
+<http://www.wifipointsmad.org/group06/resource/CHAMARTIN> a prf:hasDistrict ;
+	owl:sameAs <https://www.wikidata.org/wikiQ1766348> .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -4039,7 +4182,8 @@
 	prf:hasPostalCode "28028" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/SALAMANCA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE MAESTRO ALONSO" .
 
 <http://www.wifipointsmad.org/group06/resource/SALAMANCA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1773521> .
@@ -4067,7 +4211,8 @@
 	prf:hasPostalCode "28021" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VILLAVERDE> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "ACCESO COLONIA MARCONI" .
 
 <http://www.wifipointsmad.org/group06/resource/VILLAVERDE> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ919536> .
@@ -4095,7 +4240,8 @@
 	prf:hasPostalCode "28022" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/SAN+BLAS-CANILLEJAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE ALIAGA" .
 
 <http://www.wifipointsmad.org/group06/resource/SAN+BLAS-CANILLEJAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2001937> .
@@ -4123,7 +4269,8 @@
 	prf:hasPostalCode "28035" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE ISLA DE ONS" .
 
 <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ656196> .
@@ -4151,7 +4298,8 @@
 	prf:hasPostalCode "28011" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/LATINA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE MARIA DEL CARMEN" .
 
 <http://www.wifipointsmad.org/group06/resource/LATINA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ794954> .
@@ -4179,7 +4327,8 @@
 	prf:hasPostalCode "28021" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VILLAVERDE> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PLAZA PINAZO" .
 
 <http://www.wifipointsmad.org/group06/resource/VILLAVERDE> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ919536> .
@@ -4207,7 +4356,8 @@
 	prf:hasPostalCode "28041" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/USERA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE ESTAFETA" .
 
 <http://www.wifipointsmad.org/group06/resource/USERA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ953368> .
@@ -4235,7 +4385,8 @@
 	prf:hasPostalCode "28021" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VILLAVERDE> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE MARIA MARTINEZ OVIOL" .
 
 <http://www.wifipointsmad.org/group06/resource/VILLAVERDE> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ919536> .
@@ -4263,7 +4414,8 @@
 	prf:hasPostalCode "28053" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE SIERRA CARBONERA" .
 
 <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2003054> .
@@ -4286,15 +4438,16 @@
 	geo:lat "40.45907130615822"^^xsd:double ;
 	geo:long "-3.700271645324868"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/TETUAN-152> prf:hasPostalCode "28020" ;
-	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/TETUAN> ;
-	prf:hasCity "MADRID" ;
-	a prf:Address ;
+<http://www.wifipointsmad.org/group06/resource/address/TETUAN-152> prf:hasCity "MADRID" ;
+	prf:hasPostalCode "28020" ;
 	prf:hasNumber "251" ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	a prf:Address ;
+	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/TETUAN> ;
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE BRAVO MURILLO" .
 
-<http://www.wifipointsmad.org/group06/resource/TETUAN> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ1773540> .
+<http://www.wifipointsmad.org/group06/resource/TETUAN> owl:sameAs <https://www.wikidata.org/wikiQ1773540> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -4319,7 +4472,8 @@
 	prf:hasPostalCode "28029" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE ARZOBISPO MORCILLO" .
 
 <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ656196> .
@@ -4348,7 +4502,8 @@
 	prf:hasPostalCode "28034" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PLAZA ISLAS AZORES" .
 
 <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ656196> .
@@ -4371,15 +4526,16 @@
 	geo:lat "40.40219442341818"^^xsd:double ;
 	geo:long "-3.6084585863003733"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/VICALVARO-155> prf:hasPostalCode "28032" ;
-	a prf:Address ;
+<http://www.wifipointsmad.org/group06/resource/address/VICALVARO-155> a prf:Address ;
 	prf:hasNumber "10" ;
+	prf:hasPostalCode "28032" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VICALVARO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE LAGO TITICACA" .
 
-<http://www.wifipointsmad.org/group06/resource/VICALVARO> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ589403> .
+<http://www.wifipointsmad.org/group06/resource/VICALVARO> owl:sameAs <https://www.wikidata.org/wikiQ589403> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -4396,8 +4552,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/RETIRO-156> ;
 	prf:hasEmail "info@centrocentro.org" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-156> geo:lat "40.419011767401095"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-156> a prf:Coordinates ;
+	geo:lat "40.419011767401095"^^xsd:double ;
 	geo:long "-3.692206111679657"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/RETIRO-156> a prf:Address ;
@@ -4405,7 +4561,8 @@
 	prf:hasPostalCode "28014" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/RETIRO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PLAZA CIBELES" .
 
 <http://www.wifipointsmad.org/group06/resource/RETIRO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2002296> .
@@ -4432,10 +4589,11 @@
 	prf:hasPostalCode "28015" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CENTRO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE CONDE DUQUE" .
 
-<http://www.wifipointsmad.org/group06/resource/CENTRO> owl:sameAs <https://www.wikidata.org/wikiQ1763376> ;
-	a prf:hasDistrict .
+<http://www.wifipointsmad.org/group06/resource/CENTRO> a prf:hasDistrict ;
+	owl:sameAs <https://www.wikidata.org/wikiQ1763376> .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -4452,19 +4610,20 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/CENTRO-158> ;
 	prf:hasEmail "hemeroteca@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-158> geo:long "-3.710182353581842"^^xsd:double ;
-	a prf:Coordinates ;
-	geo:lat "40.42802889001877"^^xsd:double .
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-158> a prf:Coordinates ;
+	geo:lat "40.42802889001877"^^xsd:double ;
+	geo:long "-3.710182353581842"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/CENTRO-158> a prf:Address ;
 	prf:hasNumber "11" ;
 	prf:hasPostalCode "28015" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CENTRO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE CONDE DUQUE" .
 
-<http://www.wifipointsmad.org/group06/resource/CENTRO> owl:sameAs <https://www.wikidata.org/wikiQ1763376> ;
-	a prf:hasDistrict .
+<http://www.wifipointsmad.org/group06/resource/CENTRO> a prf:hasDistrict ;
+	owl:sameAs <https://www.wikidata.org/wikiQ1763376> .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -4481,8 +4640,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/CENTRO-159> ;
 	prf:hasEmail "smuseosm@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-159> geo:lat "40.42577054821346"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-159> a prf:Coordinates ;
+	geo:lat "40.42577054821346"^^xsd:double ;
 	geo:long "-3.700845660719608"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/CENTRO-159> a prf:Address ;
@@ -4490,7 +4649,8 @@
 	prf:hasPostalCode "28004" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CENTRO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE FUENCARRAL" .
 
 <http://www.wifipointsmad.org/group06/resource/CENTRO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763376> .
@@ -4510,19 +4670,20 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/CENTRO-160> ;
 	prf:hasEmail "museosanisidro@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-160> geo:lat "40.41207900253883"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-160> a prf:Coordinates ;
+	geo:lat "40.41207900253883"^^xsd:double ;
 	geo:long "-3.7108161027466378"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/CENTRO-160> prf:hasNumber "1" ;
-	a prf:Address ;
+<http://www.wifipointsmad.org/group06/resource/address/CENTRO-160> a prf:Address ;
+	prf:hasNumber "1" ;
 	prf:hasPostalCode "28005" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CENTRO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PLAZA SAN ANDRES" .
 
-<http://www.wifipointsmad.org/group06/resource/CENTRO> owl:sameAs <https://www.wikidata.org/wikiQ1763376> ;
-	a prf:hasDistrict .
+<http://www.wifipointsmad.org/group06/resource/CENTRO> a prf:hasDistrict ;
+	owl:sameAs <https://www.wikidata.org/wikiQ1763376> .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -4538,16 +4699,17 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-161> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address%2FFUENCARRAL-EL+PARDO-161> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-161> a prf:Coordinates ;
-	geo:lat "40.51990216989406"^^xsd:double ;
-	geo:long "-3.777365185426138"^^xsd:double .
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-161> geo:lat "40.51990216989406"^^xsd:double ;
+	geo:long "-3.777365185426138"^^xsd:double ;
+	a prf:Coordinates .
 
 <http://www.wifipointsmad.org/group06/resource/address%2FFUENCARRAL-EL+PARDO-161> a prf:Address ;
 	prf:hasNumber "2" ;
 	prf:hasPostalCode "28048" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PLAZA EL PARDO" .
 
 <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ656196> .
@@ -4566,8 +4728,8 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-162> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address%2FFUENCARRAL-EL+PARDO-162> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-162> geo:lat "40.49504578261263"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-162> a prf:Coordinates ;
+	geo:lat "40.49504578261263"^^xsd:double ;
 	geo:long "-3.687983425734921"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address%2FFUENCARRAL-EL+PARDO-162> a prf:Address ;
@@ -4575,13 +4737,14 @@
 	prf:hasPostalCode "28034" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PLAZA ISLAS AZORES" .
 
 <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ656196> .
 
-<http://www.wifipointsmad.org/group06/resource/MADRID> owl:sameAs <https://www.wikidata.org/wikiQ2807> ;
-	a prf:hasCIty .
+<http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
+	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
 
 <http://www.wifipointsmad.org/group06/resource/wifipoint/180717> a prf:Wifipoint ;
 	prf:hasName "Oficina de Atención a la Ciudadanía. (OAC) Línea Madrid. Distrito de Arganzuela" ;
@@ -4594,19 +4757,20 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-163> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/ARGANZUELA-163> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-163> geo:long "-3.698565632659468"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-163> geo:lat "40.3933877847248"^^xsd:double ;
 	a prf:Coordinates ;
-	geo:lat "40.3933877847248"^^xsd:double .
+	geo:long "-3.698565632659468"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/ARGANZUELA-163> a prf:Address ;
 	prf:hasNumber "10" ;
 	prf:hasPostalCode "28045" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/ARGANZUELA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PASEO CHOPERA" .
 
-<http://www.wifipointsmad.org/group06/resource/ARGANZUELA> owl:sameAs <https://www.wikidata.org/wikiQ2000929> ;
-	a prf:hasDistrict .
+<http://www.wifipointsmad.org/group06/resource/ARGANZUELA> a prf:hasDistrict ;
+	owl:sameAs <https://www.wikidata.org/wikiQ2000929> .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -4631,10 +4795,11 @@
 	prf:hasPostalCode "28042" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/BARAJAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PLAZA MERCURIO" .
 
-<http://www.wifipointsmad.org/group06/resource/BARAJAS> owl:sameAs <https://www.wikidata.org/wikiQ807230> ;
-	a prf:hasDistrict .
+<http://www.wifipointsmad.org/group06/resource/BARAJAS> a prf:hasDistrict ;
+	owl:sameAs <https://www.wikidata.org/wikiQ807230> .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -4654,12 +4819,13 @@
 	geo:lat "40.386962506825974"^^xsd:double ;
 	geo:long "-3.7386530020939652"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/CARABANCHEL-165> prf:hasNumber "8" ;
+<http://www.wifipointsmad.org/group06/resource/address/CARABANCHEL-165> a prf:Address ;
+	prf:hasNumber "8" ;
 	prf:hasPostalCode "28025" ;
 	prf:hasCity "MADRID" ;
-	a prf:Address ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CARABANCHEL> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE UTEBO" .
 
 <http://www.wifipointsmad.org/group06/resource/CARABANCHEL> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1001991> .
@@ -4687,7 +4853,8 @@
 	prf:hasPostalCode "28012" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CENTRO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE ATOCHA" .
 
 <http://www.wifipointsmad.org/group06/resource/CENTRO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763376> .
@@ -4715,7 +4882,8 @@
 	prf:hasPostalCode "28002" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CHAMARTIN> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE PRINCIPE DE VERGARA" .
 
 <http://www.wifipointsmad.org/group06/resource/CHAMARTIN> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1766348> .
@@ -4734,16 +4902,17 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-168> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/CHAMBERI-168> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-168> geo:lat "40.446683231882865"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-168> a prf:Coordinates ;
+	geo:lat "40.446683231882865"^^xsd:double ;
 	geo:long "-3.7048363430688873"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/CHAMBERI-168> a prf:Address ;
-	prf:hasPostalCode "28003" ;
 	prf:hasNumber "7" ;
+	prf:hasPostalCode "28003" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CHAMBERI> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA REINA VICTORIA" .
 
 <http://www.wifipointsmad.org/group06/resource/CHAMBERI> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763370> .
@@ -4771,7 +4940,8 @@
 	prf:hasPostalCode "28037" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA INSTITUCION LIBRE DE ENSE&Ntilde;ANZA" .
 
 <http://www.wifipointsmad.org/group06/resource/CIUDAD+LINEAL> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763694> .
@@ -4790,16 +4960,17 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-170> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address%2FFUENCARRAL-EL+PARDO-170> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-170> geo:lat "40.478526343687925"^^xsd:double ;
-	geo:long "-3.709841173334448"^^xsd:double ;
-	a prf:Coordinates .
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-170> a prf:Coordinates ;
+	geo:lat "40.478526343687925"^^xsd:double ;
+	geo:long "-3.709841173334448"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address%2FFUENCARRAL-EL+PARDO-170> a prf:Address ;
 	prf:hasNumber "40" ;
 	prf:hasPostalCode "28029" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA MONFORTE DE LEMOS" .
 
 <http://www.wifipointsmad.org/group06/resource/FUENCARRAL-EL+PARDO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ656196> .
@@ -4827,7 +4998,8 @@
 	prf:hasPostalCode "28043" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/HORTALEZA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CARRETERA CANILLAS" .
 
 <http://www.wifipointsmad.org/group06/resource/HORTALEZA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1928529> .
@@ -4846,19 +5018,20 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-172> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/LATINA-172> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-172> a prf:Coordinates ;
-	geo:lat "40.3849364255536"^^xsd:double ;
-	geo:long "-3.764218505722328"^^xsd:double .
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-172> geo:long "-3.764218505722328"^^xsd:double ;
+	a prf:Coordinates ;
+	geo:lat "40.3849364255536"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/LATINA-172> a prf:Address ;
 	prf:hasNumber "2" ;
 	prf:hasPostalCode "28044" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/LATINA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA LAS AGUILAS" .
 
-<http://www.wifipointsmad.org/group06/resource/LATINA> owl:sameAs <https://www.wikidata.org/wikiQ794954> ;
-	a prf:hasDistrict .
+<http://www.wifipointsmad.org/group06/resource/LATINA> a prf:hasDistrict ;
+	owl:sameAs <https://www.wikidata.org/wikiQ794954> .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -4878,15 +5051,16 @@
 	geo:lat "40.43519137700088"^^xsd:double ;
 	geo:long "-3.718876324432256"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/MONCLOA-ARAVACA-173> prf:hasNumber "1" ;
+<http://www.wifipointsmad.org/group06/resource/address/MONCLOA-ARAVACA-173> a prf:Address ;
+	prf:hasNumber "1" ;
 	prf:hasPostalCode "28008" ;
 	prf:hasCity "MADRID" ;
-	a prf:Address ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/MONCLOA-ARAVACA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PLAZA MONCLOA" .
 
-<http://www.wifipointsmad.org/group06/resource/MONCLOA-ARAVACA> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ2017682> .
+<http://www.wifipointsmad.org/group06/resource/MONCLOA-ARAVACA> owl:sameAs <https://www.wikidata.org/wikiQ2017682> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -4911,7 +5085,8 @@
 	prf:hasPostalCode "28038" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA ALBUFERA" .
 
 <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2003054> .
@@ -4930,8 +5105,8 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-175> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/RETIRO-175> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-175> geo:lat "40.40236125879463"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-175> a prf:Coordinates ;
+	geo:lat "40.40236125879463"^^xsd:double ;
 	geo:long "-3.6772931748500297"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/RETIRO-175> a prf:Address ;
@@ -4939,10 +5114,11 @@
 	prf:hasPostalCode "28007" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/RETIRO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA CIUDAD DE BARCELONA" .
 
-<http://www.wifipointsmad.org/group06/resource/RETIRO> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ2002296> .
+<http://www.wifipointsmad.org/group06/resource/RETIRO> owl:sameAs <https://www.wikidata.org/wikiQ2002296> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -4967,10 +5143,11 @@
 	prf:hasPostalCode "28001" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/SALAMANCA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE VELAZQUEZ" .
 
-<http://www.wifipointsmad.org/group06/resource/SALAMANCA> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ1773521> .
+<http://www.wifipointsmad.org/group06/resource/SALAMANCA> owl:sameAs <https://www.wikidata.org/wikiQ1773521> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -4986,8 +5163,8 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-177> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address%2FSAN+BLAS-CANILLEJAS-177> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-177> geo:lat "40.434476793953166"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-177> a prf:Coordinates ;
+	geo:lat "40.434476793953166"^^xsd:double ;
 	geo:long "-3.6096219543135817"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address%2FSAN+BLAS-CANILLEJAS-177> a prf:Address ;
@@ -4995,13 +5172,14 @@
 	prf:hasPostalCode "28022" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/SAN+BLAS-CANILLEJAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA ARCENTALES" .
 
 <http://www.wifipointsmad.org/group06/resource/SAN+BLAS-CANILLEJAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2001937> .
 
-<http://www.wifipointsmad.org/group06/resource/MADRID> owl:sameAs <https://www.wikidata.org/wikiQ2807> ;
-	a prf:hasCIty .
+<http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
+	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
 
 <http://www.wifipointsmad.org/group06/resource/wifipoint/4533790> a prf:Wifipoint ;
 	prf:hasName "Oficina de Atención a la Ciudadanía. (OAC) Línea Madrid. Distrito de Tetuán" ;
@@ -5023,7 +5201,8 @@
 	prf:hasPostalCode "28029" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/TETUAN> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE SIMANCAS" .
 
 <http://www.wifipointsmad.org/group06/resource/TETUAN> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1773540> .
@@ -5051,7 +5230,8 @@
 	prf:hasPostalCode "28026" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/USERA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "AVENIDA RAFAELA YBARRA" .
 
 <http://www.wifipointsmad.org/group06/resource/USERA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ953368> .
@@ -5070,8 +5250,8 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-180> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/VICALVARO-180> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-180> geo:lat "40.402270479784896"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-180> a prf:Coordinates ;
+	geo:lat "40.402270479784896"^^xsd:double ;
 	geo:long "-3.6059845330840714"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/VICALVARO-180> a prf:Address ;
@@ -5079,10 +5259,11 @@
 	prf:hasPostalCode "28032" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VICALVARO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PLAZA DON ANTONIO DE ANDRES" .
 
-<http://www.wifipointsmad.org/group06/resource/VICALVARO> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ589403> .
+<http://www.wifipointsmad.org/group06/resource/VICALVARO> owl:sameAs <https://www.wikidata.org/wikiQ589403> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -5107,7 +5288,8 @@
 	prf:hasPostalCode "28031" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VILLA+DE+VALLECAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PASEO FEDERICO GARCIA LORCA" .
 
 <http://www.wifipointsmad.org/group06/resource/VILLA+DE+VALLECAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1947988> .
@@ -5126,16 +5308,17 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-182> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/VILLAVERDE-182> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-182> geo:lat "40.348895848554626"^^xsd:double ;
-	geo:long "-3.71120030905872"^^xsd:double ;
-	a prf:Coordinates .
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-182> a prf:Coordinates ;
+	geo:lat "40.348895848554626"^^xsd:double ;
+	geo:long "-3.71120030905872"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/VILLAVERDE-182> a prf:Address ;
-	prf:hasNumber "53" ;
+<http://www.wifipointsmad.org/group06/resource/address/VILLAVERDE-182> prf:hasNumber "53" ;
+	a prf:Address ;
 	prf:hasPostalCode "28021" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VILLAVERDE> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE ARROYO BUENO" .
 
 <http://www.wifipointsmad.org/group06/resource/VILLAVERDE> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ919536> .
@@ -5154,8 +5337,8 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-183> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address%2FPUENTE+DE+VALLECAS-183> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-183> geo:lat "40.39786211392555"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-183> a prf:Coordinates ;
+	geo:lat "40.39786211392555"^^xsd:double ;
 	geo:long "-3.6670669926439974"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address%2FPUENTE+DE+VALLECAS-183> a prf:Address ;
@@ -5163,7 +5346,8 @@
 	prf:hasPostalCode "28038" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE MONTE OLIVETI" .
 
 <http://www.wifipointsmad.org/group06/resource/PUENTE+DE+VALLECAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2003054> .
@@ -5191,7 +5375,8 @@
 	prf:hasPostalCode "28050" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/HORTALEZA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE PRINCESA DE EBOLI" .
 
 <http://www.wifipointsmad.org/group06/resource/HORTALEZA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1928529> .
@@ -5219,7 +5404,8 @@
 	prf:hasPostalCode "28030" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/MORATALAZ> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE FUENTE CARRANTONA" .
 
 <http://www.wifipointsmad.org/group06/resource/MORATALAZ> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2076109> .
@@ -5247,7 +5433,8 @@
 	prf:hasPostalCode "28045" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/ARGANZUELA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE HIERRO" .
 
 <http://www.wifipointsmad.org/group06/resource/ARGANZUELA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2000929> .
@@ -5275,7 +5462,8 @@
 	prf:hasPostalCode "28003" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CHAMBERI> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE RAIMUNDO FERNANDEZ VILLAVERDE" .
 
 <http://www.wifipointsmad.org/group06/resource/CHAMBERI> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763370> .
@@ -5303,10 +5491,11 @@
 	prf:hasPostalCode "28043" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/HORTALEZA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE RAMON POWER" .
 
-<http://www.wifipointsmad.org/group06/resource/HORTALEZA> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ1928529> .
+<http://www.wifipointsmad.org/group06/resource/HORTALEZA> owl:sameAs <https://www.wikidata.org/wikiQ1928529> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -5331,7 +5520,8 @@
 	prf:hasPostalCode "28005" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/CENTRO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE SACRAMENTO" .
 
 <http://www.wifipointsmad.org/group06/resource/CENTRO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1763376> .
@@ -5351,16 +5541,17 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/ARGANZUELA-190> ;
 	prf:hasEmail "objetosperdidos@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-190> geo:long "-3.6938716039760795"^^xsd:double ;
-	a prf:Coordinates ;
-	geo:lat "40.39065926812701"^^xsd:double .
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-190> a prf:Coordinates ;
+	geo:lat "40.39065926812701"^^xsd:double ;
+	geo:long "-3.6938716039760795"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/ARGANZUELA-190> a prf:Address ;
 	prf:hasNumber "7" ;
 	prf:hasPostalCode "28045" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/ARGANZUELA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PASEO MOLINO" .
 
 <http://www.wifipointsmad.org/group06/resource/ARGANZUELA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2000929> .
@@ -5382,14 +5573,16 @@
 	geo:lat "40.40039462478583"^^xsd:double ;
 	geo:long "-3.68842123426747"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/ARGANZUELA-191> prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/ARGANZUELA> ;
+<http://www.wifipointsmad.org/group06/resource/address/ARGANZUELA-191> a prf:Address ;
 	prf:hasNumber "16" ;
 	prf:hasPostalCode "28045" ;
-	a prf:Address ;
-	prf:hasCity "MADRID" , <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity "MADRID" ;
+	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/ARGANZUELA> ;
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE BUSTAMANTE" .
 
-<http://www.wifipointsmad.org/group06/resource/ARGANZUELA> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ2000929> .
+<http://www.wifipointsmad.org/group06/resource/ARGANZUELA> owl:sameAs <https://www.wikidata.org/wikiQ2000929> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -5403,15 +5596,16 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-192> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/RETIRO-192> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-192> geo:long "-3.676499075231239"^^xsd:double ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-192> a prf:Coordinates ;
 	geo:lat "40.41250110617827"^^xsd:double ;
-	a prf:Coordinates .
+	geo:long "-3.676499075231239"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/RETIRO-192> a prf:Address ;
 	prf:hasPostalCode "28009" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/RETIRO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "PASEO URUGUAY" .
 
 <http://www.wifipointsmad.org/group06/resource/RETIRO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2002296> .
@@ -5431,8 +5625,8 @@
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/HORTALEZA-193> ;
 	prf:hasEmail "csscarenal@madrid.es" .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-193> geo:lat "40.47612370683221"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-193> a prf:Coordinates ;
+	geo:lat "40.47612370683221"^^xsd:double ;
 	geo:long "-3.6639006166974073"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/HORTALEZA-193> a prf:Address ;
@@ -5440,7 +5634,8 @@
 	prf:hasPostalCode "28033" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/HORTALEZA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE VELEZ RUBIO" .
 
 <http://www.wifipointsmad.org/group06/resource/HORTALEZA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1928529> .
@@ -5449,8 +5644,8 @@
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
 
 <http://www.wifipointsmad.org/group06/resource/wifipoint/4814317> a prf:Wifipoint ;
-	prf:hasPhone "915 005 489" ;
 	prf:hasName "Sala de estudio Cánovas del Castillo (Usera)" ;
+	prf:hasPhone "915 005 489" ;
 	prf:hasPublicTransport "Metro: Almendrales (línea 3)  Bus: 47, 247, 6, 78, 18, 22, 59, 76, 79, 85, 86, 23, 123" ;
 	prf:hasSchedule "De lunes a viernes de 9 a 14 y de 15 a 21:30 horas.  Sábados de 9 a 14 horas.  Agosto cerrado.  San Isidro: de lunes a viernes de 9 a 14 y de 15 a 21:30 horas, s ábados de 9 a 14 horas." ;
 	prf:hasContentUrl <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b10c750b1c058110VgnVCM2000000c205a0aRCRD> ;
@@ -5467,7 +5662,8 @@
 	prf:hasPostalCode "28026" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/USERA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE JULIO AGUIRRE" .
 
 <http://www.wifipointsmad.org/group06/resource/USERA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ953368> .
@@ -5493,7 +5689,8 @@
 	prf:hasPostalCode "28032" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VICALVARO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE VILLARDONDIEGO" .
 
 <http://www.wifipointsmad.org/group06/resource/VICALVARO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ589403> .
@@ -5511,22 +5708,23 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-196> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/TETUAN-196> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-196> geo:lat "40.46527083469685"^^xsd:double ;
-	a prf:Coordinates ;
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-196> a prf:Coordinates ;
+	geo:lat "40.46527083469685"^^xsd:double ;
 	geo:long "-3.6940726509061683"^^xsd:double .
 
-<http://www.wifipointsmad.org/group06/resource/address/TETUAN-196> a prf:Address ;
-	prf:hasNumber "2" ;
+<http://www.wifipointsmad.org/group06/resource/address/TETUAN-196> prf:hasNumber "2" ;
+	a prf:Address ;
 	prf:hasPostalCode "28029" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/TETUAN> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE VIÑA VIRGEN" .
 
 <http://www.wifipointsmad.org/group06/resource/TETUAN> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ1773540> .
 
-<http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
-	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
+<http://www.wifipointsmad.org/group06/resource/MADRID> owl:sameAs <https://www.wikidata.org/wikiQ2807> ;
+	a prf:hasCIty .
 
 <http://www.wifipointsmad.org/group06/resource/wifipoint/10751094> a prf:Wifipoint ;
 	prf:hasName "Sala de estudio Motilla del Palancar (Hortaleza)" ;
@@ -5547,10 +5745,11 @@
 	prf:hasPostalCode "28043" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/HORTALEZA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE MOTILLA DEL PALANCAR" .
 
-<http://www.wifipointsmad.org/group06/resource/HORTALEZA> a prf:hasDistrict ;
-	owl:sameAs <https://www.wikidata.org/wikiQ1928529> .
+<http://www.wifipointsmad.org/group06/resource/HORTALEZA> owl:sameAs <https://www.wikidata.org/wikiQ1928529> ;
+	a prf:hasDistrict .
 
 <http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
 	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
@@ -5574,13 +5773,14 @@
 	prf:hasPostalCode "28042" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/BARAJAS> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE LOS PILARES" .
 
 <http://www.wifipointsmad.org/group06/resource/BARAJAS> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ807230> .
 
-<http://www.wifipointsmad.org/group06/resource/MADRID> a prf:hasCIty ;
-	owl:sameAs <https://www.wikidata.org/wikiQ2807> .
+<http://www.wifipointsmad.org/group06/resource/MADRID> owl:sameAs <https://www.wikidata.org/wikiQ2807> ;
+	a prf:hasCIty .
 
 <http://www.wifipointsmad.org/group06/resource/wifipoint/4815389> a prf:Wifipoint ;
 	prf:hasName "Sala de estudio Valdebernardo (Vicálvaro)" ;
@@ -5600,7 +5800,8 @@
 	prf:hasPostalCode "28032" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/VICALVARO> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "BULEVAR INDALECIO PRIETO" .
 
 <http://www.wifipointsmad.org/group06/resource/VICALVARO> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ589403> .
@@ -5627,7 +5828,8 @@
 	prf:hasPostalCode "28011" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/LATINA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE MARIA DEL CARMEN" .
 
 <http://www.wifipointsmad.org/group06/resource/LATINA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ794954> .
@@ -5645,16 +5847,17 @@
 	prf:hasCoordinates <http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-201> ;
 	prf:hasAddress <http://www.wifipointsmad.org/group06/resource/address/LATINA-201> .
 
-<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-201> geo:long "-3.7327010920242043"^^xsd:double ;
-	a prf:Coordinates ;
-	geo:lat "40.40647389284976"^^xsd:double .
+<http://www.wifipointsmad.org/group06/resource/coordinates/coordinates-201> a prf:Coordinates ;
+	geo:lat "40.40647389284976"^^xsd:double ;
+	geo:long "-3.7327010920242043"^^xsd:double .
 
 <http://www.wifipointsmad.org/group06/resource/address/LATINA-201> a prf:Address ;
 	prf:hasNumber "65" ;
 	prf:hasPostalCode "28011" ;
 	prf:hasCity "MADRID" ;
 	prf:hasDistrict <http://www.wifipointsmad.org/group06/resource/LATINA> ;
-	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> .
+	prf:hasCity <http://www.wifipointsmad.org/group06/resource/MADRID> ;
+	prf:hasSteet "CALLE MARIA DEL CARMEN" .
 
 <http://www.wifipointsmad.org/group06/resource/LATINA> a prf:hasDistrict ;
 	owl:sameAs <https://www.wikidata.org/wikiQ794954> .
