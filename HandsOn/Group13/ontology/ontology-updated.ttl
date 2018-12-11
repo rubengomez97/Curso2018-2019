@@ -16,10 +16,14 @@
 @prefix class: <http://www.aparcamientos-SER.org/clases#> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix km: <http://www.disit.org/km4city/schema#> .
+@base bs <https://datos.madrid.es/group12> .
+
 ###########################################
 # Object properties
 ###########################################
-property:has_address rdf:type owl:ObjectProperty .
+
+# https://datos.madrid.es/group12#hasAddress
+property:has_address rdf:type owl:ObjectProperty rdfs:domain :address .
 property:has_location rdf:type owl:ObjectProperty .
 property:has_barrio rdf:type owl:ObjectProperty .
 property:has_distrito rdf:type owl:ObjectProperty .
@@ -49,6 +53,3 @@ property:address km:otherStreetAddress rdf:type .
 property:latitud geo:lat rdf:type .
 property:longitud geo:long rdf:type .
 geo:SpatialThing rdf:type owl:Class .
-
-
-
