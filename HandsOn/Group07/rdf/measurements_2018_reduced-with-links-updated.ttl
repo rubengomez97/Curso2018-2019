@@ -1,4 +1,3 @@
-# Only a small part of the entries are included in this file (each of them includes approximately 65000 entries. Here only a few of them are represented). Furthermore, there is one ttl file for each year since 2004.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix property: <http://www.group07.linkeddata.org/property#> .
@@ -10,42 +9,92 @@
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
 
 
-<http://www.group07.linkeddata.org/individual/observation/28079004_2018-03-01_01_00_00> a ssn:Observation ;
-	sosa:resultTime "2018-03-01 01:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.group07.linkeddata.org/individual/observation#28079004_2018-03-01T01_00_00Z> a ssn:Observation ;
+	sosa:resultTime "2018-03-01T01:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 <http://www.group07.linkeddata.org/individual/station/28079004> a ssn:Sensor .
 
-<http://www.group07.linkeddata.org/individual/observation/28079004_2018-03-01_01_00_00> sosa:madeBySensor <http://www.group07.linkeddata.org/individual/station/28079004> .
+<http://www.group07.linkeddata.org/individual/observation#28079004_2018-03-01T01_00_00Z> sosa:madeBySensor <http://www.group07.linkeddata.org/individual/station/28079004> .
 
-<http://www.group07.linkeddata.org/individual/observableProperty/280790042018-03-01_01_00_00_CO> a sosa:ObservableProperty ;
+<http://www.group07.linkeddata.org/individual/observableProperty#280790042018-03-01T01_00_00Z_CO> a sosa:ObservableProperty ;
 	property:hasMetricValue "0.30000001192092896"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	property:hasUnit <http://purl.obolibrary.org/obo/UO_0000083> ;
 	property:hasSubstance dbpedia:Carbon_monoxide .
 
-<http://www.group07.linkeddata.org/individual/observation/28079004_2018-03-01_01_00_00> sosa:observedProperty <http://www.group07.linkeddata.org/individual/observableProperty/280790042018-03-01_01_00_00_CO> .
+<http://www.group07.linkeddata.org/individual/observation#28079004_2018-03-01T01_00_00Z> sosa:observedProperty <http://www.group07.linkeddata.org/individual/observableProperty#280790042018-03-01T01_00_00Z_CO> .
 
-<http://www.group07.linkeddata.org/individual/observableProperty/280790042018-03-01_01_00_00_NO> a sosa:ObservableProperty ;
+<http://www.group07.linkeddata.org/individual/observableProperty#280790042018-03-01T01_00_00Z_NO> a sosa:ObservableProperty ;
 	property:hasMetricValue "1.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	property:hasUnit <http://purl.obolibrary.org/obo/UO_0000083> ;
 	property:hasSubstance dbpedia:Nitrogen_oxide .
 
-<http://www.group07.linkeddata.org/individual/observation/28079004_2018-03-01_01_00_00> sosa:observedProperty <http://www.group07.linkeddata.org/individual/observableProperty/280790042018-03-01_01_00_00_NO> .
+<http://www.group07.linkeddata.org/individual/observation#28079004_2018-03-01T01_00_00Z> sosa:observedProperty <http://www.group07.linkeddata.org/individual/observableProperty#280790042018-03-01T01_00_00Z_NO> .
 
-<http://www.group07.linkeddata.org/individual/observableProperty/280790042018-03-01_01_00_00_NO_2> a sosa:ObservableProperty ;
+<http://www.group07.linkeddata.org/individual/observableProperty#280790042018-03-01T01_00_00Z_NO_2> a sosa:ObservableProperty ;
 	property:hasMetricValue "29.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	property:hasUnit <http://purl.obolibrary.org/obo/UO_0000083> ;
 	property:hasSubstance dbpedia:Nitrogen_dioxide .
 
-<http://www.group07.linkeddata.org/individual/observation/28079004_2018-03-01_01_00_00> sosa:observedProperty <http://www.group07.linkeddata.org/individual/observableProperty/280790042018-03-01_01_00_00_NO_2> .
+<http://www.group07.linkeddata.org/individual/observation#28079004_2018-03-01T01_00_00Z> sosa:observedProperty <http://www.group07.linkeddata.org/individual/observableProperty#280790042018-03-01T01_00_00Z_NO_2> .
 
-<http://www.group07.linkeddata.org/individual/observableProperty/280790042018-03-01_01_00_00_NOx> a sosa:ObservableProperty ;
+<http://www.group07.linkeddata.org/individual/observableProperty#280790042018-03-01T01_00_00Z_NOx> a sosa:ObservableProperty ;
 	property:hasMetricValue "31.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	property:hasUnit <http://purl.obolibrary.org/obo/UO_0000083> ;
 	property:hasSubstance dbpedia:Nitrous_oxide .
 
-<http://www.group07.linkeddata.org/individual/observation/28079004_2018-03-01_01_00_00> sosa:observedProperty <http://www.group07.linkeddata.org/individual/observableProperty/280790042018-03-01_01_00_00_NOx> .
+<http://www.group07.linkeddata.org/individual/observation#28079004_2018-03-01T01_00_00Z> sosa:observedProperty <http://www.group07.linkeddata.org/individual/observableProperty#280790042018-03-01T01_00_00Z_NOx> .
 
-<http://www.group07.linkeddata.org/individual/observableProperty/280790042018-03-01_01_00_00_SO_2> a sosa:ObservableProperty ;
+<http://www.group07.linkeddata.org/individual/observableProperty#280790042018-03-01T01_00_00Z_SO_2> a sosa:ObservableProperty ;
 	property:hasMetricValue "2.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	property:hasUnit <http://purl.obolibrary.org/obo/UO_0000083> ;
 	property:hasSubstance dbpedia:Sulfur_dioxide .
+
+<http://www.group07.linkeddata.org/individual/observation#28079004_2018-03-01T01_00_00Z> sosa:observedProperty <http://www.group07.linkeddata.org/individual/observableProperty#280790042018-03-01T01_00_00Z_SO_2> .
+
+<http://www.group07.linkeddata.org/individual/observation#28079008_2018-03-01T01_00_00Z> a ssn:Observation ;
+	sosa:resultTime "2018-03-01T01:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://www.group07.linkeddata.org/individual/station/28079008> a ssn:Sensor .
+
+<http://www.group07.linkeddata.org/individual/observation#28079008_2018-03-01T01_00_00Z> sosa:madeBySensor <http://www.group07.linkeddata.org/individual/station/28079008> .
+
+<http://www.group07.linkeddata.org/individual/observableProperty#280790082018-03-01T01_00_00Z_BEN> a sosa:ObservableProperty ;
+	property:hasMetricValue "0.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	property:hasUnit <http://purl.obolibrary.org/obo/UO_0000083> ;
+	property:hasSubstance dbpedia:Benzene .
+
+<http://www.group07.linkeddata.org/individual/observation#28079008_2018-03-01T01_00_00Z> sosa:observedProperty <http://www.group07.linkeddata.org/individual/observableProperty#280790082018-03-01T01_00_00Z_BEN> .
+
+<http://www.group07.linkeddata.org/individual/observableProperty#280790082018-03-01T01_00_00Z_CH4> a sosa:ObservableProperty ;
+	property:hasMetricValue "1.3899999856948853"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	property:hasUnit <http://purl.obolibrary.org/obo/UO_0000083> ;
+	property:hasSubstance dbpedia:Methane .
+
+<http://www.group07.linkeddata.org/individual/observation#28079008_2018-03-01T01_00_00Z> sosa:observedProperty <http://www.group07.linkeddata.org/individual/observableProperty#280790082018-03-01T01_00_00Z_CH4> .
+
+<http://www.group07.linkeddata.org/individual/observableProperty#280790082018-03-01T01_00_00Z_CO> a sosa:ObservableProperty ;
+	property:hasMetricValue "0.30000001192092896"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	property:hasUnit <http://purl.obolibrary.org/obo/UO_0000083> ;
+	property:hasSubstance dbpedia:Carbon_monoxide .
+
+<http://www.group07.linkeddata.org/individual/observation#28079008_2018-03-01T01_00_00Z> sosa:observedProperty <http://www.group07.linkeddata.org/individual/observableProperty#280790082018-03-01T01_00_00Z_CO> .
+
+<http://www.group07.linkeddata.org/individual/observableProperty#280790082018-03-01T01_00_00Z_EBE> a sosa:ObservableProperty ;
+	property:hasMetricValue "0.20000000298023224"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	property:hasUnit <http://purl.obolibrary.org/obo/UO_0000083> ;
+	property:hasSubstance dbpedia:Ethyl_benzene .
+
+<http://www.group07.linkeddata.org/individual/observation#28079008_2018-03-01T01_00_00Z> sosa:observedProperty <http://www.group07.linkeddata.org/individual/observableProperty#280790082018-03-01T01_00_00Z_EBE> .
+
+<http://www.group07.linkeddata.org/individual/observableProperty#280790082018-03-01T01_00_00Z_NO> a sosa:ObservableProperty ;
+	property:hasMetricValue "6.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	property:hasUnit <http://purl.obolibrary.org/obo/UO_0000083> ;
+	property:hasSubstance dbpedia:Nitrogen_oxide .
+
+<http://www.group07.linkeddata.org/individual/observation#28079008_2018-03-01T01_00_00Z> sosa:observedProperty <http://www.group07.linkeddata.org/individual/observableProperty#280790082018-03-01T01_00_00Z_NO> .
+
+<http://www.group07.linkeddata.org/individual/observableProperty#280790082018-03-01T01_00_00Z_NO_2> a sosa:ObservableProperty ;
+	property:hasMetricValue "40.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	property:hasUnit <http://purl.obolibrary.org/obo/UO_0000083> ;
+	property:hasSubstance dbpedia:Nitrogen_dioxide .
+
