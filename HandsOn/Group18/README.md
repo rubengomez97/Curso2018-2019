@@ -14,8 +14,6 @@ https://datos.madrid.es/portal/site/egob/menuitem.3efdb29b813ad8241e830cc2a8a409
 
 # Dataset analysis
 
-## Air Pollution
-
 | ColName        | Type    | Example Value | Comment                     |
 |----------------|---------|---------------|-----------------------------|
 | PROVINCIA      | integer | 28            | Province                    |
@@ -39,4 +37,4 @@ https://datos.madrid.es/FWProjects/egob/Catalogo/MedioAmbiente/Aire/Ficheros/Int
 | Ontological terms path    | `http://group18.data/ontology/Pollution#                       ` |
 | Individual paths          | `http://group18.data/resources/                                ` |
 | Ontological terms pattern | `http://group18.data/ontology/Pollution#<term-name>            ` |
-| Indivudual patter         | `http://group18.data/resources/<resource-type>/<resource-name> ` |
+| Indivudual pattern        | `http://group18.data/resources/<resource-type>/<resource-name> ` |

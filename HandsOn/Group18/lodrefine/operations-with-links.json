@@ -1,0 +1,3847 @@
+[
+  {
+    "op": "core/column-addition",
+    "description": "Create column Fecha at index 8 based on column DIA using expression grel:cells[\"DIA\"].value + \"/\" + cells[\"MES\"].value + \"/\" + cells[\"ANO\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Fecha",
+    "columnInsertIndex": 8,
+    "baseColumnName": "DIA",
+    "expression": "grel:cells[\"DIA\"].value + \"/\" + cells[\"MES\"].value + \"/\" + cells[\"ANO\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Fecha using expression value.toDate()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Fecha",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DIA",
+    "columnName": "DIA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MES",
+    "columnName": "MES"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ANO",
+    "columnName": "ANO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PROVINCIA",
+    "columnName": "PROVINCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MUNICIPIO",
+    "columnName": "MUNICIPIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ESTACION",
+    "columnName": "ESTACION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MAGNITUD",
+    "columnName": "MAGNITUD"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column PUNTO_MUESTREO by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "_",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column PUNTO_MUESTREO 2 to MAGNITUD",
+    "oldColumnName": "PUNTO_MUESTREO 2",
+    "newColumnName": "MAGNITUD"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column PUNTO_MUESTREO 3 to TÉCNICA_DE_MEDIDA",
+    "oldColumnName": "PUNTO_MUESTREO 3",
+    "newColumnName": "TÉCNICA_DE_MEDIDA"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression value.toString()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": 28079056,
+                "l": "28079056"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO 1",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO 1"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression value.toString()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:substring(value, 6)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:substring(value, 6)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"04\", \"Plaza de España\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"04\", \"Plaza de España\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"08\", \"Escuelas Aguirre\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"08\", \"Escuelas Aguirre\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"11\", \"Avenida Ramón y Cajal\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"11\", \"Avenida Ramón y Cajal\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"16\", \"Arturo Soria\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"16\", \"Arturo Soria\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"17\", \"Villaverde Alto\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"17\", \"Villaverde Alto\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"18\", \"Calle Farolillo\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"18\", \"Calle Farolillo\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"24\", \"Casa de Campo\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"24\", \"Casa de Campo\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"27\", \"Barajas\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"27\", \"Barajas\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"35\", \"Plaza del Carmen\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"35\", \"Plaza del Carmen\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"36\", \"Moratalaz\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"36\", \"Moratalaz\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"38\", \"Cuatro Caminos\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"38\", \"Cuatro Caminos\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"39\", \"Barrio del Pilar\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"39\", \"Barrio del Pilar\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"40\", \"Vallecas\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"40\", \"Vallecas\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"47\", \"Méndez Álvaro\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"47\", \"Méndez Álvaro\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"48\", \"Paseo de la Castellana\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"48\", \"Paseo de la Castellana\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"49\", \"Retiro\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"49\", \"Retiro\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"50\", \"Plaza Castilla\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"50\", \"Plaza Castilla\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"54\", \"Ensanche Vallecas\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"54\", \"Ensanche Vallecas\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"55\", \"Urbanización Embajada (Barajas)\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"55\", \"Urbanización Embajada (Barajas)\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"56\", \"Plaza de Fernández Ladreda\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"56\", \"Plaza de Fernández Ladreda\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"57\", \"Sanchinarro\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"57\", \"Sanchinarro\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"58\", \"El Pardo\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"58\", \"El Pardo\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"59\", \"Parque Juan Carlos I\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"59\", \"Parque Juan Carlos I\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PUNTO_MUESTREO 1 using expression grel:if(value==\"60\", \"Tres Olivos\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO 1",
+    "expression": "grel:if(value==\"60\", \"Tres Olivos\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression value.toString()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"1\", \"Dióxido de Azufre\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"1\", \"Dióxido de Azufre\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"10\", \"Partículas  < 10 µm\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"10\", \"Partículas  < 10 µm\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"12\", \"Óxidos de Nitrógeno\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"12\", \"Óxidos de Nitrógeno\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"14\", \"Ozono\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"14\", \"Ozono\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"20\", \"Tolueno\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"20\", \"Tolueno\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"30\", \"Benceno\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"30\", \"Benceno\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"35\", \"Etilbenceno\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"35\", \"Etilbenceno\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"42\", \"Hidrocarburos totales (hexano)\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"42\", \"Hidrocarburos totales (hexano)\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"43\", \"Metano\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"43\", \"Metano\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"44\", \"Hidrocarburos no metánicos (hexano)\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"44\", \"Hidrocarburos no metánicos (hexano)\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"6\", \"Monóxido de Carbono\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"6\", \"Monóxido de Carbono\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"7\", \"Monóxido de Nitrógeno\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"7\", \"Monóxido de Nitrógeno\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"8\", \"Dióxido de Nitrógeno\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"8\", \"Dióxido de Nitrógeno\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAGNITUD using expression grel:if(value==\"9\", \"Partículas  < 2.5 µm\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:if(value==\"9\", \"Partículas  < 2.5 µm\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TÉCNICA_DE_MEDIDA using expression value.toString()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TÉCNICA_DE_MEDIDA using expression grel:if(value==\"2\", \"Ionización de llama\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "expression": "grel:if(value==\"2\", \"Ionización de llama\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TÉCNICA_DE_MEDIDA using expression grel:if(value==\"38\", \"Fluorescencia ultravioleta\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "expression": "grel:if(value==\"38\", \"Fluorescencia ultravioleta\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TÉCNICA_DE_MEDIDA using expression grel:if(value==\"47\", \"Microbalanza\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "expression": "grel:if(value==\"47\", \"Microbalanza\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TÉCNICA_DE_MEDIDA using expression grel:if(value==\"48\", \"Absorción infrarroja\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "expression": "grel:if(value==\"48\", \"Absorción infrarroja\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TÉCNICA_DE_MEDIDA using expression grel:if(value==\"59\", \"Cromatografía de gases\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "expression": "grel:if(value==\"59\", \"Cromatografía de gases\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TÉCNICA_DE_MEDIDA using expression grel:if(value==\"6\", \"Absorción ultravioleta\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "expression": "grel:if(value==\"6\", \"Absorción ultravioleta\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TÉCNICA_DE_MEDIDA using expression grel:if(value==\"8\", \"Quimioluminiscencia\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "expression": "grel:if(value==\"8\", \"Quimioluminiscencia\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H01 using expression grel:if(cells[\"V01\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H01",
+    "expression": "grel:if(cells[\"V01\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V01",
+    "columnName": "V01"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H02 using expression grel:if(cells[\"V02\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H02",
+    "expression": "grel:if(cells[\"V02\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V02",
+    "columnName": "V02"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H03 using expression grel:if(cells[\"V03\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H03",
+    "expression": "grel:if(cells[\"V03\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V03",
+    "columnName": "V03"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H04 using expression grel:if(cells[\"V04\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H04",
+    "expression": "grel:if(cells[\"V04\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V04",
+    "columnName": "V04"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H05 using expression grel:if(cells[\"V05\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H05",
+    "expression": "grel:if(cells[\"V05\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V05",
+    "columnName": "V05"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H06 using expression grel:if(cells[\"V06\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H06",
+    "expression": "grel:if(cells[\"V06\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V06",
+    "columnName": "V06"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H07 using expression grel:if(cells[\"V07\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H07",
+    "expression": "grel:if(cells[\"V07\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V07",
+    "columnName": "V07"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H08 using expression grel:if(cells[\"V08\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H08",
+    "expression": "grel:if(cells[\"V08\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V08",
+    "columnName": "V08"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H09 using expression grel:if(cells[\"V09\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H09",
+    "expression": "grel:if(cells[\"V09\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V09",
+    "columnName": "V09"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H10 using expression grel:if(cells[\"V10\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H10",
+    "expression": "grel:if(cells[\"V10\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V10",
+    "columnName": "V10"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H11 using expression grel:if(cells[\"V11\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H11",
+    "expression": "grel:if(cells[\"V11\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V11",
+    "columnName": "V11"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H12 using expression grel:if(cells[\"V12\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H12",
+    "expression": "grel:if(cells[\"V12\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V12",
+    "columnName": "V12"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H13 using expression grel:if(cells[\"V13\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H13",
+    "expression": "grel:if(cells[\"V13\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V13",
+    "columnName": "V13"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H14 using expression grel:if(cells[\"V14\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H14",
+    "expression": "grel:if(cells[\"V14\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V14",
+    "columnName": "V14"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H15 using expression grel:if(cells[\"V15\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H15",
+    "expression": "grel:if(cells[\"V15\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V15",
+    "columnName": "V15"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H16 using expression grel:if(cells[\"V16\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H16",
+    "expression": "grel:if(cells[\"V16\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V16",
+    "columnName": "V16"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H17 using expression grel:if(cells[\"V17\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H17",
+    "expression": "grel:if(cells[\"V17\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V17",
+    "columnName": "V17"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H18 using expression grel:if(cells[\"V18\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H18",
+    "expression": "grel:if(cells[\"V18\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V18",
+    "columnName": "V18"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H19 using expression grel:if(cells[\"V19\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H19",
+    "expression": "grel:if(cells[\"V19\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V19",
+    "columnName": "V19"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H20 using expression grel:if(cells[\"V20\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H20",
+    "expression": "grel:if(cells[\"V20\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V20",
+    "columnName": "V20"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H21 using expression grel:if(cells[\"V21\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H21",
+    "expression": "grel:if(cells[\"V21\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V21",
+    "columnName": "V21"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H22 using expression grel:if(cells[\"V22\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H22",
+    "expression": "grel:if(cells[\"V22\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V22",
+    "columnName": "V22"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H23 using expression grel:if(cells[\"V23\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H23",
+    "expression": "grel:if(cells[\"V23\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V23",
+    "columnName": "V23"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column H24 using expression grel:if(cells[\"V24\"].value==\"N\", \"\", value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "H24",
+    "expression": "grel:if(cells[\"V24\"].value==\"N\", \"\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V24",
+    "columnName": "V24"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column PUNTO_MUESTREO 1 to PUNTO_MUESTREO",
+    "oldColumnName": "PUNTO_MUESTREO 1",
+    "newColumnName": "PUNTO_MUESTREO"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://group18.data/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://group18.data/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://group18.data/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PUNTO_MUESTREO",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/PuntoDeMuestreo",
+              "curie": "http://group18.data/PuntoDeMuestreo"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "MAGNITUD",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Magnitud",
+              "curie": "http://group18.data/Magnitud"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "TÉCNICA_DE_MEDIDA",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/TecnicaDeMedida",
+              "curie": "http://group18.data/TecnicaDeMedida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-literal",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "columnName": "Fecha"
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H01",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H02",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H03",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H04",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H05",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H06",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H07",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H08",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H09",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H10",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H11",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H12",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H13",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H14",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H15",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H16",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H17",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H18",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H19",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H20",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H21",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H22",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H23",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H24",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column PUNTO_MUESTREO to type http://dbpedia.org/ontology/Location",
+    "columnName": "PUNTO_MUESTREO",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Location",
+        "name": "dbo:Location"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Plaza de España (http://dbpedia.org/resource/Plaza_de_España) for cells containing \"Plaza de España\" in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "similarValue": "Plaza de España",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Plaza_de_España",
+      "name": "Plaza de España",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Escuelas Aguirre (http://dbpedia.org/resource/Aguirre_School) for cells containing \"Escuelas Aguirre\" in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "similarValue": "Escuelas Aguirre",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Aguirre_School",
+      "name": "Escuelas Aguirre",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Avenida Ramón y Cajal\" in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "similarValue": "Avenida Ramón y Cajal",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Villaverde Alto (http://dbpedia.org/resource/Villaverde_Alto) for cells containing \"Villaverde Alto\" in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "similarValue": "Villaverde Alto",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Villaverde_Alto",
+      "name": "Villaverde Alto",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Calle Farolillo\" in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "similarValue": "Calle Farolillo",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Casa de Campo (Madrid) (http://dbpedia.org/resource/Casa_de_Campo_(Madrid)) for cells containing \"Casa de Campo\" in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "similarValue": "Casa de Campo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Casa_de_Campo_(Madrid)",
+      "name": "Casa de Campo (Madrid)",
+      "score": 0.5909091234207153,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Barajas (Madrid) (http://dbpedia.org/resource/Barajas_(Madrid)) for cells containing \"Barajas\" in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "similarValue": "Barajas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Barajas_(Madrid)",
+      "name": "Barajas (Madrid)",
+      "score": 0.4375,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Plaza del Carmen (Madrid) (http://www.wikidata.org/entity/Q6080406) for cells containing \"Plaza del Carmen\" in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "similarValue": "Plaza del Carmen",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q6080406",
+      "name": "Plaza del Carmen (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Cuatro Caminos (Madrid) (http://dbpedia.org/resource/Cuatro_Caminos_(Madrid)) for cells containing \"Cuatro Caminos\" in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "similarValue": "Cuatro Caminos",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Cuatro_Caminos_(Madrid)",
+      "name": "Cuatro Caminos (Madrid)",
+      "score": 0.6086956262588501,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Barrio del Pilar (http://dbpedia.org/resource/Barrio_del_Pilar) for cells containing \"Barrio del Pilar\" in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "similarValue": "Barrio del Pilar",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Barrio_del_Pilar",
+      "name": "Barrio del Pilar",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Vallecas (http://dbpedia.org/resource/Vallecas) for cells containing \"Vallecas\" in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "similarValue": "Vallecas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Vallecas",
+      "name": "Vallecas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Méndez Álvaro (metropolitana di Madrid) (http://dbpedia.org/resource/Méndez_Álvaro_(Madrid_Metro)) for cells containing \"Méndez Álvaro\" in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "similarValue": "Méndez Álvaro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Méndez_Álvaro_(Madrid_Metro)",
+      "name": "Méndez Álvaro (metropolitana di Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Paseo de la Castellana (http://dbpedia.org/resource/Paseo_de_la_Castellana) for cells containing \"Paseo de la Castellana\" in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "similarValue": "Paseo de la Castellana",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Paseo_de_la_Castellana",
+      "name": "Paseo de la Castellana",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Retiro (Madrid) (http://dbpedia.org/resource/Retiro_(Madrid)) for cells containing \"Retiro\" in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "similarValue": "Retiro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Retiro_(Madrid)",
+      "name": "Retiro (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Plaza Castilla (http://www.wikidata.org/entity/Q3813735) for cells containing \"Plaza Castilla\" in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "similarValue": "Plaza Castilla",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q3813735",
+      "name": "Plaza Castilla",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ensanche de Vallecas (http://www.wikidata.org/entity/Q3847485) for cells containing \"Ensanche Vallecas\" in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "similarValue": "Ensanche Vallecas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q3847485",
+      "name": "Ensanche de Vallecas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Alameda de Osuna (http://dbpedia.org/resource/Alameda_de_Osuna) for cells containing \"Urbanización Embajada (Barajas)\" in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "similarValue": "Urbanización Embajada (Barajas)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Alameda_de_Osuna",
+      "name": "Alameda de Osuna",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Plaza Elíptica (metropolitana di Madrid) (http://dbpedia.org/resource/Plaza_Elíptica_(Madrid_Metro)) for cells containing \"Plaza de Fernández Ladreda\" in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "similarValue": "Plaza de Fernández Ladreda",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Plaza_Elíptica_(Madrid_Metro)",
+      "name": "Plaza Elíptica (metropolitana di Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Sanchinarro (http://www.wikidata.org/entity/Q3076623) for cells containing \"Sanchinarro\" in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "similarValue": "Sanchinarro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q3076623",
+      "name": "Sanchinarro",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic El Pardo (Madrid) (http://dbpedia.org/resource/El_Pardo) for cells containing \"El Pardo\" in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PUNTO_MUESTREO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PUNTO_MUESTREO"
+        }
+      ]
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "similarValue": "El Pardo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/El_Pardo",
+      "name": "El Pardo (Madrid)",
+      "score": 0.47058820724487305,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column MAGNITUD to type http://www.wikidata.org/entity/Q11173",
+    "columnName": "MAGNITUD",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.wikidata.org/entity/Q11173",
+        "name": "http://www.wikidata.org/entity/Q11173"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Dióxido de azufre (http://dbpedia.org/resource/Sulfur_dioxide) for cells containing \"Dióxido de Azufre\" in column MAGNITUD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD",
+    "similarValue": "Dióxido de Azufre",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Sulfur_dioxide",
+      "name": "Dióxido de azufre",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Monóxido de carbono (http://dbpedia.org/resource/Carbon_monoxide) for cells containing \"Monóxido de Carbono\" in column MAGNITUD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MAGNITUD: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MAGNITUD"
+        }
+      ]
+    },
+    "columnName": "MAGNITUD",
+    "similarValue": "Monóxido de Carbono",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Carbon_monoxide",
+      "name": "Monóxido de carbono",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Óxido de nitrógeno (II) (http://dbpedia.org/resource/Nitric_oxide) for cells containing \"Monóxido de Nitrógeno\" in column MAGNITUD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MAGNITUD: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MAGNITUD"
+        }
+      ]
+    },
+    "columnName": "MAGNITUD",
+    "similarValue": "Monóxido de Nitrógeno",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Nitric_oxide",
+      "name": "Óxido de nitrógeno (II)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Dióxido de nitrógeno (http://dbpedia.org/resource/Nitrogen_dioxide) for cells containing \"Dióxido de Nitrógeno\" in column MAGNITUD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MAGNITUD: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MAGNITUD"
+        }
+      ]
+    },
+    "columnName": "MAGNITUD",
+    "similarValue": "Dióxido de Nitrógeno",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Nitrogen_dioxide",
+      "name": "Dióxido de nitrógeno",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Óxidos de nitrógeno (http://dbpedia.org/resource/Nitrogen_oxide) for cells containing \"Óxidos de Nitrógeno\" in column MAGNITUD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MAGNITUD: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MAGNITUD"
+        }
+      ]
+    },
+    "columnName": "MAGNITUD",
+    "similarValue": "Óxidos de Nitrógeno",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Nitrogen_oxide",
+      "name": "Óxidos de nitrógeno",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Partículas  < 2.5 µm\" in column MAGNITUD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MAGNITUD: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MAGNITUD"
+        }
+      ]
+    },
+    "columnName": "MAGNITUD",
+    "similarValue": "Partículas  < 2.5 µm",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Partículas  < 10 µm\" in column MAGNITUD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MAGNITUD: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MAGNITUD"
+        }
+      ]
+    },
+    "columnName": "MAGNITUD",
+    "similarValue": "Partículas  < 10 µm",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ozono (http://dbpedia.org/resource/Ozone) for cells containing \"Ozono\" in column MAGNITUD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MAGNITUD: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MAGNITUD"
+        }
+      ]
+    },
+    "columnName": "MAGNITUD",
+    "similarValue": "Ozono",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Ozone",
+      "name": "Ozono",
+      "score": 1,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Tolueno (http://dbpedia.org/resource/Toluene) for cells containing \"Tolueno\" in column MAGNITUD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MAGNITUD: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MAGNITUD"
+        }
+      ]
+    },
+    "columnName": "MAGNITUD",
+    "similarValue": "Tolueno",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Toluene",
+      "name": "Tolueno",
+      "score": 1,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Benceno (http://dbpedia.org/resource/Benzene) for cells containing \"Benceno\" in column MAGNITUD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MAGNITUD: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MAGNITUD"
+        }
+      ]
+    },
+    "columnName": "MAGNITUD",
+    "similarValue": "Benceno",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Benzene",
+      "name": "Benceno",
+      "score": 1,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Etilbenceno (http://dbpedia.org/resource/Ethylbenzene) for cells containing \"Etilbenceno\" in column MAGNITUD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MAGNITUD: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MAGNITUD"
+        }
+      ]
+    },
+    "columnName": "MAGNITUD",
+    "similarValue": "Etilbenceno",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Ethylbenzene",
+      "name": "Etilbenceno",
+      "score": 1,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Hexano (http://dbpedia.org/resource/Hexane) for cells containing \"Hidrocarburos totales (hexano)\" in column MAGNITUD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MAGNITUD: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MAGNITUD"
+        }
+      ]
+    },
+    "columnName": "MAGNITUD",
+    "similarValue": "Hidrocarburos totales (hexano)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Hexane",
+      "name": "Hexano",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Metano (http://dbpedia.org/resource/Methane) for cells containing \"Metano\" in column MAGNITUD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MAGNITUD: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MAGNITUD"
+        }
+      ]
+    },
+    "columnName": "MAGNITUD",
+    "similarValue": "Metano",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Methane",
+      "name": "Metano",
+      "score": 1,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Hexano (http://dbpedia.org/resource/Hexane) for cells containing \"Hidrocarburos no metánicos (hexano)\" in column MAGNITUD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MAGNITUD: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MAGNITUD"
+        }
+      ]
+    },
+    "columnName": "MAGNITUD",
+    "similarValue": "Hidrocarburos no metánicos (hexano)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Hexane",
+      "name": "Hexano",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column TÉCNICA_DE_MEDIDA to type http://www.wikidata.org/ontology#Item",
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.wikidata.org/ontology#Item",
+        "name": "http://www.wikidata.org/ontology#Item"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Fluorescencia ultravioleta\" in column TÉCNICA_DE_MEDIDA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "similarValue": "Fluorescencia ultravioleta",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Absorción infrarroja\" in column TÉCNICA_DE_MEDIDA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TÉCNICA_DE_MEDIDA: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TÉCNICA_DE_MEDIDA"
+        }
+      ]
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "similarValue": "Absorción infrarroja",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Microbalanza de cristal de cuarzo (http://www.wikidata.org/entity/Q629569) for cells containing \"Microbalanza\" in column TÉCNICA_DE_MEDIDA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TÉCNICA_DE_MEDIDA: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TÉCNICA_DE_MEDIDA"
+        }
+      ]
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "similarValue": "Microbalanza",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q629569",
+      "name": "Microbalanza de cristal de cuarzo",
+      "score": 0.3636363744735718,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Absorción ultravioleta\" in column TÉCNICA_DE_MEDIDA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TÉCNICA_DE_MEDIDA: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TÉCNICA_DE_MEDIDA"
+        }
+      ]
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "similarValue": "Absorción ultravioleta",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Cromatografía de gases (http://dbpedia.org/resource/Gas_chromatography) for cells containing \"Cromatografía de gases\" in column TÉCNICA_DE_MEDIDA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TÉCNICA_DE_MEDIDA: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TÉCNICA_DE_MEDIDA"
+        }
+      ]
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "similarValue": "Cromatografía de gases",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Gas_chromatography",
+      "name": "Cromatografía de gases",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Detector de ionización de llama (http://dbpedia.org/resource/Flame_ionization_detector) for cells containing \"Ionización de llama\" in column TÉCNICA_DE_MEDIDA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TÉCNICA_DE_MEDIDA: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TÉCNICA_DE_MEDIDA"
+        }
+      ]
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA",
+    "similarValue": "Ionización de llama",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Flame_ionization_detector",
+      "name": "Detector de ionización de llama",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://group18.data/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PUNTO_MUESTREO",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/PuntoDeMuestreo",
+              "curie": "http://group18.data/PuntoDeMuestreo"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H01"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H02"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H03"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H04"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H05"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H06"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H07"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H08"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H09"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H10"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H11"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H12"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H13"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H14"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H15"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H16"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H17"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H18"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H19"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H20"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H21"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H22"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H23"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "H24"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "MAGNITUD",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Magnitud",
+              "curie": "http://group18.data/Magnitud"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "TÉCNICA_DE_MEDIDA",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/TecnicaDeMedida",
+              "curie": "http://group18.data/TecnicaDeMedida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-literal",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "columnName": "Fecha"
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H01",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H02",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H03",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H04",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H05",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H06",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H07",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H08",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H09",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H10",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H11",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H12",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H13",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H14",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H15",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H16",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H17",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H18",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H19",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H20",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H21",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H22",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H23",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "H24",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Medida",
+              "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  }
+]
