@@ -13,19 +13,6 @@
     "onError": "set-to-blank"
   },
   {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Fecha using expression value.toDate()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Fecha",
-    "expression": "value.toDate()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
     "op": "core/column-removal",
     "description": "Remove column DIA",
     "columnName": "DIA"
@@ -1196,44 +1183,85 @@
     "newColumnName": "PUNTO_MUESTREO"
   },
   {
-    "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
-    "schema": {
-      "baseUri": "http://group18.data/",
-      "prefixes": [
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        }
-      ],
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
-          "rdfTypes": [],
-          "links": []
-        }
-      ]
-    }
+    "op": "core/transpose-columns-into-rows",
+    "description": "Transpose cells in columns starting with H01 into rows in two new columns named Hora and Medida",
+    "startColumnName": "H01",
+    "columnCount": -1,
+    "ignoreBlankCells": true,
+    "fillDown": false,
+    "keyColumnName": "Hora",
+    "valueColumnName": "Medida"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column MAGNITUD",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column TÉCNICA_DE_MEDIDA",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column Fecha",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "Fecha"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Fecha y hora at index 4 based on column Fecha using expression grel:(value + \" \" + substring(cells[\"Hora\"].value, 1)+\":00:00\").toDate('d/M/y H:m:s')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "newColumnName": "Fecha y hora",
+    "columnInsertIndex": 4,
+    "baseColumnName": "Fecha",
+    "expression": "grel:(value + \" \" + substring(cells[\"Hora\"].value, 1)+\":00:00\").toDate('d/M/y H:m:s')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Fecha",
+    "columnName": "Fecha"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Hora",
+    "columnName": "Hora"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Fecha y hora to Fecha",
+    "oldColumnName": "Fecha y hora",
+    "newColumnName": "Fecha"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
     "description": "Save RDF schema skeleton",
     "schema": {
-      "baseUri": "http://group18.data/",
+      "baseUri": "http://localhost:3333/",
       "prefixes": [
         {
           "name": "rdf",
@@ -1244,38 +1272,8 @@
           "uri": "http://www.w3.org/2002/07/owl#"
         },
         {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        }
-      ],
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
-          "rdfTypes": [],
-          "links": []
-        }
-      ]
-    }
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
-    "schema": {
-      "baseUri": "http://group18.data/",
-      "prefixes": [
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
         },
         {
           "name": "rdfs",
@@ -1294,11 +1292,22 @@
           "columnName": "PUNTO_MUESTREO",
           "rdfTypes": [
             {
-              "uri": "http://group18.data/PuntoDeMuestreo",
-              "curie": "http://group18.data/PuntoDeMuestreo"
+              "uri": "http://group18.data/puntoDeMuestreo",
+              "curie": "http://group18.data/puntoDeMuestreo"
             }
           ],
-          "links": []
+          "links": [
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Medida"
+              }
+            }
+          ]
         },
         {
           "nodeType": "cell-as-resource",
@@ -1320,28 +1329,8 @@
           "columnName": "TÉCNICA_DE_MEDIDA",
           "rdfTypes": [
             {
-              "uri": "http://group18.data/TecnicaDeMedida",
-              "curie": "http://group18.data/TecnicaDeMedida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-literal",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
-          "columnName": "Fecha"
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H01",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
+              "uri": "http://group18.data/tecnicaDeMedida",
+              "curie": "http://group18.data/tecnicaDeMedida"
             }
           ],
           "links": []
@@ -1350,11 +1339,11 @@
           "nodeType": "cell-as-resource",
           "expression": "value",
           "isRowNumberCell": false,
-          "columnName": "H02",
+          "columnName": "Fecha",
           "rdfTypes": [
             {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime"
             }
           ],
           "links": []
@@ -1363,287 +1352,45 @@
           "nodeType": "cell-as-resource",
           "expression": "value",
           "isRowNumberCell": false,
-          "columnName": "H03",
+          "columnName": "Medida",
           "rdfTypes": [
             {
               "uri": "http://group18.data/Medida",
               "curie": "http://group18.data/Medida"
             }
           ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H04",
-          "rdfTypes": [
+          "links": [
             {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H05",
-          "rdfTypes": [
+              "uri": "http://group18.data/tieneFecha",
+              "curie": "http://group18.data/tieneFecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Fecha"
+              }
+            },
             {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H06",
-          "rdfTypes": [
+              "uri": "http://group18.data/tieneMagnitud",
+              "curie": "http://group18.data/tieneMagnitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "MAGNITUD"
+              }
+            },
             {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
+              "uri": "http://group18.data/tieneTecnicaDeMedida",
+              "curie": "http://group18.data/tieneTecnicaDeMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TÉCNICA_DE_MEDIDA"
+              }
             }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H07",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H08",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H09",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H10",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H11",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H12",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H13",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H14",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H15",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H16",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H17",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H18",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H19",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H20",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H21",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H22",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H23",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H24",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
+          ]
         }
       ]
     }
@@ -3233,6 +2980,10 @@
           "uri": "http://www.w3.org/2002/07/owl#"
         },
         {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
           "name": "rdfs",
           "uri": "http://www.w3.org/2000/01/rdf-schema#"
         },
@@ -3249,8 +3000,8 @@
           "columnName": "PUNTO_MUESTREO",
           "rdfTypes": [
             {
-              "uri": "http://group18.data/PuntoDeMuestreo",
-              "curie": "http://group18.data/PuntoDeMuestreo"
+              "uri": "http://group18.data/puntoDeMuestreo",
+              "curie": "http://group18.data/puntoDeMuestreo"
             }
           ],
           "links": [
@@ -3261,237 +3012,7 @@
                 "nodeType": "cell-as-literal",
                 "expression": "value",
                 "isRowNumberCell": false,
-                "columnName": "H01"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H02"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H03"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H04"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H05"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H06"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H07"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H08"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H09"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H10"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H11"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H12"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H13"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H14"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H15"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H16"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H17"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H18"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H19"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H20"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H21"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H22"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H23"
-              }
-            },
-            {
-              "uri": "http://group18.data/tieneMedida",
-              "curie": "http://group18.data/tieneMedida",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "H24"
+                "columnName": "Medida"
               }
             }
           ]
@@ -3516,28 +3037,8 @@
           "columnName": "TÉCNICA_DE_MEDIDA",
           "rdfTypes": [
             {
-              "uri": "http://group18.data/TecnicaDeMedida",
-              "curie": "http://group18.data/TecnicaDeMedida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-literal",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
-          "columnName": "Fecha"
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H01",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
+              "uri": "http://group18.data/tecnicaDeMedida",
+              "curie": "http://group18.data/tecnicaDeMedida"
             }
           ],
           "links": []
@@ -3546,11 +3047,11 @@
           "nodeType": "cell-as-resource",
           "expression": "value",
           "isRowNumberCell": false,
-          "columnName": "H02",
+          "columnName": "Fecha",
           "rdfTypes": [
             {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime"
             }
           ],
           "links": []
@@ -3559,11 +3060,168 @@
           "nodeType": "cell-as-resource",
           "expression": "value",
           "isRowNumberCell": false,
-          "columnName": "H03",
+          "columnName": "Medida",
           "rdfTypes": [
             {
               "uri": "http://group18.data/Medida",
               "curie": "http://group18.data/Medida"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://group18.data/tieneFecha",
+              "curie": "http://group18.data/tieneFecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneMagnitud",
+              "curie": "http://group18.data/tieneMagnitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "MAGNITUD"
+              }
+            },
+            {
+              "uri": "http://group18.data/tieneTecnicaDeMedida",
+              "curie": "http://group18.data/tieneTecnicaDeMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TÉCNICA_DE_MEDIDA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://group18.data/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PUNTO_MUESTREO",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/puntoDeMuestreo",
+              "curie": "http://group18.data/puntoDeMuestreo"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://group18.data/tieneMedida",
+              "curie": "http://group18.data/tieneMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Medida"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "cell.recon.match.id",
+                "isRowNumberCell": false,
+                "columnName": "PUNTO_MUESTREO"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "MAGNITUD",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/Magnitud",
+              "curie": "http://group18.data/Magnitud"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "cell.recon.match.id",
+                "isRowNumberCell": false,
+                "columnName": "MAGNITUD"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "TÉCNICA_DE_MEDIDA",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.data/tecnicaDeMedida",
+              "curie": "http://group18.data/tecnicaDeMedida"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "cell.recon.match.id",
+                "isRowNumberCell": false,
+                "columnName": "TÉCNICA_DE_MEDIDA"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Fecha",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime"
             }
           ],
           "links": []
@@ -3572,274 +3230,45 @@
           "nodeType": "cell-as-resource",
           "expression": "value",
           "isRowNumberCell": false,
-          "columnName": "H04",
+          "columnName": "Medida",
           "rdfTypes": [
             {
               "uri": "http://group18.data/Medida",
               "curie": "http://group18.data/Medida"
             }
           ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H05",
-          "rdfTypes": [
+          "links": [
             {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H06",
-          "rdfTypes": [
+              "uri": "http://group18.data/tieneFecha",
+              "curie": "http://group18.data/tieneFecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Fecha"
+              }
+            },
             {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H07",
-          "rdfTypes": [
+              "uri": "http://group18.data/tieneMagnitud",
+              "curie": "http://group18.data/tieneMagnitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "MAGNITUD"
+              }
+            },
             {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
+              "uri": "http://group18.data/tieneTecnicaDeMedida",
+              "curie": "http://group18.data/tieneTecnicaDeMedida",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TÉCNICA_DE_MEDIDA"
+              }
             }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H08",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H09",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H10",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H11",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H12",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H13",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H14",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H15",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H16",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H17",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H18",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H19",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H20",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H21",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H22",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H23",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "H24",
-          "rdfTypes": [
-            {
-              "uri": "http://group18.data/Medida",
-              "curie": "http://group18.data/Medida"
-            }
-          ],
-          "links": []
+          ]
         }
       ]
     }
