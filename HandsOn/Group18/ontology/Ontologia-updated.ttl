@@ -1,0 +1,123 @@
+@prefix : <http://group09.data/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://group18.data/> .
+
+<http://group18.data/> rdf:type owl:Ontology .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/ns/sosa/FeatureOfInterest
+<http://www.w3.org/ns/sosa/FeatureOfInterest> rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/ns/sosa/Observation
+<http://www.w3.org/ns/sosa/Observation> rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/ns/sosa/Sensor
+<http://www.w3.org/ns/sosa/Sensor> rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/ns/sosa/hasFeatureOfInterest
+<http://www.w3.org/ns/sosa/hasFeatureOfInterest> rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/ns/sosa/madeObservation
+<http://www.w3.org/ns/sosa/madeObservation> rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/ns/sosa/phenomenonTime
+<http://www.w3.org/ns/sosa/phenomenonTime> rdf:type rdfs:Datatype .
+
+
+###  https://www.w3.org/TR/owl-time/#time:TemporalEntity
+<https://www.w3.org/TR/owl-time/#time:TemporalEntity> rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.w3.org/ns/sosa/hasFeatureOfInterest
+<http://www.w3.org/ns/sosa/hasFeatureOfInterest> rdf:type owl:ObjectProperty ;
+                                                 rdfs:domain <http://www.w3.org/ns/sosa/Observation> ;
+                                                 rdfs:range <http://www.w3.org/ns/sosa/FeatureOfInterest> .
+
+
+###  http://www.w3.org/ns/sosa/madeObservation
+<http://www.w3.org/ns/sosa/madeObservation> rdf:type owl:ObjectProperty ;
+                                            rdfs:domain <http://www.w3.org/ns/sosa/Sensor> ;
+                                            rdfs:range <http://www.w3.org/ns/sosa/Observation> .
+
+
+###  http://www.w3.org/ns/sosa/resultTime
+<http://www.w3.org/ns/sosa/resultTime> rdf:type owl:ObjectProperty ;
+                                       rdfs:domain <http://www.w3.org/ns/sosa/Observation> ;
+                                       rdfs:range <http://group18.data/ontology/Pollution#Fecha> .
+
+
+###  http://www.w3.org/ns/sosa/usedProcedure
+<http://www.w3.org/ns/sosa/usedProcedure> rdf:type owl:ObjectProperty ;
+                                          rdfs:domain <http://www.w3.org/ns/sosa/Observation> ;
+                                          rdfs:range <http://www.w3.org/ns/sosa/Procedure> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://group18.data/ontology/Pollution#FeatureOfInterest
+<http://group18.data/ontology/Pollution#FeatureOfInterest> rdf:type owl:DatatypeProperty ;
+                                                           rdfs:domain <http://www.w3.org/ns/sosa/FeatureOfInterest> ;
+                                                           rdfs:range <http://www.w3.org/ns/sosa/FeatureOfInterest> .
+
+
+###  http://group18.data/ontology/Pollution#Observation
+<http://group18.data/ontology/Pollution#Observation> rdf:type owl:DatatypeProperty ;
+                                                     rdfs:domain <http://www.w3.org/ns/sosa/Observation> ;
+                                                     rdfs:range <http://www.w3.org/ns/sosa/Observation> .
+
+
+###  http://group18.data/ontology/Pollution#Sensor
+<http://group18.data/ontology/Pollution#Sensor> rdf:type owl:DatatypeProperty ;
+                                                rdfs:domain <http://www.w3.org/ns/sosa/Sensor> ;
+                                                rdfs:range <http://www.w3.org/ns/sosa/Sensor> .
+
+
+###  http://group18.data/ontology/Pollution#dateTime
+<http://group18.data/ontology/Pollution#dateTime> rdf:type owl:DatatypeProperty ;
+                                                  rdfs:domain <http://group18.data/ontology/Pollution#Fecha> ;
+                                                  rdfs:range xsd:dateTime .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://group18.data/ontology/Pollution#Fecha
+<http://group18.data/ontology/Pollution#Fecha> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/sosa/FeatureOfInterest
+<http://www.w3.org/ns/sosa/FeatureOfInterest> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/sosa/Observation
+<http://www.w3.org/ns/sosa/Observation> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/sosa/Procedure
+<http://www.w3.org/ns/sosa/Procedure> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/sosa/Sensor
+<http://www.w3.org/ns/sosa/Sensor> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi

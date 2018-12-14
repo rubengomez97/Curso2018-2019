@@ -46,13 +46,13 @@ propiedad:codigo_Distrito rdf:type owl:DatatypeProperty ;
 ###  http://www.semanticweb.org/group10/Propiedades#coordenadaX
 propiedad:coordenadaX rdf:type owl:DatatypeProperty ;
                       rdfs:domain clase:Aparcamiento ;
-                      rdfs:range xsd:decimal .
+                      rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/group10/Propiedades#coordenadaY
 propiedad:coordenadaY rdf:type owl:DatatypeProperty ;
                       rdfs:domain clase:Aparcamiento ;
-                      rdfs:range xsd:decimal .
+                      rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/group10/Propiedades#direccion

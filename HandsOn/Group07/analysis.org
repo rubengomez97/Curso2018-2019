@@ -66,17 +66,11 @@ We decided for a clear and homogeneous naming strategy, which separates classes 
 As for the domain, we chose a dummy domain, which is www.group07.linkeddata.org, since we don't own any domain, nor have the intention to.
 
 The data to be generated will follow the given patterns:
-- Stations: http://www.group07.linkeddata.org/individual/station#station{id}
-- Measurements: http://www.group07.linkeddata.org/individual/measurement#measurement{id_of_station}_{date_of_measurement}
-- Substance Measurements: http://www.group07.linkeddata.org/individual/substanceMeasurement#substanceMeasurement{id_of_station}_{date_of_measurement}_{id_of_substance}
+- Stations: http://www.group07.linkeddata.org/individual/station/{id}
+- Observations: http://www.group07.linkeddata.org/individual/observation#{id_of_station}_{date_of_observation}
+- Observable Properties: http://www.group07.linkeddata.org/individual/observableProperty#{id_of_station}_{name_of_substance}_{date_of_observation}
 
-One comment we think is important to state in this document is that a Measurement is a full measurement for a given station at a given time of all the substances it is capable of measuring. Meanwhile, a substance measurement is the entity that groups the value measured and the unit for a specific substance. That way, a Measurement is linked to many SubstanceMeasurements, which are the actual measurements for each substance measured at the station at that given time.
+One comment we think is important to state in this document is that an observation is a full measurement for a given station at a given time of all the substances it is capable of measuring. Meanwhile, an observable property is the entity that groups the value measured and the unit for a specific substance. That way, an observation is linked to many observable properties, which are the actual measurements for each substance measured at the station at that given time.
 
 * Benefits from linking with external data
 With the proposed dataset, many linking options arise. The chosen one is to link the stations to their districts, so that, through WikiData, we can gather information such as population, density, and even traffic information at the time of measurement. These are, of course, complex scenarios, but the linking allow for them to exist. Another possibility of linking we chose to include are the measured substances. That way, information such as descriptions, toxicity, and even typical atmospheric values can be gathered from the web.
-
-
-
-
-
-# Poner gráficas que sean por barrio/distrito (un histograma), para mostrar los más limpios/contaminados

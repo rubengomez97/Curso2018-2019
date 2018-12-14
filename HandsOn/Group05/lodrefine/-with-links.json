@@ -1,0 +1,2268 @@
+[
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column SituaciÃ³n to type Q2074737",
+    "columnName": "SituaciÃ³n",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q2074737",
+        "name": "municipality of Spain"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Parque Cultural Viera y Clavijo (Q6062113) for cells containing \"P. VIera y Clavijo\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "P. VIera y Clavijo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6062113",
+      "name": "Parque Cultural Viera y Clavijo",
+      "score": 35.5,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Avda. Los Majuelos\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Avda. Los Majuelos",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Avda. MarÃ­tima\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Avda. MarÃ­tima",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"FernÃ¡ndez Navarro\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "FernÃ¡ndez Navarro",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Ganivet\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Ganivet",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"P. La Granja\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "P. La Granja",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Pza. La Victoria\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. La Victoria",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item García Escámez (Santa Cruz de Tenerife) (Q5875326) for cells containing \"Pza. GarcÃ­a EscÃ¡mez\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. GarcÃ­a EscÃ¡mez",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5875326",
+      "name": "García Escámez (Santa Cruz de Tenerife)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Pza. San JosÃ©\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. San JosÃ©",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Pza. MarÃ­a Auxiliadora\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. MarÃ­a Auxiliadora",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Avda. PrÃ­ncipes de EspaÃ±a\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Avda. PrÃ­ncipes de EspaÃ±a",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"P. Santa Catalina\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "P. Santa Catalina",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Avda. Pedro Schwartz\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Avda. Pedro Schwartz",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Avda. Reyes CatÃ³licos\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Avda. Reyes CatÃ³licos",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Pza. Los SabandeÃ±os\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. Los SabandeÃ±os",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Avda. Francisco La Roche\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Avda. Francisco La Roche",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"RÃ­o Guadalete\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "RÃ­o Guadalete",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Pza. Iglesia Cueva Bermeja\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. Iglesia Cueva Bermeja",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"RÃ­o Orinoco\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "RÃ­o Orinoco",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Rambla AÃ±aza\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Rambla AÃ±aza",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"P. La Estrella\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "P. La Estrella",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Parque Cultural Viera y Clavijo (Q6062113) for cells containing \"P. Viera y Clavijo\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "P. Viera y Clavijo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6062113",
+      "name": "Parque Cultural Viera y Clavijo",
+      "score": 35.5,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Punta de Anaga\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Punta de Anaga",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Pza. Los Dragos\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. Los Dragos",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Chafira\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Chafira",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Nuestra Señora de las Nieves (La Palma) (Q6046442) for cells containing \"Pza. Nuestra Sra. de las Nieves\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. Nuestra Sra. de las Nieves",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6046442",
+      "name": "Nuestra Señora de las Nieves (La Palma)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Zafiro\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Zafiro",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Pza. del Rosario\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. del Rosario",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Colegio Afur\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Colegio Afur",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Izquierdo AzcÃ¡rate\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Izquierdo AzcÃ¡rate",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Paseo Peatonal Las Asuncionistas\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Paseo Peatonal Las Asuncionistas",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Pza. Duggi\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. Duggi",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Cmo. La Ermita\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Cmo. La Ermita",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Curva El Arco Iris\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Curva El Arco Iris",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Res. San PÃ­o X\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Res. San PÃ­o X",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"GarcÃ­a Lorca\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "GarcÃ­a Lorca",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Poeta Francisco Izquierdo\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Poeta Francisco Izquierdo",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"P. Leoncio Oramas\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "P. Leoncio Oramas",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"P. Las Indias\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "P. Las Indias",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"P. Cuchillitos de TristÃ¡n\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "P. Cuchillitos de TristÃ¡n",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Maestro BorguÃ±o\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Maestro BorguÃ±o",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Juan de Mattos y Azofra\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Juan de Mattos y Azofra",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Camino Los Tarajales\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Camino Los Tarajales",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Pza. Chamorga\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. Chamorga",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Pza. Taborno\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. Taborno",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Ctra. Igueste San AndrÃ©s\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Ctra. Igueste San AndrÃ©s",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Pza. San Pedro\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. San Pedro",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Pza. Miguel DÃ­az\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. Miguel DÃ­az",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Frangollo\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Frangollo",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Pza. El Rosarito\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. El Rosarito",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Chirama\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Chirama",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Los Estudiantes\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Los Estudiantes",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"PanamÃ¡\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "PanamÃ¡",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Pza. Beneharo\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. Beneharo",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Ctra. Los Campitos\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Ctra. Los Campitos",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Tadorna\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Tadorna",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Pza. Nuestra Sra. de la Merced\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. Nuestra Sra. de la Merced",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Agana\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Agana",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Eladio Roca y Salazar\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Eladio Roca y Salazar",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Pza. Manuel CastaÃ±eda\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. Manuel CastaÃ±eda",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Avda. Nuestra Sra. del Carmen\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Avda. Nuestra Sra. del Carmen",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Hermanos Maffiotte\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Hermanos Maffiotte",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Magec\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Magec",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Pza. Cheo\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. Cheo",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Pza. Concha Castro\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. Concha Castro",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Pza. Francisco HernÃ¡ndez Barroso\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. Francisco HernÃ¡ndez Barroso",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"P. Secundino Delgado\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "P. Secundino Delgado",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Pza. Anaga\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Pza. Anaga",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Ctra. El Bailadero\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "Ctra. El Bailadero",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"San Antonio (Taganana)\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "San Antonio (Taganana)",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"AndrÃ³meda\" in column SituaciÃ³n",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "SituaciÃ³n: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "SituaciÃ³n"
+        }
+      ]
+    },
+    "columnName": "SituaciÃ³n",
+    "similarValue": "AndrÃ³meda",
+    "judgment": "new",
+    "shareNewTopics": true
+  }
+]

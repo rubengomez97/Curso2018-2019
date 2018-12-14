@@ -1,0 +1,158 @@
+@prefix : <http://www.group07.linkeddata.org#> .
+@prefix UO: <http://purl.obolibrary.org/obo/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ssn: <http://purl.oclc.org/NET/ssnx/ssn#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix class: <http://www.group07.linkeddata.org/class#> .
+@prefix property: <http://www.group07.linkeddata.org/property#> .
+@prefix individual: <http://www.group07.linkeddata.org/individual/> .
+@base <http://www.group07.linkeddata.org> .
+
+<http://www.group07.linkeddata.org> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.group07.linkeddata.org/property#hasSubstance
+property:hasSubstance rdf:type owl:ObjectProperty ;
+                      rdfs:domain sosa:ObservableProperty ;
+                      rdfs:range <http://dbpedia.org/resource/ChemicalSubstance> .
+
+
+###  http://www.group07.linkeddata.org/property#hasUnit
+property:hasUnit rdf:type owl:ObjectProperty ;
+                 rdfs:domain sosa:ObservableProperty ;
+                 rdfs:range UO:UO_0000000 .
+
+
+###  http://www.group07.linkeddata.org/property#neighbourhood
+property:neighbourhood rdf:type owl:ObjectProperty ;
+                       rdfs:domain <http://www.w3.org/2003/01/geo/wgs84_pos#Point> ;
+                       rdfs:range wd:Q3032114 .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#location
+<http://www.w3.org/2003/01/geo/wgs84_pos#location> rdf:type owl:ObjectProperty ;
+                                                   rdfs:domain ssn:Sensor ;
+                                                   rdfs:range <http://www.w3.org/2003/01/geo/wgs84_pos#Point> .
+
+
+###  http://www.w3.org/ns/sosa/isObservedBy
+sosa:isObservedBy rdf:type owl:ObjectProperty ;
+                  owl:inverseOf sosa:observes ;
+                  rdfs:range ssn:Sensor .
+
+
+###  http://www.w3.org/ns/sosa/madeBySensor
+sosa:madeBySensor rdf:type owl:ObjectProperty ;
+                  owl:inverseOf sosa:madeObservation ;
+                  rdfs:domain ssn:Observation ;
+                  rdfs:range ssn:Sensor .
+
+
+###  http://www.w3.org/ns/sosa/madeObservation
+sosa:madeObservation rdf:type owl:ObjectProperty ;
+                     rdfs:domain ssn:Sensor ;
+                     rdfs:range ssn:Observation .
+
+
+###  http://www.w3.org/ns/sosa/observedProperty
+sosa:observedProperty rdf:type owl:ObjectProperty ;
+                      rdfs:domain ssn:Observation .
+
+
+###  http://www.w3.org/ns/sosa/observes
+sosa:observes rdf:type owl:ObjectProperty ;
+              rdfs:domain ssn:Sensor .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.group07.linkeddata.org/property#address
+property:address rdf:type owl:DatatypeProperty ;
+                 rdfs:domain ssn:Sensor ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.group07.linkeddata.org/property#hasMetricValue
+property:hasMetricValue rdf:type owl:DatatypeProperty ;
+                        rdfs:domain sosa:ObservableProperty ;
+                        rdfs:range xsd:double .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdf:type owl:DatatypeProperty ;
+           rdfs:domain ssn:Sensor ;
+           rdfs:range xsd:string .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#alt
+<http://www.w3.org/2003/01/geo/wgs84_pos#alt> rdf:type owl:DatatypeProperty ;
+                                              rdfs:domain <http://www.w3.org/2003/01/geo/wgs84_pos#Point> ;
+                                              rdfs:range xsd:integer .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#lat
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> rdf:type owl:DatatypeProperty ;
+                                              rdfs:domain <http://www.w3.org/2003/01/geo/wgs84_pos#Point> ;
+                                              rdfs:range xsd:decimal .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#long
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> rdf:type owl:DatatypeProperty ;
+                                               rdfs:domain <http://www.w3.org/2003/01/geo/wgs84_pos#Point> ;
+                                               rdfs:range xsd:decimal .
+
+
+###  http://www.w3.org/ns/sosa/resultTime
+sosa:resultTime rdf:type owl:DatatypeProperty ;
+                rdfs:domain ssn:Observation ;
+                rdfs:range xsd:dateTime .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dbpedia.org/resource/ChemicalSubstance
+<http://dbpedia.org/resource/ChemicalSubstance> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/UO_0000000
+UO:UO_0000000 rdf:type owl:Class .
+
+
+###  http://purl.oclc.org/NET/ssnx/ssn#Observation
+ssn:Observation rdf:type owl:Class .
+
+
+###  http://purl.oclc.org/NET/ssnx/ssn#Property
+ssn:Property rdf:type owl:Class .
+
+
+###  http://purl.oclc.org/NET/ssnx/ssn#Sensor
+ssn:Sensor rdf:type owl:Class .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#Point
+<http://www.w3.org/2003/01/geo/wgs84_pos#Point> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/sosa/ObservableProperty
+sosa:ObservableProperty rdf:type owl:Class ;
+                        rdfs:subClassOf ssn:Property .
+
+
+###  http://www.wikidata.org/entity/Q3032114
+wd:Q3032114 rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi
