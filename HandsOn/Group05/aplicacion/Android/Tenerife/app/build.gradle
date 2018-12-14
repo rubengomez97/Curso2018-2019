@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "luisdomlop.tenerife"
+        minSdkVersion 22
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        debug {
+            debuggable true
+        }
+        TenerifeMaquinas {
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license/'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/services/javax.xml.stream.XMLEventFactory'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'license/README.sax.txt'
+        exclude 'license/LICENSE.sax.txt'
+        exclude 'license/README.dom.txt'
+        exclude 'license/LICENSE.dom-documentation.txt'
+        exclude 'license/LICENSE.dom-software.txt'
+    }
+    productFlavors {
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //maps
+    implementation 'com.google.android.gms:play-services-maps:16.0.0'
+    //location
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
+}

@@ -1,0 +1,2508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:schema="http://schema.org/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:clases="https://www.santacruzdetenerife.es/Clases/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:propiedades="https://www.santacruzdetenerife.es/Propiedades/">
+
+<owl:Ontology rdf:about="https://www.santacruzdetenerife.es/">
+  </owl:Ontology>
+
+  <rdfs:Class rdf:about="https://www.santacruzdetenerife.es/Clases/MaquinaPublica">
+  </rdfs:Class>
+
+  <rdf:Property rdf:about="https://www.santacruzdetenerife.es/Propiedades/HasFID">
+    <rdfs:domain rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="https://www.santacruzdetenerife.es/Propiedades/HasEnlace">
+    <rdfs:domain rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="https://www.santacruzdetenerife.es/Propiedades/HasFabricante">
+    <rdfs:domain rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#long">
+    <rdfs:domain rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
+    <rdfs:domain rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="https://schema.org/address">
+    <rdfs:domain rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="https://www.santacruzdetenerife.es/Propiedades/hasModelo">
+    <rdfs:domain rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/0">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155B Los Patines</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. VIera y Clavijo</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26195733</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46525166</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/1">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155F Barras Paralelas</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. VIera y Clavijo</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155F.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26190587</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46527879</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/2">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155H El Jinete</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. VIera y Clavijo</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26189269</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46532814</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/3">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">207T Step &amp; Twist</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Los Majuelos</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,31187868</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,44314043</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/4">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155B Los Patines</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Los Majuelos</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,31223847</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,44292645</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/5">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155F Barras Paralelas</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Los Majuelos</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155F.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,31274629</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,442625</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/6">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155H El Jinete</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Los Majuelos</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,31305879</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,44243894</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/7">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Marítima</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,24871112</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46187106</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/8">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155B Los Patines</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Marítima</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,24865641</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46197408</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/9">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154B Esquí de Fondo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Marítima</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,24860566</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46206241</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/10">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155B Los Patines</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Fernández Navarro</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,25387779</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46189409</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/11">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">207T Step &amp; Twist</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Fernández Navarro</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,25384865</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46189333</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/12">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Ganivet</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26860138</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46005851</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/13">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155B Los Patines</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Ganivet</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26860216</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46002659</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/14">
+	<geo:lat rdf:datatype="xsd:float">28,46240629</geo:lat>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</propiedades:HasFID>
+	<schema:address rdf:datatype="xsd:string">P. La Granja</schema:address>
+	<geo:long rdf:datatype="xsd:float">-16,26632758</geo:long>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/15">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154B Esquí de Fondo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. La Granja</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,266235</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46226403</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/16">
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</propiedades:HasFID>
+	<geo:long rdf:datatype="xsd:float">-16,26631791</geo:long>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154D Sube y Baja</propiedades:HasModelo>
+	<schema:address rdf:datatype="xsd:string">P. La Granja</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154D.pdf</propiedades:HasEnlace>
+	<geo:lat rdf:datatype="xsd:float">28,46218191</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/17">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">San Juan de la Rambla</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27621772</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47006999</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/18">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">207T Step &amp; Twist</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">San Juan de la Rambla</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27623263</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47005029</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/19">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154G Rueda Grande</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. La Victoria</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,25982022</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45898871</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/20">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155B Los Patines</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</propiedades:HasFID>
+	<schema:address rdf:datatype="xsd:string">Pza. La Victoria</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,25981055</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45895894</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/21">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<schema:address rdf:datatype="xsd:string">Pza. García Escámez</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,273002</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45520575</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/22">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155I El Remo</propiedades:HasModelo>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22</propiedades:HasFID>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. García Escámez</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,2729129</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45513477</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/23">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154B Esquí de Fondo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. García Escámez</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27286304</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,4551306</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/24">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">AMM-019 Torsión de Tronc</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Kido</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. García Escámez</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI"> </propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27277533</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45517621</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/25">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">AMM-017 Stepper</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Kido</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. García Escámez</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI"> </propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,2727587</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45517405</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/26">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">AMM-018 Bicicleta Est.</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Kido</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. San José</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI"> </propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,33358575</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,42507268</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/27">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">AMM-012 Movimiento Brazo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Kido</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. San José</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI"> </propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,33363388</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,42506582</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/28">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">AMM-011 Escalera Dedos</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Kido</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. María Auxiliadora</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI"> </propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,2574281</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46510869</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/29">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155I El Remo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Príncipes de España</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28610772</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45097263</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/30">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Príncipes de España</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28616243</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,4507634</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/31">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</propiedades:HasFID>
+	<schema:address rdf:datatype="xsd:string">Avda. Príncipes de España</schema:address>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155E Silla Pectorales</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28591142</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,4513097</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/32">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154B Esquí de Fondo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Príncipes de España</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28586386</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45151886</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/33">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">AMM-015 Mov. Ondular</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Kido</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Príncipes de España</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI"> </propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28477971</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45381482</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/34">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">34</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">AMM-018 Bicicleta Est.</propiedades:HasModelo>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Kido</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Príncipes de España</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI"> </propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28476551</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45384813</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/35">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">AMM-013 Mov. Circ. Brazo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Kido</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Príncipes de España</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI"> </propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28474927</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45388515</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/36">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">36</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154B Esquí de Fondo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. Santa Catalina</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,31927813</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,43131608</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/37">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">37</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155I El Remo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. Santa Catalina</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,31924793</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,43134658</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/38">
+	<propiedades:HasModelo rdf:datatype="xsd:string">155C Giro de Cintura</propiedades:HasModelo>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">38</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. Santa Catalina</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155C.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,31935385</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,43133124</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/39">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">39</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154C Slalom</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. Santa Catalina</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154C.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,31931822</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,43135861</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/40">
+	<propiedades:HasModelo rdf:datatype="xsd:string">155F Barras Paralelas</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</propiedades:HasFID>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155F.pdf</propiedades:HasEnlace>
+	<schema:address rdf:datatype="xsd:string">P. Santa Catalina</schema:address>
+	<geo:long rdf:datatype="xsd:float">-16,31928979</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,43138592</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/41">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">41</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155H El Jinete</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. Santa Catalina</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,31928615</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,43134621</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/42">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">AMM-005 Varios</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Kido</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Pedro Schwartz</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI"> </propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,193537</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,50637208</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/43">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">43</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">AMM-004 Varios</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Kido</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Pedro Schwartz</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI"> </propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,19357344</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,50638286</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/44">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">44</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155H El Jinete</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Reyes Católicos</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26300936</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,4634173</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/45">
+	<propiedades:HasModelo rdf:datatype="xsd:string">154G Rueda Grande</propiedades:HasModelo>
+	<geo:long rdf:datatype="xsd:float">-16,2629893</geo:long>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Reyes Católicos</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf</propiedades:HasEnlace>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45</propiedades:HasFID>
+	<geo:lat rdf:datatype="xsd:float">28,46346614</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/46">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">46</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155B Los Patines</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Los Sabandeños</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26252628</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46058356</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/47">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">47</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Los Sabandeños</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26253549</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46054499</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/48">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">48</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">207T Step &amp; Twist</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Los Sabandeños</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26255316</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46048411</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/49">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">49</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155H El Jinete</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Francisco La Roche</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,24491815</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47718266</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/50">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155I El Remo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Francisco La Roche</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,24481821</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47725236</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/51">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">51</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155B Los Patines</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Francisco La Roche</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,24445658</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47751038</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/52">
+	<geo:lat rdf:datatype="xsd:float">28,47764549</geo:lat>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">52</propiedades:HasFID>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<schema:address rdf:datatype="xsd:string">Avda. Francisco La Roche</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,24428413</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/53">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">53</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">207T Step &amp; Twist</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Francisco La Roche</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,243962</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47790337</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/54">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155C Giro de Cintura</propiedades:HasModelo>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">54</propiedades:HasFID>
+	<schema:address rdf:datatype="xsd:string">Avda. Francisco La Roche</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155C.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,24380315</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47802622</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/55">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155D Barra estiramientos</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Francisco La Roche</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155D.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,24346752</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47830445</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/56">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">56</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155H El Jinete</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Río Guadalete</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27652241</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,4737168</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/57">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">57</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<schema:address rdf:datatype="xsd:string">Río Guadalete</schema:address>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<geo:long rdf:datatype="xsd:float">-16,27651095</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47368918</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/58">
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Río Guadalete</schema:address>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">58</propiedades:HasFID>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf</propiedades:HasEnlace>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154G Rueda Grande</propiedades:HasModelo>
+	<geo:long rdf:datatype="xsd:float">-16,27648816</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47364558</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/59">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">59</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155I El Remo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Reyes Católicos</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26357409</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46122953</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/60">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">60</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Reyes Católicos</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26353526</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46141581</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/61">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">61</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154B Esquí de Fondo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Reyes Católicos</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26322592</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46290814</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/62">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">62</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155E Silla Pectorales</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. La Victoria</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,25983182</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45902657</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/63">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">63</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Iglesia Cueva Bermeja</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,21687842</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,49621642</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/64">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">64</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF9 Oblic</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Río Orinoco</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,2153461</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,49662911</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/65">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">65</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155B Los Patines</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Rambla Añaza</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,29935916</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,42451996</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/66">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">66</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155I El Remo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Rambla Añaza</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,29906589</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,4250792</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/67">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">67</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">207T Step &amp; Twist</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Rambla Añaza</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,29872121</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,42601833</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/68">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">68</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Rambla Añaza</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,29835869</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,42674127</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/69">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">69</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">159J Espaldera</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. VIera y Clavijo</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26194971</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46528836</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/70">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">70</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">159J Espaldera</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. La Estrella</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,30597583</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,42962017</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/71">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">71</propiedades:HasFID>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155D.pdf</propiedades:HasEnlace>
+	<schema:address rdf:datatype="xsd:string">P. La Estrella</schema:address>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155D Barra estiramientos</propiedades:HasModelo>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<geo:long rdf:datatype="xsd:float">-16,30602034</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,4295665</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/72">
+	<propiedades:HasModelo rdf:datatype="xsd:string">J3709 Barra fija 2 m.</propiedades:HasModelo>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI"> </propiedades:HasEnlace>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">72</propiedades:HasFID>
+	<schema:address rdf:datatype="xsd:string">P. Viera y Clavijo</schema:address>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">HPC</propiedades:HasFabricante>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<geo:long rdf:datatype="xsd:float">-16,26189316</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46528215</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/73">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">73</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Punta de Anaga</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,30647564</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,43128118</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/74">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">74</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155E Silla Pectorales</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Punta de Anaga</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,30624935</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,43147945</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/75">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155B Los Patines</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Punta de Anaga</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,30600705</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,43183255</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/76">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">76</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155I El Remo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Los Dragos</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,19758182</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,5719245</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/77">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Los Dragos</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,19756086</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,571924</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/78">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">78</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">159J Espaldera</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Príncipes de España</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28669695</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,44968416</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/79">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">79</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155E Silla Pectorales</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Chafira</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28950493</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,44608974</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/80">
+	<propiedades:HasModelo rdf:datatype="xsd:string">154B Esquí de Fondo</propiedades:HasModelo>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">80</propiedades:HasFID>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Chafira</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28944026</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,44606897</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/81">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">81</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Nuestra Sra. de las Nieves</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,21694479</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,56100475</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/82">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">82</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155I El Remo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Nuestra Sra. de las Nieves</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,21695863</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,56100727</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/83">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155I El Remo</propiedades:HasModelo>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">83</propiedades:HasFID>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Zafiro</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28831174</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45406194</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/84">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">84</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155G Las Ruedas</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Zafiro</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/15GF.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28834001</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45403419</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/85">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">85</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Zafiro</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28836637</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45405428</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/86">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">86</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. del Rosario</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27547283</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45287564</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/87">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">87</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155B Los Patines</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. del Rosario</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27548961</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45289889</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/88">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">88</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155I El Remo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Colegio Afur</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,24940582</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,55504011</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/89">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">89</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Colegio Afur</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,24939835</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,55504319</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/90">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">90</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155E Silla Pectorales</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Río Guadalete</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27653523</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47365657</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/91">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">91</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155I El Remo</propiedades:HasModelo>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Río Guadalete</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27655023</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47369341</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/92">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155I El Remo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Izquierdo Azcárate</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27233846</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45782555</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/93">
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">93</propiedades:HasFID>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Izquierdo Azcárate</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27229717</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45782593</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/94">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Paseo Peatonal Las Asuncionistas</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26241804</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,4664962</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/95">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">95</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155I El Remo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Paseo Peatonal Las Asuncionistas</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26270084</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,4666122</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/96">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">96</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155H El Jinete</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Duggi</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,25973943</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46620815</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/97">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">97</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154C Slalom</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Duggi</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154C.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,25966173</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46620244</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/98">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">98</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154B Esquí de Fondo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Duggi</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,25958641</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46619349</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/99">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">99</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">207T Step &amp; Twist</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Cmo. La Ermita</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26999981</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47256096</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/100">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">100</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155B Los Patines</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Cmo. La Ermita</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27000171</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47261775</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/101">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">101</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154B Esquí de Fondo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Curva El Arco Iris</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28797377</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,44701215</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/102">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">102</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155I El Remo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Curva El Arco Iris</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,2879767</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,4470284</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/103">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">103</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155B Los Patines</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Príncipes de España</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155C.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28402111</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45550963</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/104">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">104</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155E Silla Pectorales</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Príncipes de España</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28386262</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45595514</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/105">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">105</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155I El Remo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Res. San Pío X</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28374374</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,4494528</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/106">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">106</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155H El Jinete</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Res. San Pío X</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28368632</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,44951909</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/107">
+	<propiedades:HasModelo rdf:datatype="xsd:string">155E Silla Pectorales</propiedades:HasModelo>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">107</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">García Lorca</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27083891</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45725665</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/108">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">108</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154B Esquí de Fondo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">García Lorca</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27082947</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45717742</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/109">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">109</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Poeta Francisco Izquierdo</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27094571</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45762562</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/110">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">110</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155D Barra estiramientos</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Marítima</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155D.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,24809249</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46308186</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/111">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">111</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155E Silla Pectorales</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Marítima</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,2480835</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46306733</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/112">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">112</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154B Esquí de Fondo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Marítima</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,24808931</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46305013</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/113">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">113</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Marítima</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,24808175</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46311341</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/114">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">114</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155E Silla Pectorales</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. Leoncio Oramas</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26994558</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45913497</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/115">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">115</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. Leoncio Oramas</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26999435</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45909984</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/116">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">116</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154B Esquí de Fondo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. Leoncio Oramas</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27001954</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45908056</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/117">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">117</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">AE004 Sky Stepper</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Parkesa</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. Las Indias</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI"> </propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27166973</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46803202</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/118">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">118</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">MB001 Big Wheel</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Parkesa</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. Las Indias</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI"> </propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27168022</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,468005</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/119">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">119</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">TS002 Power Push</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Parkesa</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. Las Indias</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI"> </propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27169363</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46797622</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/120">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">120</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">AE001 Health Walker</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Parkesa</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. Las Indias</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI"> </propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27170894</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46794222</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/121">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">121</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">RB001 Rowing</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Parkesa</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. Las Indias</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI"> </propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27172329</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46790995</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/122">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">122</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">RB003 Bicycle</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Parkesa</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. Las Indias</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI"> </propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27173666</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,4678777</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/123">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">123</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">Barra Dominadas</propiedades:HasModelo>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFabricante rdf:datatype="xsd:string"> </propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Río Guadalete</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI"> </propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27656158</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47371608</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/124">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">124</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154B Esquí de Fondo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. Cuchillitos de Tristán</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27691749</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,4564705</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/125">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">125</propiedades:HasFID>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154C Slalom</propiedades:HasModelo>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<schema:address rdf:datatype="xsd:string">P. Cuchillitos de Tristán</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154C.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27693964</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45639633</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/126">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">126</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">159J Espaldera</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. Cuchillitos de Tristán</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27694657</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45636733</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/127">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">127</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155H El Jinete</propiedades:HasModelo>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf</propiedades:HasEnlace>
+	<schema:address rdf:datatype="xsd:string">P. Cuchillitos de Tristán</schema:address>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<geo:long rdf:datatype="xsd:float">-16,27696546</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45632427</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/128">
+	<propiedades:HasModelo rdf:datatype="xsd:string">154D Sube y Baja</propiedades:HasModelo>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">128</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. Cuchillitos de Tristán</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154D.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27688352</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45657051</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/129">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">129</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154D Sube y Baja</propiedades:HasModelo>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154D.pdf</propiedades:HasEnlace>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Maestro Borguño</schema:address>
+	<geo:long rdf:datatype="xsd:float">-16,28551685</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45053913</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/130">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">130</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155I El Remo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Maestro Borguño</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28545208</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45053212</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/131">
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+	<propiedades:HasModelo rdf:datatype="xsd:string">202T Bicicleta Estática</propiedades:HasModelo>
+	<schema:address rdf:datatype="xsd:string">Juan de Mattos y Azofra</schema:address>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">131</propiedades:HasFID>
+	<geo:long rdf:datatype="xsd:float">-16,27345353</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,4575303</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/132">
+	<propiedades:HasModelo rdf:datatype="xsd:string">154B Esquí de Fondo</propiedades:HasModelo>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">132</propiedades:HasFID>
+	<geo:long rdf:datatype="xsd:float">-16,27342584</geo:long>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Juan de Mattos y Azofra</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+	<geo:lat rdf:datatype="xsd:float">28,45751448</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/133">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">133</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154G Rueda Grande</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Camino Los Tarajales</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,21941123</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,56179421</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/134">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">134</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154G Rueda Grande</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Chamorga</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,15930983</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,5686785</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/135">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">135</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154G Rueda Grande</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Taborno</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26452124</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,55718109</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/136">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">136</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154G Rueda Grande</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Ctra. Igueste San Andrés</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,15710479</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,52899007</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/137">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">137</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">154B Esquí de Fondo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. San Pedro</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,15403068</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,52572703</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/138">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">138</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">RB001 Rowing</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Parkesa</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Punta de Anaga</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI"> </propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,31098696</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,42576204</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/139">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">139</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF9 Oblic</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Miguel Díaz</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,18878188</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,5121808</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/140">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">140</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF6 Step</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Miguel Díaz</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,18880642</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,51217757</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/141">
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF26 Pulse</propiedades:HasModelo>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">141</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Miguel Díaz</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,18877409</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,51215555</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/142">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">142</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF6 Step</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Taborno</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26452119</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,55713019</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/143">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">143</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF9 Oblic</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. San José</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,33360861</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,42506966</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/144">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">144</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF8 Row</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Frangollo</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,3293547</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,44736467</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/145">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">145</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF1 HIP</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Frangollo</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,32938426</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,44754687</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/146">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">146</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF13 Bike</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. El Rosarito</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,3015442</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,44054758</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/147">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">147</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF1 HIP</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. El Rosarito</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,3015184</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,44052974</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/148">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">148</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF9 Oblic</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Rambla Añaza</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,2988711</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,4255297</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/149">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">149</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF1 HIP</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Rambla Añaza</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,29960129</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,42381528</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/150">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">150</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF3 Torax</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Chirama</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,30744204</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,42647205</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/151">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">151</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF8 Row</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Chirama</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,30744889</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,4265363</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/152">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">152</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF9 Oblic</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Los Estudiantes</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,3044073</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,44517644</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/153">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">153</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA006 Climber</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Panamá</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26645904</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45549446</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/154">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">154</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA008 Remo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Panamá</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA008.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26643214</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45547897</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/155">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">155</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA018 Bicicleta</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Panamá</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,2664102</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45546431</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/156">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">156</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA003 Silla Pectorales</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Beneharo</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28343478</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45127989</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/157">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">157</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA006 Climber</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Beneharo</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28344765</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45125295</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/158">
+	<schema:address rdf:datatype="xsd:string">Ctra. Los Campitos</schema:address>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">158</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF8 Row</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26341544</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,48622643</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/159">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">159</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">155I El Remo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">TUYO HPC</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Ctra. Los Campitos</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26338643</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,48625406</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/160">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">160</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF13 Bike</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Tadorna</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,30806777</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,43704871</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/161">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">161</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF9 Oblic</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Tadorna</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,30813497</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,43699089</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/162">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">162</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA 003 Pectorales adap</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Tadorna</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003D.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,30800823</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,43707215</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/163">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">163</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA 019 Manivelas adap</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Rambla Añaza</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,29849057</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,42658179</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/164">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">164</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA 018 Bicicleta adap</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Rambla Añaza</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,2985557</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,4262661</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/165">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">165</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA 009 Timón adap</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Rambla Añaza</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009D.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,29922068</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,42486059</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/166">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">166</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA 018 Bicicleta adap</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Los Majuelos</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,31205759</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,44303199</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/167">
+	<geo:long rdf:datatype="xsd:float">-16,31369347</geo:long>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf</propiedades:HasEnlace>
+	<schema:address rdf:datatype="xsd:string">Avda. Los Majuelos</schema:address>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA 019 Manivelas adap</propiedades:HasModelo>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">167</propiedades:HasFID>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<geo:lat rdf:datatype="xsd:float">28,44206476</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/168">
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003D.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,31259542</geo:long>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">168</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA 003 Pectorales adap</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<schema:address rdf:datatype="xsd:string">Avda. Los Majuelos</schema:address>
+	<geo:lat rdf:datatype="xsd:float">28,44271501</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/169">
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf</propiedades:HasEnlace>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">169</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF13 Bike</propiedades:HasModelo>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Nuestra Sra. de la Merced</schema:address>
+	<geo:long rdf:datatype="xsd:float">-16,30541431</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,43553424</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/170">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">170</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF3 Torax</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Nuestra Sra. de la Merced</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,30538529</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,43555924</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/171">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">171</propiedades:HasFID>
+	<geo:long rdf:datatype="xsd:float">-16,30652728</geo:long>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF3 Torax</propiedades:HasModelo>
+	<schema:address rdf:datatype="xsd:string">Agana</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf</propiedades:HasEnlace>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<geo:lat rdf:datatype="xsd:float">28,42501437</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/172">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">172</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF6 Step</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Agana</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,30653669</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,42504001</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/173">
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<geo:long rdf:datatype="xsd:float">-16,275629</geo:long>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf</propiedades:HasEnlace>
+	<schema:address rdf:datatype="xsd:string">Eladio Roca y Salazar</schema:address>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">173</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF1 HIP</propiedades:HasModelo>
+	<geo:lat rdf:datatype="xsd:float">28,46593142</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/174">
+	<schema:address rdf:datatype="xsd:string">Eladio Roca y Salazar</schema:address>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF3 Torax</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">174</propiedades:HasFID>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27565145</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46590709</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/175">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">175</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF13 Bike</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Eladio Roca y Salazar</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27566999</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46593586</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/176">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">176</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF8 Row</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Eladio Roca y Salazar</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27568969</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46590914</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/177">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">177</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF4 Up</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Eladio Roca y Salazar</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF4.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27570824</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46593871</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/178">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">178</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF6 Step</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Manuel Castañeda</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26558281</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45730176</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/179">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">179</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF8 Row</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Manuel Castañeda</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26560817</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45731177</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/180">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">180</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF1 HIP</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Manuel Castañeda</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26563354</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45732179</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/181">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">181</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF10 Pull</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Manuel Castañeda</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF01.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26566889</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45731121</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/182">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">182</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF4 Up</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Manuel Castañeda</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF4.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26568981</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45729172</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/183">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">183</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF26 Pulse</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Manuel Castañeda</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26570258</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45727592</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/184">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">184</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF26 Pulse</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Eladio Roca y Salazar</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27560779</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46591181</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/185">
+	<schema:address rdf:datatype="xsd:string">Avda. Nuestra Sra. del Carmen</schema:address>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<geo:long rdf:datatype="xsd:float">-16,23848612</geo:long>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">185</propiedades:HasFID>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF31.pdf</propiedades:HasEnlace>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF31 Barras Paralelas</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<geo:lat rdf:datatype="xsd:float">28,48944637</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/186">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">186</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">PF26 Pulse</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Novatilu</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Nuestra Sra. del Carmen</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,23848946</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,48942554</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/187">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">187</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA018 Bicicleta adaptada</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Francisco La Roche</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,24544198</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47672348</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/188">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">188</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA003 Silla Pectorales</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Francisco La Roche</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,24591105</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47617676</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/189">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">189</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA019 Bíceps</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Francisco La Roche</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,24606456</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47595275</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/190">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">190</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA006 Climber</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Hermanos Maffiotte</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27584959</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45474041</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/191">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">191</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA003 Silla Pectorales</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Hermanos Maffiotte</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27580568</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45472966</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/192">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">192</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA001 Waist</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Hermanos Maffiotte</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27582637</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45469971</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/193">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">193</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA003 Silla Pectorales</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Magec</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28181789</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,44882226</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/194">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">194</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA006 Climber</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Magec</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28185206</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,4488431</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/195">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">195</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA001 Waist</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Magec</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,28188173</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,44882166</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/196">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">196</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA006 Climber</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Cheo</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27969153</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45272159</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/197">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">197</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA003 Silla Pectorales</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Cheo</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27974353</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45273168</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/198">
+	<geo:long rdf:datatype="xsd:float">-16,27986667</geo:long>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf</propiedades:HasEnlace>
+	<schema:address rdf:datatype="xsd:string">Pza. Cheo</schema:address>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA001 Waist</propiedades:HasModelo>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">198</propiedades:HasFID>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<geo:lat rdf:datatype="xsd:float">28,45251712</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/199">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">199</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JCIR06  Barras Paralelas</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">San Juan de la Rambla</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR06.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27642711</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46989804</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/200">
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">200</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA006 Climber</propiedades:HasModelo>
+	<schema:address rdf:datatype="xsd:string">Pza. La Victoria</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,25995687</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,45895638</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/201">
+	<schema:address rdf:datatype="xsd:string">Pza. Concha Castro</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf</propiedades:HasEnlace>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">201</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA018 Bicicleta</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<geo:long rdf:datatype="xsd:float">-16,27765293</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47388393</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/202">
+	<geo:long rdf:datatype="xsd:float">-16,27763713</geo:long>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Concha Castro</schema:address>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">202</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA018 Bicicleta adaptada</propiedades:HasModelo>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf</propiedades:HasEnlace>
+	<geo:lat rdf:datatype="xsd:float">28,47390877</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/203">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">203</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA005 Rueda</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Concha Castro</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA005.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27761048</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47389898</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/204">
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">204</propiedades:HasFID>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA009 Timón</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Concha Castro</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27762434</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47386997</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/205">
+	<schema:address rdf:datatype="xsd:string">San Juan de la Rambla</schema:address>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">205</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JCIR07 Pulse</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,27648594</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46993585</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/206">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">206</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JCIR07 Pulse</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Francisco Hernández Barroso</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26677115</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47052333</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/207">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA004 Barras</propiedades:HasModelo>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">207</propiedades:HasFID>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Francisco Hernández Barroso</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA004.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26673835</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,4705028</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/208">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">208</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JCIR07 Pulse</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. Secundino Delgado</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26311353</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47133236</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/209">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">209</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA004 Barras</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">P. Secundino Delgado</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA004.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26313903</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,47129509</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/210">
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA018 Bicicleta</propiedades:HasModelo>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">210</propiedades:HasFID>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<schema:address rdf:datatype="xsd:string">Pza. Anaga</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,2444121</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,48038521</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/211">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">211</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA008 Remo</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Anaga</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA008.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,24436018</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,48038393</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/212">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">212</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA001 Cintura</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Pza. Anaga</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,24435751</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,48032575</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/213">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">213</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA009 Timón</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Reyes Católicos</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26336605</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46199418</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/214">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">214</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA018 Bicicleta adaptada</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Reyes Católicos</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,2636143</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46111019</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/215">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">215</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA019 Bíceps</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Avda. Reyes Católicos</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,26367223</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,46090385</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/216">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">216</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JCIR07 Pulse</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Ctra. El Bailadero</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,23366197</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,53714614</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/217">
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf</propiedades:HasEnlace>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">217</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA006 Climber</propiedades:HasModelo>
+	<schema:address rdf:datatype="xsd:string">Ctra. El Bailadero</schema:address>
+	<geo:long rdf:datatype="xsd:float">-16,23363501</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,53712388</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/218">
+	<geo:long rdf:datatype="xsd:float">-16,21826326</geo:long>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">San Antonio (Taganana)</schema:address>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">218</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JCIR07 Pulse</propiedades:HasModelo>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf</propiedades:HasEnlace>
+	<geo:lat rdf:datatype="xsd:float">28,56226892</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/219">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">219</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA006 Climber</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">San Antonio (Taganana)</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,21822762</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,56226638</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/220">
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">220</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA009 Timón</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<schema:address rdf:datatype="xsd:string">Andrómeda</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,244741</geo:long>
+	<geo:lat rdf:datatype="xsd:float">28,48353117</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/221">
+	<geo:long rdf:datatype="xsd:float">-16,2445641</geo:long>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">221</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JSA018 Bicicleta</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf</propiedades:HasEnlace>
+	<schema:address rdf:datatype="xsd:string">Andrómeda</schema:address>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<geo:lat rdf:datatype="xsd:float">28,48334413</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/222">
+	<schema:address rdf:datatype="xsd:string">Avda. Nuestra Sra. del Carmen</schema:address>
+	<propiedades:HasEnlace rdf:datatype="xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR03.pdf</propiedades:HasEnlace>
+	<geo:long rdf:datatype="xsd:float">-16,23847333</geo:long>
+	<rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+	<propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">222</propiedades:HasFID>
+	<propiedades:HasModelo rdf:datatype="xsd:string">JCIR03 Espaldera</propiedades:HasModelo>
+	<propiedades:HasFabricante rdf:datatype="xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+	<geo:lat rdf:datatype="xsd:float">28,4894499</geo:lat>
+</rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,2294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:schema="http://schema.org/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:clases="https://www.santacruzdetenerife.es/Clases/"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:propiedades="https://www.santacruzdetenerife.es/Propiedades/">
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// ONTOLOGIA //////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+<owl:Ontology rdf:about="https://www.santacruzdetenerife.es/">
+  </owl:Ontology>
+
+/////////////////////////////// CLASES /////////////////////////////////////////////////
+  <rdfs:Class rdf:about="https://www.santacruzdetenerife.es/Clases/MaquinaPublica">
+  </rdfs:Class>
+
+/////////////////////////////// PROPIEDADES ////////////////////////////////////////////
+<rdf:Property rdf:about="https://www.santacruzdetenerife.es/Propiedades/HasFID">
+  <rdfs:domain rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="https://www.santacruzdetenerife.es/Propiedades/HasEnlace">
+  <rdfs:domain rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="https://www.santacruzdetenerife.es/Propiedades/HasFabricante">
+  <rdfs:domain rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#long">
+  <rdfs:domain rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
+  <rdfs:domain rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="https://schema.org/address">
+  <rdfs:domain rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="https://www.santacruzdetenerife.es/Propiedades/hasModelo">
+  <rdfs:domain rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Property>
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// INDIVIDUALES ///////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/0">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. VIera y Clavijo</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2619573264</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4652516647</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/1">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. VIera y Clavijo</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155F.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2619058696</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4652787851</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/2">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. VIera y Clavijo</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2618926919</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4653281389</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/3">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Los Majuelos</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3118786811</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.443140427</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/4">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Los Majuelos</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3122384703</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4429264474</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/5">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Los Majuelos</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155F.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3127462916</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4426250042</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/6">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Los Majuelos</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3130587886</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4424389366</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/7">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Marítima</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2487111238</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4618710638</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/8">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Marítima</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2486564062</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4619740767</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/9">
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2486056588</geo:long>
+  <schema:address xml:lang="^^xsd:string">Avda. Marítima</schema:address>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9.0</propiedades:HasFID>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4620624087</geo:lat>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/10">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Fernández Navarro</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2538777863</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4618940878</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/11">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Fernández Navarro</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.253848648</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4618933267</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/12">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Ganivet</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.26860138</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4600585144</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/13">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Ganivet</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2686021639</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4600265871</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/14">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. La Granja</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2663275766</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4624062902</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/15">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. La Granja</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2662349969</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4622640267</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/16">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. La Granja</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154D.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2663179106</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4621819103</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/17">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">San Juan de la Rambla</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2762177192</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4700699944</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/18">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">San Juan de la Rambla</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2762326308</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4700502907</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/19">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. La Victoria</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf</propiedades:HasEnlace>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4589887091</geo:lat>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2598202239</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/20">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. La Victoria</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2598105497</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4589589379</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/21">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. García Escámez</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2730020017</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4552057519</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/22">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. García Escámez</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2729128952</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4551347657</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/23">
+  <schema:address xml:lang="^^xsd:string">Pza. García Escámez</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2728630374</geo:long>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4551305986</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/24">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Kido</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. García Escámez</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI"> </propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2727753277</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4551762102</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/25">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Kido</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. García Escámez</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI"> </propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2727586992</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.455174049</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/26">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Kido</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. San José</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI"> </propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3335857498</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4250726848</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/27">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Kido</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. San José</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI"> </propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3336338785</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4250658181</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/28">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Kido</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. María Auxiliadora</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI"> </propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2574281042</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4651086877</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/29">
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29.0</propiedades:HasFID>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+  <schema:address xml:lang="^^xsd:string">Avda. Príncipes de España</schema:address>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2861077165</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4509726322</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/30">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Príncipes de España</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2861624337</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4507634008</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/31">
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.285911422</geo:long>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Príncipes de España</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf</propiedades:HasEnlace>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4513096951</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/32">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Príncipes de España</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2858638595</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4515188587</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/33">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Kido</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Príncipes de España</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI"> </propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2847797074</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4538148174</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/34">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">34.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Kido</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Príncipes de España</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI"> </propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2847655098</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4538481321</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/35">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Kido</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Príncipes de España</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI"> </propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2847492712</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4538851529</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/36">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">36.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. Santa Catalina</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3192781297</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4313160788</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/37">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">37.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. Santa Catalina</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3192479346</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.431346577</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/38">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">38.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. Santa Catalina</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155C.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.319353852</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4313312425</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/39">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">39.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. Santa Catalina</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154C.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3193182228</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4313586138</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/40">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. Santa Catalina</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155F.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3192897865</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4313859154</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/41">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">41.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. Santa Catalina</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3192861467</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4313462066</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/42">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Kido</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Pedro Schwartz</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI"> </propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.1935369967</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.506372075</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/43">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">43.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Kido</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Pedro Schwartz</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI"> </propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.1935734361</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.5063828599</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/44">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">44.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Reyes Católicos</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2630093603</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.463417304</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/45">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Reyes Católicos</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2629892971</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4634661382</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/46">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">46.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Los Sabandeños</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2625262752</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4605835564</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/47">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">47.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Los Sabandeños</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2625354934</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4605449896</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/48">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">48.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Los Sabandeños</schema:address>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4604841108</geo:lat>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2625531553</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/49">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">49.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Francisco La Roche</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2449181481</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4771826573</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/50">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Francisco La Roche</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2448182135</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4772523625</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/51">
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4775103827</geo:lat>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">51.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Francisco La Roche</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2444565768</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/52">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">52.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Francisco La Roche</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2442841339</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4776454949</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/53">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">53.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Francisco La Roche</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2439620005</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4779033713</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/54">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">54.0</propiedades:HasFID>
+  <schema:address xml:lang="^^xsd:string">Avda. Francisco La Roche</schema:address>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155C.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2438031517</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4780262191</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/55">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Francisco La Roche</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155D.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2434675153</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4783044503</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/56">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">56.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Río Guadalete</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2765224145</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.473716796</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/57">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">57.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Río Guadalete</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2765109501</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4736891821</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/58">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">58.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Río Guadalete</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2764881612</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.473645578</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/59">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">59.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Reyes Católicos</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.26357409</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4612295334</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/60">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">60.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Reyes Católicos</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2635352564</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4614158087</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/61">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">61.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Reyes Católicos</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2632259173</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.462908142</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/62">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">62.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. La Victoria</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2598318191</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4590265728</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/63">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">63.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Iglesia Cueva Bermeja</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2168784246</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4962164245</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/64">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">64.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Río Orinoco</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2153461036</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4966291093</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/65">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">65.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Rambla Añaza</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2993591574</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4245199571</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/66">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">66.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Rambla Añaza</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2990658924</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4250792035</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/67">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">67.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Rambla Añaza</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2987212138</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.426018328</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/68">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">68.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Rambla Añaza</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2983586944</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4267412697</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/69">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">69.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. VIera y Clavijo</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2619497124</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4652883575</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/70">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">70.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. La Estrella</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3059758341</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4296201659</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/71">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">71.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. La Estrella</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155D.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3060203411</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4295665043</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/72">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. Viera y Clavijo</schema:address>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">72.0</propiedades:HasFID>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI"> </propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2618931563</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4652821544</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/73">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">73.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Punta de Anaga</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3064756414</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4312811788</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/74">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">74.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf</propiedades:HasEnlace>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4314794476</geo:lat>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.306249351</geo:long>
+  <schema:address xml:lang="^^xsd:string">Punta de Anaga</schema:address>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/75">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Punta de Anaga</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3060070486</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4318325548</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/76">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">76.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Los Dragos</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.1975818169</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.5719244958</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/77">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Los Dragos</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.1975608566</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.5719239956</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/78">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">78.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Príncipes de España</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2866969477</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4496841583</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/79">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">79.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Chafira</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2895049329</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4460897446</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/80">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">80.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Chafira</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2894402578</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4460689688</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/81">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">81.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Nuestra Sra. de las Nieves</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2169447867</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.5610047544</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/82">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">82.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Nuestra Sra. de las Nieves</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2169586253</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.5610072703</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/83">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">83.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Zafiro</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2883117382</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4540619418</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/84">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">84.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Zafiro</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/15GF.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2883400085</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4540341936</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/85">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">85.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Zafiro</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2883663713</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4540542795</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/86">
+  <schema:address xml:lang="^^xsd:string">Pza. del Rosario</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">86.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2754728284</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4528756441</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/87">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">87.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. del Rosario</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2754896091</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.452898889</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/88">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">88.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Colegio Afur</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.249405824</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.5550401054</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/89">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">89.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Colegio Afur</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2493983485</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.5550431889</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/90">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">90.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Río Guadalete</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2765352335</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4736565699</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/91">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">91.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Río Guadalete</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2765502337</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4736934103</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/92">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Izquierdo Azcárate</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2723384613</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4578255479</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/93">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">93.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Izquierdo Azcárate</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2722971745</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.457825934</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/94">
+  <schema:address xml:lang="^^xsd:string">Paseo Peatonal Las Asuncionistas</schema:address>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.262418042</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4664961973</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/95">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">95.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Paseo Peatonal Las Asuncionistas</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2627008442</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4666121983</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/96">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">96.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Duggi</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2597394282</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4662081507</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/97">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">97.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Duggi</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154C.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2596617267</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4662024388</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/98">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">98.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Duggi</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2595864128</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4661934889</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/99">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">99.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Cmo. La Ermita</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2699998144</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4725609607</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/100">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">100.0</propiedades:HasFID>
+  <schema:address xml:lang="^^xsd:string">Cmo. La Ermita</schema:address>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2700017068</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4726177549</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/101">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">101.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Curva El Arco Iris</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2879737741</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4470121485</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/102">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">102.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Curva El Arco Iris</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2879766998</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4470284006</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/103">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">103.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Príncipes de España</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155C.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2840211121</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4555096315</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/104">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">104.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Príncipes de España</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2838626191</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4559551408</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/105">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">105.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Res. San Pío X</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2837437398</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4494528</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/106">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">106.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Res. San Pío X</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2836863246</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4495190863</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/107">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">107.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">García Lorca</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2708389064</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4572566511</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/108">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">108.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">García Lorca</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2708294682</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4571774169</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/109">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">109.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <schema:address xml:lang="^^xsd:string">Poeta Francisco Izquierdo</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2709457105</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4576256211</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/110">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">110.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Marítima</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155D.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2480924911</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4630818584</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/111">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">111.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Marítima</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2480835035</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4630673277</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/112">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">112.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Marítima</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2480893067</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4630501251</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/113">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">113.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Marítima</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2480817533</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.46311341</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/114">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">114.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. Leoncio Oramas</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2699455829</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4591349747</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/115">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">115.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. Leoncio Oramas</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2699943506</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4590998419</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/116">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">116.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. Leoncio Oramas</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2700195429</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4590805585</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/117">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">117.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Parkesa</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. Las Indias</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI"> </propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2716697301</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4680320164</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/118">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">118.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Parkesa</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. Las Indias</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI"> </propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2716802153</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4680050013</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/119">
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI"> </propiedades:HasEnlace>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">119.0</propiedades:HasFID>
+  <schema:address xml:lang="^^xsd:string">P. Las Indias</schema:address>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Parkesa</propiedades:HasFabricante>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2716936272</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4679762222</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/120">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">120.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Parkesa</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. Las Indias</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI"> </propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2717089417</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4679422156</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/121">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">121.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Parkesa</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. Las Indias</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI"> </propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2717232945</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4679099546</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/122">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">122.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Parkesa</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. Las Indias</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI"> </propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2717366647</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4678777028</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/123">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">123.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string"> </propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Río Guadalete</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI"> </propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2765615849</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4737160823</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/124">
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">124.0</propiedades:HasFID>
+  <schema:address xml:lang="^^xsd:string">P. Cuchillitos de Tristán</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2769174884</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4564705042</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/125">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">125.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. Cuchillitos de Tristán</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154C.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2769396423</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4563963336</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/126">
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4563673266</geo:lat>
+  <schema:address xml:lang="^^xsd:string">P. Cuchillitos de Tristán</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2769465712</geo:long>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">126.0</propiedades:HasFID>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/127">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">127.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. Cuchillitos de Tristán</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2769654603</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4563242724</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/128">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">128.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. Cuchillitos de Tristán</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154D.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2768835158</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4565705118</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/129">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">129.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Maestro Borguño</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154D.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2855168486</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4505391311</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/130">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">130.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Maestro Borguño</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2854520789</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4505321205</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/131">
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.273453526</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4575303016</geo:lat>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">131.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Juan de Mattos y Azofra</schema:address>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/132">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">132.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Juan de Mattos y Azofra</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2734258447</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4575144826</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/133">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">133.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Camino Los Tarajales</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2194112266</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.5617942125</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/134">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">134.0</propiedades:HasFID>
+  <schema:address xml:lang="^^xsd:string">Pza. Chamorga</schema:address>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.1593098312</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.5686785008</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/135">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">135.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Taborno</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.264521244</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.557181087</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/136">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">136.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Ctra. Igueste San Andrés</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.1571047866</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.5289900668</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/137">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">137.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. San Pedro</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.1540306769</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.525727032</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/138">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">138.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Parkesa</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Punta de Anaga</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI"> </propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3109869635</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4257620379</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/139">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">139.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Miguel Díaz</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.1887818832</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.5121808042</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/140">
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf</propiedades:HasEnlace>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Miguel Díaz</schema:address>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">140.0</propiedades:HasFID>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.1888064218</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.5121775747</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/141">
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">141.0</propiedades:HasFID>
+  <schema:address xml:lang="^^xsd:string">Pza. Miguel Díaz</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.188774091</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.512155548</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/142">
+  <schema:address xml:lang="^^xsd:string">Pza. Taborno</schema:address>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">142.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2645211894</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.5571301851</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/143">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">143.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. San José</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3336086091</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4250696553</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/144">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">144.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Frangollo</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3293546955</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4473646662</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/145">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">145.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Frangollo</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3293842622</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4475468702</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/146">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">146.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. El Rosarito</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3015441991</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4405475838</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/147">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">147.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf</propiedades:HasEnlace>
+  <schema:address xml:lang="^^xsd:string">Pza. El Rosarito</schema:address>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3015183998</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4405297419</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/148">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">148.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Rambla Añaza</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2988711038</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4255296998</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/149">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">149.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Rambla Añaza</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2996012857</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4238152784</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/150">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">150.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Chirama</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3074420354</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4264720463</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/151">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">151.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Chirama</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3074488879</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4265362957</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/152">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">152.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Los Estudiantes</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3044073011</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4451764427</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/153">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">153.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Panamá</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2664590432</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4554944648</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/154">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">154.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Panamá</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA008.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2664321409</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4554789738</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/155">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">155.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Panamá</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2664101962</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4554643111</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/156">
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf</propiedades:HasEnlace>
+  <schema:address xml:lang="^^xsd:string">Pza. Beneharo</schema:address>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">156.0</propiedades:HasFID>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2834347847</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4512798892</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/157">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">157.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Beneharo</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2834476527</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4512529491</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/158">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">158.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Ctra. Los Campitos</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2634154414</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4862264274</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/159">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">159.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">TUYO HPC</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Ctra. Los Campitos</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2633864337</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4862540561</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/160">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">160.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Tadorna</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3080677687</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4370487071</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/161">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">161.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Tadorna</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3081349677</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4369908923</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/162">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">162.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Tadorna</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003D.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3080082314</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4370721469</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/163">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">163.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Rambla Añaza</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2984905705</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4265817859</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/164">
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf</propiedades:HasEnlace>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">164.0</propiedades:HasFID>
+  <schema:address xml:lang="^^xsd:string">Rambla Añaza</schema:address>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2985556986</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.426266099</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/165">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">165.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Rambla Añaza</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009D.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2992206823</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4248605916</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/166">
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf</propiedades:HasEnlace>
+  <schema:address xml:lang="^^xsd:string">Avda. Los Majuelos</schema:address>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">166.0</propiedades:HasFID>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.312057589</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4430319916</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/167">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">167.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Los Majuelos</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3136934724</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.442064762</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/168">
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">168.0</propiedades:HasFID>
+  <schema:address xml:lang="^^xsd:string">Avda. Los Majuelos</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003D.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3125954237</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.442715014</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/169">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">169.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Nuestra Sra. de la Merced</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3054143118</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.435534244</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/170">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">170.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Nuestra Sra. de la Merced</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3053852873</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4355592435</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/171">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">171.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Agana</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3065272829</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4250143697</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/172">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">172.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Agana</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.3065366918</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4250400055</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/173">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">173.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Eladio Roca y Salazar</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.275629002</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4659314186</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/174">
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Eladio Roca y Salazar</schema:address>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">174.0</propiedades:HasFID>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2756514539</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4659070898</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/175">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">175.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Eladio Roca y Salazar</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2756699948</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4659358578</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/176">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">176.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Eladio Roca y Salazar</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2756896887</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.465909143</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/177">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">177.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Eladio Roca y Salazar</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF4.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2757082392</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4659387149</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/178">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">178.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Manuel Castañeda</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2655828101</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4573017586</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/179">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">179.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Manuel Castañeda</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2656081733</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.457311773</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/180">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">180.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Manuel Castañeda</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2656335366</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4573217873</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/181">
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF01.pdf</propiedades:HasEnlace>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">181.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Manuel Castañeda</schema:address>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2656688887</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4573112081</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/182">
+  <schema:address xml:lang="^^xsd:string">Pza. Manuel Castañeda</schema:address>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">182.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF4.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2656898069</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4572917188</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/183">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">183.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Manuel Castañeda</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2657025818</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4572759231</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/184">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">184.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Eladio Roca y Salazar</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2756077929</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4659118124</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/185">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">185.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Nuestra Sra. del Carmen</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF31.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2384861172</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4894463719</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/186">
+  <schema:address xml:lang="^^xsd:string">Avda. Nuestra Sra. del Carmen</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf</propiedades:HasEnlace>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">186.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Novatilu</propiedades:HasFabricante>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2384894571</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4894255395</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/187">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">187.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Francisco La Roche</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2454419812</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4767234768</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/188">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">188.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Francisco La Roche</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2459110546</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4761767641</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/189">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">189.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Francisco La Roche</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2460645553</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4759527476</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/190">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">190.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Hermanos Maffiotte</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2758495879</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4547404121</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/191">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">191.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Hermanos Maffiotte</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2758056812</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4547296634</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/192">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">192.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Hermanos Maffiotte</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2758263685</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4546997082</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/193">
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf</propiedades:HasEnlace>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">193.0</propiedades:HasFID>
+  <schema:address xml:lang="^^xsd:string">Magec</schema:address>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2818178863</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4488222593</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/194">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">194.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Magec</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2818520603</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4488431009</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/195">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">195.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Magec</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2818817335</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4488216578</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/196">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">196.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Cheo</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2796915286</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4527215859</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/197">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">197.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Cheo</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2797435338</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4527316784</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/198">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">198.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Cheo</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2798666679</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4525171212</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/199">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">199.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">San Juan de la Rambla</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR06.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2764271064</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4698980431</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/200">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">200.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. La Victoria</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2599568655</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4589563778</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/201">
+  <schema:address xml:lang="^^xsd:string">Pza. Concha Castro</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf</propiedades:HasEnlace>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">201.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2776529312</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4738839328</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/202">
+  <schema:address xml:lang="^^xsd:string">Pza. Concha Castro</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf</propiedades:HasEnlace>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">202.0</propiedades:HasFID>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2776371263</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4739087738</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/203">
+  <schema:address xml:lang="^^xsd:string">Pza. Concha Castro</schema:address>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA005.pdf</propiedades:HasEnlace>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">203.0</propiedades:HasFID>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2776104845</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4738989797</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/204">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">204.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Concha Castro</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2776243447</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4738699719</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/205">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">205.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">San Juan de la Rambla</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2764859395</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4699358497</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/206">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">206.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Francisco Hernández Barroso</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2667711537</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4705233297</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/207">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">207.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Francisco Hernández Barroso</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA004.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2667383512</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4705028023</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/208">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">208.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. Secundino Delgado</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2631135297</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4713323641</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/209">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">209.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">P. Secundino Delgado</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA004.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2631390328</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.471295091</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/210">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">210.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Anaga</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2444120965</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4803852145</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/211">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">211.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Anaga</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA008.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2443601838</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.480383926</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/212">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">212.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Pza. Anaga</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2443575058</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4803257506</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/213">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">213.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Reyes Católicos</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2633660508</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4619941786</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/214">
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">214.0</propiedades:HasFID>
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <schema:address xml:lang="^^xsd:string">Avda. Reyes Católicos</schema:address>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2636143042</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4611101947</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/215">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">215.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Reyes Católicos</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2636722285</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.460903847</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/216">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">216.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Ctra. El Bailadero</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.233661973</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.5371461434</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/217">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">217.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Ctra. El Bailadero</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2336350089</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.537123878</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/218">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">218.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">San Antonio (Taganana)</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2182632606</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.5622689153</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/219">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">219.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">San Antonio (Taganana)</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2182276167</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.5622663768</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/220">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">220.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Andrómeda</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2447410003</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4835311658</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/221">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">221.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Andrómeda</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2445641018</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.4833441263</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.santacruzdetenerife.es/222">
+  <rdf:type rdf:resource="https://www.santacruzdetenerife.es/Clases/MaquinaPublica"/>
+  <propiedades:HasFID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">222.0</propiedades:HasFID>
+  <propiedades:HasFabricante xml:lang="^^xsd:string">Fundiciones Benito</propiedades:HasFabricante>
+  <schema:address xml:lang="^^xsd:string">Avda. Nuestra Sra. del Carmen</schema:address>
+  <propiedades:HasEnlace xml:lang="^^xsd:anyURI">https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR03.pdf</propiedades:HasEnlace>
+  <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-16.2384733261</geo:long>
+  <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28.489449899</geo:lat>
+</rdf:Description>
+
+</rdf:RDF>
