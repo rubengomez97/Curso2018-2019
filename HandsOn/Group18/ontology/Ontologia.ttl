@@ -12,62 +12,86 @@
 #    Object Properties
 #################################################################
 
-###  http://group18.data/tieneFecha
-:tieneFecha rdf:type owl:ObjectProperty ;
-            rdfs:domain :Medida ;
-            rdfs:range :Fecha .
+###  http://group18.data/ontology#tieneFecha
+<http://group18.data/ontology#tieneFecha> rdf:type owl:ObjectProperty ;
+                                          rdfs:domain <http://group18.data/ontology#Medida> ;
+                                          rdfs:range <http://group18.data/ontology#Fecha> .
 
 
-###  http://group18.data/tieneMagnitud
-:tieneMagnitud rdf:type owl:ObjectProperty ;
-               rdfs:domain :Medida ;
-               rdfs:range :Magnitud .
+###  http://group18.data/ontology#tieneMagnitud
+<http://group18.data/ontology#tieneMagnitud> rdf:type owl:ObjectProperty ;
+                                             rdfs:domain <http://group18.data/ontology#Medida> ;
+                                             rdfs:range <http://group18.data/ontology#Magnitud> .
 
 
-###  http://group18.data/tieneMedida
-:tieneMedida rdf:type owl:ObjectProperty ;
-             rdfs:domain :puntoDeMuestreo ;
-             rdfs:range :Medida .
+###  http://group18.data/ontology#tieneMedida
+<http://group18.data/ontology#tieneMedida> rdf:type owl:ObjectProperty ;
+                                           rdfs:domain <http://group18.data/ontology#puntoDeMuestreo> ;
+                                           rdfs:range <http://group18.data/ontology#Medida> .
 
 
-###  http://group18.data/tieneTecnicaDeMedida
-:tieneTecnicaDeMedida rdf:type owl:ObjectProperty ;
-                      rdfs:domain :Medida ;
-                      rdfs:range :tecnicaDeMedida .
+###  http://group18.data/ontology#tieneTecnicaDeMedida
+<http://group18.data/ontology#tieneTecnicaDeMedida> rdf:type owl:ObjectProperty ;
+                                                    rdfs:domain <http://group18.data/ontology#Medida> ;
+                                                    rdfs:range <http://group18.data/ontology#tecnicaDeMedida> .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://group18.data/date
-:date rdf:type owl:DatatypeProperty ;
-      rdfs:domain :Fecha ;
-      rdfs:range xsd:dateTime .
+###  http://group18.data/ontology#date
+<http://group18.data/ontology#date> rdf:type owl:DatatypeProperty ;
+                                    rdfs:domain <http://group18.data/ontology#Fecha> ;
+                                    rdfs:range xsd:dateTime .
+
+
+###  http://group18.data/ontology#nombre_Magnitud
+<http://group18.data/ontology#nombre_Magnitud> rdf:type owl:DatatypeProperty ;
+                                               rdfs:domain <http://group18.data/ontology#Magnitud> ;
+                                               rdfs:range xsd:string .
+
+
+###  http://group18.data/ontology#nombre_puntoDeMuestreo
+<http://group18.data/ontology#nombre_puntoDeMuestreo> rdf:type owl:DatatypeProperty ;
+                                                      rdfs:domain <http://group18.data/ontology#puntoDeMuestreo> ;
+                                                      rdfs:range xsd:string .
+
+
+###  http://group18.data/ontology#nombre_tecnicaDeMedida
+<http://group18.data/ontology#nombre_tecnicaDeMedida> rdf:type owl:DatatypeProperty ;
+                                                      rdfs:domain <http://group18.data/ontology#tecnicaDeMedida> ;
+                                                      rdfs:range xsd:string .
+
+
+###  http://group18.data/ontology#valor_Medida
+<http://group18.data/ontology#valor_Medida> rdf:type owl:DatatypeProperty ;
+                                            rdfs:domain <http://group18.data/ontology#Medida> ;
+                                            rdfs:range xsd:double .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://group18.data/Fecha
-:Fecha rdf:type owl:Class .
+###  http://group18.data/ontology#Fecha
+<http://group18.data/ontology#Fecha> rdf:type owl:Class .
 
 
-###  http://group18.data/Magnitud
-:Magnitud rdf:type owl:Class .
+###  http://group18.data/ontology#Magnitud
+<http://group18.data/ontology#Magnitud> rdf:type owl:Class .
 
 
-###  http://group18.data/Medida
-:Medida rdf:type owl:Class .
+###  http://group18.data/ontology#Medida
+<http://group18.data/ontology#Medida> rdf:type owl:Class .
 
 
-###  http://group18.data/puntoDeMuestreo
-:puntoDeMuestreo rdf:type owl:Class .
+###  http://group18.data/ontology#puntoDeMuestreo
+<http://group18.data/ontology#puntoDeMuestreo> rdf:type owl:Class .
 
 
-###  http://group18.data/tecnicaDeMedida
-:tecnicaDeMedida rdf:type owl:Class .
+###  http://group18.data/ontology#tecnicaDeMedida
+<http://group18.data/ontology#tecnicaDeMedida> rdf:type owl:Class .
 
 
 ###  Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi
