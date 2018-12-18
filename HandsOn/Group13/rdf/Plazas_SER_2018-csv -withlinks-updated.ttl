@@ -1,0 +1,344 @@
+@prefix ont: <> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<http://127.0.0.1:3333/01-01+PALACIO> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q2136510" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2037" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Larga estancia" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "194" .
+
+<http://127.0.0.1:3333/01-02+EMBAJADORES> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q2449844" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2412" .
+
+<http://127.0.0.1:3333/01-03+CORTES> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "127" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q2535637" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "538" .
+
+<http://127.0.0.1:3333/01-04+JUSTICIA> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "1" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q1992319" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "1614" .
+
+<http://127.0.0.1:3333/01-05+UNIVERSIDAD> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "442" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q10387767" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "1512" .
+
+<http://127.0.0.1:3333/01-06+SOL> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q2465181" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "357" .
+
+<http://127.0.0.1:3333/02-01+IMPERIAL> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "686" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q3773740" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2986" .
+
+<http://127.0.0.1:3333/02-02+ACACIAS> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "703" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q3319190" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "3069" .
+
+<http://127.0.0.1:3333/02-03+CHOPERA> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "292" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q3773750" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "1615" .
+
+<http://127.0.0.1:3333/02-04+LEGAZPI> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "688" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q3773990" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2499" .
+
+<http://127.0.0.1:3333/02-05+DELICIAS> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "825" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q3773736" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2481" .
+
+<http://127.0.0.1:3333/02-06+PALOS+DE+MOGUER> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "459" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q521009" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2495" .
+
+<http://127.0.0.1:3333/02-07+ATOCHA> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "785" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q3814594" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "537" .
+
+<http://127.0.0.1:3333/03-01+PAC%C3%8DFICO> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "433" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q3773753" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2370" .
+
+<http://127.0.0.1:3333/03-02+ADELFAS> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "339" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q3774001" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2168" .
+
+<http://127.0.0.1:3333/03-03+ESTRELLA> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "522" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q3773738" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "3122" .
+
+<http://127.0.0.1:3333/03-04+IBIZA> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "371" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q15249910" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "1666" .
+
+<http://127.0.0.1:3333/03-05+JER%C3%93NIMOS> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "417" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q10306766" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "1510" .
+
+<http://127.0.0.1:3333/03-06+NI%C3%91O+JES%C3%9AS> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "418" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q3773746" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2192" .
+
+<http://127.0.0.1:3333/04-01+RECOLETOS> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "568" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q3814551" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "1858" .
+
+<http://127.0.0.1:3333/04-02+GOYA> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "412" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q3814578" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2521" .
+
+<http://127.0.0.1:3333/04-03+FUENTE+DEL+BERRO> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "233" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q3814564" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "1941" .
+
+<http://127.0.0.1:3333/04-04+GUINDALERA> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "1568" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q3814559" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "5222" .
+
+<http://127.0.0.1:3333/04-05+LISTA> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "353" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q4779" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "1505" .
+
+<http://127.0.0.1:3333/04-06+CASTELLANA> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "431" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q4781" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2059" .
+
+<http://127.0.0.1:3333/05-01+EL+VISO> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "1455" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q4778" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "4440" .
+
+<http://127.0.0.1:3333/05-02+PROSPERIDAD> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "816" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q4776" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "3763" .
+
+<http://127.0.0.1:3333/05-03+CIUDAD+JARD%C3%8DN> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "688" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q3773744" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2677" .
+
+<http://127.0.0.1:3333/05-04+HISPANOAM%C3%89RICA> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "1588" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q3814573" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "5332" .
+
+<http://127.0.0.1:3333/05-05+NUEVA+ESPA%C3%91A> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "1489" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q10338128" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "5261" .
+
+<http://127.0.0.1:3333/05-06+CASTILLA> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "931" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q3813735" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2873" .
+
+<http://127.0.0.1:3333/06-01+BELLAS+VISTAS> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "321" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q11908929" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2588" .
+
+<http://127.0.0.1:3333/06-02+CUATRO+CAMINOS> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "875" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q5824684" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "3505" .
+
+<http://127.0.0.1:3333/06-03+CASTILLEJOS> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "456" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q11913212" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2724" .
+
+<http://127.0.0.1:3333/06-04+ALMENARA> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "539" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q2265427" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "3352" .
+
+<http://127.0.0.1:3333/06-05+VALDEACEDERAS> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "204" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q10388711" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2150" .
+
+<http://127.0.0.1:3333/06-06+BERRUGUETE> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "397" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q11909208" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "1711" .
+
+<http://127.0.0.1:3333/07-01+GAZTAMBIDE> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "541" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q10288587" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "1693" .
+
+<http://127.0.0.1:3333/07-02+ARAPILES> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "463" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q10856744" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "1660" .
+
+<http://127.0.0.1:3333/07-03+TRAFALGAR> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "415" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q10384027" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2008" .
+
+<http://127.0.0.1:3333/07-04+ALMAGRO> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "689" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q10954432" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2345" .
+
+<http://127.0.0.1:3333/07-05+R%C3%8DOS+ROSAS> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "533" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q10366270" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2727" .
+
+<http://127.0.0.1:3333/07-06+VALLEHERMOSO> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "804" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q6122685" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2708" .
+
+<http://127.0.0.1:3333/08-04+EL+PILAR> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "631" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q3773964" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "6643" .
+
+<http://127.0.0.1:3333/08-05+LA+PAZ> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "575" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q5869740" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "4929" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "�mbito sanitario" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "384" .
+
+<http://127.0.0.1:3333/09-01+CASA+DE+CAMPO> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "877" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q16302441" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2949" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Larga estancia" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "1204" .
+
+<http://127.0.0.1:3333/09-02+ARG%C3%9CELLES> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "374" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q64874" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "2111" .
+
+<http://127.0.0.1:3333/09-03+CIUDAD+UNIVERSITARIA> a <http://www.aparcamientos-SER.org/clases#Barrio> ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Azul" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "603" ;
+	owl:sameAs "https://www.wikidata.org/wiki/Q3319235" ;
+	<http://www.aparcamientos-SER.org/propiedades#color> "Verde" ;
+	<http://www.aparcamientos-SER.org/propiedades#tipo> "1767" .

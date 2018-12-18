@@ -1,0 +1,125 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Bater�a/L�nea using expression grel:value.replace(\"�\",\"i\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Bater�a/L�nea",
+    "expression": "grel:value.replace(\"�\",\"i\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Calle using expression grel:value.replace(\"�\",\"GN\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "�",
+          "name": "Address",
+          "type": "text",
+          "columnName": "Address"
+        }
+      ]
+    },
+    "columnName": "Calle",
+    "expression": "grel:value.replace(\"�\",\"GN\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Distrito using expression grel:value.replace(\"�\",\"I\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "CHAMART�N",
+          "name": "Distrito",
+          "type": "text",
+          "columnName": "Distrito"
+        }
+      ]
+    },
+    "columnName": "Distrito",
+    "expression": "grel:value.replace(\"�\",\"I\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Distrito using expression grel:value.replace(\"�\",\"A\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "U�N",
+          "name": "Distrito",
+          "type": "text",
+          "columnName": "Distrito"
+        }
+      ]
+    },
+    "columnName": "Distrito",
+    "expression": "grel:value.replace(\"�\",\"A\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Distrito using expression grel:value.replace(\"�\",\"I\n\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "�",
+          "name": "Distrito",
+          "type": "text",
+          "columnName": "Distrito"
+        }
+      ]
+    },
+    "columnName": "Distrito",
+    "expression": "grel:value.replace(\"�\",\"I\n\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Address using expression grel:value.replace(\"�\",\"GN\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "�",
+          "name": "Address",
+          "type": "text",
+          "columnName": "Address"
+        }
+      ]
+    },
+    "columnName": "Address",
+    "expression": "grel:value.replace(\"�\",\"GN\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  }
+]
