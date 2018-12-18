@@ -13,19 +13,6 @@
     "onError": "set-to-blank"
   },
   {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Fecha using expression value.toDate()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Fecha",
-    "expression": "value.toDate()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
     "op": "core/column-removal",
     "description": "Remove column DIA",
     "columnName": "DIA"
@@ -1194,5 +1181,80 @@
     "description": "Rename column PUNTO_MUESTREO 1 to PUNTO_MUESTREO",
     "oldColumnName": "PUNTO_MUESTREO 1",
     "newColumnName": "PUNTO_MUESTREO"
+  },
+  {
+    "op": "core/transpose-columns-into-rows",
+    "description": "Transpose cells in columns starting with H01 into rows in two new columns named Hora and Medida",
+    "startColumnName": "H01",
+    "columnCount": -1,
+    "ignoreBlankCells": true,
+    "fillDown": false,
+    "keyColumnName": "Hora",
+    "valueColumnName": "Medida"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column PUNTO_MUESTREO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "PUNTO_MUESTREO"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column MAGNITUD",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "MAGNITUD"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column TÉCNICA_DE_MEDIDA",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TÉCNICA_DE_MEDIDA"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column Fecha",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "Fecha"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Fecha y hora at index 4 based on column Fecha using expression grel:(value + \" \" + substring(cells[\"Hora\"].value, 1)+\":00:00\").toDate('d/M/y H:m:s')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "newColumnName": "Fecha y hora",
+    "columnInsertIndex": 4,
+    "baseColumnName": "Fecha",
+    "expression": "grel:(value + \" \" + substring(cells[\"Hora\"].value, 1)+\":00:00\").toDate('d/M/y H:m:s')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Fecha",
+    "columnName": "Fecha"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Hora",
+    "columnName": "Hora"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Fecha y hora to Fecha",
+    "oldColumnName": "Fecha y hora",
+    "newColumnName": "Fecha"
   }
 ]

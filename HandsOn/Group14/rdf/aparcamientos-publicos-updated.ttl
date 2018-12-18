@@ -1,0 +1,1867 @@
+@prefix schema: <http://schema.org/> .
+@prefix pwl: <http://www.semanticweb.org/pc/ontologies/2018/9#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix topo: <http://data.ign.fr/def/topo#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://parkingsmadrid.org/13470> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Arquitecto Ribera" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " --Admite Tarjeta BonoRed-- **Titularidad: Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "318"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a50e15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  BARCELO, 2" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28004" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/JUSTICIA> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CENTRO> ;
+	pwl:latitud "40.426687899755734"^^xsd:double ;
+	pwl:longitud "-3.6996173701222492"^^xsd:double ;
+	pwl:plazasResidentes "298"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/JUSTICIA> a pwl:Barrio ;
+	pwl:nombre "JUSTICIA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1992319> .
+
+<http://parkingsmadrid.org/distrito/CENTRO> a pwl:Distrito ;
+	pwl:nombre "CENTRO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
+
+<http://parkingsmadrid.org/59060> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Avenida de América (intercambiador)" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion "Información sobre accesibilidad : Tiene escaleras adaptadas Ascensor de salida a la calle Avenida de América, 9 Tiene aseos accesibles Plazas para minusválidos Titularidad : Ayuntamiento de Madrid" ;
+	pwl:accesibilidad "true" ;
+	pwl:plazasPublicas "269"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3f3bc2c6e051c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  PRADENA DEL RINCON, 4" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28002" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/PROSPERIDAD> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CHAMARTIN> ;
+	pwl:latitud "40.43886083125741"^^xsd:double ;
+	pwl:longitud "-3.6766217383743345"^^xsd:double ;
+	pwl:telefono "Tlf: 917 376 257" ;
+	pwl:email "intercambiador@intercambiador.net" ;
+	pwl:plazasResidentes "392"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/PROSPERIDAD> a pwl:Barrio ;
+	pwl:nombre "PROSPERIDAD" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4776> .
+
+<http://parkingsmadrid.org/distrito/CHAMARTIN> a pwl:Distrito ;
+	pwl:nombre "CHAMARTIN" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1766348> .
+
+<http://parkingsmadrid.org/5898885> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Avenida de Portugal" ;
+	pwl:horario "Horario de apertura de 6:00 h a 22:00 h los días laborables." ;
+	pwl:descripcion "Informacion sobre accesibilidad: No tiene escalera adaptada Tiene ascensor de salida a Avenida de Portugal, s/n 1 aseo accesible (nivel-3) Plazas para minusválidos residentes: 20 Titularidad : Ayuntamiento de Madrid Gestión : Empresa Municipal de Transportes (EMT) ( más información )" ;
+	pwl:accesibilidad "true" ;
+	pwl:plazasPublicas "432"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c313e26f2b3fc210VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "AVENIDA  PORTUGAL, 155" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28011" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio%2FPUERTA+DEL+ANGEL> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/LATINA> ;
+	pwl:latitud "40.411180021966345"^^xsd:double ;
+	pwl:longitud "-3.7378318857463158"^^xsd:double ;
+	pwl:telefono "Tlf: 917 877 292 (grúa municipal)" ;
+	pwl:email "aparcamientos@madridmovilidad.es" ;
+	pwl:plazasResidentes "437"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio%2FPUERTA+DEL+ANGEL> a pwl:Barrio ;
+	pwl:nombre "PUERTA DEL ANGEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q31142> .
+
+<http://parkingsmadrid.org/distrito/LATINA> a pwl:Distrito ;
+	pwl:nombre "LATINA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q794954> .
+
+<http://parkingsmadrid.org/13475> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Brasil" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "226"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb2e15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  GENERAL YAG&Uuml;E, 11" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28020" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio%2FCUATRO+CAMINOS> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/TETUAN> ;
+	pwl:latitud "40.45610834965894"^^xsd:double ;
+	pwl:longitud "-3.694131675088486"^^xsd:double ;
+	pwl:plazasResidentes "400"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio%2FCUATRO+CAMINOS> a pwl:Barrio ;
+	pwl:nombre "CUATRO CAMINOS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5824684> .
+
+<http://parkingsmadrid.org/distrito/TETUAN> a pwl:Distrito ;
+	pwl:nombre "TETUAN" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773540> .
+
+<http://parkingsmadrid.org/183747> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Casino de la Reina" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "135"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c5f4bdc85c01c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  CASINO, 3" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28005" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/EMBAJADORES> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CENTRO> ;
+	pwl:latitud "40.406792648617134"^^xsd:double ;
+	pwl:longitud "-3.7046086019457167"^^xsd:double ;
+	pwl:plazasResidentes "449"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/EMBAJADORES> a pwl:Barrio ;
+	pwl:nombre "EMBAJADORES" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2449844> .
+
+<http://parkingsmadrid.org/distrito/CENTRO> a pwl:Distrito ;
+	pwl:nombre "CENTRO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
+
+<http://parkingsmadrid.org/13477> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Condesa de Gavia" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion "El horario de apertura para la parte del aparcamiento rotacional es de lunes a viernes de 9:00h a 20:40h. Sábados de 9:00 a 14:30h. Titularidad : Ayuntamiento de Madrid" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "73"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7e5f15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "PLAZA  CONDESA DE GAVIA, 0" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28020" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio%2FCUATRO+CAMINOS> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/TETUAN> ;
+	pwl:latitud "40.44938567948415"^^xsd:double ;
+	pwl:longitud "-3.7019164121880888"^^xsd:double ;
+	pwl:plazasResidentes "79"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio%2FCUATRO+CAMINOS> a pwl:Barrio ;
+	pwl:nombre "CUATRO CAMINOS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5824684> .
+
+<http://parkingsmadrid.org/distrito/TETUAN> a pwl:Distrito ;
+	pwl:nombre "TETUAN" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773540> .
+
+<http://parkingsmadrid.org/24103> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Corazón de María II" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion "Informacion sobre accesibilidad: No tiene escalera adaptada No tiene ascensor de salida a calle 2 aseos accesibles ( 1&ordf; planta) Plazas para minusválidos residentes: 6 Titularidad : Ayuntamiento de Madrid" ;
+	pwl:accesibilidad "true" ;
+	pwl:plazasPublicas "327"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b74e6545f951c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  CORAZON DE MARIA, 46" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28002" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/PROSPERIDAD> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CHAMARTIN> ;
+	pwl:latitud "40.444421820483264"^^xsd:double ;
+	pwl:longitud "-3.666902094780133"^^xsd:double ;
+	pwl:telefono "Tlf: 915 563 165 / 915 195 280" ;
+	pwl:email "aparcamientocorazondemaria@grupocogesa.es" ;
+	pwl:plazasResidentes "750"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> pwl:nombre "MADRID" ;
+	a pwl:City ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> owl:sameAs <https://www.wikidata.org/wiki/Q5756> ;
+	a pwl:Provincia ;
+	pwl:nombre "MADRID" .
+
+<http://parkingsmadrid.org/barrio/PROSPERIDAD> a pwl:Barrio ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4776> ;
+	pwl:nombre "PROSPERIDAD" .
+
+<http://parkingsmadrid.org/distrito/CHAMARTIN> owl:sameAs <https://www.wikidata.org/wiki/Q1766348> ;
+	a pwl:Distrito ;
+	pwl:nombre "CHAMARTIN" .
+
+<http://parkingsmadrid.org/81736> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Corona Boreal" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion "Información sobre accesibilidad: No tiene escaleras adaptadas Ascensor de salida a la calle Pérez de Victoria 2 aseos accesibles (1&ordf; planta) Plazas para minusválidos residentes: 3 Titularidad : Ayuntamiento de Madrid" ;
+	pwl:accesibilidad "true" ;
+	pwl:plazasPublicas "120"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=db8bc2c6e051c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  PEREZ DE VICTORIA, sn" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28023" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/ARAVACA> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/MONCLOA-ARAVACA> ;
+	pwl:latitud "40.45852127134047"^^xsd:double ;
+	pwl:longitud "-3.78317943069732"^^xsd:double ;
+	pwl:telefono "Tlf: 913 573 714" ;
+	pwl:email "parkingcoronaboreal@hotmail.com" ;
+	pwl:plazasResidentes "125"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/ARAVACA> a pwl:Barrio ;
+	pwl:nombre "ARAVACA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3314682> .
+
+<http://parkingsmadrid.org/distrito/MONCLOA-ARAVACA> a pwl:Distrito ;
+	pwl:nombre "MONCLOA-ARAVACA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2017682> .
+
+<http://parkingsmadrid.org/183748> pwl:nombre "Aparcamiento mixto. Daoíz y Velarde" ;
+	pwl:horario "Abierto 24 horas" ;
+	a topo:Parking ;
+	pwl:descripcion " **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "312"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0f85bdc85c01c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "AVENIDA  CIUDAD DE BARCELONA, 3" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28007" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/PACIFICO> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/RETIRO> ;
+	pwl:latitud "40.40531540835356"^^xsd:double ;
+	pwl:longitud "-3.683557034656531"^^xsd:double ;
+	pwl:telefono "Tlf: S/T" ;
+	pwl:plazasResidentes "174"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/PACIFICO> a pwl:Barrio ;
+	pwl:nombre "PACIFICO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3773753> .
+
+<http://parkingsmadrid.org/distrito/RETIRO> a pwl:Distrito ;
+	pwl:nombre "RETIRO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2002296> .
+
+<http://parkingsmadrid.org/44724> pwl:accesibilidad "false" ;
+	a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Díaz Porlier" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:plazasPublicas "203"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9e69946be351c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  DIEGO DE LEON, 62" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28006" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/LISTA> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/SALAMANCA> ;
+	pwl:latitud "40.434415601006386"^^xsd:double ;
+	pwl:longitud "-3.675728293375598"^^xsd:double ;
+	pwl:telefono "Tlf: 91 401 73 74" ;
+	pwl:plazasResidentes "421"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/LISTA> a pwl:Barrio ;
+	pwl:nombre "LISTA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4779> .
+
+<http://parkingsmadrid.org/distrito/SALAMANCA> a pwl:Distrito ;
+	pwl:nombre "SALAMANCA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773521> .
+
+<http://parkingsmadrid.org/36269> pwl:latitud "40.40581270738191"^^xsd:double ;
+	pwl:codigoPostal "28030" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio%2FMEDIA+LEGUA> ;
+	a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Encuentro" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/MORATALAZ> ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "104"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c3e12c798651c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "PLAZA  ENCUENTRO, 1" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:longitud "-3.652048809515808"^^xsd:double ;
+	pwl:telefono "Tlf: 91 328 36 80" ;
+	pwl:plazasResidentes "550"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio%2FMEDIA+LEGUA> a pwl:Barrio ;
+	pwl:nombre "MEDIA LEGUA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q9031035> .
+
+<http://parkingsmadrid.org/distrito/MORATALAZ> a pwl:Distrito ;
+	pwl:nombre "MORATALAZ" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2076109> .
+
+<http://parkingsmadrid.org/13464> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Felipe II" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion "Información sobre accesibilidad: No tiene escaleras adaptadas Ascensor de salida a la plaza de Felipe II Aseo accesible (1&ordf; planta) Plazas para minusválidos residentes:23 Admite tarjeta BonoRed Titularidad : Ayuntamiento de Madrid" ;
+	pwl:accesibilidad "true" ;
+	pwl:plazasPublicas "1175  rotacionales"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=425e15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  ANTONIA MERCE, 5" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28009" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/GOYA> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/SALAMANCA> ;
+	pwl:latitud "40.42422175692137"^^xsd:double ;
+	pwl:longitud "-3.673433652213169"^^xsd:double ;
+	pwl:plazasResidentes "615"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/GOYA> a pwl:Barrio ;
+	pwl:nombre "GOYA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814578> .
+
+<http://parkingsmadrid.org/distrito/SALAMANCA> a pwl:Distrito ;
+	pwl:nombre "SALAMANCA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773521> .
+
+<http://parkingsmadrid.org/13462> pwl:plazasPublicas "410"^^xsd:int ;
+	pwl:accesibilidad "true" ;
+	a topo:Parking ;
+	pwl:descripcion "Información sobre accesibilidad: No tiene escalera adaptada 1 ascensor con salida a la calle Fuencarral, 117 1 aseo accesible en la 1&ordf; planta Plazas para minusválidos residentes: 7 Admite Tarjeta BonoRed Titularidad : Ayuntamiento de Madrid" ;
+	pwl:nombre "Aparcamiento mixto. Fuencarral" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=987e15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  FUENCARRAL, 111" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28010" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/TRAFALGAR> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CHAMBERI> ;
+	pwl:latitud "40.42948845687032"^^xsd:double ;
+	pwl:longitud "-3.7027941027177986"^^xsd:double ;
+	pwl:telefono "Tlf: 915 468 939" ;
+	pwl:email "clientes@empark.es" ;
+	pwl:plazasResidentes "111"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> ;
+	pwl:nombre "MADRID" .
+
+<http://parkingsmadrid.org/barrio/TRAFALGAR> a pwl:Barrio ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10384027> ;
+	pwl:nombre "TRAFALGAR" .
+
+<http://parkingsmadrid.org/distrito/CHAMBERI> a pwl:Distrito ;
+	pwl:nombre "CHAMBERI" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763370> .
+
+<http://parkingsmadrid.org/13515> pwl:address "AVENIDA  BRASIL, 15" ;
+	pwl:plazasPublicas "409"^^xsd:int ;
+	a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. General Yagüe" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ee9e15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28020" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/CASTILLEJOS> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/TETUAN> ;
+	pwl:latitud "40.45673936450418"^^xsd:double ;
+	pwl:longitud "-3.694067405537416"^^xsd:double ;
+	pwl:plazasResidentes "717 residentes"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/CASTILLEJOS> a pwl:Barrio ;
+	pwl:nombre "CASTILLEJOS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q11913212> .
+
+<http://parkingsmadrid.org/distrito/TETUAN> a pwl:Distrito ;
+	pwl:nombre "TETUAN" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773540> .
+
+<http://parkingsmadrid.org/36270> pwl:plazasPublicas "115"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d0712c798651c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  HERNANI, 60" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28020" ;
+	a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Hernani" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion "Información sobre accesibilidad: No tiene escaleras adptadas Ascensor de salida a la calle Hernai, 68 1 aseo accesible en 1&ordf; planta Plazas para minusválidos residentes. 3 Titularidad: Ayuntamiento de Madrid" ;
+	pwl:accesibilidad "true" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio%2FCUATRO+CAMINOS> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/TETUAN> ;
+	pwl:latitud "40.448394729978006"^^xsd:double ;
+	pwl:longitud "-3.7033919552673127"^^xsd:double ;
+	pwl:telefono "Tlf: 915 545 326" ;
+	pwl:plazasResidentes "383 residentes"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio%2FCUATRO+CAMINOS> a pwl:Barrio ;
+	pwl:nombre "CUATRO CAMINOS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5824684> .
+
+<http://parkingsmadrid.org/distrito/TETUAN> a pwl:Distrito ;
+	pwl:nombre "TETUAN" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773540> .
+
+<http://parkingsmadrid.org/13459> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Jacinto Benavente" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion "Información sobre accesibilidad: No tiene escaleras adaptadas Ascensor con salida a la calle Jacinto benavente, s/n 1 aseo accesible Plaza para minusválidos residentes: 16 Titularidad: Ayuntamiento de Madrid Gestión: Empresa Municipal de Transportes (EMT) ( más información )" ;
+	pwl:accesibilidad "true" ;
+	pwl:plazasPublicas "285"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c48f15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "PLAZA  JACINTO BENAVENTE, 6" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28012" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/CORTES> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CENTRO> ;
+	pwl:latitud "40.41444016371457"^^xsd:double ;
+	pwl:longitud "-3.70332112917586"^^xsd:double ;
+	pwl:telefono "Tlf: 917 877 292 (grúa municipal)" ;
+	pwl:email "aparcamientos@madridmovilidad.es" ;
+	pwl:plazasResidentes "110 .   Plazas motos:  7."^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/CORTES> a pwl:Barrio ;
+	pwl:nombre "CORTES" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2535637> .
+
+<http://parkingsmadrid.org/distrito/CENTRO> a pwl:Distrito ;
+	pwl:nombre "CENTRO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
+
+<http://parkingsmadrid.org/13479> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. José Castán Tobeñas" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion "Información sobre accesibilidad: No tiene escaleras adaptadas No disponde ascensor No disponde de aseos accesible Plazas para minusválidos residentes: 5 Titularidad: Ayuntamiento de Madrid" ;
+	pwl:accesibilidad "true" ;
+	pwl:plazasPublicas "205"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=35ce15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  CAPITAN HAYA, 57" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28020" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/CASTILLEJOS> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/TETUAN> ;
+	pwl:latitud "40.46451060463543"^^xsd:double ;
+	pwl:longitud "-3.6916467875121377"^^xsd:double ;
+	pwl:telefono "Tlf: 915 707 612" ;
+	pwl:email "aeuropeos@gmail.com" ;
+	pwl:plazasResidentes "43"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/CASTILLEJOS> owl:sameAs <https://www.wikidata.org/wiki/Q11913212> ;
+	pwl:nombre "CASTILLEJOS" ;
+	a pwl:Barrio .
+
+<http://parkingsmadrid.org/distrito/TETUAN> a pwl:Distrito ;
+	pwl:nombre "TETUAN" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773540> .
+
+<http://parkingsmadrid.org/6143690> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Marqués de Salamanca" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion "Información sobre accesibilidad: No tiene escaleras adaptadas 1 ascensor en la salida a la plaza del Marqués de Salamanca 1 aseo accesible en 2&ordf; planta Plaza para minusválidos residentes: 14 Titularidad : Ayuntamiento de Madrid" ;
+	pwl:accesibilidad "true" ;
+	pwl:plazasPublicas "360"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cb5b1b2bb5b61310VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "PLAZA  MARQUES DE SALAMANCA, 8" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28006" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/LISTA> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/SALAMANCA> ;
+	pwl:latitud "40.43046723981028"^^xsd:double ;
+	pwl:longitud "-3.6792137901324056"^^xsd:double ;
+	pwl:telefono "Tlf: 917 877 292 (grúa municipal)" ;
+	pwl:email "aparcamientos@madridmovilidad.es" ;
+	pwl:plazasResidentes "70"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/LISTA> a pwl:Barrio ;
+	pwl:nombre "LISTA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4779> .
+
+<http://parkingsmadrid.org/distrito/SALAMANCA> a pwl:Distrito ;
+	pwl:nombre "SALAMANCA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773521> .
+
+<http://parkingsmadrid.org/182188> pwl:latitud "40.4402052387976"^^xsd:double ;
+	pwl:plazasResidentes "68"^^xsd:int ;
+	pwl:longitud "-3.625049272913964"^^xsd:double ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito%2FSAN+BLAS-CANILLEJAS> ;
+	pwl:codigoPostal "28037" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/SIMANCAS> ;
+	a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Miguel Yuste" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " --Admite Tarjeta BonoRed-- **Titularidad: Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "182"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1c15bdc85c01c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  MIGUEL YUSTE, 11" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> .
+
+<http://parkingsmadrid.org/ciudad/MADRID> owl:sameAs <https://www.wikidata.org/wiki/Q2807> ;
+	a pwl:City ;
+	pwl:nombre "MADRID" .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/SIMANCAS> owl:sameAs <https://www.wikidata.org/wiki/Q10371626> ;
+	pwl:nombre "SIMANCAS" ;
+	a pwl:Barrio .
+
+<http://parkingsmadrid.org/distrito%2FSAN+BLAS-CANILLEJAS> a pwl:Distrito ;
+	pwl:nombre "SAN BLAS-CANILLEJAS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2001937> .
+
+<http://parkingsmadrid.org/5517342> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Orense" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion "Información sobre accesibilidad: 1 escalera adaptada No dispone de ascensor 1 aseo accesible Plaza para minusválidos residentes: 5 Titularidad : Ayuntamiento de Madrid Gestión: Empresa Municipal de Transportes (EMT) ( más información )" ;
+	pwl:accesibilidad "true" ;
+	pwl:plazasPublicas "128"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eee35ed15bb95210VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  SOR ANGELA DE LA CRUZ, 27" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28020" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/CASTILLEJOS> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/TETUAN> ;
+	pwl:latitud "40.45973534025835"^^xsd:double ;
+	pwl:longitud "-3.6962330375922363"^^xsd:double ;
+	pwl:email "aparcamientos@emtmadrid.es" ;
+	pwl:plazasResidentes "663"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/CASTILLEJOS> a pwl:Barrio ;
+	pwl:nombre "CASTILLEJOS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q11913212> .
+
+<http://parkingsmadrid.org/distrito/TETUAN> a pwl:Distrito ;
+	pwl:nombre "TETUAN" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773540> .
+
+<http://parkingsmadrid.org/52114> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Pedro Zerolo ?antes denominado Vázquez de Mella?" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion "Información sobre accesibilidad: No tiene escaleras adaptadas 1 ascensor con salida a la Plaza de Vazquez de Mella 1 aseo accesible Plaza para minusválidos residentes: 7 Titularidad: Ayuntamiento de Madrid Gestión: Empresa Municipal de Transportes (EMT) ( más información ) " ;
+	pwl:accesibilidad "true" ;
+	pwl:plazasPublicas "107"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e499946be351c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "PLAZA  PEDRO ZEROLO, 1" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28004" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/JUSTICIA> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CENTRO> ;
+	pwl:latitud "40.4209564450911"^^xsd:double ;
+	pwl:longitud "-3.699899832865304"^^xsd:double ;
+	pwl:telefono "Tlf: Residentes - 91 522 50 29          Rotacional -  91 532 19 10" ;
+	pwl:email "aparcamientos@emtmadrid.es" ;
+	pwl:plazasResidentes "261 .   Plazas motos:  6."^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/JUSTICIA> a pwl:Barrio ;
+	pwl:nombre "JUSTICIA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1992319> .
+
+<http://parkingsmadrid.org/distrito/CENTRO> a pwl:Distrito ;
+	pwl:nombre "CENTRO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
+
+<http://parkingsmadrid.org/33440> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Plaza de Oriente" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " Admite Tarjeta BonoRed Este PAR está adherido a la zona de APR Titularidad : Ayuntamiento de Madrid" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "242  rotacionales (30 plazas para autobuses)"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7db12c798651c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "PLAZA  ORIENTE, 1" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28013" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/PALACIO> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CENTRO> ;
+	pwl:latitud "40.417632509561116"^^xsd:double ;
+	pwl:longitud "-3.7116407088004757"^^xsd:double ;
+	pwl:plazasResidentes "511"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/PALACIO> a pwl:Barrio ;
+	pwl:nombre "PALACIO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2136510> .
+
+<http://parkingsmadrid.org/distrito/CENTRO> a pwl:Distrito ;
+	pwl:nombre "CENTRO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
+
+<http://parkingsmadrid.org/36271> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Presidente Carmona" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "379"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8a412c798651c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "AVENIDA  PRESIDENTE CARMONA, 3" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28020" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio%2FCUATRO+CAMINOS> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/TETUAN> ;
+	pwl:latitud "40.45362846199134"^^xsd:double ;
+	pwl:longitud "-3.6975262417380064"^^xsd:double ;
+	pwl:telefono "Tlf: 91 556 62 26" ;
+	pwl:plazasResidentes "124"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio%2FCUATRO+CAMINOS> a pwl:Barrio ;
+	pwl:nombre "CUATRO CAMINOS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5824684> .
+
+<http://parkingsmadrid.org/distrito/TETUAN> a pwl:Distrito ;
+	pwl:nombre "TETUAN" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773540> .
+
+<http://parkingsmadrid.org/13476> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Recoletos" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion "Información sobre accesibilidad: No tiene escaleras adaptadas 1 ascensor en la salida al Paseo de Recoletos 1 aseo accesible Plaza para minusválidos residentes: 10 Titularidad : Ayuntamiento de Madrid Gestión: Empresa Municipal de Transportes (EMT) ( más información )" ;
+	pwl:accesibilidad "true" ;
+	pwl:plazasPublicas "102"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=283f15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "PASEO  RECOLETOS, 4" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28001" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/RECOLETOS> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/SALAMANCA> ;
+	pwl:latitud "40.42054469225109"^^xsd:double ;
+	pwl:longitud "-3.691974283683488"^^xsd:double ;
+	pwl:email "aparcamientos@emtmadrid.es" ;
+	pwl:plazasResidentes "289"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/RECOLETOS> a pwl:Barrio ;
+	pwl:nombre "RECOLETOS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814551> .
+
+<http://parkingsmadrid.org/distrito/SALAMANCA> a pwl:Distrito ;
+	pwl:nombre "SALAMANCA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773521> .
+
+<http://parkingsmadrid.org/24193> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. República Dominicana" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "892"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aabe6545f951c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "PLAZA  REPUBLICA DOMINICANA, 6" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28016" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio%2FNUEVA+ESPA%C3%91A> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CHAMARTIN> ;
+	pwl:latitud "40.45887037458626"^^xsd:double ;
+	pwl:longitud "-3.6765275895176677"^^xsd:double ;
+	pwl:plazasResidentes "203"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio%2FNUEVA+ESPA%C3%91A> a pwl:Barrio ;
+	pwl:nombre "NUEVA ESPAÑA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10338128> .
+
+<http://parkingsmadrid.org/distrito/CHAMARTIN> a pwl:Distrito ;
+	pwl:nombre "CHAMARTIN" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1766348> .
+
+<http://parkingsmadrid.org/167692> pwl:nombre "Aparcamiento mixto. San Cayetano" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:accesibilidad "false" ;
+	pwl:codigoPostal "28028" ;
+	pwl:descripcion " **Titularidad : Ayuntamiento de Madrid**" ;
+	a topo:Parking ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:plazasPublicas "222"^^xsd:int ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/GUINDALERA> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/SALAMANCA> ;
+	pwl:latitud "40.43432235224971"^^xsd:double ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a284ff632081c010VgnVCM1000000b205a0aRCRD> ;
+	pwl:longitud "-3.6700799322371056"^^xsd:double ;
+	pwl:address "PLAZA  SAN CAYETANO, 1" ;
+	pwl:plazasResidentes "261"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/GUINDALERA> a pwl:Barrio ;
+	pwl:nombre "GUINDALERA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814559> .
+
+<http://parkingsmadrid.org/distrito/SALAMANCA> a pwl:Distrito ;
+	pwl:nombre "SALAMANCA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773521> .
+
+<http://parkingsmadrid.org/19053> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Sánchez Bustillo" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "132"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=27912c798651c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  SANCHEZ BUSTILLO, 1" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28012" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/EMBAJADORES> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CENTRO> ;
+	pwl:latitud "40.40917205238472"^^xsd:double ;
+	pwl:longitud "-3.6940145592988043"^^xsd:double ;
+	pwl:plazasResidentes "408"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/EMBAJADORES> a pwl:Barrio ;
+	pwl:nombre "EMBAJADORES" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2449844> .
+
+<http://parkingsmadrid.org/distrito/CENTRO> a pwl:Distrito ;
+	pwl:nombre "CENTRO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
+
+<http://parkingsmadrid.org/7416748> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Serrano I" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "307"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bd61f94ae1d15410VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  JUAN BRAVO, 4" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28006" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/CASTELLANA> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/SALAMANCA> ;
+	pwl:latitud "40.43289700914247"^^xsd:double ;
+	pwl:longitud "-3.6857697780390155"^^xsd:double ;
+	pwl:plazasResidentes "831"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> ;
+	a pwl:Provincia .
+
+<http://parkingsmadrid.org/barrio/CASTELLANA> a pwl:Barrio ;
+	pwl:nombre "CASTELLANA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4781> .
+
+<http://parkingsmadrid.org/distrito/SALAMANCA> a pwl:Distrito ;
+	pwl:nombre "SALAMANCA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773521> .
+
+<http://parkingsmadrid.org/7417028> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Serrano II" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "379"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bc096f1c35d15410VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  JOSE ORTEGA Y GASSET, 1" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28006" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/CASTELLANA> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/SALAMANCA> ;
+	pwl:latitud "40.43059379257075"^^xsd:double ;
+	pwl:longitud "-3.688281097618061"^^xsd:double ;
+	pwl:plazasResidentes "794"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/CASTELLANA> a pwl:Barrio ;
+	pwl:nombre "CASTELLANA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4781> .
+
+<http://parkingsmadrid.org/distrito/SALAMANCA> owl:sameAs <https://www.wikidata.org/wiki/Q1773521> ;
+	a pwl:Distrito ;
+	pwl:nombre "SALAMANCA" .
+
+<http://parkingsmadrid.org/7417052> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Serrano III" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "261"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9a1c6f1c35d15410VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  JORGE JUAN, 1" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28001" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/RECOLETOS> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/SALAMANCA> ;
+	pwl:latitud "40.42446775888825"^^xsd:double ;
+	pwl:longitud "-3.6897747066093993"^^xsd:double ;
+	pwl:plazasResidentes "725"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> owl:sameAs <https://www.wikidata.org/wiki/Q5756> ;
+	a pwl:Provincia ;
+	pwl:nombre "MADRID" .
+
+<http://parkingsmadrid.org/barrio/RECOLETOS> a pwl:Barrio ;
+	pwl:nombre "RECOLETOS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814551> .
+
+<http://parkingsmadrid.org/distrito/SALAMANCA> a pwl:Distrito ;
+	pwl:nombre "SALAMANCA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773521> .
+
+<http://parkingsmadrid.org/13460> pwl:horario "Abierto 24 horas" ;
+	a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Sevilla" ;
+	pwl:descripcion " --Admite Tarjeta BonoRed-- **Titularidad: Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "649  rotacionales"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9dd67339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  ALCALA, 17" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28014" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/SOL> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CENTRO> ;
+	pwl:latitud "40.41780383567921"^^xsd:double ;
+	pwl:longitud "-3.6998082261071747"^^xsd:double ;
+	pwl:telefono "Tlf: 915 219 281" ;
+	pwl:plazasResidentes "74"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> owl:sameAs <https://www.wikidata.org/wiki/Q5756> ;
+	a pwl:Provincia ;
+	pwl:nombre "MADRID" .
+
+<http://parkingsmadrid.org/barrio/SOL> pwl:nombre "SOL" ;
+	a pwl:Barrio ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2465181> .
+
+<http://parkingsmadrid.org/distrito/CENTRO> a pwl:Distrito ;
+	pwl:nombre "CENTRO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
+
+<http://parkingsmadrid.org/13458> a topo:Parking ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:nombre "Aparcamiento mixto. Velázquez - Ayala" ;
+	pwl:descripcion " --Admite Tarjeta BonoRed-- **Titularidad: Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "464"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8bee15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  VELAZQUEZ, 47" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28001" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/RECOLETOS> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/SALAMANCA> ;
+	pwl:latitud "40.427203787185476"^^xsd:double ;
+	pwl:longitud "-3.6841676172873936"^^xsd:double ;
+	pwl:plazasResidentes "235"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/RECOLETOS> owl:sameAs <https://www.wikidata.org/wiki/Q3814551> ;
+	a pwl:Barrio ;
+	pwl:nombre "RECOLETOS" .
+
+<http://parkingsmadrid.org/distrito/SALAMANCA> a pwl:Distrito ;
+	pwl:nombre "SALAMANCA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773521> .
+
+<http://parkingsmadrid.org/13457> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Velázquez - Jorge Juan" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " --Admite Tarjeta BonoRed-- **Titularidad: Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "549"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d11f15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  VELAZQUEZ, 25" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28001" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/RECOLETOS> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/SALAMANCA> ;
+	pwl:latitud "40.4243649253884"^^xsd:double ;
+	pwl:longitud "-3.684339253399854"^^xsd:double ;
+	pwl:plazasResidentes "395"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/RECOLETOS> a pwl:Barrio ;
+	pwl:nombre "RECOLETOS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814551> .
+
+<http://parkingsmadrid.org/distrito/SALAMANCA> a pwl:Distrito ;
+	pwl:nombre "SALAMANCA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773521> .
+
+<http://parkingsmadrid.org/183607> a topo:Parking ;
+	pwl:nombre "Aparcamiento mixto. Verdaguer y García" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion "Información sobre accesibilidad: No tiene escaleras adaptadas 1 ascensor en la salida a la Calle Verdaguer y garcía 1 aseo accesible en la planta -1 Plaza para minusválidos residentes: 4 Titularidad: Ayuntamiento de Madrid" ;
+	pwl:accesibilidad "true" ;
+	pwl:plazasPublicas "83"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6245bdc85c01c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  VERDAGUER Y GARCIA, 1" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28027" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio%2FSAN+PASCUAL> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito%2FCIUDAD+LINEAL> ;
+	pwl:latitud "40.43992277144076"^^xsd:double ;
+	pwl:longitud "-3.656505118007155"^^xsd:double ;
+	pwl:telefono "Tlf: 913 531 050" ;
+	pwl:plazasResidentes "180"^^xsd:int .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio%2FSAN+PASCUAL> a pwl:Barrio ;
+	pwl:nombre "SAN PASCUAL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q165612> .
+
+<http://parkingsmadrid.org/distrito%2FCIUDAD+LINEAL> a pwl:Distrito ;
+	pwl:nombre "CIUDAD LINEAL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763694> .
+
+<http://parkingsmadrid.org/10489514> a topo:Parking ;
+	pwl:nombre "Aparcamiento público disuasorio Estadio Metropolitano Sur ES-02b" ;
+	pwl:horario "Horario de apertura de 6:00 h a 22:00 h los días laborables excepto los días de partido en el estadio Metropolitano" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "para automóviles 1719  para motocicletas 61"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=975b89a80c49e510VgnVCM1000001d4a900aRCRD> ;
+	pwl:address "AVENIDA  ARCENTALES, 37" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28022" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/ROSAS> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito%2FSAN+BLAS-CANILLEJAS> ;
+	pwl:latitud "40.434154"^^xsd:double ;
+	pwl:longitud "-3.598831"^^xsd:double .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/ROSAS> a pwl:Barrio ;
+	pwl:nombre "ROSAS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q18880469> .
+
+<http://parkingsmadrid.org/distrito%2FSAN+BLAS-CANILLEJAS> a pwl:Distrito ;
+	pwl:nombre "SAN BLAS-CANILLEJAS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2001937> .
+
+<http://parkingsmadrid.org/13452> a topo:Parking ;
+	pwl:nombre "Aparcamiento público. Almagro" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion "Informacion sobre accesibilidad: 1 escalera adaptada No tiene ascensor de salida a calle 1 aseo accesible Plazas para minusválidos residentes: 17 Titularidad : Ayuntamiento de Madrid Gestión : Empresa Municipal de Transportes (EMT) ( más información )" ;
+	pwl:accesibilidad "true" ;
+	pwl:plazasPublicas "462"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0e167339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  ALMAGRO, 13" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28010" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/ALMAGRO> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CHAMBERI> ;
+	pwl:latitud "40.43030345785862"^^xsd:double ;
+	pwl:longitud "-3.6931471299523446"^^xsd:double .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/ALMAGRO> a pwl:Barrio ;
+	pwl:nombre "ALMAGRO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10954432> .
+
+<http://parkingsmadrid.org/distrito/CHAMBERI> a pwl:Distrito ;
+	pwl:nombre "CHAMBERI" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763370> .
+
+<http://parkingsmadrid.org/7393089> a topo:Parking ;
+	pwl:nombre "Aparcamiento público. Auditorio Nacional de Música (Príncipe de Vergara)" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " Admite la Tarjeta Bono Red Titularidad: Ayuntamiento de Madrid" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "376"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ed88f25e040c4410VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  CARTAGENA, 176" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28002" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio%2FCIUDAD+JARDIN> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CHAMARTIN> ;
+	pwl:latitud "40.44426892073378"^^xsd:double ;
+	pwl:longitud "-3.6777018495296048"^^xsd:double .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio%2FCIUDAD+JARDIN> a pwl:Barrio ;
+	pwl:nombre "CIUDAD JARDIN" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3773744> .
+
+<http://parkingsmadrid.org/distrito/CHAMARTIN> a pwl:Distrito ;
+	pwl:nombre "CHAMARTIN" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1766348> .
+
+<http://parkingsmadrid.org/13473> a topo:Parking ;
+	pwl:nombre "Aparcamiento público. Descalzas" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " --Admite Tarjeta BonoRed-- **Titularidad: Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "400"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=98e77339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "PLAZA  DESCALZAS, 4" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28013" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/SOL> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CENTRO> ;
+	pwl:latitud "40.41809765692244"^^xsd:double ;
+	pwl:longitud "-3.706306013191402"^^xsd:double ;
+	pwl:telefono "Tlf: 91 532 57 57" .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/SOL> a pwl:Barrio ;
+	pwl:nombre "SOL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2465181> .
+
+<http://parkingsmadrid.org/distrito/CENTRO> a pwl:Distrito ;
+	pwl:nombre "CENTRO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
+
+<http://parkingsmadrid.org/24809> a topo:Parking ;
+	pwl:nombre "Aparcamiento público. Fernández Shaw" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "245"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0e6e6545f951c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  CARLOS Y GUILLERMO FERNANDEZ SHAW, sn" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28007" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/ADELFAS> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/RETIRO> ;
+	pwl:latitud "40.406002468696784"^^xsd:double ;
+	pwl:longitud "-3.669292239090564"^^xsd:double .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/ADELFAS> a pwl:Barrio ;
+	pwl:nombre "ADELFAS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3774001> .
+
+<http://parkingsmadrid.org/distrito/RETIRO> a pwl:Distrito ;
+	pwl:nombre "RETIRO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2002296> .
+
+<http://parkingsmadrid.org/13478> a topo:Parking ;
+	pwl:nombre "Aparcamiento público. Glorieta Puerta de Toledo" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "244"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5f477339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  CAPITAN SALAZAR MARTINEZ, 2" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28005" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/EMBAJADORES> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CENTRO> ;
+	pwl:latitud "40.40745328367243"^^xsd:double ;
+	pwl:longitud "-3.7100131737859567"^^xsd:double .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/EMBAJADORES> a pwl:Barrio ;
+	pwl:nombre "EMBAJADORES" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2449844> .
+
+<http://parkingsmadrid.org/distrito/CENTRO> a pwl:Distrito ;
+	pwl:nombre "CENTRO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
+
+<http://parkingsmadrid.org/13467> a topo:Parking ;
+	pwl:nombre "Aparcamiento público. Las Cortes" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " --Admite Tarjeta BonoRed-- **Titularidad: Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "480"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=42c77339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "PLAZA  LAS CORTES, 0" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28014" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/CORTES> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/Centro> ;
+	pwl:latitud "40.41576756093728"^^xsd:double ;
+	pwl:longitud "-3.695367083138702"^^xsd:double .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/CORTES> a pwl:Barrio ;
+	pwl:nombre "CORTES" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2535637> .
+
+<http://parkingsmadrid.org/distrito/Centro> a pwl:Distrito ;
+	pwl:nombre "Centro" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
+
+<http://parkingsmadrid.org/13449> a topo:Parking ;
+	pwl:nombre "Aparcamiento público. Luna - Tudescos" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " --Admite Tarjeta BonoRed-- **Titularidad: Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "481"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=54467339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "PLAZA  SANTA MARIA SOLEDAD TORRES ACOSTA, 2" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28004" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/UNIVERSIDAD> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CENTRO> ;
+	pwl:latitud "40.4214535549175"^^xsd:double ;
+	pwl:longitud "-3.705563118253955"^^xsd:double .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/UNIVERSIDAD> a pwl:Barrio ;
+	pwl:nombre "UNIVERSIDAD" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10387767> .
+
+<http://parkingsmadrid.org/distrito/CENTRO> a pwl:Distrito ;
+	pwl:nombre "CENTRO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
+
+<http://parkingsmadrid.org/13469> a topo:Parking ;
+	pwl:nombre "Aparcamiento público. Marqués de Urquijo" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " Admite Tarjeta BonoRed" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "482"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aa667339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  MARQUES DE URQUIJO, 27" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28008" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/ARGUELLES> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/MONCLOA-ARAVACA> ;
+	pwl:latitud "40.42955928333471"^^xsd:double ;
+	pwl:longitud "-3.719111078507027"^^xsd:double .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/ARGUELLES> a pwl:Barrio ;
+	pwl:nombre "ARGUELLES" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q64874> .
+
+<http://parkingsmadrid.org/distrito/MONCLOA-ARAVACA> a pwl:Distrito ;
+	pwl:nombre "MONCLOA-ARAVACA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2017682> .
+
+<http://parkingsmadrid.org/13465> a topo:Parking ;
+	pwl:nombre "Aparcamiento público. Montalbán" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " **Titularidad : Ayuntamiento de Madrid** ||Gestión : Empresa Municipal de Transportes (EMT)||" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "275"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f0967339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  MONTALBAN, 4" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28014" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio%2FLOS+JERONIMOS> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/RETIRO> ;
+	pwl:latitud "40.41802725000116"^^xsd:double ;
+	pwl:longitud "-3.691123387515545"^^xsd:double .
+
+<http://parkingsmadrid.org/ciudad/MADRID> owl:sameAs <https://www.wikidata.org/wiki/Q2807> ;
+	pwl:nombre "MADRID" ;
+	a pwl:City .
+
+<http://parkingsmadrid.org/provincia/MADRID> pwl:nombre "MADRID" ;
+	a pwl:Provincia ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio%2FLOS+JERONIMOS> a pwl:Barrio ;
+	pwl:nombre "LOS JERONIMOS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10306766> .
+
+<http://parkingsmadrid.org/distrito/RETIRO> a pwl:Distrito ;
+	pwl:nombre "RETIRO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2002296> .
+
+<http://parkingsmadrid.org/13451> pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28015" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/UNIVERSIDAD> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CENTRO> ;
+	pwl:latitud "40.4227759148193"^^xsd:double ;
+	pwl:longitud "-3.708830424647755"^^xsd:double ;
+	pwl:telefono "Tlf: 902 283 080" ;
+	a topo:Parking ;
+	pwl:nombre "Aparcamiento público. Mostenses" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion "Información sobre accesibilidad: No tiene escaleras adaptadas 1 ascensor 1 aseo accesible en 2&ordf; planta Plaza para minusválidos residentes: 16 Admite Tarjeta BonoRed Titularidad: Ayuntamiento de Madrid" ;
+	pwl:accesibilidad "true" ;
+	pwl:plazasPublicas "362"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fe0881eb5f51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  GARCIA MOLINAS, 4" .
+
+<http://parkingsmadrid.org/ciudad/MADRID> owl:sameAs <https://www.wikidata.org/wiki/Q2807> ;
+	pwl:nombre "MADRID" ;
+	a pwl:City .
+
+<http://parkingsmadrid.org/provincia/MADRID> owl:sameAs <https://www.wikidata.org/wiki/Q5756> ;
+	pwl:nombre "MADRID" ;
+	a pwl:Provincia .
+
+<http://parkingsmadrid.org/barrio/UNIVERSIDAD> pwl:nombre "UNIVERSIDAD" ;
+	a pwl:Barrio ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10387767> .
+
+<http://parkingsmadrid.org/distrito/CENTRO> a pwl:Distrito ;
+	pwl:nombre "CENTRO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
+
+<http://parkingsmadrid.org/88141> pwl:address "CALLE  PRINCIPE DE VERGARA, 134" ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bdc7bdc85c01c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:codigoPostal "28002" ;
+	pwl:plazasPublicas "147"^^xsd:int ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:accesibilidad "false" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:descripcion " **Titularidad : Ayuntamiento de Madrid**" ;
+	a topo:Parking ;
+	pwl:nombre "Aparcamiento público. Museo de la Ciudad" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio%2FCIUDAD+JARDIN> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CHAMARTIN> ;
+	pwl:latitud "40.44366224087455"^^xsd:double ;
+	pwl:longitud "-3.6782263814004565"^^xsd:double .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio%2FCIUDAD+JARDIN> a pwl:Barrio ;
+	pwl:nombre "CIUDAD JARDIN" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3773744> .
+
+<http://parkingsmadrid.org/distrito/CHAMARTIN> a pwl:Distrito ;
+	pwl:nombre "CHAMARTIN" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1766348> .
+
+<http://parkingsmadrid.org/13450> a topo:Parking ;
+	pwl:nombre "Aparcamiento público. Olavide" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion "Información sobre accesibilidad: Disponde de escaleras adaptadas 1 ascensor en la salida a la Plaza de Olavide 1 aseo accesible en la 1&ordf; planta Plaza para minusválidos residentes: 8 Admite Tarjeta BonoRed Titularidad : Ayuntamiento de Madrid" ;
+	pwl:accesibilidad "true" ;
+	pwl:plazasPublicas "397"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=453881eb5f51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "PLAZA  OLAVIDE, 17" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28010" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/TRAFALGAR> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CHAMBERI> ;
+	pwl:latitud "40.43277769820206"^^xsd:double ;
+	pwl:longitud "-3.7011542013121264"^^xsd:double ;
+	pwl:telefono "Tlf: 914 468 570" .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/TRAFALGAR> a pwl:Barrio ;
+	pwl:nombre "TRAFALGAR" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10384027> .
+
+<http://parkingsmadrid.org/distrito/CHAMBERI> a pwl:Distrito ;
+	pwl:nombre "CHAMBERI" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763370> .
+
+<http://parkingsmadrid.org/13454> a topo:Parking ;
+	pwl:nombre "Aparcamiento público. Plaza de Colón" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " --Admite Tarjeta BonoRed-- **Titularidad: Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "605"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a5777339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  GOYA, 2" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28001" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/RECOLETOS> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/SALAMANCA> ;
+	pwl:latitud "40.42518540300912"^^xsd:double ;
+	pwl:longitud "-3.6887800207651495"^^xsd:double ;
+	pwl:telefono "Tlf: 915 761 837" .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/RECOLETOS> a pwl:Barrio ;
+	pwl:nombre "RECOLETOS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814551> .
+
+<http://parkingsmadrid.org/distrito/SALAMANCA> a pwl:Distrito ;
+	pwl:nombre "SALAMANCA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773521> .
+
+<http://parkingsmadrid.org/13463> a topo:Parking ;
+	pwl:nombre "Aparcamiento público. Plaza de España" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " **Titularidad : Ayuntamiento de Madrid** ||Gestión : Empresa Municipal de Transportes (EMT)||" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "800(hasta 535 abonados)"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb977339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "PLAZA  ESPA&Ntilde;A, 20" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28008" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/ARGUELLES> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/MONCLOA-ARAVACA> ;
+	pwl:latitud "40.42372251184839"^^xsd:double ;
+	pwl:longitud "-3.7116577340508523"^^xsd:double .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/ARGUELLES> a pwl:Barrio ;
+	pwl:nombre "ARGUELLES" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q64874> .
+
+<http://parkingsmadrid.org/distrito/MONCLOA-ARAVACA> a pwl:Distrito ;
+	pwl:nombre "MONCLOA-ARAVACA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2017682> .
+
+<http://parkingsmadrid.org/13472> a topo:Parking ;
+	pwl:nombre "Aparcamiento público. Plaza del Carmen" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion "Información sobre accesibilidad: No tiene escaleras adaptadas 1 ascensor 1 aseo accesible en 1&ordf; planta Plaza para minusválidos residentes: 7 Admite Tarjeta BonoRed Titularidad: Ayuntamiento de Madrid" ;
+	pwl:accesibilidad "true" ;
+	pwl:plazasPublicas "450"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8ec881eb5f51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "PLAZA  CARMEN, 10" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28013" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/SOL> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CENTRO> ;
+	pwl:latitud "40.41848676016168"^^xsd:double ;
+	pwl:longitud "-3.703068586180966"^^xsd:double ;
+	pwl:telefono "Tlf: 915 214 312" .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/SOL> a pwl:Barrio ;
+	pwl:nombre "SOL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2465181> .
+
+<http://parkingsmadrid.org/distrito/CENTRO> a pwl:Distrito ;
+	pwl:nombre "CENTRO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
+
+<http://parkingsmadrid.org/13474> a topo:Parking ;
+	pwl:nombre "Aparcamiento público. Plaza del Rey" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion "Información sobre accesibilidad: Si tiene escaleras adaptadas 1 ascensor 3 aseos accesibles (uno por planta): 8 Plaza para minusválidos residentes: 16 Admite Tarjeta BonoRed Titularidad : Ayuntamiento de Madrid" ;
+	pwl:accesibilidad "true" ;
+	pwl:plazasPublicas "160"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d4f881eb5f51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "PLAZA  REY, 1" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28004" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/JUSTICIA> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CENTRO> ;
+	pwl:latitud "40.42018796139455"^^xsd:double ;
+	pwl:longitud "-3.69587231093941"^^xsd:double ;
+	pwl:telefono "Tlf: 915 225 219" .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/JUSTICIA> a pwl:Barrio ;
+	pwl:nombre "JUSTICIA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1992319> .
+
+<http://parkingsmadrid.org/distrito/CENTRO> a pwl:Distrito ;
+	pwl:nombre "CENTRO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
+
+<http://parkingsmadrid.org/13466> a topo:Parking ;
+	pwl:nombre "Aparcamiento público. Plaza Mayor" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " **Titularidad : Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "694"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2b1981eb5f51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  FELIPE III, 11" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28012" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/SOL> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CENTRO> ;
+	pwl:latitud "40.41586882022003"^^xsd:double ;
+	pwl:longitud "-3.706895619414367"^^xsd:double .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/SOL> a pwl:Barrio ;
+	pwl:nombre "SOL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2465181> .
+
+<http://parkingsmadrid.org/distrito/CENTRO> a pwl:Distrito ;
+	pwl:nombre "CENTRO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
+
+<http://parkingsmadrid.org/13456> a topo:Parking ;
+	pwl:nombre "Aparcamiento público. Santa Ana" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion "25 Información sobre accesibilidad: No tiene escaleras adaptadas 1 ascensor 1 aseo accesible en 1&ordf; planta Plaza para minusválidos residentes: 6 Admite Tarjeta BonoRed Titularidad: Ayuntamiento de Madrid" ;
+	pwl:accesibilidad "true" ;
+	pwl:plazasPublicas "3"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9b5881eb5f51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "PLAZA  SANTA ANA, 16" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28012" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/CORTES> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CENTRO> ;
+	pwl:latitud "40.41487830605113"^^xsd:double ;
+	pwl:longitud "-3.700897645451053"^^xsd:double ;
+	pwl:telefono "Tlf: 915 214 312" .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> owl:sameAs <https://www.wikidata.org/wiki/Q5756> ;
+	a pwl:Provincia ;
+	pwl:nombre "MADRID" .
+
+<http://parkingsmadrid.org/barrio/CORTES> owl:sameAs <https://www.wikidata.org/wiki/Q2535637> ;
+	a pwl:Barrio ;
+	pwl:nombre "CORTES" .
+
+<http://parkingsmadrid.org/distrito/CENTRO> a pwl:Distrito ;
+	pwl:nombre "CENTRO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
+
+<http://parkingsmadrid.org/10737574> a topo:Parking ;
+	pwl:nombre "Aparcamiento público. Usera" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion "Titularidad : Ayuntamiento de Madrid" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "36"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ce8907e1fd534610VgnVCM1000001d4a900aRCRD> ;
+	pwl:address "CALLE  AMPARO USERA, 46" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28026" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/MOSCARDO> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/USERA> ;
+	pwl:latitud "40.38710254642704"^^xsd:double ;
+	pwl:longitud "-3.7065255061698053"^^xsd:double .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/MOSCARDO> a pwl:Barrio ;
+	pwl:nombre "MOSCARDO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q11937679> .
+
+<http://parkingsmadrid.org/distrito/USERA> a pwl:Distrito ;
+	pwl:nombre "USERA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q953368> .
+
+<http://parkingsmadrid.org/13468> a topo:Parking ;
+	pwl:nombre "Aparcamiento público. Velázquez - Juan Bravo" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion " --Admite Tarjeta BonoRed-- **Titularidad: Ayuntamiento de Madrid**" ;
+	pwl:accesibilidad "false" ;
+	pwl:plazasPublicas "371"^^xsd:int ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e3077339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  VELAZQUEZ, 88" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28006" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/CASTELLANA> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/SALAMANCA> ;
+	pwl:latitud "40.431991827319116"^^xsd:double ;
+	pwl:longitud "-3.683449815935094"^^xsd:double .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/CASTELLANA> a pwl:Barrio ;
+	pwl:nombre "CASTELLANA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4781> .
+
+<http://parkingsmadrid.org/distrito/SALAMANCA> a pwl:Distrito ;
+	pwl:nombre "SALAMANCA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773521> .
+
+<http://parkingsmadrid.org/13453> a topo:Parking ;
+	pwl:nombre "Aparcamiento público. Villa de París" ;
+	pwl:horario "Abierto 24 horas" ;
+	pwl:descripcion "Plazas rotación: 169 Plazas motos: 2 Información sobre accesibilidad: No tiene escaleras adaptadas No disponde de ascensor 1 aseo accesible Plaza para minusválidos residentes: 13 Titularidad: Ayuntamiento de Madrid Gestión: Empresa Municipal de Transportes (EMT) ( más información ación: 169 Plazas motos: 2 Información sobre accesibilidad: No tiene escaleras adaptadas No disponde de ascensor 1 aseo accesible Plaza para minusválidos residentes: 13 Titularidad: Ayuntamiento de Madrid Gestión: Empresa Municipal de Transportes (EMT) ( más información )" ;
+	pwl:accesibilidad "true" ;
+	pwl:hasURL <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=38a881eb5f51c010VgnVCM2000000c205a0aRCRD> ;
+	pwl:address "CALLE  MARQUES DE LA ENSENADA, 1" ;
+	pwl:hasCiudad <http://parkingsmadrid.org/ciudad/MADRID> ;
+	pwl:hasProvincia <http://parkingsmadrid.org/provincia/MADRID> ;
+	pwl:codigoPostal "28004" ;
+	pwl:hasBarrio <http://parkingsmadrid.org/barrio/JUSTICIA> ;
+	pwl:hasDistrito <http://parkingsmadrid.org/distrito/CENTRO> ;
+	pwl:latitud "40.42533530030625"^^xsd:double ;
+	pwl:longitud "-3.6923416648619947"^^xsd:double .
+
+<http://parkingsmadrid.org/ciudad/MADRID> a pwl:City ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+
+<http://parkingsmadrid.org/provincia/MADRID> a pwl:Provincia ;
+	pwl:nombre "MADRID" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5756> .
+
+<http://parkingsmadrid.org/barrio/JUSTICIA> a pwl:Barrio ;
+	pwl:nombre "JUSTICIA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1992319> .
+
+<http://parkingsmadrid.org/distrito/CENTRO> a pwl:Distrito ;
+	pwl:nombre "CENTRO" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
