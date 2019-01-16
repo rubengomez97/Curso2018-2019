@@ -1,0 +1,3435 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix mv: <http://schema.mobivoc.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://BiciMAD.es/Group03/a60c4a4162e641d6a9a922899361627c> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "PUERTA DEL SOL, PLAZA, DE LA,1 B" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/SOL> ;
+	geo:long "-3.7025753"^^xsd:double ;
+	geo:lat "40.417016"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440394,55"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474280,53"^^xsd:double .
+
+<http://BiciMAD.es/Group03/SOL> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2465181> .
+
+<http://BiciMAD.es/Group03/CENTRO> <http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/80cc531407a11d0ec51ae54da68c81ef> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ALCALA, CALLE, DE,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/SOL> ;
+	geo:long "-3.7024621"^^xsd:double ;
+	geo:lat "40.4170785"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440404,21"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474287,39"^^xsd:double .
+
+<http://BiciMAD.es/Group03/SOL> owl:sameAs <https://www.wikidata.org/wiki/Q2465181> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/c32fa22b0d772b31976efbb84c52102a> a mv:BycicleParkingStation ;
+	mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "MIGUEL MOYA, CALLE, DE,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/UNIVERSIDAD> ;
+	geo:long "-3.7056739"^^xsd:double ;
+	geo:lat "40.42058"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440134,83"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474678,23"^^xsd:double .
+
+<http://BiciMAD.es/Group03/UNIVERSIDAD> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10387767> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/7edb0217f80a54881d5e9f0e8008dd04> a mv:BycicleParkingStation ;
+	mv:capacity "18"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CONDE DEL VALLE DE SUCHIL, PLAZA, DEL,2" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ARAPILES> ;
+	geo:long "-3.7072122"^^xsd:double ;
+	geo:lat "40.4303224"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440012,98"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475760,68"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ARAPILES> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMBERI> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10856744> .
+
+<http://BiciMAD.es/Group03/CHAMBERI> <http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberí> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/63a9cb53c05c3f0ca31237c73c8e5b56> a mv:BycicleParkingStation ;
+	mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "MANUELA MALASAÑA, CALLE, DE,3" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/UNIVERSIDAD> ;
+	geo:long "-3.7026739"^^xsd:double ;
+	geo:lat "40.4285905"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440396,4"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475565,36"^^xsd:double .
+
+<http://BiciMAD.es/Group03/UNIVERSIDAD> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10387767> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/fa391287352a74f1ba7d895bdd6ef475> a mv:BycicleParkingStation ;
+	mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "FUENCARRAL, CALLE, DE,106" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JUSTICIA> ;
+	geo:long "-3.7020762"^^xsd:double ;
+	geo:lat "40.4283628"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440446,9"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475539,69"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JUSTICIA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1992319> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/ef804fa4e4d9f492970dbf7a353e4b41> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "HORTALEZA, CALLE, DE,63" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JUSTICIA> ;
+	geo:long "-3.6984093"^^xsd:double ;
+	geo:lat "40.4241633"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440754,26"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475071,08"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JUSTICIA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1992319> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/d263565286ccd9ec74cd4b7007a73f78> a mv:BycicleParkingStation ;
+	mv:capacity "21"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "HORTALEZA, CALLE, DE,75" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JUSTICIA> ;
+	geo:long "-3.6977399"^^xsd:double ;
+	geo:lat "40.4252161"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440811,97"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475187,49"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JUSTICIA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1992319> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/042368ed65164689062ecc23252a9790> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ALONSO MARTINEZ, PLAZA, DE,6" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ALMAGRO> ;
+	geo:long "-3.6953067"^^xsd:double ;
+	geo:lat "40.4277143"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441020,56"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475463,16"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ALMAGRO> owl:sameAs <https://www.wikidata.org/wiki/Q10954432> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMBERI> ;
+	a <http://BiciMAD.es/Group03/Barrio> .
+
+<http://BiciMAD.es/Group03/CHAMBERI> <http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberí> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/0d26efaebc37211759e5b067b08cba9e> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SAN MIGUEL, PLAZA, DE,9" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/PALACIO> ;
+	geo:long "-3.7094093"^^xsd:double ;
+	geo:lat "40.4156134"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439813,51"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474129,47"^^xsd:double .
+
+<http://BiciMAD.es/Group03/PALACIO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2136510> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/00939e1a44badffe33541501d3f7e71a> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "MARQUES DE LA ENSENADA, CALLE, DEL,16" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JUSTICIA> ;
+	geo:long "-3.6920816"^^xsd:double ;
+	geo:lat "40.4254027"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441292,12"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475204,43"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JUSTICIA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1992319> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/5117c9100df68d8298804a3089b845ba> a mv:BycicleParkingStation ;
+	mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SAN ANDRES, CALLE, DE,20" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/UNIVERSIDAD> ;
+	geo:long "-3.7036192"^^xsd:double ;
+	geo:lat "40.4270517"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440314,86"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475395,19"^^xsd:double .
+
+<http://BiciMAD.es/Group03/UNIVERSIDAD> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10387767> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/9d893ad25ae47634a8439403cae6030d> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SAN BERNARDO, CALLE, DE,87" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/UNIVERSIDAD> ;
+	geo:long "-3.7062202"^^xsd:double ;
+	geo:lat "40.4285271"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440095,53"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475560,73"^^xsd:double .
+
+<http://BiciMAD.es/Group03/UNIVERSIDAD> a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10387767> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/3e805ffcb3dc722dfa29869ea1d47335> a mv:BycicleParkingStation ;
+	mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CONDE DUQUE, CALLE, DEL,22" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/UNIVERSIDAD> ;
+	geo:long "-3.7104727"^^xsd:double ;
+	geo:lat "40.4273652"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439733,78"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475434,65"^^xsd:double .
+
+<http://BiciMAD.es/Group03/UNIVERSIDAD> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10387767> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/d15cec225f06a8b0fa6d8ec0083162f4> a mv:BycicleParkingStation ;
+	mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "VENTURA RODRIGUEZ, CALLE, DE,2" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ARGUELLES> ;
+	geo:long "-3.7134644"^^xsd:double ;
+	geo:lat "40.4260035"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439478,78"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475285,54"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ARGUELLES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/MONCLOA-ARAVACA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q64874> .
+
+<http://BiciMAD.es/Group03/MONCLOA-ARAVACA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/1b8caf86bf649def27fefe0d70d68a7d> a mv:BycicleParkingStation ;
+	mv:capacity "21"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SAN VICENTE FERRER, CALLE, DE,62" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/UNIVERSIDAD> ;
+	geo:long "-3.707242"^^xsd:double ;
+	geo:lat "40.4261226"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440006,72"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475294,52"^^xsd:double .
+
+<http://BiciMAD.es/Group03/UNIVERSIDAD> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10387767> .
+
+<http://BiciMAD.es/Group03/CENTRO> <http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/2c4cb3308c4aa1dce97250aebf3cb5a3> a mv:BycicleParkingStation ;
+	mv:capacity "21"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SAN BERNARDO, CALLE, DE,22" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/UNIVERSIDAD> ;
+	geo:long "-3.7074931"^^xsd:double ;
+	geo:lat "40.4229357"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439982,59"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474940,94"^^xsd:double .
+
+<http://BiciMAD.es/Group03/UNIVERSIDAD> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10387767> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/09098c50605ef362ae44e26117e8d3b5> a mv:BycicleParkingStation ;
+	mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CARLOS CAMBRONERO, PLAZA, DE,2" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/UNIVERSIDAD> ;
+	geo:long "-3.7041859"^^xsd:double ;
+	geo:lat "40.4231675"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440263,35"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474964,43"^^xsd:double .
+
+<http://BiciMAD.es/Group03/UNIVERSIDAD> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10387767> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/0267bff7fd9dcd1d887cd77b22bb0299> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "PEDRO ZEROLO, PLAZA, DE,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JUSTICIA> ;
+	geo:long "-3.6995679"^^xsd:double ;
+	geo:lat "40.4209206"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440653,13"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474711,92"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JUSTICIA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1992319> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/dd0c3d2e9c1a8af8a78e3fd0fb110171> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "PRIM, CALLE, DE,4" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JUSTICIA> ;
+	geo:long "-3.6953948"^^xsd:double ;
+	geo:lat "40.4219023"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441008,01"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474818,09"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JUSTICIA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1992319> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/88cfaccd95b515414492d98d0cff08b1> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ALCALA, CALLE, DE,49" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JUSTICIA> ;
+	geo:long "-3.6952095"^^xsd:double ;
+	geo:lat "40.4191989"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441021,37"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474517,89"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JUSTICIA> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1992319> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/0d724703675387404f9b759ad0f38e18> a mv:BycicleParkingStation ;
+	mv:capacity "6"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ALCALA, CALLE, DE,49" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JUSTICIA> ;
+	geo:long "-3.6952901"^^xsd:double ;
+	geo:lat "40.4191858"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441014,52"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474516,49"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JUSTICIA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1992319> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/8f0ce2ad8bc6f2e70fd8537fa2e40aa1> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "RED DE SAN LUIS, PLAZA, DE LA,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/SOL> ;
+	geo:long "-3.7015608"^^xsd:double ;
+	geo:lat "40.4197804"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440483,06"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474586,7"^^xsd:double .
+
+<http://BiciMAD.es/Group03/SOL> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2465181> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/b74b0a4fc0b34bce5a4eb809796b4a54> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "RED DE SAN LUIS, PLAZA, DE LA,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/SOL> ;
+	geo:long "-3.7014962"^^xsd:double ;
+	geo:lat "40.4198857"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440488,63"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474598,34"^^xsd:double .
+
+<http://BiciMAD.es/Group03/SOL> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2465181> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/d7cb514146ee7f2b0da98b406f10ecd6> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "JACOMETREZO, CALLE, DE,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/SOL> ;
+	geo:long "-3.7064995"^^xsd:double ;
+	geo:lat "40.4201452"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440064,4"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474630,53"^^xsd:double .
+
+<http://BiciMAD.es/Group03/SOL> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2465181> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> owl:sameAs <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Ciudad> .
+
+<http://BiciMAD.es/Group03/63f432f1f0540e2b0e4053a927ac8eff> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SANTO DOMINGO, CUESTA, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/PALACIO> ;
+	geo:long "-3.7082901"^^xsd:double ;
+	geo:lat "40.4202137"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439912,56"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474639,35"^^xsd:double .
+
+<http://BiciMAD.es/Group03/PALACIO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2136510> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/30add7babf612aa3fbedd2814761755b> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CARLOS III, CALLE, DE,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/PALACIO> ;
+	geo:long "-3.7105866"^^xsd:double ;
+	geo:lat "40.417906"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439715,67"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474384,75"^^xsd:double .
+
+<http://BiciMAD.es/Group03/PALACIO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2136510> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/82224305e76ac6bd54d41291bab94307> mv:capacity "24"^^xsd:int ;
+	a mv:BycicleParkingStation ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CELENQUE, PLAZA, DEL,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/SOL> ;
+	geo:long "-3.7059978"^^xsd:double ;
+	geo:lat "40.4173416"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440104,48"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474318,99"^^xsd:double .
+
+<http://BiciMAD.es/Group03/SOL> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2465181> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/0f69b0da7acb47eb25000746a8b0352e> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CELENQUE, PLAZA, DEL,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/SOL> ;
+	geo:long "-3.7060243"^^xsd:double ;
+	geo:lat "40.4172593"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440102,16"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474309,87"^^xsd:double .
+
+<http://BiciMAD.es/Group03/SOL> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2465181> .
+
+<http://BiciMAD.es/Group03/CENTRO> <http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/2957dfeceaf360243415f52329090869> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SALESAS, PLAZA, DE LAS,8" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JUSTICIA> ;
+	geo:long "-3.6945535"^^xsd:double ;
+	geo:lat "40.4238321"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441081,06"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475031,74"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JUSTICIA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1992319> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/6028d0a0ce565cb52e026c8d69d277dd> a mv:BycicleParkingStation ;
+	mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "JESUS, CALLE, DE,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CORTES> ;
+	geo:long "-3.6955929"^^xsd:double ;
+	geo:lat "40.4132828"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440983,67"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473861,46"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CORTES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2535637> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/1514a0e3d17dcadaa5f6a3b1ca36887a> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ALCALA, CALLE, DE,25" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CORTES> ;
+	geo:long "-3.6988356"^^xsd:double ;
+	geo:lat "40.4181752"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440712,84"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474406,69"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CORTES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2535637> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/b7a6a46ca3139b65a59dc8c19f3fba88> a mv:BycicleParkingStation ;
+	mv:capacity "29"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "MARQUES DE CUBAS, CALLE, DEL,25" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CORTES> ;
+	geo:long "-3.6958008"^^xsd:double ;
+	geo:lat "40.416244"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440968,62"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474190,29"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CORTES> owl:sameAs <https://www.wikidata.org/wiki/Q2535637> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/177993655af65f6096eeac683319f087> a mv:BycicleParkingStation ;
+	mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "PAVIA, CALLE, DE,6" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/PALACIO> ;
+	geo:long "-3.7115428"^^xsd:double ;
+	geo:lat "40.4193355"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439635,83"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474544,08"^^xsd:double .
+
+<http://BiciMAD.es/Group03/PALACIO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2136510> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/943a32203532338959fc23bb90064564> a mv:BycicleParkingStation ;
+	mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "MAYOR, CALLE,18" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/SOL> ;
+	geo:long "-3.706625"^^xsd:double ;
+	geo:lat "40.4163446"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440050,38"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474208,74"^^xsd:double .
+
+<http://BiciMAD.es/Group03/SOL> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2465181> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/53bac9e3e8829587a76e979ee651308f> mv:capacity "24"^^xsd:int ;
+	a mv:BycicleParkingStation ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "PROVINCIA, PLAZA, DE LA,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/SOL> ;
+	geo:long "-3.7061355"^^xsd:double ;
+	geo:lat "40.4148511"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440090,59"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474042,64"^^xsd:double .
+
+<http://BiciMAD.es/Group03/SOL> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2465181> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/d6bfc5e935982374d4f36c176959003e> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CARRETAS, CALLE, DE LAS,23" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/SOL> ;
+	geo:long "-3.7032626"^^xsd:double ;
+	geo:lat "40.415496"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440334,9"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474112,27"^^xsd:double .
+
+<http://BiciMAD.es/Group03/SOL> owl:sameAs <https://www.wikidata.org/wiki/Q2465181> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	a <http://BiciMAD.es/Group03/Barrio> .
+
+<http://BiciMAD.es/Group03/CENTRO> <http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/96dbbc721feeba1d940dedbe19af6aae> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "JACINTO BENAVENTE, PLAZA, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CORTES> ;
+	geo:long "-3.7035044"^^xsd:double ;
+	geo:lat "40.4144117"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440313,43"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473992,08"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CORTES> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2535637> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/076f0b43e2faf5f5a1d1d50e74bfe5a6> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CORDON, CALLE, DEL,4" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/PALACIO> ;
+	geo:long "-3.7103676"^^xsd:double ;
+	geo:lat "40.4141792"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439730,93"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473970,93"^^xsd:double .
+
+<http://BiciMAD.es/Group03/PALACIO> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2136510> ;
+	a <http://BiciMAD.es/Group03/Barrio> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/725395cef32c3abe6e6348c85a150894> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "RAMALES, PLAZA, DE,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/PALACIO> ;
+	geo:long "-3.7116215"^^xsd:double ;
+	geo:lat "40.416885"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439626,96"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474272,13"^^xsd:double .
+
+<http://BiciMAD.es/Group03/PALACIO> a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2136510> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/c754da7685144c091aea7aa98d9b6c6b> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "VISTILLAS, TRAVESIA, DE LAS,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/PALACIO> ;
+	geo:long "-3.7141234"^^xsd:double ;
+	geo:lat "40.4108606"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439409,3"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473605,14"^^xsd:double .
+
+<http://BiciMAD.es/Group03/PALACIO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2136510> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/dccd40e2fa75ad5c973feae0c09db660> <http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/PALACIO> ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SAN FRANCISCO, CARRERA, DE,1" ;
+	a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	geo:long "-3.7114443"^^xsd:double ;
+	geo:lat "40.4112961"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439637"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473651,64"^^xsd:double .
+
+<http://BiciMAD.es/Group03/PALACIO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2136510> .
+
+<http://BiciMAD.es/Group03/CENTRO> <http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/4f6087ea8491b627892cc85dff2c87ff> a mv:BycicleParkingStation ;
+	mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CEBADA, PLAZA, DE LA,16" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/PALACIO> ;
+	geo:long "-3.7090043"^^xsd:double ;
+	geo:lat "40.4112662"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439844"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473646,66"^^xsd:double .
+
+<http://BiciMAD.es/Group03/PALACIO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2136510> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/88cc9c60dd0ec503f09e89a57fce438e> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CONDE DE ROMANONES, CALLE, DEL,2" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/EMBAJADORES> ;
+	geo:long "-3.7047463"^^xsd:double ;
+	geo:lat "40.4137865"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440207,51"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473923,52"^^xsd:double .
+
+<http://BiciMAD.es/Group03/EMBAJADORES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2449844> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/7ea1700bff7f5942b0a2a14b4adea95c> mv:capacity "21"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ATOCHA, CALLE, DE,54" ;
+	a mv:BycicleParkingStation ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/EMBAJADORES> ;
+	geo:long "-3.6990517"^^xsd:double ;
+	geo:lat "40.4122423"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440689,3"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473748,28"^^xsd:double .
+
+<http://BiciMAD.es/Group03/EMBAJADORES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2449844> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/d9d03279de14079769dbca75952df0d9> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SANTA ISABEL, CALLE, DE,32" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/EMBAJADORES> ;
+	geo:long "-3.6982068"^^xsd:double ;
+	geo:lat "40.410744"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440759,67"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473581,4"^^xsd:double .
+
+<http://BiciMAD.es/Group03/EMBAJADORES> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2449844> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/cb8ece6d7ac9f79f186443ae03b4a612> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "LAVAPIES, CALLE, DE,36" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/EMBAJADORES> ;
+	geo:long "-3.7025446"^^xsd:double ;
+	geo:lat "40.4100889"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440391,04"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473511,6"^^xsd:double .
+
+<http://BiciMAD.es/Group03/EMBAJADORES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2449844> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/6833eae29ef89e89eaeb96b08479cd4d> geo:long "-3.7039138"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/EMBAJADORES> ;
+	a mv:BycicleParkingStation ;
+	mv:capacity "21"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "MESON DE PAREDES, CALLE, DEL,35" ;
+	geo:lat "40.4098162"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440274,63"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473482,26"^^xsd:double .
+
+<http://BiciMAD.es/Group03/EMBAJADORES> owl:sameAs <https://www.wikidata.org/wiki/Q2449844> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	a <http://BiciMAD.es/Group03/Barrio> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/503f2c5e644ded1891eeea455e995fc2> mv:capacity "21"^^xsd:int ;
+	a mv:BycicleParkingStation ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "PUERTA DE TOLEDO, GLORIETA, DE LA,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/EMBAJADORES> ;
+	geo:long "-3.7111363"^^xsd:double ;
+	geo:lat "40.4069547"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439659,26"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473169,54"^^xsd:double .
+
+<http://BiciMAD.es/Group03/EMBAJADORES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2449844> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/a28e021af5a943b09c9d9a1f1f7471de> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "RIBERA DE CURTIDORES, CALLE, DE LA,28" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ACACIAS> ;
+	geo:long "-3.7071322"^^xsd:double ;
+	geo:lat "40.4055087"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439997,73"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473006,31"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ACACIAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/ARGANZUELA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3319190> .
+
+<http://BiciMAD.es/Group03/ARGANZUELA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/0ec4cdffe0a8ea500a7c347dd040702d> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "EMBAJADORES, GLORIETA, DE,7 B" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ACACIAS> ;
+	geo:long "-3.702755"^^xsd:double ;
+	geo:lat "40.4046233"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440368,37"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4472905,07"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ACACIAS> owl:sameAs <https://www.wikidata.org/wiki/Q3319190> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/ARGANZUELA> .
+
+<http://BiciMAD.es/Group03/ARGANZUELA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/e953fd707a6f1ce10d768067d744abc1> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "MIGUEL SERVET, CALLE, DE,25" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/EMBAJADORES> ;
+	geo:long "-3.7020997"^^xsd:double ;
+	geo:lat "40.4054473"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440424,7"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4472996,09"^^xsd:double .
+
+<http://BiciMAD.es/Group03/EMBAJADORES> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2449844> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/bb270069e19bf4fda985896d7853025c> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ATOCHA, RONDA, DE,36" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/EMBAJADORES> ;
+	geo:long "-3.6992427"^^xsd:double ;
+	geo:lat "40.4060497"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440667,66"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473061,04"^^xsd:double .
+
+<http://BiciMAD.es/Group03/EMBAJADORES> owl:sameAs <https://www.wikidata.org/wiki/Q2449844> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	a <http://BiciMAD.es/Group03/Barrio> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/83f8cccbd3b3f2f9b8997f3868c5398c> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SANTA ISABEL, CALLE, DE,57" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/EMBAJADORES> ;
+	geo:long "-3.69322"^^xsd:double ;
+	geo:lat "40.4083102"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441180,67"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473307,92"^^xsd:double .
+
+<http://BiciMAD.es/Group03/EMBAJADORES> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2449844> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> owl:sameAs <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Ciudad> .
+
+<http://BiciMAD.es/Group03/507e94da3f066b28fe23847670679afa> a mv:BycicleParkingStation ;
+	mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "EMPERADOR CARLOS V, PLAZA, DEL,7" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/EMBAJADORES> ;
+	geo:long "-3.6935934"^^xsd:double ;
+	geo:lat "40.4077234"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441148,47"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473243,04"^^xsd:double .
+
+<http://BiciMAD.es/Group03/EMBAJADORES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2449844> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/e6850393d16e44b2a019b1713deb1dfd> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SANTA ANA, PLAZA, DE,9" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CORTES> ;
+	geo:long "-3.7007838"^^xsd:double ;
+	geo:lat "40.4145181"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440544,34"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474002,06"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CORTES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2535637> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/4e98128a6ff16c932dfbb61b776de7a3> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "VALENCIA, CALLE, DE,4" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/EMBAJADORES> ;
+	geo:long "-3.7007295"^^xsd:double ;
+	geo:lat "40.4082802"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440543,46"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473309,62"^^xsd:double .
+
+<http://BiciMAD.es/Group03/EMBAJADORES> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2449844> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/9927ed165e5b2eba7cff6aa4f833b961> a mv:BycicleParkingStation ;
+	mv:capacity "21"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "BARCELO, CALLE, DE,7" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JUSTICIA> ;
+	geo:long "-3.7003435"^^xsd:double ;
+	geo:lat "40.4266233"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440592,35"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475345,44"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JUSTICIA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1992319> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/19a4416e0eda20d221e1547832585ee4> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SAN ILDEFONSO, PLAZA, DE,8" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/UNIVERSIDAD> ;
+	geo:long "-3.7019295"^^xsd:double ;
+	geo:lat "40.4240716"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440455,56"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475063,26"^^xsd:double .
+
+<http://BiciMAD.es/Group03/UNIVERSIDAD> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10387767> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/a537ad2e63c2b1f11222ca0ced028a1c> a mv:BycicleParkingStation ;
+	mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CARMEN, PLAZA, DEL,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/SOL> ;
+	geo:long "-3.7032875"^^xsd:double ;
+	geo:lat "40.418484"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440335,43"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474443,96"^^xsd:double .
+
+<http://BiciMAD.es/Group03/SOL> owl:sameAs <https://www.wikidata.org/wiki/Q2465181> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	a <http://BiciMAD.es/Group03/Barrio> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/90debdab1b1872e5ea4ca72c564bc489> mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SANTA CRUZ DE MARCENADO, CALLE, DE,24" ;
+	a mv:BycicleParkingStation ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/UNIVERSIDAD> ;
+	geo:long "-3.7128181"^^xsd:double ;
+	geo:lat "40.4296363"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439536,86"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475688,34"^^xsd:double .
+
+<http://BiciMAD.es/Group03/UNIVERSIDAD> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10387767> .
+
+<http://BiciMAD.es/Group03/CENTRO> <http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/c66fe27999cd68c50eca52ae5b22c65f> a mv:BycicleParkingStation ;
+	mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "AUGUSTO FIGUEROA, CALLE, DE,33" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JUSTICIA> ;
+	geo:long "-3.6979411"^^xsd:double ;
+	geo:lat "40.4222585"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440792,31"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474859,33"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JUSTICIA> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1992319> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/f42b2fe706be949267a14c45be697b93> a mv:BycicleParkingStation ;
+	mv:capacity "21"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ESPIRITU SANTO, CALLE, DEL,30" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/UNIVERSIDAD> ;
+	geo:long "-3.7041167"^^xsd:double ;
+	geo:lat "40.4254802"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440271,27"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475221,1"^^xsd:double .
+
+<http://BiciMAD.es/Group03/UNIVERSIDAD> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10387767> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/5751c5d0e51ffb29793454a13a5f051d> a mv:BycicleParkingStation ;
+	mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ALFONSO XII, CALLE, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JERONIMOS> ;
+	geo:long "-3.6881994"^^xsd:double ;
+	geo:lat "40.4194508"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441616,3"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474541,2"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JERONIMOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10306766> .
+
+<http://BiciMAD.es/Group03/RETIRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/39aa9831de16bfa5b550d6a19b698623> <http://BiciMAD.es/Group03/estaEnCalle> "O'DONNELL, CALLE, DE,30" ;
+	mv:capacity "24"^^xsd:int ;
+	a mv:BycicleParkingStation ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/IBIZA> ;
+	geo:long "-3.675206"^^xsd:double ;
+	geo:lat "40.4214379"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442720,29"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474753,26"^^xsd:double .
+
+<http://BiciMAD.es/Group03/IBIZA> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q15249910> .
+
+<http://BiciMAD.es/Group03/RETIRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/4f69447fc2525ae554e5f627687ad963> mv:capacity "27"^^xsd:int ;
+	a mv:BycicleParkingStation ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "O'DONNELL, CALLE, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/IBIZA> ;
+	geo:long "-3.6706664"^^xsd:double ;
+	geo:lat "40.4212152"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "443105,21"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474725,61"^^xsd:double .
+
+<http://BiciMAD.es/Group03/IBIZA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q15249910> .
+
+<http://BiciMAD.es/Group03/RETIRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/9ac89dc49eb39ec92262ba6ddded7a16> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "IBIZA, CALLE, DE,64" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/IBIZA> ;
+	geo:long "-3.6706803"^^xsd:double ;
+	geo:lat "40.4178874"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "443101,23"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474356,23"^^xsd:double .
+
+<http://BiciMAD.es/Group03/IBIZA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q15249910> .
+
+<http://BiciMAD.es/Group03/RETIRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/7f0a37cc637e05ef57b2636fde8d9a16> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ANTONIO MAURA, CALLE, DE,15" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JERONIMOS> ;
+	geo:long "-3.6893825"^^xsd:double ;
+	geo:lat "40.4166952"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441513,54"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474236,11"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JERONIMOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10306766> .
+
+<http://BiciMAD.es/Group03/RETIRO> <http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/99674dd8d57bda03d6043f8b04c97877> a mv:BycicleParkingStation ;
+	mv:capacity "67"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ALMADEN, CALLE, DE,28" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CORTES> ;
+	geo:long "-3.6931349"^^xsd:double ;
+	geo:lat "40.410829"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441190,08"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473587,45"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CORTES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2535637> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/b69ad94b130b956eb2db8d15dce8a008> a mv:BycicleParkingStation ;
+	mv:capacity "21"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ESPALTER, CALLE, DE,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JERONIMOS> ;
+	geo:long "-3.6911649"^^xsd:double ;
+	geo:lat "40.412781"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441358,92"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473802,81"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JERONIMOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10306766> .
+
+<http://BiciMAD.es/Group03/RETIRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/ea1d52366cee517723a4063e808533e9> a mv:BycicleParkingStation ;
+	mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ALFONSO XII, CALLE, DE,54" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JERONIMOS> ;
+	geo:long "-3.6888669"^^xsd:double ;
+	geo:lat "40.4100609"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441551,54"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473499,36"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JERONIMOS> owl:sameAs <https://www.wikidata.org/wiki/Q10306766> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	a <http://BiciMAD.es/Group03/Barrio> .
+
+<http://BiciMAD.es/Group03/RETIRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/bad1c7360bfbc5c9940dbc974acbf522> a mv:BycicleParkingStation ;
+	mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "MENENDEZ PELAYO, AVENIDA, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JERONIMOS> ;
+	geo:long "-3.6777776"^^xsd:double ;
+	geo:lat "40.4151635"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442496,79"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474058,47"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JERONIMOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10306766> .
+
+<http://BiciMAD.es/Group03/RETIRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/0fe5f8b80c939a03aab846a9c3ba738c> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "DOCE DE OCTUBRE, CALLE, DEL,28" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/NI%C3%91O+JESUS> ;
+	geo:long "-3.674021"^^xsd:double ;
+	geo:lat "40.4160054"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442816,22"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474149,49"^^xsd:double .
+
+<http://BiciMAD.es/Group03/NI%C3%91O+JESUS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3773746> .
+
+<http://BiciMAD.es/Group03/RETIRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/b00373d15eb8614d96dc8828bc507568> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "DOCTOR ESQUERDO, CALLE, DEL,99" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ESTRELLA> ;
+	geo:long "-3.6692614"^^xsd:double ;
+	geo:lat "40.4159135"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "443219,95"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474136,22"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ESTRELLA> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3773738> .
+
+<http://BiciMAD.es/Group03/RETIRO> <http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/f9255b9ca9492275877efc5a137fe857> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ASTROS, PLAZA, DE LOS,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ESTRELLA> ;
+	geo:long "-3.669099"^^xsd:double ;
+	geo:lat "40.411463"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "443229,99"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473642,11"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ESTRELLA> owl:sameAs <https://www.wikidata.org/wiki/Q3773738> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	a <http://BiciMAD.es/Group03/Barrio> .
+
+<http://BiciMAD.es/Group03/RETIRO> owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/66155b23fa223857f8fa8b1bbed70787> a mv:BycicleParkingStation ;
+	mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "MENENDEZ PELAYO, AVENIDA, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JERONIMOS> ;
+	geo:long "-3.6765768"^^xsd:double ;
+	geo:lat "40.4117601"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442595,78"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473679,92"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JERONIMOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10306766> .
+
+<http://BiciMAD.es/Group03/RETIRO> <http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/a305d65ea706941511e45a6bc85284df> a mv:BycicleParkingStation ;
+	mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "MENENDEZ PELAYO, AVENIDA, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JERONIMOS> ;
+	geo:long "-3.6784149"^^xsd:double ;
+	geo:lat "40.4083387"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442436,91"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473301,34"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JERONIMOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10306766> .
+
+<http://BiciMAD.es/Group03/RETIRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/07d65d8ed97fa638f35bde363d95f4bb> mv:capacity "24"^^xsd:int ;
+	a mv:BycicleParkingStation ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "JUAN DE URBIETA, CALLE, DE,48" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/NI%C3%91O+JESUS> ;
+	geo:long "-3.6751544"^^xsd:double ;
+	geo:lat "40.4072851"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442712,67"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473182,27"^^xsd:double .
+
+<http://BiciMAD.es/Group03/NI%C3%91O+JESUS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3773746> .
+
+<http://BiciMAD.es/Group03/RETIRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/7868e485f92a385327091733f0425cac> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CONDE DE CASAL, PLAZA, DEL,8" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/PACIFICO> ;
+	geo:long "-3.6707742"^^xsd:double ;
+	geo:lat "40.4063347"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "443083,53"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473073,95"^^xsd:double .
+
+<http://BiciMAD.es/Group03/PACIFICO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3773753> .
+
+<http://BiciMAD.es/Group03/RETIRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/1e0f5b4bc52fea988951dfb99e224185> mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CERRO DE LA PLATA, CALLE, DEL,2" ;
+	a mv:BycicleParkingStation ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ADELFAS> ;
+	geo:long "-3.6745783"^^xsd:double ;
+	geo:lat "40.4005704"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442755,86"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4472436,57"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ADELFAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3774001> .
+
+<http://BiciMAD.es/Group03/RETIRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/b81508ffb7d72d85ae449f456693331f> mv:capacity "24"^^xsd:int ;
+	a mv:BycicleParkingStation ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "MENENDEZ PELAYO, AVENIDA, DE,38" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/PACIFICO> ;
+	geo:long "-3.6805524"^^xsd:double ;
+	geo:lat "40.4050482"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442252,73"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4472937,49"^^xsd:double .
+
+<http://BiciMAD.es/Group03/PACIFICO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3773753> .
+
+<http://BiciMAD.es/Group03/RETIRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/7dfa1fa86f88ddb29360bd74fa3dedfd> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CIUDAD DE BARCELONA, AVENIDA, DE LA,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JERONIMOS> ;
+	geo:long "-3.6904197"^^xsd:double ;
+	geo:lat "40.4074558"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441417,53"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473211,23"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JERONIMOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10306766> .
+
+<http://BiciMAD.es/Group03/RETIRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/15a1ec7e7408a1fa704e78929485b77a> mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CIUDAD DE BARCELONA, AVENIDA, DE LA,S/N" ;
+	a mv:BycicleParkingStation ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JERONIMOS> ;
+	geo:long "-3.6906904"^^xsd:double ;
+	geo:lat "40.4076554"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441394,74"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473233,56"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JERONIMOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10306766> .
+
+<http://BiciMAD.es/Group03/RETIRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/b49ff5c242905f5e9ef0f8bf83dcdfbd> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "PRADO, PASEO, DEL,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JERONIMOS> ;
+	geo:long "-3.6919663"^^xsd:double ;
+	geo:lat "40.4095758"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441288,14"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473447,57"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JERONIMOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10306766> .
+
+<http://BiciMAD.es/Group03/RETIRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/f2f19c6f907da2da31ded9a631d8cfe8> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "LIRA, CALLE, DE LA,2" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ESTRELLA> ;
+	geo:long "-3.669683"^^xsd:double ;
+	geo:lat "40.4084793"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "443177,93"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473311,29"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ESTRELLA> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3773738> .
+
+<http://BiciMAD.es/Group03/RETIRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/b947cce7c797696e2b68fb6c100a310f> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "PIO BAROJA, CALLE, DE,8 B" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/NI%C3%91O+JESUS> ;
+	geo:long "-3.6745339"^^xsd:double ;
+	geo:lat "40.4132589"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442770,38"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473844,96"^^xsd:double .
+
+<http://BiciMAD.es/Group03/NI%C3%91O+JESUS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3773746> .
+
+<http://BiciMAD.es/Group03/RETIRO> <http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/90aca9b044c939b2a0b6ddf4c2e09437> mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "DOCTOR ESQUERDO, CALLE, DEL,191" ;
+	a mv:BycicleParkingStation ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ADELFAS> ;
+	geo:long "-3.6726923"^^xsd:double ;
+	geo:lat "40.4033695"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442918,27"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4472746,05"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ADELFAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3774001> .
+
+<http://BiciMAD.es/Group03/RETIRO> owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/2cb08559bd64b6c778768d4b1ba5fb80> a mv:BycicleParkingStation ;
+	mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "MENENDEZ PELAYO, AVENIDA, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/JERONIMOS> ;
+	geo:long "-3.6799299"^^xsd:double ;
+	geo:lat "40.4211415"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442319,29"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474723,43"^^xsd:double .
+
+<http://BiciMAD.es/Group03/JERONIMOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/RETIRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10306766> .
+
+<http://BiciMAD.es/Group03/RETIRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/ee2f3b6ed1579c2003efa92e36944cbf> a mv:BycicleParkingStation ;
+	mv:capacity "21"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "PRADO, PASEO, DEL,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CORTES> ;
+	geo:long "-3.6933298"^^xsd:double ;
+	geo:lat "40.4185779"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441180,29"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474447,71"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CORTES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2535637> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/1d59bd4a079498e885f5531c4cd874f5> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "AYALA, CALLE, DE,44" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/RECOLETOS> ;
+	geo:long "-3.6835631"^^xsd:double ;
+	geo:lat "40.4276717"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442016,68"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475450,66"^^xsd:double .
+
+<http://BiciMAD.es/Group03/RECOLETOS> owl:sameAs <https://www.wikidata.org/wiki/Q3814551> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> <http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/4268641ca44d97bb5132d33e56a65b58> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "VELAZQUEZ, CALLE, DE,73" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CASTELLANA> ;
+	geo:long "-3.6837471"^^xsd:double ;
+	geo:lat "40.4312077"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442004,11"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475843,28"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CASTELLANA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4781> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/97921092629b85b425ca1de6b5b59e97> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "AYALA, CALLE, DE,102" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/GOYA> ;
+	geo:long "-3.6751716"^^xsd:double ;
+	geo:lat "40.4272628"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442728,15"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475399,8"^^xsd:double .
+
+<http://BiciMAD.es/Group03/GOYA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814578> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/95d5a79cd3f6a99b94c546b122f011e1> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "GOYA, CALLE, DE,18" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/RECOLETOS> ;
+	geo:long "-3.6837297"^^xsd:double ;
+	geo:lat "40.4250878"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442000,33"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475163,96"^^xsd:double .
+
+<http://BiciMAD.es/Group03/RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814551> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/66d3523cee96f5afaecb8c7b7918d76b> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "HERMOSILLA, CALLE, DE,73" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/GOYA> ;
+	geo:long "-3.6788203"^^xsd:double ;
+	geo:lat "40.4261113"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442417,66"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475274,35"^^xsd:double .
+
+<http://BiciMAD.es/Group03/GOYA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814578> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/1c1497f977a5af37096fba536179bf7e> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CLAUDIO COELLO, CALLE, DE,45" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/RECOLETOS> ;
+	geo:long "-3.6864821"^^xsd:double ;
+	geo:lat "40.4262237"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441767,83"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475291,85"^^xsd:double .
+
+<http://BiciMAD.es/Group03/RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814551> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/f905f39cd20b76ed8e1edcd80763e8c7> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "GOYA, CALLE, DE,3" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/RECOLETOS> ;
+	geo:long "-3.6894124"^^xsd:double ;
+	geo:lat "40.4256984"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441518,8"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475235,48"^^xsd:double .
+
+<http://BiciMAD.es/Group03/RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814551> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/a67b0f96419ffd7678c5bf43fa945a13> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "RECOLETOS, PASEO, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/RECOLETOS> ;
+	geo:long "-3.6907044"^^xsd:double ;
+	geo:lat "40.4233686"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441407,18"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474977,73"^^xsd:double .
+
+<http://BiciMAD.es/Group03/RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814551> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/119f7e1368d4370a35a0895980b83370> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CLAUDIO COELLO, CALLE, DE,19" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/RECOLETOS> ;
+	geo:long "-3.6869914"^^xsd:double ;
+	geo:lat "40.4226634"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441721,55"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474897"^^xsd:double .
+
+<http://BiciMAD.es/Group03/RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814551> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/a557a6df5ead1e9c43f3b883cbc54342> a mv:BycicleParkingStation ;
+	mv:capacity "27"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ALCALA, CALLE, DE,111" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/RECOLETOS> ;
+	geo:long "-3.6820471"^^xsd:double ;
+	geo:lat "40.4220516"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442140,46"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474825,84"^^xsd:double .
+
+<http://BiciMAD.es/Group03/RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814551> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/0408634affc5e74d178169b388755e75> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "MENENDEZ PELAYO, AVENIDA, DE,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/GOYA> ;
+	geo:long "-3.6801515"^^xsd:double ;
+	geo:lat "40.4224846"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442301,64"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474872,66"^^xsd:double .
+
+<http://BiciMAD.es/Group03/GOYA> owl:sameAs <https://www.wikidata.org/wiki/Q3814578> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	a <http://BiciMAD.es/Group03/Barrio> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/8e1b30bbf317d4fac6a2128d0614ea40> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "FELIPE II, AVENIDA, DE,5" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/GOYA> ;
+	geo:long "-3.6754079"^^xsd:double ;
+	geo:lat "40.4241911"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442705,5"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475058,99"^^xsd:double .
+
+<http://BiciMAD.es/Group03/GOYA> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814578> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> owl:sameAs <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Ciudad> .
+
+<http://BiciMAD.es/Group03/4a565ec8cfb2efb0a9fb1508de074164> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ALCANTARA, CALLE, DE,2" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/GOYA> ;
+	geo:long "-3.6739638"^^xsd:double ;
+	geo:lat "40.4261048"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442829,62"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475270,48"^^xsd:double .
+
+<http://BiciMAD.es/Group03/GOYA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814578> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/4b8746ecf142a590c2dfbcb67cb5ef52> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "GOYA, CALLE, DE,99" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/GOYA> ;
+	geo:long "-3.6738777"^^xsd:double ;
+	geo:lat "40.4247843"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442835,81"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475123,85"^^xsd:double .
+
+<http://BiciMAD.es/Group03/GOYA> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814578> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/d799335a829f71e8e904bdbc046e7614> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "JORGE JUAN, CALLE, DE,131" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/GOYA> ;
+	geo:long "-3.6694246"^^xsd:double ;
+	geo:lat "40.4231223"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "443212,16"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474936,49"^^xsd:double .
+
+<http://BiciMAD.es/Group03/GOYA> owl:sameAs <https://www.wikidata.org/wiki/Q3814578> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/f154774a13cd0b44b1b8b4fd32ca4285> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ALCALA, CALLE, DE,95" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/RECOLETOS> ;
+	geo:long "-3.6840806"^^xsd:double ;
+	geo:lat "40.4211552"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441967,18"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474727,67"^^xsd:double .
+
+<http://BiciMAD.es/Group03/RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814551> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> <http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/cd22a396073996c1c40b85e2c4bc2dfa> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "JOSE ORTEGA Y GASSET, CALLE, DE,4" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CASTELLANA> ;
+	geo:long "-3.6865351"^^xsd:double ;
+	geo:lat "40.4303733"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441766,91"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475752,49"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CASTELLANA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4781> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> owl:sameAs <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Ciudad> .
+
+<http://BiciMAD.es/Group03/0e8baaffcac8f2af0aab835b3df31d22> a mv:BycicleParkingStation ;
+	mv:capacity "21"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CASTELLANA, PASEO, DE LA,4" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/RECOLETOS> ;
+	geo:long "-3.6895792"^^xsd:double ;
+	geo:lat "40.4267658"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441505,58"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475354,07"^^xsd:double .
+
+<http://BiciMAD.es/Group03/RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814551> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/6374ebfe1ce0f76f3e2085d97d7ca250> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SERRANO, CALLE, DE,46" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/RECOLETOS> ;
+	geo:long "-3.6874745"^^xsd:double ;
+	geo:lat "40.4270684"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441684,37"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475386,27"^^xsd:double .
+
+<http://BiciMAD.es/Group03/RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814551> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/3417a99ebb1a6b03579ea20e02cd005f> a mv:BycicleParkingStation ;
+	mv:capacity "36"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SERRANO, CALLE, DE,32" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/RECOLETOS> ;
+	geo:long "-3.687876"^^xsd:double ;
+	geo:lat "40.4249335"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441648,47"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475149,56"^^xsd:double .
+
+<http://BiciMAD.es/Group03/RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814551> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/7c3ff63fcaa8851302e611df83706e4e> mv:capacity "24"^^xsd:int ;
+	a mv:BycicleParkingStation ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SERRANO, CALLE, DE,8" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/RECOLETOS> ;
+	geo:long "-3.6884243"^^xsd:double ;
+	geo:lat "40.4215952"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441599,07"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474779,37"^^xsd:double .
+
+<http://BiciMAD.es/Group03/RECOLETOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814551> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/356cf8c1c8792ef013bb191108082809> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "MARTIRES CONCEPCIONISTAS, CALLE, DE LOS,2" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/GOYA> ;
+	geo:long "-3.670653"^^xsd:double ;
+	geo:lat "40.4274425"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "443111,6"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475416,83"^^xsd:double .
+
+<http://BiciMAD.es/Group03/GOYA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814578> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/14060a04dab306155daec72ea01c6a13> <http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CASTELLANA> ;
+	a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "JOSE ORTEGA Y GASSET, CALLE, DE,32" ;
+	geo:long "-3.6815253"^^xsd:double ;
+	geo:lat "40.4301281"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442191,64"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475721,98"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CASTELLANA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4781> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/cc0ebb56d1db305bdb09534e344d67c6> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "MORET, PASEO, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CASA+DE+CAMPO> ;
+	geo:long "-3.7201316"^^xsd:double ;
+	geo:lat "40.4347654"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "438921,15"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4476262,7"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CASA+DE+CAMPO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/MONCLOA-ARAVACA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q16302441> .
+
+<http://BiciMAD.es/Group03/MONCLOA-ARAVACA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/8516346b1aef8f9ee5d1dccc9968bb12> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ARCIPRESTE DE HITA, CALLE, DEL,8" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/GAZTAMBIDE> ;
+	geo:long "-3.7174896"^^xsd:double ;
+	geo:lat "40.4335742"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439144,16"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4476128,65"^^xsd:double .
+
+<http://BiciMAD.es/Group03/GAZTAMBIDE> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMBERI> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10288587> .
+
+<http://BiciMAD.es/Group03/CHAMBERI> <http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberí> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/4f7faf6aaf6f129cff98c81317551044> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ARCIPRESTE DE HITA, CALLE, DEL,10" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/GAZTAMBIDE> ;
+	geo:long "-3.7177783"^^xsd:double ;
+	geo:lat "40.433982"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439120,04"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4476174,12"^^xsd:double .
+
+<http://BiciMAD.es/Group03/GAZTAMBIDE> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMBERI> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10288587> .
+
+<http://BiciMAD.es/Group03/CHAMBERI> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberí> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/f7c1d6756146b196bed1ba5a7e12f0a7> mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "MORET, PASEO, DE,11" ;
+	a mv:BycicleParkingStation ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ARGUELLES> ;
+	geo:long "-3.7248727"^^xsd:double ;
+	geo:lat "40.4326267"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "438517,07"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4476028,6"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ARGUELLES> owl:sameAs <https://www.wikidata.org/wiki/Q64874> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/MONCLOA-ARAVACA> ;
+	a <http://BiciMAD.es/Group03/Barrio> .
+
+<http://BiciMAD.es/Group03/MONCLOA-ARAVACA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/2ee1616479341506057fd04a9c46d85b> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "PINTOR ROSALES, PASEO, DEL,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CASA+DE+CAMPO> ;
+	geo:long "-3.7207145"^^xsd:double ;
+	geo:lat "40.4277472"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "438865,35"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475484,09"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CASA+DE+CAMPO> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/MONCLOA-ARAVACA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q16302441> ;
+	a <http://BiciMAD.es/Group03/Barrio> .
+
+<http://BiciMAD.es/Group03/MONCLOA-ARAVACA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/69127ff17cdea7d4c6630d680470d285> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "QUINTANA, CALLE, DE,13" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ARGUELLES> ;
+	geo:long "-3.7174108"^^xsd:double ;
+	geo:lat "40.4278199"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439145,66"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475489,87"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ARGUELLES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/MONCLOA-ARAVACA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q64874> .
+
+<http://BiciMAD.es/Group03/MONCLOA-ARAVACA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/750f5fa9697db3d3b0e3bcf2f839db6a> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "MARQUES DE CERRALBO, PLAZA, DEL,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ARGUELLES> ;
+	geo:long "-3.7169626"^^xsd:double ;
+	geo:lat "40.4253802"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439181,48"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475218,76"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ARGUELLES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/MONCLOA-ARAVACA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q64874> .
+
+<http://BiciMAD.es/Group03/MONCLOA-ARAVACA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/d704f3f7d53e0b528afb7a7234d65db5> <http://BiciMAD.es/Group03/estaEnCalle> "ESPAÑA, PLAZA, DE,S/N" ;
+	a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ARGUELLES> ;
+	geo:long "-3.7118199"^^xsd:double ;
+	geo:lat "40.4241079"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439616,59"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475074,01"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ARGUELLES> owl:sameAs <https://www.wikidata.org/wiki/Q64874> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/MONCLOA-ARAVACA> .
+
+<http://BiciMAD.es/Group03/MONCLOA-ARAVACA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/de62bd1c6094f3b626ca970b0e601b1c> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ESPAÑA, PLAZA, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ARGUELLES> ;
+	geo:long "-3.7118905"^^xsd:double ;
+	geo:lat "40.4241996"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439610,68"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475084,23"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ARGUELLES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/MONCLOA-ARAVACA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q64874> .
+
+<http://BiciMAD.es/Group03/MONCLOA-ARAVACA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/49851401760c72c3dfac266c2074ac37> mv:capacity "24"^^xsd:int ;
+	a mv:BycicleParkingStation ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ALTAMIRANO, CALLE, DE,24" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ARGUELLES> ;
+	geo:long "-3.7189152"^^xsd:double ;
+	geo:lat "40.4309046"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439020,83"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475833,31"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ARGUELLES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/MONCLOA-ARAVACA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q64874> .
+
+<http://BiciMAD.es/Group03/MONCLOA-ARAVACA> <http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/c5a841d13628b378ce1b59bc01c45157> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "JUAN MARTIN EL EMPECINADO, CALLE, DE,16" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/PALOS+DE+MOGUER> ;
+	geo:long "-3.6881393"^^xsd:double ;
+	geo:lat "40.4007979"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441605,27"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4472470,69"^^xsd:double .
+
+<http://BiciMAD.es/Group03/PALOS+DE+MOGUER> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/ARGANZUELA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q521009> .
+
+<http://BiciMAD.es/Group03/ARGANZUELA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://BiciMAD.es/Group03/Madrid> owl:sameAs <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Ciudad> .
+
+<http://BiciMAD.es/Group03/78f21b18e68f215e4e68993dfe67f0de> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "MENDEZ ALVARO, CALLE, DE,7" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ATOCHA> ;
+	geo:long "-3.6865777"^^xsd:double ;
+	geo:lat "40.4014567"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441738,36"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4472542,79"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ATOCHA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/ARGANZUELA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814594> .
+
+<http://BiciMAD.es/Group03/ARGANZUELA> <http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/f02df4b614261be29e673dc3713bdfd7> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "PALOS DE LA FRONTERA, CALLE, DE,27" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/PALOS+DE+MOGUER> ;
+	geo:long "-3.6946097"^^xsd:double ;
+	geo:lat "40.4030247"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441058,14"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4472722,16"^^xsd:double .
+
+<http://BiciMAD.es/Group03/PALOS+DE+MOGUER> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/ARGANZUELA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q521009> .
+
+<http://BiciMAD.es/Group03/ARGANZUELA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/4e8d21d24b8336bf496b45f294ee16a4> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SANTA MARIA DE LA CABEZA, PASEO, DE,58" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/PALOS+DE+MOGUER> ;
+	geo:long "-3.6986046"^^xsd:double ;
+	geo:lat "40.4018356"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440718,1"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4472592,85"^^xsd:double .
+
+<http://BiciMAD.es/Group03/PALOS+DE+MOGUER> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/ARGANZUELA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q521009> .
+
+<http://BiciMAD.es/Group03/ARGANZUELA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/2175df71385f77fd290c61e0ba7238be> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SANTA ENGRACIA, CALLE, DE,16" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ALMAGRO> ;
+	geo:long "-3.6962626"^^xsd:double ;
+	geo:lat "40.429524"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440941,06"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475664,68"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ALMAGRO> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMBERI> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10954432> .
+
+<http://BiciMAD.es/Group03/CHAMBERI> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberí> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/fd611457d868bbf6d3e904a121d494fc> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "GUZMAN EL BUENO, CALLE, DE,2" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/GAZTAMBIDE> ;
+	geo:long "-3.7134685"^^xsd:double ;
+	geo:lat "40.4306386"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439482,59"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475800,04"^^xsd:double .
+
+<http://BiciMAD.es/Group03/GAZTAMBIDE> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMBERI> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10288587> .
+
+<http://BiciMAD.es/Group03/CHAMBERI> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberí> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/65a0963249f15d10559c3d0bcff6aaf2> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "MANUEL SILVELA, CALLE, DE,18" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/TRAFALGAR> ;
+	geo:long "-3.6993182"^^xsd:double ;
+	geo:lat "40.4308173"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440683,01"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475810,28"^^xsd:double .
+
+<http://BiciMAD.es/Group03/TRAFALGAR> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMBERI> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10384027> .
+
+<http://BiciMAD.es/Group03/CHAMBERI> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberí> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/584e2982c73d0df34cf5c34450546163> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "FERNANDEZ DE LA HOZ, CALLE, DE,29" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ALMAGRO> ;
+	geo:long "-3.6948375"^^xsd:double ;
+	geo:lat "40.4353145"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441066,99"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4476306,47"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ALMAGRO> owl:sameAs <https://www.wikidata.org/wiki/Q10954432> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMBERI> ;
+	a <http://BiciMAD.es/Group03/Barrio> .
+
+<http://BiciMAD.es/Group03/CHAMBERI> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberí> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/c2dab069b51b903fde2183682eadb349> mv:capacity "24"^^xsd:int ;
+	a mv:BycicleParkingStation ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "GENERAL ALVAREZ DE CASTRO, CALLE, DEL,4" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/TRAFALGAR> ;
+	geo:long "-3.7017424"^^xsd:double ;
+	geo:lat "40.4345672"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440480,69"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4476228,15"^^xsd:double .
+
+<http://BiciMAD.es/Group03/TRAFALGAR> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMBERI> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10384027> .
+
+<http://BiciMAD.es/Group03/CHAMBERI> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberí> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/5cfe73cfbd70438fa73704a8560c1936> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "FERNANDO EL CATOLICO, CALLE, DE,19" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ARAPILES> ;
+	geo:long "-3.7083987"^^xsd:double ;
+	geo:lat "40.433908"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439915,53"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4476159,48"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ARAPILES> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMBERI> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10856744> .
+
+<http://BiciMAD.es/Group03/CHAMBERI> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberí> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/b7b4dfaadb50115ba5c1dff73b25bea2> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CEA BERMUDEZ, CALLE, DE,59" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/GAZTAMBIDE> ;
+	geo:long "-3.7155889"^^xsd:double ;
+	geo:lat "40.4390413"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439310,29"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4476734,2"^^xsd:double .
+
+<http://BiciMAD.es/Group03/GAZTAMBIDE> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMBERI> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10288587> .
+
+<http://BiciMAD.es/Group03/CHAMBERI> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberí> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/b965f8da386e5e65e1589262cb01243b> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "JOSE ABASCAL, CALLE, DE,33" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/RIOS+ROSAS> ;
+	geo:long "-3.6982986"^^xsd:double ;
+	geo:lat "40.4384622"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440776,2"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4476658,18"^^xsd:double .
+
+<http://BiciMAD.es/Group03/RIOS+ROSAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMBERI> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10366270> .
+
+<http://BiciMAD.es/Group03/CHAMBERI> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberí> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/3adc1875efac3caf7b9fd4c289991daf> a mv:BycicleParkingStation ;
+	mv:capacity "18"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SANTA ENGRACIA, CALLE, DE,129" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/RIOS+ROSAS> ;
+	geo:long "-3.7017555"^^xsd:double ;
+	geo:lat "40.4417512"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440485,91"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4477025,58"^^xsd:double .
+
+<http://BiciMAD.es/Group03/RIOS+ROSAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMBERI> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10366270> .
+
+<http://BiciMAD.es/Group03/CHAMBERI> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberí> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/5fc3ade859af7e4f8f81a5dc5b7c4fa9> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "BRAVO MURILLO, CALLE, DE,44" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/RIOS+ROSAS> ;
+	geo:long "-3.7040233"^^xsd:double ;
+	geo:lat "40.4417479"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440293,58"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4477026,74"^^xsd:double .
+
+<http://BiciMAD.es/Group03/RIOS+ROSAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMBERI> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10366270> .
+
+<http://BiciMAD.es/Group03/CHAMBERI> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberí> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/52c1bde6eb94957cbc3ba842552322b6> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SANTA ENGRACIA, CALLE, DE,168" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/RIOS+ROSAS> ;
+	geo:long "-3.7035911"^^xsd:double ;
+	geo:lat "40.4463889"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440334,34"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4477541,61"^^xsd:double .
+
+<http://BiciMAD.es/Group03/RIOS+ROSAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMBERI> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10366270> .
+
+<http://BiciMAD.es/Group03/CHAMBERI> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberí> .
+
+<http://BiciMAD.es/Group03/Madrid> owl:sameAs <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Ciudad> .
+
+<http://BiciMAD.es/Group03/feb4cc0e676496a1871acfbe1e6fd001> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "DULCINEA, CALLE, DE,3" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CUATRO+CAMINOS> ;
+	geo:long "-3.7000292"^^xsd:double ;
+	geo:lat "40.4471673"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440637,08"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4477625,61"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CUATRO+CAMINOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/TETUAN> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5824684> .
+
+<http://BiciMAD.es/Group03/TETUAN> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Tetuán_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/c49f90f4fc1b2fab1d133f0c4679a1c8> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "MARIA DE GUZMAN, CALLE, DE,58" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/RIOS+ROSAS> ;
+	geo:long "-3.6955092"^^xsd:double ;
+	geo:lat "40.4440317"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441017,64"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4477274,53"^^xsd:double .
+
+<http://BiciMAD.es/Group03/RIOS+ROSAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMBERI> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10366270> .
+
+<http://BiciMAD.es/Group03/CHAMBERI> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberí> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/d74cc837a5e2bf1900c5882f4401081e> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SAN JUAN DE LA CRUZ, PLAZA, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/RIOS+ROSAS> ;
+	geo:long "-3.6928896"^^xsd:double ;
+	geo:lat "40.441484"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441237,58"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4476989,99"^^xsd:double .
+
+<http://BiciMAD.es/Group03/RIOS+ROSAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMBERI> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10366270> .
+
+<http://BiciMAD.es/Group03/CHAMBERI> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberí> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/bb4d855c1bb5332637f374a4c310611d> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CASTELLANA, PASEO, DE LA,106" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/EL+VISO> ;
+	geo:long "-3.6908127"^^xsd:double ;
+	geo:lat "40.4452833"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441417,02"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4477410,33"^^xsd:double .
+
+<http://BiciMAD.es/Group03/EL+VISO> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMARTIN> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4778> .
+
+<http://BiciMAD.es/Group03/CHAMARTIN> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/c0c36df335c0fedbfdca2009220bb54e> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "REPUBLICA ARGENTINA, PLAZA, DE LA,6" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/EL+VISO> ;
+	geo:long "-3.6852925"^^xsd:double ;
+	geo:lat "40.4454958"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441885,33"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4477430,27"^^xsd:double .
+
+<http://BiciMAD.es/Group03/EL+VISO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMARTIN> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4778> .
+
+<http://BiciMAD.es/Group03/CHAMARTIN> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/9a24a7dac44a699a60aef1e6aba9b35d> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CASTELLANA, PASEO, DE LA,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/RIOS+ROSAS> ;
+	geo:long "-3.6915818"^^xsd:double ;
+	geo:lat "40.4456884"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441352,15"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4477455,81"^^xsd:double .
+
+<http://BiciMAD.es/Group03/RIOS+ROSAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMBERI> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10366270> .
+
+<http://BiciMAD.es/Group03/CHAMBERI> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberí> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/c89f2bd5d7044d915b45d58af3766cb1> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "JOSE GUTIERREZ ABASCAL, CALLE, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/EL+VISO> ;
+	geo:long "-3.6904495"^^xsd:double ;
+	geo:lat "40.4393558"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441442,67"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4476752,13"^^xsd:double .
+
+<http://BiciMAD.es/Group03/EL+VISO> <http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMARTIN> ;
+	a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4778> .
+
+<http://BiciMAD.es/Group03/CHAMARTIN> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/b13eccb4efe758e43f4c80e7c201f8ea> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "VELAZQUEZ, CALLE, DE,134" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/EL+VISO> ;
+	geo:long "-3.6829088"^^xsd:double ;
+	geo:lat "40.4386081"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442081,57"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4476664,17"^^xsd:double .
+
+<http://BiciMAD.es/Group03/EL+VISO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMARTIN> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4778> .
+
+<http://BiciMAD.es/Group03/CHAMARTIN> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/2da4663869b0fac5d73ce4c15d4252ce> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CASTELLANA, PASEO, DE LA,43" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ALMAGRO> ;
+	geo:long "-3.6892902"^^xsd:double ;
+	geo:lat "40.4354253"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441537,59"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4476315,08"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ALMAGRO> owl:sameAs <https://www.wikidata.org/wiki/Q10954432> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMBERI> ;
+	a <http://BiciMAD.es/Group03/Barrio> .
+
+<http://BiciMAD.es/Group03/CHAMBERI> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberí> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/4d70c67e0f837ac6b217d67186445e24> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CASTELLANA, PASEO, DE LA,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CASTELLANA> ;
+	geo:long "-3.6880402"^^xsd:double ;
+	geo:lat "40.4335262"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441641,97"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4476103,45"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CASTELLANA> a <http://BiciMAD.es/Group03/Barrio> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4781> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/2a7a4b6d6953e7a6abc618796bffcbfb> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "DIEGO DE LEON, CALLE, DE,54" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/LISTA> ;
+	geo:long "-3.6782355"^^xsd:double ;
+	geo:lat "40.434616"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442474,52"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4476217,99"^^xsd:double .
+
+<http://BiciMAD.es/Group03/LISTA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4779> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/e9d151ce21293eef708f93546ceea0d0> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "JUAN BRAVO, CALLE, DE,50" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/LISTA> ;
+	geo:long "-3.6754628"^^xsd:double ;
+	geo:lat "40.4323192"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442707,74"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475961,24"^^xsd:double .
+
+<http://BiciMAD.es/Group03/LISTA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4779> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/83374467d84e021a953804cff72530b2> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "JOSE ORTEGA Y GASSET, CALLE, DE,87" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/LISTA> ;
+	geo:long "-3.671401"^^xsd:double ;
+	geo:lat "40.4297717"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "443050,11"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4475675,85"^^xsd:double .
+
+<http://BiciMAD.es/Group03/LISTA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/SALAMANCA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4779> .
+
+<http://BiciMAD.es/Group03/SALAMANCA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/93b40cbf000905906cfddef0993bbbd0> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "MARIA FRANCISCA, CALLE, DE,1" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/EL+VISO> ;
+	geo:long "-3.6787983"^^xsd:double ;
+	geo:lat "40.4442372"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442434,99"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4477286,31"^^xsd:double .
+
+<http://BiciMAD.es/Group03/EL+VISO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMARTIN> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4778> .
+
+<http://BiciMAD.es/Group03/CHAMARTIN> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/31c76ce253ade1ef1ee5d08d8225daf1> mv:capacity "24"^^xsd:int ;
+	a mv:BycicleParkingStation ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "DOCTOR ARCE, AVENIDA, DEL,45" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/EL+VISO> ;
+	geo:long "-3.6795811"^^xsd:double ;
+	geo:lat "40.4483353"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442372,1"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4477741,71"^^xsd:double .
+
+<http://BiciMAD.es/Group03/EL+VISO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMARTIN> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4778> .
+
+<http://BiciMAD.es/Group03/CHAMARTIN> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/a080cced35c8551b9764ae2367161c43> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SERRANO, CALLE, DE,210" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/EL+VISO> ;
+	geo:long "-3.6817012"^^xsd:double ;
+	geo:lat "40.4510228"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442194,62"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4478041,41"^^xsd:double .
+
+<http://BiciMAD.es/Group03/EL+VISO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMARTIN> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4778> .
+
+<http://BiciMAD.es/Group03/CHAMARTIN> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/690c75da88d14cac953d129bd3fe58a1> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "LA HABANA, PASEO, DE,42" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/EL+VISO> ;
+	geo:long "-3.6878481"^^xsd:double ;
+	geo:lat "40.449845"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441672,37"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4477914,72"^^xsd:double .
+
+<http://BiciMAD.es/Group03/EL+VISO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMARTIN> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4778> .
+
+<http://BiciMAD.es/Group03/CHAMARTIN> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/4260c4fe52af4e76907bdc3afbc055db> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CASTELLANA, PASEO, DE LA,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/EL+VISO> ;
+	geo:long "-3.6905376"^^xsd:double ;
+	geo:lat "40.4491555"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441443,71"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4477839,96"^^xsd:double .
+
+<http://BiciMAD.es/Group03/EL+VISO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMARTIN> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q4778> .
+
+<http://BiciMAD.es/Group03/CHAMARTIN> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/53b4d36c9fb6a40b2df204a9073decc4> mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ORENSE, CALLE, DE,10" ;
+	a mv:BycicleParkingStation ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CUATRO+CAMINOS> ;
+	geo:long "-3.6952117"^^xsd:double ;
+	geo:lat "40.4488617"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441047,09"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4477810,46"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CUATRO+CAMINOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/TETUAN> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5824684> .
+
+<http://BiciMAD.es/Group03/TETUAN> <http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> ;
+	owl:sameAs <http://dbpedia.org/resource/Tetuán_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/176e7a11f49ab868292b04fa873d7378> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "GENERAL PERON, AVENIDA, DEL,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CUATRO+CAMINOS> ;
+	geo:long "-3.6989497"^^xsd:double ;
+	geo:lat "40.4527163"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440733,5"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4478240,82"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CUATRO+CAMINOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/TETUAN> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5824684> .
+
+<http://BiciMAD.es/Group03/TETUAN> <http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> ;
+	owl:sameAs <http://dbpedia.org/resource/Tetuán_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/0f23d5e92125d3b50609a261a644e437> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "GENERAL PERON, AVENIDA, DEL,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CUATRO+CAMINOS> ;
+	geo:long "-3.6930944"^^xsd:double ;
+	geo:lat "40.4523394"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441229,67"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4478195,07"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CUATRO+CAMINOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/TETUAN> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5824684> .
+
+<http://BiciMAD.es/Group03/TETUAN> a <http://BiciMAD.es/Group03/Distrito> ;
+	owl:sameAs <http://dbpedia.org/resource/Tetuán_(Madrid)> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/01947507bd5675c695b2b5c4906d3cd3> <http://BiciMAD.es/Group03/estaEnCalle> "ORENSE, CALLE, DE,36" ;
+	a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CUATRO+CAMINOS> ;
+	geo:long "-3.6946897"^^xsd:double ;
+	geo:lat "40.454776"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441096,52"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4478466,6"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CUATRO+CAMINOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/TETUAN> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5824684> .
+
+<http://BiciMAD.es/Group03/TETUAN> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Tetuán_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/a31524aa2ee63e8912d4a002bc4da841> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SAN GERMAN, CALLE, DE,55" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CUATRO+CAMINOS> ;
+	geo:long "-3.7008905"^^xsd:double ;
+	geo:lat "40.4572961"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440572,97"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4478750,49"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CUATRO+CAMINOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/TETUAN> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5824684> .
+
+<http://BiciMAD.es/Group03/TETUAN> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Tetuán_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/bc5a9b0ac4c80cd4b4fb354fb5893297> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SOR ANGELA DE LA CRUZ, CALLE, DE,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CASTILLEJOS> ;
+	geo:long "-3.6913229"^^xsd:double ;
+	geo:lat "40.4592406"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441385,88"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4478959,93"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CASTILLEJOS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/TETUAN> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q11913212> .
+
+<http://BiciMAD.es/Group03/TETUAN> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Tetuán_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/b87aa9353b0b912296d92acc5599adaf> mv:capacity "24"^^xsd:int ;
+	a mv:BycicleParkingStation ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CASTELLANA, PASEO, DE LA,S/N" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/NUEVA+ESPA%C3%91A> ;
+	geo:long "-3.6893305"^^xsd:double ;
+	geo:lat "40.459282"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441554,84"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4478963,2"^^xsd:double .
+
+<http://BiciMAD.es/Group03/NUEVA+ESPA%C3%91A> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMARTIN> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q10338128> .
+
+<http://BiciMAD.es/Group03/CHAMARTIN> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/fcc1a3a181a01ebe5fdcb56c20789047> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "ALBERTO ALCOCER, AVENIDA, DE,22 A" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/HISPANOAMERICA> ;
+	geo:long "-3.6847049"^^xsd:double ;
+	geo:lat "40.45862"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441946,46"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4478886,67"^^xsd:double .
+
+<http://BiciMAD.es/Group03/HISPANOAMERICA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMARTIN> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814573> .
+
+<http://BiciMAD.es/Group03/CHAMARTIN> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/0a35e45a3672c5115e1c6e34ab05b35b> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "LA HABANA, PASEO, DE,63" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/HISPANOAMERICA> ;
+	geo:long "-3.6837348"^^xsd:double ;
+	geo:lat "40.4542549"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442024,96"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4478401,51"^^xsd:double .
+
+<http://BiciMAD.es/Group03/HISPANOAMERICA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMARTIN> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3814573> .
+
+<http://BiciMAD.es/Group03/CHAMARTIN> <http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/dc1fc0afa21b1783ac396518d123e040> mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "COLOMBIA, CALLE, DE,7" ;
+	a mv:BycicleParkingStation ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/HISPANOAMERICA> ;
+	geo:long "-3.6765407"^^xsd:double ;
+	geo:lat "40.4571887"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "442637,46"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4478722,46"^^xsd:double .
+
+<http://BiciMAD.es/Group03/HISPANOAMERICA> owl:sameAs <https://www.wikidata.org/wiki/Q3814573> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CHAMARTIN> ;
+	a <http://BiciMAD.es/Group03/Barrio> .
+
+<http://BiciMAD.es/Group03/CHAMARTIN> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/7cc5e4ced84cb162416a10a0c0993a2c> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "FLORIDA, PASEO, DE LA,8" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CASA+DE+CAMPO> ;
+	geo:long "-3.722035"^^xsd:double ;
+	geo:lat "40.4221254"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "438748,24"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4474860,98"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CASA+DE+CAMPO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/MONCLOA-ARAVACA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q16302441> .
+
+<http://BiciMAD.es/Group03/MONCLOA-ARAVACA> owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	a <http://BiciMAD.es/Group03/Distrito> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/e231ee5d5c8825dcd01c13bae647cf34> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "OLMOS, PASEO, DE LOS,28" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ACACIAS> ;
+	geo:long "-3.7107559"^^xsd:double ;
+	geo:lat "40.4035176"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439688,47"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4472787,76"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ACACIAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/ARGANZUELA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3319190> .
+
+<http://BiciMAD.es/Group03/ARGANZUELA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/5c95cb3403fd4ab0972d2305c03bd388> <http://BiciMAD.es/Group03/estaEnCalle> "ESPERANZA, PASEO, DE LA," ;
+	mv:capacity "24"^^xsd:int ;
+	a mv:BycicleParkingStation ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/ACACIAS> ;
+	geo:long "-3.7064372"^^xsd:double ;
+	geo:lat "40.4036349"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440055,04"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4472797,85"^^xsd:double .
+
+<http://BiciMAD.es/Group03/ACACIAS> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/ARGANZUELA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3319190> .
+
+<http://BiciMAD.es/Group03/ARGANZUELA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/a6f001cbf6078f542d659397045a641d> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "DELICIAS, PASEO, DE LAS,92" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/DELICIAS> ;
+	geo:long "-3.6944786"^^xsd:double ;
+	geo:lat "40.3971621"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "441064,15"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4472071,33"^^xsd:double .
+
+<http://BiciMAD.es/Group03/DELICIAS> owl:sameAs <https://www.wikidata.org/wiki/Q3773736> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/ARGANZUELA> ;
+	a <http://BiciMAD.es/Group03/Barrio> .
+
+<http://BiciMAD.es/Group03/ARGANZUELA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/09a30de3dbb7e55f08a1822ef6144593> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "CHOPERA, PASEO, DE LA,47" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/CHOPERA> ;
+	geo:long "-3.6977928"^^xsd:double ;
+	geo:lat "40.3929735"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "440779,23"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4471608,61"^^xsd:double .
+
+<http://BiciMAD.es/Group03/CHOPERA> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/ARGANZUELA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3773750> .
+
+<http://BiciMAD.es/Group03/ARGANZUELA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/11ef2aa870dc67e2d54cf3922b62e55a> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SEGOVIA, CALLE, DE,26" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/PALACIO> ;
+	geo:long "-3.7133497"^^xsd:double ;
+	geo:lat "40.4139487"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439477,71"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473947,39"^^xsd:double .
+
+<http://BiciMAD.es/Group03/PALACIO> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/CENTRO> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2136510> .
+
+<http://BiciMAD.es/Group03/CENTRO> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .
+
+<http://BiciMAD.es/Group03/aeba386c64fd0f9c3b3279456d921384> a mv:BycicleParkingStation ;
+	mv:capacity "24"^^xsd:int ;
+	<http://BiciMAD.es/Group03/estaEnCalle> "SEGOVIA, CALLE, DE,45" ;
+	<http://BiciMAD.es/Group03/Barrio> <http://BiciMAD.es/Group03/IMPERIAL> ;
+	geo:long "-3.7175955"^^xsd:double ;
+	geo:lat "40.4137262"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_X> "439117,28"^^xsd:double ;
+	<http://BiciMAD.es/Group03/Gis_Y> "4473925,6"^^xsd:double .
+
+<http://BiciMAD.es/Group03/IMPERIAL> a <http://BiciMAD.es/Group03/Barrio> ;
+	<http://BiciMAD.es/Group03/estaEnDistrito> <http://BiciMAD.es/Group03/ARGANZUELA> ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q3773740> .
+
+<http://BiciMAD.es/Group03/ARGANZUELA> a <http://BiciMAD.es/Group03/Distrito> ;
+	<http://BiciMAD.es/Group03/estaEnCiudad> <http://BiciMAD.es/Group03/Madrid> ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://BiciMAD.es/Group03/Madrid> a <http://BiciMAD.es/Group03/Ciudad> ;
+	owl:sameAs <http://BiciMAD.es/Group03/Madrid> .

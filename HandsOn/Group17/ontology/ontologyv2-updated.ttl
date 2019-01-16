@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.acusticpoll/ontology/AcusticPoll#"
+     xml:base="http://www.acusticpoll/ontology/AcusticPoll"
+     xmlns:dbp="http://dbpedia.org/resource/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:ssn="http://www.w3.org/ns/ssn/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:sosa="http://www.w3.org/ns/sosa/">
+    <owl:Ontology rdf:about="http://www.acusticpoll/ontology/AcusticPoll#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.acusticpoll/ontology/AcusticPoll#isLocated -->
+
+    <owl:ObjectProperty rdf:about="http://www.acusticpoll/ontology/AcusticPoll#isLocated">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/resource/Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/hasResult -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/hasResult">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/sosa/Result"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/isResultOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/isResultOf">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Result"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/madeBySensor -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/madeBySensor">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/madeObservation -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/madeObservation">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.acusticpoll/ontology/AcusticPoll#date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.acusticpoll/ontology/AcusticPoll#date">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.acusticpoll/ontology/AcusticPoll#laeq24 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.acusticpoll/ontology/AcusticPoll#laeq24">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Result"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.acusticpoll/ontology/AcusticPoll#ld -->
+
+    <owl:DatatypeProperty rdf:about="http://www.acusticpoll/ontology/AcusticPoll#ld">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Result"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.acusticpoll/ontology/AcusticPoll#le -->
+
+    <owl:DatatypeProperty rdf:about="http://www.acusticpoll/ontology/AcusticPoll#le">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Result"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.acusticpoll/ontology/AcusticPoll#ln -->
+
+    <owl:DatatypeProperty rdf:about="http://www.acusticpoll/ontology/AcusticPoll#ln">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Result"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.acusticpoll/ontology/AcusticPoll#location -->
+
+    <owl:DatatypeProperty rdf:about="http://www.acusticpoll/ontology/AcusticPoll#location">
+        <rdfs:domain rdf:resource="http://dbpedia.org/resource/Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.acusticpoll/ontology/AcusticPoll#stationCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.acusticpoll/ontology/AcusticPoll#stationCode">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/resource/Location -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Location"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Observation -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/Observation"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Result -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/Result"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Sensor -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/Sensor"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+

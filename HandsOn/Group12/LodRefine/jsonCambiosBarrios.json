@@ -1,0 +1,46 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column normalization_date",
+    "columnName": "normalization_date"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column model",
+    "columnName": "model"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column emisorid",
+    "columnName": "emisorid"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column ï»¿city to City code",
+    "oldColumnName": "ï»¿city",
+    "newColumnName": "City code"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column date using expression value.toDate()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "date",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column date_normalization",
+    "columnName": "date_normalization"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column irrigation",
+    "columnName": "irrigation"
+  }
+]

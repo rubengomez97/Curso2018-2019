@@ -1,0 +1,54 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix property: <http://www.aparcamientos-SER.org/propiedades#> .
+@prefix class: <http://www.aparcamientos-SER.org/clases#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix property: <http://www.aparcamientos-SER.org/propiedades#> .
+@prefix class: <http://www.aparcamientos-SER.org/clases#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix km: <http://www.disit.org/km4city/schema#> .
+###########################################
+# Object properties
+###########################################
+property:has_address rdf:type owl:ObjectProperty .
+property:has_location rdf:type owl:ObjectProperty .
+property:has_barrio rdf:type owl:ObjectProperty .
+property:has_distrito rdf:type owl:ObjectProperty .
+
+property:color rdf:type owl:ObjectProperty .
+property:tipo rdf:type owl:ObjectProperty .
+property:plazas rdf:type owl:ObjectProperty .
+property:longitud rdf:type owl:ObjectProperty .
+property:latitud rdf:type owl:ObjectProperty .
+property:calle rdf:type owl:ObjectProperty .
+property:numero rdf:type owl:ObjectProperty .
+property:nombre rdf:type owl:ObjectProperty .
+###########################################
+# Classes
+###########################################
+class:parquimetro rdf:type owl:Class.
+class:parking rdf:type owl:Class.
+class:address rdf:type owl:Class.
+class:location rdf:type owl:Class.
+class:barrio rdf:type owl:Class.
+class:distrito rdf:type owl:Class.
+###########################################
+# Actualizacion
+###########################################
+property:fecha_alta km:lastUpdate rdf:type .
+property:address km:otherStreetAddress rdf:type .
+property:latitud geo:lat rdf:type .
+property:longitud geo:long rdf:type .
+
+
+
+

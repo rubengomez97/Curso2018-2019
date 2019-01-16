@@ -1,0 +1,114 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.madridbici.es/group02/resource",
+      "prefixes": [
+        {
+          "name": "madbici",
+          "uri": "http://www.madridbici.es/group02#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"http://www.madridbici.es/group02/resource/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "Número",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.madridbici.es/group02#cod_distrito",
+              "curie": "madbici:cod_distrito",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Codigo Distrito"
+              }
+            },
+            {
+              "uri": "http://www.madridbici.es/group02#nombre_distrito",
+              "curie": "madbici:nombre_distrito",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Distrito"
+              }
+            },
+            {
+              "uri": "http://www.madridbici.es/group02#cod_barrio",
+              "curie": "madbici:cod_barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Codigo Barrio"
+              }
+            },
+            {
+              "uri": "http://www.madridbici.es/group02#nombre_barrio",
+              "curie": "madbici:nombre_barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://www.madridbici.es/group02#direccion",
+              "curie": "madbici:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Calle"
+              }
+            },
+            {
+              "uri": "http://www.madridbici.es/group02#longitud",
+              "curie": "madbici:longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://www.madridbici.es/group02#latitud",
+              "curie": "madbici:latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

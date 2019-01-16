@@ -1,0 +1,63 @@
+@prefix : <https://www.santacruzdetenerife.es/Ontology#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix clases: <https://www.santacruzdetenerife.es/Clases/>.
+@prefix propiedades: <https://www.santacruzdetenerife.es/Propiedades/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix schema: <https://schema.org/>.
+@base <https://www.santacruzdetenerife.es/>.
+
+ <https://www.santacruzdetenerife.es/> rdf:type owl:Ontology .
+#################################################################
+#    Clases
+#################################################################
+
+## https://www.santacruzdetenerife.es/Clases/MaquinaPublica
+clases:MaquinaPublica a rdfs:Class.
+
+#################################################################
+#     Properties
+#################################################################
+
+## https://www.santacruzdetenerife.es/Propiedades/FID
+propiedades:hasFID a rdf:Property;
+	rdfs:domain clases:MaquinaPublica;
+	rdfs:range xsd:float.
+
+## https://www.santacruzdetenerife.es/Propiedades/URL_PDF
+propiedades:hasURL_PDF a rdf:Property;
+	rdfs:domain clases:MaquinaPublica;
+	rdfs:range xsd:anyURI.
+
+## https://www.santacruzdetenerife.es/Propiedades/Fabricante
+propiedades:hasfabricante a rdf:Property;
+	rdfs:domain clases:MaquinaPublica;
+	rdfs:range xsd:string.
+##antiguo
+## https://www.santacruzdetenerife.es/Propiedades/GRAD_X
+## nuevo
+## http://www.w3.org/2003/01/geo/wgs84_pos#long
+geo:long a rdf:Property;
+	rdfs:domain clases:MaquinaPublica;
+	rdfs:range xsd:float.
+
+##antiguo
+## https://www.santacruzdetenerife.es/Propiedades/GRAD_Y
+## nuevo
+## http://www.w3.org/2003/01/geo/wgs84_pos#lat
+geo:lat a rdf:Property;
+	rdfs:domain clases:MaquinaPublica;
+	rdfs:range xsd:float.
+
+## tps://schema.org/address
+schema:address a rdf:Property;
+	rdfs:domain clases:MaquinaPublica;
+	rdfs:range xsd:string.
+
+## https://www.santacruzdetenerife.es/Propiedades/Modelo
+propiedades:hasModelo a rdf:Property;
+	rdfs:domain clases:MaquinaPublica;
+	rdfs:range xsd:string.
+

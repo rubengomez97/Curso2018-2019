@@ -1,0 +1,116 @@
+@prefix ont: <https://datos.madrid.es/group13/ontology#> .
+@prefix property: <http://www.aparcamientos-SER.org/propiedades#> .
+@prefix class: <http://www.aparcamientos-SER.org/clases#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix property: <http://www.aparcamientos-SER.org/propiedades#> .
+@prefix class: <http://www.aparcamientos-SER.org/clases#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix km: <http://www.disit.org/km4city/schema#> .
+@base <https://datos.madrid.es/group13> .
+
+<https://datos.madrid.es/group13/ontology> rdf:type owl:Ontology .
+
+###########################################
+# Classes
+###########################################
+class:Parquimetro rdf:type owl:Class .
+class:Parking rdf:type owl:Class .
+class:Address rdf:type owl:Class .
+class:Location rdf:type owl:Class .
+class:Barrio rdf:type owl:Class .
+class:Distrito rdf:type owl:Class .
+
+###########################################
+# Object properties
+###########################################
+
+# https://datos.madrid.es/group13#has_address
+property:has_address rdf:type owl:ObjectProperty ;
+    rdfs:domain class:Parking ;
+    rdfs:range class:Address .
+property:has_address rdf:type owl:ObjectProperty ;
+    rdfs:domain class:Parquimetro ;
+    rdfs:range class:Address .
+# https://datos.madrid.es/group13#has_location
+property:has_location rdf:type owl:ObjectProperty ;
+    rdfs:domain class:Parking ;
+    rdfs:range class:Location .
+property:has_location rdf:type owl:ObjectProperty ;
+    rdfs:domain class:Parquimetro ;
+    rdfs:range class:Location .
+property:has_location rdf:type owl:ObjectProperty ;
+    rdfs:domain class:Address ;
+    rdfs:range class:Location .
+# https://datos.madrid.es/group13#has_barrio
+property:has_barrio rdf:type owl:ObjectProperty ;
+    rdfs:domain class:Parking ;
+    rdfs:range class:Barrio .
+property:has_barrio rdf:type owl:ObjectProperty ;
+    rdfs:domain class:Parquimetro ;
+    rdfs:range class:Barrio .
+property:has_barrio rdf:type owl:ObjectProperty ;
+    rdfs:domain class:Address ;
+    rdfs:range class:Barrio .
+# https://datos.madrid.es/group13#has_distrito
+property:has_distrito rdf:type owl:ObjectProperty ;
+    rdfs:domain class:Parking ;
+    rdfs:range class:Distrito .
+property:has_distrito rdf:type owl:ObjectProperty ;
+    rdfs:domain class:Parquimetro ;
+    rdfs:range class:Distrito .
+property:has_distrito rdf:type owl:ObjectProperty ;
+    rdfs:domain class:Address ;
+    rdfs:range class:Distrito .
+property:has_distrito rdf:type owl:ObjectProperty ;
+    rdfs:domain class:Barrio ;
+    rdfs:range class:Distrito .
+
+#################################################################
+#    Data properties
+#################################################################
+
+property:color rdf:type owl:DatatypeProperty ;
+    rdfs:domain class:Parking ;
+    rdfs:range xsd:string .
+property:color rdf:type owl:DatatypeProperty ;
+    rdfs:domain class:Barrio ;
+    rdfs:range xsd:string .
+property:tipo rdf:type owl:DatatypeProperty ;
+    rdfs:domain class:Parking ;
+    rdfs:range xsd:string .
+property:tipo rdf:type owl:DatatypeProperty ;
+    rdfs:domain class:Barrio ;
+    rdfs:range xsd:string .
+property:plazas rdf:type owl:DatatypeProperty ;
+    rdfs:domain class:Parking ;
+    rdfs:range xsd:int .
+property:plazas rdf:type owl:DatatypeProperty ;
+    rdfs:domain class:Barrio ;
+    rdfs:range xsd:int .
+
+
+# property:longitud rdf:type owl:DatatypeProperty rdfs:domain ont: parking; barrio rdfs:range xsd: decimal .
+# property:latitud rdf:type owl:DatatypeProperty rdfs:domain ont: parking; barrio rdfs:range xsd: decimal .
+
+
+###########################################
+# Actualizacion
+###########################################
+property:fecha_alta km:lastUpdate owl:DatatypeProperty ;
+    rdfs:domain class:Parquimetro ;
+    rdfs:range xsd:date .
+property:address km:otherStreetAddress owl:DatatypeProperty ;
+    rdfs:domain class:Address ;
+    rdfs:range xsd:string .
+property:latitud geo:lat owl:DatatypeProperty ;
+    rdfs:domain class:Location ;
+    rdfs:range xsd:decimal .
+property:longitud geo:long owl:DatatypeProperty ;
+    rdfs:domain class:Location ;
+    rdfs:range xsd:decimal .
+geo:SpatialThing rdf:type owl:Class .

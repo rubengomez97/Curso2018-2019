@@ -1,0 +1,275 @@
+@prefix : <http://www.wifimadrid.org/ontology#> .
+@prefix ont: <http://www.wifimadrid.org/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix clase: <http://www.wifimadrid.org/class#> .
+@prefix property: <http://www.wifimadrid.org/property#> .
+@base <http://www.wifimadrid.org/ontology> .
+
+<http://www.wifimadrid.org/ontology> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.wifimadrid.org/ontology#seEncuentraEn
+ont:seEncuentraEn rdf:type owl:ObjectProperty ;
+                  rdfs:domain ont:Edificio ;
+                  rdfs:range [ rdf:type owl:Class ;
+                               owl:unionOf ( ont:Barrio
+                                             ont:Localidad
+                                             ont:Provincia
+                                             ont:Via
+                                           )
+                             ] .
+
+
+###  http://www.wifimadrid.org/ontology#situadoEn
+ont:situadoEn rdf:type owl:ObjectProperty ;
+              rdfs:domain ont:Edificio ;
+              rdfs:range ont:Via .
+
+
+###  http://www.wifimadrid.org/ontology#tieneWifi
+ont:tieneWifi rdf:type owl:ObjectProperty ;
+              rdfs:domain ont:Edificio ;
+              rdfs:range ont:Establecimiento .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.wifimadrid.org/ontology#claseVia
+ont:claseVia rdf:type owl:DatatypeProperty ;
+             rdfs:domain ont:Via ;
+             rdfs:range xsd:string .
+
+
+###  http://www.wifimadrid.org/ontology#codigoPostal
+ont:codigoPostal rdf:type owl:DatatypeProperty ;
+                 rdfs:domain ont:Edificio ;
+                 rdfs:range xsd:integer .
+
+
+###  http://www.wifimadrid.org/ontology#tieneContentURL
+ont:tieneContentURL rdf:type owl:DatatypeProperty ;
+                    rdfs:domain ont:Establecimiento ;
+                    rdfs:range xsd:string .
+
+
+###  http://www.wifimadrid.org/ontology#tieneCoordenadaX
+ont:tieneCoordenadaX rdf:type owl:DatatypeProperty ;
+                     rdfs:domain ont:Edificio ;
+                     rdfs:range xsd:integer .
+
+
+###  http://www.wifimadrid.org/ontology#tieneCoordenadaY
+ont:tieneCoordenadaY rdf:type owl:DatatypeProperty ;
+                     rdfs:domain ont:Edificio ;
+                     rdfs:range xsd:integer .
+
+
+###  http://www.wifimadrid.org/ontology#tieneDescripcion
+ont:tieneDescripcion rdf:type owl:DatatypeProperty ;
+                     rdfs:domain ont:Establecimiento ;
+                     rdfs:range xsd:string .
+
+
+###  http://www.wifimadrid.org/ontology#tieneDescripcionEntidad
+ont:tieneDescripcionEntidad rdf:type owl:DatatypeProperty ;
+                            rdfs:domain ont:Establecimiento ;
+                            rdfs:range xsd:string .
+
+
+###  http://www.wifimadrid.org/ontology#tieneEmail
+ont:tieneEmail rdf:type owl:DatatypeProperty ;
+               rdfs:domain ont:Establecimiento ;
+               rdfs:range xsd:string .
+
+
+###  http://www.wifimadrid.org/ontology#tieneEquipamiento
+ont:tieneEquipamiento rdf:type owl:DatatypeProperty ;
+                      rdfs:domain ont:Establecimiento ;
+                      rdfs:range xsd:string .
+
+
+###  http://www.wifimadrid.org/ontology#tieneFax
+ont:tieneFax rdf:type owl:DatatypeProperty ;
+             rdfs:domain ont:Establecimiento ;
+             rdfs:range xsd:string .
+
+
+###  http://www.wifimadrid.org/ontology#tieneHorario
+ont:tieneHorario rdf:type owl:DatatypeProperty ;
+                 rdfs:domain ont:Establecimiento ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.wifimadrid.org/ontology#tieneLatitud
+ont:tieneLatitud rdf:type owl:DatatypeProperty ;
+                 rdfs:domain ont:Edificio ;
+                 rdfs:range xsd:double .
+
+
+###  http://www.wifimadrid.org/ontology#tieneLongitud
+ont:tieneLongitud rdf:type owl:DatatypeProperty ;
+                  rdfs:domain ont:Edificio ;
+                  rdfs:range xsd:double .
+
+
+###  http://www.wifimadrid.org/ontology#tieneNombre
+ont:tieneNombre rdf:type owl:DatatypeProperty ;
+                rdfs:domain ont:AyuntamientoMadrid ,
+                            ont:Barrio ,
+                            ont:Biblioteca ,
+                            ont:CentroCultural ,
+                            ont:CentroFormacion ,
+                            ont:CentroMayores ,
+                            ont:CentroSalud ,
+                            ont:Edificio ,
+                            ont:Establecimiento ,
+                            ont:Localidad ,
+                            ont:Monumento ,
+                            ont:Museo ,
+                            ont:OficinaEmpleo ,
+                            ont:Parque ,
+                            ont:Provincia ,
+                            ont:SalaEstudio ,
+                            ont:SalaExposiciones ,
+                            ont:ServicioSocial ;
+                rdfs:range xsd:Name .
+
+
+###  http://www.wifimadrid.org/ontology#tieneTelefono
+ont:tieneTelefono rdf:type owl:DatatypeProperty ;
+                  rdfs:domain ont:Establecimiento ;
+                  rdfs:range xsd:string .
+
+
+###  http://www.wifimadrid.org/ontology#tipoEstablecimiento
+ont:tipoEstablecimiento rdf:type owl:DatatypeProperty ;
+                        rdfs:domain ont:Edificio ;
+                        rdfs:range xsd:string .
+
+
+###  http://www.wifimadrid.org/ontology#tipoNumVia
+ont:tipoNumVia rdf:type owl:DatatypeProperty ;
+               rdfs:domain ont:Via ;
+               rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.wifimadrid.org/ontology#AyuntamientoMadrid
+ont:AyuntamientoMadrid rdf:type owl:Class ;
+                       rdfs:subClassOf ont:Edificio ;
+                       owl:disjointWith [ rdf:type owl:Class ;
+                                          owl:unionOf ( ont:Biblioteca
+                                                        ont:CentroCultural
+                                                        ont:CentroFormacion
+                                                        ont:CentroMayores
+                                                        ont:CentroSalud
+                                                        ont:Monumento
+                                                        ont:Museo
+                                                        ont:OficinaEmpleo
+                                                        ont:Parque
+                                                        ont:SalaEstudio
+                                                        ont:SalaExposiciones
+                                                        ont:ServicioSocial
+                                                      )
+                                        ] .
+
+
+###  http://www.wifimadrid.org/ontology#Barrio
+ont:Barrio rdf:type owl:Class ;
+           rdfs:subClassOf ont:Localidad .
+
+
+###  http://www.wifimadrid.org/ontology#Biblioteca
+ont:Biblioteca rdf:type owl:Class ;
+               rdfs:subClassOf ont:Edificio .
+
+
+###  http://www.wifimadrid.org/ontology#CentroCultural
+ont:CentroCultural rdf:type owl:Class ;
+                   rdfs:subClassOf ont:Edificio .
+
+
+###  http://www.wifimadrid.org/ontology#CentroFormacion
+ont:CentroFormacion rdf:type owl:Class ;
+                    rdfs:subClassOf ont:Edificio .
+
+
+###  http://www.wifimadrid.org/ontology#CentroMayores
+ont:CentroMayores rdf:type owl:Class ;
+                  rdfs:subClassOf ont:Edificio .
+
+
+###  http://www.wifimadrid.org/ontology#CentroSalud
+ont:CentroSalud rdf:type owl:Class ;
+                rdfs:subClassOf ont:Edificio .
+
+
+###  http://www.wifimadrid.org/ontology#Edificio
+ont:Edificio rdf:type owl:Class .
+
+
+###  http://www.wifimadrid.org/ontology#Establecimiento
+ont:Establecimiento rdf:type owl:Class .
+
+
+###  http://www.wifimadrid.org/ontology#Localidad
+ont:Localidad rdf:type owl:Class ;
+              rdfs:subClassOf ont:Provincia .
+
+
+###  http://www.wifimadrid.org/ontology#Monumento
+ont:Monumento rdf:type owl:Class ;
+              rdfs:subClassOf ont:Edificio .
+
+
+###  http://www.wifimadrid.org/ontology#Museo
+ont:Museo rdf:type owl:Class ;
+          rdfs:subClassOf ont:Edificio .
+
+
+###  http://www.wifimadrid.org/ontology#OficinaEmpleo
+ont:OficinaEmpleo rdf:type owl:Class ;
+                  rdfs:subClassOf ont:Edificio .
+
+
+###  http://www.wifimadrid.org/ontology#Parque
+ont:Parque rdf:type owl:Class ;
+           rdfs:subClassOf ont:Edificio .
+
+
+###  http://www.wifimadrid.org/ontology#Provincia
+ont:Provincia rdf:type owl:Class .
+
+
+###  http://www.wifimadrid.org/ontology#SalaEstudio
+ont:SalaEstudio rdf:type owl:Class ;
+                rdfs:subClassOf ont:Edificio .
+
+
+###  http://www.wifimadrid.org/ontology#SalaExposiciones
+ont:SalaExposiciones rdf:type owl:Class ;
+                     rdfs:subClassOf ont:Edificio .
+
+
+###  http://www.wifimadrid.org/ontology#ServicioSocial
+ont:ServicioSocial rdf:type owl:Class ;
+                   rdfs:subClassOf ont:Edificio .
+
+
+###  http://www.wifimadrid.org/ontology#Via
+ont:Via rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi

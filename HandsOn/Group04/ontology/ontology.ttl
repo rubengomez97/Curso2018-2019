@@ -1,0 +1,276 @@
+@prefix : <http://www.wifimadrid.org/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.wifimadrid.org/ontology> .
+
+<http://www.wifimadrid.org/ontology> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.wifimadrid.org/clases#seEncuentraEn
+<http://www.wifimadrid.org/clases#seEncuentraEn> rdf:type owl:ObjectProperty ;
+                                                 rdfs:domain <http://www.wifimadrid.org/clases#Edificio> ;
+                                                 rdfs:range <http://www.wifimadrid.org/clases#Barrio> ,
+                                                            <http://www.wifimadrid.org/clases#Localidad> ,
+                                                            <http://www.wifimadrid.org/clases#Provincia> ,
+                                                            <http://www.wifimadrid.org/clases#Via> .
+
+
+###  http://www.wifimadrid.org/clases#situadoEn
+<http://www.wifimadrid.org/clases#situadoEn> rdf:type owl:ObjectProperty ;
+                                             rdfs:domain <http://www.wifimadrid.org/clases#Edificio> ;
+                                             rdfs:range <http://www.wifimadrid.org/clases#Via> .
+
+
+###  http://www.wifimadrid.org/clases#tieneWifi
+<http://www.wifimadrid.org/clases#tieneWifi> rdf:type owl:ObjectProperty ;
+                                             rdfs:domain <http://www.wifimadrid.org/clases#Edificio> ;
+                                             rdfs:range <http://www.wifimadrid.org/clases#Establecimiento> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.wifimadrid.org/clases#claseVia
+<http://www.wifimadrid.org/clases#claseVia> rdf:type owl:DatatypeProperty ;
+                                            rdfs:domain <http://www.wifimadrid.org/clases#Via> ;
+                                            rdfs:range xsd:string .
+
+
+###  http://www.wifimadrid.org/clases#codigoPostal
+<http://www.wifimadrid.org/clases#codigoPostal> rdf:type owl:DatatypeProperty ;
+                                                rdfs:domain <http://www.wifimadrid.org/clases#Edificio> ;
+                                                rdfs:range xsd:integer .
+
+
+###  http://www.wifimadrid.org/clases#tieneContentURL
+<http://www.wifimadrid.org/clases#tieneContentURL> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:domain <http://www.wifimadrid.org/clases#Establecimiento> ;
+                                                   rdfs:range xsd:string .
+
+
+###  http://www.wifimadrid.org/clases#tieneCoordenadaX
+<http://www.wifimadrid.org/clases#tieneCoordenadaX> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:domain <http://www.wifimadrid.org/clases#Edificio> ;
+                                                    rdfs:range xsd:integer .
+
+
+###  http://www.wifimadrid.org/clases#tieneCoordenadaY
+<http://www.wifimadrid.org/clases#tieneCoordenadaY> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:domain <http://www.wifimadrid.org/clases#Edificio> ;
+                                                    rdfs:range xsd:integer .
+
+
+###  http://www.wifimadrid.org/clases#tieneDescripcion
+<http://www.wifimadrid.org/clases#tieneDescripcion> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:domain <http://www.wifimadrid.org/clases#Establecimiento> ;
+                                                    rdfs:range xsd:string .
+
+
+###  http://www.wifimadrid.org/clases#tieneDescripcionEntidad
+<http://www.wifimadrid.org/clases#tieneDescripcionEntidad> rdf:type owl:DatatypeProperty ;
+                                                           rdfs:domain <http://www.wifimadrid.org/clases#Establecimiento> ;
+                                                           rdfs:range xsd:string .
+
+
+###  http://www.wifimadrid.org/clases#tieneEmail
+<http://www.wifimadrid.org/clases#tieneEmail> rdf:type owl:DatatypeProperty ;
+                                              rdfs:domain <http://www.wifimadrid.org/clases#Establecimiento> ;
+                                              rdfs:range xsd:string .
+
+
+###  http://www.wifimadrid.org/clases#tieneEquipamiento
+<http://www.wifimadrid.org/clases#tieneEquipamiento> rdf:type owl:DatatypeProperty ;
+                                                     rdfs:domain <http://www.wifimadrid.org/clases#Establecimiento> ;
+                                                     rdfs:range xsd:string .
+
+
+###  http://www.wifimadrid.org/clases#tieneFax
+<http://www.wifimadrid.org/clases#tieneFax> rdf:type owl:DatatypeProperty ;
+                                            rdfs:domain <http://www.wifimadrid.org/clases#Establecimiento> ;
+                                            rdfs:range xsd:string .
+
+
+###  http://www.wifimadrid.org/clases#tieneHorario
+<http://www.wifimadrid.org/clases#tieneHorario> rdf:type owl:DatatypeProperty ;
+                                                rdfs:domain <http://www.wifimadrid.org/clases#Establecimiento> ;
+                                                rdfs:range xsd:string .
+
+
+###  http://www.wifimadrid.org/clases#tieneLatitud
+<http://www.wifimadrid.org/clases#tieneLatitud> rdf:type owl:DatatypeProperty ;
+                                                rdfs:domain <http://www.wifimadrid.org/clases#Edificio> ;
+                                                rdfs:range xsd:double .
+
+
+###  http://www.wifimadrid.org/clases#tieneLongitud
+<http://www.wifimadrid.org/clases#tieneLongitud> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:domain <http://www.wifimadrid.org/clases#Edificio> ;
+                                                 rdfs:range xsd:double .
+
+
+###  http://www.wifimadrid.org/clases#tieneNombre
+<http://www.wifimadrid.org/clases#tieneNombre> rdf:type owl:DatatypeProperty ;
+                                               rdfs:domain <http://www.wifimadrid.org/clases#AyuntamientoMadrid> ,
+                                                           <http://www.wifimadrid.org/clases#Barrio> ,
+                                                           <http://www.wifimadrid.org/clases#Biblioteca> ,
+                                                           <http://www.wifimadrid.org/clases#CentroCultural> ,
+                                                           <http://www.wifimadrid.org/clases#CentroFormacion> ,
+                                                           <http://www.wifimadrid.org/clases#CentroMayores> ,
+                                                           <http://www.wifimadrid.org/clases#CentroSalud> ,
+                                                           <http://www.wifimadrid.org/clases#Edificio> ,
+                                                           <http://www.wifimadrid.org/clases#Establecimiento> ,
+                                                           <http://www.wifimadrid.org/clases#Localidad> ,
+                                                           <http://www.wifimadrid.org/clases#Monumento> ,
+                                                           <http://www.wifimadrid.org/clases#Museo> ,
+                                                           <http://www.wifimadrid.org/clases#OficinaEmpleo> ,
+                                                           <http://www.wifimadrid.org/clases#Parque> ,
+                                                           <http://www.wifimadrid.org/clases#Provincia> ,
+                                                           <http://www.wifimadrid.org/clases#SalaEstudio> ,
+                                                           <http://www.wifimadrid.org/clases#SalaExposiciones> ,
+                                                           <http://www.wifimadrid.org/clases#ServicioSocial> ;
+                                               rdfs:range xsd:Name .
+
+
+###  http://www.wifimadrid.org/clases#tieneTelefono
+<http://www.wifimadrid.org/clases#tieneTelefono> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:domain <http://www.wifimadrid.org/clases#Establecimiento> ;
+                                                 rdfs:range xsd:string .
+
+
+###  http://www.wifimadrid.org/clases#tipoEstablecimiento
+<http://www.wifimadrid.org/clases#tipoEstablecimiento> rdf:type owl:DatatypeProperty ;
+                                                       rdfs:domain <http://www.wifimadrid.org/clases#Edificio> ;
+                                                       rdfs:range xsd:string .
+
+
+###  http://www.wifimadrid.org/clases#tipoNumVia
+<http://www.wifimadrid.org/clases#tipoNumVia> rdf:type owl:DatatypeProperty ;
+                                              rdfs:domain <http://www.wifimadrid.org/clases#Via> ;
+                                              rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.wifimadrid.org/clases#AyuntamientoMadrid
+<http://www.wifimadrid.org/clases#AyuntamientoMadrid> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://www.wifimadrid.org/clases#Edificio> .
+
+
+###  http://www.wifimadrid.org/clases#Barrio
+<http://www.wifimadrid.org/clases#Barrio> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://www.wifimadrid.org/clases#Localidad> .
+
+
+###  http://www.wifimadrid.org/clases#Biblioteca
+<http://www.wifimadrid.org/clases#Biblioteca> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://www.wifimadrid.org/clases#Edificio> .
+
+
+###  http://www.wifimadrid.org/clases#CentroCultural
+<http://www.wifimadrid.org/clases#CentroCultural> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.wifimadrid.org/clases#Edificio> .
+
+
+###  http://www.wifimadrid.org/clases#CentroFormacion
+<http://www.wifimadrid.org/clases#CentroFormacion> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.wifimadrid.org/clases#Edificio> .
+
+
+###  http://www.wifimadrid.org/clases#CentroMayores
+<http://www.wifimadrid.org/clases#CentroMayores> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.wifimadrid.org/clases#Edificio> .
+
+
+###  http://www.wifimadrid.org/clases#CentroSalud
+<http://www.wifimadrid.org/clases#CentroSalud> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.wifimadrid.org/clases#Edificio> .
+
+
+###  http://www.wifimadrid.org/clases#Edificio
+<http://www.wifimadrid.org/clases#Edificio> rdf:type owl:Class .
+
+
+###  http://www.wifimadrid.org/clases#Establecimiento
+<http://www.wifimadrid.org/clases#Establecimiento> rdf:type owl:Class .
+
+
+###  http://www.wifimadrid.org/clases#Localidad
+<http://www.wifimadrid.org/clases#Localidad> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://www.wifimadrid.org/clases#Provincia> .
+
+
+###  http://www.wifimadrid.org/clases#Monumento
+<http://www.wifimadrid.org/clases#Monumento> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://www.wifimadrid.org/clases#Edificio> .
+
+
+###  http://www.wifimadrid.org/clases#Museo
+<http://www.wifimadrid.org/clases#Museo> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://www.wifimadrid.org/clases#Edificio> .
+
+
+###  http://www.wifimadrid.org/clases#OficinaEmpleo
+<http://www.wifimadrid.org/clases#OficinaEmpleo> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.wifimadrid.org/clases#Edificio> .
+
+
+###  http://www.wifimadrid.org/clases#Parque
+<http://www.wifimadrid.org/clases#Parque> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://www.wifimadrid.org/clases#Edificio> .
+
+
+###  http://www.wifimadrid.org/clases#Provincia
+<http://www.wifimadrid.org/clases#Provincia> rdf:type owl:Class .
+
+
+###  http://www.wifimadrid.org/clases#SalaEstudio
+<http://www.wifimadrid.org/clases#SalaEstudio> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.wifimadrid.org/clases#Edificio> .
+
+
+###  http://www.wifimadrid.org/clases#SalaExposiciones
+<http://www.wifimadrid.org/clases#SalaExposiciones> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.wifimadrid.org/clases#Edificio> .
+
+
+###  http://www.wifimadrid.org/clases#ServicioSocial
+<http://www.wifimadrid.org/clases#ServicioSocial> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.wifimadrid.org/clases#Edificio> .
+
+
+###  http://www.wifimadrid.org/clases#Via
+<http://www.wifimadrid.org/clases#Via> rdf:type owl:Class .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://www.wifimadrid.org/clases#AyuntamientoMadrid>
+                <http://www.wifimadrid.org/clases#Biblioteca>
+                <http://www.wifimadrid.org/clases#CentroCultural>
+                <http://www.wifimadrid.org/clases#CentroFormacion>
+                <http://www.wifimadrid.org/clases#CentroMayores>
+                <http://www.wifimadrid.org/clases#CentroSalud>
+                <http://www.wifimadrid.org/clases#Monumento>
+                <http://www.wifimadrid.org/clases#Museo>
+                <http://www.wifimadrid.org/clases#OficinaEmpleo>
+                <http://www.wifimadrid.org/clases#Parque>
+                <http://www.wifimadrid.org/clases#SalaEstudio>
+                <http://www.wifimadrid.org/clases#SalaExposiciones>
+                <http://www.wifimadrid.org/clases#ServicioSocial>
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi

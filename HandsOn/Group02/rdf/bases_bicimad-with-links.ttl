@@ -1,0 +1,1889 @@
+@prefix madbici: <http://www.madridbici.es/group02#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.madridbici.es/group02/resource/001a> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "06 " ;
+	madbici:nombre_barrio "SOL" ;
+	madbici:direccion "PUERTA DEL SOL, PLAZA, DE LA" ;
+	madbici:longitud "-3.7025753"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.417016"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/PUERTA+DEL+SOL%2C+PLAZA%2C+DE+LA> a madbici:direccion ;
+	rdfs:label "PUERTA DEL SOL, PLAZA, DE LA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q427163> .
+
+<http://www.madridbici.es/group02/resource/001b> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "06 " ;
+	madbici:nombre_barrio "SOL" ;
+	madbici:direccion "ALCALA, CALLE, DE" ;
+	madbici:longitud "-3.7024621"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4170785"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/ALCALA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "ALCALA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2424746> .
+
+<http://www.madridbici.es/group02/resource/2> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "UNIVERSIDAD" ;
+	madbici:direccion "MIGUEL MOYA, CALLE, DE" ;
+	madbici:longitud "-3.7056739"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.42058"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/MIGUEL+MOYA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "MIGUEL MOYA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q52145446> .
+
+<http://www.madridbici.es/group02/resource/3> madbici:cod_distrito "07  " ;
+	madbici:nombre_distrito "CHAMBERÍ" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "ARAPILES" ;
+	madbici:direccion "CONDE DEL VALLE DE SUCHIL, PLAZA, DEL" ;
+	madbici:longitud "-3.7072122"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4303224"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/CONDE+DEL+VALLE+DE+SUCHIL%2C+PLAZA%2C+DEL> a madbici:direccion ;
+	rdfs:label "CONDE DEL VALLE DE SUCHIL, PLAZA, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q27244013> .
+
+<http://www.madridbici.es/group02/resource/4> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "UNIVERSIDAD" ;
+	madbici:direccion "MANUELA MALASAÑA, CALLE, DE" ;
+	madbici:longitud "-3.7026739"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4285905"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/MANUELA+MALASA%C3%91A%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "MANUELA MALASAÑA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q27044275> .
+
+<http://www.madridbici.es/group02/resource/5> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "04 " ;
+	madbici:nombre_barrio "JUSTICIA" ;
+	madbici:direccion "FUENCARRAL, CALLE, DE" ;
+	madbici:longitud "-3.7020762"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4283628"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/FUENCARRAL%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "FUENCARRAL, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5740840> .
+
+<http://www.madridbici.es/group02/resource/6> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "04 " ;
+	madbici:nombre_barrio "JUSTICIA" ;
+	madbici:direccion "HORTALEZA, CALLE, DE" ;
+	madbici:longitud "-3.6984093"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4241633"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/HORTALEZA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "HORTALEZA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5740911> .
+
+<http://www.madridbici.es/group02/resource/7> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "04 " ;
+	madbici:nombre_barrio "JUSTICIA" ;
+	madbici:direccion "HORTALEZA, CALLE, DE" ;
+	madbici:longitud "-3.6977399"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4252161"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/8> madbici:cod_distrito "07 " ;
+	madbici:nombre_distrito "CHAMBERÍ" ;
+	madbici:cod_barrio "04 " ;
+	madbici:nombre_barrio "ALMAGRO" ;
+	madbici:direccion "ALONSO MARTINEZ, PLAZA, DE" ;
+	madbici:longitud "-3.6953067"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4277143"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/ALONSO+MARTINEZ%2C+PLAZA%2C+DE> a madbici:direccion ;
+	rdfs:label "ALONSO MARTINEZ, PLAZA, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q6079873> .
+
+<http://www.madridbici.es/group02/resource/9> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "PALACIO" ;
+	madbici:direccion "SAN MIGUEL, PLAZA, DE" ;
+	madbici:longitud "-3.7094093"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4156134"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/SAN+MIGUEL%2C+PLAZA%2C+DE> a madbici:direccion ;
+	rdfs:label "SAN MIGUEL, PLAZA, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q52051752> .
+
+<http://www.madridbici.es/group02/resource/10> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "04 " ;
+	madbici:nombre_barrio "JUSTICIA" ;
+	madbici:direccion "MARQUES DE LA ENSENADA, CALLE, DEL" ;
+	madbici:longitud "-3.6920816"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4254027"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/MARQUES+DE+LA+ENSENADA%2C+CALLE%2C+DEL> a madbici:direccion ;
+	rdfs:label "MARQUES DE LA ENSENADA, CALLE, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q55227717> .
+
+<http://www.madridbici.es/group02/resource/11> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "UNIVERSIDAD" ;
+	madbici:direccion "SAN ANDRES, CALLE, DE" ;
+	madbici:longitud "-3.7036192"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4270517"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/SAN+ANDRES%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "SAN ANDRES, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q27166315> .
+
+<http://www.madridbici.es/group02/resource/12> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "UNIVERSIDAD" ;
+	madbici:direccion "SAN BERNARDO, CALLE, DE" ;
+	madbici:longitud "-3.7062202"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4285271"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/SAN+BERNARDO%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "SAN BERNARDO, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5740864> .
+
+<http://www.madridbici.es/group02/resource/13> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "UNIVERSIDAD" ;
+	madbici:direccion "CONDE DUQUE, CALLE, DEL" ;
+	madbici:longitud "-3.7104727"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4273652"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/CONDE+DUQUE%2C+CALLE%2C+DEL> a madbici:direccion ;
+	rdfs:label "CONDE DUQUE, CALLE, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q27031730> .
+
+<http://www.madridbici.es/group02/resource/14> madbici:cod_distrito "09  " ;
+	madbici:nombre_distrito "MONCLOA-ARAVACA" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "ARGÜELLES" ;
+	madbici:direccion "VENTURA RODRIGUEZ, CALLE, DE" ;
+	madbici:longitud "-3.7134644"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4260035"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/VENTURA+RODRIGUEZ%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "VENTURA RODRIGUEZ, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28016771> .
+
+<http://www.madridbici.es/group02/resource/15> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "UNIVERSIDAD" ;
+	madbici:direccion "SAN VICENTE FERRER, CALLE, DE" ;
+	madbici:longitud "-3.707242"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4261226"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/SAN+VICENTE+FERRER%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "SAN VICENTE FERRER, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q27165938> .
+
+<http://www.madridbici.es/group02/resource/16> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "UNIVERSIDAD" ;
+	madbici:direccion "SAN BERNARDO, CALLE, DE" ;
+	madbici:longitud "-3.7074931"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4229357"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/17> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "UNIVERSIDAD" ;
+	madbici:direccion "CARLOS CAMBRONERO, PLAZA, DE" ;
+	madbici:longitud "-3.7041859"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4231675"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/CARLOS+CAMBRONERO%2C+PLAZA%2C+DE> a madbici:direccion ;
+	rdfs:label "CARLOS CAMBRONERO, PLAZA, DE" .
+
+<http://www.madridbici.es/group02/resource/18> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "04 " ;
+	madbici:nombre_barrio "JUSTICIA" ;
+	madbici:direccion "PEDRO ZEROLO, PLAZA, DE" ;
+	madbici:longitud "-3.6995679"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4209206"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/PEDRO+ZEROLO%2C+PLAZA%2C+DE> a madbici:direccion ;
+	rdfs:label "PEDRO ZEROLO, PLAZA, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q6080146> .
+
+<http://www.madridbici.es/group02/resource/19> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "04 " ;
+	madbici:nombre_barrio "JUSTICIA" ;
+	madbici:direccion "PRIM, CALLE, DE" ;
+	madbici:longitud "-3.6953948"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4219023"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/PRIM%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "PRIM, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28916366> .
+
+<http://www.madridbici.es/group02/resource/20> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "04 " ;
+	madbici:nombre_barrio "JUSTICIA" ;
+	madbici:direccion "ALCALA, CALLE, DE" ;
+	madbici:longitud "-3.6952095"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4191989"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/http%3A%2F%2Fwww.madridbici.es%2Fgroup02%2Fresource%2F020+ampliacion> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "04 " ;
+	madbici:nombre_barrio "JUSTICIA" ;
+	madbici:direccion "ALCALA, CALLE, DE" ;
+	madbici:longitud "-3.6952901"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4191858"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/021a> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "06 " ;
+	madbici:nombre_barrio "SOL" ;
+	madbici:direccion "RED DE SAN LUIS, PLAZA, DE LA" ;
+	madbici:longitud "-3.7015608"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4197804"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/RED+DE+SAN+LUIS%2C+PLAZA%2C+DE+LA> a madbici:direccion ;
+	rdfs:label "RED DE SAN LUIS, PLAZA, DE LA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q6103179> .
+
+<http://www.madridbici.es/group02/resource/021b> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "06 " ;
+	madbici:nombre_barrio "SOL" ;
+	madbici:direccion "RED DE SAN LUIS, PLAZA, DE LA" ;
+	madbici:longitud "-3.7014962"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4198857"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/22> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "06 " ;
+	madbici:nombre_barrio "SOL" ;
+	madbici:direccion "JACOMETREZO, CALLE, DE" ;
+	madbici:longitud "-3.7064995"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4201452"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/JACOMETREZO%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "JACOMETREZO, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5651414> .
+
+<http://www.madridbici.es/group02/resource/23> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "PALACIO" ;
+	madbici:direccion "SANTO DOMINGO, CUESTA, DE" ;
+	madbici:longitud "-3.7082901"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4202137"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/SANTO+DOMINGO%2C+CUESTA%2C+DE> a madbici:direccion ;
+	rdfs:label "SANTO DOMINGO, CUESTA, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5794008> .
+
+<http://www.madridbici.es/group02/resource/24> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "PALACIO" ;
+	madbici:direccion "CARLOS III, CALLE, DE" ;
+	madbici:longitud "-3.7105866"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.417906"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/CARLOS+III%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "CARLOS III, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q29004341> .
+
+<http://www.madridbici.es/group02/resource/025a> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "06 " ;
+	madbici:nombre_barrio "SOL" ;
+	madbici:direccion "CELENQUE, PLAZA, DEL" ;
+	madbici:longitud "-3.7059978"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4173416"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/CELENQUE%2C+PLAZA%2C+DEL> a madbici:direccion ;
+	rdfs:label "CELENQUE, PLAZA, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q6079939> .
+
+<http://www.madridbici.es/group02/resource/025b> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "06 " ;
+	madbici:nombre_barrio "SOL" ;
+	madbici:direccion "CELENQUE, PLAZA, DEL" ;
+	madbici:longitud "-3.7060243"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4172593"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/26> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "04 " ;
+	madbici:nombre_barrio "JUSTICIA" ;
+	madbici:direccion "SALESAS, PLAZA, DE LAS" ;
+	madbici:longitud "-3.6945535"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4238321"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/SALESAS%2C+PLAZA%2C+DE+LAS> a madbici:direccion ;
+	rdfs:label "SALESAS, PLAZA, DE LAS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28916480> .
+
+<http://www.madridbici.es/group02/resource/27> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "03 " ;
+	madbici:nombre_barrio "CORTES" ;
+	madbici:direccion "JESUS, CALLE, DE" ;
+	madbici:longitud "-3.6955929"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4132828"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/JESUS%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "JESUS, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q27051182> .
+
+<http://www.madridbici.es/group02/resource/28> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "03 " ;
+	madbici:nombre_barrio "CORTES" ;
+	madbici:direccion "ALCALA, CALLE, DE" ;
+	madbici:longitud "-3.6988356"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4181752"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/29> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "03 " ;
+	madbici:nombre_barrio "CORTES" ;
+	madbici:direccion "MARQUES DE CUBAS, CALLE, DEL" ;
+	madbici:longitud "-3.6958008"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.416244"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/MARQUES+DE+CUBAS%2C+CALLE%2C+DEL> a madbici:direccion ;
+	rdfs:label "MARQUES DE CUBAS, CALLE, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q19304646> .
+
+<http://www.madridbici.es/group02/resource/30> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "PALACIO" ;
+	madbici:direccion "PAVIA, CALLE, DE" ;
+	madbici:longitud "-3.7115428"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4193355"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/PAVIA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "PAVIA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q30816733> .
+
+<http://www.madridbici.es/group02/resource/31> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "06 " ;
+	madbici:nombre_barrio "SOL" ;
+	madbici:direccion "MAYOR, CALLE" ;
+	madbici:longitud "-3.706625"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4163446"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/MAYOR%2C+CALLE> a madbici:direccion ;
+	rdfs:label "MAYOR, CALLE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1149052> .
+
+<http://www.madridbici.es/group02/resource/32> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "06 " ;
+	madbici:nombre_barrio "SOL" ;
+	madbici:direccion "PROVINCIA, PLAZA, DE LA" ;
+	madbici:longitud "-3.7061355"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4148511"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/PROVINCIA%2C+PLAZA%2C+DE+LA> a madbici:direccion ;
+	rdfs:label "PROVINCIA, PLAZA, DE LA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q12344133> .
+
+<http://www.madridbici.es/group02/resource/33> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "06 " ;
+	madbici:nombre_barrio "SOL" ;
+	madbici:direccion "CARRETAS, CALLE, DE LAS" ;
+	madbici:longitud "-3.7032626"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.415496"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/CARRETAS%2C+CALLE%2C+DE+LAS> a madbici:direccion ;
+	rdfs:label "CARRETAS, CALLE, DE LAS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5740952> .
+
+<http://www.madridbici.es/group02/resource/34> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "03 " ;
+	madbici:nombre_barrio "CORTES" ;
+	madbici:direccion "JACINTO BENAVENTE, PLAZA, DE" ;
+	madbici:longitud "-3.7035044"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4144117"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/JACINTO+BENAVENTE%2C+PLAZA%2C+DE> a madbici:direccion ;
+	rdfs:label "JACINTO BENAVENTE, PLAZA, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q6080004> .
+
+<http://www.madridbici.es/group02/resource/35> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "PALACIO" ;
+	madbici:direccion "CORDON, CALLE, DEL" ;
+	madbici:longitud "-3.7103676"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4141792"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/CORDON%2C+CALLE%2C+DEL> a madbici:direccion ;
+	rdfs:label "CORDON, CALLE, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q32454791> .
+
+<http://www.madridbici.es/group02/resource/36> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "PALACIO" ;
+	madbici:direccion "RAMALES, PLAZA, DE" ;
+	madbici:longitud "-3.7116215"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.416885"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/RAMALES%2C+PLAZA%2C+DE> a madbici:direccion ;
+	rdfs:label "RAMALES, PLAZA, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2839150> .
+
+<http://www.madridbici.es/group02/resource/37> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "PALACIO" ;
+	madbici:direccion "VISTILLAS, TRAVESIA, DE LAS" ;
+	madbici:longitud "-3.7141234"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4108606"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/VISTILLAS%2C+TRAVESIA%2C+DE+LAS> a madbici:direccion ;
+	rdfs:label "VISTILLAS, TRAVESIA, DE LAS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q27644226> .
+
+<http://www.madridbici.es/group02/resource/38> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "PALACIO" ;
+	madbici:direccion "SAN FRANCISCO, CARRERA, DE" ;
+	madbici:longitud "-3.7114443"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4112961"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/SAN+FRANCISCO%2C+CARRERA%2C+DE> a madbici:direccion ;
+	rdfs:label "SAN FRANCISCO, CARRERA, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q24526469> .
+
+<http://www.madridbici.es/group02/resource/39> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "PALACIO" ;
+	madbici:direccion "CEBADA, PLAZA, DE LA" ;
+	madbici:longitud "-3.7090043"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4112662"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/CEBADA%2C+PLAZA%2C+DE+LA> a madbici:direccion ;
+	rdfs:label "CEBADA, PLAZA, DE LA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q9060972> .
+
+<http://www.madridbici.es/group02/resource/40> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "EMBAJADORES" ;
+	madbici:direccion "CONDE DE ROMANONES, CALLE, DEL" ;
+	madbici:longitud "-3.7047463"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4137865"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/CONDE+DE+ROMANONES%2C+CALLE%2C+DEL> a madbici:direccion ;
+	rdfs:label "CONDE DE ROMANONES, CALLE, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28026494> .
+
+<http://www.madridbici.es/group02/resource/41> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "EMBAJADORES" ;
+	madbici:direccion "ATOCHA, CALLE, DE" ;
+	madbici:longitud "-3.6990517"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4122423"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/ATOCHA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "ATOCHA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5492657> .
+
+<http://www.madridbici.es/group02/resource/42> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "EMBAJADORES" ;
+	madbici:direccion "SANTA ISABEL, CALLE, DE" ;
+	madbici:longitud "-3.6982068"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.410744"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/SANTA+ISABEL%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "SANTA ISABEL, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2882669> .
+
+<http://www.madridbici.es/group02/resource/43> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "EMBAJADORES" ;
+	madbici:direccion "LAVAPIES, CALLE, DE" ;
+	madbici:longitud "-3.7025446"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4100889"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/LAVAPIES%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "LAVAPIES, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q19969082> .
+
+<http://www.madridbici.es/group02/resource/44> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "EMBAJADORES" ;
+	madbici:direccion "MESON DE PAREDES, CALLE, DEL" ;
+	madbici:longitud "-3.7039138"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4098162"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/MESON+DE+PAREDES%2C+CALLE%2C+DEL> a madbici:direccion ;
+	rdfs:label "MESON DE PAREDES, CALLE, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5686332> .
+
+<http://www.madridbici.es/group02/resource/45> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "EMBAJADORES" ;
+	madbici:direccion "PUERTA DE TOLEDO, GLORIETA, DE LA" ;
+	madbici:longitud "-3.7111363"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4069547"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/PUERTA+DE+TOLEDO%2C+GLORIETA%2C+DE+LA> a madbici:direccion ;
+	rdfs:label "PUERTA DE TOLEDO, GLORIETA, DE LA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2056515> .
+
+<http://www.madridbici.es/group02/resource/46> madbici:cod_distrito "02  " ;
+	madbici:nombre_distrito "ARGANZUELA" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "ACACIAS" ;
+	madbici:direccion "RIBERA DE CURTIDORES, CALLE, DE LA" ;
+	madbici:longitud "-3.7071322"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4055087"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/RIBERA+DE+CURTIDORES%2C+CALLE%2C+DE+LA> a madbici:direccion ;
+	rdfs:label "RIBERA DE CURTIDORES, CALLE, DE LA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5740938> .
+
+<http://www.madridbici.es/group02/resource/47> madbici:cod_distrito "02  " ;
+	madbici:nombre_distrito "ARGANZUELA" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "ACACIAS" ;
+	madbici:direccion "EMBAJADORES, GLORIETA, DE" ;
+	madbici:longitud "-3.702755"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4046233"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/EMBAJADORES%2C+GLORIETA%2C+DE> a madbici:direccion ;
+	rdfs:label "EMBAJADORES, GLORIETA, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q16571874> .
+
+<http://www.madridbici.es/group02/resource/48> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "EMBAJADORES" ;
+	madbici:direccion "MIGUEL SERVET, CALLE, DE" ;
+	madbici:longitud "-3.7020997"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4054473"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/MIGUEL+SERVET%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "MIGUEL SERVET, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q52158635> .
+
+<http://www.madridbici.es/group02/resource/49> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "EMBAJADORES" ;
+	madbici:direccion "ATOCHA, RONDA, DE" ;
+	madbici:longitud "-3.6992427"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4060497"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/ATOCHA%2C+RONDA%2C+DE> a madbici:direccion ;
+	rdfs:label "ATOCHA, RONDA, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q26831149> .
+
+<http://www.madridbici.es/group02/resource/50> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "EMBAJADORES" ;
+	madbici:direccion "SANTA ISABEL, CALLE, DE" ;
+	madbici:longitud "-3.69322"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4083102"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/51> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "EMBAJADORES" ;
+	madbici:direccion "EMPERADOR CARLOS V, PLAZA, DEL" ;
+	madbici:longitud "-3.6935934"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4077234"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/EMPERADOR+CARLOS+V%2C+PLAZA%2C+DEL> a madbici:direccion ;
+	rdfs:label "EMPERADOR CARLOS V, PLAZA, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q7203711> .
+
+<http://www.madridbici.es/group02/resource/52> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "03 " ;
+	madbici:nombre_barrio "CORTES" ;
+	madbici:direccion "SANTA ANA, PLAZA, DE" ;
+	madbici:longitud "-3.7007838"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4145181"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/SANTA+ANA%2C+PLAZA%2C+DE> a madbici:direccion ;
+	rdfs:label "SANTA ANA, PLAZA, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q740210> .
+
+<http://www.madridbici.es/group02/resource/53> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "EMBAJADORES" ;
+	madbici:direccion "VALENCIA, CALLE, DE" ;
+	madbici:longitud "-3.7007295"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4082802"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/VALENCIA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "VALENCIA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q26810468> .
+
+<http://www.madridbici.es/group02/resource/54> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "04 " ;
+	madbici:nombre_barrio "JUSTICIA" ;
+	madbici:direccion "BARCELO, CALLE, DE" ;
+	madbici:longitud "-3.7003435"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4266233"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/BARCELO%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "BARCELO, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q27051120> .
+
+<http://www.madridbici.es/group02/resource/55> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "UNIVERSIDAD" ;
+	madbici:direccion "SAN ILDEFONSO, PLAZA, DE" ;
+	madbici:longitud "-3.7019295"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4240716"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/SAN+ILDEFONSO%2C+PLAZA%2C+DE> a madbici:direccion ;
+	rdfs:label "SAN ILDEFONSO, PLAZA, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q6080070> .
+
+<http://www.madridbici.es/group02/resource/56> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "06 " ;
+	madbici:nombre_barrio "SOL" ;
+	madbici:direccion "CARMEN, PLAZA, DEL" ;
+	madbici:longitud "-3.7032875"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.418484"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/CARMEN%2C+PLAZA%2C+DEL> a madbici:direccion ;
+	rdfs:label "CARMEN, PLAZA, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q6080406> .
+
+<http://www.madridbici.es/group02/resource/57> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "UNIVERSIDAD" ;
+	madbici:direccion "SANTA CRUZ DE MARCENADO, CALLE, DE" ;
+	madbici:longitud "-3.7128181"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4296363"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/SANTA+CRUZ+DE+MARCENADO%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "SANTA CRUZ DE MARCENADO, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q54801433> .
+
+<http://www.madridbici.es/group02/resource/58> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "04 " ;
+	madbici:nombre_barrio "JUSTICIA" ;
+	madbici:direccion "AUGUSTO FIGUEROA, CALLE, DE" ;
+	madbici:longitud "-3.6979411"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4222585"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/AUGUSTO+FIGUEROA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "AUGUSTO FIGUEROA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q29564346> .
+
+<http://www.madridbici.es/group02/resource/59> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "UNIVERSIDAD" ;
+	madbici:direccion "ESPIRITU SANTO, CALLE, DEL" ;
+	madbici:longitud "-3.7041167"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4254802"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/ESPIRITU+SANTO%2C+CALLE%2C+DEL> a madbici:direccion ;
+	rdfs:label "ESPIRITU SANTO, CALLE, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5740833> .
+
+<http://www.madridbici.es/group02/resource/60> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "JERÓNIMOS" ;
+	madbici:direccion "ALFONSO XII, CALLE, DE" ;
+	madbici:longitud "-3.6881994"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4194508"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/ALFONSO+XII%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "ALFONSO XII, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5659170> .
+
+<http://www.madridbici.es/group02/resource/61> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "04 " ;
+	madbici:nombre_barrio "IBIZA" ;
+	madbici:direccion "O'DONNELL, CALLE, DE" ;
+	madbici:longitud "-3.675206"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4214379"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/O%27DONNELL%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "O'DONNELL, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5740859> .
+
+<http://www.madridbici.es/group02/resource/62> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "04 " ;
+	madbici:nombre_barrio "IBIZA" ;
+	madbici:direccion "O'DONNELL, CALLE, DE" ;
+	madbici:longitud "-3.6706664"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4212152"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/63> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "04 " ;
+	madbici:nombre_barrio "IBIZA" ;
+	madbici:direccion "IBIZA, CALLE, DE" ;
+	madbici:longitud "-3.6706803"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4178874"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/IBIZA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "IBIZA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2464739> .
+
+<http://www.madridbici.es/group02/resource/65> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "JERÓNIMOS" ;
+	madbici:direccion "ANTONIO MAURA, CALLE, DE" ;
+	madbici:longitud "-3.6893825"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4166952"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/ANTONIO+MAURA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "ANTONIO MAURA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q29566726> .
+
+<http://www.madridbici.es/group02/resource/67> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "03 " ;
+	madbici:nombre_barrio "CORTES" ;
+	madbici:direccion "ALMADEN, CALLE, DE" ;
+	madbici:longitud "-3.6931349"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.410829"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/ALMADEN%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "ALMADEN, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5492657> .
+
+<http://www.madridbici.es/group02/resource/68> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "JERÓNIMOS" ;
+	madbici:direccion "ESPALTER, CALLE, DE" ;
+	madbici:longitud "-3.6911649"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.412781"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/ESPALTER%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "ESPALTER, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q29566684> .
+
+<http://www.madridbici.es/group02/resource/69> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "JERÓNIMOS" ;
+	madbici:direccion "ALFONSO XII, CALLE, DE" ;
+	madbici:longitud "-3.6888669"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4100609"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/70> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "JERÓNIMOS" ;
+	madbici:direccion "MENENDEZ PELAYO, AVENIDA, DE" ;
+	madbici:longitud "-3.6777776"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4151635"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/MENENDEZ+PELAYO%2C+AVENIDA%2C+DE> a madbici:direccion ;
+	rdfs:label "MENENDEZ PELAYO, AVENIDA, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28936960> .
+
+<http://www.madridbici.es/group02/resource/71> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "06 " ;
+	madbici:nombre_barrio "NIÑO JESÚS" ;
+	madbici:direccion "DOCE DE OCTUBRE, CALLE, DEL" ;
+	madbici:longitud "-3.674021"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4160054"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/DOCE+DE+OCTUBRE%2C+CALLE%2C+DEL> a madbici:direccion ;
+	rdfs:label "DOCE DE OCTUBRE, CALLE, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28936666> .
+
+<http://www.madridbici.es/group02/resource/72> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "03 " ;
+	madbici:nombre_barrio "ESTRELLA" ;
+	madbici:direccion "DOCTOR ESQUERDO, CALLE, DEL" ;
+	madbici:longitud "-3.6692614"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4159135"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/DOCTOR+ESQUERDO%2C+CALLE%2C+DEL> a madbici:direccion ;
+	rdfs:label "DOCTOR ESQUERDO, CALLE, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5741005> .
+
+<http://www.madridbici.es/group02/resource/73> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "03 " ;
+	madbici:nombre_barrio "ESTRELLA" ;
+	madbici:direccion "ASTROS, PLAZA, DE LOS" ;
+	madbici:longitud "-3.669099"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.411463"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/ASTROS%2C+PLAZA%2C+DE+LOS> a madbici:direccion ;
+	rdfs:label "ASTROS, PLAZA, DE LOS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5741005> .
+
+<http://www.madridbici.es/group02/resource/74> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "JERÓNIMOS" ;
+	madbici:direccion "MENENDEZ PELAYO, AVENIDA, DE" ;
+	madbici:longitud "-3.6765768"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4117601"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/75> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "JERÓNIMOS" ;
+	madbici:direccion "MENENDEZ PELAYO, AVENIDA, DE" ;
+	madbici:longitud "-3.6784149"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4083387"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/76> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "06 " ;
+	madbici:nombre_barrio "NIÑO JESÚS" ;
+	madbici:direccion "JUAN DE URBIETA, CALLE, DE" ;
+	madbici:longitud "-3.6751544"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4072851"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/JUAN+DE+URBIETA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "JUAN DE URBIETA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q29051496> .
+
+<http://www.madridbici.es/group02/resource/77> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "PACÍFICO" ;
+	madbici:direccion "CONDE DE CASAL, PLAZA, DEL" ;
+	madbici:longitud "-3.6707742"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4063347"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/CONDE+DE+CASAL%2C+PLAZA%2C+DEL> a madbici:direccion ;
+	rdfs:label "CONDE DE CASAL, PLAZA, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q30342082> .
+
+<http://www.madridbici.es/group02/resource/78> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "ADELFAS" ;
+	madbici:direccion "CERRO DE LA PLATA, CALLE, DEL" ;
+	madbici:longitud "-3.6745783"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4005704"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/CERRO+DE+LA+PLATA%2C+CALLE%2C+DEL> a madbici:direccion ;
+	rdfs:label "CERRO DE LA PLATA, CALLE, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5741005> .
+
+<http://www.madridbici.es/group02/resource/79> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "PACÍFICO" ;
+	madbici:direccion "MENENDEZ PELAYO, AVENIDA, DE" ;
+	madbici:longitud "-3.6805524"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4050482"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/080a> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "JERÓNIMOS" ;
+	madbici:direccion "CIUDAD DE BARCELONA, AVENIDA, DE LA" ;
+	madbici:longitud "-3.6904197"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4074558"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/CIUDAD+DE+BARCELONA%2C+AVENIDA%2C+DE+LA> a madbici:direccion ;
+	rdfs:label "CIUDAD DE BARCELONA, AVENIDA, DE LA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5714227> .
+
+<http://www.madridbici.es/group02/resource/080b> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "JERÓNIMOS" ;
+	madbici:direccion "CIUDAD DE BARCELONA, AVENIDA, DE LA" ;
+	madbici:longitud "-3.6906904"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4076554"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/81> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "JERÓNIMOS" ;
+	madbici:direccion "PRADO, PASEO, DEL" ;
+	madbici:longitud "-3.6919663"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4095758"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/PRADO%2C+PASEO%2C+DEL> a madbici:direccion ;
+	rdfs:label "PRADO, PASEO, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2079615> .
+
+<http://www.madridbici.es/group02/resource/82> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "03 " ;
+	madbici:nombre_barrio "ESTRELLA" ;
+	madbici:direccion "LIRA, CALLE, DE LA" ;
+	madbici:longitud "-3.669683"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4084793"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/LIRA%2C+CALLE%2C+DE+LA> a madbici:direccion ;
+	rdfs:label "LIRA, CALLE, DE LA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q56167668> .
+
+<http://www.madridbici.es/group02/resource/83> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "06 " ;
+	madbici:nombre_barrio "NIÑO JESÚS" ;
+	madbici:direccion "PIO BAROJA, CALLE, DE" ;
+	madbici:longitud "-3.6745339"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4132589"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/PIO+BAROJA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "PIO BAROJA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28936960> .
+
+<http://www.madridbici.es/group02/resource/84> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "ADELFAS" ;
+	madbici:direccion "DOCTOR ESQUERDO, CALLE, DEL" ;
+	madbici:longitud "-3.6726923"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4033695"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/85> madbici:cod_distrito "03  " ;
+	madbici:nombre_distrito "RETIRO" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "JERÓNIMOS" ;
+	madbici:direccion "MENENDEZ PELAYO, AVENIDA, DE" ;
+	madbici:longitud "-3.6799299"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4211415"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/86> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "03 " ;
+	madbici:nombre_barrio "CORTES" ;
+	madbici:direccion "PRADO, PASEO, DEL" ;
+	madbici:longitud "-3.6933298"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4185779"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/87> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "RECOLETOS" ;
+	madbici:direccion "AYALA, CALLE, DE" ;
+	madbici:longitud "-3.6835631"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4276717"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/AYALA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "AYALA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28052812> .
+
+<http://www.madridbici.es/group02/resource/88> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "06 " ;
+	madbici:nombre_barrio "CASTELLANA" ;
+	madbici:direccion "VELAZQUEZ, CALLE, DE" ;
+	madbici:longitud "-3.6837471"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4312077"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/VELAZQUEZ%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "VELAZQUEZ, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q20031523> .
+
+<http://www.madridbici.es/group02/resource/89> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "GOYA" ;
+	madbici:direccion "AYALA, CALLE, DE" ;
+	madbici:longitud "-3.6751716"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4272628"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/90> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "RECOLETOS" ;
+	madbici:direccion "GOYA, CALLE, DE" ;
+	madbici:longitud "-3.6837297"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4250878"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/GOYA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "GOYA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28015873> .
+
+<http://www.madridbici.es/group02/resource/91> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "GOYA" ;
+	madbici:direccion "HERMOSILLA, CALLE, DE" ;
+	madbici:longitud "-3.6788203"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4261113"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/HERMOSILLA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "HERMOSILLA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28052826> .
+
+<http://www.madridbici.es/group02/resource/92> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "RECOLETOS" ;
+	madbici:direccion "CLAUDIO COELLO, CALLE, DE" ;
+	madbici:longitud "-3.6864821"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4262237"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/CLAUDIO+COELLO%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "CLAUDIO COELLO, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28059043> .
+
+<http://www.madridbici.es/group02/resource/93> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "RECOLETOS" ;
+	madbici:direccion "GOYA, CALLE, DE" ;
+	madbici:longitud "-3.6894124"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4256984"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/94> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "RECOLETOS" ;
+	madbici:direccion "RECOLETOS, PASEO, DE" ;
+	madbici:longitud "-3.6907044"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4233686"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/RECOLETOS%2C+PASEO%2C+DE> a madbici:direccion ;
+	rdfs:label "RECOLETOS, PASEO, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2550870> .
+
+<http://www.madridbici.es/group02/resource/95> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "RECOLETOS" ;
+	madbici:direccion "CLAUDIO COELLO, CALLE, DE" ;
+	madbici:longitud "-3.6869914"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4226634"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/96> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "RECOLETOS" ;
+	madbici:direccion "ALCALA, CALLE, DE" ;
+	madbici:longitud "-3.6820471"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4220516"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/97> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "GOYA" ;
+	madbici:direccion "MENENDEZ PELAYO, AVENIDA, DE" ;
+	madbici:longitud "-3.6801515"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4224846"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/98> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "GOYA" ;
+	madbici:direccion "FELIPE II, AVENIDA, DE" ;
+	madbici:longitud "-3.6754079"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4241911"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/FELIPE+II%2C+AVENIDA%2C+DE> a madbici:direccion ;
+	rdfs:label "FELIPE II, AVENIDA, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28936837> .
+
+<http://www.madridbici.es/group02/resource/99> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "GOYA" ;
+	madbici:direccion "ALCANTARA, CALLE, DE" ;
+	madbici:longitud "-3.6739638"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4261048"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/ALCANTARA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "ALCANTARA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28070781> .
+
+<http://www.madridbici.es/group02/resource/100> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "GOYA" ;
+	madbici:direccion "GOYA, CALLE, DE" ;
+	madbici:longitud "-3.6738777"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4247843"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/101> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "GOYA" ;
+	madbici:direccion "JORGE JUAN, CALLE, DE" ;
+	madbici:longitud "-3.6694246"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4231223"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/JORGE+JUAN%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "JORGE JUAN, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28070822> .
+
+<http://www.madridbici.es/group02/resource/102> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "RECOLETOS" ;
+	madbici:direccion "ALCALA, CALLE, DE" ;
+	madbici:longitud "-3.6840806"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4211552"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/103> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "06 " ;
+	madbici:nombre_barrio "CASTELLANA" ;
+	madbici:direccion "JOSE ORTEGA Y GASSET, CALLE, DE" ;
+	madbici:longitud "-3.6865351"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4303733"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/JOSE+ORTEGA+Y+GASSET%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "JOSE ORTEGA Y GASSET, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q16540548> .
+
+<http://www.madridbici.es/group02/resource/104> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "RECOLETOS" ;
+	madbici:direccion "CASTELLANA, PASEO, DE LA" ;
+	madbici:longitud "-3.6895792"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4267658"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/CASTELLANA%2C+PASEO%2C+DE+LA> a madbici:direccion ;
+	rdfs:label "CASTELLANA, PASEO, DE LA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1473674> .
+
+<http://www.madridbici.es/group02/resource/105> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "RECOLETOS" ;
+	madbici:direccion "SERRANO, CALLE, DE" ;
+	madbici:longitud "-3.6874745"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4270684"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/SERRANO%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "SERRANO, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5740879> .
+
+<http://www.madridbici.es/group02/resource/106> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "RECOLETOS" ;
+	madbici:direccion "SERRANO, CALLE, DE" ;
+	madbici:longitud "-3.687876"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4249335"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/107> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "RECOLETOS" ;
+	madbici:direccion "SERRANO, CALLE, DE" ;
+	madbici:longitud "-3.6884243"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4215952"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/108> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "GOYA" ;
+	madbici:direccion "MARTIRES CONCEPCIONISTAS, CALLE, DE LOS" ;
+	madbici:longitud "-3.670653"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4274425"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/MARTIRES+CONCEPCIONISTAS%2C+CALLE%2C+DE+LOS> a madbici:direccion ;
+	rdfs:label "MARTIRES CONCEPCIONISTAS, CALLE, DE LOS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2424746> .
+
+<http://www.madridbici.es/group02/resource/109> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "06 " ;
+	madbici:nombre_barrio "CASTELLANA" ;
+	madbici:direccion "JOSE ORTEGA Y GASSET, CALLE, DE" ;
+	madbici:longitud "-3.6815253"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4301281"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/110> madbici:cod_distrito "09  " ;
+	madbici:nombre_distrito "MONCLOA-ARAVACA" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "CASA DE CAMPO" ;
+	madbici:direccion "MORET, PASEO, DE" ;
+	madbici:longitud "-3.7201316"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4347654"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/MORET%2C+PASEO%2C+DE> a madbici:direccion ;
+	rdfs:label "MORET, PASEO, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q26821443> .
+
+<http://www.madridbici.es/group02/resource/111a> madbici:cod_distrito "07  " ;
+	madbici:nombre_distrito "CHAMBERÍ" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "GAZTAMBIDE" ;
+	madbici:direccion "ARCIPRESTE DE HITA, CALLE, DEL" ;
+	madbici:longitud "-3.7174896"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4335742"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/ARCIPRESTE+DE+HITA%2C+CALLE%2C+DEL> a madbici:direccion ;
+	rdfs:label "ARCIPRESTE DE HITA, CALLE, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q27243768> .
+
+<http://www.madridbici.es/group02/resource/111b> madbici:cod_distrito "07  " ;
+	madbici:nombre_distrito "CHAMBERÍ" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "GAZTAMBIDE" ;
+	madbici:direccion "ARCIPRESTE DE HITA, CALLE, DEL" ;
+	madbici:longitud "-3.7177783"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.433982"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/112> madbici:cod_distrito "09  " ;
+	madbici:nombre_distrito "MONCLOA-ARAVACA" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "ARGÜELLES" ;
+	madbici:direccion "MORET, PASEO, DE" ;
+	madbici:longitud "-3.7248727"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4326267"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/113> madbici:cod_distrito "09  " ;
+	madbici:nombre_distrito "MONCLOA-ARAVACA" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "CASA DE CAMPO" ;
+	madbici:direccion "PINTOR ROSALES, PASEO, DEL" ;
+	madbici:longitud "-3.7207145"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4277472"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/PINTOR+ROSALES%2C+PASEO%2C+DEL> a madbici:direccion ;
+	rdfs:label "PINTOR ROSALES, PASEO, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q6065691> .
+
+<http://www.madridbici.es/group02/resource/114> madbici:cod_distrito "09  " ;
+	madbici:nombre_distrito "MONCLOA-ARAVACA" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "ARGÜELLES" ;
+	madbici:direccion "QUINTANA, CALLE, DE" ;
+	madbici:longitud "-3.7174108"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4278199"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/QUINTANA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "QUINTANA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28016208> .
+
+<http://www.madridbici.es/group02/resource/115> madbici:cod_distrito "09  " ;
+	madbici:nombre_distrito "MONCLOA-ARAVACA" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "ARGÜELLES" ;
+	madbici:direccion "MARQUES DE CERRALBO, PLAZA, DEL" ;
+	madbici:longitud "-3.7169626"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4253802"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/MARQUES+DE+CERRALBO%2C+PLAZA%2C+DEL> a madbici:direccion ;
+	rdfs:label "MARQUES DE CERRALBO, PLAZA, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28016717> .
+
+<http://www.madridbici.es/group02/resource/116a> madbici:cod_distrito "09  " ;
+	madbici:nombre_distrito "MONCLOA-ARAVACA" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "ARGÜELLES" ;
+	madbici:direccion "ESPAÑA, PLAZA, DE" ;
+	madbici:longitud "-3.7118199"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4241079"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/ESPA%C3%91A%2C+PLAZA%2C+DE> a madbici:direccion ;
+	rdfs:label "ESPAÑA, PLAZA, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1326261> .
+
+<http://www.madridbici.es/group02/resource/116b> madbici:cod_distrito "09  " ;
+	madbici:nombre_distrito "MONCLOA-ARAVACA" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "ARGÜELLES" ;
+	madbici:direccion "ESPAÑA, PLAZA, DE" ;
+	madbici:longitud "-3.7118905"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4241996"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/117> madbici:cod_distrito "09  " ;
+	madbici:nombre_distrito "MONCLOA-ARAVACA" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "ARGÜELLES" ;
+	madbici:direccion "ALTAMIRANO, CALLE, DE" ;
+	madbici:longitud "-3.7189152"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4309046"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/ALTAMIRANO%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "ALTAMIRANO, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28015954> .
+
+<http://www.madridbici.es/group02/resource/118> madbici:cod_distrito "02  " ;
+	madbici:nombre_distrito "ARGANZUELA" ;
+	madbici:cod_barrio "06 " ;
+	madbici:nombre_barrio "PALOS DE MOGUER" ;
+	madbici:direccion "JUAN MARTIN EL EMPECINADO, CALLE, DE" ;
+	madbici:longitud "-3.6881393"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4007979"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/JUAN+MARTIN+EL+EMPECINADO%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "JUAN MARTIN EL EMPECINADO, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q27430098> .
+
+<http://www.madridbici.es/group02/resource/119> madbici:cod_distrito "02  " ;
+	madbici:nombre_distrito "ARGANZUELA" ;
+	madbici:cod_barrio "07 " ;
+	madbici:nombre_barrio "07 ATOCHA" ;
+	madbici:direccion "MENDEZ ALVARO, CALLE, DE" ;
+	madbici:longitud "-3.6865777"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4014567"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/MENDEZ+ALVARO%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "MENDEZ ALVARO, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5553104> .
+
+<http://www.madridbici.es/group02/resource/120> madbici:cod_distrito "02  " ;
+	madbici:nombre_distrito "ARGANZUELA" ;
+	madbici:cod_barrio "06 " ;
+	madbici:nombre_barrio "PALOS DE MOGUER" ;
+	madbici:direccion "PALOS DE LA FRONTERA, CALLE, DE" ;
+	madbici:longitud "-3.6946097"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4030247"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/PALOS+DE+LA+FRONTERA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "PALOS DE LA FRONTERA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2481204> .
+
+<http://www.madridbici.es/group02/resource/121> madbici:cod_distrito "02  " ;
+	madbici:nombre_distrito "ARGANZUELA" ;
+	madbici:cod_barrio "06 " ;
+	madbici:nombre_barrio "PALOS DE MOGUER" ;
+	madbici:direccion "SANTA MARIA DE LA CABEZA, PASEO, DE" ;
+	madbici:longitud "-3.6986046"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4018356"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/SANTA+MARIA+DE+LA+CABEZA%2C+PASEO%2C+DE> a madbici:direccion ;
+	rdfs:label "SANTA MARIA DE LA CABEZA, PASEO, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q6065630> .
+
+<http://www.madridbici.es/group02/resource/122> madbici:cod_distrito "07  " ;
+	madbici:nombre_distrito "CHAMBERÍ" ;
+	madbici:cod_barrio "04 " ;
+	madbici:nombre_barrio "ALMAGRO" ;
+	madbici:direccion "SANTA ENGRACIA, CALLE, DE" ;
+	madbici:longitud "-3.6962626"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.429524"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/SANTA+ENGRACIA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "SANTA ENGRACIA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q26728109> .
+
+<http://www.madridbici.es/group02/resource/123> madbici:cod_distrito "07  " ;
+	madbici:nombre_distrito "CHAMBERÍ" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "GAZTAMBIDE" ;
+	madbici:direccion "GUZMAN EL BUENO, CALLE, DE" ;
+	madbici:longitud "-3.7134685"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4306386"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/GUZMAN+EL+BUENO%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "GUZMAN EL BUENO, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q27031398> .
+
+<http://www.madridbici.es/group02/resource/124> madbici:cod_distrito "07  " ;
+	madbici:nombre_distrito "CHAMBERÍ" ;
+	madbici:cod_barrio "03 " ;
+	madbici:nombre_barrio "TRAFALGAR" ;
+	madbici:direccion "MANUEL SILVELA, CALLE, DE" ;
+	madbici:longitud "-3.6993182"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4308173"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/MANUEL+SILVELA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "MANUEL SILVELA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28032364> .
+
+<http://www.madridbici.es/group02/resource/125> madbici:cod_distrito "07  " ;
+	madbici:nombre_distrito "CHAMBERÍ" ;
+	madbici:cod_barrio "04 " ;
+	madbici:nombre_barrio "ALMAGRO" ;
+	madbici:direccion "FERNANDEZ DE LA HOZ, CALLE, DE" ;
+	madbici:longitud "-3.6948375"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4353145"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/FERNANDEZ+DE+LA+HOZ%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "FERNANDEZ DE LA HOZ, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q27314868> .
+
+<http://www.madridbici.es/group02/resource/126> madbici:cod_distrito "07  " ;
+	madbici:nombre_distrito "CHAMBERÍ" ;
+	madbici:cod_barrio "03 " ;
+	madbici:nombre_barrio "TRAFALGAR" ;
+	madbici:direccion "GENERAL ALVAREZ DE CASTRO, CALLE, DEL" ;
+	madbici:longitud "-3.7017424"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4345672"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/GENERAL+ALVAREZ+DE+CASTRO%2C+CALLE%2C+DEL> a madbici:direccion ;
+	rdfs:label "GENERAL ALVAREZ DE CASTRO, CALLE, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28024232> .
+
+<http://www.madridbici.es/group02/resource/127> madbici:cod_distrito "07  " ;
+	madbici:nombre_distrito "CHAMBERÍ" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "ARAPILES" ;
+	madbici:direccion "FERNANDO EL CATOLICO, CALLE, DE" ;
+	madbici:longitud "-3.7083987"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.433908"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/FERNANDO+EL+CATOLICO%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "FERNANDO EL CATOLICO, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q27243299> .
+
+<http://www.madridbici.es/group02/resource/128> madbici:cod_distrito "07  " ;
+	madbici:nombre_distrito "CHAMBERÍ" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "GAZTAMBIDE" ;
+	madbici:direccion "CEA BERMUDEZ, CALLE, DE" ;
+	madbici:longitud "-3.7155889"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4390413"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/CEA+BERMUDEZ%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "CEA BERMUDEZ, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q26791743> .
+
+<http://www.madridbici.es/group02/resource/129> madbici:cod_distrito "07  " ;
+	madbici:nombre_distrito "CHAMBERÍ" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "RÍOS ROSAS" ;
+	madbici:direccion "JOSE ABASCAL, CALLE, DE" ;
+	madbici:longitud "-3.6982986"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4384622"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/JOSE+ABASCAL%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "JOSE ABASCAL, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q27310549> .
+
+<http://www.madridbici.es/group02/resource/130> madbici:cod_distrito "07  " ;
+	madbici:nombre_distrito "CHAMBERÍ" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "RÍOS ROSAS" ;
+	madbici:direccion "SANTA ENGRACIA, CALLE, DE" ;
+	madbici:longitud "-3.7017555"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4417512"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/131> madbici:cod_distrito "07  " ;
+	madbici:nombre_distrito "CHAMBERÍ" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "RÍOS ROSAS" ;
+	madbici:direccion "BRAVO MURILLO, CALLE, DE" ;
+	madbici:longitud "-3.7040233"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4417479"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/BRAVO+MURILLO%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "BRAVO MURILLO, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5740815> .
+
+<http://www.madridbici.es/group02/resource/132> madbici:cod_distrito "07  " ;
+	madbici:nombre_distrito "CHAMBERÍ" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "RÍOS ROSAS" ;
+	madbici:direccion "SANTA ENGRACIA, CALLE, DE" ;
+	madbici:longitud "-3.7035911"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4463889"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/133> madbici:cod_distrito "06  " ;
+	madbici:nombre_distrito "TETUÁN" ;
+	madbici:cod_barrio "02" ;
+	madbici:nombre_barrio "CUATRO CAMINOS" ;
+	madbici:direccion "DULCINEA, CALLE, DE" ;
+	madbici:longitud "-3.7000292"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4471673"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/DULCINEA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "DULCINEA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q26833591> .
+
+<http://www.madridbici.es/group02/resource/134> madbici:cod_distrito "07  " ;
+	madbici:nombre_distrito "CHAMBERÍ" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "RÍOS ROSAS" ;
+	madbici:direccion "MARIA DE GUZMAN, CALLE, DE" ;
+	madbici:longitud "-3.6955092"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4440317"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/MARIA+DE+GUZMAN%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "MARIA DE GUZMAN, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q27310035> .
+
+<http://www.madridbici.es/group02/resource/135> madbici:cod_distrito "07  " ;
+	madbici:nombre_distrito "CHAMBERÍ" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "RÍOS ROSAS" ;
+	madbici:direccion "SAN JUAN DE LA CRUZ, PLAZA, DE" ;
+	madbici:longitud "-3.6928896"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.441484"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/SAN+JUAN+DE+LA+CRUZ%2C+PLAZA%2C+DE> a madbici:direccion ;
+	rdfs:label "SAN JUAN DE LA CRUZ, PLAZA, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q27345106> .
+
+<http://www.madridbici.es/group02/resource/136> madbici:cod_distrito "05  " ;
+	madbici:nombre_distrito "CHAMARTÍN" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "EL VISO" ;
+	madbici:direccion "CASTELLANA, PASEO, DE LA" ;
+	madbici:longitud "-3.6908127"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4452833"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/137> madbici:cod_distrito "05  " ;
+	madbici:nombre_distrito "CHAMARTÍN" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "EL VISO" ;
+	madbici:direccion "REPUBLICA ARGENTINA, PLAZA, DE LA" ;
+	madbici:longitud "-3.6852925"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4454958"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/REPUBLICA+ARGENTINA%2C+PLAZA%2C+DE+LA> a madbici:direccion ;
+	rdfs:label "REPUBLICA ARGENTINA, PLAZA, DE LA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q29200152> .
+
+<http://www.madridbici.es/group02/resource/138> madbici:cod_distrito "07  " ;
+	madbici:nombre_distrito "CHAMBERÍ" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "RÍOS ROSAS" ;
+	madbici:direccion "CASTELLANA, PASEO, DE LA" ;
+	madbici:longitud "-3.6915818"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4456884"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/139> madbici:cod_distrito "05  " ;
+	madbici:nombre_distrito "CHAMARTÍN" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "EL VISO" ;
+	madbici:direccion "JOSE GUTIERREZ ABASCAL, CALLE, DE" ;
+	madbici:longitud "-3.6904495"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4393558"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/JOSE+GUTIERREZ+ABASCAL%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "JOSE GUTIERREZ ABASCAL, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28059081> .
+
+<http://www.madridbici.es/group02/resource/140> madbici:cod_distrito "05  " ;
+	madbici:nombre_distrito "CHAMARTÍN" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "EL VISO" ;
+	madbici:direccion "VELAZQUEZ, CALLE, DE" ;
+	madbici:longitud "-3.6829088"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4386081"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/141> madbici:cod_distrito "07  " ;
+	madbici:nombre_distrito "CHAMBERÍ" ;
+	madbici:cod_barrio "04 " ;
+	madbici:nombre_barrio "ALMAGRO" ;
+	madbici:direccion "CASTELLANA, PASEO, DE LA" ;
+	madbici:longitud "-3.6892902"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4354253"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/142> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "06 " ;
+	madbici:nombre_barrio "CASTELLANA" ;
+	madbici:direccion "CASTELLANA, PASEO, DE LA" ;
+	madbici:longitud "-3.6880402"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4335262"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/143> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "LISTA" ;
+	madbici:direccion "DIEGO DE LEON, CALLE, DE" ;
+	madbici:longitud "-3.6782355"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.434616"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/DIEGO+DE+LEON%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "DIEGO DE LEON, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28059485> .
+
+<http://www.madridbici.es/group02/resource/144> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "LISTA" ;
+	madbici:direccion "JUAN BRAVO, CALLE, DE" ;
+	madbici:longitud "-3.6754628"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4323192"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/JUAN+BRAVO%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "JUAN BRAVO, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28054647> .
+
+<http://www.madridbici.es/group02/resource/145> madbici:cod_distrito "04  " ;
+	madbici:nombre_distrito "SALAMANCA" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "LISTA" ;
+	madbici:direccion "JOSE ORTEGA Y GASSET, CALLE, DE" ;
+	madbici:longitud "-3.671401"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4297717"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/146> madbici:cod_distrito "05  " ;
+	madbici:nombre_distrito "CHAMARTÍN" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "EL VISO" ;
+	madbici:direccion "MARIA FRANCISCA, CALLE, DE" ;
+	madbici:longitud "-3.6787983"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4442372"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/MARIA+FRANCISCA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "MARIA FRANCISCA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2004333> .
+
+<http://www.madridbici.es/group02/resource/147> madbici:cod_distrito "05  " ;
+	madbici:nombre_distrito "CHAMARTÍN" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "EL VISO" ;
+	madbici:direccion "DOCTOR ARCE, AVENIDA, DEL" ;
+	madbici:longitud "-3.6795811"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4483353"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/DOCTOR+ARCE%2C+AVENIDA%2C+DEL> a madbici:direccion ;
+	rdfs:label "DOCTOR ARCE, AVENIDA, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q29199638> .
+
+<http://www.madridbici.es/group02/resource/148> madbici:cod_distrito "05  " ;
+	madbici:nombre_distrito "CHAMARTÍN" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "EL VISO" ;
+	madbici:direccion "SERRANO, CALLE, DE" ;
+	madbici:longitud "-3.6817012"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4510228"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/149> madbici:cod_distrito "05  " ;
+	madbici:nombre_distrito "CHAMARTÍN" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "EL VISO" ;
+	madbici:direccion "LA HABANA, PASEO, DE" ;
+	madbici:longitud "-3.6878481"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.449845"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/LA+HABANA%2C+PASEO%2C+DE> a madbici:direccion ;
+	rdfs:label "LA HABANA, PASEO, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q28059068> .
+
+<http://www.madridbici.es/group02/resource/150> madbici:cod_distrito "05  " ;
+	madbici:nombre_distrito "CHAMARTÍN" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "EL VISO" ;
+	madbici:direccion "CASTELLANA, PASEO, DE LA" ;
+	madbici:longitud "-3.6905376"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4491555"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/151> madbici:cod_distrito "06  " ;
+	madbici:nombre_distrito "TETUÁN" ;
+	madbici:cod_barrio "02" ;
+	madbici:nombre_barrio "CUATRO CAMINOS" ;
+	madbici:direccion "ORENSE, CALLE, DE" ;
+	madbici:longitud "-3.6952117"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4488617"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/ORENSE%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "ORENSE, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q26761687> .
+
+<http://www.madridbici.es/group02/resource/152> madbici:cod_distrito "06  " ;
+	madbici:nombre_distrito "TETUÁN" ;
+	madbici:cod_barrio "02" ;
+	madbici:nombre_barrio "CUATRO CAMINOS" ;
+	madbici:direccion "GENERAL PERON, AVENIDA, DEL" ;
+	madbici:longitud "-3.6989497"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4527163"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/GENERAL+PERON%2C+AVENIDA%2C+DEL> a madbici:direccion ;
+	rdfs:label "GENERAL PERON, AVENIDA, DEL" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q26761632> .
+
+<http://www.madridbici.es/group02/resource/153> madbici:cod_distrito "06  " ;
+	madbici:nombre_distrito "TETUÁN" ;
+	madbici:cod_barrio "02" ;
+	madbici:nombre_barrio "CUATRO CAMINOS" ;
+	madbici:direccion "GENERAL PERON, AVENIDA, DEL" ;
+	madbici:longitud "-3.6930944"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4523394"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/154> madbici:cod_distrito "06  " ;
+	madbici:nombre_distrito "TETUÁN" ;
+	madbici:cod_barrio "02" ;
+	madbici:nombre_barrio "CUATRO CAMINOS" ;
+	madbici:direccion "ORENSE, CALLE, DE" ;
+	madbici:longitud "-3.6946897"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.454776"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/155> madbici:cod_distrito "06  " ;
+	madbici:nombre_distrito "TETUÁN" ;
+	madbici:cod_barrio "02" ;
+	madbici:nombre_barrio "CUATRO CAMINOS" ;
+	madbici:direccion "SAN GERMÁN, CALLE, DE" ;
+	madbici:longitud "-3.7008905"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4572961"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/SAN+GERM%C3%81N%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "SAN GERMÁN, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q26750807> .
+
+<http://www.madridbici.es/group02/resource/156> madbici:cod_distrito "06  " ;
+	madbici:nombre_distrito "TETUÁN" ;
+	madbici:cod_barrio "03 " ;
+	madbici:nombre_barrio "CASTILLEJOS" ;
+	madbici:direccion "SOR ANGELA DE LA CRUZ, CALLE, DE" ;
+	madbici:longitud "-3.6913229"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4592406"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/SOR+ANGELA+DE+LA+CRUZ%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "SOR ANGELA DE LA CRUZ, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q21011321> .
+
+<http://www.madridbici.es/group02/resource/157> madbici:cod_distrito "05  " ;
+	madbici:nombre_distrito "CHAMARTÍN" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "NUEVA ESPAÑA" ;
+	madbici:direccion "CASTELLANA, PASEO, DE LA" ;
+	madbici:longitud "-3.6893305"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.459282"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/158> madbici:cod_distrito "05  " ;
+	madbici:nombre_distrito "CHAMARTÍN" ;
+	madbici:cod_barrio "04 " ;
+	madbici:nombre_barrio "HISPANOAMÉRICA" ;
+	madbici:direccion "ALBERTO ALCOCER, AVENIDA, DE" ;
+	madbici:longitud "-3.6847049"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.45862"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/ALBERTO+ALCOCER%2C+AVENIDA%2C+DE> a madbici:direccion ;
+	rdfs:label "ALBERTO ALCOCER, AVENIDA, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q26833742> .
+
+<http://www.madridbici.es/group02/resource/159> madbici:cod_distrito "05  " ;
+	madbici:nombre_distrito "CHAMARTÍN" ;
+	madbici:cod_barrio "04 " ;
+	madbici:nombre_barrio "HISPANOAMÉRICA" ;
+	madbici:direccion "LA HABANA, PASEO, DE" ;
+	madbici:longitud "-3.6837348"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4542549"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/resource/160> madbici:cod_distrito "05  " ;
+	madbici:nombre_distrito "CHAMARTÍN" ;
+	madbici:cod_barrio "04 " ;
+	madbici:nombre_barrio "HISPANOAMÉRICA" ;
+	madbici:direccion "COLOMBIA, CALLE, DE" ;
+	madbici:longitud "-3.6765407"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4571887"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/COLOMBIA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "COLOMBIA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2462831> .
+
+<http://www.madridbici.es/group02/resource/161> madbici:cod_distrito "09  " ;
+	madbici:nombre_distrito "MONCLOA-ARAVACA" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "CASA DE CAMPO" ;
+	madbici:direccion "FLORIDA, PASEO, DE LA" ;
+	madbici:longitud "-3.722035"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4221254"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/FLORIDA%2C+PASEO%2C+DE+LA> a madbici:direccion ;
+	rdfs:label "FLORIDA, PASEO, DE LA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q5576961> .
+
+<http://www.madridbici.es/group02/resource/162> madbici:cod_distrito "02  " ;
+	madbici:nombre_distrito "ARGANZUELA" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "ACACIAS" ;
+	madbici:direccion "OLMOS, PASEO, DE LOS" ;
+	madbici:longitud "-3.7107559"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4035176"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/OLMOS%2C+PASEO%2C+DE+LOS> a madbici:direccion ;
+	rdfs:label "OLMOS, PASEO, DE LOS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2056515> .
+
+<http://www.madridbici.es/group02/resource/163> madbici:cod_distrito "02  " ;
+	madbici:nombre_distrito "ARGANZUELA" ;
+	madbici:cod_barrio "02 " ;
+	madbici:nombre_barrio "ACACIAS" ;
+	madbici:direccion "ESPERANZA, PASEO, DE LA" ;
+	madbici:longitud "-3.7064372"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4036349"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/ESPERANZA%2C+PASEO%2C+DE+LA> a madbici:direccion ;
+	rdfs:label "ESPERANZA, PASEO, DE LA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q55947011> .
+
+<http://www.madridbici.es/group02/resource/164> madbici:cod_distrito "02  " ;
+	madbici:nombre_distrito "ARGANZUELA" ;
+	madbici:cod_barrio "05 " ;
+	madbici:nombre_barrio "DELICIAS" ;
+	madbici:direccion "DELICIAS, PASEO, DE LAS" ;
+	madbici:longitud "-3.6944786"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.3971621"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/DELICIAS%2C+PASEO%2C+DE+LAS> a madbici:direccion ;
+	rdfs:label "DELICIAS, PASEO, DE LAS" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q6065662> .
+
+<http://www.madridbici.es/group02/resource/165> madbici:cod_distrito "02  " ;
+	madbici:nombre_distrito "ARGANZUELA" ;
+	madbici:cod_barrio "03 " ;
+	madbici:nombre_barrio "CHOPERA" ;
+	madbici:direccion "CHOPERA, PASEO, DE LA" ;
+	madbici:longitud "-3.6977928"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.3929735"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/CHOPERA%2C+PASEO%2C+DE+LA> a madbici:direccion ;
+	rdfs:label "CHOPERA, PASEO, DE LA" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q27044458> .
+
+<http://www.madridbici.es/group02/resource/166> madbici:cod_distrito "01  " ;
+	madbici:nombre_distrito "CENTRO" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "PALACIO" ;
+	madbici:direccion "SEGOVIA, CALLE, DE" ;
+	madbici:longitud "-3.7133497"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4139487"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.madridbici.es/group02/SEGOVIA%2C+CALLE%2C+DE> a madbici:direccion ;
+	rdfs:label "SEGOVIA, CALLE, DE" ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q8255505> .
+
+<http://www.madridbici.es/group02/resource/167> madbici:cod_distrito "02  " ;
+	madbici:nombre_distrito "ARGANZUELA" ;
+	madbici:cod_barrio "01 " ;
+	madbici:nombre_barrio "IMPERIAL" ;
+	madbici:direccion "SEGOVIA, CALLE, DE" ;
+	madbici:longitud "-3.7175955"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	madbici:latitud "40.4137262"^^<http://www.w3.org/2001/XMLSchema#double> .

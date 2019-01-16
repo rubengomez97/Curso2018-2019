@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+	<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:class="http://www.ejercicio2.com/class01#"
+	xmlns:sensor="http://www.ejercicio2.com/class01/sensor029#"
+	xmlns:measurement="http://www.ejercicio2.com/class01/sensor029/measurement8401#"
+	xmlns:computer="http://www.ejercicio2.com/class01/computer101#"
+ 	xmlns:user="http://www.ejercicio2.com/class01/computer101/user10A#"
+	xml:base="http://www.ejercicio2.com/class01">
+
+	<rdf:Property rdf:about="http://www.ejercicio2.com/class01#includes/>
+	<rdf:Property rdf:about="http://www.ejercicio2.com/class01/sensor029#hasMeasurement"/>
+	<rdf:Property rdf:about="http://www.ejercicio2.com/class01/sensor029/measurement8401#hasTemperature"/>
+	<rdf:Property rdf:about="http://www.ejercicio2.com/class01/sensor029/measurement8401#atTime"/>
+	<rdf:Property rdf:about="http://www.ejercicio2.com/class01/computer101#hasOwner"/>
+	<rdf:Property rdf:about="http://www.ejercicio2.com/class01/sensor029/user10A#hasName"/>
+
+	
+	<rdf:Description rdf:about="#Class01">
+		<class:includes rdf:resource="#Sensor029"/>
+		<class:includes rdf:resource="#Computer101"/>	
+	</rdf:Description>
+		
+	<rdf:Description rdf:about="#Sensor029">
+		<sensor:hasMeasurement>29rdf:resource="#Measurement8401"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="#Measurement8401">
+		<measurement:hasTemperature rdf:datatype="xsd:integer>29<measurement:hasTemperature/>
+		<measurement:atTime rdf:datatype="xsd:datetime">2010-06-12T12:00:12<measurement:atTime/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="#Computer101">
+		<computer:hasOwner rdf:resource="#user10A"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="#User10A">
+		<computer:hasName rdf:datatype="xsd:string">Pedro<computer:hasName/>
+	</rdf:Description>
+
+</rdf:RDF>
